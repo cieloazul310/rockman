@@ -1,0 +1,111 @@
+{
+  "week": 34,
+  "theme": "沖縄ロックバンドで漫遊記",
+  "date": "2018-08-26T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 277,
+      "week": 34,
+      "name": "ミカンズのテーマ",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2002,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 278,
+      "week": 34,
+      "name": "あなたに",
+      "artist": "MONGOL800",
+      "kana": "",
+      "year": 2001,
+      "nation": "JPN",
+      "label": "HIGH WAVE",
+      "producer": "",
+      "corner": "",
+      "youtube": "0jFIrBvuuQ0"
+    },
+    {
+      "id": 279,
+      "week": 34,
+      "name": "Heart Breaker",
+      "artist": "Condition Green",
+      "kana": "",
+      "year": 1977,
+      "nation": "JPN",
+      "label": "SEE-SAW",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 280,
+      "week": 34,
+      "name": "五穀豊穣",
+      "artist": "パーシャクラブ",
+      "kana": "",
+      "year": 1996,
+      "nation": "JPN",
+      "label": "Eastworld",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 281,
+      "week": 34,
+      "name": "上海ハニー",
+      "artist": "ORANGE RANGE",
+      "kana": "",
+      "year": 2003,
+      "nation": "JPN",
+      "label": "gr8! records",
+      "producer": "シライシ紗トリ",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 282,
+      "week": 34,
+      "name": "さよなら",
+      "artist": "かりゆし58",
+      "kana": "",
+      "year": 2009,
+      "nation": "JPN",
+      "label": "LD&K Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "Quv9IhgPswc"
+    },
+    {
+      "id": 283,
+      "week": 34,
+      "name": "Parametric E.Q",
+      "artist": "caino",
+      "kana": "",
+      "year": 2015,
+      "nation": "JPN",
+      "label": "VAA",
+      "producer": "",
+      "corner": "",
+      "youtube": "C132CaIZJBI"
+    },
+    {
+      "id": 284,
+      "week": 34,
+      "name": "バリバリHOT",
+      "artist": "ホイフェスタ",
+      "kana": "",
+      "year": 2005,
+      "nation": "JPN",
+      "label": "ソニー・ミュージックレコーズ",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

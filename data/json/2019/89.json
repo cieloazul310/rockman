@@ -1,0 +1,111 @@
+{
+  "week": 89,
+  "theme": "ブドーカンで観ました！で漫遊記",
+  "date": "2019-09-15T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 731,
+      "week": 89,
+      "name": "優しいあの子",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "RkIOd78C82I"
+    },
+    {
+      "id": 732,
+      "week": 89,
+      "name": "LIKE A MOON",
+      "artist": "ROGUE",
+      "kana": "",
+      "year": 1987,
+      "nation": "JPN",
+      "label": "キャニオンレコード",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 733,
+      "week": 89,
+      "name": "ファイティングマン",
+      "artist": "エレファントカシマシ",
+      "kana": "",
+      "year": 1988,
+      "nation": "JPN",
+      "label": "EPIC SONY",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 734,
+      "week": 89,
+      "name": "What’s the Frequency, Kenneth?",
+      "artist": "R.E.M.",
+      "kana": "",
+      "year": 1994,
+      "nation": "US",
+      "label": "Warner Bros.",
+      "producer": "Scott Litt",
+      "corner": "",
+      "youtube": "jWkMhCLkVOg"
+    },
+    {
+      "id": 735,
+      "week": 89,
+      "name": "愛し愛されて生きるのさ",
+      "artist": "小沢健二",
+      "kana": "おざわけんじ",
+      "year": 1994,
+      "nation": "JPN",
+      "label": "Eastworld",
+      "producer": "",
+      "corner": "",
+      "youtube": "fjume22f9kE"
+    },
+    {
+      "id": 736,
+      "week": 89,
+      "name": "Are You Gonna Go My Way",
+      "artist": "Lenny Kravitz",
+      "kana": "",
+      "year": 1993,
+      "nation": "US",
+      "label": "Virgin",
+      "producer": "",
+      "corner": "",
+      "youtube": "8LhCd1W2V0Q"
+    },
+    {
+      "id": 737,
+      "week": 89,
+      "name": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "kana": "",
+      "year": 1983,
+      "nation": "US",
+      "label": "Portrait",
+      "producer": "Rick Chertoff",
+      "corner": "",
+      "youtube": "PIb6AZdTr-A"
+    },
+    {
+      "id": 738,
+      "week": 89,
+      "name": "Bye Bye Mr. Mug",
+      "artist": "the brilliant green",
+      "kana": "",
+      "year": 1997,
+      "nation": "JPN",
+      "label": "ソニー・ミュージックレコーズ",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": "5vak3dTpJN4"
+    }
+  ]
+}

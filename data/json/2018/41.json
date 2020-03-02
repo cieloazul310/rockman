@@ -1,0 +1,111 @@
+{
+  "week": 41,
+  "theme": "歌謡曲のロックギターで漫遊記",
+  "date": "2018-10-14T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 334,
+      "week": 41,
+      "name": "不死身のビーナス",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1994,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "笹路正徳",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 335,
+      "week": 41,
+      "name": "危険なふたり",
+      "artist": "沢田研二",
+      "kana": "さわだけんじ",
+      "year": 1973,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "佐々木幸男",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 336,
+      "week": 41,
+      "name": "少女A",
+      "artist": "中森明菜",
+      "kana": "なかもりあきな",
+      "year": 1982,
+      "nation": "JPN",
+      "label": "リプリーズ・レコード",
+      "producer": "小田洋雄",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 337,
+      "week": 41,
+      "name": "春一番",
+      "artist": "キャンディーズ",
+      "kana": "",
+      "year": 1976,
+      "nation": "JPN",
+      "label": "CBS・ソニー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 338,
+      "week": 41,
+      "name": "男達のメロディー",
+      "artist": "SHOGUN",
+      "kana": "",
+      "year": 1979,
+      "nation": "JPN",
+      "label": "CBS・ソニー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 339,
+      "week": 41,
+      "name": "チェリーブラッサム",
+      "artist": "松田聖子",
+      "kana": "まつだせいこ",
+      "year": 1981,
+      "nation": "JPN",
+      "label": "CBS・ソニー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 340,
+      "week": 41,
+      "name": "大都会",
+      "artist": "クリスタルキング",
+      "kana": "",
+      "year": 1979,
+      "nation": "JPN",
+      "label": "キャニオンレコード",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 341,
+      "week": 41,
+      "name": "闘牛士",
+      "artist": "Char",
+      "kana": "",
+      "year": 1978,
+      "nation": "JPN",
+      "label": "SEE-SAW",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

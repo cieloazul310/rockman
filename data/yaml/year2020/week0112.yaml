@@ -1,0 +1,120 @@
+
+id: "20200112"
+week: 112
+year: 2020
+title: "80年代のメジャーな邦楽ロックナンバーで漫遊記"
+subtitle: ""
+categories: []
+date: "2020-02-23"
+playlist:
+  - week: 112
+    index: 924
+    id: "2020011201"
+    title: "恋のうた"
+    kana: ""
+    artist: "スピッツ"
+    year: 1991
+    nation: "JPN"
+    label: "ポリドール"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 112
+    index: 925
+    id: "2020011202"
+    title: "い・け・な・いルージュマジック"
+    kana: "いまわのきよしろうさかもとりゅういち"
+    artist: "忌野清志郎+坂本龍一"
+    year: 1982
+    nation: "JPN"
+    label: "ロンドン・レコード"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 926
+    id: "2020011203"
+    title: "すみれ September Love"
+    kana: "いっぷうどう"
+    artist: "一風堂"
+    year: 1982
+    nation: "JPN"
+    label: "EPIC SONY"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 927
+    id: "2020011204"
+    title: "わがままジュリエット"
+    kana: ""
+    artist: "BOØWY"
+    year: 1986
+    nation: "JPN"
+    label: "東芝EMI"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 928
+    id: "2020011205"
+    title: "Boys Jump The Midnight"
+    kana: ""
+    artist: "THE STREET SLIDERS"
+    year: 1987
+    nation: "JPN"
+    label: "EPIC SONY"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 929
+    id: "2020011206"
+    title: "リンダリンダ"
+    kana: ""
+    artist: "THE BLUE HEARTS"
+    year: 1988
+    nation: "JPN"
+    label: "メルダック"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 930
+    id: "2020011207"
+    title: "肉のうた"
+    kana: ""
+    artist: "The ピーズ"
+    year: 1989
+    nation: "JPN"
+    label: "ビクター"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 112
+    index: 931
+    id: "2020011208"
+    title: "なんだったんだ?7DAYS"
+    kana: ""
+    artist: "BARBEE BOYS"
+    year: 1986
+    nation: "JPN"
+    label: "Epic"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

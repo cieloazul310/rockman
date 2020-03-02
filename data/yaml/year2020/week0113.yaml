@@ -1,0 +1,134 @@
+
+id: "20200113"
+week: 113
+year: 2020
+title: "ツェッペリン風味で漫遊記"
+subtitle: ""
+categories: []
+date: "2020-03-01"
+playlist:
+  - week: 113
+    index: 932
+    id: "2020011301"
+    title: "さらばユニヴァース"
+    kana: ""
+    artist: "スピッツ"
+    year: 2000
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["石田小吉"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 113
+    index: 933
+    id: "2020011302"
+    title: "Highway Tune"
+    kana: ""
+    artist: "Greta Van Fleet"
+    year: 2017
+    nation: "US"
+    label: "Republic"
+    producer: [""]
+    youtube: "aJg4OJxp-co"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 934
+    id: "2020011303"
+    title: "Easy Livin'"
+    kana: ""
+    artist: "Fastway"
+    year: 1983
+    nation: "UK"
+    label: "CBS"
+    producer: ["Eddie Kramer"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 935
+    id: "2020011304"
+    title: "Get It On"
+    kana: ""
+    artist: "Kingdom Come"
+    year: 1988
+    nation: "US"
+    label: "Polydor"
+    producer: [""]
+    youtube: "k1OdgfEhzgM"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 936
+    id: "2020011305"
+    title: "Hold Her Tight"
+    kana: ""
+    artist: "The Osmonds"
+    year: 1972
+    nation: "US"
+    label: "MGM"
+    producer: [""]
+    youtube: "6z9D2PJmz_k"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 937
+    id: "2020011306"
+    title: "Queen Of My Dreams"
+    kana: ""
+    artist: "The Edgar Winter Group"
+    year: 1974
+    nation: "US"
+    label: "Epic"
+    producer: ["Rick Derringer"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 938
+    id: "2020011307"
+    title: "Rock and Roll Is Dead"
+    kana: ""
+    artist: "Lenny Kravitz"
+    year: 1995
+    nation: "US"
+    label: "Virgin"
+    producer: [""]
+    youtube: "yw8_5OYKQNA"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 939
+    id: "2020011308"
+    title: "Tautud"
+    kana: ""
+    artist: "Spirit"
+    year: 1968
+    nation: "US"
+    label: "Epic"
+    producer: ["Lou Adler"]
+    youtube: "ZPYWxc28Mh4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 113
+    index: 940
+    id: "2020011309"
+    title: "青い地球はてのひら"
+    kana: ""
+    artist: "かの香織"
+    year: 1994
+    nation: "JPN"
+    label: "ソニー・ミュージックレコーズ"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

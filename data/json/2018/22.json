@@ -1,0 +1,111 @@
+{
+  "week": 22,
+  "theme": "ザ・コレクターズで漫遊記",
+  "date": "2018-06-03T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 176,
+      "week": 22,
+      "name": "ロビンソン",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1995,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "笹路正徳",
+      "corner": "漫遊前の一曲",
+      "youtube": "51CH3dPaWXc"
+    },
+    {
+      "id": 177,
+      "week": 22,
+      "name": "僕はコレクター",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 1987,
+      "nation": "JPN",
+      "label": "BAIDIS",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 178,
+      "week": 22,
+      "name": "虹色サーカス団",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 1988,
+      "nation": "JPN",
+      "label": "BAIDIS",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 179,
+      "week": 22,
+      "name": "太陽が昇るまえに",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 1989,
+      "nation": "JPN",
+      "label": "BAIDIS",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 180,
+      "week": 22,
+      "name": "LUNA",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 2001,
+      "nation": "JPN",
+      "label": "TRIAD",
+      "producer": "吉田仁",
+      "corner": "",
+      "youtube": "c-l7ozIHx4I"
+    },
+    {
+      "id": 181,
+      "week": 22,
+      "name": "東京虫バグズ",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 2007,
+      "nation": "JPN",
+      "label": "TRIAD",
+      "producer": "吉田仁",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 182,
+      "week": 22,
+      "name": "ロマンチック・プラネット",
+      "artist": "THE COLLECTORS",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "TRIAD",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 183,
+      "week": 22,
+      "name": "タイマー",
+      "artist": "フーバーオーバー",
+      "kana": "",
+      "year": 2008,
+      "nation": "JPN",
+      "label": "PLUS MAGIC",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

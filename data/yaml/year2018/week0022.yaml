@@ -1,0 +1,120 @@
+
+id: "20180022"
+week: 22
+year: 2018
+title: "ザ・コレクターズで漫遊記"
+subtitle: ""
+categories: []
+date: "2018-06-03"
+playlist:
+  - week: 22
+    index: 176
+    id: "2018002201"
+    title: "ロビンソン"
+    kana: ""
+    artist: "スピッツ"
+    year: 1995
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["笹路正徳"]
+    youtube: "51CH3dPaWXc"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 22
+    index: 177
+    id: "2018002202"
+    title: "僕はコレクター"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 1987
+    nation: "JPN"
+    label: "BAIDIS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 178
+    id: "2018002203"
+    title: "虹色サーカス団"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 1988
+    nation: "JPN"
+    label: "BAIDIS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 179
+    id: "2018002204"
+    title: "太陽が昇るまえに"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 1989
+    nation: "JPN"
+    label: "BAIDIS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 180
+    id: "2018002205"
+    title: "LUNA"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 2001
+    nation: "JPN"
+    label: "TRIAD"
+    producer: ["吉田仁"]
+    youtube: "c-l7ozIHx4I"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 181
+    id: "2018002206"
+    title: "東京虫バグズ"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 2007
+    nation: "JPN"
+    label: "TRIAD"
+    producer: ["吉田仁"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 182
+    id: "2018002207"
+    title: "ロマンチック・プラネット"
+    kana: ""
+    artist: "THE COLLECTORS"
+    year: 2016
+    nation: "JPN"
+    label: "TRIAD"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 22
+    index: 183
+    id: "2018002208"
+    title: "タイマー"
+    kana: ""
+    artist: "フーバーオーバー"
+    year: 2008
+    nation: "JPN"
+    label: "PLUS MAGIC"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

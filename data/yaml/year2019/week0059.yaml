@@ -1,0 +1,134 @@
+
+id: "20190059"
+week: 59
+year: 2019
+title: "ギターインストで漫遊記"
+subtitle: ""
+categories: []
+date: "2019-02-17"
+playlist:
+  - week: 59
+    index: 486
+    id: "2019005901"
+    title: "ただ春を待つ"
+    kana: ""
+    artist: "スピッツ"
+    year: 1998
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["棚谷祐一"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 59
+    index: 487
+    id: "2019005902"
+    title: "Into the Arena"
+    kana: ""
+    artist: "Michael Schenker Group"
+    year: 1980
+    nation: "GER"
+    label: "Chrysalis"
+    producer: ["Roger Glover"]
+    youtube: "BWeBbHRKDIk"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 488
+    id: "2019005903"
+    title: "Eruption"
+    kana: ""
+    artist: "Van Halen"
+    year: 1978
+    nation: "US"
+    label: "Warner Bros."
+    producer: ["Ted Templeman"]
+    youtube: "M4Czx8EWXb0"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 489
+    id: "2019005904"
+    title: "Lester Leaps In"
+    kana: ""
+    artist: "The Monochrome Set"
+    year: 1979
+    nation: "UK"
+    label: "Rough Trade"
+    producer: [""]
+    youtube: "ZyWNhgITOZI"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 490
+    id: "2019005905"
+    title: "The Hunt"
+    kana: ""
+    artist: "Tommy Emmanuel"
+    year: 1993
+    nation: "AUS"
+    label: "Columbia"
+    producer: ["Rick Neigher"]
+    youtube: "r74uI1pQBsI"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 491
+    id: "2019005906"
+    title: "Stratagem"
+    kana: ""
+    artist: "Eric Johnson"
+    year: 2017
+    nation: "US"
+    label: "Vortexan Music"
+    producer: [""]
+    youtube: "4S4grLL10UM"
+    selectedBy: "草野マサムネ"
+    corner: "放送事故で曲かからず"
+
+  - week: 59
+    index: 492
+    id: "2019005907"
+    title: "Weiss Heim"
+    kana: ""
+    artist: "Rainbow"
+    year: 1980
+    nation: "UK"
+    label: "Polydor"
+    producer: [""]
+    youtube: "w-taBiGe21g"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 493
+    id: "2019005908"
+    title: "SACRED FIELD"
+    kana: ""
+    artist: "TAK MATSUMOTO"
+    year: 2002
+    nation: "JPN"
+    label: "Rooms RECORDS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 59
+    index: 494
+    id: "2019005909"
+    title: "SAUDADE"
+    kana: "たかなかまさよし"
+    artist: "高中正義"
+    year: 1982
+    nation: "JPN"
+    label: "Kitty Records"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

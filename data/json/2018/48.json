@@ -1,0 +1,111 @@
+{
+  "week": 48,
+  "theme": "オーストラリアのロックバンドで漫遊記",
+  "date": "2018-12-02T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 394,
+      "week": 48,
+      "name": "ヘビーメロウ",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2017,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "BASmTe-x-Ok"
+    },
+    {
+      "id": 395,
+      "week": 48,
+      "name": "Back in Black",
+      "artist": "AC/DC",
+      "kana": "",
+      "year": 1980,
+      "nation": "AUS",
+      "label": "Albert",
+      "producer": "Robert John “Mutt” Lange",
+      "corner": "",
+      "youtube": "pAgnJDJN4VA"
+    },
+    {
+      "id": 396,
+      "week": 48,
+      "name": "Are You Gonna Be My Girl",
+      "artist": "Jet",
+      "kana": "",
+      "year": 2003,
+      "nation": "AUS",
+      "label": "Elektra",
+      "producer": "Dave Sardy",
+      "corner": "",
+      "youtube": "tuK6n2Lkza0"
+    },
+    {
+      "id": 397,
+      "week": 48,
+      "name": "What You Need",
+      "artist": "INXS",
+      "kana": "",
+      "year": 1985,
+      "nation": "AUS",
+      "label": "Atlantic",
+      "producer": "Chris Thomas",
+      "corner": "",
+      "youtube": "FoEPrbdfmT4"
+    },
+    {
+      "id": 398,
+      "week": 48,
+      "name": "Hey, St. Peter",
+      "artist": "Flash & the Pan",
+      "kana": "",
+      "year": 1978,
+      "nation": "AUS",
+      "label": "Albert",
+      "producer": "Harry Vanda",
+      "corner": "",
+      "youtube": "ffNImKTmiws"
+    },
+    {
+      "id": 399,
+      "week": 48,
+      "name": "Lonesome Loser",
+      "artist": "Little River Band",
+      "kana": "",
+      "year": 1979,
+      "nation": "AUS",
+      "label": "Capitol Records",
+      "producer": "John Boylan",
+      "corner": "",
+      "youtube": "ay1FBKsF2Nk"
+    },
+    {
+      "id": 400,
+      "week": 48,
+      "name": "The Less I Know The Better",
+      "artist": "Tame Impala",
+      "kana": "",
+      "year": 2015,
+      "nation": "AUS",
+      "label": "Modular",
+      "producer": "",
+      "corner": "",
+      "youtube": "sBzrzS1Ag_g"
+    },
+    {
+      "id": 401,
+      "week": 48,
+      "name": "Butch & The Sundance Kid",
+      "artist": "Psysalia Psysalis Psyche",
+      "kana": "",
+      "year": 2008,
+      "nation": "JPN",
+      "label": "Acid Rain",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

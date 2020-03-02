@@ -1,0 +1,111 @@
+{
+  "week": 62,
+  "theme": "花の名前がタイトルに入ったロックナンバーで漫遊記",
+  "date": "2019-03-10T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 512,
+      "week": 62,
+      "name": "ヒビスクス",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 513,
+      "week": 62,
+      "name": "マリーゴールド",
+      "artist": "あいみょん",
+      "kana": "",
+      "year": 2018,
+      "nation": "JPN",
+      "label": "unBORDE",
+      "producer": "",
+      "corner": "",
+      "youtube": "0xSiBpUdW4E"
+    },
+    {
+      "id": 514,
+      "week": 62,
+      "name": "New Rose",
+      "artist": "The Damned",
+      "kana": "",
+      "year": 1976,
+      "nation": "UK",
+      "label": "Stiff",
+      "producer": "Nick Lowe",
+      "corner": "",
+      "youtube": "cHvSDCLLFpc"
+    },
+    {
+      "id": 515,
+      "week": 62,
+      "name": "カトレア",
+      "artist": "ヨルシカ",
+      "kana": "",
+      "year": 2017,
+      "nation": "JPN",
+      "label": "U&R records",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 516,
+      "week": 62,
+      "name": "Fresh As A Daisy",
+      "artist": "Emitt Rhodes",
+      "kana": "",
+      "year": 1970,
+      "nation": "US",
+      "label": "Dunhill",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 517,
+      "week": 62,
+      "name": "Sunflower",
+      "artist": "Paul Weller",
+      "kana": "",
+      "year": 1993,
+      "nation": "UK",
+      "label": "Go! Discs",
+      "producer": "",
+      "corner": "",
+      "youtube": "BeiB9x5XT_0"
+    },
+    {
+      "id": 518,
+      "week": 62,
+      "name": "ハイビスカスは冬に咲く",
+      "artist": "チャットモンチー",
+      "kana": "",
+      "year": 2009,
+      "nation": "JPN",
+      "label": "Ki/oon Records",
+      "producer": "亀田誠治",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 519,
+      "week": 62,
+      "name": "Jasmine",
+      "artist": "佐藤聖子",
+      "kana": "さとうせいこ",
+      "year": 1993,
+      "nation": "JPN",
+      "label": "フォーライフ",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

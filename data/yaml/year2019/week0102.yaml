@@ -1,0 +1,134 @@
+
+id: "20190102"
+week: 102
+year: 2019
+title: "ビートルズのカバー曲で漫遊記"
+subtitle: ""
+categories: []
+date: "2019-12-15"
+playlist:
+  - week: 102
+    index: 844
+    id: "2019010201"
+    title: "空も飛べるはず (Album Version)"
+    kana: ""
+    artist: "スピッツ"
+    year: 1994
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["笹路正徳"]
+    youtube: "h-kQw4JqCHE"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 102
+    index: 845
+    id: "2019010202"
+    title: "キャント・バイ・ミー・ラブ"
+    kana: "とうきょうびーとるず"
+    artist: "東京ビートルズ"
+    year: 1964
+    nation: "JPN"
+    label: "ビクターエンタテイメント"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 846
+    id: "2019010203"
+    title: "Day Tripper"
+    kana: ""
+    artist: "Cheap Trick"
+    year: 1980
+    nation: "US"
+    label: "Epic"
+    producer: [""]
+    youtube: "aWz3pM0j90M"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 847
+    id: "2019010204"
+    title: "We Can Work It Out"
+    kana: ""
+    artist: "Deep Purple"
+    year: 1969
+    nation: "UK"
+    label: "Harvest"
+    producer: ["Derek Lawrence"]
+    youtube: "UY1C_Hn6Sdo"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 848
+    id: "2019010205"
+    title: "イエロー・サブマリン音頭"
+    kana: "かなざわあきこ"
+    artist: "金沢明子"
+    year: 1982
+    nation: "JPN"
+    label: "ビクター"
+    producer: ["大瀧詠一"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 849
+    id: "2019010206"
+    title: "Helier Skelter"
+    kana: ""
+    artist: "Mötley Crüe"
+    year: 1983
+    nation: "US"
+    label: "Elektra"
+    producer: ["Tom Werman"]
+    youtube: "_QrBJNtC-MU"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 850
+    id: "2019010207"
+    title: "I’ve Just Seen A Face"
+    kana: "おのりさ"
+    artist: "小野リサ"
+    year: 2006
+    nation: "JPN"
+    label: "東芝EMI"
+    producer: [""]
+    youtube: "XBaTkoWhVBA"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 851
+    id: "2019010208"
+    title: "Across the Universe"
+    kana: ""
+    artist: "Fiona Apple"
+    year: 1998
+    nation: "US"
+    label: "New Line Records"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 102
+    index: 852
+    id: "2019010209"
+    title: "あなたはやって来る 〜Dear Santa〜"
+    kana: "おだにみさこ"
+    artist: "小谷美紗子"
+    year: 1997
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

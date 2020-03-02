@@ -1,0 +1,111 @@
+{
+  "week": 38,
+  "theme": "MUSIC LIFE 1976年9月号で漫遊記",
+  "date": "2018-09-23T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 310,
+      "week": 38,
+      "name": "ネズミの進化",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2007,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 311,
+      "week": 38,
+      "name": "Saturday Night",
+      "artist": "Bay City Rollers",
+      "kana": "",
+      "year": 1975,
+      "nation": "UK",
+      "label": "Arista",
+      "producer": "Bill Martin",
+      "corner": "",
+      "youtube": "7BKKaKT_dtM"
+    },
+    {
+      "id": 312,
+      "week": 38,
+      "name": "Anyway You Want It",
+      "artist": "Angel",
+      "kana": "",
+      "year": 1976,
+      "nation": "US",
+      "label": "Casablanca",
+      "producer": "Derek Lawrence",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 313,
+      "week": 38,
+      "name": "Sick as a Dog",
+      "artist": "Aerosmith",
+      "kana": "",
+      "year": 1976,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "Jack Douglas",
+      "corner": "",
+      "youtube": "iItP6hXZOlU"
+    },
+    {
+      "id": 314,
+      "week": 38,
+      "name": "Roots, Rock, Reggae",
+      "artist": "Bob Marley and the Wailers",
+      "kana": "",
+      "year": 1976,
+      "nation": "JAM",
+      "label": "Island",
+      "producer": "",
+      "corner": "",
+      "youtube": "2jN1bqGr3ZY"
+    },
+    {
+      "id": 315,
+      "week": 38,
+      "name": "Dark Cloud",
+      "artist": "Natural Gas",
+      "kana": "",
+      "year": 1976,
+      "nation": "US",
+      "label": "Private Stock",
+      "producer": "Felix Pappalardi",
+      "corner": "",
+      "youtube": "x-K2jFkM0NM"
+    },
+    {
+      "id": 316,
+      "week": 38,
+      "name": "Round & Round",
+      "artist": "The Edgar Winter Group",
+      "kana": "",
+      "year": 1972,
+      "nation": "US",
+      "label": "Epic",
+      "producer": "Rick Derringer",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 317,
+      "week": 38,
+      "name": "おしゃべり！おしゃべり！",
+      "artist": "小島麻由美",
+      "kana": "こじままゆみ",
+      "year": 1995,
+      "nation": "JPN",
+      "label": "ポニーキャニオン",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

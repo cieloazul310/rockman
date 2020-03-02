@@ -1,0 +1,120 @@
+
+id: "20180008"
+week: 8
+year: 2018
+title: "スピッツメンバーと漫遊記パート2"
+subtitle: ""
+categories: []
+date: "2018-02-25"
+playlist:
+  - week: 8
+    index: 58
+    id: "2018000801"
+    title: "ハイファイ・ローファイ(NEW MIX)"
+    kana: ""
+    artist: "スピッツ"
+    year: 2004
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 8
+    index: 59
+    id: "2018000802"
+    title: "Stand Up & Shout"
+    kana: ""
+    artist: "Dio"
+    year: 1983
+    nation: "UK"
+    label: "Vertigo"
+    producer: ["Ronnie James Dio"]
+    youtube: "oIqdF4i3q58"
+    selectedBy: "草野マサムネ"
+    corner: "三輪テツヤ選曲"
+
+  - week: 8
+    index: 60
+    id: "2018000803"
+    title: "The Spirit of Radio"
+    kana: ""
+    artist: "Rush"
+    year: 1980
+    nation: "CAN"
+    label: "Mercury Records"
+    producer: ["Terry Brown"]
+    youtube: "QuL_euRslTc"
+    selectedBy: "草野マサムネ"
+    corner: "田村明浩選曲"
+
+  - week: 8
+    index: 61
+    id: "2018000804"
+    title: "Loudness"
+    kana: ""
+    artist: "Loudness"
+    year: 1981
+    nation: "JPN"
+    label: "日本コロムビア"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 8
+    index: 62
+    id: "2018000805"
+    title: "Lonesome in a crowd"
+    kana: ""
+    artist: "The Groovers"
+    year: 2009
+    nation: "JPN"
+    label: "BM tunes"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "三輪テツヤ選曲"
+
+  - week: 8
+    index: 63
+    id: "2018000806"
+    title: "Cum On Feel the Noize"
+    kana: ""
+    artist: "Quiet Riot"
+    year: 1983
+    nation: "US"
+    label: "Pasha"
+    producer: ["Spencer Proffer"]
+    youtube: "ZxgMGk9JPVA"
+    selectedBy: "草野マサムネ"
+    corner: "田村明浩選曲"
+
+  - week: 8
+    index: 64
+    id: "2018000807"
+    title: "ロマンスがありあまる"
+    kana: "げすのきわみおとめ"
+    artist: "ゲスの極み乙女。"
+    year: 2015
+    nation: "JPN"
+    label: "ワーナーミュージック・ジャパン"
+    producer: [""]
+    youtube: "C6-AN8J385c"
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 8
+    index: 65
+    id: "2018000808"
+    title: "LADY REIKO"
+    kana: ""
+    artist: "BLIZARD"
+    year: 1984
+    nation: "JPN"
+    label: "ワーナー・パイオニア"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

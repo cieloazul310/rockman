@@ -1,0 +1,134 @@
+
+id: "20190100"
+week: 100
+year: 2019
+title: "ビッカートン&ワディントンで漫遊記"
+subtitle: ""
+categories: []
+date: "2019-12-01"
+playlist:
+  - week: 100
+    index: 827
+    id: "2019010001"
+    title: "虹を越えて"
+    kana: ""
+    artist: "スピッツ"
+    year: 1996
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["笹路正徳"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 100
+    index: 828
+    id: "2019010002"
+    title: "Sugar Baby Love"
+    kana: ""
+    artist: "The Rubettes"
+    year: 1974
+    nation: "UK"
+    label: "Polydor"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: "x6PRG-E4nYo"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 829
+    id: "2019010003"
+    title: "I'm Gonna Knock On Your Door"
+    kana: ""
+    artist: "The Pete Best Four"
+    year: 1964
+    nation: "UK"
+    label: "Decca Records"
+    producer: ["Mike Smith"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 830
+    id: "2019010004"
+    title: "Nothing But a Heartache"
+    kana: ""
+    artist: "The Flirtations"
+    year: 1968
+    nation: "US"
+    label: "Deram"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: "PBrNklk1aUI"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 831
+    id: "2019010005"
+    title: "What's Good About Goodbye My Love"
+    kana: ""
+    artist: "The Flirtations"
+    year: 1969
+    nation: "US"
+    label: "Deram"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: "vo-gVBQbYx8"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 832
+    id: "2019010006"
+    title: "I'm Just Dreaming"
+    kana: ""
+    artist: "The Rubettes"
+    year: 1975
+    nation: "UK"
+    label: "State"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 833
+    id: "2019010007"
+    title: "CANDY"
+    kana: "さわだけんじ"
+    artist: "沢田研二"
+    year: 1974
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 834
+    id: "2019010008"
+    title: "Sugar Candy Kisses"
+    kana: ""
+    artist: "Mac & Katie Kissoon"
+    year: 1975
+    nation: "UK"
+    label: "State"
+    producer: ["Wayne Bickerton and Tony Wadding-ton"]
+    youtube: "1j1T1GVSyUY"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 100
+    index: 835
+    id: "2019010009"
+    title: "すいみん不足"
+    kana: ""
+    artist: "CHICKS"
+    year: 1990
+    nation: "JPN"
+    label: "日本コロムビア"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

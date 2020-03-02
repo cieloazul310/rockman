@@ -1,0 +1,98 @@
+{
+  "week": 104,
+  "theme": "漏れた曲たちで漫遊記",
+  "date": "2019-12-29T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 862,
+      "week": 104,
+      "name": "ブチ",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 863,
+      "week": 104,
+      "name": "ギルド",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2004,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 864,
+      "week": 104,
+      "name": "Hundred Mile High City",
+      "artist": "Ocean Colour Scene",
+      "kana": "",
+      "year": 1997,
+      "nation": "UK",
+      "label": "MCA",
+      "producer": "Brendan Lynch",
+      "corner": "",
+      "youtube": "xIhFpmzRKYM"
+    },
+    {
+      "id": 865,
+      "week": 104,
+      "name": "暮らしのなかで",
+      "artist": "T字路s",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "felicity",
+      "producer": "",
+      "corner": "",
+      "youtube": "Y94PAdw0P14"
+    },
+    {
+      "id": 866,
+      "week": 104,
+      "name": "On Your Feet or on Your Knees",
+      "artist": "Motörhead",
+      "kana": "",
+      "year": 1993,
+      "nation": "UK",
+      "label": "ZYX",
+      "producer": "Howard Benson",
+      "corner": "",
+      "youtube": "bSdU5x2RGeo"
+    },
+    {
+      "id": 867,
+      "week": 104,
+      "name": "京都",
+      "artist": "在日ファンク",
+      "kana": "ざいにちふぁんく",
+      "year": 2010,
+      "nation": "JPN",
+      "label": "P-VINE",
+      "producer": "",
+      "corner": "",
+      "youtube": "6YnhZRClFB0"
+    },
+    {
+      "id": 868,
+      "week": 104,
+      "name": "マケイヌ",
+      "artist": "ZIGGY",
+      "kana": "",
+      "year": 1999,
+      "nation": "JPN",
+      "label": "ソニー・ミュージックレコーズ",
+      "producer": "佐藤宣彦",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

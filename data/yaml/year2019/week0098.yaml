@@ -1,0 +1,134 @@
+
+id: "20190098"
+week: 98
+year: 2019
+title: "私の好きな洋楽の歌詞リクエストで漫遊記"
+subtitle: ""
+categories: []
+date: "2019-11-17"
+playlist:
+  - week: 98
+    index: 810
+    id: "2019009801"
+    title: "花と虫"
+    kana: ""
+    artist: "スピッツ"
+    year: 2019
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: ["亀田誠治"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 98
+    index: 811
+    id: "2019009802"
+    title: "The World Has Turned and Left Me Here"
+    kana: ""
+    artist: "Weezer"
+    year: 1994
+    nation: "US"
+    label: "DGC"
+    producer: ["Ric Ocasek"]
+    youtube: "sRfu94lOEPo"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 812
+    id: "2019009803"
+    title: "39"
+    kana: ""
+    artist: "Queen"
+    year: 1975
+    nation: "UK"
+    label: "EMI"
+    producer: ["Roy Thomas Baker"]
+    youtube: "kE8kGMfXaFU"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 813
+    id: "2019009804"
+    title: "Lollipop"
+    kana: ""
+    artist: "Mika"
+    year: 2007
+    nation: "UK"
+    label: "Island"
+    producer: ["Greg Wells"]
+    youtube: "6md5RSnVUuo"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 814
+    id: "2019009805"
+    title: "She Loves You"
+    kana: ""
+    artist: "The Beatles"
+    year: 1963
+    nation: "UK"
+    label: "Parlophone"
+    producer: ["George Martin"]
+    youtube: "oVCwDl-S09A"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 815
+    id: "2019009806"
+    title: "Talking in Your Sleep"
+    kana: ""
+    artist: "The Romantics"
+    year: 1983
+    nation: "US"
+    label: "Nemperor"
+    producer: [""]
+    youtube: "JmGMzyajA2U"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 816
+    id: "2019009807"
+    title: "Allelujah"
+    kana: ""
+    artist: "Fairground Attraction"
+    year: 1988
+    nation: "UK"
+    label: "RCA"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 817
+    id: "2019009808"
+    title: "Alone"
+    kana: ""
+    artist: "Heart"
+    year: 1987
+    nation: "US"
+    label: "Capitol Records"
+    producer: ["Ron Nevison"]
+    youtube: "1Cw1ng75KP0"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 98
+    index: 818
+    id: "2019009809"
+    title: "俺のあいつ"
+    kana: ""
+    artist: "ローズマリー"
+    year: 1973
+    nation: "JPN"
+    label: "トリオ・レコード"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

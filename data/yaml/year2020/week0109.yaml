@@ -1,0 +1,134 @@
+
+id: "20200109"
+week: 109
+year: 2020
+title: "福岡のレジェンドロックバンドで漫遊記"
+subtitle: ""
+categories: []
+date: "2020-02-02"
+playlist:
+  - week: 109
+    index: 898
+    id: "2020010901"
+    title: "さわって・変わって"
+    kana: ""
+    artist: "スピッツ"
+    year: 2001
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["亀田誠治"]
+    youtube: "-l5yolGZox4"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 109
+    index: 899
+    id: "2020010902"
+    title: "キングスネークブルース"
+    kana: ""
+    artist: "サンハウス"
+    year: 1975
+    nation: "JPN"
+    label: "ブラック"
+    producer: [""]
+    youtube: "fxW9UBoHOb4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 900
+    id: "2020010903"
+    title: "裏切りの街角"
+    kana: "かいばんど"
+    artist: "甲斐バンド"
+    year: 1975
+    nation: "JPN"
+    label: "東芝EMI"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 901
+    id: "2020010904"
+    title: "You May Dream"
+    kana: ""
+    artist: "シーナ&ザ・ロケッツ"
+    year: 1979
+    nation: "JPN"
+    label: "アルファレコード"
+    producer: ["細野晴臣"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 902
+    id: "2020010905"
+    title: "恋をしようよ"
+    kana: ""
+    artist: "ザ・ルースターズ"
+    year: 1980
+    nation: "JPN"
+    label: "日本コロムビア"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 903
+    id: "2020010906"
+    title: "セル ナンバー 8(第8病棟)"
+    kana: ""
+    artist: "バトル・ロッカーズ"
+    year: 1982
+    nation: "JPN"
+    label: "SEE-SAW"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 904
+    id: "2020010907"
+    title: "激しい雨が"
+    kana: ""
+    artist: "THE MODS"
+    year: 1983
+    nation: "JPN"
+    label: "EPIC SONY"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 905
+    id: "2020010908"
+    title: "掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン"
+    kana: ""
+    artist: "アンジー"
+    year: 1988
+    nation: "JPN"
+    label: "メルダック"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 109
+    index: 906
+    id: "2020010909"
+    title: "野良犬"
+    kana: ""
+    artist: "ARB"
+    year: 1978
+    nation: "JPN"
+    label: "ビクターインビテーション"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

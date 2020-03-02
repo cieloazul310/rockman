@@ -1,0 +1,111 @@
+{
+  "week": 35,
+  "theme": "ロックなビリージョエルで漫遊記",
+  "date": "2018-09-02T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 285,
+      "week": 35,
+      "name": "夏が終わる",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1993,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "笹路正徳",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 286,
+      "week": 35,
+      "name": "It's Still Rock and Roll to Me",
+      "artist": "Billy Joel",
+      "kana": "",
+      "year": 1980,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "Phil Ramone",
+      "corner": "",
+      "youtube": "5eAQa4MOGkE"
+    },
+    {
+      "id": 287,
+      "week": 35,
+      "name": "Wonder Woman",
+      "artist": "Attila",
+      "kana": "",
+      "year": 1970,
+      "nation": "US",
+      "label": "Epic",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 288,
+      "week": 35,
+      "name": "Los Angelenos",
+      "artist": "Billy Joel",
+      "kana": "",
+      "year": 1974,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "Michael Stewart",
+      "corner": "",
+      "youtube": "Wo2TKojbMN8"
+    },
+    {
+      "id": 289,
+      "week": 35,
+      "name": "Prelude/Angry Young Man",
+      "artist": "Billy Joel",
+      "kana": "",
+      "year": 1976,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "",
+      "corner": "",
+      "youtube": "M2iNLt_hUZg"
+    },
+    {
+      "id": 290,
+      "week": 35,
+      "name": "You May Be Right",
+      "artist": "Billy Joel",
+      "kana": "",
+      "year": 1980,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "Phil Ramone",
+      "corner": "",
+      "youtube": "Jo9t5XK0FhA"
+    },
+    {
+      "id": 291,
+      "week": 35,
+      "name": "Shades of Grey",
+      "artist": "Billy Joel",
+      "kana": "",
+      "year": 1993,
+      "nation": "US",
+      "label": "Columbia",
+      "producer": "",
+      "corner": "",
+      "youtube": "CopYqp0HZkY"
+    },
+    {
+      "id": 292,
+      "week": 35,
+      "name": "夢ゴゴチ",
+      "artist": "江口洋介",
+      "kana": "えぐちようすけ",
+      "year": 1991,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

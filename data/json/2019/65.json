@@ -1,0 +1,111 @@
+{
+  "week": 65,
+  "theme": "北海道のロックバンドで漫遊記",
+  "date": "2019-03-31T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 537,
+      "week": 65,
+      "name": "雪風",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2015,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "KqJBpisB7lE"
+    },
+    {
+      "id": 538,
+      "week": 65,
+      "name": "新宝島",
+      "artist": "サカナクション",
+      "kana": "",
+      "year": 2015,
+      "nation": "JPN",
+      "label": "NF Records",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 539,
+      "week": 65,
+      "name": "HONEY DANCE II",
+      "artist": "KENZI",
+      "kana": "",
+      "year": 1986,
+      "nation": "JPN",
+      "label": "Trip Roll Records",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 540,
+      "week": 65,
+      "name": "グロリアス",
+      "artist": "GLAY",
+      "kana": "",
+      "year": 1996,
+      "nation": "JPN",
+      "label": "プラチナム・レコード",
+      "producer": "佐久間正英",
+      "corner": "",
+      "youtube": "6ewGwJ63Nr4"
+    },
+    {
+      "id": 541,
+      "week": 65,
+      "name": "2月/February",
+      "artist": "bloodthirsty butchers",
+      "kana": "",
+      "year": 1996,
+      "nation": "JPN",
+      "label": "ベルウッド",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 542,
+      "week": 65,
+      "name": "バナナフィッシュの浜辺と黒い虹 with Aimer",
+      "artist": "Galileo Galilei",
+      "kana": "",
+      "year": 2014,
+      "nation": "JPN",
+      "label": "SME",
+      "producer": "",
+      "corner": "",
+      "youtube": "iubApGbf04I"
+    },
+    {
+      "id": 543,
+      "week": 65,
+      "name": "アニー",
+      "artist": "ズーカラデル",
+      "kana": "",
+      "year": 2017,
+      "nation": "JPN",
+      "label": "ズーカラデル",
+      "producer": "",
+      "corner": "",
+      "youtube": "zSPEdE651y0"
+    },
+    {
+      "id": 544,
+      "week": 65,
+      "name": "メロディ",
+      "artist": "sleepy.ab",
+      "kana": "",
+      "year": 2006,
+      "nation": "JPN",
+      "label": "WESS RECORDS",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": "_zrGfQjA830"
+    }
+  ]
+}

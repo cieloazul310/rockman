@@ -1,0 +1,111 @@
+{
+  "week": 40,
+  "theme": "ポール・ロジャースで漫遊記",
+  "date": "2018-10-07T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 326,
+      "week": 40,
+      "name": "楓",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1998,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "棚谷祐一",
+      "corner": "漫遊前の一曲",
+      "youtube": "YapsFDcGe_s"
+    },
+    {
+      "id": 327,
+      "week": 40,
+      "name": "Fire and Water",
+      "artist": "Free",
+      "kana": "",
+      "year": 1970,
+      "nation": "UK",
+      "label": "Island",
+      "producer": "Roy Thomas Baker",
+      "corner": "",
+      "youtube": "n3Jyn3pIzu0"
+    },
+    {
+      "id": 328,
+      "week": 40,
+      "name": "Wishing Well",
+      "artist": "Free",
+      "kana": "",
+      "year": 1973,
+      "nation": "UK",
+      "label": "Island",
+      "producer": "Andy Johns",
+      "corner": "",
+      "youtube": "zP-QZD9DcdE"
+    },
+    {
+      "id": 329,
+      "week": 40,
+      "name": "Can’t Get Enough",
+      "artist": "Bad Company",
+      "kana": "",
+      "year": 1974,
+      "nation": "UK",
+      "label": "Island",
+      "producer": "",
+      "corner": "",
+      "youtube": "7p9mzYB--uI"
+    },
+    {
+      "id": 330,
+      "week": 40,
+      "name": "Painted Face",
+      "artist": "Bad Company",
+      "kana": "",
+      "year": 1982,
+      "nation": "UK",
+      "label": "Swan Song Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "VZMT3F6MLUk"
+    },
+    {
+      "id": 331,
+      "week": 40,
+      "name": "We Are the Champion",
+      "artist": "Queen + Paul Rodgers",
+      "kana": "",
+      "year": 2005,
+      "nation": "UK",
+      "label": "Parlophone",
+      "producer": "Joshua J. Macrae",
+      "corner": "",
+      "youtube": "k6AcfSKdy3A"
+    },
+    {
+      "id": 332,
+      "week": 40,
+      "name": "Guardian of the Universe",
+      "artist": "Free",
+      "kana": "",
+      "year": 1972,
+      "nation": "UK",
+      "label": "Island",
+      "producer": "",
+      "corner": "",
+      "youtube": "o93ywNZMsZs"
+    },
+    {
+      "id": 333,
+      "week": 40,
+      "name": "おもちゃの血",
+      "artist": "ローザ・ルクセンブルグ",
+      "kana": "",
+      "year": 1986,
+      "nation": "JPN",
+      "label": "MIDI",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

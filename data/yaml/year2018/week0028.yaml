@@ -1,0 +1,134 @@
+
+id: "20180028"
+week: 28
+year: 2018
+title: "シャッフルのリズムで漫遊記"
+subtitle: ""
+categories: []
+date: "2018-07-15"
+playlist:
+  - week: 28
+    index: 229
+    id: "2018002801"
+    title: "ハニーハニー"
+    kana: ""
+    artist: "スピッツ"
+    year: 1992
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["高橋信彦"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 28
+    index: 230
+    id: "2018002802"
+    title: "Run Run Run"
+    kana: ""
+    artist: "Jo Jo Gunne"
+    year: 1972
+    nation: "US"
+    label: "Asylum"
+    producer: ["Tom Dowd"]
+    youtube: "cOi0Iv5J45c"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 231
+    id: "2018002803"
+    title: "ハイ!チャイナ!"
+    kana: ""
+    artist: "thee michelle gun elephant"
+    year: 1997
+    nation: "JPN"
+    label: "TRIAD"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 232
+    id: "2018002804"
+    title: "Panic"
+    kana: ""
+    artist: "The Smiths"
+    year: 1986
+    nation: "UK"
+    label: "Rough Trade"
+    producer: ["John Porter"]
+    youtube: "wMykYSQaG_c"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 233
+    id: "2018002805"
+    title: "Midnight Teenage Shuffle"
+    kana: ""
+    artist: "PERSONZ"
+    year: 1987
+    nation: "JPN"
+    label: "BAIDIS"
+    producer: [""]
+    youtube: "pUnQzRNxfiA"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 234
+    id: "2018002806"
+    title: "Gepetto"
+    kana: ""
+    artist: "Belly"
+    year: 1993
+    nation: "US"
+    label: "Sire"
+    producer: ["Gil Norton"]
+    youtube: "SBi676v4Gs4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 235
+    id: "2018002807"
+    title: "Lazy Sunday"
+    kana: ""
+    artist: "Small Faces"
+    year: 1968
+    nation: "UK"
+    label: "EMI"
+    producer: [""]
+    youtube: "o_ZKQtmNMVE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 236
+    id: "2018002808"
+    title: "Southern Girls"
+    kana: ""
+    artist: "Cheap Trick"
+    year: 1977
+    nation: "US"
+    label: "Epic"
+    producer: ["Tom Werman"]
+    youtube: "VRSg81H7Bm0"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 28
+    index: 237
+    id: "2018002809"
+    title: "体力に限界はあるのか"
+    kana: ""
+    artist: "カステラ"
+    year: 1989
+    nation: "JPN"
+    label: "CBS・ソニー"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

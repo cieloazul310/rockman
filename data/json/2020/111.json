@@ -1,0 +1,111 @@
+{
+  "week": 111,
+  "theme": "TYK・アメリカ編で漫遊記",
+  "date": "2020-02-16T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 916,
+      "week": 111,
+      "name": "さらさら",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2010,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "wfUYfj9t7QI"
+    },
+    {
+      "id": 917,
+      "week": 111,
+      "name": "Uncle Jack",
+      "artist": "Spirit",
+      "kana": "",
+      "year": 1968,
+      "nation": "US",
+      "label": "Ode",
+      "producer": "Lou Adler",
+      "corner": "",
+      "youtube": "6S8sgvPnUkE"
+    },
+    {
+      "id": 918,
+      "week": 111,
+      "name": "Get The Message",
+      "artist": "Cyrus Erie",
+      "kana": "",
+      "year": 1968,
+      "nation": "US",
+      "label": "Epic",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 919,
+      "week": 111,
+      "name": "Hurry Sundown",
+      "artist": "Bubble Puppy",
+      "kana": "",
+      "year": 1969,
+      "nation": "US",
+      "label": "International Artists",
+      "producer": "Ray Rush",
+      "corner": "",
+      "youtube": "yqUTV_8aRs4"
+    },
+    {
+      "id": 920,
+      "week": 111,
+      "name": "Peace By Peace",
+      "artist": "Crabby Appleton",
+      "kana": "",
+      "year": 1970,
+      "nation": "US",
+      "label": "Elektra",
+      "producer": "Don Gallucci",
+      "corner": "",
+      "youtube": "1KwYmy1dDV4"
+    },
+    {
+      "id": 921,
+      "week": 111,
+      "name": "Black Betty",
+      "artist": "Ram Jam",
+      "kana": "",
+      "year": 1977,
+      "nation": "US",
+      "label": "Epic",
+      "producer": "",
+      "corner": "",
+      "youtube": "I_2D8Eo15wE"
+    },
+    {
+      "id": 922,
+      "week": 111,
+      "name": "No Rest For The Wicked (Live 1976)",
+      "artist": "Truth And Janey",
+      "kana": "",
+      "year": 1991,
+      "nation": "US",
+      "label": "Rock 'N' Bach",
+      "producer": "",
+      "corner": "",
+      "youtube": "dAMisaAdrso"
+    },
+    {
+      "id": 923,
+      "week": 111,
+      "name": "黄悪徳",
+      "artist": "シルバー・スターズ",
+      "kana": "",
+      "year": 1979,
+      "nation": "JPN",
+      "label": "Trash",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

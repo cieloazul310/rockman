@@ -1,0 +1,111 @@
+{
+  "week": 9,
+  "theme": "アコギサウンドリクエストで漫遊記",
+  "date": "2018-03-04T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 66,
+      "week": 9,
+      "name": "春の歌",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2005,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "94uxNQqmknk"
+    },
+    {
+      "id": 67,
+      "week": 9,
+      "name": "Blackbird",
+      "artist": "The Beatles",
+      "kana": "",
+      "year": 1968,
+      "nation": "UK",
+      "label": "Apple",
+      "producer": "George Martin",
+      "corner": "",
+      "youtube": "Man4Xw8Xypo"
+    },
+    {
+      "id": 68,
+      "week": 9,
+      "name": "バンドワゴン",
+      "artist": "くるり",
+      "kana": "",
+      "year": 2004,
+      "nation": "JPN",
+      "label": "SPEEDSTAR RECORDS",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 69,
+      "week": 9,
+      "name": "Ho Hey",
+      "artist": "The Lumineers",
+      "kana": "",
+      "year": 2012,
+      "nation": "US",
+      "label": "Dualtone",
+      "producer": "Ryan Hadlock",
+      "corner": "",
+      "youtube": "zvCBSSwgtg4"
+    },
+    {
+      "id": 70,
+      "week": 9,
+      "name": "ゆらゆら",
+      "artist": "YeYe",
+      "kana": "",
+      "year": 2017,
+      "nation": "JPN",
+      "label": "Rallye",
+      "producer": "",
+      "corner": "",
+      "youtube": "StkLx0e4f6c"
+    },
+    {
+      "id": 71,
+      "week": 9,
+      "name": "Queen Bitch",
+      "artist": "David Bowie",
+      "kana": "",
+      "year": 1971,
+      "nation": "UK",
+      "label": "RCA",
+      "producer": "Ken Scott",
+      "corner": "",
+      "youtube": "2_ayFz62eYE"
+    },
+    {
+      "id": 72,
+      "week": 9,
+      "name": "Wond’ring Aloud ",
+      "artist": "Jethro Tull",
+      "kana": "",
+      "year": 1971,
+      "nation": "UK",
+      "label": "Chrysalis",
+      "producer": "",
+      "corner": "",
+      "youtube": "luDfuZkeqKU"
+    },
+    {
+      "id": 73,
+      "week": 9,
+      "name": "クロ",
+      "artist": "遊佐未森",
+      "kana": "ゆさみもり",
+      "year": 2005,
+      "nation": "JPN",
+      "label": "ヤマハミュージックコミュニケーションズ",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

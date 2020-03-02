@@ -1,0 +1,106 @@
+
+id: "20180033"
+week: 33
+year: 2018
+title: "スピッツメンバーと漫遊記 崎山龍男編"
+subtitle: ""
+categories: []
+date: "2018-08-19"
+playlist:
+  - week: 33
+    index: 270
+    id: "2018003301"
+    title: "オーバードライブ"
+    kana: ""
+    artist: "スピッツ"
+    year: 1992
+    nation: "JPN"
+    label: "ポリドール"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 33
+    index: 271
+    id: "2018003302"
+    title: "Colorado Bulldog"
+    kana: ""
+    artist: "Mr. Big"
+    year: 1993
+    nation: "US"
+    label: "Atlantic"
+    producer: ["Kevin Elson"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 33
+    index: 272
+    id: "2018003303"
+    title: "Come Dancing"
+    kana: ""
+    artist: "Jeff Beck"
+    year: 1976
+    nation: "UK"
+    label: "Epic"
+    producer: ["George Martin"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 33
+    index: 273
+    id: "2018003304"
+    title: "Sparkle"
+    kana: "やましたたつろう"
+    artist: "山下達郎"
+    year: 1982
+    nation: "JPN"
+    label: "AIR ⁄ RVC"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 33
+    index: 274
+    id: "2018003305"
+    title: "I WANT YOUR LOVE"
+    kana: ""
+    artist: "DEAD END"
+    year: 1989
+    nation: "JPN"
+    label: "BMGビクター"
+    producer: ["岡野ハジメ"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 33
+    index: 275
+    id: "2018003306"
+    title: "The Weight"
+    kana: ""
+    artist: "The Band"
+    year: 1968
+    nation: "US"
+    label: "Capitol Records"
+    producer: ["John Simon"]
+    youtube: "Ymgvs0KU1L0"
+    selectedBy: "草野マサムネ"
+    corner: "崎山龍男選曲"
+
+  - week: 33
+    index: 276
+    id: "2018003307"
+    title: "GパンとTシャツとブーツで"
+    kana: ""
+    artist: "The Wells"
+    year: 1993
+    nation: "JPN"
+    label: "日本コロムビア"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

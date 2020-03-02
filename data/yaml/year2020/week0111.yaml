@@ -1,0 +1,120 @@
+
+id: "20200111"
+week: 111
+year: 2020
+title: "TYK・アメリカ編で漫遊記"
+subtitle: ""
+categories: []
+date: "2020-02-16"
+playlist:
+  - week: 111
+    index: 916
+    id: "2020011101"
+    title: "さらさら"
+    kana: ""
+    artist: "スピッツ"
+    year: 2010
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: ["亀田誠治"]
+    youtube: "wfUYfj9t7QI"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 111
+    index: 917
+    id: "2020011102"
+    title: "Uncle Jack"
+    kana: ""
+    artist: "Spirit"
+    year: 1968
+    nation: "US"
+    label: "Ode"
+    producer: ["Lou Adler"]
+    youtube: "6S8sgvPnUkE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 918
+    id: "2020011103"
+    title: "Get The Message"
+    kana: ""
+    artist: "Cyrus Erie"
+    year: 1968
+    nation: "US"
+    label: "Epic"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 919
+    id: "2020011104"
+    title: "Hurry Sundown"
+    kana: ""
+    artist: "Bubble Puppy"
+    year: 1969
+    nation: "US"
+    label: "International Artists"
+    producer: ["Ray Rush"]
+    youtube: "yqUTV_8aRs4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 920
+    id: "2020011105"
+    title: "Peace By Peace"
+    kana: ""
+    artist: "Crabby Appleton"
+    year: 1970
+    nation: "US"
+    label: "Elektra"
+    producer: ["Don Gallucci"]
+    youtube: "1KwYmy1dDV4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 921
+    id: "2020011106"
+    title: "Black Betty"
+    kana: ""
+    artist: "Ram Jam"
+    year: 1977
+    nation: "US"
+    label: "Epic"
+    producer: [""]
+    youtube: "I_2D8Eo15wE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 922
+    id: "2020011107"
+    title: "No Rest For The Wicked (Live 1976)"
+    kana: ""
+    artist: "Truth And Janey"
+    year: 1991
+    nation: "US"
+    label: "Rock 'N' Bach"
+    producer: [""]
+    youtube: "dAMisaAdrso"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 111
+    index: 923
+    id: "2020011108"
+    title: "黄悪徳"
+    kana: ""
+    artist: "シルバー・スターズ"
+    year: 1979
+    nation: "JPN"
+    label: "Trash"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

@@ -1,0 +1,120 @@
+
+id: "20180040"
+week: 40
+year: 2018
+title: "ポール・ロジャースで漫遊記"
+subtitle: ""
+categories: []
+date: "2018-10-07"
+playlist:
+  - week: 40
+    index: 326
+    id: "2018004001"
+    title: "楓"
+    kana: ""
+    artist: "スピッツ"
+    year: 1998
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["棚谷祐一"]
+    youtube: "YapsFDcGe_s"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 40
+    index: 327
+    id: "2018004002"
+    title: "Fire and Water"
+    kana: ""
+    artist: "Free"
+    year: 1970
+    nation: "UK"
+    label: "Island"
+    producer: ["Roy Thomas Baker"]
+    youtube: "n3Jyn3pIzu0"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 328
+    id: "2018004003"
+    title: "Wishing Well"
+    kana: ""
+    artist: "Free"
+    year: 1973
+    nation: "UK"
+    label: "Island"
+    producer: ["Andy Johns"]
+    youtube: "zP-QZD9DcdE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 329
+    id: "2018004004"
+    title: "Can’t Get Enough"
+    kana: ""
+    artist: "Bad Company"
+    year: 1974
+    nation: "UK"
+    label: "Island"
+    producer: [""]
+    youtube: "7p9mzYB--uI"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 330
+    id: "2018004005"
+    title: "Painted Face"
+    kana: ""
+    artist: "Bad Company"
+    year: 1982
+    nation: "UK"
+    label: "Swan Song Records"
+    producer: [""]
+    youtube: "VZMT3F6MLUk"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 331
+    id: "2018004006"
+    title: "We Are the Champion"
+    kana: ""
+    artist: "Queen + Paul Rodgers"
+    year: 2005
+    nation: "UK"
+    label: "Parlophone"
+    producer: ["Joshua J. Macrae"]
+    youtube: "k6AcfSKdy3A"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 332
+    id: "2018004007"
+    title: "Guardian of the Universe"
+    kana: ""
+    artist: "Free"
+    year: 1972
+    nation: "UK"
+    label: "Island"
+    producer: [""]
+    youtube: "o93ywNZMsZs"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 40
+    index: 333
+    id: "2018004008"
+    title: "おもちゃの血"
+    kana: ""
+    artist: "ローザ・ルクセンブルグ"
+    year: 1986
+    nation: "JPN"
+    label: "MIDI"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

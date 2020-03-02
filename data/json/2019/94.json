@@ -1,0 +1,111 @@
+{
+  "week": 94,
+  "theme": "The Night Flight Orchestraで漫遊記",
+  "date": "2019-10-20T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 775,
+      "week": 94,
+      "name": "ラジオデイズ",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 776,
+      "week": 94,
+      "name": "Moments of Thunder",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2018,
+      "nation": "SWE",
+      "label": "Nuclear Blast",
+      "producer": "",
+      "corner": "",
+      "youtube": "OyE74MoWB08"
+    },
+    {
+      "id": 777,
+      "week": 94,
+      "name": "Glowing City Madness",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2012,
+      "nation": "SWE",
+      "label": "Coroner Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "y1QbccF377c"
+    },
+    {
+      "id": 778,
+      "week": 94,
+      "name": "All the Ladies",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2015,
+      "nation": "SWE",
+      "label": "Coroner Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "kwn-vFXf7BI"
+    },
+    {
+      "id": 779,
+      "week": 94,
+      "name": "Josephine",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2017,
+      "nation": "SWE",
+      "label": "Nuclear Blast",
+      "producer": "",
+      "corner": "",
+      "youtube": "NBFUboOu2VE"
+    },
+    {
+      "id": 780,
+      "week": 94,
+      "name": "Paralyzed",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2018,
+      "nation": "SWE",
+      "label": "Nuclear Blast",
+      "producer": "",
+      "corner": "",
+      "youtube": "XT0YoCDT3xw"
+    },
+    {
+      "id": 781,
+      "week": 94,
+      "name": "Satellite",
+      "artist": "The Night Flight Orchestra",
+      "kana": "",
+      "year": 2019,
+      "nation": "SWE",
+      "label": "Nuclear Blast",
+      "producer": "",
+      "corner": "",
+      "youtube": "BLmo5gbZI0A"
+    },
+    {
+      "id": 782,
+      "week": 94,
+      "name": "ボクハヨワクナイ",
+      "artist": "ザ・タートルズ",
+      "kana": "",
+      "year": 1999,
+      "nation": "JPN",
+      "label": "ソニー・ミュージックレコーズ",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

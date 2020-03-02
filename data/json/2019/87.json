@@ -1,0 +1,111 @@
+{
+  "week": 87,
+  "theme": "BUMP OF CHICKENで漫遊記",
+  "date": "2019-09-01T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 715,
+      "week": 87,
+      "name": "夏が終わる",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1993,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "笹路正徳",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 716,
+      "week": 87,
+      "name": "オンリー ロンリー グローリー",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2004,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 717,
+      "week": 87,
+      "name": "グングニル",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2000,
+      "nation": "JPN",
+      "label": "ハイラインレコーズ",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 718,
+      "week": 87,
+      "name": "ハルジオン",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2001,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 719,
+      "week": 87,
+      "name": "才悩人応援歌",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2007,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 720,
+      "week": 87,
+      "name": "HAPPY",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2010,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": "RwCl11tyWP0"
+    },
+    {
+      "id": 721,
+      "week": 87,
+      "name": "Aurora",
+      "artist": "BUMP OF CHICKEN",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": "6NQbSN85kJQ"
+    },
+    {
+      "id": 722,
+      "week": 87,
+      "name": "Akatsuki",
+      "artist": "PE’Z",
+      "kana": "",
+      "year": 2002,
+      "nation": "JPN",
+      "label": "東芝EMI",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": "gET09aOXZXI"
+    }
+  ]
+}

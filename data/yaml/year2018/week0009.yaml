@@ -1,0 +1,120 @@
+
+id: "20180009"
+week: 9
+year: 2018
+title: "アコギサウンドリクエストで漫遊記"
+subtitle: ""
+categories: []
+date: "2018-03-04"
+playlist:
+  - week: 9
+    index: 66
+    id: "2018000901"
+    title: "春の歌"
+    kana: ""
+    artist: "スピッツ"
+    year: 2005
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: ["亀田誠治"]
+    youtube: "94uxNQqmknk"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 9
+    index: 67
+    id: "2018000902"
+    title: "Blackbird"
+    kana: ""
+    artist: "The Beatles"
+    year: 1968
+    nation: "UK"
+    label: "Apple"
+    producer: ["George Martin"]
+    youtube: "Man4Xw8Xypo"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 68
+    id: "2018000903"
+    title: "バンドワゴン"
+    kana: ""
+    artist: "くるり"
+    year: 2004
+    nation: "JPN"
+    label: "SPEEDSTAR RECORDS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 69
+    id: "2018000904"
+    title: "Ho Hey"
+    kana: ""
+    artist: "The Lumineers"
+    year: 2012
+    nation: "US"
+    label: "Dualtone"
+    producer: ["Ryan Hadlock"]
+    youtube: "zvCBSSwgtg4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 70
+    id: "2018000905"
+    title: "ゆらゆら"
+    kana: ""
+    artist: "YeYe"
+    year: 2017
+    nation: "JPN"
+    label: "Rallye"
+    producer: [""]
+    youtube: "StkLx0e4f6c"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 71
+    id: "2018000906"
+    title: "Queen Bitch"
+    kana: ""
+    artist: "David Bowie"
+    year: 1971
+    nation: "UK"
+    label: "RCA"
+    producer: ["Ken Scott"]
+    youtube: "2_ayFz62eYE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 72
+    id: "2018000907"
+    title: "Wond’ring Aloud "
+    kana: ""
+    artist: "Jethro Tull"
+    year: 1971
+    nation: "UK"
+    label: "Chrysalis"
+    producer: [""]
+    youtube: "luDfuZkeqKU"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 9
+    index: 73
+    id: "2018000908"
+    title: "クロ"
+    kana: "ゆさみもり"
+    artist: "遊佐未森"
+    year: 2005
+    nation: "JPN"
+    label: "ヤマハミュージックコミュニケーションズ"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

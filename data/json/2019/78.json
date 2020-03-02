@@ -1,0 +1,111 @@
+{
+  "week": 78,
+  "theme": "ロックの歌はテクじゃない、で漫遊記",
+  "date": "2019-06-30T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 641,
+      "week": 78,
+      "name": "トンビ飛べなかった",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1991,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 642,
+      "week": 78,
+      "name": "東京少年",
+      "artist": "GOING STEADY",
+      "kana": "",
+      "year": 2001,
+      "nation": "JPN",
+      "label": "Libra",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 643,
+      "week": 78,
+      "name": "The Golden Age of Rock 'n' Roll",
+      "artist": "Mott the Hoople",
+      "kana": "",
+      "year": 1974,
+      "nation": "UK",
+      "label": "CBS",
+      "producer": "",
+      "corner": "",
+      "youtube": "yTAKizVFonE"
+    },
+    {
+      "id": 644,
+      "week": 78,
+      "name": "Down on the Street",
+      "artist": "The Stooges",
+      "kana": "",
+      "year": 1970,
+      "nation": "US",
+      "label": "Elektra",
+      "producer": "Don Gallucci",
+      "corner": "",
+      "youtube": "fkC2lauXCKU"
+    },
+    {
+      "id": 645,
+      "week": 78,
+      "name": "ロックンロールは鳴り止まないっ",
+      "artist": "神聖かまってちゃん",
+      "kana": "しんせいかまってちゃん",
+      "year": 2010,
+      "nation": "JPN",
+      "label": "PERFECT MUSIC",
+      "producer": "",
+      "corner": "",
+      "youtube": "NXT9rz8BErk"
+    },
+    {
+      "id": 646,
+      "week": 78,
+      "name": "Big Green Country",
+      "artist": "Neil Young",
+      "kana": "",
+      "year": 1995,
+      "nation": "US",
+      "label": "Reprise Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "MUpuXlkOo7o"
+    },
+    {
+      "id": 647,
+      "week": 78,
+      "name": "Cast Away Your Chains",
+      "artist": "Electric Sun",
+      "kana": "",
+      "year": 1981,
+      "nation": "GER",
+      "label": "BRAIN-Metronome",
+      "producer": "",
+      "corner": "",
+      "youtube": "K0y09nzj8Cc"
+    },
+    {
+      "id": 648,
+      "week": 78,
+      "name": "WINTER SUN（明日になれば僕等はきっと生まれ変わる）",
+      "artist": "ヒートウェイヴ",
+      "kana": "",
+      "year": 1994,
+      "nation": "JPN",
+      "label": "Epic",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+
+id: "20180019"
+week: 19
+year: 2018
+title: "MUSIC LIFE 1969年4月号で漫遊記"
+subtitle: ""
+categories: []
+date: "2018-05-13"
+playlist:
+  - week: 19
+    index: 148
+    id: "2018001901"
+    title: "スパイダー"
+    kana: ""
+    artist: "スピッツ"
+    year: 1994
+    nation: "JPN"
+    label: "ポリドール"
+    producer: ["笹路正徳"]
+    youtube: "mf-RrGndfC8"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 19
+    index: 149
+    id: "2018001902"
+    title: "Those Were the Days"
+    kana: ""
+    artist: "Mary Hopkin"
+    year: 1968
+    nation: "UK"
+    label: "Apple"
+    producer: ["Paul McCartney"]
+    youtube: "1DQepQaporY"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 150
+    id: "2018001903"
+    title: "The Legend of Xanadu"
+    kana: ""
+    artist: "Dave Dee, Dozy, Beaky, Mick & Tich"
+    year: 1968
+    nation: "UK"
+    label: "Fontana Records"
+    producer: ["Steve Rowland"]
+    youtube: "NZxFuAc8iMU"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 151
+    id: "2018001904"
+    title: "Hurdy Gurdy Man"
+    kana: ""
+    artist: "Donovan"
+    year: 1968
+    nation: "UK"
+    label: "Pye"
+    producer: ["Mickie Most"]
+    youtube: "CHxfOZH8cew"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 152
+    id: "2018001905"
+    title: "In-A-Gadda-Da-Vida"
+    kana: ""
+    artist: "Iron Butterfly"
+    year: 1968
+    nation: "US"
+    label: "Atco"
+    producer: [""]
+    youtube: "hNBgEirKxq8"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 153
+    id: "2018001906"
+    title: "Irrésistiblement"
+    kana: ""
+    artist: "Sylvie Vartan"
+    year: 1968
+    nation: "FR"
+    label: "RCA Victor"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 154
+    id: "2018001907"
+    title: "Race with the Devil"
+    kana: ""
+    artist: "The Gun"
+    year: 1968
+    nation: "UK"
+    label: "CBS"
+    producer: [""]
+    youtube: "Ke3-v0g6GcU"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 19
+    index: 155
+    id: "2018001908"
+    title: "京都"
+    kana: ""
+    artist: "ピロカルピン"
+    year: 2009
+    nation: "JPN"
+    label: "グララーガ"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-typescript-material-ui-theme",
+  "name": "rockman",
   "description": "Gatsby TypeScript Material-UI Starter",
   "version": "0.0.1",
   "author": "cieloazul310 <cieloazul310@gmail.com>",
@@ -8,10 +8,14 @@
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
     "@types/react-helmet": "^5.0.8",
+    "d3-dsv": "^1.2.0",
     "gatsby": "^2.19.12",
     "gatsby-plugin-graphql-codegen": "^2.2.2",
     "gatsby-plugin-typescript": "^2.0.9",
+    "gatsby-source-filesystem": "^2.1.48",
     "gatsby-theme-typescript-material-ui": "./gatsby-theme-typescript-material-ui",
+    "gatsby-transformer-toml": "^2.2.23",
+    "gatsby-transformer-yaml": "^2.2.25",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "typescript": "^3.7.5"
@@ -31,7 +35,8 @@
     "format": "prettier --parser typescript --trailing-comma es5 --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "convert": "node ./data/convert.js"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

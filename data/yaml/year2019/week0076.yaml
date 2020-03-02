@@ -1,0 +1,120 @@
+
+id: "20190076"
+week: 76
+year: 2019
+title: "ROCKIN'ON JAPAN 2001年12月号で漫遊記"
+subtitle: ""
+categories: []
+date: "2019-06-16"
+playlist:
+  - week: 76
+    index: 625
+    id: "2019007601"
+    title: "悪役"
+    kana: ""
+    artist: "スピッツ"
+    year: 2019
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 76
+    index: 626
+    id: "2019007602"
+    title: "あぁ青春"
+    kana: ""
+    artist: "GO!GO!7188"
+    year: 2001
+    nation: "JPN"
+    label: "東芝EMI"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 627
+    id: "2019007603"
+    title: "小さな恋のうた"
+    kana: ""
+    artist: "MONGOL800"
+    year: 2001
+    nation: "JPN"
+    label: "HIGH WAVE"
+    producer: [""]
+    youtube: "u8EkSB9zSpE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 628
+    id: "2019007604"
+    title: "雨は毛布のように"
+    kana: ""
+    artist: "キリンジ"
+    year: 2001
+    nation: "JPN"
+    label: "ワーナーミュージック・ジャパン"
+    producer: ["冨田恵一"]
+    youtube: "HWyyxJoZHyY"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 629
+    id: "2019007605"
+    title: "Light Your Fire"
+    kana: ""
+    artist: "RIZE"
+    year: 2001
+    nation: "JPN"
+    label: "エピックレコードジャパン"
+    producer: [""]
+    youtube: "SxsT-D_eEFg"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 630
+    id: "2019007606"
+    title: "生活"
+    kana: ""
+    artist: "Syrup16g"
+    year: 2001
+    nation: "JPN"
+    label: "DAIZAWA RECORDS"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 631
+    id: "2019007607"
+    title: "Volcanic Girl"
+    kana: ""
+    artist: "Buffalo Daughter"
+    year: 2001
+    nation: "JPN"
+    label: "東芝EMI"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 76
+    index: 632
+    id: "2019007608"
+    title: "cream soda"
+    kana: ""
+    artist: "SUPERCAR"
+    year: 1997
+    nation: "JPN"
+    label: "エピックレコードジャパン"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

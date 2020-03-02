@@ -1,0 +1,111 @@
+{
+  "week": 4,
+  "theme": "最近よく聴く、気になる邦楽ナンバーで漫遊記",
+  "date": "2018-01-28T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 25,
+      "week": 4,
+      "name": "インディゴ地平線",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 1996,
+      "nation": "JPN",
+      "label": "ポリドール",
+      "producer": "笹路正徳",
+      "corner": "漫遊前の一曲",
+      "youtube": "cdMEZkGW2PA"
+    },
+    {
+      "id": 26,
+      "week": 4,
+      "name": "はじまりの国",
+      "artist": "People In the Box",
+      "kana": "",
+      "year": 2007,
+      "nation": "JPN",
+      "label": "under_bar",
+      "producer": "",
+      "corner": "",
+      "youtube": "dBz5JsdDTHw"
+    },
+    {
+      "id": 27,
+      "week": 4,
+      "name": "初期衝動",
+      "artist": "BRAHMAN",
+      "kana": "",
+      "year": 2013,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": "NnRvCS_pa8I"
+    },
+    {
+      "id": 28,
+      "week": 4,
+      "name": "GOLD",
+      "artist": "Awesome City Club",
+      "kana": "",
+      "year": 2015,
+      "nation": "JPN",
+      "label": "ビクターエンタテイメント",
+      "producer": "",
+      "corner": "",
+      "youtube": "8cP9HeZS37E"
+    },
+    {
+      "id": 29,
+      "week": 4,
+      "name": "Amazing Parade",
+      "artist": "Czecho No Republic",
+      "kana": "",
+      "year": 2014,
+      "nation": "JPN",
+      "label": "日本コロムビア",
+      "producer": "",
+      "corner": "",
+      "youtube": "FodrXpDdvtg"
+    },
+    {
+      "id": 30,
+      "week": 4,
+      "name": "血清",
+      "artist": "パノラマメロウ",
+      "kana": "",
+      "year": 2017,
+      "nation": "JPN",
+      "label": "パノラマメロウ",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 31,
+      "week": 4,
+      "name": "Merry Go Round In Rainy Days",
+      "artist": "NYAI",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "ニャイちゃんレーベル",
+      "producer": "",
+      "corner": "",
+      "youtube": "PRTQb_BYqig"
+    },
+    {
+      "id": 32,
+      "week": 4,
+      "name": "新しい風",
+      "artist": "陣内大蔵",
+      "kana": "じんないだいぞう",
+      "year": 1992,
+      "nation": "JPN",
+      "label": "ファンハウス",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

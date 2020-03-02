@@ -1,0 +1,111 @@
+{
+  "week": 81,
+  "theme": "ご当地ロック国内編（東京以外）で漫遊記",
+  "date": "2019-07-21T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 665,
+      "week": 81,
+      "name": "優しいあの子",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "RkIOd78C82I"
+    },
+    {
+      "id": 666,
+      "week": 81,
+      "name": "港のヨーコ・ヨコハマ・ヨコスカ",
+      "artist": "ダウン・タウン・ブギウギ・バンド",
+      "kana": "",
+      "year": 1975,
+      "nation": "JPN",
+      "label": "東芝EMI",
+      "producer": "",
+      "corner": "",
+      "youtube": "Q6VL9qxqyDo"
+    },
+    {
+      "id": 667,
+      "week": 81,
+      "name": "もんげー岡山!",
+      "artist": "葛城ユキ",
+      "kana": "かつらぎゆき",
+      "year": 2015,
+      "nation": "JPN",
+      "label": "Power Station",
+      "producer": "",
+      "corner": "",
+      "youtube": "QKuiGUtf9d0"
+    },
+    {
+      "id": 668,
+      "week": 81,
+      "name": "泣ぐ子はいねが",
+      "artist": "高橋優",
+      "kana": "たかはしゆう",
+      "year": 2013,
+      "nation": "JPN",
+      "label": "ワーナーミュージック・ジャパン",
+      "producer": "",
+      "corner": "",
+      "youtube": "Sd1wNsjLsu4"
+    },
+    {
+      "id": 669,
+      "week": 81,
+      "name": "Mt. ABURA BLUES",
+      "artist": "AL",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 670,
+      "week": 81,
+      "name": "ヒロシマドライブ driving with 電大",
+      "artist": "奥田民生",
+      "kana": "おくだたみお",
+      "year": 2018,
+      "nation": "JPN",
+      "label": "RCMR",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 671,
+      "week": 81,
+      "name": "LOVERS IN NAGASAKI",
+      "artist": "ホリエアツシ",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "",
+      "producer": "",
+      "corner": "",
+      "youtube": "sscNgtg7dFM"
+    },
+    {
+      "id": 672,
+      "week": 81,
+      "name": "KU・MA・MO・TO",
+      "artist": "レピッシュ",
+      "kana": "",
+      "year": 1992,
+      "nation": "JPN",
+      "label": "ビクターエンタテイメント",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

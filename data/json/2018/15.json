@@ -1,0 +1,111 @@
+{
+  "week": 15,
+  "theme": "シンガロングで漫遊記",
+  "date": "2018-04-15T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 116,
+      "week": 15,
+      "name": "子グマ!子グマ!",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 117,
+      "week": 15,
+      "name": "We Will Rock You",
+      "artist": "Queen",
+      "kana": "",
+      "year": 1977,
+      "nation": "UK",
+      "label": "EMI",
+      "producer": "",
+      "corner": "",
+      "youtube": "-tJYN-eG1zk"
+    },
+    {
+      "id": 118,
+      "week": 15,
+      "name": "If the Kids Are United",
+      "artist": "Sham 69",
+      "kana": "",
+      "year": 1978,
+      "nation": "UK",
+      "label": "Polydor",
+      "producer": "",
+      "corner": "",
+      "youtube": "ag-Ht5jg-6M"
+    },
+    {
+      "id": 119,
+      "week": 15,
+      "name": "Idle Gossip",
+      "artist": "Toy Dolls",
+      "kana": "",
+      "year": 1986,
+      "nation": "UK",
+      "label": "Volume Records",
+      "producer": "",
+      "corner": "",
+      "youtube": "RjCi2vFeZhk"
+    },
+    {
+      "id": 120,
+      "week": 15,
+      "name": "We’re Not Gonna Take It",
+      "artist": "Twisted Sister",
+      "kana": "",
+      "year": 1984,
+      "nation": "US",
+      "label": "Atlantic",
+      "producer": "Tom Werman",
+      "corner": "",
+      "youtube": "4xmckWVPRaI"
+    },
+    {
+      "id": 121,
+      "week": 15,
+      "name": "Drunken Lullabies",
+      "artist": "Flogging Molly",
+      "kana": "",
+      "year": 2002,
+      "nation": "US",
+      "label": "SideOneDummy",
+      "producer": "Ted Hutt",
+      "corner": "",
+      "youtube": "89NjEeHku8o"
+    },
+    {
+      "id": 122,
+      "week": 15,
+      "name": "Sólo le pido a Dios",
+      "artist": "León Gieco",
+      "kana": "",
+      "year": 1978,
+      "nation": "ARG",
+      "label": "Music Hall",
+      "producer": "",
+      "corner": "",
+      "youtube": "UdEIMVbGUI4"
+    },
+    {
+      "id": 123,
+      "week": 15,
+      "name": "天井裏から愛を込めて",
+      "artist": "アンジー",
+      "kana": "",
+      "year": 1988,
+      "nation": "JPN",
+      "label": "メルダック",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

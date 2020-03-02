@@ -2,28 +2,42 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Typescript App Shell`,
-    description: 'A GatsbyJS starter using Material Design written with TypeScript.',
+    title: `ロック大陸漫遊記プレイリスト集`,
+    description:
+      'TOKYO-FMで放送中のSpitz草野マサムネのロック大陸漫遊記のプレイリスト集。',
     lang: 'ja',
-    siteUrl: 'https://cieloazul310.github.io/gatsby-starter-typescript-material-ui/',
+    siteUrl: 'https://cieloazul310.github.io/rockman-survey/',
     author: 'cieloazul310',
     social: {
-      mail: 'mail@cieloazul310.com',
-      twitter: 'hollyhock_staff',
+      mail: '',
+      twitter: 'cieloazul310',
       github: 'cieloazul310',
-      facebook: 'hollyhock.official',
+      facebook: '',
       gitlab: '',
       linkedin: '',
-      medium: 'cieloazul310',
-      pocket: 'cieloazul310',
-      tumblr: 'cieloazul310',
-      instagram: 'mito.hollyhock.official',
-      vimeo: 'cieloazul310',
-      youtube: 'hollytube0310'
+      medium: '',
+      pocket: '',
+      tumblr: '',
+      instagram: '',
+      vimeo: '',
+      youtube: ''
     }
   },
-  pathPrefix: '/gatsby-starter-typescript-material-ui',
+  pathPrefix: '/rockman-survey',
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `yaml`,
+        path: `${__dirname}/data/yaml`
+      }
+    },
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: `yaml`
+      }
+    },
     {
       resolve: `gatsby-theme-typescript-material-ui`,
       options: {

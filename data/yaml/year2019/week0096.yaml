@@ -1,0 +1,120 @@
+
+id: "20190096"
+week: 96
+year: 2019
+title: "ラジオにまつわるナンバーで漫遊記"
+subtitle: ""
+categories: []
+date: "2019-11-03"
+playlist:
+  - week: 96
+    index: 792
+    id: "2019009601"
+    title: "ラジオデイズ"
+    kana: ""
+    artist: "スピッツ"
+    year: 2019
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: ["亀田誠治"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 96
+    index: 793
+    id: "2019009602"
+    title: "Video Killed The Radio Star"
+    kana: ""
+    artist: "The Buggles"
+    year: 1979
+    nation: "UK"
+    label: "Epic"
+    producer: ["Mike Hurst"]
+    youtube: "W8r-tXRLazs"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 794
+    id: "2019009603"
+    title: "トランジスタ・ラジオ"
+    kana: ""
+    artist: "RCサクセション"
+    year: 1980
+    nation: "JPN"
+    label: "キティレコード"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 795
+    id: "2019009604"
+    title: "Radio Ga Ga (Live Aid)"
+    kana: ""
+    artist: "Queen"
+    year: 1985
+    nation: "UK"
+    label: "EMI"
+    producer: [""]
+    youtube: "rf_WZ1G8Ux8"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 796
+    id: "2019009605"
+    title: "I Won't Turn Off My Radio"
+    kana: ""
+    artist: "Ken Yokoyama"
+    year: 2015
+    nation: "JPN"
+    label: "PIZZA OF DEATH RECORDS"
+    producer: [""]
+    youtube: "GEqtB6mSmWc"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 797
+    id: "2019009606"
+    title: "Guerrilla Radio"
+    kana: ""
+    artist: "Rage Against the Machine"
+    year: 1999
+    nation: "US"
+    label: "Epic"
+    producer: ["Brendan O’Brien"]
+    youtube: "z67Go-MuX1s"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 798
+    id: "2019009607"
+    title: "涙のリクエスト"
+    kana: ""
+    artist: "チェッカーズ"
+    year: 1984
+    nation: "JPN"
+    label: "キャニオンレコード"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 96
+    index: 799
+    id: "2019009608"
+    title: "RADIO RADIO RADIO"
+    kana: ""
+    artist: "THE BELL’S"
+    year: 1989
+    nation: "JPN"
+    label: "トイズファクトリー"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

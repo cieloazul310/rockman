@@ -1,0 +1,111 @@
+{
+  "week": 84,
+  "theme": "この夏のトリオバンドで漫遊記",
+  "date": "2019-08-11T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 690,
+      "week": 84,
+      "name": "悪役",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "ユニバーサル",
+      "producer": "",
+      "corner": "漫遊前の一曲",
+      "youtube": ""
+    },
+    {
+      "id": 691,
+      "week": 84,
+      "name": "ハネノバシ",
+      "artist": "SHISHAMO",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "ユニバーサルシグマ",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 692,
+      "week": 84,
+      "name": "君が海",
+      "artist": "My Hair is Bad",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "EMI",
+      "producer": "",
+      "corner": "",
+      "youtube": "58uc_4DMAao"
+    },
+    {
+      "id": 693,
+      "week": 84,
+      "name": "イエス",
+      "artist": "ズーカラデル",
+      "kana": "",
+      "year": 2019,
+      "nation": "JPN",
+      "label": "SPACE SHOWER MUSIC",
+      "producer": "",
+      "corner": "",
+      "youtube": "hqko0yGdMi0"
+    },
+    {
+      "id": 694,
+      "week": 84,
+      "name": "旅の手帖",
+      "artist": "サニーデイ・サービス",
+      "kana": "",
+      "year": 1997,
+      "nation": "JPN",
+      "label": "RHYME",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 695,
+      "week": 84,
+      "name": "Catch up, latency",
+      "artist": "UNISON SQUARE GARDEN",
+      "kana": "",
+      "year": 2018,
+      "nation": "JPN",
+      "label": "トイズファクトリー",
+      "producer": "",
+      "corner": "",
+      "youtube": "8er1vO2V1qI"
+    },
+    {
+      "id": 696,
+      "week": 84,
+      "name": "かよわきエナジー～Take Me Home, Country Roads",
+      "artist": "GOING UNDER GROUND",
+      "kana": "",
+      "year": 2001,
+      "nation": "JPN",
+      "label": "ビクターエンタテイメント",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 697,
+      "week": 84,
+      "name": "労働",
+      "artist": "PERIDOTS",
+      "kana": "",
+      "year": 2006,
+      "nation": "JPN",
+      "label": "EMIミュージック・ジャパン",
+      "producer": "",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": "0HNft8D0Mps"
+    }
+  ]
+}

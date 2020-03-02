@@ -1,0 +1,134 @@
+
+id: "20190090"
+week: 90
+year: 2019
+title: "ロックバンドの癒し曲で漫遊記"
+subtitle: ""
+categories: []
+date: "2019-09-22"
+playlist:
+  - week: 90
+    index: 739
+    id: "2019009001"
+    title: "ありがとさん"
+    kana: ""
+    artist: "スピッツ"
+    year: 2019
+    nation: "JPN"
+    label: "ユニバーサル"
+    producer: ["亀田誠治"]
+    youtube: "I24azAvtwu8"
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 90
+    index: 740
+    id: "2019009002"
+    title: "Sunday Morning"
+    kana: ""
+    artist: "The Velvet Underground"
+    year: 1966
+    nation: "US"
+    label: "Verce"
+    producer: ["Tom Wilson"]
+    youtube: "Xhbyj8pqUao"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 741
+    id: "2019009003"
+    title: "Epitaph"
+    kana: ""
+    artist: "Judas Priest"
+    year: 1976
+    nation: "UK"
+    label: "Gull"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 742
+    id: "2019009004"
+    title: "Rain"
+    kana: ""
+    artist: "Uriah Heep"
+    year: 1972
+    nation: "UK"
+    label: "Bronze"
+    producer: ["Gerry Bron"]
+    youtube: "0-o-cAwKFnc"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 743
+    id: "2019009005"
+    title: "Baby Baby"
+    kana: ""
+    artist: "The Vibrators"
+    year: 1977
+    nation: "UK"
+    label: "Epic"
+    producer: [""]
+    youtube: "rwxxkq6k1x4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 744
+    id: "2019009006"
+    title: "Home Tonight"
+    kana: ""
+    artist: "Aerosmith"
+    year: 1976
+    nation: "US"
+    label: "Columbia"
+    producer: ["Jack Douglas"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 745
+    id: "2019009007"
+    title: "Good Riddance (Time of Your Life)"
+    kana: ""
+    artist: "Green Day"
+    year: 1997
+    nation: "US"
+    label: "Reprise Records"
+    producer: ["Rob Cavallo"]
+    youtube: "CnQ8N1KacJc"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 746
+    id: "2019009008"
+    title: "Rainbow River"
+    kana: ""
+    artist: "Vashti Bunyan"
+    year: 1970
+    nation: "UK"
+    label: "Philips"
+    producer: ["Joe Boyd"]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 90
+    index: 747
+    id: "2019009009"
+    title: "過ぎ去りし日々"
+    kana: "むらさき"
+    artist: "紫"
+    year: 1977
+    nation: "JPN"
+    label: "Bourbon Records"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"

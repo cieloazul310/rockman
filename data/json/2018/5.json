@@ -1,0 +1,111 @@
+{
+  "week": 5,
+  "theme": "残響の気持ちいい曲で漫遊記",
+  "date": "2018-02-04T00:00:00.000Z",
+  "playlist": [
+    {
+      "id": 33,
+      "week": 5,
+      "name": "みなと",
+      "artist": "スピッツ",
+      "kana": "",
+      "year": 2016,
+      "nation": "JPN",
+      "label": "Universal Records",
+      "producer": "亀田誠治",
+      "corner": "漫遊前の一曲",
+      "youtube": "GiuxvmiULhI"
+    },
+    {
+      "id": 34,
+      "week": 5,
+      "name": "The Drugs Don’t Work",
+      "artist": "The Verve",
+      "kana": "",
+      "year": 1997,
+      "nation": "UK",
+      "label": "Hut Records",
+      "producer": "Youth, Chris Potter",
+      "corner": "",
+      "youtube": "ToQ0n3itoII"
+    },
+    {
+      "id": 35,
+      "week": 5,
+      "name": "Real Animal",
+      "artist": "The House of Love",
+      "kana": "",
+      "year": 1987,
+      "nation": "UK",
+      "label": "Creation",
+      "producer": "",
+      "corner": "",
+      "youtube": ""
+    },
+    {
+      "id": 36,
+      "week": 5,
+      "name": "Can’t Be Sure",
+      "artist": "The Sundays",
+      "kana": "",
+      "year": 1989,
+      "nation": "UK",
+      "label": "Rough Trade",
+      "producer": "Ray Shulman",
+      "corner": "",
+      "youtube": "yARVs1ZNLjU"
+    },
+    {
+      "id": 37,
+      "week": 5,
+      "name": "空洞です",
+      "artist": "ゆらゆら帝国",
+      "kana": "",
+      "year": 2007,
+      "nation": "JPN",
+      "label": "ソニー・ミュージックアソシエイテッドレコーズ",
+      "producer": "",
+      "corner": "",
+      "youtube": "mKUhq7SYouA"
+    },
+    {
+      "id": 38,
+      "week": 5,
+      "name": "Summer of '69",
+      "artist": "Bryan Adams",
+      "kana": "",
+      "year": 1984,
+      "nation": "CAN",
+      "label": "A&M",
+      "producer": "Bob Clearmountain",
+      "corner": "",
+      "youtube": "eFjjO_lhf9c"
+    },
+    {
+      "id": 39,
+      "week": 5,
+      "name": "I Don't Know What It Is",
+      "artist": "Rufus Wainwright",
+      "kana": "",
+      "year": 2004,
+      "nation": "CAN",
+      "label": "DreamWorks Records",
+      "producer": "Marius de Vries",
+      "corner": "",
+      "youtube": "hv0kaGGFetA"
+    },
+    {
+      "id": 40,
+      "week": 5,
+      "name": "夕なぎ",
+      "artist": "Nav Katze",
+      "kana": "",
+      "year": 1987,
+      "nation": "JPN",
+      "label": "SWITCH",
+      "producer": "窪田晴男",
+      "corner": "ちょっぴりタイムマシン",
+      "youtube": ""
+    }
+  ]
+}

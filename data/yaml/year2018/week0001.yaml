@@ -1,0 +1,134 @@
+
+id: "20180001"
+week: 1
+year: 2018
+title: "ロック大陸上陸の頃の曲で漫遊記"
+subtitle: ""
+categories: []
+date: "2018-01-07"
+playlist:
+  - week: 1
+    index: 1
+    id: "2018000101"
+    title: "My Sharona"
+    kana: ""
+    artist: "The Knack"
+    year: 1979
+    nation: "US"
+    label: "Capitol Records"
+    producer: [""]
+    youtube: "bbr60I0u2Ng"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 2
+    id: "2018000102"
+    title: "Don’t Look Back"
+    kana: ""
+    artist: "Boston"
+    year: 1978
+    nation: "US"
+    label: "Epic"
+    producer: [""]
+    youtube: "2HuiH-0R6a0"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 3
+    id: "2018000103"
+    title: "Way of the World"
+    kana: ""
+    artist: "Cheap Trick"
+    year: 1979
+    nation: "US"
+    label: "Epic"
+    producer: [""]
+    youtube: "y1JuM8fP2dM"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 4
+    id: "2018000104"
+    title: "Can the Can"
+    kana: ""
+    artist: "Suzi Quatro"
+    year: 1973
+    nation: "US"
+    label: "RAK Records"
+    producer: [""]
+    youtube: "fKBtPXeJwEA"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 5
+    id: "2018000105"
+    title: "Message in a Bottle"
+    kana: ""
+    artist: "The Police"
+    year: 1979
+    nation: "UK"
+    label: "A&M"
+    producer: [""]
+    youtube: "MbXWrmQW-OE"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 6
+    id: "2018000106"
+    title: "The Unconventional"
+    kana: ""
+    artist: "Japan"
+    year: 1978
+    nation: "UK"
+    label: "Hansa"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 7
+    id: "2018000107"
+    title: "Strutter ’78"
+    kana: ""
+    artist: "Kiss"
+    year: 1978
+    nation: "US"
+    label: "Casablanca"
+    producer: [""]
+    youtube: "SzhdSKxrymY"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 8
+    id: "2018000108"
+    title: "Breakfast in America"
+    kana: ""
+    artist: "Supertramp"
+    year: 1979
+    nation: "UK"
+    label: "A&M"
+    producer: [""]
+    youtube: "gmj_EmVHiR4"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 1
+    index: 9
+    id: "2018000109"
+    title: "醒めない"
+    kana: ""
+    artist: "スピッツ"
+    year: 2016
+    nation: "JPN"
+    label: "Universal Records"
+    producer: ["亀田誠治"]
+    youtube: "fuebj1esuwY"
+    selectedBy: "草野マサムネ"
+    corner: ""

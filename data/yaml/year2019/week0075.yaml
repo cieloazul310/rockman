@@ -1,0 +1,120 @@
+
+id: "20190075"
+week: 75
+year: 2019
+title: "バーミンガムのロックバンドで漫遊記"
+subtitle: ""
+categories: []
+date: "2019-06-09"
+playlist:
+  - week: 75
+    index: 617
+    id: "2019007501"
+    title: "センチメンタル"
+    kana: ""
+    artist: "スピッツ"
+    year: 1998
+    nation: "JPN"
+    label: "ポリドール"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "漫遊前の一曲"
+
+  - week: 75
+    index: 618
+    id: "2019007502"
+    title: "Nights in White Satin"
+    kana: ""
+    artist: "The Moody Blues"
+    year: 1967
+    nation: "UK"
+    label: "Deram"
+    producer: ["Tony Clarke"]
+    youtube: "DMGJxCnhz28"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 619
+    id: "2019007503"
+    title: "Never Say Die"
+    kana: ""
+    artist: "Black Sabbath"
+    year: 1978
+    nation: "UK"
+    label: "Vertigo"
+    producer: [""]
+    youtube: "2Q6gPouusHs"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 620
+    id: "2019007504"
+    title: "Confusion"
+    kana: ""
+    artist: "Electric Light Orchestra"
+    year: 1979
+    nation: "UK"
+    label: "Jet"
+    producer: [""]
+    youtube: "1jUvhJ_Tgzw"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 621
+    id: "2019007505"
+    title: "Prayer of a Realist"
+    kana: ""
+    artist: "GBH"
+    year: 1982
+    nation: "UK"
+    label: "Clay"
+    producer: [""]
+    youtube: "rDAH_yluHCg"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 622
+    id: "2019007506"
+    title: "The Reflex"
+    kana: ""
+    artist: "Duran Duran"
+    year: 1984
+    nation: "UK"
+    label: "EMI"
+    producer: [""]
+    youtube: "J5ebkj9x5Ko"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 623
+    id: "2019007507"
+    title: "Rain of Crystal Spires"
+    kana: ""
+    artist: "Felt"
+    year: 1986
+    nation: "UK"
+    label: "Creation"
+    producer: [""]
+    youtube: "om9lXoFuY2k"
+    selectedBy: "草野マサムネ"
+    corner: ""
+
+  - week: 75
+    index: 624
+    id: "2019007508"
+    title: "Season Train"
+    kana: ""
+    artist: "RAZZ MA TAZZ"
+    year: 1995
+    nation: "JPN"
+    label: "フォーライフ"
+    producer: [""]
+    youtube: ""
+    selectedBy: "草野マサムネ"
+    corner: "ちょっぴりタイムマシン"
