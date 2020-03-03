@@ -1,0 +1,136 @@
+id: "20190103"
+week: 103
+year: 2019
+title: 2019年 気になった曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-12-22
+playlist:
+  - id: "20190103103"
+    week: 103
+    name: ブービー
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 853
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: Not Running
+    artist: The Beths
+    kana: ""
+    year: 2018
+    nation: US
+    label: Carpark
+    producer: []
+    corner: ""
+    youtube: FKhCeP_tm2Q
+    index: 854
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: WLC (We Love Comic)
+    artist: SACHIKO by MAISON "SEEK"
+    kana: ""
+    year: 2018
+    nation: JPN
+    label: melodypunchrecords
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 855
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: Alleviate
+    artist: LEPROUS
+    kana: ""
+    year: 2019
+    nation: NOR
+    label: Inside Out Music
+    producer: []
+    corner: ""
+    youtube: 12eFq16CXSU
+    index: 856
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: 猿上がりシティーポップ
+    artist: 秋山黄色
+    kana: あきやまきいろ
+    year: 2018
+    nation: JPN
+    label: BUG TYPE RECORDS
+    producer: []
+    corner: ""
+    youtube: zCGl_APrE0Q
+    index: 857
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: On the Radio
+    artist: Du Blonde
+    kana: ""
+    year: 2019
+    nation: UK
+    label: Moshi Moshi
+    producer: []
+    corner: ""
+    youtube: e1KdkC9eICw
+    index: 858
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: 人間大好き
+    artist: バレーボウイズ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: felicity
+    producer: []
+    corner: ""
+    youtube: IysTrf49ukg
+    index: 859
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: Down Came the Rain
+    artist: Jeff Lynne's ELO
+    kana: ""
+    year: 2019
+    nation: UK
+    label: Columbia
+    producer: []
+    corner: ""
+    youtube: MtsIXy6imr8
+    index: 860
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "20190103103"
+    week: 103
+    name: Duty Friend
+    artist: NIKIIE
+    kana: ""
+    year: 2012
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: d-6-u0kN1sg
+    index: 861
+    indexInWeek: 9
+    selector: 草野マサムネ

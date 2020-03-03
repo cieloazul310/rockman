@@ -1,0 +1,110 @@
+id: "20190104"
+week: 104
+year: 2019
+title: 漏れた曲たちで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-12-29
+playlist:
+  - id: "20190104104"
+    week: 104
+    name: ブチ
+    artist: スピッツ
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 862
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: ギルド
+    artist: BUMP OF CHICKEN
+    kana: ""
+    year: 2004
+    nation: JPN
+    label: トイズファクトリー
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 863
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: Hundred Mile High City
+    artist: Ocean Colour Scene
+    kana: ""
+    year: 1997
+    nation: UK
+    label: MCA
+    producer:
+      - Brendan Lynch
+    corner: ""
+    youtube: xIhFpmzRKYM
+    index: 864
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: 暮らしのなかで
+    artist: T字路s
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: felicity
+    producer: []
+    corner: ""
+    youtube: Y94PAdw0P14
+    index: 865
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: On Your Feet or on Your Knees
+    artist: Motörhead
+    kana: ""
+    year: 1993
+    nation: UK
+    label: ZYX
+    producer:
+      - Howard Benson
+    corner: ""
+    youtube: bSdU5x2RGeo
+    index: 866
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: 京都
+    artist: 在日ファンク
+    kana: ざいにちふぁんく
+    year: 2010
+    nation: JPN
+    label: P-VINE
+    producer: []
+    corner: ""
+    youtube: 6YnhZRClFB0
+    index: 867
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20190104104"
+    week: 104
+    name: マケイヌ
+    artist: ZIGGY
+    kana: ""
+    year: 1999
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    producer:
+      - 佐藤宣彦
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 868
+    indexInWeek: 7
+    selector: 草野マサムネ

@@ -1,0 +1,139 @@
+id: "20200113"
+week: 113
+year: 2020
+title: ツェッペリン風味で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2020-03-01
+playlist:
+  - id: "20200113113"
+    week: 113
+    name: さらばユニヴァース
+    artist: スピッツ
+    kana: ""
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 石田小吉
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 932
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Highway Tune
+    artist: Greta Van Fleet
+    kana: ""
+    year: 2017
+    nation: US
+    label: Republic
+    producer: []
+    corner: ""
+    youtube: aJg4OJxp-co
+    index: 933
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Easy Livin'
+    artist: Fastway
+    kana: ""
+    year: 1983
+    nation: UK
+    label: CBS
+    producer:
+      - Eddie Kramer
+    corner: ""
+    youtube: ""
+    index: 934
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Get It On
+    artist: Kingdom Come
+    kana: ""
+    year: 1988
+    nation: US
+    label: Polydor
+    producer: []
+    corner: ""
+    youtube: k1OdgfEhzgM
+    index: 935
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Hold Her Tight
+    artist: The Osmonds
+    kana: ""
+    year: 1972
+    nation: US
+    label: MGM
+    producer: []
+    corner: ""
+    youtube: 6z9D2PJmz_k
+    index: 936
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Queen Of My Dreams
+    artist: The Edgar Winter Group
+    kana: ""
+    year: 1974
+    nation: US
+    label: Epic
+    producer:
+      - Rick Derringer
+    corner: ""
+    youtube: ""
+    index: 937
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Rock and Roll Is Dead
+    artist: Lenny Kravitz
+    kana: ""
+    year: 1995
+    nation: US
+    label: Virgin
+    producer: []
+    corner: ""
+    youtube: yw8_5OYKQNA
+    index: 938
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: Tautud
+    artist: Spirit
+    kana: ""
+    year: 1968
+    nation: US
+    label: Epic
+    producer:
+      - Lou Adler
+    corner: ""
+    youtube: ZPYWxc28Mh4
+    index: 939
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "20200113113"
+    week: 113
+    name: 青い地球はてのひら
+    artist: かの香織
+    kana: ""
+    year: 1994
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 940
+    indexInWeek: 9
+    selector: 草野マサムネ

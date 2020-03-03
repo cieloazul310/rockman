@@ -1,0 +1,127 @@
+id: "20180029"
+week: 29
+year: 2018
+title: 歌が始まっても鳴り止まないギターリフで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-07-22
+playlist:
+  - id: "2018002929"
+    week: 29
+    name: ハチの針
+    artist: スピッツ
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 238
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: You Really Got Me
+    artist: The Kinks
+    kana: ""
+    year: 1964
+    nation: UK
+    label: Pye
+    producer:
+      - Shel Talmy
+    corner: ""
+    youtube: fTTsY-oz6Go
+    index: 239
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: Rock Bottom
+    artist: UFO
+    kana: ""
+    year: 1974
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Leo Lyons
+    corner: ""
+    youtube: BdJTUuwYBN8
+    index: 240
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: Welcome to the Jungle
+    artist: Guns N' Roses
+    kana: ""
+    year: 1987
+    nation: US
+    label: Geffen
+    producer:
+      - Mike Clink
+    corner: ""
+    youtube: o1tj2zJ2Wvg
+    index: 241
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: Sick of Myself
+    artist: Matthew Sweet
+    kana: ""
+    year: 1995
+    nation: US
+    label: Zoo Entertainment
+    producer:
+      - Brendan O’Brien
+    corner: ""
+    youtube: sNfocDNZWY8
+    index: 242
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: People of the Sun
+    artist: Rage Against the Machine
+    kana: ""
+    year: 1996
+    nation: US
+    label: Epic
+    producer:
+      - Brendan O’Brien
+    corner: ""
+    youtube: scyC9A6o_Ts
+    index: 243
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: ユー・エフ・オー
+    artist: 吉田ヨウヘイgroup
+    kana: よしだようへいぐるーぷ
+    year: 2015
+    nation: JPN
+    label: P-VINE
+    producer: []
+    corner: ""
+    youtube: sXr0jiIUr6g
+    index: 244
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018002929"
+    week: 29
+    name: 星のリンダ
+    artist: JET KELLY
+    kana: ""
+    year: 2004
+    nation: JPN
+    label: メルダック
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 245
+    indexInWeek: 8
+    selector: 草野マサムネ

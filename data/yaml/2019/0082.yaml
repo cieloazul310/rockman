@@ -1,0 +1,124 @@
+id: "20190082"
+week: 82
+year: 2019
+title: お馬さんリズムで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-07-28
+playlist:
+  - id: "2019008282"
+    week: 82
+    name: 鳥になって
+    artist: スピッツ
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 673
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: In a Big Country
+    artist: Big Country
+    kana: ""
+    year: 1983
+    nation: UK
+    label: Mercury Records
+    producer:
+      - Steve Lillywhite
+    corner: ""
+    youtube: 657TZDHZqj4
+    index: 674
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: Killers
+    artist: Iron Maiden
+    kana: ""
+    year: 1981
+    nation: UK
+    label: EMI
+    producer:
+      - Martin Birch
+    corner: ""
+    youtube: w1Fw71X4uiM
+    index: 675
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: さらばシベリア鉄道
+    artist: 大滝詠一
+    kana: おおたきえいいち
+    year: 1981
+    nation: JPN
+    label: NIAGARA
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 676
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: Run Runaway
+    artist: Slade
+    kana: ""
+    year: 1984
+    nation: UK
+    label: RCA
+    producer: []
+    corner: ""
+    youtube: wLUkvPwiHvs
+    index: 677
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: Children of This Time
+    artist: Europe
+    kana: ""
+    year: 1983
+    nation: SWE
+    label: Hot
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 678
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: Nous ne sommes pas des anges
+    artist: France Gall
+    kana: ""
+    year: 1965
+    nation: FR
+    label: Philips
+    producer:
+      - Denis Bourgeois
+    corner: ""
+    youtube: HIa3a_3p7DA
+    index: 679
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019008282"
+    week: 82
+    name: だれかが風の中で
+    artist: 上條恒彦
+    kana: かみじょうつねひこ
+    year: 1972
+    nation: JPN
+    label: キングレコード
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 680
+    indexInWeek: 8
+    selector: 草野マサムネ

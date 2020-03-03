@@ -1,0 +1,143 @@
+id: "20200110"
+week: 110
+year: 2020
+title: ジェネレーションXで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2020-02-09
+playlist:
+  - id: "20200110110"
+    week: 110
+    name: 砂漠の花
+    artist: スピッツ
+    kana: ""
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 907
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: One Hundred Punks
+    artist: Generation X
+    kana: ""
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Martin Rushent
+    corner: ""
+    youtube: rn46wWn00bo
+    index: 908
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: Rebel Yell
+    artist: Billy Idol
+    kana: ""
+    year: 1983
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Keith Forsey
+    corner: ""
+    youtube: VdphvuyaV_I
+    index: 909
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: From the Heart
+    artist: Generation X
+    kana: ""
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Martin Rushent
+    corner: ""
+    youtube: 9cn_5dEugYs
+    index: 910
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: Ready Steady Go
+    artist: Generation X
+    kana: ""
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Martin Rushent
+    corner: ""
+    youtube: 5dkbnjzHrWE
+    index: 911
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: King Rocker
+    artist: Generation X
+    kana: ""
+    year: 1979
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Ian Hunter
+    corner: ""
+    youtube: L8HQGsT5mzg
+    index: 912
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: Dancing with Myself
+    artist: Generation X
+    kana: ""
+    year: 1981
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Keith Forsey
+    corner: ""
+    youtube: LMdOhFwuUFc
+    index: 913
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: Kleenex
+    artist: Generation X
+    kana: ""
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Martin Rushent
+    corner: ""
+    youtube: XyHOehmk8SY
+    index: 914
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "20200110110"
+    week: 110
+    name: キミのカオ
+    artist: ホフディラン
+    kana: ""
+    year: 1997
+    nation: JPN
+    label: ポニーキャニオン
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 915
+    indexInWeek: 9
+    selector: 草野マサムネ

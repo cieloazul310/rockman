@@ -1,0 +1,136 @@
+id: "20190095"
+week: 95
+year: 2019
+title: 名古屋のロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-10-27
+playlist:
+  - id: "2019009595"
+    week: 95
+    name: ありがとさん
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: I24azAvtwu8
+    index: 783
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: 恋をしましょう
+    artist: フラワーカンパニーズ
+    kana: ""
+    year: 1996
+    nation: JPN
+    label: アンティノスレコード
+    producer: []
+    corner: ""
+    youtube: OeqNLagjlEA
+    index: 784
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: OPEN THE ATTACK
+    artist: SNIPER
+    kana: ""
+    year: 1984
+    nation: JPN
+    label: Electric Lady Land Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 785
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: FREE LANCER
+    artist: THE STAR CLUB
+    kana: ""
+    year: 1986
+    nation: JPN
+    label: Invitation
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 786
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: 左ききのBABY
+    artist: BLANKY JET CITY
+    kana: ""
+    year: 1997
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 787
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: Puzzle
+    artist: 04 Limited Sazabys
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 788
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: 未完成ワールド
+    artist: Qaijff
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: KAIROS
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 789
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: N.E.O.
+    artist: CHAI
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: OTEMOYAN record
+    producer: []
+    corner: ""
+    youtube: YMGf3zyhG94
+    index: 790
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019009595"
+    week: 95
+    name: ハレーション
+    artist: たむらぱん
+    kana: ""
+    year: 2008
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 791
+    indexInWeek: 9
+    selector: 草野マサムネ

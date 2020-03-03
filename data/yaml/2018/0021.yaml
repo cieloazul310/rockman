@@ -1,0 +1,127 @@
+id: "20180021"
+week: 21
+year: 2018
+title: 産業ロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-05-27
+playlist:
+  - id: "2018002121"
+    week: 21
+    name: 正しい街
+    artist: the ウラシマ’S
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 168
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: Any Way You Want It
+    artist: Journey
+    kana: ""
+    year: 1980
+    nation: US
+    label: Columbia
+    producer:
+      - Geoff Workman
+    corner: ""
+    youtube: atxUuldUcfI
+    index: 169
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: Heat of the Moment
+    artist: Asia
+    kana: ""
+    year: 1982
+    nation: UK
+    label: Geffen
+    producer:
+      - Mike Stone
+    corner: ""
+    youtube: 81qZLpu8FY4
+    index: 170
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: Working for the Weekend
+    artist: Loverboy
+    kana: ""
+    year: 1981
+    nation: CAN
+    label: Columbia
+    producer:
+      - Bruce Fairbairn
+    corner: ""
+    youtube: zL8G5pBZ5CI
+    index: 171
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: In Your Letter
+    artist: REO Speedwagon
+    kana: ""
+    year: 1980
+    nation: US
+    label: Epic
+    producer:
+      - Kevin Beamish
+    corner: ""
+    youtube: zpOULjyy-n8
+    index: 172
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: People of the South Wind
+    artist: Kansas
+    kana: ""
+    year: 1979
+    nation: US
+    label: Kirshner
+    producer: []
+    corner: ""
+    youtube: FtXwopQ0GYo
+    index: 173
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: "99"
+    artist: Toto
+    kana: ""
+    year: 1979
+    nation: US
+    label: Columbia
+    producer: []
+    corner: ""
+    youtube: qhw-XlTMB5I
+    index: 174
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018002121"
+    week: 21
+    name: Y・M・J・S
+    artist: Sepa
+    kana: ""
+    year: 2001
+    nation: JPN
+    label: 徳間ジャパン
+    producer:
+      - 森純太
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 175
+    indexInWeek: 8
+    selector: 草野マサムネ

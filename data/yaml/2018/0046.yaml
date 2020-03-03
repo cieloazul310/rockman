@@ -1,0 +1,157 @@
+id: "20180046"
+week: 46
+year: 2018
+title: Pixiesで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-11-18
+playlist:
+  - id: "2018004646"
+    week: 46
+    name: テレビ
+    artist: スピッツ
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 377
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Debaser
+    artist: Pixies
+    kana: ""
+    year: 1989
+    nation: US
+    label: 4AD
+    producer:
+      - Gil Norton
+    corner: ""
+    youtube: PVyS9JwtFoQ
+    index: 378
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Bone Machine
+    artist: Pixies
+    kana: ""
+    year: 1988
+    nation: US
+    label: 4AD
+    producer:
+      - Steve Albini
+    corner: ""
+    youtube: HfLk4o6ybCU
+    index: 379
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Here Comes Your Man
+    artist: Pixies
+    kana: ""
+    year: 1989
+    nation: US
+    label: 4AD
+    producer:
+      - Gil Norton
+    corner: ""
+    youtube: tPgf_btTFlc
+    index: 380
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Something Against You
+    artist: Pixies
+    kana: ""
+    year: 1988
+    nation: US
+    label: 4AD
+    producer:
+      - Steve Albini
+    corner: ""
+    youtube: ApUZ5DEyBHM
+    index: 381
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Velouria
+    artist: Pixies
+    kana: ""
+    year: 1990
+    nation: US
+    label: 4AD
+    producer:
+      - Gil Norton
+    corner: ""
+    youtube: nc0Mv4Iyxvc
+    index: 382
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Bel Esprit
+    artist: Pixies
+    kana: ""
+    year: 2016
+    nation: US
+    label: Pixiesmusic
+    producer:
+      - Tom Dalgety
+    corner: ""
+    youtube: 0O6Q6vb4KBk
+    index: 383
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Broken Face
+    artist: Pixies
+    kana: ""
+    year: 1988
+    nation: US
+    label: 4AD
+    producer:
+      - Steve Albini
+    corner: ""
+    youtube: ""
+    index: 384
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: Allison
+    artist: Pixies
+    kana: ""
+    year: 1990
+    nation: US
+    label: 4AD
+    producer:
+      - Gil Norton
+    corner: ""
+    youtube: n37Bdr559to
+    index: 385
+    indexInWeek: 9
+    selector: 草野マサムネ
+  - id: "2018004646"
+    week: 46
+    name: できない
+    artist: ふくろうず
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: _DGp6LhmXoc
+    index: 386
+    indexInWeek: 10
+    selector: 草野マサムネ

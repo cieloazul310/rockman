@@ -1,0 +1,141 @@
+id: "20190061"
+week: 61
+year: 2019
+title: MUSIC LIFE 1980年12月号で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-03-03
+playlist:
+  - id: "2019006161"
+    week: 61
+    name: つぐみ
+    artist: スピッツ
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: I34Zdec6RWk
+    index: 503
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: I Was Made for Lovin' You
+    artist: Kiss
+    kana: ""
+    year: 1979
+    nation: US
+    label: Casablanca
+    producer: []
+    corner: ""
+    youtube: 12fJAnaif34
+    index: 504
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: Hungry Heart
+    artist: Bruce Springsteen
+    kana: ""
+    year: 1980
+    nation: US
+    label: Columbia
+    producer:
+      - John Landau
+    corner: ""
+    youtube: boJhWtw-6Gg
+    index: 505
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: Rock Brigade
+    artist: Def Leppard
+    kana: ""
+    year: 1980
+    nation: UK
+    label: Vertigo
+    producer:
+      - Tom Allom
+    corner: ""
+    youtube: NRYSlLLU0RE
+    index: 506
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: Tonight
+    artist: Zaine Griff
+    kana: ""
+    year: 1980
+    nation: NZ
+    label: Automatic
+    producer: []
+    corner: ""
+    youtube: guZ1Eam4xSw
+    index: 507
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: No Strings Attached
+    artist: Wild Horses
+    kana: ""
+    year: 1980
+    nation: UK
+    label: EMI
+    producer:
+      - Trevor Rabin
+    corner: ""
+    youtube: DShRY11q_CI
+    index: 508
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: Brass in Pocket
+    artist: The Pretenders
+    kana: ""
+    year: 1979
+    nation: UK
+    label: Real
+    producer:
+      - Chris Thomas
+    corner: ""
+    youtube: xjnduGbq6r0
+    index: 509
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: Wait for Me
+    artist: Daryl Hall and John Oates
+    kana: ""
+    year: 1979
+    nation: US
+    label: RCA
+    producer:
+      - David Foster
+    corner: ""
+    youtube: 5zkHLp24Gis
+    index: 510
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019006161"
+    week: 61
+    name: ロンリー・ハート (Lonely Hearts)
+    artist: Creation
+    kana: ""
+    year: 1981
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: N4gnKRUZKMI
+    index: 511
+    indexInWeek: 9
+    selector: 草野マサムネ

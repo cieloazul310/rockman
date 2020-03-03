@@ -644,8 +644,9 @@ export type FileFieldsEnum =
   'childYaml___playlist___label' |
   'childYaml___playlist___producer' |
   'childYaml___playlist___youtube' |
-  'childYaml___playlist___selectedBy' |
-  'childYaml___playlist___corner';
+  'childYaml___playlist___selector' |
+  'childYaml___playlist___corner' |
+  'childYaml___fields___slug';
 
 export type FileFilterInput = {
   sourceInstanceName?: Maybe<StringQueryOperatorInput>,
@@ -927,7 +928,8 @@ export type QueryYamlArgs = {
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
-  playlist?: Maybe<YamlPlaylistFilterListInput>
+  playlist?: Maybe<YamlPlaylistFilterListInput>,
+  fields?: Maybe<YamlFieldsFilterInput>
 };
 
 
@@ -1746,6 +1748,7 @@ export type Yaml = Node & {
   subtitle?: Maybe<Scalars['String']>,
   date?: Maybe<Scalars['Date']>,
   playlist?: Maybe<Array<Maybe<YamlPlaylist>>>,
+  fields?: Maybe<YamlFields>,
 };
 
 
@@ -1781,6 +1784,10 @@ export type YamlEdge = {
   next?: Maybe<Yaml>,
   node: Yaml,
   previous?: Maybe<Yaml>,
+};
+
+export type YamlFields = {
+  slug?: Maybe<Scalars['String']>,
 };
 
 export type YamlFieldsEnum = 
@@ -1887,8 +1894,13 @@ export type YamlFieldsEnum =
   'playlist___label' |
   'playlist___producer' |
   'playlist___youtube' |
-  'playlist___selectedBy' |
-  'playlist___corner';
+  'playlist___selector' |
+  'playlist___corner' |
+  'fields___slug';
+
+export type YamlFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
 
 export type YamlFilterInput = {
   id?: Maybe<StringQueryOperatorInput>,
@@ -1901,6 +1913,7 @@ export type YamlFilterInput = {
   subtitle?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   playlist?: Maybe<YamlPlaylistFilterListInput>,
+  fields?: Maybe<YamlFieldsFilterInput>,
 };
 
 export type YamlGroupConnection = {
@@ -1924,7 +1937,7 @@ export type YamlPlaylist = {
   label?: Maybe<Scalars['String']>,
   producer?: Maybe<Array<Maybe<Scalars['String']>>>,
   youtube?: Maybe<Scalars['String']>,
-  selectedBy?: Maybe<Scalars['String']>,
+  selector?: Maybe<Scalars['String']>,
   corner?: Maybe<Scalars['String']>,
 };
 
@@ -1940,7 +1953,7 @@ export type YamlPlaylistFilterInput = {
   label?: Maybe<StringQueryOperatorInput>,
   producer?: Maybe<StringQueryOperatorInput>,
   youtube?: Maybe<StringQueryOperatorInput>,
-  selectedBy?: Maybe<StringQueryOperatorInput>,
+  selector?: Maybe<StringQueryOperatorInput>,
   corner?: Maybe<StringQueryOperatorInput>,
 };
 
@@ -1953,3 +1966,15 @@ export type YamlSortInput = {
   order?: Maybe<Array<Maybe<SortOrderEnum>>>,
 };
 
+export type WeekMenuQueryVariables = {};
+
+
+export type WeekMenuQuery = { allYaml: { edges: Array<{ node: Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'year'> }> } };
+
+export type IndexQueryVariables = {};
+
+
+export type IndexQuery = { allYaml: { edges: Array<{ node: (
+        Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year'>
+        & { playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+      ) }> } };

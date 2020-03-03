@@ -1,0 +1,109 @@
+id: "20190068"
+week: 68
+year: 2019
+title: ロックなドラマ主題歌で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-04-21
+playlist:
+  - id: "2019006868"
+    week: 68
+    name: 空も飛べるはず
+    artist: スピッツ
+    kana: ""
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: h-kQw4JqCHE
+    index: 561
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: TRAIN-TRAIN
+    artist: THE BLUE HEARTS
+    kana: ""
+    year: 1988
+    nation: JPN
+    label: メルダック
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 562
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: Monkey Magic
+    artist: ゴダイゴ
+    kana: ""
+    year: 1978
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 563
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: 生きてるって言ってみろ
+    artist: 友川かずき
+    kana: ともかわかずき
+    year: 1974
+    nation: JPN
+    label: EXPRESS
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 564
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: STARS
+    artist: ORIGINAL LOVE
+    kana: ""
+    year: 1999
+    nation: JPN
+    label: ポニーキャニオン
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 565
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: ヒトリセカイ
+    artist: 10-FEET
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: ""
+    youtube: rxjKJ_2T9DY
+    index: 566
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019006868"
+    week: 68
+    name: ESCAPE
+    artist: MOON CHILD
+    kana: ""
+    year: 1997
+    nation: JPN
+    label: avex trax
+    producer:
+      - 今井裕
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 567
+    indexInWeek: 7
+    selector: 草野マサムネ

@@ -1,0 +1,127 @@
+id: "20180048"
+week: 48
+year: 2018
+title: オーストラリアのロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-12-02
+playlist:
+  - id: "2018004848"
+    week: 48
+    name: ヘビーメロウ
+    artist: スピッツ
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: BASmTe-x-Ok
+    index: 394
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: Back in Black
+    artist: AC/DC
+    kana: ""
+    year: 1980
+    nation: AUS
+    label: Albert
+    producer:
+      - Robert John “Mutt” Lange
+    corner: ""
+    youtube: pAgnJDJN4VA
+    index: 395
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: Are You Gonna Be My Girl
+    artist: Jet
+    kana: ""
+    year: 2003
+    nation: AUS
+    label: Elektra
+    producer:
+      - Dave Sardy
+    corner: ""
+    youtube: tuK6n2Lkza0
+    index: 396
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: What You Need
+    artist: INXS
+    kana: ""
+    year: 1985
+    nation: AUS
+    label: Atlantic
+    producer:
+      - Chris Thomas
+    corner: ""
+    youtube: FoEPrbdfmT4
+    index: 397
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: Hey, St. Peter
+    artist: Flash & the Pan
+    kana: ""
+    year: 1978
+    nation: AUS
+    label: Albert
+    producer:
+      - Harry Vanda
+    corner: ""
+    youtube: ffNImKTmiws
+    index: 398
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: Lonesome Loser
+    artist: Little River Band
+    kana: ""
+    year: 1979
+    nation: AUS
+    label: Capitol Records
+    producer:
+      - John Boylan
+    corner: ""
+    youtube: ay1FBKsF2Nk
+    index: 399
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: The Less I Know The Better
+    artist: Tame Impala
+    kana: ""
+    year: 2015
+    nation: AUS
+    label: Modular
+    producer: []
+    corner: ""
+    youtube: sBzrzS1Ag_g
+    index: 400
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018004848"
+    week: 48
+    name: Butch & The Sundance Kid
+    artist: Psysalia Psysalis Psyche
+    kana: ""
+    year: 2008
+    nation: JPN
+    label: Acid Rain
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 401
+    indexInWeek: 8
+    selector: 草野マサムネ

@@ -1,0 +1,139 @@
+id: "20190102"
+week: 102
+year: 2019
+title: ビートルズのカバー曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-12-15
+playlist:
+  - id: "20190102102"
+    week: 102
+    name: 空も飛べるはず (Album Version)
+    artist: スピッツ
+    kana: ""
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: h-kQw4JqCHE
+    index: 844
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: キャント・バイ・ミー・ラブ
+    artist: 東京ビートルズ
+    kana: とうきょうびーとるず
+    year: 1964
+    nation: JPN
+    label: ビクターエンタテイメント
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 845
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: Day Tripper
+    artist: Cheap Trick
+    kana: ""
+    year: 1980
+    nation: US
+    label: Epic
+    producer: []
+    corner: ""
+    youtube: aWz3pM0j90M
+    index: 846
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: We Can Work It Out
+    artist: Deep Purple
+    kana: ""
+    year: 1969
+    nation: UK
+    label: Harvest
+    producer:
+      - Derek Lawrence
+    corner: ""
+    youtube: UY1C_Hn6Sdo
+    index: 847
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: イエロー・サブマリン音頭
+    artist: 金沢明子
+    kana: かなざわあきこ
+    year: 1982
+    nation: JPN
+    label: ビクター
+    producer:
+      - 大瀧詠一
+    corner: ""
+    youtube: ""
+    index: 848
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: Helier Skelter
+    artist: Mötley Crüe
+    kana: ""
+    year: 1983
+    nation: US
+    label: Elektra
+    producer:
+      - Tom Werman
+    corner: ""
+    youtube: _QrBJNtC-MU
+    index: 849
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: I’ve Just Seen A Face
+    artist: 小野リサ
+    kana: おのりさ
+    year: 2006
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ""
+    youtube: XBaTkoWhVBA
+    index: 850
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: Across the Universe
+    artist: Fiona Apple
+    kana: ""
+    year: 1998
+    nation: US
+    label: New Line Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 851
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "20190102102"
+    week: 102
+    name: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 852
+    indexInWeek: 9
+    selector: 草野マサムネ

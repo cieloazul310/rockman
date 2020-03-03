@@ -1,0 +1,127 @@
+id: "20180006"
+week: 6
+year: 2018
+title: そのメロディ、よー作ったな！美メロで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-02-11
+playlist:
+  - id: "2018000606"
+    week: 6
+    name: 魔女旅に出る
+    artist: スピッツ
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 高橋信彦
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 41
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: Honesty
+    artist: Billy Joel
+    kana: ""
+    year: 1979
+    nation: US
+    label: Columbia
+    producer:
+      - Phil Ramone
+    corner: ""
+    youtube: SuFScoO4tb0
+    index: 42
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: Pretty Ballerina
+    artist: The Left Banke
+    kana: ""
+    year: 1967
+    nation: US
+    label: Smash
+    producer:
+      - Harry Lookofsky
+    corner: ""
+    youtube: ""
+    index: 43
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: Love Me Please Love Me
+    artist: Michel Polnareff
+    kana: ""
+    year: 1966
+    nation: FR
+    label: Disc'AZ
+    producer: []
+    corner: ""
+    youtube: CM8CzDsCoeE
+    index: 44
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: Leave a Light On
+    artist: Belinda Carlisle
+    kana: ""
+    year: 1989
+    nation: US
+    label: MCA, Virgin
+    producer:
+      - Rick Nowels
+    corner: ""
+    youtube: pmZYE8j2ZNs
+    index: 45
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: Love Letter Boxes
+    artist: The Posies
+    kana: ""
+    year: 1993
+    nation: US
+    label: DGC
+    producer:
+      - Don Fleming
+    corner: ""
+    youtube: q1oiHcKAAeA
+    index: 46
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: YES-YES-YES
+    artist: オフコース
+    kana: ""
+    year: 1982
+    nation: JPN
+    label: EXPRESS
+    producer: []
+    corner: ""
+    youtube: v8a6z8PixD0
+    index: 47
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018000606"
+    week: 6
+    name: 積木の汽車
+    artist: Sheen
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ファンハウス
+    producer:
+      - 森達彦
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 48
+    indexInWeek: 8
+    selector: 草野マサムネ

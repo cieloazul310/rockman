@@ -1,0 +1,127 @@
+id: "20180049"
+week: 49
+year: 2018
+title: シン・リジィで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-12-09
+playlist:
+  - id: "2018004949"
+    week: 49
+    name: エスカルゴ
+    artist: スピッツ
+    kana: ""
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 402
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: Angel from the Coast
+    artist: Thin Lizzy
+    kana: ""
+    year: 1976
+    nation: IRE
+    label: Vertigo
+    producer: []
+    corner: ""
+    youtube: skZXB37hk0M
+    index: 403
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: Look What the Wind Blew In
+    artist: Thin Lizzy
+    kana: ""
+    year: 1971
+    nation: IRE
+    label: Decca Records
+    producer:
+      - Scott English
+    corner: ""
+    youtube: KTjF-yfUtn4
+    index: 404
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: The Rocker
+    artist: Thin Lizzy
+    kana: ""
+    year: 1973
+    nation: IRE
+    label: Decca Records
+    producer:
+      - NickTauber
+    corner: ""
+    youtube: BF3NnFruoWQ
+    index: 405
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: King's Vengeance
+    artist: Thin Lizzy
+    kana: ""
+    year: 1975
+    nation: IRE
+    label: Vertigo
+    producer:
+      - Phil Lynott
+    corner: ""
+    youtube: cxisFycOcxA
+    index: 406
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: S & M
+    artist: Thin Lizzy
+    kana: ""
+    year: 1979
+    nation: IRE
+    label: Vertigo
+    producer:
+      - Tony Visconti
+    corner: ""
+    youtube: D4Ix_8YxQWo
+    index: 407
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: Cowboy Song (Live 1978)
+    artist: Thin Lizzy
+    kana: ""
+    year: 1978
+    nation: IRE
+    label: Vertigo
+    producer:
+      - Tony Visconti
+    corner: ""
+    youtube: I_5lv00BmoU
+    index: 408
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018004949"
+    week: 49
+    name: 捨てちまえ
+    artist: THEATRE BROOK
+    kana: ""
+    year: 1997
+    nation: JPN
+    label: エピックレコードジャパン
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 409
+    indexInWeek: 8
+    selector: 草野マサムネ

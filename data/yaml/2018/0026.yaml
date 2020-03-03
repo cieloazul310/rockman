@@ -1,0 +1,142 @@
+id: "20180026"
+week: 26
+year: 2018
+title: ハイトーンボーカルで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-07-01
+playlist:
+  - id: "2018002626"
+    week: 26
+    name: 青い車
+    artist: スピッツ
+    kana: ""
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 土方隆行
+    corner: 漫遊前の一曲
+    youtube: 5K8ZuLYG0yo
+    index: 211
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Black Shuck
+    artist: The Darkness
+    kana: ""
+    year: 2003
+    nation: UK
+    label: Atlantic
+    producer:
+      - Pedro Ferreira
+    corner: ""
+    youtube: nRlTc1RYMGU
+    index: 212
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Wuthering Heights
+    artist: Kate Bush
+    kana: ""
+    year: 1978
+    nation: UK
+    label: EMI
+    producer:
+      - Andrew Powell
+    corner: ""
+    youtube: -1pMMIe4hb4
+    index: 213
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Hocus Pocus
+    artist: Focus
+    kana: ""
+    year: 1971
+    nation: NED
+    label: Imperial Records
+    producer:
+      - Mike Vernon
+    corner: ""
+    youtube: 9esBTlhbC_g
+    index: 214
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Stayin’ Alive
+    artist: Bee Gees
+    kana: ""
+    year: 1977
+    nation: US
+    label: RSO
+    producer:
+      - Albhy Galuten
+    corner: ""
+    youtube: I_izvAbhExY
+    index: 215
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Anthem
+    artist: Rush
+    kana: ""
+    year: 1975
+    nation: CAN
+    label: Anthem
+    producer:
+      - Terry Brown
+    corner: ""
+    youtube: ""
+    index: 216
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: ワタリドリ
+    artist: "[ALEXANDROS]"
+    kana: Alexandros
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: ""
+    youtube: O_DLtVuiqhI
+    index: 217
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: Lovin’ You
+    artist: Minnie Riperton
+    kana: ""
+    year: 1975
+    nation: US
+    label: Epic
+    producer:
+      - Stevie Wonder
+    corner: ""
+    youtube: REe_U1MxIKM
+    index: 218
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018002626"
+    week: 26
+    name: 終電マスター
+    artist: FREENOTE
+    kana: ""
+    year: 2003
+    nation: JPN
+    label: DESERT AIR RECORDS
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: xrUrKSbYVgE
+    index: 219
+    indexInWeek: 9
+    selector: 草野マサムネ

@@ -1,0 +1,123 @@
+id: "20180014"
+week: 14
+year: 2018
+title: 70年代日本語ロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-04-08
+playlist:
+  - id: "2018001414"
+    week: 14
+    name: ビギナー
+    artist: スピッツ
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: Dy7p52n2JGs
+    index: 108
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: わかってもらえるさ
+    artist: RCサクセション
+    kana: ""
+    year: 1976
+    nation: JPN
+    label: キティレコード
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 109
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: 踊ろよベイビー
+    artist: 遠藤賢司
+    kana: えんどうけんじ
+    year: 1974
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 110
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: 香り
+    artist: 外道
+    kana: げどう
+    year: 1974
+    nation: JPN
+    label: ショーボートレコード
+    producer:
+      - ミッキー・カーチス
+    corner: ""
+    youtube: UINL13_XHLg
+    index: 111
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: 夕飯は御仕舞
+    artist: 葡萄畑
+    kana: ぶどうばたけ
+    year: 1974
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 112
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: スウィート・ホーム大阪
+    artist: ファニー・カンパニー
+    kana: ""
+    year: 1972
+    nation: JPN
+    label: アトランティック
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 113
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: On Wings of Love
+    artist: 紫
+    kana: むらさき
+    year: 1976
+    nation: JPN
+    label: Bourbon Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 114
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018001414"
+    week: 14
+    name: シトラス
+    artist: advantage Lucy
+    kana: ""
+    year: 1998
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 115
+    indexInWeek: 8
+    selector: 草野マサムネ

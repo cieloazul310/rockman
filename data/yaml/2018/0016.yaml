@@ -1,0 +1,124 @@
+id: "20180016"
+week: 16
+year: 2018
+title: 素敵なイントロで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-04-22
+playlist:
+  - id: "2018001616"
+    week: 16
+    name: シロクマ
+    artist: スピッツ
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: UiYl1r5m5a0
+    index: 124
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: Baba O'Riley
+    artist: The Who
+    kana: ""
+    year: 1971
+    nation: UK
+    label: Polydor
+    producer:
+      - Glyn Johns
+    corner: ""
+    youtube: LDknRxdHNog
+    index: 125
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: Applaud The Winner
+    artist: Tantrum
+    kana: ""
+    year: 1979
+    nation: US
+    label: Ovation Records
+    producer: []
+    corner: ""
+    youtube: nI6dkvEsdoE
+    index: 126
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: Push
+    artist: The Cure
+    kana: ""
+    year: 1985
+    nation: UK
+    label: Fiction
+    producer:
+      - David M. Allen
+    corner: ""
+    youtube: i6T7xjBFPWA
+    index: 127
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: JOLLY ROGERS
+    artist: THE WILLARD
+    kana: ""
+    year: 1985
+    nation: JPN
+    label: キャプテンレコード
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 128
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: The Ballroom Blitz
+    artist: Sweet
+    kana: ""
+    year: 1973
+    nation: UK
+    label: RCA
+    producer: []
+    corner: ""
+    youtube: ewFBuYHldeY
+    index: 129
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: This Magnificent Bird Will Rise
+    artist: Deerhoof
+    kana: ""
+    year: 2002
+    nation: US
+    label: Kill Rock Stars
+    producer: []
+    corner: ""
+    youtube: hjAMDEfdluY
+    index: 130
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018001616"
+    week: 16
+    name: S.O.S
+    artist: ハイハニDX
+    kana: ""
+    year: 2000
+    nation: JPN
+    label: Knockers Records
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 131
+    indexInWeek: 8
+    selector: 草野マサムネ

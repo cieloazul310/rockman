@@ -1,0 +1,140 @@
+id: "20190092"
+week: 92
+year: 2019
+title: 水戸黄門リズムで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-10-06
+playlist:
+  - id: "2019009292"
+    week: 92
+    name: 見っけ
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 757
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: Am I Evil?
+    artist: Diamond Head
+    kana: ""
+    year: 1980
+    nation: UK
+    label: Happy Face
+    producer: []
+    corner: ""
+    youtube: bdKY4Id-q08
+    index: 758
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: Beck's Bolero
+    artist: Jeff Beck
+    kana: ""
+    year: 1967
+    nation: UK
+    label: Columbia
+    producer:
+      - Mickie Most
+    corner: ""
+    youtube: Q8y-066wr4c
+    index: 759
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: The Ides of March
+    artist: Iron Maiden
+    kana: ""
+    year: 1981
+    nation: UK
+    label: EMI
+    producer:
+      - Martin Birch
+    corner: ""
+    youtube: rGJnjSATu50
+    index: 760
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: Lady
+    artist: Styx
+    kana: ""
+    year: 1973
+    nation: US
+    label: Wooden Nickel Records
+    producer:
+      - John Ryan
+    corner: ""
+    youtube: rOGpyV-hHtw
+    index: 761
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: 銀の指環
+    artist: チューリップ
+    kana: ""
+    year: 1974
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 762
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: Child In Time
+    artist: Deep Purple
+    kana: ""
+    year: 1970
+    nation: UK
+    label: Harvest
+    producer: []
+    corner: ""
+    youtube: OorZcOzNcgE
+    index: 763
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: The Importance of Being Idle
+    artist: Oasis
+    kana: ""
+    year: 2005
+    nation: UK
+    label: Big Brother
+    producer: []
+    corner: ""
+    youtube: jySfU10IQu4
+    index: 764
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019009292"
+    week: 92
+    name: ハミングがきこえる
+    artist: カヒミ・カリィ
+    kana: ""
+    year: 1996
+    nation: JPN
+    label: ポリスター
+    producer:
+      - 小山田圭吾
+    corner: ちょっぴりタイムマシン
+    youtube: jgxmgtJ2Lc8
+    index: 765
+    indexInWeek: 9
+    selector: 草野マサムネ

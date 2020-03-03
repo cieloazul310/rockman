@@ -1,0 +1,128 @@
+id: "20190055"
+week: 55
+year: 2019
+title: スピッツ崎山龍男で漫遊記2019
+subtitle: ""
+guests: []
+categories: []
+date: 2019-01-20
+playlist:
+  - id: "2019005555"
+    week: 55
+    name: クリスピー
+    artist: スピッツ
+    kana: ""
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 崎山龍男選曲
+    youtube: ""
+    index: 453
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: We’re an American Band
+    artist: Grand Funk Railroad
+    kana: ""
+    year: 1973
+    nation: US
+    label: Capitol Records
+    producer:
+      - Todd Rundgren
+    corner: 崎山龍男選曲
+    youtube: QxNXFNCTr2I
+    index: 454
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Smokin' in the Boys Room
+    artist: Mötley Crüe
+    kana: ""
+    year: 1985
+    nation: US
+    label: Elektra
+    producer:
+      - Tom Werman
+    corner: 崎山龍男選曲
+    youtube: 9Hp1Bxko8M8
+    index: 455
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Some Skunk Funk (Live 1978)
+    artist: Brecker Brothers
+    kana: ""
+    year: 1978
+    nation: US
+    label: Arista
+    producer:
+      - Randy Brecker
+    corner: 崎山龍男選曲
+    youtube: ""
+    index: 456
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Good Times Bad Times
+    artist: Led Zeppelin
+    kana: ""
+    year: 1969
+    nation: UK
+    label: Atlantic
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: lsZG7n7ries
+    index: 457
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Armed and Ready
+    artist: Michael Schenker Group
+    kana: ""
+    year: 1980
+    nation: GER
+    label: Chrysalis
+    producer:
+      - Roger Glover
+    corner: 崎山龍男選曲
+    youtube: zZ9VzWEQnIY
+    index: 458
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Walking on the Moon
+    artist: The Police
+    kana: ""
+    year: 1979
+    nation: UK
+    label: A&M
+    producer:
+      - Nigel Gray
+    corner: 崎山龍男選曲
+    youtube: zPwMdZOlPo8
+    index: 459
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019005555"
+    week: 55
+    name: Heaven
+    artist: The Groovers
+    kana: ""
+    year: 1989
+    nation: JPN
+    label: アルファレコード
+    producer:
+      - 平沢進
+    corner: 崎山龍男選曲
+    youtube: ""
+    index: 460
+    indexInWeek: 8
+    selector: 草野マサムネ

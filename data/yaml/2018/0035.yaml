@@ -1,0 +1,125 @@
+id: "20180035"
+week: 35
+year: 2018
+title: ロックなビリージョエルで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-09-02
+playlist:
+  - id: "2018003535"
+    week: 35
+    name: 夏が終わる
+    artist: スピッツ
+    kana: ""
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 285
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: It's Still Rock and Roll to Me
+    artist: Billy Joel
+    kana: ""
+    year: 1980
+    nation: US
+    label: Columbia
+    producer:
+      - Phil Ramone
+    corner: ""
+    youtube: 5eAQa4MOGkE
+    index: 286
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: Wonder Woman
+    artist: Attila
+    kana: ""
+    year: 1970
+    nation: US
+    label: Epic
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 287
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: Los Angelenos
+    artist: Billy Joel
+    kana: ""
+    year: 1974
+    nation: US
+    label: Columbia
+    producer:
+      - Michael Stewart
+    corner: ""
+    youtube: Wo2TKojbMN8
+    index: 288
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: Prelude/Angry Young Man
+    artist: Billy Joel
+    kana: ""
+    year: 1976
+    nation: US
+    label: Columbia
+    producer: []
+    corner: ""
+    youtube: M2iNLt_hUZg
+    index: 289
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: You May Be Right
+    artist: Billy Joel
+    kana: ""
+    year: 1980
+    nation: US
+    label: Columbia
+    producer:
+      - Phil Ramone
+    corner: ""
+    youtube: Jo9t5XK0FhA
+    index: 290
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: Shades of Grey
+    artist: Billy Joel
+    kana: ""
+    year: 1993
+    nation: US
+    label: Columbia
+    producer: []
+    corner: ""
+    youtube: CopYqp0HZkY
+    index: 291
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018003535"
+    week: 35
+    name: 夢ゴゴチ
+    artist: 江口洋介
+    kana: えぐちようすけ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 292
+    indexInWeek: 8
+    selector: 草野マサムネ

@@ -1,0 +1,109 @@
+id: "20200106"
+week: 106
+year: 2020
+title: スピッツメンバーで漫遊記・2020初春 崎山龍男編
+subtitle: ""
+guests: []
+categories: []
+date: 2020-01-12
+playlist:
+  - id: "20200106106"
+    week: 106
+    name: メモリーズ・カスタム
+    artist: スピッツ
+    kana: ""
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 石田小吉
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 875
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: Catholic Girls
+    artist: Frank Zappa
+    kana: ""
+    year: 1979
+    nation: US
+    label: Zappa
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: KVVhsOIhnMg
+    index: 876
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: Seven Days
+    artist: Sting
+    kana: ""
+    year: 1992
+    nation: UK
+    label: A&M
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: pG7_gceIFL4
+    index: 877
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: There's No Other Me
+    artist: Jeff Beck
+    kana: ""
+    year: 2010
+    nation: UK
+    label: Atco
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: h153PvH4cXg
+    index: 878
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: Blackmail the Universe
+    artist: Megadeth
+    kana: ""
+    year: 2004
+    nation: US
+    label: Sanctuary
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: uiEkq1fBK_s
+    index: 879
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: ダンスのように抱き寄せたい
+    artist: 松任谷由実
+    kana: まつとうやゆみ
+    year: 2010
+    nation: JPN
+    label: Capitol Records
+    producer:
+      - 松任谷正隆
+    corner: 崎山龍男選曲
+    youtube: -axalihW2HE
+    index: 880
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20200106106"
+    week: 106
+    name: ふられ気分でRock'n' Roll
+    artist: TOM★CAT
+    kana: ""
+    year: 1984
+    nation: JPN
+    label: AARD-VARK
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: ""
+    index: 881
+    indexInWeek: 7
+    selector: 草野マサムネ

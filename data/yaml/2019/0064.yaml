@@ -1,0 +1,137 @@
+id: "20190064"
+week: 64
+year: 2019
+title: 野球のロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-03-24
+playlist:
+  - id: "2019006464"
+    week: 64
+    name: オケラ
+    artist: スピッツ
+    kana: ""
+    year: 2009
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 528
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: Sunny Day Sunday
+    artist: センチメンタル・バス
+    kana: ""
+    year: 1999
+    nation: JPN
+    label: エピックレコードジャパン
+    producer:
+      - ホッピー神山
+    corner: ""
+    youtube: ""
+    index: 529
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: Wild Thing
+    artist: X
+    kana: ""
+    year: 1984
+    nation: US
+    label: Elektra
+    producer: []
+    corner: ""
+    youtube: ro4hdf-Z0fE
+    index: 530
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: BASEBALL KID'S ROCK
+    artist: 浜田省吾
+    kana: はまだしょうご
+    year: 1990
+    nation: JPN
+    label: ソニーレコード
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 531
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: ダイヤモンドの鷹
+    artist: 竜童組
+    kana: りゅうどうぐみ
+    year: 1989
+    nation: JPN
+    label: EPIC SONY
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 532
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: SKY
+    artist: MEGA STOPPER
+    kana: ""
+    year: 2005
+    nation: JPN
+    label: JAC POT RECORDS
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 533
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: Sugar!!
+    artist: フジファブリック
+    kana: ""
+    year: 2009
+    nation: JPN
+    label: EMIミュージック・ジャパン
+    producer:
+      - 亀田誠治
+    corner: ""
+    youtube: D0P6kOqLboQ
+    index: 534
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: We Are the Champion
+    artist: Queen
+    kana: ""
+    year: 1977
+    nation: UK
+    label: EMI
+    producer: []
+    corner: ""
+    youtube: 04854XqcfCY
+    index: 535
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019006464"
+    week: 64
+    name: 白いボールのファンタジー
+    artist: トランザム
+    kana: ""
+    year: 1978
+    nation: JPN
+    label: ビクター
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 536
+    indexInWeek: 9
+    selector: 草野マサムネ

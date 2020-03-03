@@ -1,0 +1,125 @@
+id: "20190060"
+week: 60
+year: 2019
+title: え？そんな意味だったの？で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-02-24
+playlist:
+  - id: "2019006060"
+    week: 60
+    name: Stratagem
+    artist: Eric Johnson
+    kana: ""
+    year: 2017
+    nation: US
+    label: Vortexan Music
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: 4S4grLL10UM
+    index: 495
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: Beat It
+    artist: Michael Jackson
+    kana: ""
+    year: 1983
+    nation: US
+    label: Epic
+    producer:
+      - Quincy Jones
+    corner: ""
+    youtube: oRdxUFDoQe0
+    index: 496
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: Dreaming
+    artist: Blondie
+    kana: ""
+    year: 1979
+    nation: US
+    label: Chrysalis
+    producer:
+      - Mike Chapman
+    corner: ""
+    youtube: TU3-lS_Gryk
+    index: 497
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: A Man I'll Never Be
+    artist: Boston
+    kana: ""
+    year: 1978
+    nation: US
+    label: Epic
+    producer: []
+    corner: ""
+    youtube: gZxP3bMn0as
+    index: 498
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: One Night Love Affair
+    artist: Bryan Adams
+    kana: ""
+    year: 1985
+    nation: CAN
+    label: A&M
+    producer:
+      - Bob Clearmountain
+    corner: ""
+    youtube: W3SwEZ2WoUA
+    index: 499
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: I Don't Like Mondays
+    artist: The Boomtown Rats
+    kana: ""
+    year: 1979
+    nation: IRE
+    label: Ensign
+    producer:
+      - Phil Wainman
+    corner: ""
+    youtube: -Kobdb37Cwc
+    index: 500
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: Air Guitar
+    artist: McBusted
+    kana: ""
+    year: 2014
+    nation: UK
+    label: Island
+    producer: []
+    corner: ""
+    youtube: 6mLKQgP8pdM
+    index: 501
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019006060"
+    week: 60
+    name: LET'S GET TOGETHER
+    artist: THE RYDERS
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: トイズファクトリー
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 502
+    indexInWeek: 8
+    selector: 草野マサムネ

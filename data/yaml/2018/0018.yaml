@@ -1,0 +1,122 @@
+id: "20180018"
+week: 18
+year: 2018
+title: 憂鬱な時こそ暗くて美しい曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-05-06
+playlist:
+  - id: "2018001818"
+    week: 18
+    name: ガーベラ
+    artist: スピッツ
+    kana: ""
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 140
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: センチメンタル
+    artist: Syrup16g
+    kana: ""
+    year: 2002
+    nation: JPN
+    label: トライアド
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 141
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: 小さなリンジー
+    artist: 田中茉裕
+    kana: たなかまひろ
+    year: 2012
+    nation: JPN
+    label: AVOCADO records
+    producer: []
+    corner: ""
+    youtube: YFESOU_YdSA
+    index: 142
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: 貴方が好きな私
+    artist: 阿部真央
+    kana: あべまお
+    year: 2013
+    nation: JPN
+    label: ポニーキャニオン
+    producer: []
+    corner: ""
+    youtube: mvt21LGL7P0
+    index: 143
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: サルビアの花
+    artist: もとまろ
+    kana: ""
+    year: 1972
+    nation: JPN
+    label: キャニオンレコード
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 144
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: Autre Temps
+    artist: Alcest
+    kana: ""
+    year: 2012
+    nation: FR
+    label: Prophecy Productions
+    producer: []
+    corner: ""
+    youtube: 85c-P9hbmBg
+    index: 145
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: ひかりのふるさと
+    artist: 青葉市子
+    kana: あおばいちこ
+    year: 2012
+    nation: JPN
+    label: 東雲録音
+    producer: []
+    corner: ""
+    youtube: qoa1G6uBz-0
+    index: 146
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018001818"
+    week: 18
+    name: Boys & Girls
+    artist: THE FUSE
+    kana: ""
+    year: 1990
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 147
+    indexInWeek: 8
+    selector: 草野マサムネ

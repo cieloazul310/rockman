@@ -1,0 +1,138 @@
+id: "20180036"
+week: 36
+year: 2018
+title: ロク漫的オシャレロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-09-09
+playlist:
+  - id: "2018003636"
+    week: 36
+    name: ルナルナ
+    artist: スピッツ
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 293
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: Exotic Lollipop (and other red roses) -奇妙なロリポップ-
+    artist: Flipper’s Guitar
+    kana: ""
+    year: 1989
+    nation: JPN
+    label: ポリスター
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 294
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: Oblivious
+    artist: Aztec Camera
+    kana: ""
+    year: 1983
+    nation: UK
+    label: Rough Trade
+    producer: []
+    corner: ""
+    youtube: eiLAIXl3-_Y
+    index: 295
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: BODY FRESHER
+    artist: ORIGINAL LOVE
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: Eastworld
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 296
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: Carnival
+    artist: The Cardigans
+    kana: ""
+    year: 1995
+    nation: SWE
+    label: Trampolene
+    producer:
+      - Tore Johansson
+    corner: ""
+    youtube: 7bK5EPjGri4
+    index: 297
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: ラ・ブーム〜だってMY BOOM IS ME〜
+    artist: カジヒデキ
+    kana: ""
+    year: 1997
+    nation: JPN
+    label: トラットリア
+    producer: []
+    corner: ""
+    youtube: 9mnZecT4aYw
+    index: 298
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: DUMBO
+    artist: Suchmos
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    producer:
+      - 金子悟
+    corner: ""
+    youtube: ""
+    index: 299
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: Knock Away
+    artist: Attractions
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: GIMMICK-MAGIC
+    producer: []
+    corner: ""
+    youtube: RhqkazxbeJw
+    index: 300
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018003636"
+    week: 36
+    name: An apple a day
+    artist: bice
+    kana: ""
+    year: 2001
+    nation: JPN
+    label: 徳間ジャパン
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 301
+    indexInWeek: 9
+    selector: 草野マサムネ

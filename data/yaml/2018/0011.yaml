@@ -1,0 +1,136 @@
+id: "20180011"
+week: 11
+year: 2018
+title: 今、気になる邦楽リクエストで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-03-18
+playlist:
+  - id: "2018001111"
+    week: 11
+    name: Holiday
+    artist: スピッツ
+    kana: ""
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 石田小吉
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 82
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: キルミー
+    artist: SUNNY CAR WASH
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: OFUTON RECORDS
+    producer: []
+    corner: ""
+    youtube: 8AkTa5QjssU
+    index: 83
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: ベイビーイッツオールライト
+    artist: Layne
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: Youth Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 84
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: Lies,Lies,Lies/あの娘は嘘つき
+    artist: SHOTGUN RUNNERS
+    kana: ""
+    year: 2011
+    nation: JPN
+    label: MAJESTIC SOUND RECORDS
+    producer: []
+    corner: ""
+    youtube: -PCYIJXX0eI
+    index: 85
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: きみの春になれたら
+    artist: プププランド
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: EXXENTRIC RECORDS
+    producer: []
+    corner: ""
+    youtube: -TA2sEgc_Iw
+    index: 86
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: Ghana
+    artist: D.A.N
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: SSWB / BAYON PRODUCTION
+    producer: []
+    corner: ""
+    youtube: z2EcSLaK15w
+    index: 87
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: 檸檬
+    artist: BURNOUT SYNDROMES
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: EPIC SONY
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 88
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: いってみよう
+    artist: 馬喰町バンド
+    kana: ばくろちょうばんど
+    year: 2017
+    nation: JPN
+    label: HOWANIMALMOVE
+    producer: []
+    corner: ""
+    youtube: wz2lipZ3Lho
+    index: 89
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018001111"
+    week: 11
+    name: 欲しいのはおまえだけ
+    artist: BOW WOW
+    kana: ""
+    year: 1980
+    nation: JPN
+    label: SMS Records
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 90
+    indexInWeek: 9
+    selector: 草野マサムネ

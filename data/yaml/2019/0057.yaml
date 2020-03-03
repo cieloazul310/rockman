@@ -1,0 +1,137 @@
+id: "20190057"
+week: 57
+year: 2019
+title: 大和言葉のバンド名で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-02-03
+playlist:
+  - id: "2019005757"
+    week: 57
+    name: SUGINAMI MELODY
+    artist: スピッツ
+    kana: ""
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 469
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: カロン
+    artist: ねごと
+    kana: ""
+    year: 2011
+    nation: JPN
+    label: Ki/oon Records
+    producer:
+      - いしわたり淳治
+    corner: ""
+    youtube: 9UBvB8joUeE
+    index: 470
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: オゾンのダンス
+    artist: たま
+    kana: ""
+    year: 1990
+    nation: JPN
+    label: 日本クラウン
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 471
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: ディスコ
+    artist: ミツメ
+    kana: ""
+    year: 2012
+    nation: JPN
+    label: mitsume
+    producer: []
+    corner: ""
+    youtube: CDVfHCHTbKI
+    index: 472
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: 風の仕業
+    artist: 森は生きている
+    kana: もりはいきている
+    year: 2014
+    nation: JPN
+    label: P-VINE
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 473
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: 解
+    artist: あぶらだこ
+    kana: ""
+    year: 1989
+    nation: JPN
+    label: Wax Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 474
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: メロディ
+    artist: 踊ってばかりの国
+    kana: おどってばかりのくに
+    year: 2018
+    nation: JPN
+    label: ツクモガミ
+    producer: []
+    corner: ""
+    youtube: IbOb_dB83iw
+    index: 475
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: 少年
+    artist: 黒夢
+    kana: くろゆめ
+    year: 1997
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ""
+    youtube: aoWddavMgB8
+    index: 476
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019005757"
+    week: 57
+    name: HIMITSUスパーク
+    artist: カラスは真っ白
+    kana: ""
+    year: 2015
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: h_26_gR7Vs8
+    index: 477
+    indexInWeek: 9
+    selector: 草野マサムネ

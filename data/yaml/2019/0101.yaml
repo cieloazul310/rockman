@@ -1,0 +1,126 @@
+id: "20190101"
+week: 101
+year: 2019
+title: ミッジ・ユーロで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-12-08
+playlist:
+  - id: "20190101101"
+    week: 101
+    name: 快速
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 836
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: Do They Know It's Christmas?
+    artist: Band Aid
+    kana: ""
+    year: 1984
+    nation: UK
+    label: Phonogram
+    producer:
+      - Midge Ure
+    corner: ""
+    youtube: Zdqf-8ToaD4
+    index: 837
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: Requiem
+    artist: Slik
+    kana: ""
+    year: 1976
+    nation: UK
+    label: Bell Records
+    producer: []
+    corner: ""
+    youtube: 8xnc2JuchUc
+    index: 838
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: Young Girls
+    artist: Rich Kids
+    kana: ""
+    year: 1978
+    nation: UK
+    label: EMI
+    producer:
+      - Mick Ronson
+    corner: ""
+    youtube: wMN7MMW5c04
+    index: 839
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: New Europeans
+    artist: Ultravox
+    kana: ""
+    year: 1980
+    nation: UK
+    label: Chrysalis
+    producer:
+      - Conny Plank
+    corner: ""
+    youtube: VJK4TaO8u4Q
+    index: 840
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: Hymn
+    artist: Ultravox
+    kana: ""
+    year: 1982
+    nation: UK
+    label: Chrysalis
+    producer:
+      - George Martin
+    corner: ""
+    youtube: RXLkpwFs8Fs
+    index: 841
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: If I Was
+    artist: Midge Ure
+    kana: ""
+    year: 1985
+    nation: UK
+    label: Chrysalis
+    producer: []
+    corner: ""
+    youtube: VNeiRGzQTDU
+    index: 842
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "20190101101"
+    week: 101
+    name: 帰っておいで
+    artist: JITTERIN'JINN
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 843
+    indexInWeek: 8
+    selector: 草野マサムネ

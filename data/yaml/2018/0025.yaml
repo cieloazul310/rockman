@@ -1,0 +1,140 @@
+id: "20180025"
+week: 25
+year: 2018
+title: 動物名バンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-06-24
+playlist:
+  - id: "2018002525"
+    week: 25
+    name: 猫になりたい
+    artist: スピッツ
+    kana: ""
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 202
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: Daydream Believer
+    artist: The Monkees
+    kana: ""
+    year: 1967
+    nation: US
+    label: Colgems
+    producer:
+      - Chip Douglas
+    corner: ""
+    youtube: xvqeSJlgaNk
+    index: 203
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: Looking for the Man
+    artist: Rabbitt
+    kana: ""
+    year: 1975
+    nation: ZAF
+    label: Jo'Burg Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 204
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: Heartache Tonight
+    artist: Eagles
+    kana: ""
+    year: 1979
+    nation: US
+    label: Asylum
+    producer:
+      - Bill Szymczyk
+    corner: ""
+    youtube: ""
+    index: 205
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: I Don't Like It
+    artist: Zebra
+    kana: ""
+    year: 1984
+    nation: US
+    label: Atlantic
+    producer:
+      - Jack Douglas
+    corner: ""
+    youtube: -0KU-D9dHRk
+    index: 206
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: Prepare Your Coffin
+    artist: Tortoise
+    kana: ""
+    year: 2009
+    nation: US
+    label: Thrill Jockey
+    producer: []
+    corner: ""
+    youtube: 6zRJftR_508
+    index: 207
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: Come Unwound
+    artist: The Bulls
+    kana: ""
+    year: 2014
+    nation: US
+    label: Diet Pink Records
+    producer: []
+    corner: ""
+    youtube: 2Pc64JWiqNA
+    index: 208
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: You're in Love
+    artist: Ratt
+    kana: ""
+    year: 1985
+    nation: US
+    label: Atlantic
+    producer:
+      - Beau Hill
+    corner: ""
+    youtube: 8aqyosRF1Aw
+    index: 209
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018002525"
+    week: 25
+    name: コペルニクス
+    artist: SKAFUNK
+    kana: ""
+    year: 1989
+    nation: JPN
+    label: Wonder Force
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 210
+    indexInWeek: 9
+    selector: 草野マサムネ

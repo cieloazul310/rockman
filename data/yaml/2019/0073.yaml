@@ -1,0 +1,122 @@
+id: "20190073"
+week: 73
+year: 2019
+title: sus4イントロで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-05-26
+playlist:
+  - id: "2019007373"
+    week: 73
+    name: 優しいあの子
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: RkIOd78C82I
+    index: 601
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: Woman
+    artist: John Lennon
+    kana: ""
+    year: 1981
+    nation: UK
+    label: Geffen
+    producer: []
+    corner: ""
+    youtube: ZhfWiU8wGCc
+    index: 602
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: Sweet Lorraine
+    artist: Uriah Heep
+    kana: ""
+    year: 1972
+    nation: UK
+    label: Bronze
+    producer: []
+    corner: ""
+    youtube: haUiygv5QQg
+    index: 603
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: モニカ
+    artist: 吉川晃司
+    kana: きっかわこうじ
+    year: 1984
+    nation: JPN
+    label: SMS Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 604
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: Pinball Wizard
+    artist: The Who
+    kana: ""
+    year: 1969
+    nation: UK
+    label: Decca Records
+    producer:
+      - Kit Lambert
+    corner: ""
+    youtube: -J03yCE15rg
+    index: 605
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: Venus
+    artist: Shocking Blue
+    kana: ""
+    year: 1969
+    nation: NED
+    label: Pink Elephant
+    producer: []
+    corner: ""
+    youtube: Dg-UiOSjJeM
+    index: 606
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: RADIO MAGIC
+    artist: EARTHSHAKER
+    kana: ""
+    year: 1984
+    nation: JPN
+    label: NEXUS
+    producer: []
+    corner: ""
+    youtube: n9syF5d_pyQ
+    index: 607
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019007373"
+    week: 73
+    name: クライマクス
+    artist: TAMTAM
+    kana: ""
+    year: 2014
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: LAqVYrPqOM8
+    index: 608
+    indexInWeek: 8
+    selector: 草野マサムネ

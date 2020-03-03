@@ -1,0 +1,108 @@
+id: "20180047"
+week: 47
+year: 2018
+title: ロッキングオンジャパン1995年9月号で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-11-25
+playlist:
+  - id: "2018004747"
+    week: 47
+    name: 涙がキラリ☆
+    artist: スピッツ
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: hGsNLE45uWE
+    index: 387
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: ミサイルマン
+    artist: THE HIGH-LOWS
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: キティレコード
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 388
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: Garden
+    artist: Spiral Life
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ポリスター
+    producer: []
+    corner: ""
+    youtube: bezCXU9hdCs
+    index: 389
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: とまどいの時を越えて
+    artist: FLYING KIDS
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ビクターエンタテイメント
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 390
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: Heavy Metal Thunder
+    artist: Cornelius
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: ポリスター
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 391
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: レミレミ
+    artist: 神森徹也
+    kana: かみもりてつや
+    year: 1995
+    nation: JPN
+    label: EMIミュージック・ジャパン
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 392
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018004747"
+    week: 47
+    name: ノーコメント
+    artist: TRANSISTOR GLAMOUR
+    kana: ""
+    year: 1995
+    nation: JPN
+    label: 日本コロムビア
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 393
+    indexInWeek: 7
+    selector: 草野マサムネ

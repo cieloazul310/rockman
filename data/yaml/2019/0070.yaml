@@ -1,0 +1,142 @@
+id: "20190070"
+week: 70
+year: 2019
+title: アナタのアゲアゲロックナンバーリクエストで漫遊記・洋楽編
+subtitle: ""
+guests: []
+categories: []
+date: 2019-05-05
+playlist:
+  - id: "2019007070"
+    week: 70
+    name: 野生のポルカ
+    artist: スピッツ
+    kana: ""
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 575
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: It's Time to Party
+    artist: Andrew W.K.
+    kana: ""
+    year: 2001
+    nation: US
+    label: Island
+    producer: []
+    corner: ""
+    youtube: xemLz_fR1Ac
+    index: 576
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: Cum On Feel the Noize
+    artist: Quiet Riot
+    kana: ""
+    year: 1983
+    nation: US
+    label: Pasha
+    producer:
+      - Spencer Proffer
+    corner: ""
+    youtube: ZxgMGk9JPVA
+    index: 577
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: Semi-Charmed Life
+    artist: Third Eye Blind
+    kana: ""
+    year: 1997
+    nation: US
+    label: Elektra
+    producer:
+      - Eric Valentine
+    corner: ""
+    youtube: beINamVRGy4
+    index: 578
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: In Love with a Camera
+    artist: The Struts
+    kana: ""
+    year: 2018
+    nation: UK
+    label: Interscope Records
+    producer:
+      - Butch Walker
+    corner: ""
+    youtube: Jp41GPXCQ8k
+    index: 579
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: Parchman Farm
+    artist: Cactus
+    kana: ""
+    year: 1970
+    nation: US
+    label: Atco
+    producer: []
+    corner: ""
+    youtube: mC_cvsR8wPg
+    index: 580
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: Still Waiting
+    artist: SUM41
+    kana: ""
+    year: 2002
+    nation: CAN
+    label: Aquarius
+    producer:
+      - Greig Nori
+    corner: ""
+    youtube: qO-mSLxih-c
+    index: 581
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: The Art of Losing
+    artist: American Hi-Fi
+    kana: ""
+    year: 2003
+    nation: US
+    label: Island
+    producer:
+      - Nick Launay
+    corner: ""
+    youtube: JGZODoQq2Xg
+    index: 582
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2019007070"
+    week: 70
+    name: 太陽のラ
+    artist: PoPoyans
+    kana: ""
+    year: 2008
+    nation: JPN
+    label: Good Records
+    producer:
+      - 鈴木惣一朗
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 583
+    indexInWeek: 9
+    selector: 草野マサムネ

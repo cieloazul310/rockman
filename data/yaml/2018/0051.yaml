@@ -1,0 +1,137 @@
+id: "20180051"
+week: 51
+year: 2018
+title: 2018年、気になった曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-12-23
+playlist:
+  - id: "2018005151"
+    week: 51
+    name: ナサケモノ
+    artist: スピッツ
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 418
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: Semicircle Song
+    artist: The Go! Team
+    kana: ""
+    year: 2018
+    nation: UK
+    label: Memphis Industries
+    producer: []
+    corner: ""
+    youtube: DMPRjK813ME
+    index: 419
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: Future
+    artist: Attractions
+    kana: ""
+    year: 2018
+    nation: JPN
+    label: GIMMICK-MAGIC
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 420
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: アーケード
+    artist: カネコアヤノ
+    kana: ""
+    year: 2018
+    nation: JPN
+    label: We Are
+    producer: []
+    corner: ""
+    youtube: r8BB8wQhtd8
+    index: 421
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: 生活
+    artist: polly
+    kana: ""
+    year: 2018
+    nation: JPN
+    label: DAIZAWA RECORDS
+    producer: []
+    corner: ""
+    youtube: Kzion235n-E
+    index: 422
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: Nobody
+    artist: Mitski
+    kana: ""
+    year: 2018
+    nation: US
+    label: Dead Oceans
+    producer:
+      - Patrick Hyland
+    corner: ""
+    youtube: qooWnw5rEcI
+    index: 423
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: 漂流劇団
+    artist: ズーカラデル
+    kana: ""
+    year: 2018
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    producer: []
+    corner: ""
+    youtube: nRhycautvCE
+    index: 424
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: Apathy
+    artist: Frankie Cosmos
+    kana: ""
+    year: 2018
+    nation: US
+    label: Sub Pop
+    producer: []
+    corner: ""
+    youtube: Vc3JanvAgz8
+    index: 425
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018005151"
+    week: 51
+    name: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 426
+    indexInWeek: 9
+    selector: 草野マサムネ

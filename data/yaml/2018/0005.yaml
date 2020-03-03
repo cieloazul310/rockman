@@ -1,0 +1,127 @@
+id: "20180005"
+week: 5
+year: 2018
+title: 残響の気持ちいい曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-02-04
+playlist:
+  - id: "2018000505"
+    week: 5
+    name: みなと
+    artist: スピッツ
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: Universal Records
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: GiuxvmiULhI
+    index: 33
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: The Drugs Don’t Work
+    artist: The Verve
+    kana: ""
+    year: 1997
+    nation: UK
+    label: Hut Records
+    producer:
+      - Youth, Chris Potter
+    corner: ""
+    youtube: ToQ0n3itoII
+    index: 34
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: Real Animal
+    artist: The House of Love
+    kana: ""
+    year: 1987
+    nation: UK
+    label: Creation
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 35
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: Can’t Be Sure
+    artist: The Sundays
+    kana: ""
+    year: 1989
+    nation: UK
+    label: Rough Trade
+    producer:
+      - Ray Shulman
+    corner: ""
+    youtube: yARVs1ZNLjU
+    index: 36
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: 空洞です
+    artist: ゆらゆら帝国
+    kana: ""
+    year: 2007
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    producer: []
+    corner: ""
+    youtube: mKUhq7SYouA
+    index: 37
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: Summer of '69
+    artist: Bryan Adams
+    kana: ""
+    year: 1984
+    nation: CAN
+    label: A&M
+    producer:
+      - Bob Clearmountain
+    corner: ""
+    youtube: eFjjO_lhf9c
+    index: 38
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: I Don't Know What It Is
+    artist: Rufus Wainwright
+    kana: ""
+    year: 2004
+    nation: CAN
+    label: DreamWorks Records
+    producer:
+      - Marius de Vries
+    corner: ""
+    youtube: hv0kaGGFetA
+    index: 39
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018000505"
+    week: 5
+    name: 夕なぎ
+    artist: Nav Katze
+    kana: ""
+    year: 1987
+    nation: JPN
+    label: SWITCH
+    producer:
+      - 窪田晴男
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 40
+    indexInWeek: 8
+    selector: 草野マサムネ

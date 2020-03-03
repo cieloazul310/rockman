@@ -1,0 +1,126 @@
+id: "20180002"
+week: 2
+year: 2018
+title: 草野マサムネの最近のヘビロテ曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-01-14
+playlist:
+  - id: "2018000202"
+    week: 2
+    name: 歌ウサギ
+    artist: スピッツ
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: Universal Records
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 10
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: Superstar
+    artist: Andrew Lloyd Webber and Tim Rice
+    kana: ""
+    year: 1969
+    nation: UK
+    label: Decca/MCA
+    producer:
+      - Tim Rice, Andrew Lloyd Webber
+    corner: ""
+    youtube: Je6g1ufZhJY
+    index: 11
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: The Living End
+    artist: Judee Sill
+    kana: ""
+    year: 1974
+    nation: US
+    label: Water Records
+    producer: []
+    corner: ""
+    youtube: 4gIBGTgnOdU
+    index: 12
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: Dust
+    artist: Fleetwood Mac
+    kana: ""
+    year: 1972
+    nation: UK
+    label: Reprise Records
+    producer:
+      - Fleetwood Mac
+    corner: ""
+    youtube: -i3w576gr9o
+    index: 13
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: サースティ
+    artist: 吉田ヨウヘイgroup
+    kana: よしだようへいぐるーぷ
+    year: 2017
+    nation: JPN
+    label: P-VINE
+    producer: []
+    corner: ""
+    youtube: kRa6RMfrfvI
+    index: 14
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: You Stole My Heart
+    artist: Randy California
+    kana: ""
+    year: 1979
+    nation: US
+    label: ""
+    producer:
+      - Randy California
+    corner: ""
+    youtube: ""
+    index: 15
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: N.E.O.
+    artist: CHAI
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: OTEMOYAN record
+    producer:
+      - CHAI
+    corner: ""
+    youtube: YMGf3zyhG94
+    index: 16
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018000202"
+    week: 2
+    name: Dreamtime
+    artist: SOON
+    kana: ""
+    year: 1998
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 17
+    indexInWeek: 8
+    selector: 草野マサムネ

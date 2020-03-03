@@ -1,0 +1,126 @@
+id: "20190074"
+week: 74
+year: 2019
+title: イカしたストリングスアレンジで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-06-02
+playlist:
+  - id: "2019007474"
+    week: 74
+    name: 魔女旅に出る
+    artist: スピッツ
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 高橋信彦
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 609
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: Beltane Walk
+    artist: T. Rex
+    kana: ""
+    year: 1970
+    nation: UK
+    label: Fly
+    producer:
+      - Tony Visconti
+    corner: ""
+    youtube: ""
+    index: 610
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: Then
+    artist: Yes
+    kana: ""
+    year: 1970
+    nation: UK
+    label: Atlantic
+    producer: []
+    corner: ""
+    youtube: W10qiXqlvo8
+    index: 611
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: Ebony Eyes
+    artist: Bob Welch
+    kana: ""
+    year: 1977
+    nation: US
+    label: Capitol Records
+    producer:
+      - Carter
+    corner: ""
+    youtube: xvuccbcCcsI
+    index: 612
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: Silver
+    artist: Echo & the Bunnymen
+    kana: ""
+    year: 1984
+    nation: UK
+    label: Korova
+    producer: []
+    corner: ""
+    youtube: sQ_QRK_iWrk
+    index: 613
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: 私の楽団（オーケストラ）
+    artist: ZELDA
+    kana: ""
+    year: 1983
+    nation: JPN
+    label: 日本フォノグラム
+    producer:
+      - 白井良明
+    corner: ""
+    youtube: ""
+    index: 614
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: Tonight, Tonight
+    artist: The Smashing Pumpkins
+    kana: ""
+    year: 1996
+    nation: US
+    label: Virgin
+    producer: []
+    corner: ""
+    youtube: NOG3eus4ZSo
+    index: 615
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019007474"
+    week: 74
+    name: 誰のために
+    artist: 赤い鳥
+    kana: あかいとり
+    year: 1970
+    nation: JPN
+    label: LIBERTY
+    producer:
+      - 村井邦彦
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 616
+    indexInWeek: 8
+    selector: 草野マサムネ

@@ -1,0 +1,123 @@
+id: "20190065"
+week: 65
+year: 2019
+title: 北海道のロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2019-03-31
+playlist:
+  - id: "2019006565"
+    week: 65
+    name: 雪風
+    artist: スピッツ
+    kana: ""
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    youtube: KqJBpisB7lE
+    index: 537
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: 新宝島
+    artist: サカナクション
+    kana: ""
+    year: 2015
+    nation: JPN
+    label: NF Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 538
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: HONEY DANCE II
+    artist: KENZI
+    kana: ""
+    year: 1986
+    nation: JPN
+    label: Trip Roll Records
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 539
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: グロリアス
+    artist: GLAY
+    kana: ""
+    year: 1996
+    nation: JPN
+    label: プラチナム・レコード
+    producer:
+      - 佐久間正英
+    corner: ""
+    youtube: 6ewGwJ63Nr4
+    index: 540
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: 2月/February
+    artist: bloodthirsty butchers
+    kana: ""
+    year: 1996
+    nation: JPN
+    label: ベルウッド
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 541
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: バナナフィッシュの浜辺と黒い虹 with Aimer
+    artist: Galileo Galilei
+    kana: ""
+    year: 2014
+    nation: JPN
+    label: SME
+    producer: []
+    corner: ""
+    youtube: iubApGbf04I
+    index: 542
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: アニー
+    artist: ズーカラデル
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: ズーカラデル
+    producer: []
+    corner: ""
+    youtube: zSPEdE651y0
+    index: 543
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2019006565"
+    week: 65
+    name: メロディ
+    artist: sleepy.ab
+    kana: ""
+    year: 2006
+    nation: JPN
+    label: WESS RECORDS
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: _zrGfQjA830
+    index: 544
+    indexInWeek: 8
+    selector: 草野マサムネ

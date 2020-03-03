@@ -1,0 +1,122 @@
+id: "20180050"
+week: 50
+year: 2018
+title: その声に惚れちゃう女性ロックボーカルで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-12-16
+playlist:
+  - id: "2018005050"
+    week: 50
+    name: ウサギのバイク
+    artist: スピッツ
+    kana: ""
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 410
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: This Is the Sound
+    artist: The Juliana Hatfield Three
+    kana: ""
+    year: 1993
+    nation: US
+    label: Mammoth
+    producer:
+      - Scott Litt
+    corner: ""
+    youtube: ""
+    index: 411
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: 美しい棘
+    artist: GLIM SPANKY
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer: []
+    corner: ""
+    youtube: aoHztp815sw
+    index: 412
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: Motorcrash
+    artist: The Sugarcubes
+    kana: ""
+    year: 1988
+    nation: ISL
+    label: One Little Indian
+    producer: []
+    corner: ""
+    youtube: vz9WNOkVTWo
+    index: 413
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
+    artist: マキシマム ザ ホルモン
+    kana: ""
+    year: 2007
+    nation: JPN
+    label: VAP
+    producer: []
+    corner: ""
+    youtube: ""
+    index: 414
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: Beautiful Dream
+    artist: Suddenly, Tammy!
+    kana: ""
+    year: 1995
+    nation: US
+    label: Warner Bros.
+    producer: []
+    corner: ""
+    youtube: fe2L1HXq7u0
+    index: 415
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: タマシイレボリューション
+    artist: Superfly
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    producer: []
+    corner: ""
+    youtube: Z2tedgbqJJs
+    index: 416
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018005050"
+    week: 50
+    name: Water Tracks
+    artist: トルネード竜巻
+    kana: ""
+    year: 2003
+    nation: JPN
+    label: colla disc
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 417
+    indexInWeek: 8
+    selector: 草野マサムネ

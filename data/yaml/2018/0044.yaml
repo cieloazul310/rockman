@@ -1,0 +1,123 @@
+id: "20180044"
+week: 44
+year: 2018
+title: クージーことクジヒロコと漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-11-04
+playlist:
+  - id: "2018004444"
+    week: 44
+    name: ハイファイ・ローファイ
+    artist: スピッツ
+    kana: ""
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    producer: []
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 360
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: While You See a Chance
+    artist: Steve Winwood
+    kana: ""
+    year: 1980
+    nation: UK
+    label: Island
+    producer: []
+    corner: クジヒロコ選曲
+    youtube: 0j6g_uUhH2c
+    index: 361
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: Pump It Up
+    artist: Elvis Costello
+    kana: ""
+    year: 1978
+    nation: UK
+    label: Radar
+    producer:
+      - Nick Lowe
+    corner: クジヒロコ選曲
+    youtube: 3Y71iDvCYXA
+    index: 362
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: Revue
+    artist: Squeeze
+    kana: ""
+    year: 1978
+    nation: UK
+    label: A&M
+    producer:
+      - John Wood
+    corner: クジヒロコ選曲
+    youtube: jMf544DZlPg
+    index: 363
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: In Between Days
+    artist: The Cure
+    kana: ""
+    year: 1985
+    nation: UK
+    label: Fiction
+    producer: []
+    corner: クジヒロコ選曲
+    youtube: scif2vfg1ug
+    index: 364
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: A Beautiful Sea
+    artist: Sing Street
+    kana: ""
+    year: 2016
+    nation: IRE
+    label: Decca Records
+    producer: []
+    corner: クジヒロコ選曲
+    youtube: CiFQxM3isl8
+    index: 365
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: Little Jの嘆き
+    artist: GREAT3
+    kana: ""
+    year: 1996
+    nation: JPN
+    label: 東芝EMI
+    producer: []
+    corner: クジヒロコ選曲
+    youtube: wbfFgR3tc4I
+    index: 366
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018004444"
+    week: 44
+    name: EVERY PLANETS SON
+    artist: ヴィーナス・ペーター
+    kana: ""
+    year: 1992
+    nation: JPN
+    label: WONDER RELEASE RECORDS
+    producer: []
+    corner: クジヒロコ選曲
+    youtube: ""
+    index: 367
+    indexInWeek: 8
+    selector: 草野マサムネ

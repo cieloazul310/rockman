@@ -1,0 +1,139 @@
+id: "20180007"
+week: 7
+year: 2018
+title: スピッツメンバーと漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2018-02-18
+playlist:
+  - id: "2018000707"
+    week: 7
+    name: スカーレット
+    artist: スピッツ
+    kana: ""
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    youtube: l1-D43s6D_A
+    index: 49
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: The Hellion / Electric Eye
+    artist: Judas Priest
+    kana: ""
+    year: 1982
+    nation: UK
+    label: Columbia
+    producer:
+      - Tom Allom
+    corner: 三輪テツヤ選曲
+    youtube: yMVV_HsHcX0
+    index: 50
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: Purgatory
+    artist: Iron Maiden
+    kana: ""
+    year: 1981
+    nation: UK
+    label: EMI
+    producer:
+      - Martin Birch
+    corner: 田村明浩選曲
+    youtube: ie7GZGdgdPQ
+    index: 51
+    indexInWeek: 3
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: あせかきベソかきRock’n Roll run
+    artist: 横浜銀蝿
+    kana: よこはまぎんばえ
+    year: 1982
+    nation: JPN
+    label: キングレコード
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: ""
+    index: 52
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: ふっかつのじゅもん
+    artist: sumika
+    kana: ""
+    year: 2014
+    nation: JPN
+    label: murffin discs
+    producer: []
+    corner: ""
+    youtube: mSe8zHd27MU
+    index: 53
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: You
+    artist: Nuno
+    kana: ""
+    year: 1997
+    nation: US
+    label: A&M
+    producer:
+      - Anthony J. Resta
+    corner: 三輪テツヤ選曲
+    youtube: ""
+    index: 54
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: NO YOUNG
+    artist: フラワーカンパニーズ
+    kana: ""
+    year: 2017
+    nation: JPN
+    label: チキン・スキン・レコード
+    producer: []
+    corner: 田村明浩選曲
+    youtube: ""
+    index: 55
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: alone
+    artist: BAND-MAID
+    kana: ""
+    year: 2016
+    nation: JPN
+    label: CROWN STONES
+    producer: []
+    corner: 崎山龍男選曲
+    youtube: axF56i4spio
+    index: 56
+    indexInWeek: 8
+    selector: 草野マサムネ
+  - id: "2018000707"
+    week: 7
+    name: Honey Dripper
+    artist: アン・ルイス
+    kana: ""
+    year: 1986
+    nation: JPN
+    label: ビクター
+    producer: []
+    corner: ちょっぴりタイムマシン
+    youtube: ""
+    index: 57
+    indexInWeek: 9
+    selector: 草野マサムネ
