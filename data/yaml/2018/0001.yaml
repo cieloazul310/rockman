@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: ""
     youtube: bbr60I0u2Ng
+    title: My Sharona
     index: 1
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000102"
     week: 1
     name: Don’t Look Back
     artist: Boston
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2HuiH-0R6a0
+    title: Don’t Look Back
     index: 2
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000103"
     week: 1
     name: Way of the World
     artist: Cheap Trick
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: y1JuM8fP2dM
+    title: Way of the World
     index: 3
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000104"
     week: 1
     name: Can the Can
     artist: Suzi Quatro
@@ -60,10 +63,11 @@ playlist:
     producer: []
     corner: ""
     youtube: fKBtPXeJwEA
+    title: Can the Can
     index: 4
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000105"
     week: 1
     name: Message in a Bottle
     artist: The Police
@@ -74,10 +78,11 @@ playlist:
     producer: []
     corner: ""
     youtube: MbXWrmQW-OE
+    title: Message in a Bottle
     index: 5
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000106"
     week: 1
     name: The Unconventional
     artist: Japan
@@ -88,10 +93,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: The Unconventional
     index: 6
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000107"
     week: 1
     name: Strutter ’78
     artist: Kiss
@@ -102,10 +108,11 @@ playlist:
     producer: []
     corner: ""
     youtube: SzhdSKxrymY
+    title: Strutter ’78
     index: 7
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000108"
     week: 1
     name: Breakfast in America
     artist: Supertramp
@@ -116,10 +123,11 @@ playlist:
     producer: []
     corner: ""
     youtube: gmj_EmVHiR4
+    title: Breakfast in America
     index: 8
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018000101"
+  - id: "2018000109"
     week: 1
     name: 醒めない
     artist: スピッツ
@@ -131,6 +139,7 @@ playlist:
       - 亀田誠治
     corner: ""
     youtube: fuebj1esuwY
+    title: 醒めない
     index: 9
     indexInWeek: 9
     selector: 草野マサムネ

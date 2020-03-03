@@ -3,11 +3,11 @@ week: 83
 year: 2019
 title: フラワーカンパニーズ 鈴木圭介くんと漫遊記
 subtitle: ""
-guests: []
-categories: []
+guests: ["鈴木圭介(フラワーカンパニーズ)"]
+categories: ["ゲスト回"]
 date: 2019-08-04
 playlist:
-  - id: "2019008383"
+  - id: "2019008301"
     week: 83
     name: 野生のポルカ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 野生のポルカ
     index: 681
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008383"
+  - id: "2019008302"
     week: 83
     name: ロマンチスト
     artist: The STALIN
@@ -31,12 +32,13 @@ playlist:
     nation: JPN
     label: クライマックスレコード
     producer: []
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: ""
+    title: ロマンチスト
     index: 682
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008303"
     week: 83
     name: EARTHSHAKER
     artist: EARTHSHAKER
@@ -46,12 +48,13 @@ playlist:
     label: キングレコード
     producer:
       - 伊藤政則
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: ""
+    title: EARTHSHAKER
     index: 683
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008304"
     week: 83
     name: 香り
     artist: 外道
@@ -61,12 +64,13 @@ playlist:
     label: ショーボートレコード
     producer:
       - ミッキー・カーチス
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: UINL13_XHLg
+    title: 香り
     index: 684
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008305"
     week: 83
     name: どうしようかな
     artist: 村八分
@@ -75,12 +79,13 @@ playlist:
     nation: JPN
     label: Gator Wobble Records
     producer: []
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: ""
+    title: どうしようかな
     index: 685
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008306"
     week: 83
     name: DIE OR JUMP
     artist: フラワーカンパニーズ
@@ -89,12 +94,13 @@ playlist:
     nation: JPN
     label: チキン・スキン・レコード
     producer: []
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: xhv5XRYGMmM
+    title: DIE OR JUMP
     index: 686
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008307"
     week: 83
     name: メシ喰うな!
     artist: INU
@@ -104,12 +110,13 @@ playlist:
     label: ジャパンレコーズ
     producer:
       - 鳥井ガク
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: ""
+    title: メシ喰うな!
     index: 687
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008308"
     week: 83
     name: 米ニスト
     artist: あぶらだこ
@@ -118,12 +125,13 @@ playlist:
     nation: JPN
     label: ジャパンレコーズ
     producer: []
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ""
     youtube: ""
+    title: 米ニスト
     index: 688
     indexInWeek: 8
-    selector: 草野マサムネ
-  - id: "2019008383"
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2019008309"
     week: 83
     name: 新宿の片隅から
     artist: SION
@@ -133,8 +141,9 @@ playlist:
     label: CONTINENTAL
     producer:
       - 麻田浩
-    corner: 鈴木圭介(フラワーカンパニーズ)選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 新宿の片隅から
     index: 689
     indexInWeek: 9
-    selector: 草野マサムネ
+    selector: 鈴木圭介(フラワーカンパニーズ)

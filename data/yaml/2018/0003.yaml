@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-01-21
 playlist:
-  - id: "2018000303"
+  - id: "2018000301"
     week: 3
     name: みそか
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: みそか
     index: 18
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000303"
+  - id: "2018000302"
     week: 3
     name: Living After Midnight
     artist: Judas Priest
@@ -34,6 +35,7 @@ playlist:
       - Tom Allom
     corner: ""
     youtube: 9VVFNgbsDC4
+    title: Living After Midnight
     index: 19
     indexInWeek: 2
     selector: 草野マサムネ
@@ -49,10 +51,11 @@ playlist:
       - Rodger Bain
     corner: ""
     youtube: hkXHsK4AQPs
+    title: Paranoid
     index: 20
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018000303"
+  - id: "2018000304"
     week: 3
     name: Heart Breaker
     artist: Led Zeppelin
@@ -64,10 +67,11 @@ playlist:
       - Jimmy Page
     corner: ""
     youtube: S_CYdTmj7lA
+    title: Heart Breaker
     index: 21
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018000303"
+  - id: "2018000305"
     week: 3
     name: SHINY DAY
     artist: EARTHSHAKER
@@ -78,10 +82,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2IkMJ2xhS8Q
+    title: SHINY DAY
     index: 22
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000303"
+  - id: "2018000306"
     week: 3
     name: Sparkle
     artist: 山下達郎
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Sparkle
     index: 23
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000303"
+  - id: "2018000307"
     week: 3
     name: Dreamy Dreamer
     artist: LU-NA
@@ -106,6 +112,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Dreamy Dreamer
     index: 24
     indexInWeek: 7
     selector: 草野マサムネ

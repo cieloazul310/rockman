@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-12-22
 playlist:
-  - id: "20190103103"
+  - id: "2019010301"
     week: 103
     name: ブービー
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ブービー
     index: 853
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010302"
     week: 103
     name: Not Running
     artist: The Beths
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FKhCeP_tm2Q
+    title: Not Running
     index: 854
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010303"
     week: 103
     name: WLC (We Love Comic)
     artist: SACHIKO by MAISON "SEEK"
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: WLC (We Love Comic)
     index: 855
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010304"
     week: 103
     name: Alleviate
     artist: LEPROUS
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 12eFq16CXSU
+    title: Alleviate
     index: 856
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010305"
     week: 103
     name: 猿上がりシティーポップ
     artist: 秋山黄色
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: zCGl_APrE0Q
+    title: 猿上がりシティーポップ
     index: 857
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010306"
     week: 103
     name: On the Radio
     artist: Du Blonde
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: e1KdkC9eICw
+    title: On the Radio
     index: 858
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010307"
     week: 103
     name: 人間大好き
     artist: バレーボウイズ
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: IysTrf49ukg
+    title: 人間大好き
     index: 859
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010308"
     week: 103
     name: Down Came the Rain
     artist: Jeff Lynne's ELO
@@ -117,10 +124,11 @@ playlist:
     producer: []
     corner: ""
     youtube: MtsIXy6imr8
+    title: Down Came the Rain
     index: 860
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "20190103103"
+  - id: "2019010309"
     week: 103
     name: Duty Friend
     artist: NIKIIE
@@ -131,6 +139,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: d-6-u0kN1sg
+    title: Duty Friend
     index: 861
     indexInWeek: 9
     selector: 草野マサムネ

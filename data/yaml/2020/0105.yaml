@@ -2,12 +2,12 @@ id: "20200105"
 week: 105
 year: 2020
 title: スピッツメンバーで漫遊記・2020初春 三輪テツヤ編
-subtitle: ""
-guests: []
-categories: []
+subtitle: "LIVE音源で漫遊記"
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2020-01-05
 playlist:
-  - id: "20200105105"
+  - id: "2020010501"
     week: 105
     name: どんどどん
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: どんどどん
     index: 869
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200105105"
+  - id: "2020010502"
     week: 105
     name: 夢の中でしか (Live)
     artist: The Groovers
@@ -30,12 +31,13 @@ playlist:
     nation: JPN
     label: ポリドール
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: ""
+    title: 夢の中でしか (Live)
     index: 870
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "20200105105"
+    selector: 三輪テツヤ
+  - id: "2020010503"
     week: 105
     name: Highway Star (Live 1972)
     artist: Deep Purple
@@ -44,12 +46,13 @@ playlist:
     nation: UK
     label: Purple
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: DyCyhaa5mck
+    title: Highway Star (Live 1972)
     index: 871
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "20200105105"
+    selector: 三輪テツヤ
+  - id: "2020010504"
     week: 105
     name: Only You Can Rock Me (Live 1978)
     artist: UFO
@@ -59,12 +62,13 @@ playlist:
     label: Chrysalis
     producer:
       - Ron Nevison
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: bWCenuPMZ_Y
+    title: Only You Can Rock Me (Live 1978)
     index: 872
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "20200105105"
+    selector: 三輪テツヤ
+  - id: "2020010505"
     week: 105
     name: Deuce (Live 1975)
     artist: Kiss
@@ -74,12 +78,13 @@ playlist:
     label: Casablanca
     producer:
       - Eddie Kramer
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: Ux0J7H9JdrE
+    title: Deuce (Live 1975)
     index: 873
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "20200105105"
+    selector: 三輪テツヤ
+  - id: "2020010506"
     week: 105
     name: ヴァージニティー
     artist: レベッカ
@@ -89,8 +94,9 @@ playlist:
     label: CBS・ソニー
     producer:
       - 後藤次利
-    corner: 三輪テツヤ選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: ヴァージニティー
     index: 874
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: 三輪テツヤ

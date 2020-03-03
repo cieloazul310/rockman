@@ -2,12 +2,12 @@ id: "20190056"
 week: 56
 year: 2019
 title: スピッツ田村明浩で漫遊記2019
-subtitle: ""
-guests: []
-categories: []
+subtitle: "ロックバンドのメインヴォーカル以外が歌う曲"
+guests: ["田村明浩"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2019-01-27
 playlist:
-  - id: "2019005656"
+  - id: "2019005601"
     week: 56
     name: ハートが帰らない
     artist: スピッツ
@@ -17,12 +17,13 @@ playlist:
     label: ポリドール
     producer:
       - 石田小吉
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ""
+    title: ハートが帰らない
     index: 461
     indexInWeek: 1
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005602"
     week: 56
     name: Train in Vain
     artist: The Clash
@@ -32,12 +33,13 @@ playlist:
     label: CBS
     producer:
       - Guy Stevens
-    corner: 田村明浩選曲
+    corner: ""
     youtube: aUzBgeI5dpc
+    title: Train in Vain
     index: 462
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005603"
     week: 56
     name: I Know What I Want
     artist: Cheap Trick
@@ -47,12 +49,13 @@ playlist:
     label: Epic
     producer:
       - Tom Werman
-    corner: 田村明浩選曲
+    corner: ""
     youtube: 6thKHnNZ8pQ
+    title: I Know What I Want
     index: 463
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005604"
     week: 56
     name: Gettin' Tighter
     artist: Deep Purple
@@ -62,12 +65,13 @@ playlist:
     label: Purple
     producer:
       - Martin Birch
-    corner: 田村明浩選曲
+    corner: ""
     youtube: JCh53BTSGuU
+    title: Gettin' Tighter
     index: 464
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005605"
     week: 56
     name: "39"
     artist: Queen
@@ -77,12 +81,13 @@ playlist:
     label: EMI
     producer:
       - Roy Thomas Baker
-    corner: 田村明浩選曲
+    corner: ""
     youtube: kE8kGMfXaFU
+    title: "39"
     index: 465
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005606"
     week: 56
     name: かえるの唄
     artist: クリープハイプ
@@ -91,12 +96,13 @@ playlist:
     nation: JPN
     label: ビクターエンタテイメント
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ""
+    title: かえるの唄
     index: 466
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005607"
     week: 56
     name: デッドマンズチェイス (Kameleon Lights Version)
     artist: go!go!vanillas
@@ -105,12 +111,13 @@ playlist:
     nation: JPN
     label: ビクターエンタテイメント
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ""
+    title: デッドマンズチェイス (Kameleon Lights Version)
     index: 467
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019005656"
+    selector: 田村明浩
+  - id: "2019005608"
     week: 56
     name: BYE BYE POPSICLE
     artist: L⇔R
@@ -119,8 +126,9 @@ playlist:
     nation: JPN
     label: ポリスター
     producer: []
-    corner: 田村明浩選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: BYE BYE POPSICLE
     index: 468
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: 田村明浩

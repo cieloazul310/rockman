@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-09-15
 playlist:
-  - id: "2019008989"
+  - id: "2019008901"
     week: 89
     name: 優しいあの子
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
+    title: 優しいあの子
     index: 731
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008902"
     week: 89
     name: LIKE A MOON
     artist: ROGUE
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: LIKE A MOON
     index: 732
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008903"
     week: 89
     name: ファイティングマン
     artist: エレファントカシマシ
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ファイティングマン
     index: 733
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008904"
     week: 89
     name: What’s the Frequency, Kenneth?
     artist: R.E.M.
@@ -62,10 +65,11 @@ playlist:
       - Scott Litt
     corner: ""
     youtube: jWkMhCLkVOg
+    title: What’s the Frequency, Kenneth?
     index: 734
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008905"
     week: 89
     name: 愛し愛されて生きるのさ
     artist: 小沢健二
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: fjume22f9kE
+    title: 愛し愛されて生きるのさ
     index: 735
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008906"
     week: 89
     name: Are You Gonna Go My Way
     artist: Lenny Kravitz
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8LhCd1W2V0Q
+    title: Are You Gonna Go My Way
     index: 736
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008907"
     week: 89
     name: Girls Just Want to Have Fun
     artist: Cyndi Lauper
@@ -105,10 +111,11 @@ playlist:
       - Rick Chertoff
     corner: ""
     youtube: PIb6AZdTr-A
+    title: Girls Just Want to Have Fun
     index: 737
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008989"
+  - id: "2019008908"
     week: 89
     name: Bye Bye Mr. Mug
     artist: the brilliant green
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: 5vak3dTpJN4
+    title: Bye Bye Mr. Mug
     index: 738
     indexInWeek: 8
     selector: 草野マサムネ

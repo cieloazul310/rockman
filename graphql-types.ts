@@ -631,21 +631,25 @@ export type FileFieldsEnum =
   'childYaml___year' |
   'childYaml___title' |
   'childYaml___subtitle' |
+  'childYaml___guests' |
+  'childYaml___categories' |
   'childYaml___date' |
   'childYaml___playlist' |
-  'childYaml___playlist___week' |
-  'childYaml___playlist___index' |
   'childYaml___playlist___id' |
-  'childYaml___playlist___title' |
-  'childYaml___playlist___kana' |
+  'childYaml___playlist___week' |
+  'childYaml___playlist___name' |
   'childYaml___playlist___artist' |
+  'childYaml___playlist___kana' |
   'childYaml___playlist___year' |
   'childYaml___playlist___nation' |
   'childYaml___playlist___label' |
   'childYaml___playlist___producer' |
-  'childYaml___playlist___youtube' |
-  'childYaml___playlist___selector' |
   'childYaml___playlist___corner' |
+  'childYaml___playlist___youtube' |
+  'childYaml___playlist___title' |
+  'childYaml___playlist___index' |
+  'childYaml___playlist___indexInWeek' |
+  'childYaml___playlist___selector' |
   'childYaml___fields___slug';
 
 export type FileFilterInput = {
@@ -904,6 +908,7 @@ export type QuerySitePageArgs = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>,
+  context?: Maybe<SitePageContextFilterInput>,
   pluginCreator?: Maybe<SitePluginFilterInput>,
   pluginCreatorId?: Maybe<StringQueryOperatorInput>,
   componentPath?: Maybe<StringQueryOperatorInput>
@@ -927,6 +932,8 @@ export type QueryYamlArgs = {
   year?: Maybe<IntQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
+  guests?: Maybe<StringQueryOperatorInput>,
+  categories?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   playlist?: Maybe<YamlPlaylistFilterListInput>,
   fields?: Maybe<YamlFieldsFilterInput>
@@ -1178,6 +1185,7 @@ export type SitePage = Node & {
   children: Array<Node>,
   internal: Internal,
   isCreatedByStatefulCreatePages?: Maybe<Scalars['Boolean']>,
+  context?: Maybe<SitePageContext>,
   pluginCreator?: Maybe<SitePlugin>,
   pluginCreatorId?: Maybe<Scalars['String']>,
   componentPath?: Maybe<Scalars['String']>,
@@ -1202,6 +1210,54 @@ export type SitePageConnectionGroupArgs = {
   skip?: Maybe<Scalars['Int']>,
   limit?: Maybe<Scalars['Int']>,
   field: SitePageFieldsEnum
+};
+
+export type SitePageContext = {
+  previous?: Maybe<SitePageContextPrevious>,
+  next?: Maybe<SitePageContextNext>,
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextFilterInput = {
+  previous?: Maybe<SitePageContextPreviousFilterInput>,
+  next?: Maybe<SitePageContextNextFilterInput>,
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextNext = {
+  fields?: Maybe<SitePageContextNextFields>,
+  title?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextNextFields = {
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextNextFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextNextFilterInput = {
+  fields?: Maybe<SitePageContextNextFieldsFilterInput>,
+  title?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextPrevious = {
+  fields?: Maybe<SitePageContextPreviousFields>,
+  title?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextPreviousFields = {
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type SitePageContextPreviousFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type SitePageContextPreviousFilterInput = {
+  fields?: Maybe<SitePageContextPreviousFieldsFilterInput>,
+  title?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SitePageEdge = {
@@ -1303,6 +1359,11 @@ export type SitePageFieldsEnum =
   'internal___owner' |
   'internal___type' |
   'isCreatedByStatefulCreatePages' |
+  'context___previous___fields___slug' |
+  'context___previous___title' |
+  'context___next___fields___slug' |
+  'context___next___title' |
+  'context___slug' |
   'pluginCreator___id' |
   'pluginCreator___parent___id' |
   'pluginCreator___parent___parent___id' |
@@ -1382,6 +1443,7 @@ export type SitePageFilterInput = {
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
   isCreatedByStatefulCreatePages?: Maybe<BooleanQueryOperatorInput>,
+  context?: Maybe<SitePageContextFilterInput>,
   pluginCreator?: Maybe<SitePluginFilterInput>,
   pluginCreatorId?: Maybe<StringQueryOperatorInput>,
   componentPath?: Maybe<StringQueryOperatorInput>,
@@ -1746,6 +1808,8 @@ export type Yaml = Node & {
   year?: Maybe<Scalars['Int']>,
   title?: Maybe<Scalars['String']>,
   subtitle?: Maybe<Scalars['String']>,
+  guests?: Maybe<Array<Maybe<Scalars['String']>>>,
+  categories?: Maybe<Array<Maybe<Scalars['String']>>>,
   date?: Maybe<Scalars['Date']>,
   playlist?: Maybe<Array<Maybe<YamlPlaylist>>>,
   fields?: Maybe<YamlFields>,
@@ -1881,21 +1945,25 @@ export type YamlFieldsEnum =
   'year' |
   'title' |
   'subtitle' |
+  'guests' |
+  'categories' |
   'date' |
   'playlist' |
-  'playlist___week' |
-  'playlist___index' |
   'playlist___id' |
-  'playlist___title' |
-  'playlist___kana' |
+  'playlist___week' |
+  'playlist___name' |
   'playlist___artist' |
+  'playlist___kana' |
   'playlist___year' |
   'playlist___nation' |
   'playlist___label' |
   'playlist___producer' |
-  'playlist___youtube' |
-  'playlist___selector' |
   'playlist___corner' |
+  'playlist___youtube' |
+  'playlist___title' |
+  'playlist___index' |
+  'playlist___indexInWeek' |
+  'playlist___selector' |
   'fields___slug';
 
 export type YamlFieldsFilterInput = {
@@ -1911,6 +1979,8 @@ export type YamlFilterInput = {
   year?: Maybe<IntQueryOperatorInput>,
   title?: Maybe<StringQueryOperatorInput>,
   subtitle?: Maybe<StringQueryOperatorInput>,
+  guests?: Maybe<StringQueryOperatorInput>,
+  categories?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
   playlist?: Maybe<YamlPlaylistFilterListInput>,
   fields?: Maybe<YamlFieldsFilterInput>,
@@ -1926,35 +1996,39 @@ export type YamlGroupConnection = {
 };
 
 export type YamlPlaylist = {
-  week?: Maybe<Scalars['Int']>,
-  index?: Maybe<Scalars['Int']>,
   id?: Maybe<Scalars['String']>,
-  title?: Maybe<Scalars['String']>,
-  kana?: Maybe<Scalars['String']>,
+  week?: Maybe<Scalars['Int']>,
+  name?: Maybe<Scalars['String']>,
   artist?: Maybe<Scalars['String']>,
+  kana?: Maybe<Scalars['String']>,
   year?: Maybe<Scalars['Int']>,
   nation?: Maybe<Scalars['String']>,
   label?: Maybe<Scalars['String']>,
   producer?: Maybe<Array<Maybe<Scalars['String']>>>,
-  youtube?: Maybe<Scalars['String']>,
-  selector?: Maybe<Scalars['String']>,
   corner?: Maybe<Scalars['String']>,
+  youtube?: Maybe<Scalars['String']>,
+  title?: Maybe<Scalars['String']>,
+  index?: Maybe<Scalars['Int']>,
+  indexInWeek?: Maybe<Scalars['Int']>,
+  selector?: Maybe<Scalars['String']>,
 };
 
 export type YamlPlaylistFilterInput = {
-  week?: Maybe<IntQueryOperatorInput>,
-  index?: Maybe<IntQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,
-  title?: Maybe<StringQueryOperatorInput>,
-  kana?: Maybe<StringQueryOperatorInput>,
+  week?: Maybe<IntQueryOperatorInput>,
+  name?: Maybe<StringQueryOperatorInput>,
   artist?: Maybe<StringQueryOperatorInput>,
+  kana?: Maybe<StringQueryOperatorInput>,
   year?: Maybe<IntQueryOperatorInput>,
   nation?: Maybe<StringQueryOperatorInput>,
   label?: Maybe<StringQueryOperatorInput>,
   producer?: Maybe<StringQueryOperatorInput>,
-  youtube?: Maybe<StringQueryOperatorInput>,
-  selector?: Maybe<StringQueryOperatorInput>,
   corner?: Maybe<StringQueryOperatorInput>,
+  youtube?: Maybe<StringQueryOperatorInput>,
+  title?: Maybe<StringQueryOperatorInput>,
+  index?: Maybe<IntQueryOperatorInput>,
+  indexInWeek?: Maybe<IntQueryOperatorInput>,
+  selector?: Maybe<StringQueryOperatorInput>,
 };
 
 export type YamlPlaylistFilterListInput = {
@@ -1969,7 +2043,10 @@ export type YamlSortInput = {
 export type WeekMenuQueryVariables = {};
 
 
-export type WeekMenuQuery = { allYaml: { edges: Array<{ node: Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'year'> }> } };
+export type WeekMenuQuery = { allYaml: { edges: Array<{ node: (
+        Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'year'>
+        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+      ) }> } };
 
 export type IndexQueryVariables = {};
 
@@ -1978,3 +2055,13 @@ export type IndexQuery = { allYaml: { edges: Array<{ node: (
         Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year'>
         & { playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
+
+export type WeekTemplateQueryVariables = {
+  slug: Scalars['String']
+};
+
+
+export type WeekTemplateQuery = { yaml: Maybe<(
+    Pick<Yaml, 'id' | 'date' | 'subtitle' | 'title' | 'week' | 'year' | 'guests' | 'categories'>
+    & { playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
+  )> };

@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-03-24
 playlist:
-  - id: "2019006464"
+  - id: "2019006401"
     week: 64
     name: オケラ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: オケラ
     index: 528
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006402"
     week: 64
     name: Sunny Day Sunday
     artist: センチメンタル・バス
@@ -33,10 +34,11 @@ playlist:
       - ホッピー神山
     corner: ""
     youtube: ""
+    title: Sunny Day Sunday
     index: 529
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006403"
     week: 64
     name: Wild Thing
     artist: X
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ro4hdf-Z0fE
+    title: Wild Thing
     index: 530
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006404"
     week: 64
     name: BASEBALL KID'S ROCK
     artist: 浜田省吾
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: BASEBALL KID'S ROCK
     index: 531
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006405"
     week: 64
     name: ダイヤモンドの鷹
     artist: 竜童組
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ダイヤモンドの鷹
     index: 532
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006406"
     week: 64
     name: SKY
     artist: MEGA STOPPER
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: SKY
     index: 533
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006407"
     week: 64
     name: Sugar!!
     artist: フジファブリック
@@ -104,10 +110,11 @@ playlist:
       - 亀田誠治
     corner: ""
     youtube: D0P6kOqLboQ
+    title: Sugar!!
     index: 534
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006408"
     week: 64
     name: We Are the Champion
     artist: Queen
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 04854XqcfCY
+    title: We Are the Champion
     index: 535
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019006464"
+  - id: "2019006409"
     week: 64
     name: 白いボールのファンタジー
     artist: トランザム
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 白いボールのファンタジー
     index: 536
     indexInWeek: 9
     selector: 草野マサムネ

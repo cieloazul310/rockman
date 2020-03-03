@@ -2,12 +2,12 @@ id: "20190054"
 week: 54
 year: 2019
 title: スピッツ三輪テツヤで漫遊記2019新春
-subtitle: ""
-guests: []
-categories: []
+subtitle: "カバー"
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2019-01-13
 playlist:
-  - id: "2019005454"
+  - id: "2019005401"
     week: 54
     name: タイムトラベル
     artist: スピッツ
@@ -17,12 +17,13 @@ playlist:
     label: ユニバーサル
     producer:
       - 亀田誠治
-    corner: 三輪テツヤ選曲
+    corner: 漫遊前の一曲
     youtube: ""
+    title: タイムトラベル
     index: 445
     indexInWeek: 1
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005402"
     week: 54
     name: Jump
     artist: Aztec Camera
@@ -32,12 +33,13 @@ playlist:
     label: Sire
     producer:
       - Mark Knopfler
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: 4kHbCneNLWE
+    title: Jump
     index: 446
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005403"
     week: 54
     name: Iron Man
     artist: The Cardigans
@@ -47,12 +49,13 @@ playlist:
     label: Stockholm Mercury
     producer:
       - Tore Johansson
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: U8JHP1wo-R4
+    title: Iron Man
     index: 447
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005404"
     week: 54
     name: Video Killed The Radio Star
     artist: The Presidents Of The United States Of America
@@ -61,12 +64,13 @@ playlist:
     nation: US
     label: Warner Bros.
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: wAiGd9nTGmM
+    title: Video Killed The Radio Star
     index: 448
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005405"
     week: 54
     name: Live and Let Die
     artist: Guns N' Roses
@@ -76,12 +80,13 @@ playlist:
     label: Geffen
     producer:
       - Mike Clink
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: 6D9vAItORgE
+    title: Live and Let Die
     index: 449
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005406"
     week: 54
     name: Superstar
     artist: Sonic Youth
@@ -90,12 +95,13 @@ playlist:
     nation: US
     label: A&M
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: Y21VecIIdBI
+    title: Superstar
     index: 450
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005407"
     week: 54
     name: Mother
     artist: Christina Aguilera
@@ -105,12 +111,13 @@ playlist:
     label: Warner Bros.
     producer:
       - Linda Perry
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: KUtqtCCR0cs
+    title: Mother
     index: 451
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019005454"
+    selector: 三輪テツヤ
+  - id: "2019005408"
     week: 54
     name: 夏の魔物
     artist: 小島麻由美
@@ -119,8 +126,9 @@ playlist:
     nation: JPN
     label: Dreamusic
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 夏の魔物
     index: 452
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: 三輪テツヤ

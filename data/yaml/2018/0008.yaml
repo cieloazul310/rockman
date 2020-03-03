@@ -3,11 +3,11 @@ week: 8
 year: 2018
 title: スピッツメンバーと漫遊記パート2
 subtitle: ""
-guests: []
-categories: []
+guests: ["三輪テツヤ", "田村明浩", "崎山龍男"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2018-02-25
 playlist:
-  - id: "2018000808"
+  - id: "2018000801"
     week: 8
     name: ハイファイ・ローファイ(NEW MIX)
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: ハイファイ・ローファイ(NEW MIX)
     index: 58
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000808"
+  - id: "2018000802"
     week: 8
     name: Stand Up & Shout
     artist: Dio
@@ -31,12 +32,13 @@ playlist:
     label: Vertigo
     producer:
       - Ronnie James Dio
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: oIqdF4i3q58
+    title: Stand Up & Shout
     index: 59
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2018000808"
+    selector: 三輪テツヤ
+  - id: "2018000803"
     week: 8
     name: The Spirit of Radio
     artist: Rush
@@ -46,12 +48,13 @@ playlist:
     label: Mercury Records
     producer:
       - Terry Brown
-    corner: 田村明浩選曲
+    corner: ""
     youtube: QuL_euRslTc
+    title: The Spirit of Radio
     index: 60
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2018000808"
+    selector: 田村明浩
+  - id: "2018000804"
     week: 8
     name: Loudness
     artist: Loudness
@@ -60,12 +63,13 @@ playlist:
     nation: JPN
     label: 日本コロムビア
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
+    title: Loudness
     index: 61
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2018000808"
+    selector: 崎山龍男
+  - id: "2018000805"
     week: 8
     name: Lonesome in a crowd
     artist: The Groovers
@@ -74,12 +78,13 @@ playlist:
     nation: JPN
     label: BM tunes
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: ""
+    title: Lonesome in a crowd
     index: 62
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2018000808"
+    selector: 三輪テツヤ
+  - id: "2018000806"
     week: 8
     name: Cum On Feel the Noize
     artist: Quiet Riot
@@ -89,12 +94,13 @@ playlist:
     label: Pasha
     producer:
       - Spencer Proffer
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ZxgMGk9JPVA
+    title: Cum On Feel the Noize
     index: 63
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2018000808"
+    selector: 田村明浩
+  - id: "2018000807"
     week: 8
     name: ロマンスがありあまる
     artist: ゲスの極み乙女。
@@ -103,11 +109,12 @@ playlist:
     nation: JPN
     label: ワーナーミュージック・ジャパン
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: C6-AN8J385c
+    title: ロマンスがありあまる
     index: 64
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018000808"
     week: 8
     name: LADY REIKO
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: LADY REIKO
     index: 65
     indexInWeek: 8
     selector: 草野マサムネ

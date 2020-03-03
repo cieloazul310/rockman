@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-07-22
 playlist:
-  - id: "2018002929"
+  - id: "2018002901"
     week: 29
     name: ハチの針
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ハチの針
     index: 238
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002902"
     week: 29
     name: You Really Got Me
     artist: The Kinks
@@ -34,10 +35,11 @@ playlist:
       - Shel Talmy
     corner: ""
     youtube: fTTsY-oz6Go
+    title: You Really Got Me
     index: 239
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002903"
     week: 29
     name: Rock Bottom
     artist: UFO
@@ -49,10 +51,11 @@ playlist:
       - Leo Lyons
     corner: ""
     youtube: BdJTUuwYBN8
+    title: Rock Bottom
     index: 240
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002904"
     week: 29
     name: Welcome to the Jungle
     artist: Guns N' Roses
@@ -64,10 +67,11 @@ playlist:
       - Mike Clink
     corner: ""
     youtube: o1tj2zJ2Wvg
+    title: Welcome to the Jungle
     index: 241
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002905"
     week: 29
     name: Sick of Myself
     artist: Matthew Sweet
@@ -79,10 +83,11 @@ playlist:
       - Brendan O’Brien
     corner: ""
     youtube: sNfocDNZWY8
+    title: Sick of Myself
     index: 242
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002906"
     week: 29
     name: People of the Sun
     artist: Rage Against the Machine
@@ -94,10 +99,11 @@ playlist:
       - Brendan O’Brien
     corner: ""
     youtube: scyC9A6o_Ts
+    title: People of the Sun
     index: 243
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002907"
     week: 29
     name: ユー・エフ・オー
     artist: 吉田ヨウヘイgroup
@@ -108,10 +114,11 @@ playlist:
     producer: []
     corner: ""
     youtube: sXr0jiIUr6g
+    title: ユー・エフ・オー
     index: 244
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002929"
+  - id: "2018002908"
     week: 29
     name: 星のリンダ
     artist: JET KELLY
@@ -122,6 +129,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 星のリンダ
     index: 245
     indexInWeek: 8
     selector: 草野マサムネ

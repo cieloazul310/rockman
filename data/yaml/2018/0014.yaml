@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-04-08
 playlist:
-  - id: "2018001414"
+  - id: "2018001401"
     week: 14
     name: ビギナー
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: Dy7p52n2JGs
+    title: ビギナー
     index: 108
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001402"
     week: 14
     name: わかってもらえるさ
     artist: RCサクセション
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: わかってもらえるさ
     index: 109
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001403"
     week: 14
     name: 踊ろよベイビー
     artist: 遠藤賢司
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 踊ろよベイビー
     index: 110
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001404"
     week: 14
     name: 香り
     artist: 外道
@@ -62,10 +65,11 @@ playlist:
       - ミッキー・カーチス
     corner: ""
     youtube: UINL13_XHLg
+    title: 香り
     index: 111
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001405"
     week: 14
     name: 夕飯は御仕舞
     artist: 葡萄畑
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 夕飯は御仕舞
     index: 112
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001406"
     week: 14
     name: スウィート・ホーム大阪
     artist: ファニー・カンパニー
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: スウィート・ホーム大阪
     index: 113
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001407"
     week: 14
     name: On Wings of Love
     artist: 紫
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: On Wings of Love
     index: 114
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001414"
+  - id: "2018001408"
     week: 14
     name: シトラス
     artist: advantage Lucy
@@ -118,6 +125,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: シトラス
     index: 115
     indexInWeek: 8
     selector: 草野マサムネ

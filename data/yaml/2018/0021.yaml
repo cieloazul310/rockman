@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-05-27
 playlist:
-  - id: "2018002121"
+  - id: "2018002101"
     week: 21
     name: 正しい街
     artist: the ウラシマ’S
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 正しい街
     index: 168
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002102"
     week: 21
     name: Any Way You Want It
     artist: Journey
@@ -34,10 +35,11 @@ playlist:
       - Geoff Workman
     corner: ""
     youtube: atxUuldUcfI
+    title: Any Way You Want It
     index: 169
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002103"
     week: 21
     name: Heat of the Moment
     artist: Asia
@@ -49,10 +51,11 @@ playlist:
       - Mike Stone
     corner: ""
     youtube: 81qZLpu8FY4
+    title: Heat of the Moment
     index: 170
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002104"
     week: 21
     name: Working for the Weekend
     artist: Loverboy
@@ -64,10 +67,11 @@ playlist:
       - Bruce Fairbairn
     corner: ""
     youtube: zL8G5pBZ5CI
+    title: Working for the Weekend
     index: 171
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002105"
     week: 21
     name: In Your Letter
     artist: REO Speedwagon
@@ -79,10 +83,11 @@ playlist:
       - Kevin Beamish
     corner: ""
     youtube: zpOULjyy-n8
+    title: In Your Letter
     index: 172
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002106"
     week: 21
     name: People of the South Wind
     artist: Kansas
@@ -93,10 +98,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FtXwopQ0GYo
+    title: People of the South Wind
     index: 173
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002107"
     week: 21
     name: "99"
     artist: Toto
@@ -107,10 +113,11 @@ playlist:
     producer: []
     corner: ""
     youtube: qhw-XlTMB5I
+    title: "99"
     index: 174
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002121"
+  - id: "2018002108"
     week: 21
     name: Y・M・J・S
     artist: Sepa
@@ -122,6 +129,7 @@ playlist:
       - 森純太
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Y・M・J・S
     index: 175
     indexInWeek: 8
     selector: 草野マサムネ

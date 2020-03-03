@@ -4,10 +4,10 @@ year: 2019
 title: BUMP OF CHICKENで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-09-01
 playlist:
-  - id: "2019008787"
+  - id: "2019008701"
     week: 87
     name: 夏が終わる
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: 夏が終わる
     index: 715
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008702"
     week: 87
     name: オンリー ロンリー グローリー
     artist: BUMP OF CHICKEN
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: オンリー ロンリー グローリー
     index: 716
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008703"
     week: 87
     name: グングニル
     artist: BUMP OF CHICKEN
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: グングニル
     index: 717
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008704"
     week: 87
     name: ハルジオン
     artist: BUMP OF CHICKEN
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ハルジオン
     index: 718
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008705"
     week: 87
     name: 才悩人応援歌
     artist: BUMP OF CHICKEN
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 才悩人応援歌
     index: 719
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008706"
     week: 87
     name: HAPPY
     artist: BUMP OF CHICKEN
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: RwCl11tyWP0
+    title: HAPPY
     index: 720
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008707"
     week: 87
     name: Aurora
     artist: BUMP OF CHICKEN
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 6NQbSN85kJQ
+    title: Aurora
     index: 721
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008787"
+  - id: "2019008708"
     week: 87
     name: Akatsuki
     artist: PE’Z
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: gET09aOXZXI
+    title: Akatsuki
     index: 722
     indexInWeek: 8
     selector: 草野マサムネ

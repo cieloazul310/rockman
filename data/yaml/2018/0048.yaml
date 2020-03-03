@@ -4,10 +4,10 @@ year: 2018
 title: オーストラリアのロックバンドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2018-12-02
 playlist:
-  - id: "2018004848"
+  - id: "2018004801"
     week: 48
     name: ヘビーメロウ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: BASmTe-x-Ok
+    title: ヘビーメロウ
     index: 394
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004802"
     week: 48
     name: Back in Black
     artist: AC/DC
@@ -34,10 +35,11 @@ playlist:
       - Robert John “Mutt” Lange
     corner: ""
     youtube: pAgnJDJN4VA
+    title: Back in Black
     index: 395
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004803"
     week: 48
     name: Are You Gonna Be My Girl
     artist: Jet
@@ -49,10 +51,11 @@ playlist:
       - Dave Sardy
     corner: ""
     youtube: tuK6n2Lkza0
+    title: Are You Gonna Be My Girl
     index: 396
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004804"
     week: 48
     name: What You Need
     artist: INXS
@@ -64,10 +67,11 @@ playlist:
       - Chris Thomas
     corner: ""
     youtube: FoEPrbdfmT4
+    title: What You Need
     index: 397
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004805"
     week: 48
     name: Hey, St. Peter
     artist: Flash & the Pan
@@ -79,10 +83,11 @@ playlist:
       - Harry Vanda
     corner: ""
     youtube: ffNImKTmiws
+    title: Hey, St. Peter
     index: 398
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004806"
     week: 48
     name: Lonesome Loser
     artist: Little River Band
@@ -94,10 +99,11 @@ playlist:
       - John Boylan
     corner: ""
     youtube: ay1FBKsF2Nk
+    title: Lonesome Loser
     index: 399
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004807"
     week: 48
     name: The Less I Know The Better
     artist: Tame Impala
@@ -108,10 +114,11 @@ playlist:
     producer: []
     corner: ""
     youtube: sBzrzS1Ag_g
+    title: The Less I Know The Better
     index: 400
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018004848"
+  - id: "2018004808"
     week: 48
     name: Butch & The Sundance Kid
     artist: Psysalia Psysalis Psyche
@@ -122,6 +129,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Butch & The Sundance Kid
     index: 401
     indexInWeek: 8
     selector: 草野マサムネ

@@ -4,10 +4,10 @@ year: 2019
 title: バーミンガムのロックバンドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2019-06-09
 playlist:
-  - id: "2019007575"
+  - id: "2019007501"
     week: 75
     name: センチメンタル
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: センチメンタル
     index: 617
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007502"
     week: 75
     name: Nights in White Satin
     artist: The Moody Blues
@@ -33,10 +34,11 @@ playlist:
       - Tony Clarke
     corner: ""
     youtube: DMGJxCnhz28
+    title: Nights in White Satin
     index: 618
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007503"
     week: 75
     name: Never Say Die
     artist: Black Sabbath
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2Q6gPouusHs
+    title: Never Say Die
     index: 619
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007504"
     week: 75
     name: Confusion
     artist: Electric Light Orchestra
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 1jUvhJ_Tgzw
+    title: Confusion
     index: 620
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007505"
     week: 75
     name: Prayer of a Realist
     artist: GBH
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: rDAH_yluHCg
+    title: Prayer of a Realist
     index: 621
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007506"
     week: 75
     name: The Reflex
     artist: Duran Duran
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: J5ebkj9x5Ko
+    title: The Reflex
     index: 622
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007507"
     week: 75
     name: Rain of Crystal Spires
     artist: Felt
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: om9lXoFuY2k
+    title: Rain of Crystal Spires
     index: 623
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007575"
+  - id: "2019007508"
     week: 75
     name: Season Train
     artist: RAZZ MA TAZZ
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Season Train
     index: 624
     indexInWeek: 8
     selector: 草野マサムネ

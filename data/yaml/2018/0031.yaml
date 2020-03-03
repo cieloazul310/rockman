@@ -3,11 +3,11 @@ week: 31
 year: 2018
 title: スピッツメンバーと漫遊記 田村明浩編
 subtitle: ""
-guests: []
-categories: []
+guests: ["田村明浩"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2018-08-05
 playlist:
-  - id: "2018003131"
+  - id: "2018003101"
     week: 31
     name: 初恋に捧ぐ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 初恋に捧ぐ
     index: 254
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003131"
+  - id: "2018003102"
     week: 31
     name: The Real Me
     artist: The Who
@@ -30,12 +31,13 @@ playlist:
     nation: UK
     label: Track
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: 9QhB411bMuU
+    title: The Real Me
     index: 255
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003103"
     week: 31
     name: Don't Look Around
     artist: Mountain
@@ -44,12 +46,13 @@ playlist:
     nation: US
     label: Windfall
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: lVU8a5kJSNU
+    title: Don't Look Around
     index: 256
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003104"
     week: 31
     name: The Ides of March / Wrathchild
     artist: Iron Maiden
@@ -59,12 +62,13 @@ playlist:
     label: EMI
     producer:
       - Martin Birch
-    corner: 田村明浩選曲
+    corner: ""
     youtube: io4ObwuO24w
+    title: The Ides of March / Wrathchild
     index: 257
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003105"
     week: 31
     name: London Calling
     artist: The Clash
@@ -74,12 +78,13 @@ playlist:
     label: CBS
     producer:
       - Guy Stevens
-    corner: 田村明浩選曲
+    corner: ""
     youtube: EfK-WX2pa8c
+    title: London Calling
     index: 258
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003106"
     week: 31
     name: Caught in a Mosh
     artist: Anthrax
@@ -88,12 +93,13 @@ playlist:
     nation: US
     label: Megaforce
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: zlLn0UicWrM
+    title: Caught in a Mosh
     index: 259
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003107"
     week: 31
     name: You're My Best Friend
     artist: Queen
@@ -103,12 +109,13 @@ playlist:
     label: EMI
     producer:
       - Roy Thomas Baker
-    corner: 田村明浩選曲
+    corner: ""
     youtube: HaZpZQG2z10
+    title: You're My Best Friend
     index: 260
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2018003131"
+    selector: 田村明浩
+  - id: "2018003108"
     week: 31
     name: オレンジ色の月
     artist: マルコシアス・バンプ
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: オレンジ色の月
     index: 261
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: 田村明浩

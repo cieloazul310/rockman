@@ -2,9 +2,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `ロック大陸漫遊記プレイリスト集`,
+    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集`,
     description:
-      'TOKYO-FMで放送中のSpitz草野マサムネのロック大陸漫遊記のプレイリスト集。',
+      'TOKYO-FM で放送中の SPITZ 草野マサムネのロック大陸漫遊記 のプレイリスト集。',
     lang: 'ja',
     siteUrl: 'https://cieloazul310.github.io/rockman-survey/',
     author: 'cieloazul310',

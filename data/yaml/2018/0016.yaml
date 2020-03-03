@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-04-22
 playlist:
-  - id: "2018001616"
+  - id: "2018001601"
     week: 16
     name: シロクマ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: UiYl1r5m5a0
+    title: シロクマ
     index: 124
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001602"
     week: 16
     name: Baba O'Riley
     artist: The Who
@@ -34,10 +35,11 @@ playlist:
       - Glyn Johns
     corner: ""
     youtube: LDknRxdHNog
+    title: Baba O'Riley
     index: 125
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001603"
     week: 16
     name: Applaud The Winner
     artist: Tantrum
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: nI6dkvEsdoE
+    title: Applaud The Winner
     index: 126
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001604"
     week: 16
     name: Push
     artist: The Cure
@@ -63,10 +66,11 @@ playlist:
       - David M. Allen
     corner: ""
     youtube: i6T7xjBFPWA
+    title: Push
     index: 127
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001605"
     week: 16
     name: JOLLY ROGERS
     artist: THE WILLARD
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: JOLLY ROGERS
     index: 128
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001606"
     week: 16
     name: The Ballroom Blitz
     artist: Sweet
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ewFBuYHldeY
+    title: The Ballroom Blitz
     index: 129
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001607"
     week: 16
     name: This Magnificent Bird Will Rise
     artist: Deerhoof
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: hjAMDEfdluY
+    title: This Magnificent Bird Will Rise
     index: 130
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001616"
+  - id: "2018001608"
     week: 16
     name: S.O.S
     artist: ハイハニDX
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: S.O.S
     index: 131
     indexInWeek: 8
     selector: 草野マサムネ

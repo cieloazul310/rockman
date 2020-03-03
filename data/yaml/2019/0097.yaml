@@ -4,10 +4,10 @@ year: 2019
 title: ザ・マフスで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-11-10
 playlist:
-  - id: "2019009797"
+  - id: "2019009701"
     week: 97
     name: ヤマブキ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ヤマブキ
     index: 800
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009702"
     week: 97
     name: Saying Goodbye
     artist: The Muffs
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 7SiHQtkrPwE
+    title: Saying Goodbye
     index: 801
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009703"
     week: 97
     name: Everywhere I Go
     artist: The Muffs
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: CB7tezt8GnY
+    title: Everywhere I Go
     index: 802
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009704"
     week: 97
     name: Baby Go Round
     artist: The Muffs
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: pBWZCJMG-fs
+    title: Baby Go Round
     index: 803
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009705"
     week: 97
     name: Oh Nina
     artist: The Muffs
@@ -76,10 +80,11 @@ playlist:
       - Rob Cavallo
     corner: ""
     youtube: esL3A7es_Uw
+    title: Oh Nina
     index: 804
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009706"
     week: 97
     name: Sad Tomorrow
     artist: The Muffs
@@ -91,10 +96,11 @@ playlist:
       - Rob Cavallo
     corner: ""
     youtube: vsxyaZhdW1s
+    title: Sad Tomorrow
     index: 805
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009707"
     week: 97
     name: Honeymoon
     artist: The Muffs
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: His66Z63Z3E
+    title: Honeymoon
     index: 806
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009708"
     week: 97
     name: Guilty
     artist: The Muffs
@@ -119,10 +126,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Chz3nMHBkCk
+    title: Guilty
     index: 807
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009709"
     week: 97
     name: To That Funny Place
     artist: The Muffs
@@ -133,10 +141,11 @@ playlist:
     producer: []
     corner: ""
     youtube: muQJnAyvix8
+    title: To That Funny Place
     index: 808
     indexInWeek: 9
     selector: 草野マサムネ
-  - id: "2019009797"
+  - id: "2019009710"
     week: 97
     name: Allegro Cantabile
     artist: SUEMITSU & THE SUEMITH
@@ -147,6 +156,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Allegro Cantabile
     index: 809
     indexInWeek: 10
     selector: 草野マサムネ

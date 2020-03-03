@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-03-10
 playlist:
-  - id: "2019006262"
+  - id: "2019006201"
     week: 62
     name: ヒビスクス
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ヒビスクス
     index: 512
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006202"
     week: 62
     name: マリーゴールド
     artist: あいみょん
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 0xSiBpUdW4E
+    title: マリーゴールド
     index: 513
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006203"
     week: 62
     name: New Rose
     artist: The Damned
@@ -48,10 +50,11 @@ playlist:
       - Nick Lowe
     corner: ""
     youtube: cHvSDCLLFpc
+    title: New Rose
     index: 514
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006204"
     week: 62
     name: カトレア
     artist: ヨルシカ
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: カトレア
     index: 515
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006205"
     week: 62
     name: Fresh As A Daisy
     artist: Emitt Rhodes
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Fresh As A Daisy
     index: 516
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006206"
     week: 62
     name: Sunflower
     artist: Paul Weller
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: BeiB9x5XT_0
+    title: Sunflower
     index: 517
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006207"
     week: 62
     name: ハイビスカスは冬に咲く
     artist: チャットモンチー
@@ -105,10 +111,11 @@ playlist:
       - 亀田誠治
     corner: ""
     youtube: ""
+    title: ハイビスカスは冬に咲く
     index: 518
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006262"
+  - id: "2019006208"
     week: 62
     name: Jasmine
     artist: 佐藤聖子
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Jasmine
     index: 519
     indexInWeek: 8
     selector: 草野マサムネ

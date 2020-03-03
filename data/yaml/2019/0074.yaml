@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-06-02
 playlist:
-  - id: "2019007474"
+  - id: "2019007401"
     week: 74
     name: 魔女旅に出る
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: ""
+    title: 魔女旅に出る
     index: 609
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007402"
     week: 74
     name: Beltane Walk
     artist: T. Rex
@@ -34,10 +35,11 @@ playlist:
       - Tony Visconti
     corner: ""
     youtube: ""
+    title: Beltane Walk
     index: 610
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007403"
     week: 74
     name: Then
     artist: Yes
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: W10qiXqlvo8
+    title: Then
     index: 611
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007404"
     week: 74
     name: Ebony Eyes
     artist: Bob Welch
@@ -63,10 +66,11 @@ playlist:
       - Carter
     corner: ""
     youtube: xvuccbcCcsI
+    title: Ebony Eyes
     index: 612
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007405"
     week: 74
     name: Silver
     artist: Echo & the Bunnymen
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: sQ_QRK_iWrk
+    title: Silver
     index: 613
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007406"
     week: 74
     name: 私の楽団（オーケストラ）
     artist: ZELDA
@@ -92,10 +97,11 @@ playlist:
       - 白井良明
     corner: ""
     youtube: ""
+    title: 私の楽団（オーケストラ）
     index: 614
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007407"
     week: 74
     name: Tonight, Tonight
     artist: The Smashing Pumpkins
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: NOG3eus4ZSo
+    title: Tonight, Tonight
     index: 615
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007474"
+  - id: "2019007408"
     week: 74
     name: 誰のために
     artist: 赤い鳥
@@ -121,6 +128,7 @@ playlist:
       - 村井邦彦
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 誰のために
     index: 616
     indexInWeek: 8
     selector: 草野マサムネ

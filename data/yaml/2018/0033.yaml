@@ -3,11 +3,11 @@ week: 33
 year: 2018
 title: スピッツメンバーと漫遊記 崎山龍男編
 subtitle: ""
-guests: []
-categories: []
+guests: ["崎山龍男"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2018-08-19
 playlist:
-  - id: "2018003333"
+  - id: "2018003301"
     week: 33
     name: オーバードライブ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: オーバードライブ
     index: 270
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003302"
     week: 33
     name: Colorado Bulldog
     artist: Mr. Big
@@ -33,10 +34,11 @@ playlist:
       - Kevin Elson
     corner: 崎山龍男選曲
     youtube: ""
+    title: Colorado Bulldog
     index: 271
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003303"
     week: 33
     name: Come Dancing
     artist: Jeff Beck
@@ -48,10 +50,11 @@ playlist:
       - George Martin
     corner: 崎山龍男選曲
     youtube: ""
+    title: Come Dancing
     index: 272
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003304"
     week: 33
     name: Sparkle
     artist: 山下達郎
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: 崎山龍男選曲
     youtube: ""
+    title: Sparkle
     index: 273
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003305"
     week: 33
     name: I WANT YOUR LOVE
     artist: DEAD END
@@ -77,10 +81,11 @@ playlist:
       - 岡野ハジメ
     corner: 崎山龍男選曲
     youtube: ""
+    title: I WANT YOUR LOVE
     index: 274
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003306"
     week: 33
     name: The Weight
     artist: The Band
@@ -92,10 +97,11 @@ playlist:
       - John Simon
     corner: 崎山龍男選曲
     youtube: Ymgvs0KU1L0
+    title: The Weight
     index: 275
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003333"
+  - id: "2018003307"
     week: 33
     name: GパンとTシャツとブーツで
     artist: The Wells
@@ -106,6 +112,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: GパンとTシャツとブーツで
     index: 276
     indexInWeek: 7
     selector: 草野マサムネ

@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-02-03
 playlist:
-  - id: "2019005757"
+  - id: "2019005701"
     week: 57
     name: SUGINAMI MELODY
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: SUGINAMI MELODY
     index: 469
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005702"
     week: 57
     name: カロン
     artist: ねごと
@@ -34,10 +35,11 @@ playlist:
       - いしわたり淳治
     corner: ""
     youtube: 9UBvB8joUeE
+    title: カロン
     index: 470
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005703"
     week: 57
     name: オゾンのダンス
     artist: たま
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: オゾンのダンス
     index: 471
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005704"
     week: 57
     name: ディスコ
     artist: ミツメ
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: CDVfHCHTbKI
+    title: ディスコ
     index: 472
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005705"
     week: 57
     name: 風の仕業
     artist: 森は生きている
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 風の仕業
     index: 473
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005706"
     week: 57
     name: 解
     artist: あぶらだこ
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 解
     index: 474
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005707"
     week: 57
     name: メロディ
     artist: 踊ってばかりの国
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: IbOb_dB83iw
+    title: メロディ
     index: 475
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005708"
     week: 57
     name: 少年
     artist: 黒夢
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: aoWddavMgB8
+    title: 少年
     index: 476
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019005757"
+  - id: "2019005709"
     week: 57
     name: HIMITSUスパーク
     artist: カラスは真っ白
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: h_26_gR7Vs8
+    title: HIMITSUスパーク
     index: 477
     indexInWeek: 9
     selector: 草野マサムネ

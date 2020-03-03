@@ -4,10 +4,10 @@ year: 2019
 title: 水戸黄門リズムで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リズム特集"]
 date: 2019-10-06
 playlist:
-  - id: "2019009292"
+  - id: "2019009201"
     week: 92
     name: 見っけ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 見っけ
     index: 757
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009202"
     week: 92
     name: Am I Evil?
     artist: Diamond Head
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: bdKY4Id-q08
+    title: Am I Evil?
     index: 758
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009203"
     week: 92
     name: Beck's Bolero
     artist: Jeff Beck
@@ -48,10 +50,11 @@ playlist:
       - Mickie Most
     corner: ""
     youtube: Q8y-066wr4c
+    title: Beck's Bolero
     index: 759
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009204"
     week: 92
     name: The Ides of March
     artist: Iron Maiden
@@ -63,10 +66,11 @@ playlist:
       - Martin Birch
     corner: ""
     youtube: rGJnjSATu50
+    title: The Ides of March
     index: 760
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009205"
     week: 92
     name: Lady
     artist: Styx
@@ -78,10 +82,11 @@ playlist:
       - John Ryan
     corner: ""
     youtube: rOGpyV-hHtw
+    title: Lady
     index: 761
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009206"
     week: 92
     name: 銀の指環
     artist: チューリップ
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 銀の指環
     index: 762
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009207"
     week: 92
     name: Child In Time
     artist: Deep Purple
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: OorZcOzNcgE
+    title: Child In Time
     index: 763
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009208"
     week: 92
     name: The Importance of Being Idle
     artist: Oasis
@@ -120,10 +127,11 @@ playlist:
     producer: []
     corner: ""
     youtube: jySfU10IQu4
+    title: The Importance of Being Idle
     index: 764
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019009292"
+  - id: "2019009209"
     week: 92
     name: ハミングがきこえる
     artist: カヒミ・カリィ
@@ -135,6 +143,7 @@ playlist:
       - 小山田圭吾
     corner: ちょっぴりタイムマシン
     youtube: jgxmgtJ2Lc8
+    title: ハミングがきこえる
     index: 765
     indexInWeek: 9
     selector: 草野マサムネ

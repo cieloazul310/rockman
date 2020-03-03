@@ -4,10 +4,10 @@ year: 2018
 title: MUSIC LIFE 1969年4月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2018-05-13
 playlist:
-  - id: "2018001919"
+  - id: "2018001901"
     week: 19
     name: スパイダー
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: mf-RrGndfC8
+    title: スパイダー
     index: 148
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001902"
     week: 19
     name: Those Were the Days
     artist: Mary Hopkin
@@ -34,10 +35,11 @@ playlist:
       - Paul McCartney
     corner: ""
     youtube: 1DQepQaporY
+    title: Those Were the Days
     index: 149
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001903"
     week: 19
     name: The Legend of Xanadu
     artist: Dave Dee, Dozy, Beaky, Mick & Tich
@@ -49,10 +51,11 @@ playlist:
       - Steve Rowland
     corner: ""
     youtube: NZxFuAc8iMU
+    title: The Legend of Xanadu
     index: 150
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001904"
     week: 19
     name: Hurdy Gurdy Man
     artist: Donovan
@@ -64,10 +67,11 @@ playlist:
       - Mickie Most
     corner: ""
     youtube: CHxfOZH8cew
+    title: Hurdy Gurdy Man
     index: 151
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001905"
     week: 19
     name: In-A-Gadda-Da-Vida
     artist: Iron Butterfly
@@ -78,10 +82,11 @@ playlist:
     producer: []
     corner: ""
     youtube: hNBgEirKxq8
+    title: In-A-Gadda-Da-Vida
     index: 152
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001906"
     week: 19
     name: Irrésistiblement
     artist: Sylvie Vartan
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Irrésistiblement
     index: 153
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001907"
     week: 19
     name: Race with the Devil
     artist: The Gun
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Ke3-v0g6GcU
+    title: Race with the Devil
     index: 154
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001919"
+  - id: "2018001908"
     week: 19
     name: 京都
     artist: ピロカルピン
@@ -120,6 +127,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 京都
     index: 155
     indexInWeek: 8
     selector: 草野マサムネ

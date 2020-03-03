@@ -4,10 +4,10 @@ year: 2018
 title: MUSIC LIFE 1976年9月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2018-09-23
 playlist:
-  - id: "2018003838"
+  - id: "2018003801"
     week: 38
     name: ネズミの進化
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ネズミの進化
     index: 310
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003802"
     week: 38
     name: Saturday Night
     artist: Bay City Rollers
@@ -34,10 +35,11 @@ playlist:
       - Bill Martin
     corner: ""
     youtube: 7BKKaKT_dtM
+    title: Saturday Night
     index: 311
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003803"
     week: 38
     name: Anyway You Want It
     artist: Angel
@@ -49,10 +51,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: ""
+    title: Anyway You Want It
     index: 312
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003804"
     week: 38
     name: Sick as a Dog
     artist: Aerosmith
@@ -64,10 +67,11 @@ playlist:
       - Jack Douglas
     corner: ""
     youtube: iItP6hXZOlU
+    title: Sick as a Dog
     index: 313
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003805"
     week: 38
     name: Roots, Rock, Reggae
     artist: Bob Marley and the Wailers
@@ -78,10 +82,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2jN1bqGr3ZY
+    title: Roots, Rock, Reggae
     index: 314
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003806"
     week: 38
     name: Dark Cloud
     artist: Natural Gas
@@ -93,10 +98,11 @@ playlist:
       - Felix Pappalardi
     corner: ""
     youtube: x-K2jFkM0NM
+    title: Dark Cloud
     index: 315
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003807"
     week: 38
     name: Round & Round
     artist: The Edgar Winter Group
@@ -108,10 +114,11 @@ playlist:
       - Rick Derringer
     corner: ""
     youtube: ""
+    title: Round & Round
     index: 316
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018003838"
+  - id: "2018003808"
     week: 38
     name: おしゃべり！おしゃべり！
     artist: 小島麻由美
@@ -122,6 +129,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: おしゃべり！おしゃべり！
     index: 317
     indexInWeek: 8
     selector: 草野マサムネ

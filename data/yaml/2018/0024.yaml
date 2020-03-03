@@ -4,10 +4,10 @@ year: 2018
 title: 宝島1986年6月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2018-06-17
 playlist:
-  - id: "2018002424"
+  - id: "2018002401"
     week: 24
     name: あじさい通り
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: あじさい通り
     index: 193
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002402"
     week: 24
     name: 昆虫軍
     artist: 戸川純
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 昆虫軍
     index: 194
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002403"
     week: 24
     name: べにくじら
     artist: 有頂天
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: べにくじら
     index: 195
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002404"
     week: 24
     name: GERONIMO
     artist: GASTUNK
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: GERONIMO
     index: 196
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002405"
     week: 24
     name: うめたて
     artist: ZELDA
@@ -76,10 +80,11 @@ playlist:
       - 白井良明
     corner: ""
     youtube: ""
+    title: うめたて
     index: 197
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002406"
     week: 24
     name: BROKEN GENERATION
     artist: LAUGHIN' NOSE
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: foIbzhIPFJQ
+    title: BROKEN GENERATION
     index: 198
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002407"
     week: 24
     name: I Am Bitch, Or Not
     artist: キャ→
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: I Am Bitch, Or Not
     index: 199
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002408"
     week: 24
     name: only you(唯一人)
     artist: ばちかぶり
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: only you(唯一人)
     index: 200
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002424"
+  - id: "2018002409"
     week: 24
     name: 痛み
     artist: クレヨン社
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 痛み
     index: 201
     indexInWeek: 9
     selector: 草野マサムネ

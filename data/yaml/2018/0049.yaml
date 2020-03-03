@@ -4,10 +4,10 @@ year: 2018
 title: シン・リジィで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2018-12-09
 playlist:
-  - id: "2018004949"
+  - id: "2018004901"
     week: 49
     name: エスカルゴ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: エスカルゴ
     index: 402
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004902"
     week: 49
     name: Angel from the Coast
     artist: Thin Lizzy
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: skZXB37hk0M
+    title: Angel from the Coast
     index: 403
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004903"
     week: 49
     name: Look What the Wind Blew In
     artist: Thin Lizzy
@@ -48,10 +50,11 @@ playlist:
       - Scott English
     corner: ""
     youtube: KTjF-yfUtn4
+    title: Look What the Wind Blew In
     index: 404
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004904"
     week: 49
     name: The Rocker
     artist: Thin Lizzy
@@ -63,10 +66,11 @@ playlist:
       - NickTauber
     corner: ""
     youtube: BF3NnFruoWQ
+    title: The Rocker
     index: 405
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004905"
     week: 49
     name: King's Vengeance
     artist: Thin Lizzy
@@ -78,10 +82,11 @@ playlist:
       - Phil Lynott
     corner: ""
     youtube: cxisFycOcxA
+    title: King's Vengeance
     index: 406
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004906"
     week: 49
     name: S & M
     artist: Thin Lizzy
@@ -93,10 +98,11 @@ playlist:
       - Tony Visconti
     corner: ""
     youtube: D4Ix_8YxQWo
+    title: S & M
     index: 407
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004907"
     week: 49
     name: Cowboy Song (Live 1978)
     artist: Thin Lizzy
@@ -108,10 +114,11 @@ playlist:
       - Tony Visconti
     corner: ""
     youtube: I_5lv00BmoU
+    title: Cowboy Song (Live 1978)
     index: 408
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018004949"
+  - id: "2018004908"
     week: 49
     name: 捨てちまえ
     artist: THEATRE BROOK
@@ -122,6 +129,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 捨てちまえ
     index: 409
     indexInWeek: 8
     selector: 草野マサムネ

@@ -4,10 +4,10 @@ year: 2018
 title: シャッフルのリズムで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リズム特集"]
 date: 2018-07-15
 playlist:
-  - id: "2018002828"
+  - id: "2018002801"
     week: 28
     name: ハニーハニー
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: ""
+    title: ハニーハニー
     index: 229
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002802"
     week: 28
     name: Run Run Run
     artist: Jo Jo Gunne
@@ -34,10 +35,11 @@ playlist:
       - Tom Dowd
     corner: ""
     youtube: cOi0Iv5J45c
+    title: Run Run Run
     index: 230
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002803"
     week: 28
     name: ハイ!チャイナ!
     artist: thee michelle gun elephant
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ハイ!チャイナ!
     index: 231
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002804"
     week: 28
     name: Panic
     artist: The Smiths
@@ -63,10 +66,11 @@ playlist:
       - John Porter
     corner: ""
     youtube: wMykYSQaG_c
+    title: Panic
     index: 232
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002805"
     week: 28
     name: Midnight Teenage Shuffle
     artist: PERSONZ
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: pUnQzRNxfiA
+    title: Midnight Teenage Shuffle
     index: 233
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002806"
     week: 28
     name: Gepetto
     artist: Belly
@@ -92,10 +97,11 @@ playlist:
       - Gil Norton
     corner: ""
     youtube: SBi676v4Gs4
+    title: Gepetto
     index: 234
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002807"
     week: 28
     name: Lazy Sunday
     artist: Small Faces
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: o_ZKQtmNMVE
+    title: Lazy Sunday
     index: 235
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002808"
     week: 28
     name: Southern Girls
     artist: Cheap Trick
@@ -121,10 +128,11 @@ playlist:
       - Tom Werman
     corner: ""
     youtube: VRSg81H7Bm0
+    title: Southern Girls
     index: 236
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002828"
+  - id: "2018002809"
     week: 28
     name: 体力に限界はあるのか
     artist: カステラ
@@ -135,6 +143,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 体力に限界はあるのか
     index: 237
     indexInWeek: 9
     selector: 草野マサムネ

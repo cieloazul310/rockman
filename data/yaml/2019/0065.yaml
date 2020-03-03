@@ -4,10 +4,10 @@ year: 2019
 title: 北海道のロックバンドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2019-03-31
 playlist:
-  - id: "2019006565"
+  - id: "2019006501"
     week: 65
     name: 雪風
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: KqJBpisB7lE
+    title: 雪風
     index: 537
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006502"
     week: 65
     name: 新宝島
     artist: サカナクション
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 新宝島
     index: 538
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006503"
     week: 65
     name: HONEY DANCE II
     artist: KENZI
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: HONEY DANCE II
     index: 539
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006504"
     week: 65
     name: グロリアス
     artist: GLAY
@@ -62,10 +65,11 @@ playlist:
       - 佐久間正英
     corner: ""
     youtube: 6ewGwJ63Nr4
+    title: グロリアス
     index: 540
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006505"
     week: 65
     name: 2月/February
     artist: bloodthirsty butchers
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 2月/February
     index: 541
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006506"
     week: 65
     name: バナナフィッシュの浜辺と黒い虹 with Aimer
     artist: Galileo Galilei
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: iubApGbf04I
+    title: バナナフィッシュの浜辺と黒い虹 with Aimer
     index: 542
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006507"
     week: 65
     name: アニー
     artist: ズーカラデル
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: zSPEdE651y0
+    title: アニー
     index: 543
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006565"
+  - id: "2019006508"
     week: 65
     name: メロディ
     artist: sleepy.ab
@@ -118,6 +125,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: _zrGfQjA830
+    title: メロディ
     index: 544
     indexInWeek: 8
     selector: 草野マサムネ

@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-01-28
 playlist:
-  - id: "2018000404"
+  - id: "2018000401"
     week: 4
     name: インディゴ地平線
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: cdMEZkGW2PA
+    title: インディゴ地平線
     index: 25
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000402"
     week: 4
     name: はじまりの国
     artist: People In the Box
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: dBz5JsdDTHw
+    title: はじまりの国
     index: 26
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000403"
     week: 4
     name: 初期衝動
     artist: BRAHMAN
@@ -47,6 +49,7 @@ playlist:
     producer: []
     corner: ""
     youtube: NnRvCS_pa8I
+    title: 初期衝動
     index: 27
     indexInWeek: 3
     selector: 草野マサムネ
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8cP9HeZS37E
+    title: GOLD
     index: 28
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000405"
     week: 4
     name: Amazing Parade
     artist: Czecho No Republic
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FodrXpDdvtg
+    title: Amazing Parade
     index: 29
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000406"
     week: 4
     name: 血清
     artist: パノラマメロウ
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 血清
     index: 30
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000407"
     week: 4
     name: Merry Go Round In Rainy Days
     artist: NYAI
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: PRTQb_BYqig
+    title: Merry Go Round In Rainy Days
     index: 31
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018000404"
+  - id: "2018000408"
     week: 4
     name: 新しい風
     artist: 陣内大蔵
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 新しい風
     index: 32
     indexInWeek: 8
     selector: 草野マサムネ

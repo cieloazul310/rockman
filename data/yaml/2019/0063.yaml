@@ -4,10 +4,10 @@ year: 2019
 title: THE SWEETで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-03-17
 playlist:
-  - id: "2019006363"
+  - id: "2019006301"
     week: 63
     name: 幻のドラゴン
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 幻のドラゴン
     index: 520
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006302"
     week: 63
     name: Fox on the Run
     artist: Sweet
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: qBdFA6sI6-8
+    title: Fox on the Run
     index: 521
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006303"
     week: 63
     name: Little Willy
     artist: Sweet
@@ -48,10 +50,11 @@ playlist:
       - Phil Wainman
     corner: ""
     youtube: NM6I-pmV0RA
+    title: Little Willy
     index: 522
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006304"
     week: 63
     name: Block Buster!
     artist: Sweet
@@ -63,10 +66,11 @@ playlist:
       - Phil Wainman
     corner: ""
     youtube: Y64211sjSko
+    title: Block Buster!
     index: 523
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006305"
     week: 63
     name: Action
     artist: Sweet
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: TcQDi6u28VQ
+    title: Action
     index: 524
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006306"
     week: 63
     name: Lady Starlight
     artist: Sweet
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FS4wK0V4OQM
+    title: Lady Starlight
     index: 525
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006307"
     week: 63
     name: Love Is Like Oxygen
     artist: Sweet
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: tXJ4TZSXtzc
+    title: Love Is Like Oxygen
     index: 526
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006363"
+  - id: "2019006308"
     week: 63
     name: 恋のマジックポーション
     artist: すかんち
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 恋のマジックポーション
     index: 527
     indexInWeek: 8
     selector: 草野マサムネ

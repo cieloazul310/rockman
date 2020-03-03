@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-02-24
 playlist:
-  - id: "2019006060"
+  - id: "2019006001"
     week: 60
     name: Stratagem
     artist: Eric Johnson
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: 4S4grLL10UM
+    title: Stratagem
     index: 495
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006002"
     week: 60
     name: Beat It
     artist: Michael Jackson
@@ -33,10 +34,11 @@ playlist:
       - Quincy Jones
     corner: ""
     youtube: oRdxUFDoQe0
+    title: Beat It
     index: 496
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006003"
     week: 60
     name: Dreaming
     artist: Blondie
@@ -48,10 +50,11 @@ playlist:
       - Mike Chapman
     corner: ""
     youtube: TU3-lS_Gryk
+    title: Dreaming
     index: 497
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006004"
     week: 60
     name: A Man I'll Never Be
     artist: Boston
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: gZxP3bMn0as
+    title: A Man I'll Never Be
     index: 498
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006005"
     week: 60
     name: One Night Love Affair
     artist: Bryan Adams
@@ -77,10 +81,11 @@ playlist:
       - Bob Clearmountain
     corner: ""
     youtube: W3SwEZ2WoUA
+    title: One Night Love Affair
     index: 499
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006006"
     week: 60
     name: I Don't Like Mondays
     artist: The Boomtown Rats
@@ -92,10 +97,11 @@ playlist:
       - Phil Wainman
     corner: ""
     youtube: -Kobdb37Cwc
+    title: I Don't Like Mondays
     index: 500
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006007"
     week: 60
     name: Air Guitar
     artist: McBusted
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 6mLKQgP8pdM
+    title: Air Guitar
     index: 501
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006060"
+  - id: "2019006008"
     week: 60
     name: LET'S GET TOGETHER
     artist: THE RYDERS
@@ -120,6 +127,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: LET'S GET TOGETHER
     index: 502
     indexInWeek: 8
     selector: 草野マサムネ

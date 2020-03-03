@@ -2,12 +2,12 @@ id: "20200108"
 week: 108
 year: 2020
 title: スピッツメンバーで漫遊記・2020初春 クジヒロコ編
-subtitle: ""
-guests: []
-categories: []
+subtitle: "このギターカッティングがスゲー！で漫遊記"
+guests: ["クジヒロコ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2020-01-26
 playlist:
-  - id: "20200108108"
+  - id: "2020010801"
     week: 108
     name: ヤマブキ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ヤマブキ
     index: 890
     indexInWeek: 1
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010802"
     week: 108
     name: Favourite Shirts (Boy Meets Girl)
     artist: Haircut One Hundred
@@ -31,12 +32,13 @@ playlist:
     nation: UK
     label: Arista
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: ""
+    title: Favourite Shirts (Boy Meets Girl)
     index: 891
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010803"
     week: 108
     name: She Does It Right
     artist: Dr. Feelgood
@@ -46,12 +48,13 @@ playlist:
     label: United Artists
     producer:
       - Vic Maile
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: xvcy5r47SPU
+    title: She Does It Right
     index: 892
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010804"
     week: 108
     name: The Cutter
     artist: Echo & the Bunnymen
@@ -61,12 +64,13 @@ playlist:
     label: Korova
     producer:
       - Kingbird
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: 3fKwo8qlkJE
+    title: The Cutter
     index: 893
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010805"
     week: 108
     name: Creep
     artist: Radiohead
@@ -76,12 +80,13 @@ playlist:
     label: Parlophone
     producer:
       - Sean Slade
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: XFkzRNyygfk
+    title: Creep
     index: 894
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010806"
     week: 108
     name: SLUDGE
     artist: dip
@@ -90,12 +95,13 @@ playlist:
     nation: JPN
     label: Karasu
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: ""
+    title: SLUDGE
     index: 895
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010807"
     week: 108
     name: Foxhole
     artist: Television
@@ -104,12 +110,13 @@ playlist:
     nation: US
     label: Elektra
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: 2IQCUc4rNN8
+    title: Foxhole
     index: 896
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "20200108108"
+    selector: クジヒロコ
+  - id: "2020010808"
     week: 108
     name: 悪の華
     artist: BUCK-TICK
@@ -118,8 +125,9 @@ playlist:
     nation: JPN
     label: ビクターインビテーション
     producer: []
-    corner: クジヒロコ選曲
+    corner: ちょっぴりタイムマシン
     youtube: F-Oax86SCuo
+    title: 悪の華
     index: 897
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: クジヒロコ

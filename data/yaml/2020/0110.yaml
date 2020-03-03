@@ -4,10 +4,10 @@ year: 2020
 title: ジェネレーションXで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2020-02-09
 playlist:
-  - id: "20200110110"
+  - id: "2020011001"
     week: 110
     name: 砂漠の花
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 砂漠の花
     index: 907
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011002"
     week: 110
     name: One Hundred Punks
     artist: Generation X
@@ -34,10 +35,11 @@ playlist:
       - Martin Rushent
     corner: ""
     youtube: rn46wWn00bo
+    title: One Hundred Punks
     index: 908
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011003"
     week: 110
     name: Rebel Yell
     artist: Billy Idol
@@ -49,10 +51,11 @@ playlist:
       - Keith Forsey
     corner: ""
     youtube: VdphvuyaV_I
+    title: Rebel Yell
     index: 909
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011004"
     week: 110
     name: From the Heart
     artist: Generation X
@@ -64,10 +67,11 @@ playlist:
       - Martin Rushent
     corner: ""
     youtube: 9cn_5dEugYs
+    title: From the Heart
     index: 910
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011005"
     week: 110
     name: Ready Steady Go
     artist: Generation X
@@ -79,10 +83,11 @@ playlist:
       - Martin Rushent
     corner: ""
     youtube: 5dkbnjzHrWE
+    title: Ready Steady Go
     index: 911
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011006"
     week: 110
     name: King Rocker
     artist: Generation X
@@ -94,10 +99,11 @@ playlist:
       - Ian Hunter
     corner: ""
     youtube: L8HQGsT5mzg
+    title: King Rocker
     index: 912
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011007"
     week: 110
     name: Dancing with Myself
     artist: Generation X
@@ -109,10 +115,11 @@ playlist:
       - Keith Forsey
     corner: ""
     youtube: LMdOhFwuUFc
+    title: Dancing with Myself
     index: 913
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011008"
     week: 110
     name: Kleenex
     artist: Generation X
@@ -124,10 +131,11 @@ playlist:
       - Martin Rushent
     corner: ""
     youtube: XyHOehmk8SY
+    title: Kleenex
     index: 914
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "20200110110"
+  - id: "2020011009"
     week: 110
     name: キミのカオ
     artist: ホフディラン
@@ -138,6 +146,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: キミのカオ
     index: 915
     indexInWeek: 9
     selector: 草野マサムネ

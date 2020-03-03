@@ -4,10 +4,10 @@ year: 2019
 title: ライドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-02-10
 playlist:
-  - id: "2019005858"
+  - id: "2019005801"
     week: 58
     name: プール
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: プール
     index: 478
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005802"
     week: 58
     name: Like a Daydream
     artist: Ride
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8zzo25t_eC8
+    title: Like a Daydream
     index: 479
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005803"
     week: 58
     name: Never Understand
     artist: The Jesus and Mary Chain
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2bzrCCKDwc
+    title: Never Understand
     index: 480
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005804"
     week: 58
     name: Taste
     artist: Ride
@@ -61,10 +64,11 @@ playlist:
       - Marc Waterman
     corner: ""
     youtube: APqGzOD0fUk
+    title: Taste
     index: 481
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005805"
     week: 58
     name: Paralysed
     artist: Ride
@@ -76,10 +80,11 @@ playlist:
       - Marc Waterman
     corner: ""
     youtube: weQjUYxRv4A
+    title: Paralysed
     index: 482
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005806"
     week: 58
     name: Cool Your Boots
     artist: Ride
@@ -91,10 +96,11 @@ playlist:
       - Alan Moulder
     corner: ""
     youtube: 3aFh4oTmIio
+    title: Cool Your Boots
     index: 483
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005807"
     week: 58
     name: Charm Assault
     artist: Ride
@@ -106,10 +112,11 @@ playlist:
       - Erol Alkan
     corner: ""
     youtube: nW_lRP2RqX8
+    title: Charm Assault
     index: 484
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019005858"
+  - id: "2019005808"
     week: 58
     name: UNDER the U.K.
     artist: 横道坊主
@@ -120,6 +127,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: 1XdcLU9N5AE
+    title: UNDER the U.K.
     index: 485
     indexInWeek: 8
     selector: 草野マサムネ

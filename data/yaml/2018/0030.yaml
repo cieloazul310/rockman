@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-07-29
 playlist:
-  - id: "2018003030"
+  - id: "2018003001"
     week: 30
     name: 夏の魔物
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: ""
+    title: 夏の魔物
     index: 246
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003002"
     week: 30
     name: サマーツアー
     artist: RCサクセション
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: dRMIUegdhh4
+    title: サマーツアー
     index: 247
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003003"
     week: 30
     name: SUMMER SONG
     artist: YUI
@@ -48,10 +50,11 @@ playlist:
       - HISASHI KONDO
     corner: ""
     youtube: JW7y1gzWISA
+    title: SUMMER SONG
     index: 248
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003004"
     week: 30
     name: Summer Soul
     artist: cero
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: lfETQNfBAD4
+    title: Summer Soul
     index: 249
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003005"
     week: 30
     name: SUMMER BREEZE
     artist: go!go!vanillas
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: lTYHDtukfcw
+    title: SUMMER BREEZE
     index: 250
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003006"
     week: 30
     name: 夏が来て僕等
     artist: 真島昌利
@@ -91,10 +96,11 @@ playlist:
       - 篠原太郎
     corner: ""
     youtube: ""
+    title: 夏が来て僕等
     index: 251
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003007"
     week: 30
     name: 真夏の夜の事
     artist: 初恋の嵐
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 1_Op0iJ9Ddc
+    title: 真夏の夜の事
     index: 252
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018003030"
+  - id: "2018003008"
     week: 30
     name: あなほり
     artist: KUSU KUSU
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: あなほり
     index: 253
     indexInWeek: 8
     selector: 草野マサムネ

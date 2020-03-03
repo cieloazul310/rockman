@@ -4,10 +4,10 @@ year: 2018
 title: ロックなビリージョエルで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2018-09-02
 playlist:
-  - id: "2018003535"
+  - id: "2018003501"
     week: 35
     name: 夏が終わる
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: 夏が終わる
     index: 285
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003502"
     week: 35
     name: It's Still Rock and Roll to Me
     artist: Billy Joel
@@ -34,10 +35,11 @@ playlist:
       - Phil Ramone
     corner: ""
     youtube: 5eAQa4MOGkE
+    title: It's Still Rock and Roll to Me
     index: 286
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003503"
     week: 35
     name: Wonder Woman
     artist: Attila
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Wonder Woman
     index: 287
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003504"
     week: 35
     name: Los Angelenos
     artist: Billy Joel
@@ -63,10 +66,11 @@ playlist:
       - Michael Stewart
     corner: ""
     youtube: Wo2TKojbMN8
+    title: Los Angelenos
     index: 288
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003505"
     week: 35
     name: Prelude/Angry Young Man
     artist: Billy Joel
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: M2iNLt_hUZg
+    title: Prelude/Angry Young Man
     index: 289
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003506"
     week: 35
     name: You May Be Right
     artist: Billy Joel
@@ -92,10 +97,11 @@ playlist:
       - Phil Ramone
     corner: ""
     youtube: Jo9t5XK0FhA
+    title: You May Be Right
     index: 290
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003507"
     week: 35
     name: Shades of Grey
     artist: Billy Joel
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: CopYqp0HZkY
+    title: Shades of Grey
     index: 291
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018003535"
+  - id: "2018003508"
     week: 35
     name: 夢ゴゴチ
     artist: 江口洋介
@@ -120,6 +127,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 夢ゴゴチ
     index: 292
     indexInWeek: 8
     selector: 草野マサムネ

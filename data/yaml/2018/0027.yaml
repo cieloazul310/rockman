@@ -4,10 +4,10 @@ year: 2018
 title: Teenage Fanclubで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2018-07-08
 playlist:
-  - id: "2018002727"
+  - id: "2018002701"
     week: 27
     name: 小さな生き物
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: tU5mPtGk1Eg
+    title: 小さな生き物
     index: 220
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002702"
     week: 27
     name: The Concept
     artist: Teenage Fanclub
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 7JYH1pVbqpQ
+    title: The Concept
     index: 221
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002703"
     week: 27
     name: Like a Virgin
     artist: Teenage Fanclub
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Like a Virgin
     index: 222
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002704"
     week: 27
     name: The Cabbage
     artist: Teenage Fanclub
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: LiZrfCWsuMk
+    title: The Cabbage
     index: 223
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002705"
     week: 27
     name: Sparky's Dream
     artist: Teenage Fanclub
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: UK_CuMJJLwg
+    title: Sparky's Dream
     index: 224
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002706"
     week: 27
     name: Ain't That Enough
     artist: Teenage Fanclub
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: jdeqYx-9-AQ
+    title: Ain't That Enough
     index: 225
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002707"
     week: 27
     name: I Don't Want Control of You
     artist: Teenage Fanclub
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: I Don't Want Control of You
     index: 226
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002708"
     week: 27
     name: I'm In Love
     artist: Teenage Fanclub
@@ -117,10 +124,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FDOLKSp2AWU
+    title: I'm In Love
     index: 227
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002727"
+  - id: "2018002709"
     week: 27
     name: Fall in Love Once Again
     artist: SPORTS
@@ -131,6 +139,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Fall in Love Once Again
     index: 228
     indexInWeek: 9
     selector: 草野マサムネ

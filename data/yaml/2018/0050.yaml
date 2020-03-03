@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-12-16
 playlist:
-  - id: "2018005050"
+  - id: "2018005001"
     week: 50
     name: ウサギのバイク
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: ウサギのバイク
     index: 410
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005002"
     week: 50
     name: This Is the Sound
     artist: The Juliana Hatfield Three
@@ -33,10 +34,11 @@ playlist:
       - Scott Litt
     corner: ""
     youtube: ""
+    title: This Is the Sound
     index: 411
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005003"
     week: 50
     name: 美しい棘
     artist: GLIM SPANKY
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: aoHztp815sw
+    title: 美しい棘
     index: 412
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005004"
     week: 50
     name: Motorcrash
     artist: The Sugarcubes
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: vz9WNOkVTWo
+    title: Motorcrash
     index: 413
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005005"
     week: 50
     name: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
     artist: マキシマム ザ ホルモン
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
     index: 414
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005006"
     week: 50
     name: Beautiful Dream
     artist: Suddenly, Tammy!
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: fe2L1HXq7u0
+    title: Beautiful Dream
     index: 415
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005007"
     week: 50
     name: タマシイレボリューション
     artist: Superfly
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Z2tedgbqJJs
+    title: タマシイレボリューション
     index: 416
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018005050"
+  - id: "2018005008"
     week: 50
     name: Water Tracks
     artist: トルネード竜巻
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Water Tracks
     index: 417
     indexInWeek: 8
     selector: 草野マサムネ

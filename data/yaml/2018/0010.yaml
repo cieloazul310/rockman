@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-03-11
 playlist:
-  - id: "2018001010"
+  - id: "2018001001"
     week: 10
     name: 1987→
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: SalC2mBb1QQ
+    title: 1987→
     index: 74
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001002"
     week: 10
     name: 優しい川
     artist: エレファントカシマシ
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 優しい川
     index: 75
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001003"
     week: 10
     name: 虹の彼方へ
     artist: Mr.Children
@@ -47,10 +49,11 @@ playlist:
       - 小林武史
     corner: ""
     youtube: ""
+    title: 虹の彼方へ
     index: 76
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001004"
     week: 10
     name: おーい！！
     artist: ウルフルズ
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: おーい！！
     index: 77
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001005"
     week: 10
     name: だけど一人じゃいられない
     artist: JUN SKY WALKER(S)
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: だけど一人じゃいられない
     index: 78
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001006"
     week: 10
     name: ビューティフルドリーマー
     artist: フラワーカンパニーズ
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: fIh0IAqObi8
+    title: ビューティフルドリーマー
     index: 79
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001007"
     week: 10
     name: Charmless Man
     artist: Blur
@@ -104,10 +110,11 @@ playlist:
       - Stephen Street
     corner: ""
     youtube: p1a_4CN4onA
+    title: Charmless Man
     index: 80
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001010"
+  - id: "2018001008"
     week: 10
     name: 月とSNAPSHOTS
     artist: 鈴木祥子
@@ -118,6 +125,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 月とSNAPSHOTS
     index: 81
     indexInWeek: 8
     selector: 草野マサムネ

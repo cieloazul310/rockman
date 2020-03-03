@@ -2,12 +2,12 @@ id: "20200106"
 week: 106
 year: 2020
 title: スピッツメンバーで漫遊記・2020初春 崎山龍男編
-subtitle: ""
-guests: []
-categories: []
+subtitle: "一番好きなドラマー ヴィニーカリウタで漫遊記"
+guests: ["崎山龍男"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2020-01-12
 playlist:
-  - id: "20200106106"
+  - id: "2020010601"
     week: 106
     name: メモリーズ・カスタム
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 石田小吉
     corner: 漫遊前の一曲
     youtube: ""
+    title: メモリーズ・カスタム
     index: 875
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200106106"
+  - id: "2020010602"
     week: 106
     name: Catholic Girls
     artist: Frank Zappa
@@ -31,12 +32,13 @@ playlist:
     nation: US
     label: Zappa
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: KVVhsOIhnMg
+    title: Catholic Girls
     index: 876
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "20200106106"
+    selector: 崎山龍男
+  - id: "2020010603"
     week: 106
     name: Seven Days
     artist: Sting
@@ -45,12 +47,13 @@ playlist:
     nation: UK
     label: A&M
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: pG7_gceIFL4
+    title: Seven Days
     index: 877
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "20200106106"
+    selector: 崎山龍男
+  - id: "2020010604"
     week: 106
     name: There's No Other Me
     artist: Jeff Beck
@@ -59,12 +62,13 @@ playlist:
     nation: UK
     label: Atco
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: h153PvH4cXg
+    title: There's No Other Me
     index: 878
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "20200106106"
+    selector: 崎山龍男
+  - id: "2020010605"
     week: 106
     name: Blackmail the Universe
     artist: Megadeth
@@ -73,12 +77,13 @@ playlist:
     nation: US
     label: Sanctuary
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: uiEkq1fBK_s
+    title: Blackmail the Universe
     index: 879
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "20200106106"
+    selector: 崎山龍男
+  - id: "2020010606"
     week: 106
     name: ダンスのように抱き寄せたい
     artist: 松任谷由実
@@ -88,12 +93,13 @@ playlist:
     label: Capitol Records
     producer:
       - 松任谷正隆
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: -axalihW2HE
+    title: ダンスのように抱き寄せたい
     index: 880
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "20200106106"
+    selector: 崎山龍男
+  - id: "2020010607"
     week: 106
     name: ふられ気分でRock'n' Roll
     artist: TOM★CAT
@@ -102,8 +108,9 @@ playlist:
     nation: JPN
     label: AARD-VARK
     producer: []
-    corner: 崎山龍男選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: ふられ気分でRock'n' Roll
     index: 881
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: 崎山龍男

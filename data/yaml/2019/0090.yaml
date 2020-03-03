@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-09-22
 playlist:
-  - id: "2019009090"
+  - id: "2019009001"
     week: 90
     name: ありがとさん
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: I24azAvtwu8
+    title: ありがとさん
     index: 739
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009002"
     week: 90
     name: Sunday Morning
     artist: The Velvet Underground
@@ -34,10 +35,11 @@ playlist:
       - Tom Wilson
     corner: ""
     youtube: Xhbyj8pqUao
+    title: Sunday Morning
     index: 740
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009003"
     week: 90
     name: Epitaph
     artist: Judas Priest
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Epitaph
     index: 741
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009004"
     week: 90
     name: Rain
     artist: Uriah Heep
@@ -63,10 +66,11 @@ playlist:
       - Gerry Bron
     corner: ""
     youtube: 0-o-cAwKFnc
+    title: Rain
     index: 742
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009005"
     week: 90
     name: Baby Baby
     artist: The Vibrators
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: rwxxkq6k1x4
+    title: Baby Baby
     index: 743
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009006"
     week: 90
     name: Home Tonight
     artist: Aerosmith
@@ -92,10 +97,11 @@ playlist:
       - Jack Douglas
     corner: ""
     youtube: ""
+    title: Home Tonight
     index: 744
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009007"
     week: 90
     name: Good Riddance (Time of Your Life)
     artist: Green Day
@@ -107,10 +113,11 @@ playlist:
       - Rob Cavallo
     corner: ""
     youtube: CnQ8N1KacJc
+    title: Good Riddance (Time of Your Life)
     index: 745
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009008"
     week: 90
     name: Rainbow River
     artist: Vashti Bunyan
@@ -122,10 +129,11 @@ playlist:
       - Joe Boyd
     corner: ""
     youtube: ""
+    title: Rainbow River
     index: 746
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019009090"
+  - id: "2019009009"
     week: 90
     name: 過ぎ去りし日々
     artist: 紫
@@ -136,6 +144,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 過ぎ去りし日々
     index: 747
     indexInWeek: 9
     selector: 草野マサムネ

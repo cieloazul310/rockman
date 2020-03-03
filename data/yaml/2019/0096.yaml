@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-11-03
 playlist:
-  - id: "2019009696"
+  - id: "2019009601"
     week: 96
     name: ラジオデイズ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ラジオデイズ
     index: 792
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009602"
     week: 96
     name: Video Killed The Radio Star
     artist: The Buggles
@@ -34,10 +35,11 @@ playlist:
       - Mike Hurst
     corner: ""
     youtube: W8r-tXRLazs
+    title: Video Killed The Radio Star
     index: 793
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009603"
     week: 96
     name: トランジスタ・ラジオ
     artist: RCサクセション
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: トランジスタ・ラジオ
     index: 794
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009604"
     week: 96
     name: Radio Ga Ga (Live Aid)
     artist: Queen
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: rf_WZ1G8Ux8
+    title: Radio Ga Ga (Live Aid)
     index: 795
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009605"
     week: 96
     name: I Won't Turn Off My Radio
     artist: Ken Yokoyama
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: GEqtB6mSmWc
+    title: I Won't Turn Off My Radio
     index: 796
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009606"
     week: 96
     name: Guerrilla Radio
     artist: Rage Against the Machine
@@ -91,10 +96,11 @@ playlist:
       - Brendan O’Brien
     corner: ""
     youtube: z67Go-MuX1s
+    title: Guerrilla Radio
     index: 797
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009607"
     week: 96
     name: 涙のリクエスト
     artist: チェッカーズ
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 涙のリクエスト
     index: 798
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019009696"
+  - id: "2019009608"
     week: 96
     name: RADIO RADIO RADIO
     artist: THE BELL’S
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: RADIO RADIO RADIO
     index: 799
     indexInWeek: 8
     selector: 草野マサムネ

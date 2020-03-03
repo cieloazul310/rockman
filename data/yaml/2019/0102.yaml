@@ -4,10 +4,10 @@ year: 2019
 title: ビートルズのカバー曲で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["変則アーティスト特集"]
 date: 2019-12-15
 playlist:
-  - id: "20190102102"
+  - id: "2019010201"
     week: 102
     name: 空も飛べるはず (Album Version)
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: h-kQw4JqCHE
+    title: 空も飛べるはず (Album Version)
     index: 844
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010202"
     week: 102
     name: キャント・バイ・ミー・ラブ
     artist: 東京ビートルズ
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: キャント・バイ・ミー・ラブ
     index: 845
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010203"
     week: 102
     name: Day Tripper
     artist: Cheap Trick
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: aWz3pM0j90M
+    title: Day Tripper
     index: 846
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010204"
     week: 102
     name: We Can Work It Out
     artist: Deep Purple
@@ -62,10 +65,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: UY1C_Hn6Sdo
+    title: We Can Work It Out
     index: 847
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010205"
     week: 102
     name: イエロー・サブマリン音頭
     artist: 金沢明子
@@ -77,10 +81,11 @@ playlist:
       - 大瀧詠一
     corner: ""
     youtube: ""
+    title: イエロー・サブマリン音頭
     index: 848
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010206"
     week: 102
     name: Helier Skelter
     artist: Mötley Crüe
@@ -92,10 +97,11 @@ playlist:
       - Tom Werman
     corner: ""
     youtube: _QrBJNtC-MU
+    title: Helier Skelter
     index: 849
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010207"
     week: 102
     name: I’ve Just Seen A Face
     artist: 小野リサ
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: XBaTkoWhVBA
+    title: I’ve Just Seen A Face
     index: 850
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010208"
     week: 102
     name: Across the Universe
     artist: Fiona Apple
@@ -120,10 +127,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Across the Universe
     index: 851
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "20190102102"
+  - id: "2019010209"
     week: 102
     name: あなたはやって来る 〜Dear Santa〜
     artist: 小谷美紗子
@@ -134,6 +142,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: あなたはやって来る 〜Dear Santa〜
     index: 852
     indexInWeek: 9
     selector: 草野マサムネ

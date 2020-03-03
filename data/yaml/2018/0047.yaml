@@ -4,10 +4,10 @@ year: 2018
 title: ロッキングオンジャパン1995年9月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2018-11-25
 playlist:
-  - id: "2018004747"
+  - id: "2018004701"
     week: 47
     name: 涙がキラリ☆
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: hGsNLE45uWE
+    title: 涙がキラリ☆
     index: 387
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004702"
     week: 47
     name: ミサイルマン
     artist: THE HIGH-LOWS
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ミサイルマン
     index: 388
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004703"
     week: 47
     name: Garden
     artist: Spiral Life
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: bezCXU9hdCs
+    title: Garden
     index: 389
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004704"
     week: 47
     name: とまどいの時を越えて
     artist: FLYING KIDS
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: とまどいの時を越えて
     index: 390
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004705"
     week: 47
     name: Heavy Metal Thunder
     artist: Cornelius
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Heavy Metal Thunder
     index: 391
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004706"
     week: 47
     name: レミレミ
     artist: 神森徹也
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: レミレミ
     index: 392
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004747"
+  - id: "2018004707"
     week: 47
     name: ノーコメント
     artist: TRANSISTOR GLAMOUR
@@ -103,6 +109,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: ノーコメント
     index: 393
     indexInWeek: 7
     selector: 草野マサムネ

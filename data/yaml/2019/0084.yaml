@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-08-11
 playlist:
-  - id: "2019008484"
+  - id: "2019008401"
     week: 84
     name: 悪役
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 悪役
     index: 690
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008402"
     week: 84
     name: ハネノバシ
     artist: SHISHAMO
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ハネノバシ
     index: 691
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008403"
     week: 84
     name: 君が海
     artist: My Hair is Bad
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 58uc_4DMAao
+    title: 君が海
     index: 692
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008404"
     week: 84
     name: イエス
     artist: ズーカラデル
@@ -60,10 +63,11 @@ playlist:
     producer: []
     corner: ""
     youtube: hqko0yGdMi0
+    title: イエス
     index: 693
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008405"
     week: 84
     name: 旅の手帖
     artist: サニーデイ・サービス
@@ -74,10 +78,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 旅の手帖
     index: 694
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008406"
     week: 84
     name: Catch up, latency
     artist: UNISON SQUARE GARDEN
@@ -88,10 +93,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8er1vO2V1qI
+    title: Catch up, latency
     index: 695
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008407"
     week: 84
     name: かよわきエナジー～Take Me Home, Country Roads
     artist: GOING UNDER GROUND
@@ -102,10 +108,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: かよわきエナジー～Take Me Home, Country Roads
     index: 696
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008484"
+  - id: "2019008408"
     week: 84
     name: 労働
     artist: PERIDOTS
@@ -116,6 +123,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: 0HNft8D0Mps
+    title: 労働
     index: 697
     indexInWeek: 8
     selector: 草野マサムネ

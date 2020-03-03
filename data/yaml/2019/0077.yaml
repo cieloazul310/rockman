@@ -4,10 +4,10 @@ year: 2019
 title: ロニー・ジェイムス・ディオで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-06-23
 playlist:
-  - id: "2019007777"
+  - id: "2019007701"
     week: 77
     name: 優しいあの子
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
+    title: 優しいあの子
     index: 633
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007702"
     week: 77
     name: Kill the King
     artist: Rainbow
@@ -33,10 +34,11 @@ playlist:
       - Martin Birch
     corner: ""
     youtube: zEaxow3PoO0
+    title: Kill the King
     index: 634
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007703"
     week: 77
     name: Love Pains
     artist: Ronnie Dio & The Prophets
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ObasKE0PLTA
+    title: Love Pains
     index: 635
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007704"
     week: 77
     name: Good Time Music
     artist: Elf
@@ -62,10 +65,11 @@ playlist:
       - Roger Glover
     corner: ""
     youtube: ""
+    title: Good Time Music
     index: 636
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007705"
     week: 77
     name: Man on the Silver Mountain
     artist: Rainbow
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ORnvO1VyYMk
+    title: Man on the Silver Mountain
     index: 637
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007706"
     week: 77
     name: Neon Knights
     artist: Black Sabbath
@@ -91,10 +96,11 @@ playlist:
       - Martin Birch
     corner: ""
     youtube: LJOvZ2AyDnA
+    title: Neon Knights
     index: 638
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007707"
     week: 77
     name: Caught In The Middle
     artist: Dio
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: qsskD9g_grg
+    title: Caught In The Middle
     index: 639
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007777"
+  - id: "2019007708"
     week: 77
     name: 愛をちょうだい
     artist: VANILLA
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 愛をちょうだい
     index: 640
     indexInWeek: 8
     selector: 草野マサムネ

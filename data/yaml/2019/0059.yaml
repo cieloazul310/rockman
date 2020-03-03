@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-02-17
 playlist:
-  - id: "2019005959"
+  - id: "2019005901"
     week: 59
     name: ただ春を待つ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 棚谷祐一
     corner: 漫遊前の一曲
     youtube: ""
+    title: ただ春を待つ
     index: 486
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005902"
     week: 59
     name: Into the Arena
     artist: Michael Schenker Group
@@ -34,10 +35,11 @@ playlist:
       - Roger Glover
     corner: ""
     youtube: BWeBbHRKDIk
+    title: Into the Arena
     index: 487
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005903"
     week: 59
     name: Eruption
     artist: Van Halen
@@ -49,10 +51,11 @@ playlist:
       - Ted Templeman
     corner: ""
     youtube: M4Czx8EWXb0
+    title: Eruption
     index: 488
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005904"
     week: 59
     name: Lester Leaps In
     artist: The Monochrome Set
@@ -63,10 +66,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ZyWNhgITOZI
+    title: Lester Leaps In
     index: 489
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005905"
     week: 59
     name: The Hunt
     artist: Tommy Emmanuel
@@ -78,10 +82,11 @@ playlist:
       - Rick Neigher
     corner: ""
     youtube: r74uI1pQBsI
+    title: The Hunt
     index: 490
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005906"
     week: 59
     name: Stratagem
     artist: Eric Johnson
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: 放送事故で曲かからず
     youtube: 4S4grLL10UM
+    title: Stratagem
     index: 491
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005907"
     week: 59
     name: Weiss Heim
     artist: Rainbow
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: w-taBiGe21g
+    title: Weiss Heim
     index: 492
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005908"
     week: 59
     name: SACRED FIELD
     artist: TAK MATSUMOTO
@@ -120,10 +127,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: SACRED FIELD
     index: 493
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019005959"
+  - id: "2019005909"
     week: 59
     name: SAUDADE
     artist: 高中正義
@@ -134,6 +142,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: SAUDADE
     index: 494
     indexInWeek: 9
     selector: 草野マサムネ

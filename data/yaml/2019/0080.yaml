@@ -4,10 +4,10 @@ year: 2019
 title: ジェスロ・タルで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-07-14
 playlist:
-  - id: "2019008080"
+  - id: "2019008001"
     week: 80
     name: シュラフ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: シュラフ
     index: 657
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008002"
     week: 80
     name: The Witch's Promise
     artist: Jethro Tull
@@ -33,10 +34,11 @@ playlist:
       - Terry Ellis
     corner: ""
     youtube: 304WfksyWg0
+    title: The Witch's Promise
     index: 658
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008003"
     week: 80
     name: My Sunday Feeling
     artist: Jethro Tull
@@ -48,10 +50,11 @@ playlist:
       - Terry Ellis
     corner: ""
     youtube: nzjp-cFkNoE
+    title: My Sunday Feeling
     index: 659
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008004"
     week: 80
     name: Aqualung
     artist: Jethro Tull
@@ -63,10 +66,11 @@ playlist:
       - Terry Ellis
     corner: ""
     youtube: 0Idy43XYwLo
+    title: Aqualung
     index: 660
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008005"
     week: 80
     name: Lick Your Fingers Clean
     artist: Jethro Tull
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: HvnNNgJXyts
+    title: Lick Your Fingers Clean
     index: 661
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008006"
     week: 80
     name: Mayhem, Maybe
     artist: Jethro Tull
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FHl0tWfHj2Y
+    title: Mayhem, Maybe
     index: 662
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008007"
     week: 80
     name: Mother Goose
     artist: Jethro Tull
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: KBAN1thF0-4
+    title: Mother Goose
     index: 663
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008080"
+  - id: "2019008008"
     week: 80
     name: 公園通り
     artist: 五島良子
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 公園通り
     index: 664
     indexInWeek: 8
     selector: 草野マサムネ

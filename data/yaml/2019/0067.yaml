@@ -4,10 +4,10 @@ year: 2019
 title: ウィッシュボーンアッシュで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-04-14
 playlist:
-  - id: "2019006767"
+  - id: "2019006701"
     week: 67
     name: 花の写真
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 花の写真
     index: 554
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006702"
     week: 67
     name: Blowin' Free
     artist: Wishbone Ash
@@ -34,10 +35,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: hGXW5d5f-LM
+    title: Blowin' Free
     index: 555
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006703"
     week: 67
     name: Throw Down the Sword
     artist: Wishbone Ash
@@ -49,10 +51,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: w-BHRQrMglo
+    title: Throw Down the Sword
     index: 556
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006704"
     week: 67
     name: Blind Eye
     artist: Wishbone Ash
@@ -64,10 +67,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: n5MBHX5kqk4
+    title: Blind Eye
     index: 557
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006705"
     week: 67
     name: Silver Shoes
     artist: Wishbone Ash
@@ -79,10 +83,11 @@ playlist:
       - Bill Szymczyk
     corner: ""
     youtube: mPsmBLqJoHE
+    title: Silver Shoes
     index: 558
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006706"
     week: 67
     name: Reason to Believe
     artist: Wishbone Ash
@@ -93,10 +98,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 7tr5sddw-bs
+    title: Reason to Believe
     index: 559
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006767"
+  - id: "2019006707"
     week: 67
     name: 機械じかけのラム
     artist: 四人囃子
@@ -107,6 +113,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 機械じかけのラム
     index: 560
     indexInWeek: 7
     selector: 草野マサムネ

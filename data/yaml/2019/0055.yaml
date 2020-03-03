@@ -2,12 +2,12 @@ id: "20190055"
 week: 55
 year: 2019
 title: スピッツ崎山龍男で漫遊記2019
-subtitle: ""
-guests: []
-categories: []
+subtitle: "憧れて真似した好きなドラマー"
+guests: ["崎山龍男"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2019-01-20
 playlist:
-  - id: "2019005555"
+  - id: "2019005501"
     week: 55
     name: クリスピー
     artist: スピッツ
@@ -17,12 +17,13 @@ playlist:
     label: ポリドール
     producer:
       - 笹路正徳
-    corner: 崎山龍男選曲
+    corner: 漫遊前の一曲
     youtube: ""
+    title: クリスピー
     index: 453
     indexInWeek: 1
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005502"
     week: 55
     name: We’re an American Band
     artist: Grand Funk Railroad
@@ -32,12 +33,13 @@ playlist:
     label: Capitol Records
     producer:
       - Todd Rundgren
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: QxNXFNCTr2I
+    title: We’re an American Band
     index: 454
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005503"
     week: 55
     name: Smokin' in the Boys Room
     artist: Mötley Crüe
@@ -47,12 +49,13 @@ playlist:
     label: Elektra
     producer:
       - Tom Werman
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: 9Hp1Bxko8M8
+    title: Smokin' in the Boys Room
     index: 455
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005504"
     week: 55
     name: Some Skunk Funk (Live 1978)
     artist: Brecker Brothers
@@ -62,12 +65,13 @@ playlist:
     label: Arista
     producer:
       - Randy Brecker
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
+    title: Some Skunk Funk (Live 1978)
     index: 456
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005505"
     week: 55
     name: Good Times Bad Times
     artist: Led Zeppelin
@@ -76,12 +80,13 @@ playlist:
     nation: UK
     label: Atlantic
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: lsZG7n7ries
+    title: Good Times Bad Times
     index: 457
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005506"
     week: 55
     name: Armed and Ready
     artist: Michael Schenker Group
@@ -91,12 +96,13 @@ playlist:
     label: Chrysalis
     producer:
       - Roger Glover
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: zZ9VzWEQnIY
+    title: Armed and Ready
     index: 458
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005507"
     week: 55
     name: Walking on the Moon
     artist: The Police
@@ -106,12 +112,13 @@ playlist:
     label: A&M
     producer:
       - Nigel Gray
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: zPwMdZOlPo8
+    title: Walking on the Moon
     index: 459
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019005555"
+    selector: 崎山龍男
+  - id: "2019005508"
     week: 55
     name: Heaven
     artist: The Groovers
@@ -121,8 +128,9 @@ playlist:
     label: アルファレコード
     producer:
       - 平沢進
-    corner: 崎山龍男選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Heaven
     index: 460
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: 崎山龍男

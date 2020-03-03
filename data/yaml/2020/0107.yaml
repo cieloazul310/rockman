@@ -2,12 +2,12 @@ id: "20200107"
 week: 107
 year: 2020
 title: スピッツメンバーで漫遊記・2020初春 田村明浩編
-subtitle: ""
-guests: []
-categories: []
+subtitle: "アルバム一曲目で漫遊記"
+guests: ["田村明浩"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2020-01-19
 playlist:
-  - id: "20200107107"
+  - id: "2020010701"
     week: 107
     name: ハチミツ
     artist: スピッツ
@@ -17,12 +17,13 @@ playlist:
     label: ポリドール
     producer:
       - 笹路正徳
-    corner: 田村明浩選曲
+    corner: 漫遊前の一曲
     youtube: 6J1sPwGCH5w
+    title: ハチミツ
     index: 882
     indexInWeek: 1
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010702"
     week: 107
     name: Back on the Streets
     artist: Gary Moore
@@ -32,12 +33,13 @@ playlist:
     label: MCA
     producer:
       - Chris Tsangarides
-    corner: 田村明浩選曲
+    corner: ""
     youtube: qJcPALuRrR0
+    title: Back on the Streets
     index: 883
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010703"
     week: 107
     name: Love Song
     artist: The Damned
@@ -46,12 +48,13 @@ playlist:
     nation: UK
     label: Chiswick
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: phouch_2xhQ
+    title: Love Song
     index: 884
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010704"
     week: 107
     name: Ace of Spades
     artist: Motörhead
@@ -60,12 +63,13 @@ playlist:
     nation: UK
     label: Bronze
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: J-QAKCP8ong
+    title: Ace of Spades
     index: 885
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010705"
     week: 107
     name: Light Flight
     artist: Pentangle
@@ -75,12 +79,13 @@ playlist:
     label: Transatlantic Records
     producer:
       - Shel Talmy
-    corner: 田村明浩選曲
+    corner: ""
     youtube: VVpS44LGqTk
+    title: Light Flight
     index: 886
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010706"
     week: 107
     name: Let It Roll
     artist: UFO
@@ -90,12 +95,13 @@ playlist:
     label: Chrysalis
     producer:
       - Leo Lyons
-    corner: 田村明浩選曲
+    corner: ""
     youtube: _OKd-GA_6X8
+    title: Let It Roll
     index: 887
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010707"
     week: 107
     name: "Opening: I Can't Turn You Loose (Live)"
     artist: The Blues Brothers
@@ -105,12 +111,13 @@ playlist:
     label: Atlantic
     producer:
       - Bob Tischler
-    corner: 田村明浩選曲
+    corner: ""
     youtube: utU2123GIMo
+    title: "Opening: I Can't Turn You Loose (Live)"
     index: 888
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "20200107107"
+    selector: 田村明浩
+  - id: "2020010708"
     week: 107
     name: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     artist: ブリッジ
@@ -119,8 +126,9 @@ playlist:
     nation: JPN
     label: トラットリア
     producer: []
-    corner: 田村明浩選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     index: 889
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: 田村明浩

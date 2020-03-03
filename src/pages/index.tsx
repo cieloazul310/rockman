@@ -4,7 +4,10 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
-import { useAppState, useDispatch } from '../gatsby-theme-typescript-material-ui/utils/AppStateContext';
+import {
+  useAppState,
+  useDispatch,
+} from '../gatsby-theme-typescript-material-ui/utils/AppStateContext';
 import JunkList from '../components/JunkList';
 import Weeks from '../components/Weeks';
 import { IndexQuery } from '../../graphql-types';

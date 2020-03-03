@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-05-20
 playlist:
-  - id: "2018002020"
+  - id: "2018002001"
     week: 20
     name: 日曜日
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: ""
+    title: 日曜日
     index: 156
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002002"
     week: 20
     name: マッハバロン
     artist: すぎうらよしひろ
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: マッハバロン
     index: 157
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002003"
     week: 20
     name: ルパン三世 その2
     artist: チャーリー・コーセー
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ルパン三世 その2
     index: 158
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002004"
     week: 20
     name: はじめ人間ギャートルズ
     artist: ザ・ギャートルズ
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 5StFXTlh_2A
+    title: はじめ人間ギャートルズ
     index: 159
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002005"
     week: 20
     name: ファイトだ!!ピュー太
     artist: フォア・ジェッツ
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ファイトだ!!ピュー太
     index: 160
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002006"
     week: 20
     name: ハクション大魔王のうた
     artist: 嶋崎由理
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: n1FIUDXrnOg
+    title: ハクション大魔王のうた
     index: 161
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002007"
     week: 20
     name: さすらいの太陽
     artist: スリー・グレイセス
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: さすらいの太陽
     index: 162
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002008"
     week: 20
     name: きこえるかしら
     artist: 大和田りつこ
@@ -117,10 +124,11 @@ playlist:
     producer: []
     corner: ""
     youtube: DBQgH2o8YKI
+    title: きこえるかしら
     index: 163
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002009"
     week: 20
     name: ミクロイドS
     artist: ヤング・スターズ
@@ -131,10 +139,11 @@ playlist:
     producer: []
     corner: ""
     youtube: GISZN2NBgU0
+    title: ミクロイドS
     index: 164
     indexInWeek: 9
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002010"
     week: 20
     name: レオのうた
     artist: 弘田三枝子
@@ -145,10 +154,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: レオのうた
     index: 165
     indexInWeek: 10
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002011"
     week: 20
     name: 正義の使者だぜ ドテラマン
     artist: こおろぎ'73
@@ -159,10 +169,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 正義の使者だぜ ドテラマン
     index: 166
     indexInWeek: 11
     selector: 草野マサムネ
-  - id: "2018002020"
+  - id: "2018002012"
     week: 20
     name: Kill Me Stop
     artist: CASCADE
@@ -173,6 +184,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Kill Me Stop
     index: 167
     indexInWeek: 12
     selector: 草野マサムネ

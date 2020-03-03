@@ -4,10 +4,10 @@ year: 2019
 title: 元ディープ・パープルで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["変則アーティスト特集"]
 date: 2019-09-08
 playlist:
-  - id: "2019008888"
+  - id: "2019008801"
     week: 88
     name: ありがとさん
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: I24azAvtwu8
+    title: ありがとさん
     index: 723
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008802"
     week: 88
     name: I Surrender
     artist: Rainbow
@@ -34,10 +35,11 @@ playlist:
       - Roger Glover
     corner: ""
     youtube: iMmMqfQZkxA
+    title: I Surrender
     index: 724
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008803"
     week: 88
     name: Fool for Your Loving
     artist: Whitesnake
@@ -49,10 +51,11 @@ playlist:
       - Martin Birch
     corner: ""
     youtube: 8Tp0K9YiTPE
+    title: Fool for Your Loving
     index: 725
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008804"
     week: 88
     name: Dancing Madly Backwards (on a Sea of Air)
     artist: Captain Beyond
@@ -63,10 +66,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FQVHqXh2Ga0
+    title: Dancing Madly Backwards (on a Sea of Air)
     index: 726
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008805"
     week: 88
     name: Future Shock
     artist: Gillan
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: C2mvWIByJ2A
+    title: Future Shock
     index: 727
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008806"
     week: 88
     name: Destiny
     artist: Glenn Hughes
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Zkv55tp07UQ
+    title: Destiny
     index: 728
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008807"
     week: 88
     name: The Grind
     artist: Tommy Bolin
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: TOGtESM7YLo
+    title: The Grind
     index: 729
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008888"
+  - id: "2019008808"
     week: 88
     name: 深紫伝説
     artist: 王様
@@ -117,8 +124,9 @@ playlist:
     nation: JPN
     label: ファンハウス
     producer: []
-    corner: ""
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 深紫伝説
     index: 730
     indexInWeek: 8
     selector: 草野マサムネ

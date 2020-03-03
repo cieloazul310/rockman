@@ -4,10 +4,10 @@ year: 2019
 title: ご当地ロック国内編（東京以外）で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2019-07-21
 playlist:
-  - id: "2019008181"
+  - id: "2019008101"
     week: 81
     name: 優しいあの子
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
+    title: 優しいあの子
     index: 665
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008102"
     week: 81
     name: 港のヨーコ・ヨコハマ・ヨコスカ
     artist: ダウン・タウン・ブギウギ・バンド
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Q6VL9qxqyDo
+    title: 港のヨーコ・ヨコハマ・ヨコスカ
     index: 666
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008103"
     week: 81
     name: もんげー岡山!
     artist: 葛城ユキ
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: QKuiGUtf9d0
+    title: もんげー岡山!
     index: 667
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008104"
     week: 81
     name: 泣ぐ子はいねが
     artist: 高橋優
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Sd1wNsjLsu4
+    title: 泣ぐ子はいねが
     index: 668
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008105"
     week: 81
     name: Mt. ABURA BLUES
     artist: AL
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Mt. ABURA BLUES
     index: 669
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008106"
     week: 81
     name: ヒロシマドライブ driving with 電大
     artist: 奥田民生
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ヒロシマドライブ driving with 電大
     index: 670
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008107"
     week: 81
     name: LOVERS IN NAGASAKI
     artist: ホリエアツシ
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: sscNgtg7dFM
+    title: LOVERS IN NAGASAKI
     index: 671
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008181"
+  - id: "2019008108"
     week: 81
     name: KU・MA・MO・TO
     artist: レピッシュ
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: KU・MA・MO・TO
     index: 672
     indexInWeek: 8
     selector: 草野マサムネ

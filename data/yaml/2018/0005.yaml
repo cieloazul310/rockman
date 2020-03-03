@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-02-04
 playlist:
-  - id: "2018000505"
+  - id: "2018000501"
     week: 5
     name: みなと
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: GiuxvmiULhI
+    title: みなと
     index: 33
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000502"
     week: 5
     name: The Drugs Don’t Work
     artist: The Verve
@@ -34,10 +35,11 @@ playlist:
       - Youth, Chris Potter
     corner: ""
     youtube: ToQ0n3itoII
+    title: The Drugs Don’t Work
     index: 34
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000503"
     week: 5
     name: Real Animal
     artist: The House of Love
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Real Animal
     index: 35
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000504"
     week: 5
     name: Can’t Be Sure
     artist: The Sundays
@@ -63,6 +66,7 @@ playlist:
       - Ray Shulman
     corner: ""
     youtube: yARVs1ZNLjU
+    title: Can’t Be Sure
     index: 36
     indexInWeek: 4
     selector: 草野マサムネ
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: mKUhq7SYouA
+    title: 空洞です
     index: 37
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000506"
     week: 5
     name: Summer of '69
     artist: Bryan Adams
@@ -92,10 +97,11 @@ playlist:
       - Bob Clearmountain
     corner: ""
     youtube: eFjjO_lhf9c
+    title: Summer of '69
     index: 38
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000507"
     week: 5
     name: I Don't Know What It Is
     artist: Rufus Wainwright
@@ -107,10 +113,11 @@ playlist:
       - Marius de Vries
     corner: ""
     youtube: hv0kaGGFetA
+    title: I Don't Know What It Is
     index: 39
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018000505"
+  - id: "2018000508"
     week: 5
     name: 夕なぎ
     artist: Nav Katze
@@ -122,6 +129,7 @@ playlist:
       - 窪田晴男
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 夕なぎ
     index: 40
     indexInWeek: 8
     selector: 草野マサムネ

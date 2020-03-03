@@ -3,11 +3,11 @@ week: 7
 year: 2018
 title: スピッツメンバーと漫遊記
 subtitle: ""
-guests: []
-categories: []
+guests: ["三輪テツヤ", "田村明浩", "崎山龍男"]
+categories: ["スピッツメンバーと漫遊記"]
 date: 2018-02-18
 playlist:
-  - id: "2018000707"
+  - id: "2018000701"
     week: 7
     name: スカーレット
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: l1-D43s6D_A
+    title: スカーレット
     index: 49
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000707"
+  - id: "2018000702"
     week: 7
     name: The Hellion / Electric Eye
     artist: Judas Priest
@@ -32,12 +33,13 @@ playlist:
     label: Columbia
     producer:
       - Tom Allom
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: yMVV_HsHcX0
+    title: The Hellion / Electric Eye
     index: 50
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2018000707"
+    selector: 三輪テツヤ
+  - id: "2018000703"
     week: 7
     name: Purgatory
     artist: Iron Maiden
@@ -47,12 +49,13 @@ playlist:
     label: EMI
     producer:
       - Martin Birch
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ie7GZGdgdPQ
+    title: Purgatory
     index: 51
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2018000707"
+    selector: 田村明浩
+  - id: "2018000704"
     week: 7
     name: あせかきベソかきRock’n Roll run
     artist: 横浜銀蝿
@@ -61,12 +64,13 @@ playlist:
     nation: JPN
     label: キングレコード
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
+    title: あせかきベソかきRock’n Roll run
     index: 52
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2018000707"
+    selector: 崎山龍男
+  - id: "2018000705"
     week: 7
     name: ふっかつのじゅもん
     artist: sumika
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: mSe8zHd27MU
+    title: ふっかつのじゅもん
     index: 53
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000707"
+  - id: "2018000706"
     week: 7
     name: You
     artist: Nuno
@@ -90,11 +95,12 @@ playlist:
     label: A&M
     producer:
       - Anthony J. Resta
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: ""
+    title: You
     index: 54
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018000707"
     week: 7
     name: NO YOUNG
@@ -104,12 +110,13 @@ playlist:
     nation: JPN
     label: チキン・スキン・レコード
     producer: []
-    corner: 田村明浩選曲
+    corner: ""
     youtube: ""
+    title: NO YOUNG
     index: 55
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2018000707"
+    selector: 田村明浩
+  - id: "2018000708"
     week: 7
     name: alone
     artist: BAND-MAID
@@ -118,12 +125,13 @@ playlist:
     nation: JPN
     label: CROWN STONES
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: axF56i4spio
+    title: alone
     index: 56
     indexInWeek: 8
-    selector: 草野マサムネ
-  - id: "2018000707"
+    selector: 崎山龍男
+  - id: "2018000709"
     week: 7
     name: Honey Dripper
     artist: アン・ルイス
@@ -134,6 +142,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Honey Dripper
     index: 57
     indexInWeek: 9
     selector: 草野マサムネ

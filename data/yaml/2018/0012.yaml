@@ -4,10 +4,10 @@ year: 2018
 title: クセになる面白ソングで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["面白ソング特集"]
 date: 2018-03-25
 playlist:
-  - id: "2018001212"
+  - id: "2018001201"
     week: 12
     name: ヒバリのこころ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: GYmu0pLeU_c
+    title: ヒバリのこころ
     index: 91
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001202"
     week: 12
     name: ふな ふな ふなっしー♪
     artist: ふなっしー
@@ -34,10 +35,11 @@ playlist:
       - 高見沢俊彦
     corner: ""
     youtube: EyRgTBwQ_d8
+    title: ふな ふな ふなっしー♪
     index: 92
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001203"
     week: 12
     name: 半斤八両
     artist: 許冠傑
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 半斤八両
     index: 93
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001204"
     week: 12
     name: Yamasuki
     artist: Yamasuki Singers
@@ -63,10 +66,11 @@ playlist:
       - Jean Kluger
     corner: ""
     youtube: BXCrpFRK_n0
+    title: Yamasuki
     index: 94
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001205"
     week: 12
     name: O・TO・GA・MEはーと
     artist: 激しぶBOYS
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: O・TO・GA・MEはーと
     index: 95
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001206"
     week: 12
     name: どこへ行くの
     artist: 川崎幸子・敏子
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: どこへ行くの
     index: 96
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001207"
     week: 12
     name: 目をつむってモンキーダンス
     artist: 平尾昌晃
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 目をつむってモンキーダンス
     index: 97
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001208"
     week: 12
     name: 値上げ
     artist: 高田渡
@@ -119,10 +126,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 値上げ
     index: 98
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018001212"
+  - id: "2018001209"
     week: 12
     name: New Morning
     artist: カーネーション
@@ -133,6 +141,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: TbK6mkKb5hg
+    title: New Morning
     index: 99
     indexInWeek: 9
     selector: 草野マサムネ

@@ -4,10 +4,10 @@ year: 2018
 title: 今、気になる邦楽リクエストで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リクエスト特集"]
 date: 2018-03-18
 playlist:
-  - id: "2018001111"
+  - id: "2018001101"
     week: 11
     name: Holiday
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 石田小吉
     corner: 漫遊前の一曲
     youtube: ""
+    title: Holiday
     index: 82
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001111"
+  - id: "2018001102"
     week: 11
     name: キルミー
     artist: SUNNY CAR WASH
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8AkTa5QjssU
+    title: キルミー
     index: 83
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001103"
     week: 11
     name: ベイビーイッツオールライト
     artist: Layne
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ベイビーイッツオールライト
     index: 84
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001104"
     week: 11
     name: Lies,Lies,Lies/あの娘は嘘つき
     artist: SHOTGUN RUNNERS
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: -PCYIJXX0eI
+    title: Lies,Lies,Lies/あの娘は嘘つき
     index: 85
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001105"
     week: 11
     name: きみの春になれたら
     artist: プププランド
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: -TA2sEgc_Iw
+    title: きみの春になれたら
     index: 86
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001106"
     week: 11
     name: Ghana
     artist: D.A.N
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: z2EcSLaK15w
+    title: Ghana
     index: 87
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001107"
     week: 11
     name: 檸檬
     artist: BURNOUT SYNDROMES
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 檸檬
     index: 88
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001108"
     week: 11
     name: いってみよう
     artist: 馬喰町バンド
@@ -117,10 +124,11 @@ playlist:
     producer: []
     corner: ""
     youtube: wz2lipZ3Lho
+    title: いってみよう
     index: 89
     indexInWeek: 8
-    selector: 草野マサムネ
-  - id: "2018001111"
+    selector: リクエスト
+  - id: "2018001109"
     week: 11
     name: 欲しいのはおまえだけ
     artist: BOW WOW
@@ -131,6 +139,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 欲しいのはおまえだけ
     index: 90
     indexInWeek: 9
     selector: 草野マサムネ

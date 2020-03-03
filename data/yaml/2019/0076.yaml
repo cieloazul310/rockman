@@ -4,10 +4,10 @@ year: 2019
 title: ROCKIN'ON JAPAN 2001年12月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2019-06-16
 playlist:
-  - id: "2019007676"
+  - id: "2019007601"
     week: 76
     name: 悪役
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 悪役
     index: 625
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007602"
     week: 76
     name: あぁ青春
     artist: GO!GO!7188
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: あぁ青春
     index: 626
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007603"
     week: 76
     name: 小さな恋のうた
     artist: MONGOL800
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: u8EkSB9zSpE
+    title: 小さな恋のうた
     index: 627
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007604"
     week: 76
     name: 雨は毛布のように
     artist: キリンジ
@@ -61,10 +64,11 @@ playlist:
       - 冨田恵一
     corner: ""
     youtube: HWyyxJoZHyY
+    title: 雨は毛布のように
     index: 628
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007605"
     week: 76
     name: Light Your Fire
     artist: RIZE
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: SxsT-D_eEFg
+    title: Light Your Fire
     index: 629
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007606"
     week: 76
     name: 生活
     artist: Syrup16g
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 生活
     index: 630
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007607"
     week: 76
     name: Volcanic Girl
     artist: Buffalo Daughter
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Volcanic Girl
     index: 631
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007676"
+  - id: "2019007608"
     week: 76
     name: cream soda
     artist: SUPERCAR
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: cream soda
     index: 632
     indexInWeek: 8
     selector: 草野マサムネ

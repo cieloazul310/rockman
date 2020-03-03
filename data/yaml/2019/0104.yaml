@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-12-29
 playlist:
-  - id: "20190104104"
+  - id: "2019010401"
     week: 104
     name: ブチ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: ブチ
     index: 862
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010402"
     week: 104
     name: ギルド
     artist: BUMP OF CHICKEN
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ギルド
     index: 863
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010403"
     week: 104
     name: Hundred Mile High City
     artist: Ocean Colour Scene
@@ -47,10 +49,11 @@ playlist:
       - Brendan Lynch
     corner: ""
     youtube: xIhFpmzRKYM
+    title: Hundred Mile High City
     index: 864
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010404"
     week: 104
     name: 暮らしのなかで
     artist: T字路s
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Y94PAdw0P14
+    title: 暮らしのなかで
     index: 865
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010405"
     week: 104
     name: On Your Feet or on Your Knees
     artist: Motörhead
@@ -76,10 +80,11 @@ playlist:
       - Howard Benson
     corner: ""
     youtube: bSdU5x2RGeo
+    title: On Your Feet or on Your Knees
     index: 866
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010406"
     week: 104
     name: 京都
     artist: 在日ファンク
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 6YnhZRClFB0
+    title: 京都
     index: 867
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20190104104"
+  - id: "2019010407"
     week: 104
     name: マケイヌ
     artist: ZIGGY
@@ -105,6 +111,7 @@ playlist:
       - 佐藤宣彦
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: マケイヌ
     index: 868
     indexInWeek: 7
     selector: 草野マサムネ

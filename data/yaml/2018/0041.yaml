@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-10-14
 playlist:
-  - id: "2018004141"
+  - id: "2018004101"
     week: 41
     name: 不死身のビーナス
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: 不死身のビーナス
     index: 334
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004102"
     week: 41
     name: 危険なふたり
     artist: 沢田研二
@@ -34,10 +35,11 @@ playlist:
       - 佐々木幸男
     corner: ""
     youtube: ""
+    title: 危険なふたり
     index: 335
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004103"
     week: 41
     name: 少女A
     artist: 中森明菜
@@ -49,10 +51,11 @@ playlist:
       - 小田洋雄
     corner: ""
     youtube: ""
+    title: 少女A
     index: 336
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004104"
     week: 41
     name: 春一番
     artist: キャンディーズ
@@ -63,10 +66,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 春一番
     index: 337
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004105"
     week: 41
     name: 男達のメロディー
     artist: SHOGUN
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 男達のメロディー
     index: 338
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004106"
     week: 41
     name: チェリーブラッサム
     artist: 松田聖子
@@ -91,10 +96,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: チェリーブラッサム
     index: 339
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004107"
     week: 41
     name: 大都会
     artist: クリスタルキング
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 大都会
     index: 340
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018004141"
+  - id: "2018004108"
     week: 41
     name: 闘牛士
     artist: Char
@@ -119,6 +126,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 闘牛士
     index: 341
     indexInWeek: 8
     selector: 草野マサムネ

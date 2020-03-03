@@ -3,11 +3,11 @@ week: 44
 year: 2018
 title: クージーことクジヒロコと漫遊記
 subtitle: ""
-guests: []
-categories: []
+guests: ["クジヒロコ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2018-11-04
 playlist:
-  - id: "2018004444"
+  - id: "2018004401"
     week: 44
     name: ハイファイ・ローファイ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: ハイファイ・ローファイ
     index: 360
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004444"
+  - id: "2018004402"
     week: 44
     name: While You See a Chance
     artist: Steve Winwood
@@ -30,12 +31,13 @@ playlist:
     nation: UK
     label: Island
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: 0j6g_uUhH2c
+    title: While You See a Chance
     index: 361
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004403"
     week: 44
     name: Pump It Up
     artist: Elvis Costello
@@ -45,12 +47,13 @@ playlist:
     label: Radar
     producer:
       - Nick Lowe
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: 3Y71iDvCYXA
+    title: Pump It Up
     index: 362
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004404"
     week: 44
     name: Revue
     artist: Squeeze
@@ -60,12 +63,13 @@ playlist:
     label: A&M
     producer:
       - John Wood
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: jMf544DZlPg
+    title: Revue
     index: 363
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004405"
     week: 44
     name: In Between Days
     artist: The Cure
@@ -74,12 +78,13 @@ playlist:
     nation: UK
     label: Fiction
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: scif2vfg1ug
+    title: In Between Days
     index: 364
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004406"
     week: 44
     name: A Beautiful Sea
     artist: Sing Street
@@ -88,12 +93,13 @@ playlist:
     nation: IRE
     label: Decca Records
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: CiFQxM3isl8
+    title: A Beautiful Sea
     index: 365
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004407"
     week: 44
     name: Little Jの嘆き
     artist: GREAT3
@@ -102,12 +108,13 @@ playlist:
     nation: JPN
     label: 東芝EMI
     producer: []
-    corner: クジヒロコ選曲
+    corner: ""
     youtube: wbfFgR3tc4I
+    title: Little Jの嘆き
     index: 366
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2018004444"
+    selector: クジヒロコ
+  - id: "2018004408"
     week: 44
     name: EVERY PLANETS SON
     artist: ヴィーナス・ペーター
@@ -116,8 +123,9 @@ playlist:
     nation: JPN
     label: WONDER RELEASE RECORDS
     producer: []
-    corner: クジヒロコ選曲
+    corner: ちょっぴりタイムマシン
     youtube: ""
+    title: EVERY PLANETS SON
     index: 367
     indexInWeek: 8
-    selector: 草野マサムネ
+    selector: クジヒロコ

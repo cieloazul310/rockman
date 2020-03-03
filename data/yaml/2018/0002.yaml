@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-01-14
 playlist:
-  - id: "2018000202"
+  - id: "2018000201"
     week: 2
     name: 歌ウサギ
     artist: スピッツ
@@ -19,6 +19,7 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 歌ウサギ
     index: 10
     indexInWeek: 1
     selector: 草野マサムネ
@@ -34,10 +35,11 @@ playlist:
       - Tim Rice, Andrew Lloyd Webber
     corner: ""
     youtube: Je6g1ufZhJY
+    title: Superstar
     index: 11
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000203"
     week: 2
     name: The Living End
     artist: Judee Sill
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 4gIBGTgnOdU
+    title: The Living End
     index: 12
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000204"
     week: 2
     name: Dust
     artist: Fleetwood Mac
@@ -63,10 +66,11 @@ playlist:
       - Fleetwood Mac
     corner: ""
     youtube: -i3w576gr9o
+    title: Dust
     index: 13
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000205"
     week: 2
     name: サースティ
     artist: 吉田ヨウヘイgroup
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: kRa6RMfrfvI
+    title: サースティ
     index: 14
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000206"
     week: 2
     name: You Stole My Heart
     artist: Randy California
@@ -92,10 +97,11 @@ playlist:
       - Randy California
     corner: ""
     youtube: ""
+    title: You Stole My Heart
     index: 15
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000207"
     week: 2
     name: N.E.O.
     artist: CHAI
@@ -107,10 +113,11 @@ playlist:
       - CHAI
     corner: ""
     youtube: YMGf3zyhG94
+    title: N.E.O.
     index: 16
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018000202"
+  - id: "2018000208"
     week: 2
     name: Dreamtime
     artist: SOON
@@ -121,6 +128,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Dreamtime
     index: 17
     indexInWeek: 8
     selector: 草野マサムネ

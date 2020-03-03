@@ -4,10 +4,10 @@ year: 2018
 title: タンタンタコタコで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リズム特集"]
 date: 2018-04-01
 playlist:
-  - id: "2018001313"
+  - id: "2018001301"
     week: 13
     name: 愛のしるし
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 白井良明
     corner: 漫遊前の一曲
     youtube: 7awhzclrBMc
+    title: 愛のしるし
     index: 100
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001302"
     week: 13
     name: Be My Baby
     artist: Vanessa Paradis
@@ -34,10 +35,11 @@ playlist:
       - Lenny Kravitz
     corner: ""
     youtube: WXnR7iZy0ZM
+    title: Be My Baby
     index: 101
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001303"
     week: 13
     name: The Difference
     artist: The Wallflowers
@@ -49,10 +51,11 @@ playlist:
       - T Bone Burnett
     corner: ""
     youtube: 5qSAMtomFvk
+    title: The Difference
     index: 102
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001304"
     week: 13
     name: Listen, Learn, Read On
     artist: Deep Purple
@@ -64,10 +67,11 @@ playlist:
       - Derek Lawrence
     corner: ""
     youtube: ""
+    title: Listen, Learn, Read On
     index: 103
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001305"
     week: 13
     name: まんをじして
     artist: 奥田民生
@@ -78,10 +82,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: まんをじして
     index: 104
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001306"
     week: 13
     name: Rock the Nation
     artist: Montrose
@@ -93,10 +98,11 @@ playlist:
       - Ted Templeman
     corner: ""
     youtube: r4nd8BgBoPo
+    title: Rock the Nation
     index: 105
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001307"
     week: 13
     name: BYE
     artist: L⇔R
@@ -107,10 +113,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: BYE
     index: 106
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001313"
+  - id: "2018001308"
     week: 13
     name: 涙の理由
     artist: Be Modern
@@ -121,6 +128,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 涙の理由
     index: 107
     indexInWeek: 8
     selector: 草野マサムネ

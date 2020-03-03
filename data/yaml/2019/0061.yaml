@@ -4,10 +4,10 @@ year: 2019
 title: MUSIC LIFE 1980年12月号で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["古い音楽雑誌で漫遊記"]
 date: 2019-03-03
 playlist:
-  - id: "2019006161"
+  - id: "2019006101"
     week: 61
     name: つぐみ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: I34Zdec6RWk
+    title: つぐみ
     index: 503
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006102"
     week: 61
     name: I Was Made for Lovin' You
     artist: Kiss
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 12fJAnaif34
+    title: I Was Made for Lovin' You
     index: 504
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006103"
     week: 61
     name: Hungry Heart
     artist: Bruce Springsteen
@@ -48,10 +50,11 @@ playlist:
       - John Landau
     corner: ""
     youtube: boJhWtw-6Gg
+    title: Hungry Heart
     index: 505
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006104"
     week: 61
     name: Rock Brigade
     artist: Def Leppard
@@ -63,10 +66,11 @@ playlist:
       - Tom Allom
     corner: ""
     youtube: NRYSlLLU0RE
+    title: Rock Brigade
     index: 506
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006105"
     week: 61
     name: Tonight
     artist: Zaine Griff
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: guZ1Eam4xSw
+    title: Tonight
     index: 507
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006106"
     week: 61
     name: No Strings Attached
     artist: Wild Horses
@@ -92,10 +97,11 @@ playlist:
       - Trevor Rabin
     corner: ""
     youtube: DShRY11q_CI
+    title: No Strings Attached
     index: 508
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006107"
     week: 61
     name: Brass in Pocket
     artist: The Pretenders
@@ -107,10 +113,11 @@ playlist:
       - Chris Thomas
     corner: ""
     youtube: xjnduGbq6r0
+    title: Brass in Pocket
     index: 509
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006108"
     week: 61
     name: Wait for Me
     artist: Daryl Hall and John Oates
@@ -122,10 +129,11 @@ playlist:
       - David Foster
     corner: ""
     youtube: 5zkHLp24Gis
+    title: Wait for Me
     index: 510
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019006161"
+  - id: "2019006109"
     week: 61
     name: ロンリー・ハート (Lonely Hearts)
     artist: Creation
@@ -136,6 +144,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: N4gnKRUZKMI
+    title: ロンリー・ハート (Lonely Hearts)
     index: 511
     indexInWeek: 9
     selector: 草野マサムネ

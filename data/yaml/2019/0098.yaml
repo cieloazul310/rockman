@@ -4,10 +4,10 @@ year: 2019
 title: 私の好きな洋楽の歌詞リクエストで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リクエスト特集"]
 date: 2019-11-17
 playlist:
-  - id: "2019009898"
+  - id: "2019009801"
     week: 98
     name: 花と虫
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 花と虫
     index: 810
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009898"
+  - id: "2019009802"
     week: 98
     name: The World Has Turned and Left Me Here
     artist: Weezer
@@ -34,10 +35,11 @@ playlist:
       - Ric Ocasek
     corner: ""
     youtube: sRfu94lOEPo
+    title: The World Has Turned and Left Me Here
     index: 811
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009803"
     week: 98
     name: "39"
     artist: Queen
@@ -49,10 +51,11 @@ playlist:
       - Roy Thomas Baker
     corner: ""
     youtube: kE8kGMfXaFU
+    title: "39"
     index: 812
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009804"
     week: 98
     name: Lollipop
     artist: Mika
@@ -64,10 +67,11 @@ playlist:
       - Greg Wells
     corner: ""
     youtube: 6md5RSnVUuo
+    title: Lollipop
     index: 813
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009805"
     week: 98
     name: She Loves You
     artist: The Beatles
@@ -79,10 +83,11 @@ playlist:
       - George Martin
     corner: ""
     youtube: oVCwDl-S09A
+    title: She Loves You
     index: 814
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009806"
     week: 98
     name: Talking in Your Sleep
     artist: The Romantics
@@ -93,10 +98,11 @@ playlist:
     producer: []
     corner: ""
     youtube: JmGMzyajA2U
+    title: Talking in Your Sleep
     index: 815
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009807"
     week: 98
     name: Allelujah
     artist: Fairground Attraction
@@ -107,10 +113,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Allelujah
     index: 816
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009808"
     week: 98
     name: Alone
     artist: Heart
@@ -122,10 +129,11 @@ playlist:
       - Ron Nevison
     corner: ""
     youtube: 1Cw1ng75KP0
+    title: Alone
     index: 817
     indexInWeek: 8
-    selector: 草野マサムネ
-  - id: "2019009898"
+    selector: リクエスト
+  - id: "2019009809"
     week: 98
     name: 俺のあいつ
     artist: ローズマリー
@@ -136,6 +144,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 俺のあいつ
     index: 818
     indexInWeek: 9
     selector: 草野マサムネ

@@ -4,10 +4,10 @@ year: 2018
 title: 沖縄ロックバンドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2018-08-26
 playlist:
-  - id: "2018003434"
+  - id: "2018003401"
     week: 34
     name: ミカンズのテーマ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ミカンズのテーマ
     index: 277
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003402"
     week: 34
     name: あなたに
     artist: MONGOL800
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 0jFIrBvuuQ0
+    title: あなたに
     index: 278
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003403"
     week: 34
     name: Heart Breaker
     artist: Condition Green
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Heart Breaker
     index: 279
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003404"
     week: 34
     name: 五穀豊穣
     artist: パーシャクラブ
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 五穀豊穣
     index: 280
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003405"
     week: 34
     name: 上海ハニー
     artist: ORANGE RANGE
@@ -76,10 +80,11 @@ playlist:
       - シライシ紗トリ
     corner: ""
     youtube: ""
+    title: 上海ハニー
     index: 281
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003406"
     week: 34
     name: さよなら
     artist: かりゆし58
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Quv9IhgPswc
+    title: さよなら
     index: 282
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003407"
     week: 34
     name: Parametric E.Q
     artist: caino
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: C132CaIZJBI
+    title: Parametric E.Q
     index: 283
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018003434"
+  - id: "2018003408"
     week: 34
     name: バリバリHOT
     artist: ホイフェスタ
@@ -118,6 +125,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: バリバリHOT
     index: 284
     indexInWeek: 8
     selector: 草野マサムネ

@@ -3,11 +3,11 @@ week: 32
 year: 2018
 title: スピッツメンバーと漫遊記 三輪テツヤ編
 subtitle: ""
-guests: []
-categories: []
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2018-08-12
 playlist:
-  - id: "2018003232"
+  - id: "2018003201"
     week: 32
     name: ナンプラー日和
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ナンプラー日和
     index: 262
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003202"
     week: 32
     name: Stay (I Missed You)
     artist: Lisa Loeb and Nine Stories
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: 三輪テツヤ選曲
     youtube: i9HGwRbMiVY
+    title: Stay (I Missed You)
     index: 263
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003203"
     week: 32
     name: Luka
     artist: Suzanne Vega
@@ -48,10 +50,11 @@ playlist:
       - Steve Addabbo
     corner: 三輪テツヤ選曲
     youtube: VZt7J0iaUD0
+    title: Luka
     index: 264
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003204"
     week: 32
     name: Appointments
     artist: Julien Baker
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: 三輪テツヤ選曲
     youtube: MdBu21i9aEE
+    title: Appointments
     index: 265
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003205"
     week: 32
     name: No Ordinary Love (Live 2011)
     artist: Sade
@@ -77,10 +81,11 @@ playlist:
       - Mike Pela
     corner: 三輪テツヤ選曲
     youtube: au8rHGvytn8
+    title: No Ordinary Love (Live 2011)
     index: 266
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003206"
     week: 32
     name: Beauty
     artist: James Iha
@@ -92,10 +97,11 @@ playlist:
       - Jim Scott
     corner: 三輪テツヤ選曲
     youtube: ""
+    title: Beauty
     index: 267
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003207"
     week: 32
     name: Delaware
     artist: Don Peris
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: 三輪テツヤ選曲
     youtube: ""
+    title: Delaware
     index: 268
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018003232"
+  - id: "2018003208"
     week: 32
     name: 初めて恋をした日
     artist: 区麗情
@@ -120,6 +127,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 初めて恋をした日
     index: 269
     indexInWeek: 8
     selector: 草野マサムネ

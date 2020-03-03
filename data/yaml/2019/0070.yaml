@@ -4,10 +4,10 @@ year: 2019
 title: アナタのアゲアゲロックナンバーリクエストで漫遊記・洋楽編
 subtitle: ""
 guests: []
-categories: []
+categories: ["リクエスト特集"]
 date: 2019-05-05
 playlist:
-  - id: "2019007070"
+  - id: "2019007001"
     week: 70
     name: 野生のポルカ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 野生のポルカ
     index: 575
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007070"
+  - id: "2019007002"
     week: 70
     name: It's Time to Party
     artist: Andrew W.K.
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: xemLz_fR1Ac
+    title: It's Time to Party
     index: 576
     indexInWeek: 2
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007003"
     week: 70
     name: Cum On Feel the Noize
     artist: Quiet Riot
@@ -48,10 +50,11 @@ playlist:
       - Spencer Proffer
     corner: ""
     youtube: ZxgMGk9JPVA
+    title: Cum On Feel the Noize
     index: 577
     indexInWeek: 3
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007004"
     week: 70
     name: Semi-Charmed Life
     artist: Third Eye Blind
@@ -63,10 +66,11 @@ playlist:
       - Eric Valentine
     corner: ""
     youtube: beINamVRGy4
+    title: Semi-Charmed Life
     index: 578
     indexInWeek: 4
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007005"
     week: 70
     name: In Love with a Camera
     artist: The Struts
@@ -78,10 +82,11 @@ playlist:
       - Butch Walker
     corner: ""
     youtube: Jp41GPXCQ8k
+    title: In Love with a Camera
     index: 579
     indexInWeek: 5
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007006"
     week: 70
     name: Parchman Farm
     artist: Cactus
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: ""
     youtube: mC_cvsR8wPg
+    title: Parchman Farm
     index: 580
     indexInWeek: 6
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007007"
     week: 70
     name: Still Waiting
     artist: SUM41
@@ -107,10 +113,11 @@ playlist:
       - Greig Nori
     corner: ""
     youtube: qO-mSLxih-c
+    title: Still Waiting
     index: 581
     indexInWeek: 7
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007008"
     week: 70
     name: The Art of Losing
     artist: American Hi-Fi
@@ -122,10 +129,11 @@ playlist:
       - Nick Launay
     corner: ""
     youtube: JGZODoQq2Xg
+    title: The Art of Losing
     index: 582
     indexInWeek: 8
-    selector: 草野マサムネ
-  - id: "2019007070"
+    selector: リクエスト
+  - id: "2019007009"
     week: 70
     name: 太陽のラ
     artist: PoPoyans
@@ -137,6 +145,7 @@ playlist:
       - 鈴木惣一朗
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 太陽のラ
     index: 583
     indexInWeek: 9
     selector: 草野マサムネ

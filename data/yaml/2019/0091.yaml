@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-09-29
 playlist:
-  - id: "2019009191"
+  - id: "2019009101"
     week: 91
     name: 青い車
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: 5K8ZuLYG0yo
+    title: 青い車
     index: 748
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009102"
     week: 91
     name: And I Love Car
     artist: 奥田民生
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: And I Love Car
     index: 749
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009103"
     week: 91
     name: Driver
     artist: Official髭男dism
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Driver
     index: 750
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009104"
     week: 91
     name: トラベリン・バス
     artist: 矢沢永吉
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: トラベリン・バス
     index: 751
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009105"
     week: 91
     name: I Fought the Law
     artist: The Clash
@@ -76,10 +80,11 @@ playlist:
       - Bill Price
     corner: ""
     youtube: AL8chWFuM-s
+    title: I Fought the Law
     index: 752
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009106"
     week: 91
     name: BIG CAR
     artist: シャムキャッツ
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 4PgBEtXD-ww
+    title: BIG CAR
     index: 753
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009107"
     week: 91
     name: マイウェイ ハイウェイ
     artist: トータス松本
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: _P-sdCiFRtA
+    title: マイウェイ ハイウェイ
     index: 754
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009108"
     week: 91
     name: 夜をぶっとばせ
     artist: 秦基博
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 夜をぶっとばせ
     index: 755
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019009191"
+  - id: "2019009109"
     week: 91
     name: ケンとメリー〜愛と風のように〜
     artist: BUZZ
@@ -133,6 +141,7 @@ playlist:
       - 高橋信之
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: ケンとメリー〜愛と風のように〜
     index: 756
     indexInWeek: 9
     selector: 草野マサムネ

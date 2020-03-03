@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-06-10
 playlist:
-  - id: "2018002323"
+  - id: "2018002301"
     week: 23
     name: ジュテーム？
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 石田小吉
     corner: 漫遊前の一曲
     youtube: ""
+    title: ジュテーム？
     index: 184
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002302"
     week: 23
     name: Je veux qu’il revienne
     artist: Françoise Hardy
@@ -34,10 +35,11 @@ playlist:
       - Jacques Wolfsohn
     corner: ""
     youtube: opUnrzBE45s
+    title: Je veux qu’il revienne
     index: 185
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002303"
     week: 23
     name: Harley Davidson
     artist: Brigitte Bardot
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: nKltTdqtLFo
+    title: Harley Davidson
     index: 186
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002304"
     week: 23
     name: Antisocial
     artist: Trust
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Hx_m7Y9nGtU
+    title: Antisocial
     index: 187
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002305"
     week: 23
     name: Cybele's Reverie
     artist: Stereolab
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: NgGkUMCixH0
+    title: Cybele's Reverie
     index: 188
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002306"
     week: 23
     name: J't'emmène au vent
     artist: Louise attaque
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: BRTDC9Z5UdE
+    title: J't'emmène au vent
     index: 189
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002307"
     week: 23
     name: Perdus cette nuit
     artist: BB Brunes
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: gf4yoP3wWdo
+    title: Perdus cette nuit
     index: 190
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002308"
     week: 23
     name: Je cours
     artist: Kyo
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 5xqBUE8z-bk
+    title: Je cours
     index: 191
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002323"
+  - id: "2018002309"
     week: 23
     name: 明日の行方
     artist: SMILE
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 明日の行方
     index: 192
     indexInWeek: 9
     selector: 草野マサムネ

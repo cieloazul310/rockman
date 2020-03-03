@@ -4,10 +4,10 @@ year: 2019
 title: ミッジ・ユーロで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-12-08
 playlist:
-  - id: "20190101101"
+  - id: "2019010101"
     week: 101
     name: 快速
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: 快速
     index: 836
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010102"
     week: 101
     name: Do They Know It's Christmas?
     artist: Band Aid
@@ -34,10 +35,11 @@ playlist:
       - Midge Ure
     corner: ""
     youtube: Zdqf-8ToaD4
+    title: Do They Know It's Christmas?
     index: 837
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010103"
     week: 101
     name: Requiem
     artist: Slik
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 8xnc2JuchUc
+    title: Requiem
     index: 838
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010104"
     week: 101
     name: Young Girls
     artist: Rich Kids
@@ -63,10 +66,11 @@ playlist:
       - Mick Ronson
     corner: ""
     youtube: wMN7MMW5c04
+    title: Young Girls
     index: 839
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010105"
     week: 101
     name: New Europeans
     artist: Ultravox
@@ -78,10 +82,11 @@ playlist:
       - Conny Plank
     corner: ""
     youtube: VJK4TaO8u4Q
+    title: New Europeans
     index: 840
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010106"
     week: 101
     name: Hymn
     artist: Ultravox
@@ -93,10 +98,11 @@ playlist:
       - George Martin
     corner: ""
     youtube: RXLkpwFs8Fs
+    title: Hymn
     index: 841
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010107"
     week: 101
     name: If I Was
     artist: Midge Ure
@@ -107,10 +113,11 @@ playlist:
     producer: []
     corner: ""
     youtube: VNeiRGzQTDU
+    title: If I Was
     index: 842
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20190101101"
+  - id: "2019010108"
     week: 101
     name: 帰っておいで
     artist: JITTERIN'JINN
@@ -121,6 +128,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 帰っておいで
     index: 843
     indexInWeek: 8
     selector: 草野マサムネ

@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-06-24
 playlist:
-  - id: "2018002525"
+  - id: "2018002501"
     week: 25
     name: 猫になりたい
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: 猫になりたい
     index: 202
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002502"
     week: 25
     name: Daydream Believer
     artist: The Monkees
@@ -34,10 +35,11 @@ playlist:
       - Chip Douglas
     corner: ""
     youtube: xvqeSJlgaNk
+    title: Daydream Believer
     index: 203
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002503"
     week: 25
     name: Looking for the Man
     artist: Rabbitt
@@ -48,10 +50,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Looking for the Man
     index: 204
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002504"
     week: 25
     name: Heartache Tonight
     artist: Eagles
@@ -63,10 +66,11 @@ playlist:
       - Bill Szymczyk
     corner: ""
     youtube: ""
+    title: Heartache Tonight
     index: 205
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002505"
     week: 25
     name: I Don't Like It
     artist: Zebra
@@ -78,10 +82,11 @@ playlist:
       - Jack Douglas
     corner: ""
     youtube: -0KU-D9dHRk
+    title: I Don't Like It
     index: 206
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002506"
     week: 25
     name: Prepare Your Coffin
     artist: Tortoise
@@ -92,10 +97,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 6zRJftR_508
+    title: Prepare Your Coffin
     index: 207
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002507"
     week: 25
     name: Come Unwound
     artist: The Bulls
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 2Pc64JWiqNA
+    title: Come Unwound
     index: 208
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002508"
     week: 25
     name: You're in Love
     artist: Ratt
@@ -121,10 +128,11 @@ playlist:
       - Beau Hill
     corner: ""
     youtube: 8aqyosRF1Aw
+    title: You're in Love
     index: 209
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002525"
+  - id: "2018002509"
     week: 25
     name: コペルニクス
     artist: SKAFUNK
@@ -135,6 +143,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: コペルニクス
     index: 210
     indexInWeek: 9
     selector: 草野マサムネ

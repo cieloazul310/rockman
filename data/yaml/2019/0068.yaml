@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-04-21
 playlist:
-  - id: "2019006868"
+  - id: "2019006801"
     week: 68
     name: 空も飛べるはず
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: h-kQw4JqCHE
+    title: 空も飛べるはず
     index: 561
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006802"
     week: 68
     name: TRAIN-TRAIN
     artist: THE BLUE HEARTS
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: TRAIN-TRAIN
     index: 562
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006803"
     week: 68
     name: Monkey Magic
     artist: ゴダイゴ
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Monkey Magic
     index: 563
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006804"
     week: 68
     name: 生きてるって言ってみろ
     artist: 友川かずき
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 生きてるって言ってみろ
     index: 564
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006805"
     week: 68
     name: STARS
     artist: ORIGINAL LOVE
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: STARS
     index: 565
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006806"
     week: 68
     name: ヒトリセカイ
     artist: 10-FEET
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: rxjKJ_2T9DY
+    title: ヒトリセカイ
     index: 566
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006868"
+  - id: "2019006807"
     week: 68
     name: ESCAPE
     artist: MOON CHILD
@@ -104,6 +110,7 @@ playlist:
       - 今井裕
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: ESCAPE
     index: 567
     indexInWeek: 7
     selector: 草野マサムネ

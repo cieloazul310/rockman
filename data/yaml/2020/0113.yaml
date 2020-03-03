@@ -4,10 +4,10 @@ year: 2020
 title: ツェッペリン風味で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["変則アーティスト特集"]
 date: 2020-03-01
 playlist:
-  - id: "20200113113"
+  - id: "2020011301"
     week: 113
     name: さらばユニヴァース
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 石田小吉
     corner: 漫遊前の一曲
     youtube: ""
+    title: さらばユニヴァース
     index: 932
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011302"
     week: 113
     name: Highway Tune
     artist: Greta Van Fleet
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: aJg4OJxp-co
+    title: Highway Tune
     index: 933
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011303"
     week: 113
     name: Easy Livin'
     artist: Fastway
@@ -48,10 +50,11 @@ playlist:
       - Eddie Kramer
     corner: ""
     youtube: ""
+    title: Easy Livin'
     index: 934
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011304"
     week: 113
     name: Get It On
     artist: Kingdom Come
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: k1OdgfEhzgM
+    title: Get It On
     index: 935
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011305"
     week: 113
     name: Hold Her Tight
     artist: The Osmonds
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 6z9D2PJmz_k
+    title: Hold Her Tight
     index: 936
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011306"
     week: 113
     name: Queen Of My Dreams
     artist: The Edgar Winter Group
@@ -91,10 +96,11 @@ playlist:
       - Rick Derringer
     corner: ""
     youtube: ""
+    title: Queen Of My Dreams
     index: 937
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011307"
     week: 113
     name: Rock and Roll Is Dead
     artist: Lenny Kravitz
@@ -105,10 +111,11 @@ playlist:
     producer: []
     corner: ""
     youtube: yw8_5OYKQNA
+    title: Rock and Roll Is Dead
     index: 938
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011308"
     week: 113
     name: Tautud
     artist: Spirit
@@ -120,10 +127,11 @@ playlist:
       - Lou Adler
     corner: ""
     youtube: ZPYWxc28Mh4
+    title: Tautud
     index: 939
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "20200113113"
+  - id: "2020011309"
     week: 113
     name: 青い地球はてのひら
     artist: かの香織
@@ -134,6 +142,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 青い地球はてのひら
     index: 940
     indexInWeek: 9
     selector: 草野マサムネ

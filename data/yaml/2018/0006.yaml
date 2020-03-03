@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-02-11
 playlist:
-  - id: "2018000606"
+  - id: "2018000601"
     week: 6
     name: 魔女旅に出る
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 高橋信彦
     corner: 漫遊前の一曲
     youtube: ""
+    title: 魔女旅に出る
     index: 41
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000602"
     week: 6
     name: Honesty
     artist: Billy Joel
@@ -34,10 +35,11 @@ playlist:
       - Phil Ramone
     corner: ""
     youtube: SuFScoO4tb0
+    title: Honesty
     index: 42
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000603"
     week: 6
     name: Pretty Ballerina
     artist: The Left Banke
@@ -49,10 +51,11 @@ playlist:
       - Harry Lookofsky
     corner: ""
     youtube: ""
+    title: Pretty Ballerina
     index: 43
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000604"
     week: 6
     name: Love Me Please Love Me
     artist: Michel Polnareff
@@ -63,10 +66,11 @@ playlist:
     producer: []
     corner: ""
     youtube: CM8CzDsCoeE
+    title: Love Me Please Love Me
     index: 44
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000605"
     week: 6
     name: Leave a Light On
     artist: Belinda Carlisle
@@ -78,6 +82,7 @@ playlist:
       - Rick Nowels
     corner: ""
     youtube: pmZYE8j2ZNs
+    title: Leave a Light On
     index: 45
     indexInWeek: 5
     selector: 草野マサムネ
@@ -93,10 +98,11 @@ playlist:
       - Don Fleming
     corner: ""
     youtube: q1oiHcKAAeA
+    title: Love Letter Boxes
     index: 46
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000607"
     week: 6
     name: YES-YES-YES
     artist: オフコース
@@ -107,10 +113,11 @@ playlist:
     producer: []
     corner: ""
     youtube: v8a6z8PixD0
+    title: YES-YES-YES
     index: 47
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018000606"
+  - id: "2018000608"
     week: 6
     name: 積木の汽車
     artist: Sheen
@@ -122,6 +129,7 @@ playlist:
       - 森達彦
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 積木の汽車
     index: 48
     indexInWeek: 8
     selector: 草野マサムネ

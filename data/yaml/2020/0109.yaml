@@ -4,10 +4,10 @@ year: 2020
 title: 福岡のレジェンドロックバンドで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2020-02-02
 playlist:
-  - id: "20200109109"
+  - id: "2020010901"
     week: 109
     name: さわって・変わって
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: -l5yolGZox4
+    title: さわって・変わって
     index: 898
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010902"
     week: 109
     name: キングスネークブルース
     artist: サンハウス
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: fxW9UBoHOb4
+    title: キングスネークブルース
     index: 899
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010903"
     week: 109
     name: 裏切りの街角
     artist: 甲斐バンド
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 裏切りの街角
     index: 900
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010904"
     week: 109
     name: You May Dream
     artist: シーナ&ザ・ロケッツ
@@ -62,10 +65,11 @@ playlist:
       - 細野晴臣
     corner: ""
     youtube: ""
+    title: You May Dream
     index: 901
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010905"
     week: 109
     name: 恋をしようよ
     artist: ザ・ルースターズ
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 恋をしようよ
     index: 902
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010906"
     week: 109
     name: セル ナンバー 8(第8病棟)
     artist: バトル・ロッカーズ
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: セル ナンバー 8(第8病棟)
     index: 903
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010907"
     week: 109
     name: 激しい雨が
     artist: THE MODS
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 激しい雨が
     index: 904
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010908"
     week: 109
     name: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     artist: アンジー
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     index: 905
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "20200109109"
+  - id: "2020010909"
     week: 109
     name: 野良犬
     artist: ARB
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 野良犬
     index: 906
     indexInWeek: 9
     selector: 草野マサムネ

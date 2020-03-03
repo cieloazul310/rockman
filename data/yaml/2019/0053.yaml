@@ -4,10 +4,10 @@ year: 2019
 title: ロク漫1周年！T・Y・K(当初やりたかった感じ)で漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["T・Y・K(当初やりたかった感じ)"]
 date: 2019-01-06
 playlist:
-  - id: "2019005353"
+  - id: "2019005301"
     week: 53
     name: コメット
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: コメット
     index: 436
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005302"
     week: 53
     name: Sad Am I
     artist: Capability Brown
@@ -34,10 +35,11 @@ playlist:
       - John Mills
     corner: ""
     youtube: W1AmxqNrLww
+    title: Sad Am I
     index: 437
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005303"
     week: 53
     name: Real Love Guaranteed
     artist: The Gods
@@ -49,10 +51,11 @@ playlist:
       - David Paramor
     corner: ""
     youtube: SyQOj0EiZIo
+    title: Real Love Guaranteed
     index: 438
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005304"
     week: 53
     name: Around The World In Eighty Days
     artist: Stray
@@ -63,10 +66,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FZjJYw-RI98
+    title: Around The World In Eighty Days
     index: 439
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005305"
     week: 53
     name: Magician
     artist: Amazing Friendly Apple
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: BLsZZQzN-m8
+    title: Magician
     index: 440
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005306"
     week: 53
     name: Flying in and Out of Stardom
     artist: Baker Gurvitz Army
@@ -92,10 +97,11 @@ playlist:
       - Eddy Offord
     corner: ""
     youtube: LSICBa7vs9Y
+    title: Flying in and Out of Stardom
     index: 441
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005307"
     week: 53
     name: It's What You've Got
     artist: Pete Dello And Friends
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: d-Ld5Cd1N7Q
+    title: It's What You've Got
     index: 442
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005308"
     week: 53
     name: My White Bicycle
     artist: Tomorrow
@@ -121,10 +128,11 @@ playlist:
       - Mark Wirtz
     corner: ""
     youtube: nzULAq6PJ-4
+    title: My White Bicycle
     index: 443
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019005353"
+  - id: "2019005309"
     week: 53
     name: Automatic Pilot
     artist: ウォッカ・コリンズ
@@ -135,6 +143,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: LDmEgb2PjeA
+    title: Automatic Pilot
     index: 444
     indexInWeek: 9
     selector: 草野マサムネ

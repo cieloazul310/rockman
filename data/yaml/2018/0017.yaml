@@ -4,10 +4,10 @@ year: 2018
 title: ユーライアヒープで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2018-04-29
 playlist:
-  - id: "2018001717"
+  - id: "2018001701"
     week: 17
     name: 群青
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: 13jH7X4aKi8
+    title: 群青
     index: 132
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001702"
     week: 17
     name: July Morning
     artist: Uriah Heep
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: SAx5XtiB2CQ
+    title: July Morning
     index: 133
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001703"
     week: 17
     name: Look at Yourself
     artist: Uriah Heep
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 07qum-r17A8
+    title: Look at Yourself
     index: 134
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001704"
     week: 17
     name: The Wizard
     artist: Uriah Heep
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: Mki3xYnStUM
+    title: The Wizard
     index: 135
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001705"
     week: 17
     name: Come Away Melinda
     artist: Uriah Heep
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 21aH8nI5Nhw
+    title: Come Away Melinda
     index: 136
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001706"
     week: 17
     name: Too Scared to Run
     artist: Uriah Heep
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: kUgItn-NM9M
+    title: Too Scared to Run
     index: 137
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001707"
     week: 17
     name: I Can See You
     artist: Uriah Heep
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: wWy3HyDwcBE
+    title: I Can See You
     index: 138
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001717"
+  - id: "2018001708"
     week: 17
     name: この森へ←
     artist: チエ・カジウラ
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: この森へ←
     index: 139
     indexInWeek: 8
     selector: 草野マサムネ

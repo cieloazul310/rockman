@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2019-07-07
 playlist:
-  - id: "2019007979"
+  - id: "2019007901"
     week: 79
     name: 船乗り
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 船乗り
     index: 649
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007902"
     week: 79
     name: Love Me Do
     artist: The Beatles
@@ -33,10 +34,11 @@ playlist:
       - George Martin
     corner: ""
     youtube: 0pGOFX1D_jg
+    title: Love Me Do
     index: 650
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007903"
     week: 79
     name: Heart of Gold
     artist: Neil Young
@@ -48,10 +50,11 @@ playlist:
       - Elliot Mazer
     corner: ""
     youtube: X3IA6pIVank
+    title: Heart of Gold
     index: 651
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007904"
     week: 79
     name: When the Levee Breaks
     artist: Led Zeppelin
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: FFDYuO53BUk
+    title: When the Levee Breaks
     index: 652
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007905"
     week: 79
     name: Slow Emotion Replay
     artist: The The
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: q7ZZVJ120A4
+    title: Slow Emotion Replay
     index: 653
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007906"
     week: 79
     name: 星のラブレター
     artist: THE BOOM
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 星のラブレター
     index: 654
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007907"
     week: 79
     name: 恋をしましょう
     artist: フラワーカンパニーズ
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: OeqNLagjlEA
+    title: 恋をしましょう
     index: 655
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007979"
+  - id: "2019007908"
     week: 79
     name: Happy Song
     artist: oh! penelope
@@ -118,6 +125,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Happy Song
     index: 656
     indexInWeek: 8
     selector: 草野マサムネ

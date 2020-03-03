@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-05-06
 playlist:
-  - id: "2018001818"
+  - id: "2018001801"
     week: 18
     name: ガーベラ
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: ガーベラ
     index: 140
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001802"
     week: 18
     name: センチメンタル
     artist: Syrup16g
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: センチメンタル
     index: 141
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001803"
     week: 18
     name: 小さなリンジー
     artist: 田中茉裕
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: YFESOU_YdSA
+    title: 小さなリンジー
     index: 142
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001804"
     week: 18
     name: 貴方が好きな私
     artist: 阿部真央
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: mvt21LGL7P0
+    title: 貴方が好きな私
     index: 143
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001805"
     week: 18
     name: サルビアの花
     artist: もとまろ
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: サルビアの花
     index: 144
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001806"
     week: 18
     name: Autre Temps
     artist: Alcest
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 85c-P9hbmBg
+    title: Autre Temps
     index: 145
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001807"
     week: 18
     name: ひかりのふるさと
     artist: 青葉市子
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: qoa1G6uBz-0
+    title: ひかりのふるさと
     index: 146
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018001818"
+  - id: "2018001808"
     week: 18
     name: Boys & Girls
     artist: THE FUSE
@@ -117,6 +124,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Boys & Girls
     index: 147
     indexInWeek: 8
     selector: 草野マサムネ

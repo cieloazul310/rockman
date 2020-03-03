@@ -4,10 +4,10 @@ year: 2019
 title: コクトー・ツインズで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-08-18
 playlist:
-  - id: "2019008585"
+  - id: "2019008501"
     week: 85
     name: エンドロールには早すぎる
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: エンドロールには早すぎる
     index: 698
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008502"
     week: 85
     name: Aikea-Guinea
     artist: Cocteau Twins
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Aikea-Guinea
     index: 699
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008503"
     week: 85
     name: Lorelei
     artist: Cocteau Twins
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ydaOrM0ib2Y
+    title: Lorelei
     index: 700
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008504"
     week: 85
     name: The Spangle Maker
     artist: Cocteau Twins
@@ -61,10 +64,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: The Spangle Maker
     index: 701
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008505"
     week: 85
     name: Pearly-Dewdrops' Drops
     artist: Cocteau Twins
@@ -75,10 +79,11 @@ playlist:
     producer: []
     corner: ""
     youtube: s-5Xgw6d3h0
+    title: Pearly-Dewdrops' Drops
     index: 702
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008506"
     week: 85
     name: Cherry-Coloured Funk
     artist: Cocteau Twins
@@ -89,10 +94,11 @@ playlist:
     producer: []
     corner: ""
     youtube: PbbUeLkZt74
+    title: Cherry-Coloured Funk
     index: 703
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008507"
     week: 85
     name: Bluebeard
     artist: Cocteau Twins
@@ -103,10 +109,11 @@ playlist:
     producer: []
     corner: ""
     youtube: MD67KRum-Cs
+    title: Bluebeard
     index: 704
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008508"
     week: 85
     name: Rilkean Heart
     artist: Cocteau Twins
@@ -117,10 +124,11 @@ playlist:
     producer: []
     corner: ""
     youtube: xEYvb7RlGss
+    title: Rilkean Heart
     index: 705
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019008585"
+  - id: "2019008509"
     week: 85
     name: PROMiSE
     artist: MiChi
@@ -131,6 +139,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: HjQeQfZYsfM
+    title: PROMiSE
     index: 706
     indexInWeek: 9
     selector: 草野マサムネ

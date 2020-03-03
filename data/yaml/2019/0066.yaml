@@ -4,10 +4,10 @@ year: 2019
 title: クセになる面白ソングで漫遊記・パート2
 subtitle: ""
 guests: []
-categories: []
+categories: ["面白ソング特集"]
 date: 2019-04-07
 playlist:
-  - id: "2019006666"
+  - id: "2019006601"
     week: 66
     name: トゲトゲの木
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: トゲトゲの木
     index: 545
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006602"
     week: 66
     name: 遺憾に存じます
     artist: 植木等
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 遺憾に存じます
     index: 546
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006603"
     week: 66
     name: 青森ロック大臣
     artist: 人間椅子
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 青森ロック大臣
     index: 547
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006604"
     week: 66
     name: So Said Kayo
     artist: The Hit Parade
@@ -61,10 +64,11 @@ playlist:
       - Raymond Watts
     corner: ""
     youtube: ""
+    title: So Said Kayo
     index: 548
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006605"
     week: 66
     name: ふやけた■■
     artist: ヒカシュー
@@ -76,10 +80,11 @@ playlist:
       - 近田春夫
     corner: ""
     youtube: ""
+    title: ふやけた■■
     index: 549
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006606"
     week: 66
     name: スナッキーで踊ろう
     artist: 海道はじめ
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: スナッキーで踊ろう
     index: 550
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006607"
     week: 66
     name: デタラメ・マザコン・チェリーボーイ 〜for the movie〜
     artist: 金玉ガールズ
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: デタラメ・マザコン・チェリーボーイ 〜for the movie〜
     index: 551
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006608"
     week: 66
     name: ナントカナルシング
     artist: ふなっしー
@@ -118,10 +125,11 @@ playlist:
     producer: []
     corner: ""
     youtube: K7lW2MCYUc4
+    title: ナントカナルシング
     index: 552
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019006666"
+  - id: "2019006609"
     week: 66
     name: レッドdeハッスル
     artist: 大西ユカリと新世界
@@ -132,6 +140,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: レッドdeハッスル
     index: 553
     indexInWeek: 9
     selector: 草野マサムネ

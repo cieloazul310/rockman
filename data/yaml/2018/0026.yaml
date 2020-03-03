@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-07-01
 playlist:
-  - id: "2018002626"
+  - id: "2018002601"
     week: 26
     name: 青い車
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 土方隆行
     corner: 漫遊前の一曲
     youtube: 5K8ZuLYG0yo
+    title: 青い車
     index: 211
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002602"
     week: 26
     name: Black Shuck
     artist: The Darkness
@@ -34,10 +35,11 @@ playlist:
       - Pedro Ferreira
     corner: ""
     youtube: nRlTc1RYMGU
+    title: Black Shuck
     index: 212
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002603"
     week: 26
     name: Wuthering Heights
     artist: Kate Bush
@@ -49,10 +51,11 @@ playlist:
       - Andrew Powell
     corner: ""
     youtube: -1pMMIe4hb4
+    title: Wuthering Heights
     index: 213
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002604"
     week: 26
     name: Hocus Pocus
     artist: Focus
@@ -64,10 +67,11 @@ playlist:
       - Mike Vernon
     corner: ""
     youtube: 9esBTlhbC_g
+    title: Hocus Pocus
     index: 214
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002605"
     week: 26
     name: Stayin’ Alive
     artist: Bee Gees
@@ -79,10 +83,11 @@ playlist:
       - Albhy Galuten
     corner: ""
     youtube: I_izvAbhExY
+    title: Stayin’ Alive
     index: 215
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002606"
     week: 26
     name: Anthem
     artist: Rush
@@ -94,10 +99,11 @@ playlist:
       - Terry Brown
     corner: ""
     youtube: ""
+    title: Anthem
     index: 216
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002607"
     week: 26
     name: ワタリドリ
     artist: "[ALEXANDROS]"
@@ -108,10 +114,11 @@ playlist:
     producer: []
     corner: ""
     youtube: O_DLtVuiqhI
+    title: ワタリドリ
     index: 217
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002608"
     week: 26
     name: Lovin’ You
     artist: Minnie Riperton
@@ -123,10 +130,11 @@ playlist:
       - Stevie Wonder
     corner: ""
     youtube: REe_U1MxIKM
+    title: Lovin’ You
     index: 218
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018002626"
+  - id: "2018002609"
     week: 26
     name: 終電マスター
     artist: FREENOTE
@@ -137,6 +145,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: xrUrKSbYVgE
+    title: 終電マスター
     index: 219
     indexInWeek: 9
     selector: 草野マサムネ

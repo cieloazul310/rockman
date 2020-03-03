@@ -4,10 +4,10 @@ year: 2019
 title: ミック・ロンソンで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2019-05-19
 playlist:
-  - id: "2019007272"
+  - id: "2019007201"
     week: 72
     name: たまご
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 笹路正徳
     corner: 漫遊前の一曲
     youtube: ""
+    title: たまご
     index: 592
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007202"
     week: 72
     name: Hang On to Yourself
     artist: David Bowie
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 7XtF5jITGh4
+    title: Hang On to Yourself
     index: 593
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007203"
     week: 72
     name: Moonage Daydream
     artist: David Bowie
@@ -47,10 +49,11 @@ playlist:
     producer: []
     corner: ""
     youtube: RPUAldgS7Sg
+    title: Moonage Daydream
     index: 594
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007204"
     week: 72
     name: Life on Mars
     artist: David Bowie
@@ -62,10 +65,11 @@ playlist:
       - Ken Scott
     corner: ""
     youtube: AZKcl4-tcuo
+    title: Life on Mars
     index: 595
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007205"
     week: 72
     name: Star
     artist: David Bowie
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: u0iF_fJ8yf4
+    title: Star
     index: 596
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007206"
     week: 72
     name: Growing Up And I'm Fine
     artist: Mick Ronson
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Growing Up And I'm Fine
     index: 597
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007207"
     week: 72
     name: Hangin’ Round
     artist: Lou Reed
@@ -105,10 +111,11 @@ playlist:
       - Mick Ronson
     corner: ""
     youtube: zEgV0kTikfI
+    title: Hangin’ Round
     index: 598
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007208"
     week: 72
     name: We Hate It When Our Friends Become Successful
     artist: Morrissey
@@ -120,10 +127,11 @@ playlist:
       - Mick Ronson
     corner: ""
     youtube: 1nRRu9WAA-k
+    title: We Hate It When Our Friends Become Successful
     index: 599
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2019007272"
+  - id: "2019007209"
     week: 72
     name: 涙 風にたくして
     artist: つじあやの
@@ -134,6 +142,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: 涙 風にたくして
     index: 600
     indexInWeek: 9
     selector: 草野マサムネ

@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2020-02-23
 playlist:
-  - id: "20200112112"
+  - id: "2020011201"
     week: 112
     name: 恋のうた
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 恋のうた
     index: 924
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011202"
     week: 112
     name: い・け・な・いルージュマジック
     artist: 忌野清志郎+坂本龍一
@@ -32,10 +33,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: い・け・な・いルージュマジック
     index: 925
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011203"
     week: 112
     name: すみれ September Love
     artist: 一風堂
@@ -46,10 +48,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: すみれ September Love
     index: 926
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011204"
     week: 112
     name: わがままジュリエット
     artist: BOØWY
@@ -60,10 +63,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: わがままジュリエット
     index: 927
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011205"
     week: 112
     name: Boys Jump The Midnight
     artist: THE STREET SLIDERS
@@ -74,10 +78,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Boys Jump The Midnight
     index: 928
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011206"
     week: 112
     name: リンダリンダ
     artist: THE BLUE HEARTS
@@ -88,10 +93,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: リンダリンダ
     index: 929
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011207"
     week: 112
     name: 肉のうた
     artist: The ピーズ
@@ -102,10 +108,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 肉のうた
     index: 930
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "20200112112"
+  - id: "2020011208"
     week: 112
     name: なんだったんだ?7DAYS
     artist: BARBEE BOYS
@@ -116,6 +123,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: なんだったんだ?7DAYS
     index: 931
     indexInWeek: 8
     selector: 草野マサムネ

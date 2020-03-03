@@ -16,5 +16,7 @@ export const initialAppState: AppState = {
   tab: 0,
 };
 export function createInitialAppState(location: LocationWithState) {
-  return !location.state || !location.state.appState ? initialAppState : location.state.appState;
+  return !location.state || !location.state.appState
+    ? initialAppState
+    : location.state.appState;
 }

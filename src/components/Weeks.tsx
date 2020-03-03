@@ -8,6 +8,7 @@ import Badge from '@material-ui/core/Badge';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
+import ListItemLink from '../components/ListItemLink';
 import { Yaml, WeekMenuQuery } from '../../graphql-types';
 
 interface WeeksByYearProps {
@@ -19,7 +20,7 @@ function WeeksByYear({ year, weeks }: WeeksByYearProps) {
   const [open, setOpen] = React.useState(false);
   const _handleClick = () => {
     setOpen(!open);
-  }
+  };
 
   return (
     <>
@@ -32,12 +33,12 @@ function WeeksByYear({ year, weeks }: WeeksByYearProps) {
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {weeks.map((week, index) => (
-            <ListItem dense button key={week.id}>
+            <ListItemLink dense button key={week.id} to={week.fields.slug}>
               <ListItemText
                 primary={`${week.week}. ${week.title}`}
                 secondary={week.date}
               />
-            </ListItem>
+            </ListItemLink>
           ))}
         </List>
       </Collapse>
@@ -54,14 +55,17 @@ function Weeks() {
             id
             title
             week
-            date
+            date(formatString: "YYYY-MM-DD")
             year
+            fields {
+              slug
+            }
           }
         }
       }
     }
   `).allYaml.edges;
-  
+
   return (
     <List subheader={<ListSubheader>放送回</ListSubheader>}>
       <WeeksByYear

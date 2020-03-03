@@ -7,7 +7,7 @@ guests: []
 categories: []
 date: 2018-12-30
 playlist:
-  - id: "2018005252"
+  - id: "2018005201"
     week: 52
     name: まもるさん
     artist: スピッツ
@@ -19,10 +19,11 @@ playlist:
       - 亀田誠治
     corner: 漫遊前の一曲
     youtube: ""
+    title: まもるさん
     index: 427
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005202"
     week: 52
     name: そんなヒロシに騙されて
     artist: サザンオールスターズ
@@ -33,10 +34,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: そんなヒロシに騙されて
     index: 428
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005203"
     week: 52
     name: Buddy Holly
     artist: Weezer
@@ -48,10 +50,11 @@ playlist:
       - Ric Ocasek
     corner: ""
     youtube: kemivUKb4f4
+    title: Buddy Holly
     index: 429
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005204"
     week: 52
     name: Jeremy
     artist: Pearl Jam
@@ -63,10 +66,11 @@ playlist:
       - Rick Parashar
     corner: ""
     youtube: MS91knuzoOA
+    title: Jeremy
     index: 430
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005205"
     week: 52
     name: TOSHI-LOWさん
     artist: キュウソネコカミ
@@ -77,10 +81,11 @@ playlist:
     producer: []
     corner: ""
     youtube: jSHAEoLBJCU
+    title: TOSHI-LOWさん
     index: 431
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005206"
     week: 52
     name: Jimmy
     artist: The Living End
@@ -92,10 +97,11 @@ playlist:
       - Mark Trombino
     corner: ""
     youtube: L2NJ_HJe53s
+    title: Jimmy
     index: 432
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005207"
     week: 52
     name: Paul
     artist: Big Thief
@@ -106,10 +112,11 @@ playlist:
     producer: []
     corner: ""
     youtube: 4lu5fA6i6zg
+    title: Paul
     index: 433
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005208"
     week: 52
     name: Hey Joe
     artist: The Jimi Hendrix Experience
@@ -121,10 +128,11 @@ playlist:
       - Chas Chandler
     corner: ""
     youtube: rXwMrBb2x1Q
+    title: Hey Joe
     index: 434
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018005252"
+  - id: "2018005209"
     week: 52
     name: Devil’s own
     artist: WINO
@@ -135,6 +143,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
+    title: Devil’s own
     index: 435
     indexInWeek: 9
     selector: 草野マサムネ

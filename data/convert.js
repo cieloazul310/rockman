@@ -22,9 +22,10 @@ weeks.forEach((d, i) => {
     .filter(song => song.week === week)
     .map((tune, index) => ({
       ...tune,
-      id: `${year.toString()}${week.toString().padStart(4, '0')}${(i + 1)
+      id: `${year.toString()}${week.toString().padStart(4, '0')}${(index + 1)
         .toString()
         .padStart(2, '0')}`,
+      title: tune.name,
       index: tune.id,
       indexInWeek: index + 1,
       selector: '草野マサムネ',

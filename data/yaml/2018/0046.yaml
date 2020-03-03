@@ -4,10 +4,10 @@ year: 2018
 title: Pixiesで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["アーティスト特集"]
 date: 2018-11-18
 playlist:
-  - id: "2018004646"
+  - id: "2018004601"
     week: 46
     name: テレビ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: テレビ
     index: 377
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004602"
     week: 46
     name: Debaser
     artist: Pixies
@@ -33,10 +34,11 @@ playlist:
       - Gil Norton
     corner: ""
     youtube: PVyS9JwtFoQ
+    title: Debaser
     index: 378
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004603"
     week: 46
     name: Bone Machine
     artist: Pixies
@@ -48,10 +50,11 @@ playlist:
       - Steve Albini
     corner: ""
     youtube: HfLk4o6ybCU
+    title: Bone Machine
     index: 379
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004604"
     week: 46
     name: Here Comes Your Man
     artist: Pixies
@@ -63,10 +66,11 @@ playlist:
       - Gil Norton
     corner: ""
     youtube: tPgf_btTFlc
+    title: Here Comes Your Man
     index: 380
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004605"
     week: 46
     name: Something Against You
     artist: Pixies
@@ -78,10 +82,11 @@ playlist:
       - Steve Albini
     corner: ""
     youtube: ApUZ5DEyBHM
+    title: Something Against You
     index: 381
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004606"
     week: 46
     name: Velouria
     artist: Pixies
@@ -93,10 +98,11 @@ playlist:
       - Gil Norton
     corner: ""
     youtube: nc0Mv4Iyxvc
+    title: Velouria
     index: 382
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004607"
     week: 46
     name: Bel Esprit
     artist: Pixies
@@ -108,10 +114,11 @@ playlist:
       - Tom Dalgety
     corner: ""
     youtube: 0O6Q6vb4KBk
+    title: Bel Esprit
     index: 383
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004608"
     week: 46
     name: Broken Face
     artist: Pixies
@@ -123,10 +130,11 @@ playlist:
       - Steve Albini
     corner: ""
     youtube: ""
+    title: Broken Face
     index: 384
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004609"
     week: 46
     name: Allison
     artist: Pixies
@@ -138,10 +146,11 @@ playlist:
       - Gil Norton
     corner: ""
     youtube: n37Bdr559to
+    title: Allison
     index: 385
     indexInWeek: 9
     selector: 草野マサムネ
-  - id: "2018004646"
+  - id: "2018004610"
     week: 46
     name: できない
     artist: ふくろうず
@@ -152,6 +161,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: _DGp6LhmXoc
+    title: できない
     index: 386
     indexInWeek: 10
     selector: 草野マサムネ

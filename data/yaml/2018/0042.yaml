@@ -4,10 +4,10 @@ year: 2018
 title: ツンタンビートで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リズム特集"]
 date: 2018-10-21
 playlist:
-  - id: "2018004242"
+  - id: "2018004201"
     week: 42
     name: 僕の天使マリ
     artist: スピッツ
@@ -18,10 +18,11 @@ playlist:
     producer: []
     corner: 漫遊前の一曲
     youtube: ""
+    title: 僕の天使マリ
     index: 342
     indexInWeek: 1
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004202"
     week: 42
     name: Fiesta
     artist: The Pogues
@@ -33,10 +34,11 @@ playlist:
       - Steve Lillywhite
     corner: ""
     youtube: 6pYI9t-I6qo
+    title: Fiesta
     index: 343
     indexInWeek: 2
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004203"
     week: 42
     name: 大迷惑
     artist: UNICORN
@@ -48,10 +50,11 @@ playlist:
       - 笹路正徳
     corner: ""
     youtube: 9vEw-r3mmfk
+    title: 大迷惑
     index: 344
     indexInWeek: 3
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004204"
     week: 42
     name: ざまぁカンカン娘
     artist: GO-BANG'S
@@ -62,10 +65,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: ざまぁカンカン娘
     index: 345
     indexInWeek: 4
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004205"
     week: 42
     name: Needles
     artist: System of a Down
@@ -76,10 +80,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: Needles
     index: 346
     indexInWeek: 5
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004206"
     week: 42
     name: 憧れてきたんだ
     artist: あいみょん
@@ -90,10 +95,11 @@ playlist:
     producer: []
     corner: ""
     youtube: ""
+    title: 憧れてきたんだ
     index: 347
     indexInWeek: 6
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004207"
     week: 42
     name: 車輪の唄
     artist: BUMP OF CHICKEN
@@ -104,10 +110,11 @@ playlist:
     producer: []
     corner: ""
     youtube: x9S9oygUEW0
+    title: 車輪の唄
     index: 348
     indexInWeek: 7
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004208"
     week: 42
     name: A Well Respected Man
     artist: The Kinks
@@ -119,10 +126,11 @@ playlist:
       - Shel Talmy
     corner: ""
     youtube: Gz3Pevx6FRk
+    title: A Well Respected Man
     index: 349
     indexInWeek: 8
     selector: 草野マサムネ
-  - id: "2018004242"
+  - id: "2018004209"
     week: 42
     name: チョイスで会おうぜ
     artist: ニューロティカ
@@ -133,6 +141,7 @@ playlist:
     producer: []
     corner: ちょっぴりタイムマシン
     youtube: J4YZS2OdW_U
+    title: チョイスで会おうぜ
     index: 350
     indexInWeek: 9
     selector: 草野マサムネ
