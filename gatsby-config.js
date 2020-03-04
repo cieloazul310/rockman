@@ -2,11 +2,11 @@
 
 module.exports = {
   siteMetadata: {
-    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集`,
+    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
     description:
       'TOKYO-FM で放送中の SPITZ 草野マサムネのロック大陸漫遊記 のプレイリスト集。',
     lang: 'ja',
-    siteUrl: 'https://cieloazul310.github.io/rockman-survey/',
+    siteUrl: 'https://cieloazul310.github.io/gatsby-rockman/',
     author: 'cieloazul310',
     social: {
       mail: '',
@@ -23,7 +23,7 @@ module.exports = {
       youtube: ''
     }
   },
-  pathPrefix: '/rockman-survey',
+  pathPrefix: '/gatsby-rockman',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

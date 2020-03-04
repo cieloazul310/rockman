@@ -24,29 +24,112 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             id
             title
-            week
-            date(formatString: "YYYY-MM-DD")
-            year
+            date
+            categories
             fields {
               slug
             }
+            guests
+            playlist {
+              artist
+              corner
+              id
+              indexInWeek
+              index
+              kana
+              label
+              name
+              nation
+              producer
+              selector
+              title
+              week
+              year
+              youtube
+            }
+            subtitle
+            week
+            year
           }
           next {
+            id
+            title
+            date(formatString: "YYYY-MM-DD")
+            categories
             fields {
               slug
             }
-            title
+            guests
+            playlist {
+              artist
+              corner
+              id
+              indexInWeek
+              index
+              kana
+              label
+              name
+              nation
+              producer
+              selector
+              title
+              week
+              year
+              youtube
+            }
+            subtitle
+            week
+            year
           }
           previous {
+            id
+            title
+            date(formatString: "YYYY-MM-DD")
+            categories
             fields {
               slug
             }
-            title
+            guests
+            playlist {
+              artist
+              corner
+              id
+              indexInWeek
+              index
+              kana
+              label
+              name
+              nation
+              producer
+              selector
+              title
+              week
+              year
+              youtube
+            }
+            subtitle
+            week
+            year
           }
         }
       }
     }
   `);
+  // Array<[categoryName, length]>
+  const categories = result.data.allYaml.edges
+    .map(({ node }) => node.categories)
+    .reduce((accum, curr) => [...accum, ...curr], [])
+    .reduce((accum, curr) => {
+      const existedIndex = accum.map(d => d[0]).indexOf(curr);
+      if (existedIndex < 0) {
+        return [...accum, [curr, 1]];
+      } else {
+        accum[existedIndex][1] += 1;
+        return accum;
+      }
+    }, [])
+    .sort((a, b) => b[1] - a[1]);
+
   result.data.allYaml.edges.forEach(({ node, next, previous }) => {
     createPage({
       path: node.fields.slug,

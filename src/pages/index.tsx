@@ -4,6 +4,9 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+import List from '@material-ui/core/List';
+import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
+import HomeIcon from '@material-ui/icons/Home';
 import {
   useAppState,
   useDispatch,
@@ -26,9 +29,11 @@ function IndexPage(props: Props) {
             id
             title
             week
-            date
+            date(formatString: "YYYY-MM-DD")
             subtitle
             year
+            categories
+            guests
             playlist {
               artist
               corner
@@ -55,7 +60,27 @@ function IndexPage(props: Props) {
     <Layout
       title="ロック大陸漫遊記プレイリスト集"
       maxWidth="md"
-      drawerContents={<Weeks />}
+      drawerContents={
+        <>
+          <List>
+            <ListItemAppLink
+              to="/"
+              primary="トップページ"
+              selected={false}
+              icon={<HomeIcon />}
+            />
+          </List>
+          <Weeks />
+          <List>
+            <ListItemAppLink
+              to="/categories"
+              primary="カテゴリー"
+              selected={false}
+              icon={<HomeIcon />}
+            />
+          </List>
+        </>
+      }
     >
       <JunkList program={recentProgram} />
     </Layout>

@@ -4,45 +4,51 @@ import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
-import Avatar from '@material-ui/core/Avatar';
 import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Hidden from '@material-ui/core/Hidden';
+import Skeleton from '@material-ui/lab/Skeleton';
 import PersonIcon from '@material-ui/icons/Person';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import FaceIcon from '@material-ui/icons/Face';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import NationAvatar from './NationAvatar';
 import { YamlPlaylist } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      display: 'flex'
+      display: 'flex',
     },
     cardRight: {
-      flex: 1
+      flex: 1,
     },
     cardSubheader: {
-      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px 0 ${theme.spacing(2)}px`
+      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px 0 ${theme.spacing(
+        2
+      )}px`,
     },
     cardThumbnail: {
       flex: 'auto',
       maxWidth: '30%',
-      backgroundColor: theme.palette.type === 'dark' ? theme.palette.grey[700] : theme.palette.grey[200],
-      display: 'flex'
+      backgroundColor:
+        theme.palette.type === 'dark'
+          ? theme.palette.grey[700]
+          : theme.palette.grey[200],
+      display: 'flex',
     },
     cardThumbnailLink: {
       flex: 1,
-      display: 'flex'
+      display: 'flex',
+      overflow: 'hidden',
     },
     cardThumbnailInner: {
-      flex: 1
-    }
+      flex: 1,
+      transition: theme.transitions.create('transform'),
+      '&:hover': {
+        transform: 'scale(1.2)',
+      },
+    },
   })
 );
 
@@ -115,3 +121,33 @@ function TuneCard({ tune }: Props) {
 }
 
 export default TuneCard;
+
+export function TuneCardSkeleton() {
+  const classes = useStyles();
+  return (
+    <Box my={2}>
+      <Card className={classes.root}>
+        <div className={classes.cardThumbnail}>
+          <Skeleton variant="rect" />
+        </div>
+        <div className={classes.cardRight}>
+          <div className={classes.cardSubheader}>
+            <Typography variant="body2">
+              <Skeleton variant="text" />
+            </Typography>
+          </div>
+          <CardHeader
+            avatar={<Skeleton variant="circle" width={40} height={40} />}
+            title={<Skeleton variant="text" />}
+            subheader={<Skeleton variant="text" />}
+          />
+          <CardActions>
+            <Skeleton variant="circle" width={40} height={40} />
+            <Skeleton variant="circle" width={40} height={40} />
+            <Skeleton variant="circle" width={40} height={40} />
+          </CardActions>
+        </div>
+      </Card>
+    </Box>
+  );
+}

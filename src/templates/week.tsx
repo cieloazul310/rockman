@@ -1,12 +1,43 @@
 import * as React from 'react';
-import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
+import { graphql, navigate } from 'gatsby';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
-//import { AppLink, appNavigate } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
-//import SwipeableViews from 'react-swipeable-views';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import SwipeableViews from 'react-swipeable-views';
 import JunkList from '../components/JunkList';
-import PageNavigation from '../components/PageNavigation';
+import WeekSummaryBox from '../components/WeekSummaryBox';
+import { TuneCardSkeleton } from '../components/TuneCard';
+import PageNavigation, {
+  PageNavigationSkeleton,
+} from '../components/PageNavigation';
 import Weeks from '../components/Weeks';
-import { WeekTemplateQuery, SitePageContextNext, SitePageContextPrevious } from '../../graphql-types';
+import createDescriptionString from '../utils/createDescriptionString';
+import {
+  WeekTemplateQuery,
+  SitePageContextNext,
+  SitePageContextPrevious,
+  Yaml
+} from '../../graphql-types';
+
+function SkeletonPage({ program }: { program: SitePageContextPrevious | SitePageContextNext | Partial<Yaml>}) {
+  return (
+    <Container maxWidth="md">
+      <Box>
+        <WeekSummaryBox program={program} />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <PageNavigationSkeleton />
+      </Box>
+    </Container>
+  );
+}
 
 interface Props {
   data: WeekTemplateQuery;
@@ -20,11 +51,51 @@ interface Props {
 function WeekTemplate({ data, pageContext }: Props) {
   const program = data.yaml;
   const { previous, next } = pageContext;
-  console.log(previous, next);
+  const description = createDescriptionString(program);
+  const _onSwiped = (index: number, indexLatest: number) => {
+    if (previous && index < indexLatest) {
+      navigate(previous.fields.slug);
+    } else if (next && index > indexLatest) {
+      navigate(next.fields.slug);
+    }
+  };
+  
+  const SwipePages = React.useMemo(() => {
+    return [previous, program, next]
+      .filter(obj => obj !== null)
+      .map((yaml, index) =>
+        yaml.id === program.id ? (
+          <Container key={index} maxWidth="md">
+            <Box>
+              <JunkList program={yaml} />
+              <PageNavigation prev={previous} next={next} />
+            </Box>
+          </Container>
+        ) : (
+          <SkeletonPage key={index} program={yaml} />
+        )
+      );
+  }, [previous, program, next]);
+  
   return (
-    <Layout title={program.title} drawerContents={<Weeks />} disablePaddingTop>
-      <JunkList program={program} />
-      <PageNavigation prev={previous} next={next} />
+    <Layout
+      title={program.title}
+      description={description}
+      drawerContents={<Weeks />}
+      disablePaddingTop
+    >
+      <Helmet>
+        {previous ? <link rel="prefetch" href={previous.fields.slug} /> : null}
+        {next ? <link rel="prefetch" href={next.fields.slug} /> : null}
+      </Helmet>
+      <SwipeableViews
+        index={!previous ? 0 : 1}
+        onChangeIndex={_onSwiped}
+        resistance
+        enableMouseEvents
+      >
+        {SwipePages}
+      </SwipeableViews>
     </Layout>
   );
 }

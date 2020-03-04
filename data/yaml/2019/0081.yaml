@@ -4,7 +4,7 @@ year: 2019
 title: ご当地ロック国内編（東京以外）で漫遊記
 subtitle: ""
 guests: []
-categories: ["地域特集"]
+categories: ["地域特集", "リクエスト特集"]
 date: 2019-07-21
 playlist:
   - id: "2019008101"
@@ -37,7 +37,7 @@ playlist:
     title: 港のヨーコ・ヨコハマ・ヨコスカ
     index: 666
     indexInWeek: 2
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008103"
     week: 81
     name: もんげー岡山!
@@ -52,7 +52,7 @@ playlist:
     title: もんげー岡山!
     index: 667
     indexInWeek: 3
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008104"
     week: 81
     name: 泣ぐ子はいねが
@@ -67,7 +67,7 @@ playlist:
     title: 泣ぐ子はいねが
     index: 668
     indexInWeek: 4
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008105"
     week: 81
     name: Mt. ABURA BLUES
@@ -82,7 +82,7 @@ playlist:
     title: Mt. ABURA BLUES
     index: 669
     indexInWeek: 5
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008106"
     week: 81
     name: ヒロシマドライブ driving with 電大
@@ -97,7 +97,7 @@ playlist:
     title: ヒロシマドライブ driving with 電大
     index: 670
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008107"
     week: 81
     name: LOVERS IN NAGASAKI
@@ -112,7 +112,7 @@ playlist:
     title: LOVERS IN NAGASAKI
     index: 671
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019008108"
     week: 81
     name: KU・MA・MO・TO

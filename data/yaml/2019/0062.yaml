@@ -4,7 +4,7 @@ year: 2019
 title: 花の名前がタイトルに入ったロックナンバーで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リクエスト特集"]
 date: 2019-03-10
 playlist:
   - id: "2019006201"
@@ -37,7 +37,7 @@ playlist:
     title: マリーゴールド
     index: 513
     indexInWeek: 2
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006203"
     week: 62
     name: New Rose
@@ -53,7 +53,7 @@ playlist:
     title: New Rose
     index: 514
     indexInWeek: 3
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006204"
     week: 62
     name: カトレア
@@ -68,7 +68,7 @@ playlist:
     title: カトレア
     index: 515
     indexInWeek: 4
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006205"
     week: 62
     name: Fresh As A Daisy
@@ -83,7 +83,7 @@ playlist:
     title: Fresh As A Daisy
     index: 516
     indexInWeek: 5
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006206"
     week: 62
     name: Sunflower
@@ -98,7 +98,7 @@ playlist:
     title: Sunflower
     index: 517
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006207"
     week: 62
     name: ハイビスカスは冬に咲く
@@ -114,7 +114,7 @@ playlist:
     title: ハイビスカスは冬に咲く
     index: 518
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2019006208"
     week: 62
     name: Jasmine
