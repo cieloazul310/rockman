@@ -32,12 +32,12 @@ playlist:
     nation: US
     label: RCA
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: i9HGwRbMiVY
     title: Stay (I Missed You)
     index: 263
     indexInWeek: 2
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003203"
     week: 32
     name: Luka
@@ -48,12 +48,12 @@ playlist:
     label: A&M
     producer:
       - Steve Addabbo
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: VZt7J0iaUD0
     title: Luka
     index: 264
     indexInWeek: 3
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003204"
     week: 32
     name: Appointments
@@ -63,12 +63,12 @@ playlist:
     nation: US
     label: Matador
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: MdBu21i9aEE
     title: Appointments
     index: 265
     indexInWeek: 4
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003205"
     week: 32
     name: No Ordinary Love (Live 2011)
@@ -79,12 +79,12 @@ playlist:
     label: Epic
     producer:
       - Mike Pela
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: au8rHGvytn8
     title: No Ordinary Love (Live 2011)
     index: 266
     indexInWeek: 5
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003206"
     week: 32
     name: Beauty
@@ -95,12 +95,12 @@ playlist:
     label: Hut Records
     producer:
       - Jim Scott
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: ""
     title: Beauty
     index: 267
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003207"
     week: 32
     name: Delaware
@@ -110,12 +110,12 @@ playlist:
     nation: US
     label: Jemez Mountain
     producer: []
-    corner: 三輪テツヤ選曲
+    corner: ""
     youtube: ""
     title: Delaware
     index: 268
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: 三輪テツヤ
   - id: "2018003208"
     week: 32
     name: 初めて恋をした日

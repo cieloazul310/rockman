@@ -4,7 +4,7 @@ year: 2018
 title: 夏ロックで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["リクエスト特集"]
 date: 2018-07-29
 playlist:
   - id: "2018003001"
@@ -37,7 +37,7 @@ playlist:
     title: サマーツアー
     index: 247
     indexInWeek: 2
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003003"
     week: 30
     name: SUMMER SONG
@@ -53,7 +53,7 @@ playlist:
     title: SUMMER SONG
     index: 248
     indexInWeek: 3
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003004"
     week: 30
     name: Summer Soul
@@ -68,7 +68,7 @@ playlist:
     title: Summer Soul
     index: 249
     indexInWeek: 4
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003005"
     week: 30
     name: SUMMER BREEZE
@@ -83,7 +83,7 @@ playlist:
     title: SUMMER BREEZE
     index: 250
     indexInWeek: 5
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003006"
     week: 30
     name: 夏が来て僕等
@@ -99,7 +99,7 @@ playlist:
     title: 夏が来て僕等
     index: 251
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003007"
     week: 30
     name: 真夏の夜の事
@@ -114,7 +114,7 @@ playlist:
     title: 真夏の夜の事
     index: 252
     indexInWeek: 7
-    selector: 草野マサムネ
+    selector: リクエスト
   - id: "2018003008"
     week: 30
     name: あなほり

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { navigate } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
@@ -58,6 +59,12 @@ interface Props {
 
 function TuneCard({ tune }: Props) {
   const classes = useStyles();
+  const _onArtistButtonClick = () => {
+    navigate(`/artist/${tune.artist}/`, { replace: true });
+  }
+  const _onSelectorClick = (selector: string) => () => {
+    navigate(`/selectors/`, { state: { selector }, replace: true });
+  }
   return (
     <Box my={2}>
       <Card className={classes.root}>
@@ -91,13 +98,13 @@ function TuneCard({ tune }: Props) {
           />
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
-              <IconButton>
+              <IconButton onClick={_onArtistButtonClick}>
                 <PersonIcon />
               </IconButton>
             </Tooltip>
             {tune.selector !== '草野マサムネ' ? (
               <Tooltip title={`${tune.selector}選曲の曲をブラウズ`}>
-                <IconButton>
+                <IconButton onClick={_onSelectorClick(tune.selector)}>
                   <FaceIcon />
                 </IconButton>
               </Tooltip>

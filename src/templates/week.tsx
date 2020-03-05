@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
-import { graphql, navigate } from 'gatsby';
+import { graphql, navigate, withPrefix } from 'gatsby';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
@@ -54,9 +54,9 @@ function WeekTemplate({ data, pageContext }: Props) {
   const description = createDescriptionString(program);
   const _onSwiped = (index: number, indexLatest: number) => {
     if (previous && index < indexLatest) {
-      navigate(previous.fields.slug);
+      navigate(previous.fields.slug, { replace: true });
     } else if (next && index > indexLatest) {
-      navigate(next.fields.slug);
+      navigate(next.fields.slug, { replace: true });
     }
   };
   
@@ -85,8 +85,8 @@ function WeekTemplate({ data, pageContext }: Props) {
       disablePaddingTop
     >
       <Helmet>
-        {previous ? <link rel="prefetch" href={previous.fields.slug} /> : null}
-        {next ? <link rel="prefetch" href={next.fields.slug} /> : null}
+        {previous ? <link rel="prefetch" href={withPrefix(previous.fields.slug)} /> : null}
+        {next ? <link rel="prefetch" href={withPrefix(next.fields.slug)} /> : null}
       </Helmet>
       <SwipeableViews
         index={!previous ? 0 : 1}

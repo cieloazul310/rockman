@@ -2,8 +2,10 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import SimpleNationBar from '../components/SimpleNationBar';
 import SimpleYearsBar from '../components/SimpleYearsBar';
+import { getYomi } from '../utils/sortByYomi';
 import { AllDataQuery } from '../../graphql-types';
 
 function SecondPage() {
@@ -104,19 +106,23 @@ function SecondPage() {
         .reduce((accum, curr) => [...accum, ...curr]),
     [data]
   );
+  // [artist, kana, playlist][]
   const artists = React.useMemo(
     () =>
       allTunes
         .reduce((accum, curr) => {
           const existedIndex = accum.map(d => d[0]).indexOf(curr.artist);
           if (existedIndex < 0) {
-            return [...accum, [curr.artist, 1]];
+            return [...accum, [curr.artist, curr.kana, curr.nation, [curr]]];
           } else {
-            accum[existedIndex][1] += 1;
+            accum[existedIndex][3].push(curr);
             return accum;
           }
         }, [])
-        .sort((a, b) => b[1] - a[1]),
+        .sort(
+          (a, b) =>
+            b[3].length - a[3].length || getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
+        ),
     [allTunes]
   );
   const selectors = React.useMemo(
@@ -132,11 +138,9 @@ function SecondPage() {
             return accum;
           }
         }, [])
-        .sort((a, b) => b[1] - a[1]),
+        .sort((a, b) => b[1] - a[1] || a.kana - b.kana),
     [allTunes]
   );
-
-  console.log(artists);
 
   return (
     <Layout title="Second Page">
@@ -180,9 +184,11 @@ function SecondPage() {
       </Typography>
       <div>
         {artists.map(d => (
-          <Typography key={d[0]} variant="body1">
-            {d[0]} {d[1]}
-          </Typography>
+          <AppLink key={d[0]} to={`/artist/${d[0]}/`}>
+            <Typography key={d[0]} variant="body1">
+              {d[0]} {d[3].length}
+            </Typography>
+          </AppLink>
         ))}
       </div>
     </Layout>

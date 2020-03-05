@@ -32,12 +32,12 @@ playlist:
     label: Atlantic
     producer:
       - Kevin Elson
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
     title: Colorado Bulldog
     index: 271
     indexInWeek: 2
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018003303"
     week: 33
     name: Come Dancing
@@ -48,12 +48,12 @@ playlist:
     label: Epic
     producer:
       - George Martin
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
     title: Come Dancing
     index: 272
     indexInWeek: 3
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018003304"
     week: 33
     name: Sparkle
@@ -63,12 +63,12 @@ playlist:
     nation: JPN
     label: AIR ⁄ RVC
     producer: []
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
     title: Sparkle
     index: 273
     indexInWeek: 4
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018003305"
     week: 33
     name: I WANT YOUR LOVE
@@ -79,12 +79,12 @@ playlist:
     label: BMGビクター
     producer:
       - 岡野ハジメ
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: ""
     title: I WANT YOUR LOVE
     index: 274
     indexInWeek: 5
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018003306"
     week: 33
     name: The Weight
@@ -95,12 +95,12 @@ playlist:
     label: Capitol Records
     producer:
       - John Simon
-    corner: 崎山龍男選曲
+    corner: ""
     youtube: Ymgvs0KU1L0
     title: The Weight
     index: 275
     indexInWeek: 6
-    selector: 草野マサムネ
+    selector: 崎山龍男
   - id: "2018003307"
     week: 33
     name: GパンとTシャツとブーツで

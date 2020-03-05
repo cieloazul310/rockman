@@ -68,10 +68,11 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
                 label={category}
                 color="primary"
                 onClick={() => {
-                  navigate('/categories', {
+                  navigate('/categories/', {
                     state: {
                       category,
                     },
+                    replace: true
                   });
                 }}
               />
@@ -84,6 +85,14 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
                 key={guest}
                 label={guest}
                 icon={<FaceIcon />}
+                onClick={() => {
+                  navigate('/selectors/', {
+                    state: {
+                      selector: guest
+                    },
+                    replace: true
+                  });
+                }}
               />
             ))
           : null}

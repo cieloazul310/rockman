@@ -1,5 +1,11 @@
 const path = require('path');
 const { createFilePath } = require(`gatsby-source-filesystem`);
+/**
+ * @fix load ts file in gatsby-node.js
+ */
+/*
+const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
+*/
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -115,21 +121,27 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  // Array<[categoryName, length]>
-  const categories = result.data.allYaml.edges
-    .map(({ node }) => node.categories)
-    .reduce((accum, curr) => [...accum, ...curr], [])
+  const allTunes = result.data.allYaml.edges.reduce(
+    (accum, { node }) => [...accum, ...node.playlist],
+    []
+  );
+  const artists = allTunes
     .reduce((accum, curr) => {
-      const existedIndex = accum.map(d => d[0]).indexOf(curr);
+      const existedIndex = accum.map(d => d[0]).indexOf(curr.artist);
       if (existedIndex < 0) {
-        return [...accum, [curr, 1]];
+        return [...accum, [curr.artist, curr.kana, curr.nation, [curr]]];
       } else {
-        accum[existedIndex][1] += 1;
+        accum[existedIndex][3].push(curr);
         return accum;
       }
     }, [])
-    .sort((a, b) => b[1] - a[1]);
+    .sort(
+      (a, b) =>
+        b[3].length - a[3].length ||
+        getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
+    );
 
+  // create Week Pages
   result.data.allYaml.edges.forEach(({ node, next, previous }) => {
     createPage({
       path: node.fields.slug,
@@ -137,8 +149,36 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         previous,
         next,
-        slug: node.fields.slug,
+        slug: node.fields.slug
       }
-    })
+    });
   });
+
+  // create Artists Pages (tune >= 2)
+  artists
+    .filter(d => d[3].length > 1)
+    .forEach((d, index, arr) => {
+      const previous = index ? arr[index - 1] : null;
+      const next = index !== arr.length - 1 ? arr[index + 1] : null;
+      createPage({
+        path: `/artist/${d[0]}/`,
+        component: path.resolve('./src/templates/artist.tsx'),
+        context: {
+          previous,
+          next,
+          artist: d[0],
+        }
+      });
+    });
 };
+
+function getYomi(artistName, kana) {
+  const the = artistName.slice(0, 4);
+  if (the === 'The ' || the === 'THE ' || the === 'the ')
+    return artistName.slice(4);
+  return kana || artistName;
+}
+
+function encodeArtistName(artistName) {
+  return encodeURIComponent(artistName.replace(/[' ']+/g, '_'));
+}
