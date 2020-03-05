@@ -14,7 +14,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import FaceIcon from '@material-ui/icons/Face';
 import NationAvatar from './NationAvatar';
-import { YamlPlaylist } from '../../graphql-types';
+import { ProgramPlaylist } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -54,17 +54,17 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  tune: YamlPlaylist;
+  tune: Pick<ProgramPlaylist, "artist" | "youtube" | "title" | "selector" | "indexInWeek" | "corner" | "nation" | "year">;
 }
 
 function TuneCard({ tune }: Props) {
   const classes = useStyles();
   const _onArtistButtonClick = () => {
     navigate(`/artist/${tune.artist}/`, { replace: true });
-  }
+  };
   const _onSelectorClick = (selector: string) => () => {
     navigate(`/selectors/`, { state: { selector }, replace: true });
-  }
+  };
   return (
     <Box my={2}>
       <Card className={classes.root}>

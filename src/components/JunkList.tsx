@@ -1,20 +1,20 @@
 import * as React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import WeekSummaryBox from './WeekSummaryBox';
+import ProgramSummary from './ProgramSummary';
 import TuneCard from './TuneCard';
-import { Yaml } from '../../graphql-types';
+import { Program } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({}));
 
 interface Props {
-  program: Exclude<Partial<Yaml>, 'children' | 'internal'>;
+  program: Exclude<Partial<Program>, 'children' | 'internal'>;
 }
 
 function JunkList({ program }: Props) {
   const classes = useStyles();
   return (
     <div>
-      <WeekSummaryBox program={program} />
+      <ProgramSummary program={program} />
       {program.playlist.map((tune, index) => (
         <TuneCard tune={tune} key={tune.id} />
       ))}

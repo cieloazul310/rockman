@@ -7,10 +7,11 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
 */
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === `yaml`) {
-    const slug = createFilePath({ node, getNode, basePath: `weeks` });
+  if (node.internal.type === `program`) {
+    // /program/${node.id}/
+    const slug = `/program/${node.id}`;
     createNodeField({
       node,
       name: `slug`,
@@ -22,10 +23,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
+  
   const { createPage } = actions;
   const result = await graphql(`
     query {
-      allYaml(sort: { fields: week, order: ASC }) {
+      allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
             id
@@ -121,7 +123,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  const allTunes = result.data.allYaml.edges.reduce(
+  const allTunes = result.data.allProgram.edges.reduce(
     (accum, { node }) => [...accum, ...node.playlist],
     []
   );
@@ -141,11 +143,11 @@ exports.createPages = async ({ graphql, actions }) => {
         getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
     );
 
-  // create Week Pages
-  result.data.allYaml.edges.forEach(({ node, next, previous }) => {
+  // create Each Program Pages
+  result.data.allProgram.edges.forEach(({ node, next, previous }) => {
     createPage({
       path: node.fields.slug,
-      component: path.resolve('./src/templates/week.tsx'),
+      component: path.resolve('./src/templates/program.tsx'),
       context: {
         previous,
         next,
@@ -170,6 +172,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       });
     });
+    
 };
 
 function getYomi(artistName, kana) {
@@ -177,8 +180,4 @@ function getYomi(artistName, kana) {
   if (the === 'The ' || the === 'THE ' || the === 'the ')
     return artistName.slice(4);
   return kana || artistName;
-}
-
-function encodeArtistName(artistName) {
-  return encodeURIComponent(artistName.replace(/[' ']+/g, '_'));
 }

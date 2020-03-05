@@ -8,8 +8,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
-import WeekSummaryBox from '../components/WeekSummaryBox';
-import { AllDataQuery, Yaml } from '../../graphql-types';
+import ProgramSummary from '../components/ProgramSummary';
+import { AllDataQuery, Program } from '../../graphql-types';
 
 interface TabPaneProps {
   value: number;
@@ -35,7 +35,7 @@ function CategoriesPage() {
   const location = useLocation();
   const data = useStaticQuery<AllDataQuery>(graphql`
     query ContainCategories {
-      allYaml(
+      allProgram(
         sort: { fields: week, order: ASC }
         filter: { categories: { glob: "*" } }
       ) {
@@ -90,8 +90,8 @@ function CategoriesPage() {
   `);
   // [[name, playlist]]
   const categories = React.useMemo(() => {
-    const cats: [string, Partial<Yaml>[]][] = [];
-    data.allYaml.edges.forEach(({ node }) => {
+    const cats: [string, Partial<Program>[]][] = [];
+    data.allProgram.edges.forEach(({ node }) => {
       node.categories.forEach(cate => {
         const existedIndex = cats.map(d => d[0]).indexOf(cate);
         if (existedIndex < 0) {
@@ -140,7 +140,7 @@ function CategoriesPage() {
           <TabPane key={index} value={value} index={index}>
             <div>
               {d[1].map(v => (
-                <WeekSummaryBox key={v.id} program={v} enableLink />
+                <ProgramSummary key={v.id} program={v} enableLink />
               ))}
             </div>
           </TabPane>

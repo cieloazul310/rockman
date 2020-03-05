@@ -9,7 +9,8 @@ import { useLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { AllDataQuery } from '../../graphql-types';
 import TunesByWeek from '../components/TunesByWeek';
-import { Yaml, YamlPlaylist } from '../../graphql-types';
+import LazyViewer from '../components/LazyViewer';
+import { Program, ProgramPlaylist } from '../../graphql-types';
 
 interface TabPaneProps {
   value: number;
@@ -35,9 +36,9 @@ function SelectorsPage() {
   const location = useLocation();
   const data = useStaticQuery<AllDataQuery>(graphql`
     query {
-      allYaml(
+      allProgram(
         filter: {
-          playlist: { elemMatch: { selector: { ne: "草野マサムネ" } } }
+          playlist: { elemMatch: { selector: { nin: "草野マサムネ" } } }
         }
         sort: { fields: week, order: ASC }
       ) {
@@ -76,17 +77,32 @@ function SelectorsPage() {
       }
     }
   `);
+  console.log(data.allProgram.edges.length);
   // [[name, weeks]]
   const selectors = React.useMemo(() => {
-    const weeks = data.allYaml.edges.map(d => d.node);
-    const allTunes = weeks.reduce<YamlPlaylist[]>((accum, curr) => [...accum, ...curr.playlist], []);
+    const weeks = data.allProgram.edges.map(d => d.node);
+    const allTunes = weeks.reduce<ProgramPlaylist[]>(
+      (accum, curr) => [...accum, ...curr.playlist],
+      []
+    );
     return allTunes
       .filter(d => d.selector !== '草野マサムネ')
-      .reduce<[string, Yaml[]][]>((accum, curr) => {
+      .reduce<[string, Program[]][]>((accum, curr) => {
         const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
         if (existedIndex < 0) {
-          const weeksContainsSelector = weeks.filter(week => week.playlist.map(tune => tune.selector).indexOf(curr.selector) > 0);
-          return [...accum, [curr.selector, weeksContainsSelector, filterSelector(weeksContainsSelector, curr.selector).length]];
+          const weeksContainsSelector = weeks.filter(
+            week =>
+              week.playlist.map(tune => tune.selector).indexOf(curr.selector) >=
+              0
+          );
+          return [
+            ...accum,
+            [
+              curr.selector,
+              weeksContainsSelector,
+              filterSelector(weeksContainsSelector, curr.selector).length,
+            ],
+          ];
         } else {
           return accum;
         }
@@ -122,7 +138,7 @@ function SelectorsPage() {
         aria-label="scrollable auto tabs example"
       >
         {selectors.map(d => (
-          <Tab key={d[0]} label={`${d[0]} ${d[1].length}`} />
+          <Tab key={d[0]} label={`${d[0]} ${d[2]}`} />
         ))}
       </Tabs>
       <SwipeableViews
@@ -132,11 +148,16 @@ function SelectorsPage() {
       >
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            <div>
+            <LazyViewer programs={d[1]} divisor={15} filter={tune => tune.selector === d[0]} />
+            {/*<div>
               {d[1].map((v, i) => (
-                <TunesByWeek key={i} program={v} filter={(tune) => tune.selector === d[0]} />
+                <TunesByWeek
+                  key={i}
+                  program={v}
+                  filter={tune => tune.selector === d[0]}
+                />
               ))}
-            </div>
+              </div>*/}
           </TabPane>
         ))}
       </SwipeableViews>
@@ -146,6 +167,12 @@ function SelectorsPage() {
 
 export default SelectorsPage;
 
-function filterSelector(weeks: Yaml[], selector: string) {
-  return weeks.reduce((accum, curr) => [...accum, ...curr.playlist.filter(tune => tune.selector === selector)], []);
+function filterSelector(weeks: Program[], selector: string) {
+  return weeks.reduce(
+    (accum, curr) => [
+      ...accum,
+      ...curr.playlist.filter(tune => tune.selector === selector),
+    ],
+    []
+  );
 }

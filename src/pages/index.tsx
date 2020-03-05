@@ -7,12 +7,13 @@ import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import List from '@material-ui/core/List';
 import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
 import HomeIcon from '@material-ui/icons/Home';
+import FaceIcon from '@material-ui/icons/Face';
 import {
   useAppState,
   useDispatch,
 } from '../gatsby-theme-typescript-material-ui/utils/AppStateContext';
 import JunkList from '../components/JunkList';
-import Weeks from '../components/Weeks';
+import Programs from '../components/Programs';
 import { IndexQuery } from '../../graphql-types';
 
 interface Props {
@@ -23,7 +24,7 @@ function IndexPage(props: Props) {
   console.log(props);
   const data = useStaticQuery<IndexQuery>(graphql`
     query Index {
-      allYaml(sort: { fields: week, order: DESC }, limit: 1) {
+      allProgram(sort: { fields: week, order: DESC }, limit: 1) {
         edges {
           node {
             id
@@ -54,7 +55,7 @@ function IndexPage(props: Props) {
       }
     }
   `);
-  const recentProgram = data.allYaml.edges[0].node;
+  const recentProgram = data.allProgram.edges[0].node;
 
   return (
     <Layout
@@ -70,13 +71,19 @@ function IndexPage(props: Props) {
               icon={<HomeIcon />}
             />
           </List>
-          <Weeks />
+          <Programs />
           <List>
             <ListItemAppLink
-              to="/categories"
+              to="/categories/"
               primary="カテゴリー"
               selected={false}
               icon={<HomeIcon />}
+            />
+            <ListItemAppLink
+              to="/selectors/"
+              primary="選曲者"
+              selected={false}
+              icon={<FaceIcon />}
             />
           </List>
         </>

@@ -7,7 +7,7 @@ import FaceIcon from '@material-ui/icons/Face';
 import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import SimpleNationBar from './SimpleNationBar';
 import SimpleYearsBar from './SimpleYearsBar';
-import { Yaml } from '../../graphql-types';
+import { Program } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -30,11 +30,11 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  program: Exclude<Partial<Yaml>, 'children' | 'internal'>;
+  program: Exclude<Partial<Program>, 'children' | 'internal'>;
   enableLink?: boolean;
 }
 
-function WeekSummaryBox({ program, enableLink = false }: Props) {
+function ProgramSummary({ program, enableLink = false }: Props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -43,11 +43,11 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
           第{program.week}回 {program.date}
         </Typography>
         {enableLink ? (
-          <AppLink to={program.fields.slug} className={classes.titleLink}>
             <Typography variant="h5" component="h2" gutterBottom>
+              <AppLink to={program.fields.slug} className={classes.titleLink}>
               {program.title}
+              </AppLink>
             </Typography>
-          </AppLink>
         ) : (
           <Typography variant="h5" component="h2" gutterBottom>
             {program.title}
@@ -72,7 +72,7 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
                     state: {
                       category,
                     },
-                    replace: true
+                    replace: true,
                   });
                 }}
               />
@@ -88,9 +88,9 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
                 onClick={() => {
                   navigate('/selectors/', {
                     state: {
-                      selector: guest
+                      selector: guest,
                     },
-                    replace: true
+                    replace: true,
                   });
                 }}
               />
@@ -102,4 +102,4 @@ function WeekSummaryBox({ program, enableLink = false }: Props) {
     </div>
   );
 }
-export default WeekSummaryBox;
+export default ProgramSummary;

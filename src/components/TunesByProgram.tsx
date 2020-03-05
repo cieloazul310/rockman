@@ -2,24 +2,23 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import TuneCard from './TuneCard';
-import { Yaml, YamlPlaylist } from '../../graphql-types';
+import { Program, ProgramPlaylist } from '../../graphql-types';
 
 interface Props {
-  program: Pick<Yaml, 'week' | 'date' | 'fields' | 'title' | 'playlist'>;
-  filter?: (tune?: YamlPlaylist) => boolean;
+  program: Pick<Program, 'week' | 'date' | 'fields' | 'title' | 'playlist'>;
+  filter?: (tune?: ProgramPlaylist) => boolean;
 }
 
-function TunesByWeek({ program, filter = () => true }: Props) {
+function TunesByProgram({ program, filter = () => true }: Props) {
   return (
     <div>
       <Typography variant="subtitle2" component="span">
         第{program.week}回 {program.date}
       </Typography>
-      <AppLink to={program.fields.slug}>
-        <Typography variant="h6" component="h3" gutterBottom>
-          {program.title}
-        </Typography>
-      </AppLink>
+
+      <Typography variant="h6" component="h3" gutterBottom>
+        <AppLink to={program.fields.slug}>{program.title}</AppLink>
+      </Typography>
       {program.playlist.filter(filter).map(tune => (
         <TuneCard key={tune.id} tune={tune} />
       ))}
@@ -27,4 +26,4 @@ function TunesByWeek({ program, filter = () => true }: Props) {
   );
 }
 
-export default TunesByWeek;
+export default TunesByProgram;

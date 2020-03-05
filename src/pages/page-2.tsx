@@ -11,7 +11,7 @@ import { AllDataQuery } from '../../graphql-types';
 function SecondPage() {
   const data = useStaticQuery<AllDataQuery>(graphql`
     query AllData {
-      allYaml(sort: { fields: week, order: ASC }) {
+      allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
             id
@@ -63,7 +63,7 @@ function SecondPage() {
   `);
   const categories = React.useMemo(
     () =>
-      data.allYaml.edges
+      data.allProgram.edges
         .map(({ node }) => node.categories)
         .reduce((accum, curr) => [...accum, ...curr], [])
         .reduce((accum, curr) => {
@@ -82,7 +82,7 @@ function SecondPage() {
 
   const guests = React.useMemo(
     () =>
-      data.allYaml.edges
+      data.allProgram.edges
         .map(({ node }) => node.guests)
         .reduce((accum, curr) => [...accum, ...curr], [])
         .reduce((accum, curr) => {
@@ -101,7 +101,7 @@ function SecondPage() {
 
   const allTunes = React.useMemo(
     () =>
-      data.allYaml.edges
+      data.allProgram.edges
         .map(({ node }) => node.playlist)
         .reduce((accum, curr) => [...accum, ...curr]),
     [data]
@@ -121,7 +121,8 @@ function SecondPage() {
         }, [])
         .sort(
           (a, b) =>
-            b[3].length - a[3].length || getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
+            b[3].length - a[3].length ||
+            getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
         ),
     [allTunes]
   );

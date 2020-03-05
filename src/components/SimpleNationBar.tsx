@@ -7,7 +7,7 @@ import {
 } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
 import getNationColor from '../utils/getNationColor';
-import { YamlPlaylist } from '../../graphql-types';
+import { ProgramPlaylist } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  playlist: YamlPlaylist[];
+  playlist: Pick<ProgramPlaylist, "nation">[];
 }
 
 function SimpleNationBar({ playlist }: Props) {

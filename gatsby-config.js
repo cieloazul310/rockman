@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
-        typeName: `yaml`
+        typeName: `program`
       }
     },
     {

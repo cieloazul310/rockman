@@ -14,7 +14,7 @@ export default function useOnScreen(
         setIntersecting(entry.isIntersecting);
       },
       {
-        rootMargin: `${margin}px`
+        rootMargin: `${margin}px`,
       }
     );
     if (ref.current) {

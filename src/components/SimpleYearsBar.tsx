@@ -6,7 +6,7 @@ import {
   useTheme,
 } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
-import { YamlPlaylist } from '../../graphql-types';
+import { ProgramPlaylist } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -44,12 +44,11 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  playlist: YamlPlaylist[];
+  playlist: Pick<ProgramPlaylist, "year">[];
 }
 
 function SimpleYearsBar({ playlist }: Props) {
   const classes = useStyles();
-  const theme = useTheme();
   const years = React.useMemo(
     () =>
       playlist

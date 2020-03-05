@@ -4,8 +4,8 @@
 ## sitemap
 
 - index `/page/index.tsx`
-- /week/ `/page/week.tsx` (List)
-- /week/${week.id}/ `/template/week.tsx` (Swipeable)
+- /program/ `/page/program.tsx` (List)
+- /program/${program.id}/ `/template/program.tsx` (Swipeable)
 - /artist/ `/page/artist/index.tsx` (List)
 - /artist/all/ `page/artist/all.tsx` (Swipeable)
 - /artist/${artist}/ `/template/artist.tsx` (Swipeable)
@@ -22,15 +22,14 @@
 
 ## components
 
-- WeekSummary `/coponents/WeekSummary.tsx`
-- Viewer `/components/Viewer.tsx`
-- TunesByWeek `/components/TunesByWeek.tsx`
+- ProgramSummary `/coponents/ProgramSummary.tsx`
+- LazyViewer `/components/LazyViewer.tsx`
+- TunesByProgram `/components/TunesByProgram.tsx`
 - TuneCard `/components/TuneCard.tsx`
 - PageNavigation `/components/PageNavigation`
 
 ## naming
 
-- week: 放送回 `Yaml` *Deprecated*
 - program: 放送回 `Program`
 - category: カテゴリー
 - guest: ゲスト
@@ -44,7 +43,7 @@
 ### allWeeks
 
 ```graphql
-  allWeeks {
+  allProgram {
     edges {
       node {
         id

@@ -33,6 +33,7 @@
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop -o -H 0.0.0.0",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "clean": "gatsby clean",
     "publish": "gh-pages -d public",
     "format": "prettier --parser typescript --trailing-comma es5 --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1",

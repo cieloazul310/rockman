@@ -6,21 +6,25 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews from 'react-swipeable-views';
 import JunkList from '../components/JunkList';
-import WeekSummaryBox from '../components/WeekSummaryBox';
+import WeekSummaryBox from '../components/ProgramSummary';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation, {
   PageNavigationSkeleton,
 } from '../components/PageNavigation';
-import Weeks from '../components/Weeks';
+import Weeks from '../components/Programs';
 import createDescriptionString from '../utils/createDescriptionString';
 import {
   WeekTemplateQuery,
   SitePageContextNext,
   SitePageContextPrevious,
-  Yaml
+  Program,
 } from '../../graphql-types';
 
-function SkeletonPage({ program }: { program: SitePageContextPrevious | SitePageContextNext | Partial<Yaml>}) {
+function SkeletonPage({
+  program,
+}: {
+  program: SitePageContextPrevious | SitePageContextNext | Partial<Program>;
+}) {
   return (
     <Container maxWidth="md">
       <Box>
@@ -48,8 +52,8 @@ interface Props {
   };
 }
 
-function WeekTemplate({ data, pageContext }: Props) {
-  const program = data.yaml;
+function ProgramTemplate({ data, pageContext }: Props) {
+  const { program } = data;
   const { previous, next } = pageContext;
   const description = createDescriptionString(program);
   const _onSwiped = (index: number, indexLatest: number) => {
@@ -59,7 +63,7 @@ function WeekTemplate({ data, pageContext }: Props) {
       navigate(next.fields.slug, { replace: true });
     }
   };
-  
+
   const SwipePages = React.useMemo(() => {
     return [previous, program, next]
       .filter(obj => obj !== null)
@@ -76,7 +80,7 @@ function WeekTemplate({ data, pageContext }: Props) {
         )
       );
   }, [previous, program, next]);
-  
+
   return (
     <Layout
       title={program.title}
@@ -85,8 +89,12 @@ function WeekTemplate({ data, pageContext }: Props) {
       disablePaddingTop
     >
       <Helmet>
-        {previous ? <link rel="prefetch" href={withPrefix(previous.fields.slug)} /> : null}
-        {next ? <link rel="prefetch" href={withPrefix(next.fields.slug)} /> : null}
+        {previous ? (
+          <link rel="prefetch" href={withPrefix(previous.fields.slug)} />
+        ) : null}
+        {next ? (
+          <link rel="prefetch" href={withPrefix(next.fields.slug)} />
+        ) : null}
       </Helmet>
       <SwipeableViews
         index={!previous ? 0 : 1}
@@ -100,11 +108,11 @@ function WeekTemplate({ data, pageContext }: Props) {
   );
 }
 
-export default WeekTemplate;
+export default ProgramTemplate;
 
 export const query = graphql`
-  query WeekTemplate($slug: String!) {
-    yaml(fields: { slug: { eq: $slug } }) {
+  query ProgramTemplate($slug: String!) {
+    program(fields: { slug: { eq: $slug } }) {
       id
       date(formatString: "YYYY-MM-DD")
       subtitle

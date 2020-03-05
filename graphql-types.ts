@@ -382,7 +382,7 @@ export type File = Node & {
   parent?: Maybe<Node>,
   children: Array<Node>,
   internal: Internal,
-  childYaml?: Maybe<Yaml>,
+  childProgram?: Maybe<Program>,
 };
 
 
@@ -589,68 +589,68 @@ export type FileFieldsEnum =
   'internal___mediaType' |
   'internal___owner' |
   'internal___type' |
-  'childYaml___id' |
-  'childYaml___parent___id' |
-  'childYaml___parent___parent___id' |
-  'childYaml___parent___parent___children' |
-  'childYaml___parent___children' |
-  'childYaml___parent___children___id' |
-  'childYaml___parent___children___children' |
-  'childYaml___parent___internal___content' |
-  'childYaml___parent___internal___contentDigest' |
-  'childYaml___parent___internal___description' |
-  'childYaml___parent___internal___fieldOwners' |
-  'childYaml___parent___internal___ignoreType' |
-  'childYaml___parent___internal___mediaType' |
-  'childYaml___parent___internal___owner' |
-  'childYaml___parent___internal___type' |
-  'childYaml___children' |
-  'childYaml___children___id' |
-  'childYaml___children___parent___id' |
-  'childYaml___children___parent___children' |
-  'childYaml___children___children' |
-  'childYaml___children___children___id' |
-  'childYaml___children___children___children' |
-  'childYaml___children___internal___content' |
-  'childYaml___children___internal___contentDigest' |
-  'childYaml___children___internal___description' |
-  'childYaml___children___internal___fieldOwners' |
-  'childYaml___children___internal___ignoreType' |
-  'childYaml___children___internal___mediaType' |
-  'childYaml___children___internal___owner' |
-  'childYaml___children___internal___type' |
-  'childYaml___internal___content' |
-  'childYaml___internal___contentDigest' |
-  'childYaml___internal___description' |
-  'childYaml___internal___fieldOwners' |
-  'childYaml___internal___ignoreType' |
-  'childYaml___internal___mediaType' |
-  'childYaml___internal___owner' |
-  'childYaml___internal___type' |
-  'childYaml___week' |
-  'childYaml___year' |
-  'childYaml___title' |
-  'childYaml___subtitle' |
-  'childYaml___guests' |
-  'childYaml___categories' |
-  'childYaml___date' |
-  'childYaml___playlist' |
-  'childYaml___playlist___id' |
-  'childYaml___playlist___week' |
-  'childYaml___playlist___name' |
-  'childYaml___playlist___artist' |
-  'childYaml___playlist___kana' |
-  'childYaml___playlist___year' |
-  'childYaml___playlist___nation' |
-  'childYaml___playlist___label' |
-  'childYaml___playlist___producer' |
-  'childYaml___playlist___corner' |
-  'childYaml___playlist___youtube' |
-  'childYaml___playlist___title' |
-  'childYaml___playlist___index' |
-  'childYaml___playlist___indexInWeek' |
-  'childYaml___playlist___selector' |
-  'childYaml___fields___slug';
+  'childProgram___id' |
+  'childProgram___parent___id' |
+  'childProgram___parent___parent___id' |
+  'childProgram___parent___parent___children' |
+  'childProgram___parent___children' |
+  'childProgram___parent___children___id' |
+  'childProgram___parent___children___children' |
+  'childProgram___parent___internal___content' |
+  'childProgram___parent___internal___contentDigest' |
+  'childProgram___parent___internal___description' |
+  'childProgram___parent___internal___fieldOwners' |
+  'childProgram___parent___internal___ignoreType' |
+  'childProgram___parent___internal___mediaType' |
+  'childProgram___parent___internal___owner' |
+  'childProgram___parent___internal___type' |
+  'childProgram___children' |
+  'childProgram___children___id' |
+  'childProgram___children___parent___id' |
+  'childProgram___children___parent___children' |
+  'childProgram___children___children' |
+  'childProgram___children___children___id' |
+  'childProgram___children___children___children' |
+  'childProgram___children___internal___content' |
+  'childProgram___children___internal___contentDigest' |
+  'childProgram___children___internal___description' |
+  'childProgram___children___internal___fieldOwners' |
+  'childProgram___children___internal___ignoreType' |
+  'childProgram___children___internal___mediaType' |
+  'childProgram___children___internal___owner' |
+  'childProgram___children___internal___type' |
+  'childProgram___internal___content' |
+  'childProgram___internal___contentDigest' |
+  'childProgram___internal___description' |
+  'childProgram___internal___fieldOwners' |
+  'childProgram___internal___ignoreType' |
+  'childProgram___internal___mediaType' |
+  'childProgram___internal___owner' |
+  'childProgram___internal___type' |
+  'childProgram___week' |
+  'childProgram___year' |
+  'childProgram___title' |
+  'childProgram___subtitle' |
+  'childProgram___guests' |
+  'childProgram___categories' |
+  'childProgram___date' |
+  'childProgram___playlist' |
+  'childProgram___playlist___id' |
+  'childProgram___playlist___week' |
+  'childProgram___playlist___name' |
+  'childProgram___playlist___artist' |
+  'childProgram___playlist___kana' |
+  'childProgram___playlist___year' |
+  'childProgram___playlist___nation' |
+  'childProgram___playlist___label' |
+  'childProgram___playlist___producer' |
+  'childProgram___playlist___corner' |
+  'childProgram___playlist___youtube' |
+  'childProgram___playlist___title' |
+  'childProgram___playlist___index' |
+  'childProgram___playlist___indexInWeek' |
+  'childProgram___playlist___selector' |
+  'childProgram___fields___slug';
 
 export type FileFilterInput = {
   sourceInstanceName?: Maybe<StringQueryOperatorInput>,
@@ -691,7 +691,7 @@ export type FileFilterInput = {
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
-  childYaml?: Maybe<YamlFilterInput>,
+  childProgram?: Maybe<ProgramFilterInput>,
 };
 
 export type FileGroupConnection = {
@@ -781,6 +781,247 @@ export type PageInfo = {
   perPage?: Maybe<Scalars['Int']>,
 };
 
+export type Program = Node & {
+  id: Scalars['ID'],
+  parent?: Maybe<Node>,
+  children: Array<Node>,
+  internal: Internal,
+  week?: Maybe<Scalars['Int']>,
+  year?: Maybe<Scalars['Int']>,
+  title?: Maybe<Scalars['String']>,
+  subtitle?: Maybe<Scalars['String']>,
+  guests?: Maybe<Array<Maybe<Scalars['String']>>>,
+  categories?: Maybe<Array<Maybe<Scalars['String']>>>,
+  date?: Maybe<Scalars['Date']>,
+  playlist?: Maybe<Array<Maybe<ProgramPlaylist>>>,
+  fields?: Maybe<ProgramFields>,
+};
+
+
+export type ProgramDateArgs = {
+  formatString?: Maybe<Scalars['String']>,
+  fromNow?: Maybe<Scalars['Boolean']>,
+  difference?: Maybe<Scalars['String']>,
+  locale?: Maybe<Scalars['String']>
+};
+
+export type ProgramConnection = {
+  totalCount: Scalars['Int'],
+  edges: Array<ProgramEdge>,
+  nodes: Array<Program>,
+  pageInfo: PageInfo,
+  distinct: Array<Scalars['String']>,
+  group: Array<ProgramGroupConnection>,
+};
+
+
+export type ProgramConnectionDistinctArgs = {
+  field: ProgramFieldsEnum
+};
+
+
+export type ProgramConnectionGroupArgs = {
+  skip?: Maybe<Scalars['Int']>,
+  limit?: Maybe<Scalars['Int']>,
+  field: ProgramFieldsEnum
+};
+
+export type ProgramEdge = {
+  next?: Maybe<Program>,
+  node: Program,
+  previous?: Maybe<Program>,
+};
+
+export type ProgramFields = {
+  slug?: Maybe<Scalars['String']>,
+};
+
+export type ProgramFieldsEnum = 
+  'id' |
+  'parent___id' |
+  'parent___parent___id' |
+  'parent___parent___parent___id' |
+  'parent___parent___parent___children' |
+  'parent___parent___children' |
+  'parent___parent___children___id' |
+  'parent___parent___children___children' |
+  'parent___parent___internal___content' |
+  'parent___parent___internal___contentDigest' |
+  'parent___parent___internal___description' |
+  'parent___parent___internal___fieldOwners' |
+  'parent___parent___internal___ignoreType' |
+  'parent___parent___internal___mediaType' |
+  'parent___parent___internal___owner' |
+  'parent___parent___internal___type' |
+  'parent___children' |
+  'parent___children___id' |
+  'parent___children___parent___id' |
+  'parent___children___parent___children' |
+  'parent___children___children' |
+  'parent___children___children___id' |
+  'parent___children___children___children' |
+  'parent___children___internal___content' |
+  'parent___children___internal___contentDigest' |
+  'parent___children___internal___description' |
+  'parent___children___internal___fieldOwners' |
+  'parent___children___internal___ignoreType' |
+  'parent___children___internal___mediaType' |
+  'parent___children___internal___owner' |
+  'parent___children___internal___type' |
+  'parent___internal___content' |
+  'parent___internal___contentDigest' |
+  'parent___internal___description' |
+  'parent___internal___fieldOwners' |
+  'parent___internal___ignoreType' |
+  'parent___internal___mediaType' |
+  'parent___internal___owner' |
+  'parent___internal___type' |
+  'children' |
+  'children___id' |
+  'children___parent___id' |
+  'children___parent___parent___id' |
+  'children___parent___parent___children' |
+  'children___parent___children' |
+  'children___parent___children___id' |
+  'children___parent___children___children' |
+  'children___parent___internal___content' |
+  'children___parent___internal___contentDigest' |
+  'children___parent___internal___description' |
+  'children___parent___internal___fieldOwners' |
+  'children___parent___internal___ignoreType' |
+  'children___parent___internal___mediaType' |
+  'children___parent___internal___owner' |
+  'children___parent___internal___type' |
+  'children___children' |
+  'children___children___id' |
+  'children___children___parent___id' |
+  'children___children___parent___children' |
+  'children___children___children' |
+  'children___children___children___id' |
+  'children___children___children___children' |
+  'children___children___internal___content' |
+  'children___children___internal___contentDigest' |
+  'children___children___internal___description' |
+  'children___children___internal___fieldOwners' |
+  'children___children___internal___ignoreType' |
+  'children___children___internal___mediaType' |
+  'children___children___internal___owner' |
+  'children___children___internal___type' |
+  'children___internal___content' |
+  'children___internal___contentDigest' |
+  'children___internal___description' |
+  'children___internal___fieldOwners' |
+  'children___internal___ignoreType' |
+  'children___internal___mediaType' |
+  'children___internal___owner' |
+  'children___internal___type' |
+  'internal___content' |
+  'internal___contentDigest' |
+  'internal___description' |
+  'internal___fieldOwners' |
+  'internal___ignoreType' |
+  'internal___mediaType' |
+  'internal___owner' |
+  'internal___type' |
+  'week' |
+  'year' |
+  'title' |
+  'subtitle' |
+  'guests' |
+  'categories' |
+  'date' |
+  'playlist' |
+  'playlist___id' |
+  'playlist___week' |
+  'playlist___name' |
+  'playlist___artist' |
+  'playlist___kana' |
+  'playlist___year' |
+  'playlist___nation' |
+  'playlist___label' |
+  'playlist___producer' |
+  'playlist___corner' |
+  'playlist___youtube' |
+  'playlist___title' |
+  'playlist___index' |
+  'playlist___indexInWeek' |
+  'playlist___selector' |
+  'fields___slug';
+
+export type ProgramFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>,
+};
+
+export type ProgramFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>,
+  parent?: Maybe<NodeFilterInput>,
+  children?: Maybe<NodeFilterListInput>,
+  internal?: Maybe<InternalFilterInput>,
+  week?: Maybe<IntQueryOperatorInput>,
+  year?: Maybe<IntQueryOperatorInput>,
+  title?: Maybe<StringQueryOperatorInput>,
+  subtitle?: Maybe<StringQueryOperatorInput>,
+  guests?: Maybe<StringQueryOperatorInput>,
+  categories?: Maybe<StringQueryOperatorInput>,
+  date?: Maybe<DateQueryOperatorInput>,
+  playlist?: Maybe<ProgramPlaylistFilterListInput>,
+  fields?: Maybe<ProgramFieldsFilterInput>,
+};
+
+export type ProgramGroupConnection = {
+  totalCount: Scalars['Int'],
+  edges: Array<ProgramEdge>,
+  nodes: Array<Program>,
+  pageInfo: PageInfo,
+  field: Scalars['String'],
+  fieldValue?: Maybe<Scalars['String']>,
+};
+
+export type ProgramPlaylist = {
+  id?: Maybe<Scalars['String']>,
+  week?: Maybe<Scalars['Int']>,
+  name?: Maybe<Scalars['String']>,
+  artist?: Maybe<Scalars['String']>,
+  kana?: Maybe<Scalars['String']>,
+  year?: Maybe<Scalars['Int']>,
+  nation?: Maybe<Scalars['String']>,
+  label?: Maybe<Scalars['String']>,
+  producer?: Maybe<Array<Maybe<Scalars['String']>>>,
+  corner?: Maybe<Scalars['String']>,
+  youtube?: Maybe<Scalars['String']>,
+  title?: Maybe<Scalars['String']>,
+  index?: Maybe<Scalars['Int']>,
+  indexInWeek?: Maybe<Scalars['Int']>,
+  selector?: Maybe<Scalars['String']>,
+};
+
+export type ProgramPlaylistFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>,
+  week?: Maybe<IntQueryOperatorInput>,
+  name?: Maybe<StringQueryOperatorInput>,
+  artist?: Maybe<StringQueryOperatorInput>,
+  kana?: Maybe<StringQueryOperatorInput>,
+  year?: Maybe<IntQueryOperatorInput>,
+  nation?: Maybe<StringQueryOperatorInput>,
+  label?: Maybe<StringQueryOperatorInput>,
+  producer?: Maybe<StringQueryOperatorInput>,
+  corner?: Maybe<StringQueryOperatorInput>,
+  youtube?: Maybe<StringQueryOperatorInput>,
+  title?: Maybe<StringQueryOperatorInput>,
+  index?: Maybe<IntQueryOperatorInput>,
+  indexInWeek?: Maybe<IntQueryOperatorInput>,
+  selector?: Maybe<StringQueryOperatorInput>,
+};
+
+export type ProgramPlaylistFilterListInput = {
+  elemMatch?: Maybe<ProgramPlaylistFilterInput>,
+};
+
+export type ProgramSortInput = {
+  fields?: Maybe<Array<Maybe<ProgramFieldsEnum>>>,
+  order?: Maybe<Array<Maybe<SortOrderEnum>>>,
+};
+
 export type Query = {
   file?: Maybe<File>,
   allFile: FileConnection,
@@ -788,8 +1029,8 @@ export type Query = {
   allDirectory: DirectoryConnection,
   sitePage?: Maybe<SitePage>,
   allSitePage: SitePageConnection,
-  yaml?: Maybe<Yaml>,
-  allYaml: YamlConnection,
+  program?: Maybe<Program>,
+  allProgram: ProgramConnection,
   site?: Maybe<Site>,
   allSite: SiteConnection,
   sitePlugin?: Maybe<SitePlugin>,
@@ -836,7 +1077,7 @@ export type QueryFileArgs = {
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
   internal?: Maybe<InternalFilterInput>,
-  childYaml?: Maybe<YamlFilterInput>
+  childProgram?: Maybe<ProgramFilterInput>
 };
 
 
@@ -923,7 +1164,7 @@ export type QueryAllSitePageArgs = {
 };
 
 
-export type QueryYamlArgs = {
+export type QueryProgramArgs = {
   id?: Maybe<StringQueryOperatorInput>,
   parent?: Maybe<NodeFilterInput>,
   children?: Maybe<NodeFilterListInput>,
@@ -935,14 +1176,14 @@ export type QueryYamlArgs = {
   guests?: Maybe<StringQueryOperatorInput>,
   categories?: Maybe<StringQueryOperatorInput>,
   date?: Maybe<DateQueryOperatorInput>,
-  playlist?: Maybe<YamlPlaylistFilterListInput>,
-  fields?: Maybe<YamlFieldsFilterInput>
+  playlist?: Maybe<ProgramPlaylistFilterListInput>,
+  fields?: Maybe<ProgramFieldsFilterInput>
 };
 
 
-export type QueryAllYamlArgs = {
-  filter?: Maybe<YamlFilterInput>,
-  sort?: Maybe<YamlSortInput>,
+export type QueryAllProgramArgs = {
+  filter?: Maybe<ProgramFilterInput>,
+  sort?: Maybe<ProgramSortInput>,
   skip?: Maybe<Scalars['Int']>,
   limit?: Maybe<Scalars['Int']>
 };
@@ -1758,297 +1999,56 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>,
 };
 
-export type Yaml = Node & {
-  id: Scalars['ID'],
-  parent?: Maybe<Node>,
-  children: Array<Node>,
-  internal: Internal,
-  week?: Maybe<Scalars['Int']>,
-  year?: Maybe<Scalars['Int']>,
-  title?: Maybe<Scalars['String']>,
-  subtitle?: Maybe<Scalars['String']>,
-  guests?: Maybe<Array<Maybe<Scalars['String']>>>,
-  categories?: Maybe<Array<Maybe<Scalars['String']>>>,
-  date?: Maybe<Scalars['Date']>,
-  playlist?: Maybe<Array<Maybe<YamlPlaylist>>>,
-  fields?: Maybe<YamlFields>,
-};
+export type ProgramsMenuQueryVariables = {};
 
 
-export type YamlDateArgs = {
-  formatString?: Maybe<Scalars['String']>,
-  fromNow?: Maybe<Scalars['Boolean']>,
-  difference?: Maybe<Scalars['String']>,
-  locale?: Maybe<Scalars['String']>
-};
-
-export type YamlConnection = {
-  totalCount: Scalars['Int'],
-  edges: Array<YamlEdge>,
-  nodes: Array<Yaml>,
-  pageInfo: PageInfo,
-  distinct: Array<Scalars['String']>,
-  group: Array<YamlGroupConnection>,
-};
-
-
-export type YamlConnectionDistinctArgs = {
-  field: YamlFieldsEnum
-};
-
-
-export type YamlConnectionGroupArgs = {
-  skip?: Maybe<Scalars['Int']>,
-  limit?: Maybe<Scalars['Int']>,
-  field: YamlFieldsEnum
-};
-
-export type YamlEdge = {
-  next?: Maybe<Yaml>,
-  node: Yaml,
-  previous?: Maybe<Yaml>,
-};
-
-export type YamlFields = {
-  slug?: Maybe<Scalars['String']>,
-};
-
-export type YamlFieldsEnum = 
-  'id' |
-  'parent___id' |
-  'parent___parent___id' |
-  'parent___parent___parent___id' |
-  'parent___parent___parent___children' |
-  'parent___parent___children' |
-  'parent___parent___children___id' |
-  'parent___parent___children___children' |
-  'parent___parent___internal___content' |
-  'parent___parent___internal___contentDigest' |
-  'parent___parent___internal___description' |
-  'parent___parent___internal___fieldOwners' |
-  'parent___parent___internal___ignoreType' |
-  'parent___parent___internal___mediaType' |
-  'parent___parent___internal___owner' |
-  'parent___parent___internal___type' |
-  'parent___children' |
-  'parent___children___id' |
-  'parent___children___parent___id' |
-  'parent___children___parent___children' |
-  'parent___children___children' |
-  'parent___children___children___id' |
-  'parent___children___children___children' |
-  'parent___children___internal___content' |
-  'parent___children___internal___contentDigest' |
-  'parent___children___internal___description' |
-  'parent___children___internal___fieldOwners' |
-  'parent___children___internal___ignoreType' |
-  'parent___children___internal___mediaType' |
-  'parent___children___internal___owner' |
-  'parent___children___internal___type' |
-  'parent___internal___content' |
-  'parent___internal___contentDigest' |
-  'parent___internal___description' |
-  'parent___internal___fieldOwners' |
-  'parent___internal___ignoreType' |
-  'parent___internal___mediaType' |
-  'parent___internal___owner' |
-  'parent___internal___type' |
-  'children' |
-  'children___id' |
-  'children___parent___id' |
-  'children___parent___parent___id' |
-  'children___parent___parent___children' |
-  'children___parent___children' |
-  'children___parent___children___id' |
-  'children___parent___children___children' |
-  'children___parent___internal___content' |
-  'children___parent___internal___contentDigest' |
-  'children___parent___internal___description' |
-  'children___parent___internal___fieldOwners' |
-  'children___parent___internal___ignoreType' |
-  'children___parent___internal___mediaType' |
-  'children___parent___internal___owner' |
-  'children___parent___internal___type' |
-  'children___children' |
-  'children___children___id' |
-  'children___children___parent___id' |
-  'children___children___parent___children' |
-  'children___children___children' |
-  'children___children___children___id' |
-  'children___children___children___children' |
-  'children___children___internal___content' |
-  'children___children___internal___contentDigest' |
-  'children___children___internal___description' |
-  'children___children___internal___fieldOwners' |
-  'children___children___internal___ignoreType' |
-  'children___children___internal___mediaType' |
-  'children___children___internal___owner' |
-  'children___children___internal___type' |
-  'children___internal___content' |
-  'children___internal___contentDigest' |
-  'children___internal___description' |
-  'children___internal___fieldOwners' |
-  'children___internal___ignoreType' |
-  'children___internal___mediaType' |
-  'children___internal___owner' |
-  'children___internal___type' |
-  'internal___content' |
-  'internal___contentDigest' |
-  'internal___description' |
-  'internal___fieldOwners' |
-  'internal___ignoreType' |
-  'internal___mediaType' |
-  'internal___owner' |
-  'internal___type' |
-  'week' |
-  'year' |
-  'title' |
-  'subtitle' |
-  'guests' |
-  'categories' |
-  'date' |
-  'playlist' |
-  'playlist___id' |
-  'playlist___week' |
-  'playlist___name' |
-  'playlist___artist' |
-  'playlist___kana' |
-  'playlist___year' |
-  'playlist___nation' |
-  'playlist___label' |
-  'playlist___producer' |
-  'playlist___corner' |
-  'playlist___youtube' |
-  'playlist___title' |
-  'playlist___index' |
-  'playlist___indexInWeek' |
-  'playlist___selector' |
-  'fields___slug';
-
-export type YamlFieldsFilterInput = {
-  slug?: Maybe<StringQueryOperatorInput>,
-};
-
-export type YamlFilterInput = {
-  id?: Maybe<StringQueryOperatorInput>,
-  parent?: Maybe<NodeFilterInput>,
-  children?: Maybe<NodeFilterListInput>,
-  internal?: Maybe<InternalFilterInput>,
-  week?: Maybe<IntQueryOperatorInput>,
-  year?: Maybe<IntQueryOperatorInput>,
-  title?: Maybe<StringQueryOperatorInput>,
-  subtitle?: Maybe<StringQueryOperatorInput>,
-  guests?: Maybe<StringQueryOperatorInput>,
-  categories?: Maybe<StringQueryOperatorInput>,
-  date?: Maybe<DateQueryOperatorInput>,
-  playlist?: Maybe<YamlPlaylistFilterListInput>,
-  fields?: Maybe<YamlFieldsFilterInput>,
-};
-
-export type YamlGroupConnection = {
-  totalCount: Scalars['Int'],
-  edges: Array<YamlEdge>,
-  nodes: Array<Yaml>,
-  pageInfo: PageInfo,
-  field: Scalars['String'],
-  fieldValue?: Maybe<Scalars['String']>,
-};
-
-export type YamlPlaylist = {
-  id?: Maybe<Scalars['String']>,
-  week?: Maybe<Scalars['Int']>,
-  name?: Maybe<Scalars['String']>,
-  artist?: Maybe<Scalars['String']>,
-  kana?: Maybe<Scalars['String']>,
-  year?: Maybe<Scalars['Int']>,
-  nation?: Maybe<Scalars['String']>,
-  label?: Maybe<Scalars['String']>,
-  producer?: Maybe<Array<Maybe<Scalars['String']>>>,
-  corner?: Maybe<Scalars['String']>,
-  youtube?: Maybe<Scalars['String']>,
-  title?: Maybe<Scalars['String']>,
-  index?: Maybe<Scalars['Int']>,
-  indexInWeek?: Maybe<Scalars['Int']>,
-  selector?: Maybe<Scalars['String']>,
-};
-
-export type YamlPlaylistFilterInput = {
-  id?: Maybe<StringQueryOperatorInput>,
-  week?: Maybe<IntQueryOperatorInput>,
-  name?: Maybe<StringQueryOperatorInput>,
-  artist?: Maybe<StringQueryOperatorInput>,
-  kana?: Maybe<StringQueryOperatorInput>,
-  year?: Maybe<IntQueryOperatorInput>,
-  nation?: Maybe<StringQueryOperatorInput>,
-  label?: Maybe<StringQueryOperatorInput>,
-  producer?: Maybe<StringQueryOperatorInput>,
-  corner?: Maybe<StringQueryOperatorInput>,
-  youtube?: Maybe<StringQueryOperatorInput>,
-  title?: Maybe<StringQueryOperatorInput>,
-  index?: Maybe<IntQueryOperatorInput>,
-  indexInWeek?: Maybe<IntQueryOperatorInput>,
-  selector?: Maybe<StringQueryOperatorInput>,
-};
-
-export type YamlPlaylistFilterListInput = {
-  elemMatch?: Maybe<YamlPlaylistFilterInput>,
-};
-
-export type YamlSortInput = {
-  fields?: Maybe<Array<Maybe<YamlFieldsEnum>>>,
-  order?: Maybe<Array<Maybe<SortOrderEnum>>>,
-};
-
-export type WeekMenuQueryVariables = {};
-
-
-export type WeekMenuQuery = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'year'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+export type ProgramsMenuQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'week' | 'date' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       ) }> } };
 
 export type ContainCategoriesQueryVariables = {};
 
 
-export type ContainCategoriesQuery = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+export type ContainCategoriesQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ), next: Maybe<(
-        Pick<Yaml, 'title' | 'week'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+        Pick<Program, 'title' | 'week'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       )>, previous: Maybe<(
-        Pick<Yaml, 'title' | 'week'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+        Pick<Program, 'title' | 'week'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       )> }> } };
 
 export type IndexQueryVariables = {};
 
 
-export type IndexQuery = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
-        & { playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+export type IndexQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
+        & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
 export type AllDataQueryVariables = {};
 
 
-export type AllDataQuery = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+export type AllDataQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ), next: Maybe<(
-        Pick<Yaml, 'title' | 'week'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+        Pick<Program, 'title' | 'week'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       )>, previous: Maybe<(
-        Pick<Yaml, 'title' | 'week'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>> }
+        Pick<Program, 'title' | 'week'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       )> }> } };
 
 export type Unnamed_1_QueryVariables = {};
 
 
-export type Unnamed_1_Query = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+export type Unnamed_1_Query = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
 export type ArtistTemplateQueryVariables = {
@@ -2056,17 +2056,17 @@ export type ArtistTemplateQueryVariables = {
 };
 
 
-export type ArtistTemplateQuery = { allYaml: { edges: Array<{ node: (
-        Pick<Yaml, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<YamlFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+export type ArtistTemplateQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
-export type WeekTemplateQueryVariables = {
+export type ProgramTemplateQueryVariables = {
   slug: Scalars['String']
 };
 
 
-export type WeekTemplateQuery = { yaml: Maybe<(
-    Pick<Yaml, 'id' | 'date' | 'subtitle' | 'title' | 'week' | 'year' | 'guests' | 'categories'>
-    & { playlist: Maybe<Array<Maybe<Pick<YamlPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
+export type ProgramTemplateQuery = { program: Maybe<(
+    Pick<Program, 'id' | 'date' | 'subtitle' | 'title' | 'week' | 'year' | 'guests' | 'categories'>
+    & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
   )> };

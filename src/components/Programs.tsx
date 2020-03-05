@@ -8,15 +8,15 @@ import Badge from '@material-ui/core/Badge';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import ListItemLink from '../components/ListItemLink';
-import { Yaml, WeekMenuQuery } from '../../graphql-types';
+import ListItemLink from './ListItemLink';
+import { Program, ProgramsMenuQuery } from '../../graphql-types';
 
-interface WeeksByYearProps {
+interface ProgramsByYearProps {
   year: number;
-  weeks: Partial<Yaml>[];
+  weeks: Partial<Program>[];
 }
 
-function WeeksByYear({ year, weeks }: WeeksByYearProps) {
+function ProgramsByYear({ year, weeks }: ProgramsByYearProps) {
   const [open, setOpen] = React.useState(false);
   const _handleClick = () => {
     setOpen(!open);
@@ -46,10 +46,10 @@ function WeeksByYear({ year, weeks }: WeeksByYearProps) {
   );
 }
 
-function Weeks() {
-  const data = useStaticQuery<WeekMenuQuery>(graphql`
-    query WeekMenu {
-      allYaml(sort: { fields: week, order: ASC }) {
+function Programs() {
+  const data = useStaticQuery<ProgramsMenuQuery>(graphql`
+    query ProgramsMenu {
+      allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
             id
@@ -64,19 +64,19 @@ function Weeks() {
         }
       }
     }
-  `).allYaml.edges;
+  `).allProgram.edges;
 
   return (
     <List subheader={<ListSubheader>放送回</ListSubheader>}>
-      <WeeksByYear
+      <ProgramsByYear
         year={2018}
         weeks={data.filter(d => d.node.year === 2018).map(d => d.node)}
       />
-      <WeeksByYear
+      <ProgramsByYear
         year={2019}
         weeks={data.filter(d => d.node.year === 2019).map(d => d.node)}
       />
-      <WeeksByYear
+      <ProgramsByYear
         year={2020}
         weeks={data.filter(d => d.node.year === 2020).map(d => d.node)}
       />
@@ -84,4 +84,4 @@ function Weeks() {
   );
 }
 
-export default Weeks;
+export default Programs;
