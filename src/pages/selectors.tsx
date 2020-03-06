@@ -5,10 +5,9 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import { useLocation } from '@reach/router';
+import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { AllDataQuery } from '../../graphql-types';
-import TunesByWeek from '../components/TunesByWeek';
 import LazyViewer from '../components/LazyViewer';
 import { Program, ProgramPlaylist } from '../../graphql-types';
 
@@ -32,8 +31,14 @@ function TabPane({ value, index, children }: TabPaneProps) {
   );
 }
 
+type LocationWithState = WindowLocation & {
+  state?: {
+    selector?: string;
+  };
+};
+
 function SelectorsPage() {
-  const location = useLocation();
+  const location: LocationWithState = useLocation();
   const data = useStaticQuery<AllDataQuery>(graphql`
     query {
       allProgram(
@@ -78,35 +83,39 @@ function SelectorsPage() {
     }
   `);
   console.log(data.allProgram.edges.length);
-  // [[name, weeks]]
+  // [[name, programs]]
   const selectors = React.useMemo(() => {
-    const weeks = data.allProgram.edges.map(d => d.node);
-    const allTunes = weeks.reduce<ProgramPlaylist[]>(
+    const programs = data.allProgram.edges.map(d => d.node);
+    const allTunes = programs.reduce<ProgramPlaylist[]>(
       (accum, curr) => [...accum, ...curr.playlist],
       []
     );
     return allTunes
       .filter(d => d.selector !== '草野マサムネ')
-      .reduce<[string, Program[]][]>((accum, curr) => {
-        const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
-        if (existedIndex < 0) {
-          const weeksContainsSelector = weeks.filter(
-            week =>
-              week.playlist.map(tune => tune.selector).indexOf(curr.selector) >=
-              0
-          );
-          return [
-            ...accum,
-            [
-              curr.selector,
-              weeksContainsSelector,
-              filterSelector(weeksContainsSelector, curr.selector).length,
-            ],
-          ];
-        } else {
-          return accum;
-        }
-      }, [])
+      .reduce<[string, Exclude<Program, 'children' | 'internal'>[]][]>(
+        (accum, curr) => {
+          const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
+          if (existedIndex < 0) {
+            const programsContainsSelector = programs.filter(
+              week =>
+                week.playlist
+                  .map(tune => tune.selector)
+                  .indexOf(curr.selector) >= 0
+            );
+            return [
+              ...accum,
+              [
+                curr.selector,
+                programsContainsSelector,
+                filterSelector(programsContainsSelector, curr.selector).length,
+              ],
+            ];
+          } else {
+            return accum;
+          }
+        },
+        []
+      )
       .sort(
         (a, b) =>
           filterSelector(b[1], b[0]).length - filterSelector(a[1], a[0]).length
@@ -148,16 +157,11 @@ function SelectorsPage() {
       >
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            <LazyViewer programs={d[1]} divisor={15} filter={tune => tune.selector === d[0]} />
-            {/*<div>
-              {d[1].map((v, i) => (
-                <TunesByWeek
-                  key={i}
-                  program={v}
-                  filter={tune => tune.selector === d[0]}
-                />
-              ))}
-              </div>*/}
+            <LazyViewer
+              programs={d[1]}
+              divisor={15}
+              filter={tune => tune.selector === d[0]}
+            />
           </TabPane>
         ))}
       </SwipeableViews>
@@ -167,8 +171,11 @@ function SelectorsPage() {
 
 export default SelectorsPage;
 
-function filterSelector(weeks: Program[], selector: string) {
-  return weeks.reduce(
+function filterSelector(
+  programs: Exclude<Program, 'children' | 'internal'>[],
+  selector: string
+) {
+  return programs.reduce(
     (accum, curr) => [
       ...accum,
       ...curr.playlist.filter(tune => tune.selector === selector),

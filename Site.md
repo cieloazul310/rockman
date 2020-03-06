@@ -11,6 +11,7 @@
 - /artist/${artist}/ `/template/artist.tsx` (Swipeable)
 - /categories/ `/page/categories.tsx` (Swipeable)
 - /selectors/ `/page/selectors.tsx` (Swipeable)
+- /corners/ `/page/corners.tsx` (Swipeable)
 
 ## layouts
 
@@ -31,14 +32,21 @@
 ## naming
 
 - program: 放送回 `Program`
-- category: カテゴリー
+- category: テーマ
 - guest: ゲスト
 - playlist: プレイリスト `ProgramPlaylist[]`
 - tune: 曲 `ProgramPlaylist`
 - artist: アーティスト
 - selector: 選曲
+- corner: コーナー
 
 ## queries
+
+### types
+
+artists: `["artist", "kana", "nation", programs]`
+categories: `["category", programs]`
+selectors: `["selector", programs]`
 
 ### allWeeks
 

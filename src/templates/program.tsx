@@ -14,7 +14,7 @@ import PageNavigation, {
 import Weeks from '../components/Programs';
 import createDescriptionString from '../utils/createDescriptionString';
 import {
-  WeekTemplateQuery,
+  ProgramTemplateQuery,
   SitePageContextNext,
   SitePageContextPrevious,
   Program,
@@ -44,7 +44,7 @@ function SkeletonPage({
 }
 
 interface Props {
-  data: WeekTemplateQuery;
+  data: ProgramTemplateQuery;
   pageContext: {
     slug: string;
     previous: SitePageContextPrevious;
@@ -85,7 +85,6 @@ function ProgramTemplate({ data, pageContext }: Props) {
     <Layout
       title={program.title}
       description={description}
-      drawerContents={<Weeks />}
       disablePaddingTop
     >
       <Helmet>

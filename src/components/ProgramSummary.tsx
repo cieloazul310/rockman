@@ -43,11 +43,11 @@ function ProgramSummary({ program, enableLink = false }: Props) {
           第{program.week}回 {program.date}
         </Typography>
         {enableLink ? (
-            <Typography variant="h5" component="h2" gutterBottom>
-              <AppLink to={program.fields.slug} className={classes.titleLink}>
+          <Typography variant="h5" component="h2" gutterBottom>
+            <AppLink to={program.fields.slug} className={classes.titleLink}>
               {program.title}
-              </AppLink>
-            </Typography>
+            </AppLink>
+          </Typography>
         ) : (
           <Typography variant="h5" component="h2" gutterBottom>
             {program.title}

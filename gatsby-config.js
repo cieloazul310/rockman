@@ -39,11 +39,23 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-theme-typescript-material-ui`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //theme: myTheme
+        trackingID: 'UA-74683419-3'
       }
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
+        short_name: `ロク漫プレイリスト`,
+        start_url: `/`,
+        background_color: `#fafafa`,
+        theme_color: `#009688`,
+        display: `standalone`
+      }
+    },
+    `gatsby-theme-typescript-material-ui`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

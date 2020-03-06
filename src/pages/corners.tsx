@@ -37,10 +37,10 @@ type LocationWithState = WindowLocation & {
   };
 };
 
-function CategoriesPage() {
+function CornersPage() {
   const location: LocationWithState = useLocation();
   const data = useStaticQuery<AllDataQuery>(graphql`
-    query ContainCategories {
+    query {
       allProgram(
         sort: { fields: week, order: ASC }
         filter: { categories: { glob: "*" } }
@@ -156,4 +156,4 @@ function CategoriesPage() {
   );
 }
 
-export default CategoriesPage;
+export default CornersPage;

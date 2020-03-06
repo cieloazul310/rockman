@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  playlist: Pick<ProgramPlaylist, "year">[];
+  playlist: Pick<ProgramPlaylist, 'year'>[];
 }
 
 function SimpleYearsBar({ playlist }: Props) {

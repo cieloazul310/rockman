@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  playlist: Pick<ProgramPlaylist, "nation">[];
+  playlist: Pick<ProgramPlaylist, 'nation'>[];
 }
 
 function SimpleNationBar({ playlist }: Props) {

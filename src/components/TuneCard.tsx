@@ -10,9 +10,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Skeleton from '@material-ui/lab/Skeleton';
-import PersonIcon from '@material-ui/icons/Person';
-import MusicNoteIcon from '@material-ui/icons/MusicNote';
-import FaceIcon from '@material-ui/icons/Face';
+import { ArtistIcon, SelectorIcon, TuneIcon } from '../icons';
 import NationAvatar from './NationAvatar';
 import { ProgramPlaylist } from '../../graphql-types';
 
@@ -32,6 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
     cardThumbnail: {
       flex: 'auto',
       maxWidth: '30%',
+      minWidth: 100,
       backgroundColor:
         theme.palette.type === 'dark'
           ? theme.palette.grey[700]
@@ -54,7 +53,17 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  tune: Pick<ProgramPlaylist, "artist" | "youtube" | "title" | "selector" | "indexInWeek" | "corner" | "nation" | "year">;
+  tune: Pick<
+    ProgramPlaylist,
+    | 'artist'
+    | 'youtube'
+    | 'title'
+    | 'selector'
+    | 'indexInWeek'
+    | 'corner'
+    | 'nation'
+    | 'year'
+  >;
 }
 
 function TuneCard({ tune }: Props) {
@@ -79,7 +88,7 @@ function TuneCard({ tune }: Props) {
               <CardMedia
                 className={classes.cardThumbnailInner}
                 image={`https://i.ytimg.com/vi/${tune.youtube}/0.jpg`}
-                title={`${tune.title} をYouTubeで視聴する`}
+                title={`${tune.artist}の${tune.title}をYouTubeで視聴する`}
               />
             </a>
           ) : null}
@@ -99,13 +108,13 @@ function TuneCard({ tune }: Props) {
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
               <IconButton onClick={_onArtistButtonClick}>
-                <PersonIcon />
+                <ArtistIcon />
               </IconButton>
             </Tooltip>
             {tune.selector !== '草野マサムネ' ? (
               <Tooltip title={`${tune.selector}選曲の曲をブラウズ`}>
                 <IconButton onClick={_onSelectorClick(tune.selector)}>
-                  <FaceIcon />
+                  <SelectorIcon />
                 </IconButton>
               </Tooltip>
             ) : null}
@@ -116,7 +125,7 @@ function TuneCard({ tune }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MusicNoteIcon />
+                  <TuneIcon />
                 </IconButton>
               </Tooltip>
             ) : null}

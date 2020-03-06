@@ -12,9 +12,8 @@ export default function useDividedArray<T>(items: T[], divisor: number) {
         return items.slice(i * divisor, (i + 1) * divisor);
       });
     }
-  }, [items, divisor])
+  }, [items, divisor]);
 }
-
 
 export function useDividedPrograms(
   programs: Program[],
@@ -25,16 +24,20 @@ export function useDividedPrograms(
     let count = 0;
     let newItem = [];
     for (let i = 0; i < programs.length; i++) {
+      const filtered = {
+        ...programs[i],
+        playlist: programs[i].playlist.filter(filter),
+      };
       if (count === 0) {
-        newItem.push([programs[i]]);
+        newItem.push([filtered]);
       } else if (count < 15) {
-        newItem[newItem.length - 1].push(programs[i]);
+        newItem[newItem.length - 1].push(filtered);
       } else {
         count = 0;
-        newItem.push([programs[i]]);
+        newItem.push([filtered]);
       }
-      count += programs[i].playlist.filter(filter).length;
+      count += filtered.playlist.length;
     }
     return newItem;
-  }, [programs, divisor])
+  }, [programs, divisor]);
 }

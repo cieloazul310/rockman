@@ -1,5 +1,5 @@
 import * as React from 'react';
-import TunesByProgram from './TunesByProgram'
+import TunesByProgram from './TunesByProgram';
 import { TuneCardSkeleton } from './TuneCard';
 import useOnScreen from '../utils/useOnScreen';
 import { useDividedPrograms } from '../utils/useDividedArray';
@@ -22,7 +22,7 @@ interface DisplayOnScreenProps {
 function DisplayOnScreen({
   children,
   margin,
-  once = true
+  once = true,
 }: DisplayOnScreenProps) {
   const ref = React.useRef();
   const onScreen = useOnScreen(ref, margin);
@@ -43,14 +43,14 @@ function LazyViewer({ programs, filter, divisor = 15 }: Props) {
       i === 0 ? (
         <div key={i}>
           {d.map((v, index) => (
-            <TunesByProgram program={v} />
+            <TunesByProgram program={v} key={v.id} />
           ))}
         </div>
       ) : (
         <DisplayOnScreen key={i} margin={-40}>
-            {d.map((v, index) => (
-              <TunesByProgram program={v} />
-            ))}
+          {d.map((v, index) => (
+            <TunesByProgram program={v} key={v.id} />
+          ))}
         </DisplayOnScreen>
       )
     );

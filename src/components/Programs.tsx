@@ -13,10 +13,10 @@ import { Program, ProgramsMenuQuery } from '../../graphql-types';
 
 interface ProgramsByYearProps {
   year: number;
-  weeks: Partial<Program>[];
+  programs: Pick<Program, 'id' | 'fields' | 'week' | 'title' | 'date'>[];
 }
 
-function ProgramsByYear({ year, weeks }: ProgramsByYearProps) {
+function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
   const [open, setOpen] = React.useState(false);
   const _handleClick = () => {
     setOpen(!open);
@@ -26,17 +26,22 @@ function ProgramsByYear({ year, weeks }: ProgramsByYearProps) {
     <>
       <ListItem button onClick={_handleClick}>
         <ListItemText primary={`${year}年`} />
-        <Badge badgeContent={weeks.length} color="secondary">
+        <Badge badgeContent={programs.length} color="secondary">
           {open ? <ExpandLess /> : <ExpandMore />}
         </Badge>
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {weeks.map((week, index) => (
-            <ListItemLink dense button key={week.id} to={week.fields.slug}>
+          {programs.map((program, index) => (
+            <ListItemLink
+              dense
+              button
+              key={program.id}
+              to={program.fields.slug}
+            >
               <ListItemText
-                primary={`${week.week}. ${week.title}`}
-                secondary={week.date}
+                primary={`${program.week}. ${program.title}`}
+                secondary={program.date}
               />
             </ListItemLink>
           ))}
@@ -70,15 +75,15 @@ function Programs() {
     <List subheader={<ListSubheader>放送回</ListSubheader>}>
       <ProgramsByYear
         year={2018}
-        weeks={data.filter(d => d.node.year === 2018).map(d => d.node)}
+        programs={data.filter(d => d.node.year === 2018).map(d => d.node)}
       />
       <ProgramsByYear
         year={2019}
-        weeks={data.filter(d => d.node.year === 2019).map(d => d.node)}
+        programs={data.filter(d => d.node.year === 2019).map(d => d.node)}
       />
       <ProgramsByYear
         year={2020}
-        weeks={data.filter(d => d.node.year === 2020).map(d => d.node)}
+        programs={data.filter(d => d.node.year === 2020).map(d => d.node)}
       />
     </List>
   );
