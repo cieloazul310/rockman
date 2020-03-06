@@ -5,9 +5,9 @@ import Programs from '../components/Programs';
 
 function ProgramsPage() {
   return (
-    <Layout title="放送回">
+    <Layout title="放送回" maxWidth="md">
       <Typography variant="h5" component="h3">
-        Summary
+        放送回一覧
       </Typography>
       <Programs />
     </Layout>

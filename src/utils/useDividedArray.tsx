@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Program, ProgramPlaylist } from '../../graphql-types';
+import { AbstractProgram } from '../types';
+import { ProgramPlaylist } from '../../graphql-types';
 
 export default function useDividedArray<T>(items: T[], divisor: number) {
   return React.useMemo(() => {
@@ -16,10 +17,10 @@ export default function useDividedArray<T>(items: T[], divisor: number) {
 }
 
 export function useDividedPrograms(
-  programs: Program[],
+  programs: AbstractProgram[],
   divisor: number,
   filter: (tune: ProgramPlaylist) => boolean = () => true
-): Program[][] {
+) {
   return React.useMemo(() => {
     let count = 0;
     let newItem = [];
@@ -30,7 +31,7 @@ export function useDividedPrograms(
       };
       if (count === 0) {
         newItem.push([filtered]);
-      } else if (count < 15) {
+      } else if (count < divisor) {
         newItem[newItem.length - 1].push(filtered);
       } else {
         count = 0;
@@ -39,5 +40,5 @@ export function useDividedPrograms(
       count += filtered.playlist.length;
     }
     return newItem;
-  }, [programs, divisor]);
+  }, [programs, divisor, filter]);
 }

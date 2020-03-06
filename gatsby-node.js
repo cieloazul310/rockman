@@ -26,7 +26,7 @@ exports.createPages = async ({ graphql, actions }) => {
   
   const { createPage } = actions;
   const result = await graphql(`
-    query {
+    query AllProgram {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {

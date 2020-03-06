@@ -55,7 +55,13 @@ module.exports = {
         display: `standalone`
       }
     },
-    `gatsby-theme-typescript-material-ui`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://cieloazul310.github.io/gatsby-rockman/`
+      }
+    },
+    `gatsby-plugin-sitemap`,`gatsby-theme-typescript-material-ui`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

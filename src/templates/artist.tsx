@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
-import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import TunesByProgram from '../components/TunesByProgram';
+import PageNavigation from '../components/PageNavigation';
 import { ArtistTemplateQuery, Program } from '../../graphql-types';
 
 interface Props {
@@ -29,10 +29,16 @@ function ArtistTemplate({ data, pageContext }: Props) {
             filter={tune => tune.artist === pageContext.artist}
           />
         ))}
-        {previous ? (
-          <AppLink to={`/artist/${previous[0]}/`}>{previous[0]}</AppLink>
-        ) : null}
-        {next ? <AppLink to={`/artist/${next[0]}/`}>{next[0]}</AppLink> : null}
+        <PageNavigation 
+          prev={previous ? {
+            to: `/artist/${previous[0]}`,
+            label: previous[0]
+          } : null}
+          next={next ? {
+            to: `/artist/${next[0]}`,
+            label: next[0]
+          } : null}
+        />
       </div>
     </Layout>
   );

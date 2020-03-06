@@ -4,7 +4,7 @@ import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Badge from '@material-ui/core/Badge';
+import Chip from '@material-ui/core/Chip';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
@@ -26,13 +26,12 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
     <>
       <ListItem button onClick={_handleClick}>
         <ListItemText primary={`${year}年`} />
-        <Badge badgeContent={programs.length} color="secondary">
-          {open ? <ExpandLess /> : <ExpandMore />}
-        </Badge>
+        <Chip label={programs.length} />
+        {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {programs.map((program, index) => (
+          {programs.map((program) => (
             <ListItemLink
               dense
               button

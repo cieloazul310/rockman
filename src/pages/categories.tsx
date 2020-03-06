@@ -1,26 +1,33 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+//import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
+import Layout from '../components/TabPageLayout';
 import ProgramSummary from '../components/ProgramSummary';
-import { AllDataQuery, Program } from '../../graphql-types';
+import { CategoryItem } from '../types';
+import { AllDataQuery } from '../../graphql-types';
 
 interface TabPaneProps {
   value: number;
   index: number;
   children: JSX.Element | JSX.Element[];
 }
+type LocationWithState = WindowLocation & {
+  state?: {
+    category?: string;
+  };
+};
 
 function TabPane({ value, index, children }: TabPaneProps) {
   return (
     <Container
       maxWidth="md"
+      disableGutters
       role="tabpanel"
       hidden={value !== index}
       id={`full-width-tabpanel-${index}`}
@@ -30,12 +37,6 @@ function TabPane({ value, index, children }: TabPaneProps) {
     </Container>
   );
 }
-
-type LocationWithState = WindowLocation & {
-  state?: {
-    category?: string;
-  };
-};
 
 function CategoriesPage() {
   const location: LocationWithState = useLocation();
@@ -96,7 +97,7 @@ function CategoriesPage() {
   `);
   // [name, playlist]
   const categories = React.useMemo(() => {
-    const cats: [string, Partial<Program>[]][] = [];
+    const cats: CategoryItem[] = [];
     data.allProgram.edges.forEach(({ node }) => {
       node.categories.forEach(cate => {
         const existedIndex = cats.map(d => d[0]).indexOf(cate);
@@ -123,7 +124,7 @@ function CategoriesPage() {
   };
 
   return (
-    <Layout title={categories[value][0]} disablePaddingTop>
+    <Layout title={categories[value][0]}>
       <Tabs
         value={value}
         onChange={_handleChange}

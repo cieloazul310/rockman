@@ -3,7 +3,7 @@ import { navigate } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import FaceIcon from '@material-ui/icons/Face';
+import { CategoryIcon, SelectorIcon } from '../icons';
 import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import SimpleNationBar from './SimpleNationBar';
 import SimpleYearsBar from './SimpleYearsBar';
@@ -67,12 +67,13 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                 key={category}
                 label={category}
                 color="primary"
+                icon={<CategoryIcon />}
                 onClick={() => {
                   navigate('/categories/', {
                     state: {
-                      category,
+                      category
                     },
-                    replace: true,
+                    replace: true
                   });
                 }}
               />
@@ -84,13 +85,13 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                 className={classes.chip}
                 key={guest}
                 label={guest}
-                icon={<FaceIcon />}
+                icon={<SelectorIcon />}
                 onClick={() => {
                   navigate('/selectors/', {
                     state: {
-                      selector: guest,
+                      selector: guest
                     },
-                    replace: true,
+                    replace: true
                   });
                 }}
               />

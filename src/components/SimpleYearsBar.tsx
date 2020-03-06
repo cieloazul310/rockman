@@ -3,7 +3,6 @@ import {
   makeStyles,
   createStyles,
   Theme,
-  useTheme,
 } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
 import { ProgramPlaylist } from '../../graphql-types';

@@ -1,27 +1,34 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+//import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
+import Layout from '../components/TabPageLayout';
 import { AllDataQuery } from '../../graphql-types';
 import LazyViewer from '../components/LazyViewer';
-import { Program, ProgramPlaylist } from '../../graphql-types';
+import { getAllTunes, getProgramsContainsValue, filterPlaylist } from '../utils/filterPlaylist';
+import { SelectorItem } from '../types';
 
 interface TabPaneProps {
   value: number;
   index: number;
   children: JSX.Element | JSX.Element[];
 }
-
+type LocationWithState = WindowLocation & {
+  state?: {
+    selector?: string;
+  };
+};
 function TabPane({ value, index, children }: TabPaneProps) {
   return (
     <Container
       maxWidth="md"
       role="tabpanel"
+      disableGutters
       hidden={value !== index}
       id={`full-width-tabpanel-${index}`}
       aria-labelledby={`full-width-tab-${index}`}
@@ -30,12 +37,6 @@ function TabPane({ value, index, children }: TabPaneProps) {
     </Container>
   );
 }
-
-type LocationWithState = WindowLocation & {
-  state?: {
-    selector?: string;
-  };
-};
 
 function SelectorsPage() {
   const location: LocationWithState = useLocation();
@@ -82,47 +83,34 @@ function SelectorsPage() {
       }
     }
   `);
-  console.log(data.allProgram.edges.length);
   // [[name, programs]]
-  const selectors = React.useMemo(() => {
+  const selectors: SelectorItem[] = React.useMemo(() => {
     const programs = data.allProgram.edges.map(d => d.node);
-    const allTunes = programs.reduce<ProgramPlaylist[]>(
-      (accum, curr) => [...accum, ...curr.playlist],
-      []
-    );
+    const allTunes = getAllTunes(programs);
     return allTunes
       .filter(d => d.selector !== '草野マサムネ')
-      .reduce<[string, Exclude<Program, 'children' | 'internal'>[]][]>(
-        (accum, curr) => {
-          const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
-          if (existedIndex < 0) {
-            const programsContainsSelector = programs.filter(
-              week =>
-                week.playlist
-                  .map(tune => tune.selector)
-                  .indexOf(curr.selector) >= 0
-            );
-            return [
-              ...accum,
-              [
-                curr.selector,
-                programsContainsSelector,
-                filterSelector(programsContainsSelector, curr.selector).length,
-              ],
-            ];
-          } else {
-            return accum;
-          }
-        },
-        []
-      )
-      .sort(
-        (a, b) =>
-          filterSelector(b[1], b[0]).length - filterSelector(a[1], a[0]).length
-      );
+      .reduce<SelectorItem[]>((accum, curr) => {
+        const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
+        if (existedIndex < 0) {
+          const programsContainsSelector = getProgramsContainsValue('selector', curr.selector)(programs);
+          return [
+            ...accum,
+            [
+              curr.selector,
+              programsContainsSelector,
+              filterPlaylist(
+                'selector',
+                curr.selector
+              )(programsContainsSelector).length
+            ]
+          ];
+        } else {
+          return accum;
+        }
+      }, [])
+      .sort((a, b) => b[2] - a[2]);
   }, [data]);
   console.log(selectors);
-  console.log(location);
   const initialValue =
     location.state && location.state.selector
       ? selectors.map(d => d[0]).indexOf(location.state.selector)
@@ -136,7 +124,7 @@ function SelectorsPage() {
   };
 
   return (
-    <Layout title={`${selectors[value][0]}選曲`} disablePaddingTop>
+    <Layout title={`${selectors[value][0]}の選曲`}>
       <Tabs
         value={value}
         onChange={_handleChange}
@@ -170,16 +158,3 @@ function SelectorsPage() {
 }
 
 export default SelectorsPage;
-
-function filterSelector(
-  programs: Exclude<Program, 'children' | 'internal'>[],
-  selector: string
-) {
-  return programs.reduce(
-    (accum, curr) => [
-      ...accum,
-      ...curr.playlist.filter(tune => tune.selector === selector),
-    ],
-    []
-  );
-}

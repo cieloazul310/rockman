@@ -28,6 +28,7 @@
 - TunesByProgram `/components/TunesByProgram.tsx`
 - TuneCard `/components/TuneCard.tsx`
 - PageNavigation `/components/PageNavigation`
+- icons `/icons/index.tsx`
 
 ## naming
 

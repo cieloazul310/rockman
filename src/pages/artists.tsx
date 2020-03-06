@@ -1,60 +1,86 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import CancelButton from '@material-ui/icons/Cancel';
+import CancelIcon from '@material-ui/icons/Cancel';
+import FilterIcon from '@material-ui/icons/Filter';
+import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
-import Artists, { ArtistItem } from '../components/Artists';
+import Artists from '../components/Artists';
+import useWindowSize from '../utils/useWindowSize';
+import { ArtistItem } from '../types';
 
-const useStyles = makeStyles((theme: Theme) => createStyles({
-  searchBox: {
-    padding: theme.spacing(1),
-    display: 'flex'
-  },
-  searchText: {
-    flex: 1
-  }
-}));
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    searchBox: {
+      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
+      display: 'flex'
+    },
+    searchText: {
+      flex: 1
+    }
+  })
+);
 
 function ArtistsPage() {
   const classes = useStyles();
   const [searchText, setSearchText] = React.useState('');
 
   const filter = React.useMemo(() => {
-    console.log(`search: ${searchText}`);
     if (searchText === '') {
       return () => true;
     } else {
-      const regex = RegExp(`${searchText}`);
-      return (artist: ArtistItem) => regex.test(artist[0]) || regex.test(artist[1]);
+      const regex = RegExp(`${searchText}`, 'i');
+      return (artist: ArtistItem) =>
+        regex.test(artist[0]) || regex.test(artist[1]);
     }
   }, [searchText]);
-  const _onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    console.log(`input: ${event.target.value}`);
+  const _onChangeSearchText = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    event.preventDefault();
     setSearchText(event.target.value);
-  }
+  };
   const _clearSearchText = () => {
     setSearchText('');
-  }
+  };
+  const windowHeight = useWindowSize().height;
+  console.log(windowHeight);
 
   return (
     <Layout title="アーティスト一覧" maxWidth="md">
       <div>
         <Paper component="form" className={classes.searchBox}>
+          <IconButton onClick={_clearSearchText}>
+            <FilterIcon />
+          </IconButton>
           <InputBase
+            value={searchText}
             onChange={_onChangeSearchText}
             className={classes.searchText}
             placeholder="アーティストを検索"
             inputProps={{ 'aria-label': 'search artists' }}
           />
           <IconButton onClick={_clearSearchText}>
-            <CancelButton />
+            <CancelIcon />
           </IconButton>
         </Paper>
       </div>
-      <Artists filter={filter} />
+      <Container maxWidth="sm" disableGutters>
+        <Box py={4}>
+          <AutoSizer
+            disableHeight
+            defaultHeight={windowHeight ? windowHeight - 200 : 400}
+          >
+            {({ width, height }) => (
+              <Artists width={width} height={height} filter={filter} />
+            )}
+          </AutoSizer>
+        </Box>
+      </Container>
     </Layout>
   );
 }

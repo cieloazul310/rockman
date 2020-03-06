@@ -5,10 +5,6 @@ import Button from '@material-ui/core/Button';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Skeleton from '@material-ui/lab/Skeleton';
-import {
-  SitePageContextPrevious,
-  SitePageContextNext,
-} from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -31,12 +27,18 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
+interface NavigationProps {
+  to: string;
+  label: string;
+}
+
 interface Props {
-  prev?: SitePageContextPrevious;
-  next?: SitePageContextNext;
+  prev?: NavigationProps;
+  next?: NavigationProps;
 }
 
 function PageNavigation({ prev, next }: Props) {
+  console.log(prev, next);
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -45,10 +47,10 @@ function PageNavigation({ prev, next }: Props) {
           <Button
             component={GatsbyLink}
             variant="outlined"
-            to={prev.fields.slug}
+            to={prev.to}
           >
             <ArrowBackIcon />
-            {prev.title}
+            {prev.label}
           </Button>
         </div>
       ) : null}
@@ -57,9 +59,9 @@ function PageNavigation({ prev, next }: Props) {
           <Button
             component={GatsbyLink}
             variant="outlined"
-            to={next.fields.slug}
+            to={next.to}
           >
-            {next.title}
+            {next.label}
             <ArrowForwardIcon />
           </Button>
         </div>

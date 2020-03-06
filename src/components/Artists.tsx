@@ -1,23 +1,62 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import Chip from '@material-ui/core/Chip';
+import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import ListItemLink from './ListItemLink';
 import NationAvatar from './NationAvatar';
 import { getYomi } from '../utils/sortByYomi';
-import { AllDataQuery, ProgramPlaylist } from '../../graphql-types';
+import { ArtistItem } from '../types';
+import { AllDataQuery } from '../../graphql-types';
 
-export type ArtistItem = [string, string, string, ProgramPlaylist[]];
+/*
+function SkeletonListItem(props: any) {
+  return (
+    <ListItem button {...props}>
+      <ListItemAvatar>
+        <Skeleton variant="circle" width={40} height={40} />
+      </ListItemAvatar>
+      <ListItemText primary={<Skeleton variant="text" width={200} />} />
+    </ListItem>
+  );
+}
+*/
+
+function renderRow({ index, style, data }: ListChildComponentProps) {
+  const artist: ArtistItem = data[index];
+  return (
+    <ListItemLink
+      button
+      style={style}
+      key={index}
+      to={
+        artist[3].length > 1
+          ? `/artist/${artist[0]}/`
+          : `/artist/?name=${artist[0]}`
+      }
+    >
+      <ListItemAvatar>
+        <NationAvatar nation={artist[2]} />
+      </ListItemAvatar>
+      <ListItemText primary={artist[0]} secondary={artist[1] || null} />
+      <Chip label={artist[3].length} />
+    </ListItemLink>
+  );
+}
+
 interface Props {
+  width?: number;
+  height?: number;
+  itemSize?: number;
   filter?: (artist: ArtistItem) => boolean;
   sort?: (a: ArtistItem, b: ArtistItem) => number;
 }
 
 function Artists({
+  width = 320,
+  height = 480,
+  itemSize = 60,
   filter = () => true,
   sort = (a, b) => b[3].length - a[3].length
 }: Props) {
@@ -88,29 +127,9 @@ function Artists({
   );
 
   return (
-    <List subheader={<ListSubheader>放送アーティスト一覧</ListSubheader>}>
-      {artists.map((artist, index) =>
-        index < 20 ? (
-          <ListItemLink
-            button
-            key={artist[0]}
-            to={
-              artist[3].length > 1
-                ? `/artist/${artist[0]}/`
-                : `/artist/?name=${artist[0]}`
-            }
-          >
-            <ListItemAvatar>
-              <NationAvatar nation={artist[2]} />
-            </ListItemAvatar>
-            <ListItemText primary={artist[0]} secondary={artist[1] || null} />
-            <ListItemSecondaryAction>
-              <Chip label={artist[3].length} />
-            </ListItemSecondaryAction>
-          </ListItemLink>
-        ) : null
-      )}
-    </List>
+    <FixedSizeList width={width} height={height} itemCount={artists.length} itemSize={itemSize} itemData={artists}>
+      {renderRow}
+    </FixedSizeList>
   );
 }
 

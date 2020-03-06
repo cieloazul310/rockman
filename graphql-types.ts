@@ -1781,6 +1781,13 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___typeName' |
+  'pluginCreator___pluginOptions___trackingID' |
+  'pluginCreator___pluginOptions___short_name' |
+  'pluginCreator___pluginOptions___start_url' |
+  'pluginCreator___pluginOptions___background_color' |
+  'pluginCreator___pluginOptions___theme_color' |
+  'pluginCreator___pluginOptions___display' |
+  'pluginCreator___pluginOptions___siteUrl' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -1972,6 +1979,13 @@ export type SitePluginFieldsEnum =
   'pluginOptions___name' |
   'pluginOptions___path' |
   'pluginOptions___typeName' |
+  'pluginOptions___trackingID' |
+  'pluginOptions___short_name' |
+  'pluginOptions___start_url' |
+  'pluginOptions___background_color' |
+  'pluginOptions___theme_color' |
+  'pluginOptions___display' |
+  'pluginOptions___siteUrl' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2091,6 +2105,13 @@ export type SitePluginPluginOptions = {
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
   typeName?: Maybe<Scalars['String']>,
+  trackingID?: Maybe<Scalars['String']>,
+  short_name?: Maybe<Scalars['String']>,
+  start_url?: Maybe<Scalars['String']>,
+  background_color?: Maybe<Scalars['String']>,
+  theme_color?: Maybe<Scalars['String']>,
+  display?: Maybe<Scalars['String']>,
+  siteUrl?: Maybe<Scalars['String']>,
   pathCheck?: Maybe<Scalars['Boolean']>,
 };
 
@@ -2098,6 +2119,13 @@ export type SitePluginPluginOptionsFilterInput = {
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
   typeName?: Maybe<StringQueryOperatorInput>,
+  trackingID?: Maybe<StringQueryOperatorInput>,
+  short_name?: Maybe<StringQueryOperatorInput>,
+  start_url?: Maybe<StringQueryOperatorInput>,
+  background_color?: Maybe<StringQueryOperatorInput>,
+  theme_color?: Maybe<StringQueryOperatorInput>,
+  display?: Maybe<StringQueryOperatorInput>,
+  siteUrl?: Maybe<StringQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
 };
 
@@ -2208,13 +2236,7 @@ export type Unnamed_2_QueryVariables = {};
 export type Unnamed_2_Query = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
         & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ), next: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )>, previous: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )> }> } };
+      ) }> } };
 
 export type IndexQueryVariables = {};
 

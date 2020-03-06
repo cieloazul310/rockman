@@ -1,15 +1,17 @@
 import * as React from 'react';
+import Box from '@material-ui/core/Box';
 import TunesByProgram from './TunesByProgram';
 import { TuneCardSkeleton } from './TuneCard';
 import useOnScreen from '../utils/useOnScreen';
 import { useDividedPrograms } from '../utils/useDividedArray';
-import { Program, ProgramPlaylist } from '../../graphql-types';
+import { QueriedProgram } from '../types';
+import { ProgramPlaylist } from '../../graphql-types';
 
 function DummyItem() {
   return (
-    <div>
+    <Box py={4}>
       <TuneCardSkeleton />
-    </div>
+    </Box>
   );
 }
 
@@ -30,7 +32,7 @@ function DisplayOnScreen({
 }
 
 interface Props {
-  programs: Program[];
+  programs: QueriedProgram[];
   divisor?: number;
   filter?: (tune: ProgramPlaylist) => boolean;
 }
@@ -42,19 +44,19 @@ function LazyViewer({ programs, filter, divisor = 15 }: Props) {
     return dividedItems.map((d, i) =>
       i === 0 ? (
         <div key={i}>
-          {d.map((v, index) => (
+          {d.map((v) => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </div>
       ) : (
-        <DisplayOnScreen key={i} margin={-40}>
-          {d.map((v, index) => (
+        <DisplayOnScreen key={i} margin={40}>
+          {d.map((v) => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </DisplayOnScreen>
       )
     );
-  }, [programs, divisor]);
+  }, [dividedItems]);
   return <div>{renderItems}</div>;
 }
 
