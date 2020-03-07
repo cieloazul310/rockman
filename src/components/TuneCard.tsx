@@ -72,7 +72,7 @@ function TuneCard({ tune }: Props) {
     navigate(`/artist/${tune.artist}/`);
   };
   const _onSelectorClick = (selector: string) => () => {
-    navigate(`/selectors/`, { state: { selector }});
+    navigate(`/selectors/`, { state: { selector } });
   };
   return (
     <Box my={2}>

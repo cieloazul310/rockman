@@ -4,12 +4,13 @@ import { graphql, navigate, withPrefix } from 'gatsby';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../components/TabPageLayout';
 import JunkList from '../components/JunkList';
 import WeekSummaryBox from '../components/ProgramSummary';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation, {
-  PageNavigationSkeleton
+  PageNavigationSkeleton,
 } from '../components/PageNavigation';
 import createDescriptionString from '../utils/createDescriptionString';
 import { QueriedProgram } from '../types';
@@ -42,19 +43,19 @@ interface Props {
     next: QueriedProgram;
   };
 }
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function ProgramTemplate({ data, pageContext }: Props) {
   const { program } = data;
   const { previous, next } = pageContext;
   const description = createDescriptionString(program);
-
   const _onSwiped: OnSwitchingCallback = (index: number, type) => {
     if (type !== 'end') return;
 
     if (previous && index === 0) {
-      navigate(previous.fields.slug, { replace: true });
+      navigate(previous.fields.slug);
     } else if (index === 2 || (!previous && index === 1)) {
-      navigate(next.fields.slug, { replace: true });
+      navigate(next.fields.slug);
     }
   };
 
@@ -92,14 +93,15 @@ function ProgramTemplate({ data, pageContext }: Props) {
           <link rel="prefetch" href={withPrefix(next.fields.slug)} />
         ) : null}
       </Helmet>
-      <SwipeableViews
+      <BindKeyboardSwipeableViews
         index={!previous ? 0 : 1}
+        onChangeIndex={() => {}}
         onSwitching={_onSwiped}
         resistance
         enableMouseEvents
       >
         {SwipePages}
-      </SwipeableViews>
+      </BindKeyboardSwipeableViews>
     </Layout>
   );
 }

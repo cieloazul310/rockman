@@ -14,7 +14,7 @@ import {
   ArtistIcon,
   CategoryIcon,
   SelectorIcon,
-  CornerIcon
+  CornerIcon,
 } from '../../../icons';
 
 function DrawerContent() {

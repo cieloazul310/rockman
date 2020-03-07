@@ -9,9 +9,9 @@ function ListItemLink<TState>(props: ListItemLinkProps<TState>) {
 
   const renderLink = React.useMemo(
     () =>
-      React.forwardRef<any, GatsbyLinkProps<TState>>(
-        (itemProps, ref) => <GatsbyLink<TState> to={to} ref={ref} {...itemProps} />
-      ),
+      React.forwardRef<any, GatsbyLinkProps<TState>>((itemProps, ref) => (
+        <GatsbyLink<TState> to={to} ref={ref} {...itemProps} />
+      )),
     [to]
   );
 

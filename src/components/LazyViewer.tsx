@@ -44,13 +44,13 @@ function LazyViewer({ programs, filter, divisor = 15 }: Props) {
     return dividedItems.map((d, i) =>
       i === 0 ? (
         <div key={i}>
-          {d.map((v) => (
+          {d.map(v => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </div>
       ) : (
         <DisplayOnScreen key={i} margin={40}>
-          {d.map((v) => (
+          {d.map(v => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </DisplayOnScreen>

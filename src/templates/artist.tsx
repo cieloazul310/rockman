@@ -1,8 +1,15 @@
 import * as React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, navigate } from 'gatsby';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
+import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import TunesByProgram from '../components/TunesByProgram';
-import PageNavigation from '../components/PageNavigation';
+import { TuneCardSkeleton } from '../components/TuneCard';
+import PageNavigation, {
+  PageNavigationSkeleton,
+} from '../components/PageNavigation';
 import { ArtistTemplateQuery, Program } from '../../graphql-types';
 
 interface Props {
@@ -13,14 +20,72 @@ interface Props {
     next: [string, string, string, Program[]];
   };
 }
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function ArtistTemplate({ data, pageContext }: Props) {
-  console.log(pageContext);
-  const { previous, next } = pageContext;
+  const { previous, next, artist } = pageContext;
+  const artistPrograms = data.allProgram.edges.map(({ node }) => node);
+  const _onSwiped: OnSwitchingCallback = (index: number, type) => {
+    if (type !== 'end') return;
+
+    if (previous && index === 0) {
+      navigate(`/artist/${previous[0]}/`);
+    } else if (index === 2 || (!previous && index === 1)) {
+      navigate(`/artist/${next[0]}/`);
+    }
+  };
+  const SwipePages = React.useMemo(() => {
+    return [previous, [artist, artistPrograms], next]
+      .filter(obj => obj !== null)
+      .map((tabArtist, index) =>
+        tabArtist[0] === artist ? (
+          <Container key={index} disableGutters>
+            <Box>
+              {artistPrograms.map((program, index) => (
+                <TunesByProgram
+                  key={index}
+                  program={program}
+                  filter={tune => tune.artist === pageContext.artist}
+                />
+              ))}
+              <PageNavigation
+                prev={
+                  previous
+                    ? {
+                        to: `/artist/${previous[0]}/`,
+                        label: previous[0],
+                      }
+                    : null
+                }
+                next={
+                  next
+                    ? {
+                        to: `/artist/${next[0]}/`,
+                        label: next[0],
+                      }
+                    : null
+                }
+              />
+            </Box>
+          </Container>
+        ) : (
+          <SkeletonPage key={index} />
+        )
+      );
+  }, [previous, artistPrograms, next]);
 
   return (
     <Layout title={pageContext.artist} maxWidth="md">
-      <div>
+      <BindKeyboardSwipeableViews
+        index={!previous ? 0 : 1}
+        onChangeIndex={() => {}}
+        onSwitching={_onSwiped}
+        resistance
+        enableMouseEvents
+      >
+        {SwipePages}
+      </BindKeyboardSwipeableViews>
+      {/*<Box>
         {data.allProgram.edges.map(({ node }, index) => (
           <TunesByProgram
             key={index}
@@ -28,22 +93,44 @@ function ArtistTemplate({ data, pageContext }: Props) {
             filter={tune => tune.artist === pageContext.artist}
           />
         ))}
-        <PageNavigation 
-          prev={previous ? {
-            to: `/artist/${previous[0]}`,
-            label: previous[0]
-          } : null}
-          next={next ? {
-            to: `/artist/${next[0]}`,
-            label: next[0]
-          } : null}
+        <PageNavigation
+          prev={
+            previous
+              ? {
+                  to: `/artist/${previous[0]}/`,
+                  label: previous[0]
+                }
+              : null
+          }
+          next={
+            next
+              ? {
+                  to: `/artist/${next[0]}/`,
+                  label: next[0]
+                }
+              : null
+          }
         />
-      </div>
+        </Box>*/}
     </Layout>
   );
 }
 
 export default ArtistTemplate;
+
+function SkeletonPage() {
+  return (
+    <Container disableGutters>
+      <Box>
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <TuneCardSkeleton />
+        <PageNavigationSkeleton />
+      </Box>
+    </Container>
+  );
+}
 
 export const query = graphql`
   query ArtistTemplate($artist: String!) {

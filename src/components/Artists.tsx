@@ -45,7 +45,7 @@ function Artists({
   height = 480,
   itemSize = 60,
   filter = () => true,
-  sort = (a, b) => b[3].length - a[3].length
+  sort = (a, b) => b[3].length - a[3].length,
 }: Props) {
   const data = useStaticQuery<AllDataQuery>(graphql`
     query AllData {
@@ -114,7 +114,13 @@ function Artists({
   );
 
   return (
-    <FixedSizeList width={width} height={height} itemCount={artists.length} itemSize={itemSize} itemData={artists}>
+    <FixedSizeList
+      width={width}
+      height={height}
+      itemCount={artists.length}
+      itemSize={itemSize}
+      itemData={artists}
+    >
       {renderRow}
     </FixedSizeList>
   );

@@ -17,11 +17,11 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     searchBox: {
       padding: `0 ${theme.spacing(2)}px`,
-      display: 'flex'
+      display: 'flex',
     },
     searchText: {
-      flex: 1
-    }
+      flex: 1,
+    },
   })
 );
 

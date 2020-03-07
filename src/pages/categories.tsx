@@ -7,6 +7,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../components/TabPageLayout';
 import ProgramSummary from '../components/ProgramSummary';
 import { CategoryItem } from '../types';
@@ -37,6 +38,7 @@ function TabPane({ value, index, children }: TabPaneProps) {
     </Container>
   );
 }
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CategoriesPage() {
   const location: LocationWithState = useLocation();
@@ -110,7 +112,6 @@ function CategoriesPage() {
     });
     return cats.sort((a, b) => b[1].length - a[1].length);
   }, [data]);
-  console.log(location);
   const initialValue =
     location.state && location.state.category
       ? categories.map(d => d[0]).indexOf(location.state.category)
@@ -138,7 +139,7 @@ function CategoriesPage() {
           <Tab key={d[0]} label={`${d[0]} ${d[1].length}`} />
         ))}
       </Tabs>
-      <SwipeableViews
+      <BindKeyboardSwipeableViews
         index={value}
         onChangeIndex={_handleChangeIndex}
         resistance
@@ -152,7 +153,7 @@ function CategoriesPage() {
             </div>
           </TabPane>
         ))}
-      </SwipeableViews>
+      </BindKeyboardSwipeableViews>
     </Layout>
   );
 }

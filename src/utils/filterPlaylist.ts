@@ -18,13 +18,11 @@ export function getProgramsContainsValue(
 }
 
 export function filterPlaylist(playlistKey: keyof ProgramPlaylist, value: any) {
-  return (
-    programs: AbstractProgram[]
-  ): ProgramPlaylist[] => {
+  return (programs: AbstractProgram[]): ProgramPlaylist[] => {
     return programs.reduce(
       (accum, curr) => [
         ...accum,
-        ...curr.playlist.filter(tune => tune[playlistKey] === value)
+        ...curr.playlist.filter(tune => tune[playlistKey] === value),
       ],
       []
     );

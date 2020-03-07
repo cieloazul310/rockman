@@ -1,15 +1,14 @@
 import * as React from 'react';
-import classNames from 'classnames';
 import IconButton, { IconButtonProps } from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
-import { useLocation } from '@reach/router';
-import FabIcon from 'gatsby-theme-typescript-material-ui/src/components/FabIcon';
-import { faTwitter, faFacebookF, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import {
-  shareOnFacebook,
-  useTwitterShareUrl
-} from 'gatsby-theme-typescript-material-ui/src/utils/sharer';
 import { IconProps } from '@material-ui/core/Icon';
+import {
+  faTwitter,
+  faFacebookF,
+  faYoutube
+} from '@fortawesome/free-brands-svg-icons';
+import FabIcon from 'gatsby-theme-typescript-material-ui/src/components/FabIcon';
+import useSocialShare from 'gatsby-theme-typescript-material-ui/src/utils/useSocialShare';
 
 type Props = {
   className?: string;
@@ -17,29 +16,34 @@ type Props = {
 } & Partial<Pick<IconProps, 'fontSize'>> &
   Partial<Pick<IconButtonProps, 'color'>>;
 
-function ShareButtons({ className, title, fontSize, color }: Props) {
-  const location = useLocation();
-  const twitterShareUrl = useTwitterShareUrl(location.href, title);
+function ShareButtons({
+  className,
+  title,
+  fontSize = 'default',
+  color = 'default'
+}: Props) {
+  const twitterUrl = useSocialShare('twitter', title);
+  const fbUrl = useSocialShare('facebook');
   return (
-    <div className={classNames(className)}>
+    <div className={className}>
       <Tooltip title="Twitterでシェア">
         <IconButton
-          color={color || 'default'}
-          href={twitterShareUrl}
+          color={color}
+          href={twitterUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FabIcon icon={faTwitter} fontSize={fontSize || 'default'} />
+          <FabIcon icon={faTwitter} fontSize={fontSize} />
         </IconButton>
       </Tooltip>
       <Tooltip title="Facebookでシェア">
         <IconButton
-          color={color || 'default'}
-          href={shareOnFacebook({ url: location.href })}
+          color={color}
+          href={fbUrl}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FabIcon icon={faFacebookF} fontSize={fontSize || 'default'} />
+          <FabIcon icon={faFacebookF} fontSize={fontSize} />
         </IconButton>
       </Tooltip>
       <Tooltip title="YouTube">

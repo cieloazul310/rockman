@@ -1169,8 +1169,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,
@@ -1257,8 +1255,6 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   buildTime?: Maybe<Scalars['Date']>,
   siteMetadata?: Maybe<SiteSiteMetadata>,
-  port?: Maybe<Scalars['Int']>,
-  host?: Maybe<Scalars['String']>,
   pathPrefix?: Maybe<Scalars['String']>,
   polyfill?: Maybe<Scalars['Boolean']>,
   id: Scalars['ID'],
@@ -1476,8 +1472,6 @@ export type SiteFieldsEnum =
   'siteMetadata___social___vimeo' |
   'siteMetadata___social___youtube' |
   'siteMetadata___siteUrl' |
-  'port' |
-  'host' |
   'pathPrefix' |
   'polyfill' |
   'id' |
@@ -1570,8 +1564,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>,
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>,
-  port?: Maybe<IntQueryOperatorInput>,
-  host?: Maybe<StringQueryOperatorInput>,
   pathPrefix?: Maybe<StringQueryOperatorInput>,
   polyfill?: Maybe<BooleanQueryOperatorInput>,
   id?: Maybe<StringQueryOperatorInput>,
@@ -1782,7 +1774,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___name' |
   'pluginCreator___pluginOptions___path' |
   'pluginCreator___pluginOptions___typeName' |
-  'pluginCreator___pluginOptions___trackingID' |
+  'pluginCreator___pluginOptions___trackingId' |
   'pluginCreator___pluginOptions___short_name' |
   'pluginCreator___pluginOptions___start_url' |
   'pluginCreator___pluginOptions___background_color' |
@@ -1981,7 +1973,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___name' |
   'pluginOptions___path' |
   'pluginOptions___typeName' |
-  'pluginOptions___trackingID' |
+  'pluginOptions___trackingId' |
   'pluginOptions___short_name' |
   'pluginOptions___start_url' |
   'pluginOptions___background_color' |
@@ -2108,7 +2100,7 @@ export type SitePluginPluginOptions = {
   name?: Maybe<Scalars['String']>,
   path?: Maybe<Scalars['String']>,
   typeName?: Maybe<Scalars['String']>,
-  trackingID?: Maybe<Scalars['String']>,
+  trackingId?: Maybe<Scalars['String']>,
   short_name?: Maybe<Scalars['String']>,
   start_url?: Maybe<Scalars['String']>,
   background_color?: Maybe<Scalars['String']>,
@@ -2123,7 +2115,7 @@ export type SitePluginPluginOptionsFilterInput = {
   name?: Maybe<StringQueryOperatorInput>,
   path?: Maybe<StringQueryOperatorInput>,
   typeName?: Maybe<StringQueryOperatorInput>,
-  trackingID?: Maybe<StringQueryOperatorInput>,
+  trackingId?: Maybe<StringQueryOperatorInput>,
   short_name?: Maybe<StringQueryOperatorInput>,
   start_url?: Maybe<StringQueryOperatorInput>,
   background_color?: Maybe<StringQueryOperatorInput>,
@@ -2280,3 +2272,11 @@ export type ProgramTemplateQuery = { program: Maybe<(
     Pick<Program, 'id' | 'date' | 'subtitle' | 'title' | 'week' | 'year' | 'guests' | 'categories'>
     & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
   )> };
+
+export type Unnamed_3_QueryVariables = {};
+
+
+export type Unnamed_3_Query = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+      ) }> } };

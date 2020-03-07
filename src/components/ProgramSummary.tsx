@@ -71,8 +71,8 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                 onClick={() => {
                   navigate('/categories/', {
                     state: {
-                      category
-                    }
+                      category,
+                    },
                   });
                 }}
               />
@@ -88,8 +88,8 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                 onClick={() => {
                   navigate('/selectors/', {
                     state: {
-                      selector: guest
-                    }
+                      selector: guest,
+                    },
                   });
                 }}
               />

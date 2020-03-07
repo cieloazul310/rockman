@@ -38,17 +38,12 @@ interface Props {
 }
 
 function PageNavigation({ prev, next }: Props) {
-  console.log(prev, next);
   const classes = useStyles();
   return (
     <div className={classes.root}>
       {prev ? (
         <div className={classes.prev}>
-          <Button
-            component={GatsbyLink}
-            variant="outlined"
-            to={prev.to}
-          >
+          <Button component={GatsbyLink} variant="outlined" to={prev.to}>
             <ArrowBackIcon />
             {prev.label}
           </Button>
@@ -56,11 +51,7 @@ function PageNavigation({ prev, next }: Props) {
       ) : null}
       {next ? (
         <div className={classes.next}>
-          <Button
-            component={GatsbyLink}
-            variant="outlined"
-            to={next.to}
-          >
+          <Button component={GatsbyLink} variant="outlined" to={next.to}>
             {next.label}
             <ArrowForwardIcon />
           </Button>

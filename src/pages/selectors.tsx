@@ -6,10 +6,15 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../components/TabPageLayout';
 import { AllDataQuery } from '../../graphql-types';
 import LazyViewer from '../components/LazyViewer';
-import { getAllTunes, getProgramsContainsValue, filterPlaylist } from '../utils/filterPlaylist';
+import {
+  getAllTunes,
+  getProgramsContainsValue,
+  filterPlaylist,
+} from '../utils/filterPlaylist';
 import { SelectorItem } from '../types';
 
 interface TabPaneProps {
@@ -36,6 +41,7 @@ function TabPane({ value, index, children }: TabPaneProps) {
     </Container>
   );
 }
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function SelectorsPage() {
   const location: LocationWithState = useLocation();
@@ -91,7 +97,10 @@ function SelectorsPage() {
       .reduce<SelectorItem[]>((accum, curr) => {
         const existedIndex = accum.map(d => d[0]).indexOf(curr.selector);
         if (existedIndex < 0) {
-          const programsContainsSelector = getProgramsContainsValue('selector', curr.selector)(programs);
+          const programsContainsSelector = getProgramsContainsValue(
+            'selector',
+            curr.selector
+          )(programs);
           return [
             ...accum,
             [
@@ -100,8 +109,8 @@ function SelectorsPage() {
               filterPlaylist(
                 'selector',
                 curr.selector
-              )(programsContainsSelector).length
-            ]
+              )(programsContainsSelector).length,
+            ],
           ];
         } else {
           return accum;
@@ -137,7 +146,7 @@ function SelectorsPage() {
           <Tab key={d[0]} label={`${d[0]} ${d[2]}`} />
         ))}
       </Tabs>
-      <SwipeableViews
+      <BindKeyboardSwipeableViews
         index={value}
         onChangeIndex={_handleChangeIndex}
         resistance
@@ -151,7 +160,7 @@ function SelectorsPage() {
             />
           </TabPane>
         ))}
-      </SwipeableViews>
+      </BindKeyboardSwipeableViews>
     </Layout>
   );
 }

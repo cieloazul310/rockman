@@ -32,7 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             id
             title
-            date
+            date(formatString: "YYYY-MM-DD")
             categories
             fields {
               slug

@@ -30,7 +30,7 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {programs.map((program) => (
+          {programs.map(program => (
             <ListItem
               dense
               button
