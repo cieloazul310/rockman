@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import { CategoryIcon, SelectorIcon } from '../icons';
-import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
+import AppLink from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import SimpleNationBar from './SimpleNationBar';
 import SimpleYearsBar from './SimpleYearsBar';
 import { Program } from '../../graphql-types';
@@ -72,8 +72,7 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                   navigate('/categories/', {
                     state: {
                       category
-                    },
-                    replace: true
+                    }
                   });
                 }}
               />
@@ -90,8 +89,7 @@ function ProgramSummary({ program, enableLink = false }: Props) {
                   navigate('/selectors/', {
                     state: {
                       selector: guest
-                    },
-                    replace: true
+                    }
                   });
                 }}
               />

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-
+import Typography from '@material-ui/core/Typography';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import JunkList from '../components/JunkList';
 import { IndexQuery } from '../../graphql-types';
@@ -29,6 +29,7 @@ function IndexPage(props: Props) {
               corner
               id
               index
+              indexInWeek
               kana
               label
               producer
@@ -47,7 +48,10 @@ function IndexPage(props: Props) {
   const recentProgram = data.allProgram.edges[0].node;
 
   return (
-    <Layout title="ロック大陸漫遊記プレイリスト集" maxWidth="md">
+    <Layout maxWidth="md">
+      <Typography variant="h5" component="h2">
+        最新のプレイリスト
+      </Typography>
       <JunkList program={recentProgram} />
     </Layout>
   );

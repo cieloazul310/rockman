@@ -1,5 +1,6 @@
 import * as React from 'react';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+//import { useStaticQuery, graphql } from 'gatsby';
+import Layout from '../components/TabPageLayout';
 
 function ArtistPage() {
   return (

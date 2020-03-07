@@ -16,7 +16,6 @@ interface Props {
 
 function ArtistTemplate({ data, pageContext }: Props) {
   console.log(pageContext);
-  console.log(data);
   const { previous, next } = pageContext;
 
   return (

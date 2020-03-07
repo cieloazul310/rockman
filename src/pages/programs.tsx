@@ -1,5 +1,7 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import Box from '@material-ui/core/Box';
 import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Programs from '../components/Programs';
 
@@ -9,7 +11,11 @@ function ProgramsPage() {
       <Typography variant="h5" component="h3">
         放送回一覧
       </Typography>
-      <Programs />
+      <Container maxWidth="sm" disableGutters>
+        <Box py={4}>
+          <Programs />
+        </Box>
+      </Container>
     </Layout>
   );
 }

@@ -8,6 +8,7 @@ export default function useOnScreen(
   const [isIntersecting, setIntersecting] = React.useState(false);
 
   React.useEffect(() => {
+    const { current } = ref;
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Update our state when observer callback fires
@@ -18,12 +19,12 @@ export default function useOnScreen(
       }
     );
     if (ref.current) {
-      observer.observe(ref.current);
+      observer.observe(current);
     }
     return () => {
-      observer.unobserve(ref.current);
+      observer.unobserve(current);
     };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
+  }); // Empty array ensures that effect is only run on mount and unmount
 
   return isIntersecting;
 }

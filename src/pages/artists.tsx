@@ -16,7 +16,7 @@ import { ArtistItem } from '../types';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     searchBox: {
-      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
+      padding: `0 ${theme.spacing(2)}px`,
       display: 'flex'
     },
     searchText: {
@@ -48,7 +48,6 @@ function ArtistsPage() {
     setSearchText('');
   };
   const windowHeight = useWindowSize().height;
-  console.log(windowHeight);
 
   return (
     <Layout title="アーティスト一覧" maxWidth="md">
@@ -70,10 +69,10 @@ function ArtistsPage() {
         </Paper>
       </div>
       <Container maxWidth="sm" disableGutters>
-        <Box py={4}>
+        <Box py={2}>
           <AutoSizer
             disableHeight
-            defaultHeight={windowHeight ? windowHeight - 200 : 400}
+            defaultHeight={windowHeight ? windowHeight - 240 : 400}
           >
             {({ width, height }) => (
               <Artists width={width} height={height} filter={filter} />

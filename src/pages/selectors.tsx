@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-//import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Tabs from '@material-ui/core/Tabs';

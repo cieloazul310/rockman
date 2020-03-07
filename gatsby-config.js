@@ -8,6 +8,7 @@ module.exports = {
     lang: 'ja',
     siteUrl: 'https://cieloazul310.github.io/gatsby-rockman/',
     author: 'cieloazul310',
+    keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト'],
     social: {
       mail: '',
       twitter: 'cieloazul310',
@@ -52,7 +53,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#fafafa`,
         theme_color: `#009688`,
-        display: `standalone`
+        display: `standalone`,
+        icon: `src/assets/icon.png`
       }
     },
     {
@@ -61,7 +63,8 @@ module.exports = {
         siteUrl: `https://cieloazul310.github.io/gatsby-rockman/`
       }
     },
-    `gatsby-plugin-sitemap`,`gatsby-theme-typescript-material-ui`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-theme-typescript-material-ui`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

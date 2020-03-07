@@ -69,10 +69,10 @@ interface Props {
 function TuneCard({ tune }: Props) {
   const classes = useStyles();
   const _onArtistButtonClick = () => {
-    navigate(`/artist/${tune.artist}/`, { replace: true });
+    navigate(`/artist/${tune.artist}/`);
   };
   const _onSelectorClick = (selector: string) => () => {
-    navigate(`/selectors/`, { state: { selector }, replace: true });
+    navigate(`/selectors/`, { state: { selector }});
   };
   return (
     <Box my={2}>

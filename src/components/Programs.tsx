@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link as GatsbyLink } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItem from '@material-ui/core/ListItem';
@@ -8,7 +8,6 @@ import Chip from '@material-ui/core/Chip';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import ListItemLink from './ListItemLink';
 import { Program, ProgramsMenuQuery } from '../../graphql-types';
 
 interface ProgramsByYearProps {
@@ -32,17 +31,18 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {programs.map((program) => (
-            <ListItemLink
+            <ListItem
               dense
               button
               key={program.id}
               to={program.fields.slug}
+              component={GatsbyLink}
             >
               <ListItemText
                 primary={`${program.week}. ${program.title}`}
                 secondary={program.date}
               />
-            </ListItemLink>
+            </ListItem>
           ))}
         </List>
       </Collapse>

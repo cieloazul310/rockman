@@ -1,9 +1,12 @@
 import * as React from 'react';
-import { withPrefix } from 'gatsby';
+import { Link as GatsbyLink, withPrefix } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
+import ListItemAppLink from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
+//import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
 import { useLocation } from '@reach/router';
 import {
   HomeIcon,
@@ -11,52 +14,80 @@ import {
   ArtistIcon,
   CategoryIcon,
   SelectorIcon,
-  CornerIcon,
+  CornerIcon
 } from '../../../icons';
 
 function DrawerContent() {
   const { pathname } = useLocation();
-  console.log(pathname);
-  console.log(withPrefix(pathname));
   return (
     <>
       <List subheader={<ListSubheader>Menu</ListSubheader>}>
         <ListItemAppLink
           to="/"
-          primary="トップページ"
-          selected={withPrefix(pathname) === '/'}
-          icon={<HomeIcon />}
-        />
+          selected={pathname === withPrefix('/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <HomeIcon />
+          </ListItemIcon>
+          <ListItemText primary="トップページ" />
+        </ListItemAppLink>
         <ListItemAppLink
           to="/programs/"
-          primary="放送回"
-          selected={withPrefix(pathname) === '/programs/'}
-          icon={<ProgramIcon />}
-        />
+          selected={pathname === withPrefix('/programs/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <ProgramIcon />
+          </ListItemIcon>
+          <ListItemText primary="放送回" />
+        </ListItemAppLink>
         <ListItemAppLink
           to="/artists/"
-          primary="アーティスト"
-          selected={withPrefix(pathname) === '/artists/'}
-          icon={<ArtistIcon />}
-        />
+          selected={pathname === withPrefix('/artists/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <ArtistIcon />
+          </ListItemIcon>
+          <ListItemText primary="アーティスト" />
+        </ListItemAppLink>
         <ListItemAppLink
           to="/categories/"
-          primary="テーマ"
-          selected={withPrefix(pathname) === '/categories/'}
-          icon={<CategoryIcon />}
-        />
+          selected={pathname === withPrefix('/categories/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <CategoryIcon />
+          </ListItemIcon>
+          <ListItemText primary="テーマ" />
+        </ListItemAppLink>
         <ListItemAppLink
           to="/corners/"
-          primary="コーナー"
-          selected={withPrefix(pathname) === '/corners/'}
-          icon={<CornerIcon />}
-        />
+          selected={pathname === withPrefix('/corners/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <CornerIcon />
+          </ListItemIcon>
+          <ListItemText primary="コーナー" />
+        </ListItemAppLink>
         <ListItemAppLink
           to="/selectors/"
-          primary="選曲者"
-          selected={withPrefix(pathname) === '/selectors/'}
-          icon={<SelectorIcon />}
-        />
+          selected={pathname === withPrefix('/selectors/')}
+          button
+          component={GatsbyLink}
+        >
+          <ListItemIcon>
+            <SelectorIcon />
+          </ListItemIcon>
+          <ListItemText primary="選曲者" />
+        </ListItemAppLink>
       </List>
       <Divider />
     </>

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
 import { graphql, navigate, withPrefix } from 'gatsby';
-//import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
@@ -18,7 +17,7 @@ import { ProgramTemplateQuery } from '../../graphql-types';
 
 function SkeletonPage({ program }: { program: QueriedProgram }) {
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="md" disableGutters>
       <Box>
         <WeekSummaryBox program={program} />
         <TuneCardSkeleton />
@@ -62,11 +61,11 @@ function ProgramTemplate({ data, pageContext }: Props) {
   const SwipePages = React.useMemo(() => {
     return [previous, program, next]
       .filter(obj => obj !== null)
-      .map((program, index) =>
-        program.id === program.id ? (
+      .map((tabProgram, index) =>
+        tabProgram.id === program.id ? (
           <Container key={index} maxWidth="md" disableGutters>
             <Box>
-              <JunkList program={program} />
+              <JunkList program={tabProgram} />
               <PageNavigation
                 prev={
                   previous
@@ -78,7 +77,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
             </Box>
           </Container>
         ) : (
-          <SkeletonPage key={index} program={program} />
+          <SkeletonPage key={index} program={tabProgram} />
         )
       );
   }, [previous, program, next]);

@@ -1461,6 +1461,7 @@ export type SiteFieldsEnum =
   'siteMetadata___title' |
   'siteMetadata___description' |
   'siteMetadata___author' |
+  'siteMetadata___keywords' |
   'siteMetadata___lang' |
   'siteMetadata___social___mail' |
   'siteMetadata___social___twitter' |
@@ -1787,6 +1788,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___background_color' |
   'pluginCreator___pluginOptions___theme_color' |
   'pluginCreator___pluginOptions___display' |
+  'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___siteUrl' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
@@ -1985,6 +1987,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___background_color' |
   'pluginOptions___theme_color' |
   'pluginOptions___display' |
+  'pluginOptions___icon' |
   'pluginOptions___siteUrl' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
@@ -2111,6 +2114,7 @@ export type SitePluginPluginOptions = {
   background_color?: Maybe<Scalars['String']>,
   theme_color?: Maybe<Scalars['String']>,
   display?: Maybe<Scalars['String']>,
+  icon?: Maybe<Scalars['String']>,
   siteUrl?: Maybe<Scalars['String']>,
   pathCheck?: Maybe<Scalars['Boolean']>,
 };
@@ -2125,6 +2129,7 @@ export type SitePluginPluginOptionsFilterInput = {
   background_color?: Maybe<StringQueryOperatorInput>,
   theme_color?: Maybe<StringQueryOperatorInput>,
   display?: Maybe<StringQueryOperatorInput>,
+  icon?: Maybe<StringQueryOperatorInput>,
   siteUrl?: Maybe<StringQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
 };
@@ -2138,6 +2143,7 @@ export type SiteSiteMetadata = {
   title?: Maybe<Scalars['String']>,
   description?: Maybe<Scalars['String']>,
   author?: Maybe<Scalars['String']>,
+  keywords?: Maybe<Array<Maybe<Scalars['String']>>>,
   lang?: Maybe<Scalars['String']>,
   social?: Maybe<SiteSiteMetadataSocial>,
   siteUrl?: Maybe<Scalars['String']>,
@@ -2147,6 +2153,7 @@ export type SiteSiteMetadataFilterInput = {
   title?: Maybe<StringQueryOperatorInput>,
   description?: Maybe<StringQueryOperatorInput>,
   author?: Maybe<StringQueryOperatorInput>,
+  keywords?: Maybe<StringQueryOperatorInput>,
   lang?: Maybe<StringQueryOperatorInput>,
   social?: Maybe<SiteSiteMetadataSocialFilterInput>,
   siteUrl?: Maybe<StringQueryOperatorInput>,
@@ -2200,10 +2207,10 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>,
 };
 
-export type Unnamed_1_QueryVariables = {};
+export type AllDataQueryVariables = {};
 
 
-export type Unnamed_1_Query = { allProgram: { edges: Array<{ node: (
+export type AllDataQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
         & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
@@ -2230,10 +2237,10 @@ export type ContainCategoriesQuery = { allProgram: { edges: Array<{ node: (
         & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
       )> }> } };
 
-export type Unnamed_2_QueryVariables = {};
+export type Unnamed_1_QueryVariables = {};
 
 
-export type Unnamed_2_Query = { allProgram: { edges: Array<{ node: (
+export type Unnamed_1_Query = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
         & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
@@ -2243,27 +2250,13 @@ export type IndexQueryVariables = {};
 
 export type IndexQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
-        & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+        & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
-export type AllDataQueryVariables = {};
+export type Unnamed_2_QueryVariables = {};
 
 
-export type AllDataQuery = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ), next: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )>, previous: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )> }> } };
-
-export type Unnamed_3_QueryVariables = {};
-
-
-export type Unnamed_3_Query = { allProgram: { edges: Array<{ node: (
+export type Unnamed_2_Query = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
         & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };

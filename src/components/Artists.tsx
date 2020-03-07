@@ -10,19 +10,6 @@ import { getYomi } from '../utils/sortByYomi';
 import { ArtistItem } from '../types';
 import { AllDataQuery } from '../../graphql-types';
 
-/*
-function SkeletonListItem(props: any) {
-  return (
-    <ListItem button {...props}>
-      <ListItemAvatar>
-        <Skeleton variant="circle" width={40} height={40} />
-      </ListItemAvatar>
-      <ListItemText primary={<Skeleton variant="text" width={200} />} />
-    </ListItem>
-  );
-}
-*/
-
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
   return (
@@ -61,7 +48,7 @@ function Artists({
   sort = (a, b) => b[3].length - a[3].length
 }: Props) {
   const data = useStaticQuery<AllDataQuery>(graphql`
-    query {
+    query AllData {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {

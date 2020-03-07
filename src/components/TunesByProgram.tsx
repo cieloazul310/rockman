@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
-import { AppLink } from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
+import AppLink from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import TuneCard from './TuneCard';
 import { Program, ProgramPlaylist } from '../../graphql-types';
 
