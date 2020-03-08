@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import AppLink from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
 import TuneCard from './TuneCard';
@@ -11,18 +12,17 @@ interface Props {
 
 function TunesByProgram({ program, filter = () => true }: Props) {
   return (
-    <div>
+    <Box py={2}>
       <Typography variant="subtitle2" component="span">
         第{program.week}回 {program.date}
       </Typography>
-
       <Typography variant="h6" component="h3" gutterBottom>
         <AppLink to={program.fields.slug}>{program.title}</AppLink>
       </Typography>
       {program.playlist.filter(filter).map(tune => (
         <TuneCard key={tune.id} tune={tune} />
       ))}
-    </div>
+    </Box>
   );
 }
 

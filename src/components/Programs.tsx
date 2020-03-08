@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { useStaticQuery, graphql, Link as GatsbyLink } from 'gatsby';
 import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Chip from '@material-ui/core/Chip';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import { Program, ProgramsMenuQuery } from '../../graphql-types';
+import { useAllPrograms } from '../utils/graphql-hooks';
+import { QueriedProgram } from '../types';
 
 interface ProgramsByYearProps {
   year: number;
-  programs: Pick<Program, 'id' | 'fields' | 'week' | 'title' | 'date'>[];
+  programs: QueriedProgram[];
 }
 
 function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
@@ -51,39 +51,16 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
 }
 
 function Programs() {
-  const data = useStaticQuery<ProgramsMenuQuery>(graphql`
-    query ProgramsMenu {
-      allProgram(sort: { fields: week, order: ASC }) {
-        edges {
-          node {
-            id
-            title
-            week
-            date(formatString: "YYYY-MM-DD")
-            year
-            fields {
-              slug
-            }
-          }
-        }
-      }
-    }
-  `).allProgram.edges;
+  const programs = useAllPrograms();
+  const years = React.useMemo(() => {
+    return [2018, 2019, 2020].map(year => (
+      <ProgramsByYear key={year} year={year} programs={programs.filter(program => program.year === year)} />
+    ));
+  }, [programs]);
 
   return (
-    <List subheader={<ListSubheader>放送回</ListSubheader>}>
-      <ProgramsByYear
-        year={2018}
-        programs={data.filter(d => d.node.year === 2018).map(d => d.node)}
-      />
-      <ProgramsByYear
-        year={2019}
-        programs={data.filter(d => d.node.year === 2019).map(d => d.node)}
-      />
-      <ProgramsByYear
-        year={2020}
-        programs={data.filter(d => d.node.year === 2020).map(d => d.node)}
-      />
+    <List>
+      {years}
     </List>
   );
 }

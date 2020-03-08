@@ -5,7 +5,7 @@ import { IconProps } from '@material-ui/core/Icon';
 import {
   faTwitter,
   faFacebookF,
-  faYoutube
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import FabIcon from 'gatsby-theme-typescript-material-ui/src/components/FabIcon';
 import useSocialShare from 'gatsby-theme-typescript-material-ui/src/utils/useSocialShare';
@@ -20,7 +20,7 @@ function ShareButtons({
   className,
   title,
   fontSize = 'default',
-  color = 'default'
+  color = 'default',
 }: Props) {
   const twitterUrl = useSocialShare('twitter', title);
   const fbUrl = useSocialShare('facebook');

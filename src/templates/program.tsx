@@ -5,7 +5,8 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from '../components/TabPageLayout';
+import Layout from 'gatsby-theme-typescript-material-ui/src/layout/TabPageLayout';
+import TabPane from 'gatsby-theme-typescript-material-ui/src/layout/TabPane';
 import JunkList from '../components/JunkList';
 import WeekSummaryBox from '../components/ProgramSummary';
 import { TuneCardSkeleton } from '../components/TuneCard';
@@ -18,11 +19,9 @@ import { ProgramTemplateQuery } from '../../graphql-types';
 
 function SkeletonPage({ program }: { program: QueriedProgram }) {
   return (
-    <Container maxWidth="md" disableGutters>
-      <Box>
+    <Container maxWidth="md">
+      <Box py={2}>
         <WeekSummaryBox program={program} />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
         <TuneCardSkeleton />
         <TuneCardSkeleton />
         <TuneCardSkeleton />
@@ -64,19 +63,17 @@ function ProgramTemplate({ data, pageContext }: Props) {
       .filter(obj => obj !== null)
       .map((tabProgram, index) =>
         tabProgram.id === program.id ? (
-          <Container key={index} maxWidth="md" disableGutters>
-            <Box>
-              <JunkList program={tabProgram} />
-              <PageNavigation
-                prev={
-                  previous
-                    ? { to: previous.fields.slug, label: previous.title }
-                    : null
-                }
-                next={next ? { to: next.fields.slug, label: next.title } : null}
-              />
-            </Box>
-          </Container>
+          <TabPane key={index} maxWidth="md" index={index} value={index}>
+            <JunkList program={tabProgram} />
+            <PageNavigation
+              prev={
+                previous
+                  ? { to: previous.fields.slug, label: previous.title }
+                  : null
+              }
+              next={next ? { to: next.fields.slug, label: next.title } : null}
+            />
+          </TabPane>
         ) : (
           <SkeletonPage key={index} program={tabProgram} />
         )

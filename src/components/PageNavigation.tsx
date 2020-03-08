@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
@@ -15,15 +16,7 @@ const useStyles = makeStyles((theme: Theme) =>
       [theme.breakpoints.down('sm')]: {
         flexDirection: 'column',
       },
-    },
-    prev: {
-      textAlign: 'left',
-      padding: theme.spacing(1),
-    },
-    next: {
-      textAlign: 'right',
-      padding: theme.spacing(1),
-    },
+    }
   })
 );
 
@@ -40,24 +33,24 @@ interface Props {
 function PageNavigation({ prev, next }: Props) {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <Box className={classes.root}>
       {prev ? (
-        <div className={classes.prev}>
+        <Box p={1} textAlign="left">
           <Button component={GatsbyLink} variant="outlined" to={prev.to}>
             <ArrowBackIcon />
             {prev.label}
           </Button>
-        </div>
+        </Box>
       ) : null}
       {next ? (
-        <div className={classes.next}>
+        <Box p={1} textAlign="right">
           <Button component={GatsbyLink} variant="outlined" to={next.to}>
             {next.label}
             <ArrowForwardIcon />
           </Button>
-        </div>
+        </Box>
       ) : null}
-    </div>
+    </Box>
   );
 }
 
@@ -66,19 +59,19 @@ export default PageNavigation;
 export function PageNavigationSkeleton() {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <div className={classes.prev}>
+    <Box className={classes.root}>
+      <Box p={1} textAlign="left">
         <Button variant="outlined">
           <Skeleton variant="circle" width={24} height={24} />
           <Skeleton variant="text" width={120} />
         </Button>
-      </div>
-      <div className={classes.next}>
+      </Box>
+      <Box p={1} textAlign="right">
         <Button variant="outlined">
           <Skeleton variant="text" width={120} />
           <Skeleton variant="circle" width={24} height={24} />
         </Button>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 }

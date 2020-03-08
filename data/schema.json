@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "SPITZ草野マサムネのロック大陸漫遊記プレイリスト",
+  "type": "object",
+  "required": [
+    "id",
+    "week",
+    "title",
+    "subtitle",
+    "guests",
+    "categories",
+    "date",
+    "playlist"
+  ],
+  "properties": {
+    "id": {
+      "description": "",
+      "type": "string"
+    },
+    "week": {
+      "description": "",
+      "type": "integer"
+    },
+    "title": {
+      "description": "",
+      "type": "string"
+    },
+    "subtitle": {
+      "description": "",
+      "default": "",
+      "type": "string"
+    },
+    "guests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "examples": [
+          "田村明浩",
+          "三輪テツヤ",
+          "崎山龍男",
+          "クジヒロコ",
+          "鈴木圭介(フラワーカンパニーズ)"
+        ]
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "examples": [
+          "アーティスト特集",
+          "スピッツメンバーと漫遊記",
+          "ゲスト回",
+          "リクエスト特集",
+          "地域特集",
+          "リズム特集",
+          "昔の音楽雑誌で漫遊記",
+          "変則アーティスト特集",
+          "面白ソング特集",
+          "T・Y・K(当初やりたかった感じ)",
+          "プロデューサー特集"
+        ]
+      }
+    },
+    "date": {
+      "type": "string"
+    },
+    "playlist": {
+      "description": "",
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "required": [
+            "id",
+            "week",
+            "indexInWeek",
+            "title",
+            "artist",
+            "kana",
+            "year",
+            "nation",
+            "label",
+            "producer",
+            "corner",
+            "youtube"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "week": {
+              "type": "integer"
+            },
+            "indexInWeek": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "artist": {
+              "type": "string"
+            },
+            "kana": {
+              "type": "string"
+            },
+            "year": {
+              "type": "integer"
+            },
+            "nation": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "producer": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "corner": {
+              "type": "string",
+              "examples": [
+                "",
+                "漫遊前の一曲",
+                "ちょっぴりタイムマシン",
+                "放送事故で曲かからず"
+              ]
+            },
+            "selector": {
+              "type": "string",
+              "default": "草野マサムネ",
+              "examples": [
+                "リクエスト",
+                "田村明浩",
+                "三輪テツヤ",
+                "崎山龍男",
+                "クジヒロコ"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -5,7 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { useLocation } from '@reach/router';
-import Layout from '../components/TabPageLayout';
+import Layout from 'gatsby-theme-typescript-material-ui/src/layout/TabPageLayout';
 import { useAllArtists } from '../utils/graphql-hooks/useAllPrograms';
 import { ArtistItem } from '../types';
 /*

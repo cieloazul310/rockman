@@ -2199,58 +2199,12 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>,
 };
 
-export type AllDataQueryVariables = {};
-
-
-export type AllDataQuery = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ) }> } };
-
-export type ProgramsMenuQueryVariables = {};
-
-
-export type ProgramsMenuQuery = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'week' | 'date' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      ) }> } };
-
-export type ContainCategoriesQueryVariables = {};
-
-
-export type ContainCategoriesQuery = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ), next: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )>, previous: Maybe<(
-        Pick<Program, 'title' | 'week'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
-      )> }> } };
-
-export type Unnamed_1_QueryVariables = {};
-
-
-export type Unnamed_1_Query = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ) }> } };
-
 export type IndexQueryVariables = {};
 
 
 export type IndexQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
         & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
-      ) }> } };
-
-export type Unnamed_2_QueryVariables = {};
-
-
-export type Unnamed_2_Query = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
 export type ArtistTemplateQueryVariables = {
@@ -2273,10 +2227,10 @@ export type ProgramTemplateQuery = { program: Maybe<(
     & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
   )> };
 
-export type Unnamed_3_QueryVariables = {};
+export type AllProgramQueryVariables = {};
 
 
-export type Unnamed_3_Query = { allProgram: { edges: Array<{ node: (
+export type AllProgramQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
         & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };

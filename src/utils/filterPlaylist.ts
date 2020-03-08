@@ -28,3 +28,13 @@ export function filterPlaylist(playlistKey: keyof ProgramPlaylist, value: any) {
     );
   };
 }
+
+export function getPlaylistStrings(playlist: ProgramPlaylist[], key: keyof ProgramPlaylist): string[] {
+  return playlist.reduce((accum, curr) => {
+    if (accum.indexOf(curr[key]) >= 0) {
+      return accum
+    } else {
+      return [...accum, curr[key]];
+    }
+  }, []);
+}

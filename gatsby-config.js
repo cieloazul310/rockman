@@ -21,7 +21,8 @@ module.exports = {
       tumblr: '',
       instagram: '',
       vimeo: '',
-      youtube: ''
+      youtube:
+        'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ'
     }
   },
   pathPrefix: '/gatsby-rockman',

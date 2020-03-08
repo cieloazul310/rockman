@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { navigate } from 'gatsby';
+import { Link as GatsbyLink, navigate } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
@@ -18,14 +18,6 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       display: 'flex',
-    },
-    cardRight: {
-      flex: 1,
-    },
-    cardSubheader: {
-      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px 0 ${theme.spacing(
-        2
-      )}px`,
     },
     cardThumbnail: {
       flex: 'auto',
@@ -77,7 +69,7 @@ function TuneCard({ tune }: Props) {
   return (
     <Box my={2}>
       <Card className={classes.root}>
-        <div className={classes.cardThumbnail}>
+        <Box className={classes.cardThumbnail}>
           {tune.youtube ? (
             <a
               className={classes.cardThumbnailLink}
@@ -92,14 +84,14 @@ function TuneCard({ tune }: Props) {
               />
             </a>
           ) : null}
-        </div>
-        <div className={classes.cardRight}>
-          <div className={classes.cardSubheader}>
+        </Box>
+        <Box flex="1">
+          <Box px={2} pt={1}>
             <Typography variant="body2">
               M{tune.indexInWeek}. {tune.corner}{' '}
               {tune.selector !== '草野マサムネ' ? `${tune.selector}選曲` : null}
             </Typography>
-          </div>
+          </Box>
           <CardHeader
             avatar={<NationAvatar nation={tune.nation} />}
             title={tune.title}
@@ -107,13 +99,13 @@ function TuneCard({ tune }: Props) {
           />
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
-              <IconButton onClick={_onArtistButtonClick}>
+              <IconButton component={GatsbyLink} to={`/artist/${tune.artist}`}>
                 <ArtistIcon />
               </IconButton>
             </Tooltip>
             {tune.selector !== '草野マサムネ' ? (
               <Tooltip title={`${tune.selector}選曲の曲をブラウズ`}>
-                <IconButton onClick={_onSelectorClick(tune.selector)}>
+                <IconButton component={GatsbyLink} to="/selectors/" state={{ selector: tune.selector }}>
                   <SelectorIcon />
                 </IconButton>
               </Tooltip>
@@ -130,7 +122,7 @@ function TuneCard({ tune }: Props) {
               </Tooltip>
             ) : null}
           </CardActions>
-        </div>
+        </Box>
       </Card>
     </Box>
   );
@@ -146,12 +138,12 @@ export function TuneCardSkeleton() {
         <div className={classes.cardThumbnail}>
           <Skeleton variant="rect" />
         </div>
-        <div className={classes.cardRight}>
-          <div className={classes.cardSubheader}>
+        <Box flex="1">
+          <Box px={2} pt={1}>
             <Typography variant="body2">
               <Skeleton variant="text" />
             </Typography>
-          </div>
+          </Box>
           <CardHeader
             avatar={<Skeleton variant="circle" width={40} height={40} />}
             title={<Skeleton variant="text" />}
@@ -162,7 +154,7 @@ export function TuneCardSkeleton() {
             <Skeleton variant="circle" width={40} height={40} />
             <Skeleton variant="circle" width={40} height={40} />
           </CardActions>
-        </div>
+        </Box>
       </Card>
     </Box>
   );

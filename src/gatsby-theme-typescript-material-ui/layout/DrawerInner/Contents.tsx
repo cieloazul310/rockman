@@ -6,7 +6,6 @@ import ListItemAppLink from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
-//import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
 import { useLocation } from '@reach/router';
 import {
   HomeIcon,
@@ -42,7 +41,7 @@ function DrawerContent() {
           <ListItemIcon>
             <ProgramIcon />
           </ListItemIcon>
-          <ListItemText primary="放送回" />
+          <ListItemText primary="放送回一覧" />
         </ListItemAppLink>
         <ListItemAppLink
           to="/artists/"
