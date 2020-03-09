@@ -4,8 +4,8 @@ import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout/TabPageLayout';
-import TabPane from 'gatsby-theme-typescript-material-ui/src/layout/TabPane';
+import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
 import { useCorners } from '../utils/graphql-hooks';
 
@@ -40,8 +40,6 @@ function CornersPage() {
         <Tabs
           value={value}
           onChange={_handleChange}
-          indicatorColor="primary"
-          textColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"

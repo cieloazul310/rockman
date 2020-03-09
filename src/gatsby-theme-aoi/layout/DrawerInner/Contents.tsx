@@ -5,7 +5,6 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItemAppLink from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Divider from '@material-ui/core/Divider';
 import { useLocation } from '@reach/router';
 import {
   HomeIcon,
@@ -19,7 +18,6 @@ import {
 function DrawerContent() {
   const { pathname } = useLocation();
   return (
-    <>
       <List subheader={<ListSubheader>Menu</ListSubheader>}>
         <ListItemAppLink
           to="/"
@@ -88,8 +86,6 @@ function DrawerContent() {
           <ListItemText primary="選曲者" />
         </ListItemAppLink>
       </List>
-      <Divider />
-    </>
   );
 }
 

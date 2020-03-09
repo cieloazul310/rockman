@@ -8,7 +8,7 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import CancelIcon from '@material-ui/icons/Cancel';
 import FilterIcon from '@material-ui/icons/Filter';
 import { AutoSizer } from 'react-virtualized';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
 import useWindowSize from '../utils/useWindowSize';
 import { ArtistItem } from '../types';

@@ -4,11 +4,17 @@ module.exports = {
   siteMetadata: {
     title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
     description:
-      'TOKYO-FM で放送中の SPITZ 草野マサムネのロック大陸漫遊記 のプレイリスト集。',
+      'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
     lang: 'ja',
     siteUrl: 'https://cieloazul310.github.io/gatsby-rockman/',
     author: 'cieloazul310',
-    keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト'],
+    keywords: [
+      'スピッツ',
+      '草野マサムネ',
+      'ロック大陸漫遊記',
+      'プレイリスト',
+      'ラジオ'
+    ],
     social: {
       mail: '',
       twitter: 'cieloazul310',
@@ -21,8 +27,7 @@ module.exports = {
       tumblr: '',
       instagram: '',
       vimeo: '',
-      youtube:
-        'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ'
+      youtube: 'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ'
     }
   },
   pathPrefix: '/gatsby-rockman',
@@ -61,11 +66,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://cieloazul310.github.io/gatsby-rockman/`
+        siteUrl: `https://cieloazul310.github.io/`
       }
     },
+    `gatsby-theme-aoi`,
     `gatsby-plugin-sitemap`,
-    `gatsby-theme-typescript-material-ui`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

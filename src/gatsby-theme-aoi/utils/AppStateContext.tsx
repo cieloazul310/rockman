@@ -2,10 +2,12 @@ import * as React from 'react';
 import { AppState, initialAppState } from './AppState';
 import { Action } from './reducer';
 
-const AppStateContext = React.createContext<{
+type AppContext = {
   state: AppState;
   dispatch: React.Dispatch<Action>;
-}>({
+};
+
+const AppStateContext = React.createContext<AppContext>({
   state: initialAppState,
   dispatch: () => {
     throw new Error();

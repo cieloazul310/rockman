@@ -1,6 +1,12 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { QueriedProgram, ArtistItem, CategoryItem, CornerItem, SelectorItem } from '../../types';
+import {
+  QueriedProgram,
+  ArtistItem,
+  CategoryItem,
+  CornerItem,
+  SelectorItem,
+} from '../../types';
 import { getProgramsContainsValue, filterPlaylist } from '../filterPlaylist';
 import { AllProgramQuery, ProgramPlaylist } from '../../../graphql-types';
 
@@ -53,33 +59,27 @@ export function useAllPrograms(): QueriedProgram[] {
 export function useAllTunes(): ProgramPlaylist[] {
   console.log('useAllTunes');
   const programs = useAllPrograms();
-  return React.useMemo(
-    () => {
-      console.log('useAllTunes useMemo');
-      return programs.reduce((accum, curr) => [...accum, ...curr.playlist], []);
-    },
-    []
-  );
+  return React.useMemo(() => {
+    console.log('useAllTunes useMemo');
+    return programs.reduce((accum, curr) => [...accum, ...curr.playlist], []);
+  }, []);
 }
 
 export function useAllArtists(): ArtistItem[] {
   console.log('useAllArtists');
   const allTunes = useAllTunes();
-  return React.useMemo(
-    () =>
-      {
-        console.log('useAllArtists useMemo');
-        return allTunes.reduce<ArtistItem[]>((accum, curr) => {
-        const existedIndex = accum.map(d => d[0]).indexOf(curr.artist);
-        if (existedIndex < 0) {
-          return [...accum, [curr.artist, curr.kana, curr.nation, [curr]]];
-        } else {
-          accum[existedIndex][3].push(curr);
-          return accum;
-        }
-      }, [])},
-    []
-  );
+  return React.useMemo(() => {
+    console.log('useAllArtists useMemo');
+    return allTunes.reduce<ArtistItem[]>((accum, curr) => {
+      const existedIndex = accum.map(d => d[0]).indexOf(curr.artist);
+      if (existedIndex < 0) {
+        return [...accum, [curr.artist, curr.kana, curr.nation, [curr]]];
+      } else {
+        accum[existedIndex][3].push(curr);
+        return accum;
+      }
+    }, []);
+  }, []);
 }
 
 export function useCategories(): CategoryItem[] {
@@ -88,16 +88,18 @@ export function useCategories(): CategoryItem[] {
   return React.useMemo(() => {
     console.log('useCategories useMemo');
     const categories: CategoryItem[] = [];
-    programs.filter(program => program.categories.length).forEach(program => {
-      program.categories.forEach(category => {
-        const existedIndex = categories.map(d => d[0]).indexOf(category);
-        if (existedIndex < 0) {
-          categories.push([category, [program]]);
-        } else {
-          categories[existedIndex][1].push(program);
-        }
+    programs
+      .filter(program => program.categories.length)
+      .forEach(program => {
+        program.categories.forEach(category => {
+          const existedIndex = categories.map(d => d[0]).indexOf(category);
+          if (existedIndex < 0) {
+            categories.push([category, [program]]);
+          } else {
+            categories[existedIndex][1].push(program);
+          }
+        });
       });
-    });
     return categories.sort((a, b) => b[1].length - a[1].length);
   }, []);
 }
@@ -124,8 +126,8 @@ export function useCorners(): CornerItem[] {
               curr.corner,
               programsContainsCorner,
               filterPlaylist('corner', curr.corner)(programsContainsCorner)
-                .length
-            ]
+                .length,
+            ],
           ];
         } else {
           return accum;
@@ -158,8 +160,8 @@ export function useSelectors(): SelectorItem[] {
               filterPlaylist(
                 'selector',
                 curr.selector
-              )(programsContainsSelector).length
-            ]
+              )(programsContainsSelector).length,
+            ],
           ];
         } else {
           return accum;

@@ -1,31 +1,24 @@
 import * as React from 'react';
+import Box from '@material-ui/core/Box';
 import IconButton, { IconButtonProps } from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
-import { IconProps } from '@material-ui/core/Icon';
-import {
-  faTwitter,
-  faFacebookF,
-  faYoutube,
-} from '@fortawesome/free-brands-svg-icons';
-import FabIcon from 'gatsby-theme-typescript-material-ui/src/components/FabIcon';
-import useSocialShare from 'gatsby-theme-typescript-material-ui/src/utils/useSocialShare';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import { useSiteMetadata } from 'gatsby-theme-aoi/src/graphql-hooks';
+import useSocialShare from 'gatsby-theme-aoi/src/utils/useSocialShare';
 
 type Props = {
   className?: string;
   title?: string;
-} & Partial<Pick<IconProps, 'fontSize'>> &
-  Partial<Pick<IconButtonProps, 'color'>>;
+} & Partial<Pick<IconButtonProps, 'color'>>;
 
-function ShareButtons({
-  className,
-  title,
-  fontSize = 'default',
-  color = 'default',
-}: Props) {
+function ShareButtons({ className, title, color = 'default' }: Props) {
+  const { youtube } = useSiteMetadata().social;
   const twitterUrl = useSocialShare('twitter', title);
   const fbUrl = useSocialShare('facebook');
   return (
-    <div className={className}>
+    <Box className={className}>
       <Tooltip title="Twitterでシェア">
         <IconButton
           color={color}
@@ -33,7 +26,7 @@ function ShareButtons({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FabIcon icon={faTwitter} fontSize={fontSize} />
+          <TwitterIcon />
         </IconButton>
       </Tooltip>
       <Tooltip title="Facebookでシェア">
@@ -43,20 +36,20 @@ function ShareButtons({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FabIcon icon={faFacebookF} fontSize={fontSize} />
+          <FacebookIcon />
         </IconButton>
       </Tooltip>
       <Tooltip title="YouTube">
         <IconButton
           color={color || 'default'}
-          href="https://www.youtube.com/playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ"
+          href={`https://www.youtube.com/${youtube}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FabIcon icon={faYoutube} fontSize={fontSize || 'default'} />
+          <YouTubeIcon />
         </IconButton>
       </Tooltip>
-    </div>
+    </Box>
   );
 }
 

@@ -7,7 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Collapse from '@material-ui/core/Collapse';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import AppLink from 'gatsby-theme-typescript-material-ui/src/components/AppLink';
+import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import SimpleNationBar from './SimpleNationBar';
 import SimpleYearsBar from './SimpleYearsBar';
 import { getPlaylistStrings } from '../utils/filterPlaylist';
@@ -22,22 +22,22 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
   createStyles({
     expandIcon: {
       transform: ({ open }) => (open ? 'rotate(180deg)' : 'rotate(0deg)'),
-      transition: theme.transitions.create('transform')
+      transition: theme.transitions.create('transform'),
     },
     tagsOuter: {
       overflowX: 'scroll',
       overflowY: 'hidden',
       scrollbarWidth: 'none',
       minHeight: 40,
-      WebkitOverflowScrolling: 'touch'
+      WebkitOverflowScrolling: 'touch',
     },
     summaryArtists: {
       display: 'inline-block',
       //fontWeight: theme.typography.fontWeightBold,
       '&:not(:last-child)': {
-        marginRight: theme.spacing(1)
-      }
-    }
+        marginRight: theme.spacing(1),
+      },
+    },
   })
 );
 
@@ -50,7 +50,7 @@ interface Props {
 function ProgramSummary({
   program,
   enableLink = false,
-  defaultOpen = false
+  defaultOpen = false,
 }: Props) {
   const [open, setOpen] = React.useState(defaultOpen);
   const classes = useStyles({ open });
@@ -86,7 +86,7 @@ function ProgramSummary({
           </Box>
           <Box display="flex" flexDirection="column" justifyContent="center">
             <Box>
-              <IconButton onClick={_handleOpen}>
+              <IconButton onClick={_handleOpen} aria-label="Toggle Summary">
                 <ExpandMoreIcon className={classes.expandIcon} />
               </IconButton>
             </Box>
@@ -135,12 +135,16 @@ export default ProgramSummary;
 const useChipStyles = makeStyles((theme: Theme) =>
   createStyles({
     chip: {
-      margin: `0 ${theme.spacing(0.5)}px ${theme.spacing(1)}px 0`
-    }
+      margin: `0 ${theme.spacing(0.5)}px ${theme.spacing(1)}px 0`,
+    },
   })
 );
 
-function CategoriesAndSelectors({ program }: { program: Pick<QueriedProgram, "categories" | "guests">;}) {
+function CategoriesAndSelectors({
+  program,
+}: {
+  program: Pick<QueriedProgram, 'categories' | 'guests'>;
+}) {
   const classes = useChipStyles();
   return (
     <Box width="max-content">
@@ -156,8 +160,8 @@ function CategoriesAndSelectors({ program }: { program: Pick<QueriedProgram, "ca
               onClick={() => {
                 navigate('/categories/', {
                   state: {
-                    category
-                  }
+                    category,
+                  },
                 });
               }}
             />
@@ -174,8 +178,8 @@ function CategoriesAndSelectors({ program }: { program: Pick<QueriedProgram, "ca
               onClick={() => {
                 navigate('/selectors/', {
                   state: {
-                    selector: guest
-                  }
+                    selector: guest,
+                  },
                 });
               }}
             />

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useStaticQuery, graphql, Link as GatsbyLink } from 'gatsby';
+import { Link as GatsbyLink } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -54,15 +54,15 @@ function Programs() {
   const programs = useAllPrograms();
   const years = React.useMemo(() => {
     return [2018, 2019, 2020].map(year => (
-      <ProgramsByYear key={year} year={year} programs={programs.filter(program => program.year === year)} />
+      <ProgramsByYear
+        key={year}
+        year={year}
+        programs={programs.filter(program => program.year === year)}
+      />
     ));
   }, [programs]);
 
-  return (
-    <List>
-      {years}
-    </List>
-  );
+  return <List>{years}</List>;
 }
 
 export default Programs;

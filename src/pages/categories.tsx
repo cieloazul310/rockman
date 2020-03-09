@@ -5,9 +5,10 @@ import Divider from '@material-ui/core/Divider';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout/TabPageLayout';
-import TabPane from 'gatsby-theme-typescript-material-ui/src/layout/TabPane';
+import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import ProgramSummary from '../components/ProgramSummary';
+import useSorter from '../utils/useSorter';
 import { useCategories } from '../utils/graphql-hooks';
 
 type LocationWithState = WindowLocation & {
@@ -26,6 +27,7 @@ function CategoriesPage() {
       ? categories.map(d => d[0]).indexOf(location.state.category)
       : 0;
   const [value, setValue] = React.useState(initialValue);
+  const sorter = useSorter();
   const _handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     setValue(newValue);
   };
@@ -41,8 +43,6 @@ function CategoriesPage() {
         <Tabs
           value={value}
           onChange={_handleChange}
-          indicatorColor="primary"
-          textColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
@@ -60,12 +60,12 @@ function CategoriesPage() {
       >
         {categories.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-              {d[1].map(v => (
-                <React.Fragment key={v.id}>
-                  <ProgramSummary program={v} enableLink />
-                  <Divider />
-                </React.Fragment>
-              ))}
+            {d[1].sort((a, b) => sorter(a.week - b.week)).map(v => (
+              <React.Fragment key={v.id}>
+                <ProgramSummary program={v} enableLink />
+                <Divider />
+              </React.Fragment>
+            ))}
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>

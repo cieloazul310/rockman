@@ -2,7 +2,7 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { useLocation } from '@reach/router';
 
-import Layout from 'gatsby-theme-typescript-material-ui/src/layout';
+import Layout from 'gatsby-theme-aoi/src/layout';
 
 function NotFoundPage() {
   const location = useLocation();

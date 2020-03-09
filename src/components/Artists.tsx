@@ -3,7 +3,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import Chip from '@material-ui/core/Chip';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
-import ListItemAppLink from 'gatsby-theme-typescript-material-ui/src/components/ListItemAppLink';
+import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import NationAvatar from './NationAvatar';
 import { useAllArtists } from '../utils/graphql-hooks';
 import { getYomi } from '../utils/sortByYomi';

@@ -105,7 +105,11 @@ function TuneCard({ tune }: Props) {
             </Tooltip>
             {tune.selector !== '草野マサムネ' ? (
               <Tooltip title={`${tune.selector}選曲の曲をブラウズ`}>
-                <IconButton component={GatsbyLink} to="/selectors/" state={{ selector: tune.selector }}>
+                <IconButton
+                  component={GatsbyLink}
+                  to="/selectors/"
+                  state={{ selector: tune.selector }}
+                >
                   <SelectorIcon />
                 </IconButton>
               </Tooltip>

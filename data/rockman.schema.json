@@ -1,5 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "ロック大陸漫遊記プレイリスト",
   "description": "SPITZ草野マサムネのロック大陸漫遊記プレイリスト",
   "type": "object",
   "required": [
@@ -31,6 +32,7 @@
       "type": "string"
     },
     "guests": {
+      "description": "",
       "type": "array",
       "items": {
         "type": "string",
@@ -44,8 +46,10 @@
       }
     },
     "categories": {
+      "description": "",
       "type": "array",
       "items": {
+        "description": "",
         "type": "string",
         "examples": [
           "アーティスト特集",
@@ -63,6 +67,7 @@
       }
     },
     "date": {
+      "description": "",
       "type": "string"
     },
     "playlist": {
@@ -87,39 +92,51 @@
           ],
           "properties": {
             "id": {
+              "description": "",
               "type": "string"
             },
             "week": {
+              "description": "",
               "type": "integer"
             },
             "indexInWeek": {
+              "description": "",
               "type": "integer"
             },
             "title": {
+              "description": "",
               "type": "string"
             },
             "artist": {
+              "description": "",
               "type": "string"
             },
             "kana": {
+              "description": "",
               "type": "string"
             },
             "year": {
+              "description": "",
               "type": "integer"
             },
             "nation": {
+              "description": "",
               "type": "string"
             },
             "label": {
+              "description": "",
               "type": "string"
             },
             "producer": {
+              "description": "",
               "type": "array",
               "items": {
+                "description": "",
                 "type": "string"
               }
             },
             "corner": {
+              "description": "",
               "type": "string",
               "examples": [
                 "",
@@ -129,6 +146,7 @@
               ]
             },
             "selector": {
+              "description": "",
               "type": "string",
               "default": "草野マサムネ",
               "examples": [
