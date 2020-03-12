@@ -85,7 +85,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
   }, [previous, artistPrograms, next]);
 
   return (
-    <Layout title={pageContext.artist} maxWidth="xl" disableGutters>
+    <Layout title={pageContext.artist} maxWidth="xl" disableGutters disableBottomNav>
       <BindKeyboardSwipeableViews
         index={!previous ? 0 : 1}
         onChangeIndex={() => {}}

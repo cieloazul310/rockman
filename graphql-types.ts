@@ -1782,6 +1782,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___display' |
   'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___siteUrl' |
+  'pluginCreator___pluginOptions___utilPath' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -1981,6 +1982,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___display' |
   'pluginOptions___icon' |
   'pluginOptions___siteUrl' |
+  'pluginOptions___utilPath' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2108,6 +2110,7 @@ export type SitePluginPluginOptions = {
   display?: Maybe<Scalars['String']>,
   icon?: Maybe<Scalars['String']>,
   siteUrl?: Maybe<Scalars['String']>,
+  utilPath?: Maybe<Scalars['String']>,
   pathCheck?: Maybe<Scalars['Boolean']>,
 };
 
@@ -2123,6 +2126,7 @@ export type SitePluginPluginOptionsFilterInput = {
   display?: Maybe<StringQueryOperatorInput>,
   icon?: Maybe<StringQueryOperatorInput>,
   siteUrl?: Maybe<StringQueryOperatorInput>,
+  utilPath?: Maybe<StringQueryOperatorInput>,
   pathCheck?: Maybe<BooleanQueryOperatorInput>,
 };
 
@@ -2204,7 +2208,7 @@ export type IndexQueryVariables = {};
 
 export type IndexQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
-        & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>>, playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
 export type ArtistTemplateQueryVariables = {

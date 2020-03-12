@@ -26,7 +26,7 @@ export function useDividedPrograms(
   return React.useMemo(() => {
     return programs
       .sort((a, b) => sorter(a.week - b.week))
-      .reduce((accum, curr, index) => {
+      .reduce<AbstractProgram[][]>((accum, curr, index) => {
         const filtered = {
           ...curr,
           playlist: curr.playlist.filter(filter)
@@ -34,32 +34,16 @@ export function useDividedPrograms(
         if (index === 0) {
           return [[filtered]];
         }
-        if (accum[accum.length - 1].length < divisor) {
+        if (getPlaylistLength(accum[accum.length - 1]) < divisor) {
           accum[accum.length - 1].push(filtered);
           return accum;
         } else {
           return [...accum, [filtered]];
         }
       }, []);
-    /*
-    let count = 0;
-    let newItem = [];
-    for (let i = 0; i < programs.length; i++) {
-      const filtered = {
-        ...programs[i],
-        playlist: programs[i].playlist.filter(filter),
-      };
-      if (count === 0) {
-        newItem.push([filtered]);
-      } else if (count < divisor) {
-        newItem[newItem.length - 1].push(filtered);
-      } else {
-        count = 0;
-        newItem.push([filtered]);
-      }
-      count += filtered.playlist.length;
-    }
-    return newItem;
-    */
   }, [programs, divisor, filter, sorter]);
+}
+
+function getPlaylistLength(programs: AbstractProgram[]) {
+  return programs.reduce((accum, curr) => accum + curr.playlist.length, 0);
 }

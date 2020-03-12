@@ -25,7 +25,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       transition: theme.transitions.create('transform'),
     },
     tagsOuter: {
-      overflowX: 'scroll',
+      overflowX: 'auto',
       overflowY: 'hidden',
       scrollbarWidth: 'none',
       minHeight: 40,
@@ -33,7 +33,6 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
     },
     summaryArtists: {
       display: 'inline-block',
-      //fontWeight: theme.typography.fontWeightBold,
       '&:not(:last-child)': {
         marginRight: theme.spacing(1),
       },

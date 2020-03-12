@@ -35,7 +35,7 @@ function PageNavigation({ prev, next }: Props) {
   return (
     <Box className={classes.root}>
       {prev ? (
-        <Box p={1} textAlign="left">
+        <Box py={1} pr={1} textAlign="left">
           <Button component={GatsbyLink} variant="outlined" to={prev.to}>
             <ArrowBackIcon />
             {prev.label}
@@ -43,7 +43,7 @@ function PageNavigation({ prev, next }: Props) {
         </Box>
       ) : null}
       {next ? (
-        <Box p={1} textAlign="right">
+        <Box py={1} pl={1} textAlign="right">
           <Button component={GatsbyLink} variant="outlined" to={next.to}>
             {next.label}
             <ArrowForwardIcon />

@@ -39,6 +39,7 @@ function CategoriesPage() {
     <Layout
       title={categories[value][0]}
       tabSticky
+      disableBottomNav
       tabs={
         <Tabs
           value={value}

@@ -71,6 +71,7 @@ module.exports = {
     },
     `gatsby-theme-aoi`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

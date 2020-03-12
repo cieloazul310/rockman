@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 //import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -25,6 +26,7 @@ function ArtistPage() {
   const _onItemClicked = (artist: ArtistItem) => () => {
     setArtist(artist[0]);
   };
+
   React.useEffect(() => {
     console.log('useEffect');
     //window.location.search = `name=${current}`;

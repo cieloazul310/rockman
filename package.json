@@ -19,6 +19,7 @@
     "gatsby-plugin-google-analytics": "^2.1.36",
     "gatsby-plugin-graphql-codegen": "^2.2.2",
     "gatsby-plugin-manifest": "^2.2.42",
+    "gatsby-plugin-offline": "^3.0.37",
     "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-plugin-typescript": "^2.0.9",
     "gatsby-source-filesystem": "^2.1.48",
@@ -29,7 +30,7 @@
     "react-swipeable-views": "^0.13.9",
     "react-virtualized": "^9.21.2",
     "react-window": "^1.8.5",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.3"
   },
   "keywords": [
     "gatsby",
@@ -41,9 +42,9 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop -o -H 0.0.0.0",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "serve": "gatsby serve -o -H 0.0.0.0 --prefix-paths",
     "clean": "gatsby clean",
-    "publish": "gh-pages -d public",
+    "deploy": "gh-pages -d public",
     "format": "prettier --parser typescript --trailing-comma es5 --single-quote --write \"src/**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -52,17 +53,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@storybook/addon-actions": "^5.1.9",
-    "@storybook/addon-info": "^5.1.9",
-    "@storybook/addon-links": "^5.1.9",
-    "@storybook/addons": "^5.1.9",
-    "@storybook/react": "^5.1.9",
+    "@harelpls/storybook-addon-materialui": "^1.0.2",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-info": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
     "@types/storybook__react": "^5.2.1",
     "babel-loader": "^8.0.6",
     "gh-pages": "^2.0.1",
     "prettier": "^1.8.2",
-    "react-docgen-typescript-loader": "^3.1.0",
-    "ts-loader": "^6.0.4",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1"

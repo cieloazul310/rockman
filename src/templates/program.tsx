@@ -81,7 +81,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
   }, [previous, program, next]);
 
   return (
-    <Layout title={program.title} description={description}>
+    <Layout title={program.title} description={description} disableBottomNav>
       <Helmet>
         {previous ? (
           <link rel="prefetch" href={withPrefix(previous.fields.slug)} />

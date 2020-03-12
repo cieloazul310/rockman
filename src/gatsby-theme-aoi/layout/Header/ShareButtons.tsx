@@ -7,6 +7,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import { useSiteMetadata } from 'gatsby-theme-aoi/src/graphql-hooks';
 import useSocialShare from 'gatsby-theme-aoi/src/utils/useSocialShare';
+import useUpdateOnClient from 'gatsby-theme-aoi/src/utils/useUpdateOnClient';
 
 type Props = {
   className?: string;
@@ -14,6 +15,7 @@ type Props = {
 } & Partial<Pick<IconButtonProps, 'color'>>;
 
 function ShareButtons({ className, title, color = 'default' }: Props) {
+  const isClient = useUpdateOnClient();
   const { youtube } = useSiteMetadata().social;
   const twitterUrl = useSocialShare('twitter', title);
   const fbUrl = useSocialShare('facebook');
@@ -21,6 +23,7 @@ function ShareButtons({ className, title, color = 'default' }: Props) {
     <Box className={className}>
       <Tooltip title="Twitterでシェア">
         <IconButton
+          key={isClient}
           color={color}
           href={twitterUrl}
           target="_blank"
@@ -31,6 +34,7 @@ function ShareButtons({ className, title, color = 'default' }: Props) {
       </Tooltip>
       <Tooltip title="Facebookでシェア">
         <IconButton
+          key={isClient}
           color={color}
           href={fbUrl}
           target="_blank"

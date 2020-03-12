@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useAppState } from '../gatsby-theme-aoi/utils/AppStateContext';
+import { useAppState } from 'gatsby-theme-aoi-top-layout/src/utils/AppStateContext';
 
 export default function useSorter() {
   const { sort } = useAppState();

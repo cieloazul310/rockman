@@ -7,8 +7,8 @@ import Programs from '../components/Programs';
 
 function ProgramsPage() {
   return (
-    <Layout title="放送回" maxWidth="md">
-      <Typography variant="h5" component="h3">
+    <Layout title="放送回" maxWidth="md" disableBottomNav>
+      <Typography variant="h5" component="h2">
         放送回一覧
       </Typography>
       <Container maxWidth="sm" disableGutters>

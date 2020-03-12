@@ -36,6 +36,7 @@ function CornersPage() {
     <Layout
       title={`${corners[value][0]}`}
       tabSticky
+      disableBottomNav
       tabs={
         <Tabs
           value={value}
