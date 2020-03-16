@@ -6,7 +6,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { useLocation } from '@reach/router';
-import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import { useAllArtists } from '../utils/graphql-hooks/useAllPrograms';
 import { ArtistItem } from '../types';
 /*
@@ -32,7 +32,7 @@ function ArtistPage() {
     //window.location.search = `name=${current}`;
   }, [current]);
   return (
-    <Layout title={current}>
+    <Layout title={current} componentViewports={{ BottomNav: false }}>
       <List>
         {artists.map((artist, index) => (
           <ListItem

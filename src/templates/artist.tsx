@@ -85,7 +85,12 @@ function ArtistTemplate({ data, pageContext }: Props) {
   }, [previous, artistPrograms, next]);
 
   return (
-    <Layout title={pageContext.artist} maxWidth="xl" disableGutters disableBottomNav>
+    <Layout
+      title={pageContext.artist}
+      maxWidth="xl"
+      disableGutters
+      componentViewports={{ BottomNav: false }}
+    >
       <BindKeyboardSwipeableViews
         index={!previous ? 0 : 1}
         onChangeIndex={() => {}}

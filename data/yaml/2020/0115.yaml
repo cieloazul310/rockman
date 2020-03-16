@@ -1,0 +1,139 @@
+id: "20200115"
+week: 115
+year: 2020
+title: ストーン・テンプル・パイロッツで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-03-15
+playlist:
+  - id: "2020011501"
+    week: 115
+    title: 恋する凡人
+    artist: スピッツ
+    kana: ""
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer: ["亀田誠治"]
+    corner: 漫遊前の一曲
+    youtube: ""
+    index: 950
+    indexInWeek: 1
+    selector: 草野マサムネ
+  - id: "2020011502"
+    week: 115
+    title: Vasoline
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 1994
+    nation: US
+    label: Atlantic
+    producer: 
+      - Brendan O'Brien
+    corner: ""
+    youtube: 0E1ubkyqVNg
+    index: 951
+    indexInWeek: 2
+    selector: 草野マサムネ
+  - id: "2020011503"
+    week: 115
+    title: Interstate Love Song
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 1994
+    nation: US
+    label: Atlantic
+    producer: 
+      - Brendan O'Brien
+    corner: ""
+    youtube: yjJL9DGU7Gg
+    index: 952
+    selector: 草野マサムネ
+  - id: "2020011504"
+    week: 115
+    title: Sex & Violence
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 1999
+    nation: US
+    label: Atlantic
+    producer: 
+      - Brendan O'Brien
+    corner: ""
+    youtube: 1x84OrzV97g
+    index: 953
+    indexInWeek: 4
+    selector: 草野マサムネ
+  - id: "2020011505"
+    week: 115
+    title: MC5
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 1999
+    nation: US
+    label: Atlantic
+    producer:
+      - Brendan O'Brien
+    corner: ""
+    youtube: S65lHK1L07Y
+    index: 954
+    indexInWeek: 5
+    selector: 草野マサムネ
+  - id: "2020011506"
+    week: 115
+    title: Big Bang Baby
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 1996
+    nation: US
+    label: Atlantic
+    producer: 
+      - Brendan O'Brien
+    corner: ""
+    youtube: G0gAxuvo5rc
+    index: 955
+    indexInWeek: 6
+    selector: 草野マサムネ
+  - id: "2020011507"
+    week: 115
+    title: Out of Time
+    artist: Stone Temple Pilots
+    kana: ""
+    year: 2013
+    nation: US
+    label: Play Pen, LLC
+    producer: []
+    corner: ""
+    youtube: aV1IqnlYrbE
+    index: 956
+    indexInWeek: 7
+    selector: 草野マサムネ
+  - id: "2020011508"
+    week: 115
+    index: 957
+    indexInWeek: 8
+    title: Fare Thee Well
+    artist: Stone Temple Pilots
+    corner: ""
+    selector: 草野マサムネ
+    kana: ""
+    year: 2020
+    nation: US
+    label: Rhino
+    producer: []
+    youtube: CMn-YfBv-ws
+  - id: "2020011509"
+    week: 115
+    index: 958
+    indexInWeek: 9
+    title: 果てのない道
+    artist: "19"
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
+    kana: ""
+    year: 2000
+    nation: JPN
+    label: ビクターエンタテイメント
+    producer: []
+    youtube: ""

@@ -9,8 +9,9 @@ import CardActions from '@material-ui/core/CardActions';
 import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import YoutubeIcon from '@material-ui/icons/YouTube';
 import Skeleton from '@material-ui/lab/Skeleton';
-import { ArtistIcon, SelectorIcon, TuneIcon } from '../icons';
+import { ArtistIcon, SelectorIcon } from '../icons';
 import NationAvatar from './NationAvatar';
 import { ProgramPlaylist } from '../../graphql-types';
 
@@ -115,7 +116,7 @@ function TuneCard({ tune }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <TuneIcon />
+                  <YoutubeIcon />
                 </IconButton>
               </Tooltip>
             ) : null}

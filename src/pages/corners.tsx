@@ -4,7 +4,7 @@ import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
 import { useCorners } from '../utils/graphql-hooks';
@@ -36,7 +36,7 @@ function CornersPage() {
     <Layout
       title={`${corners[value][0]}`}
       tabSticky
-      disableBottomNav
+      componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs
           value={value}

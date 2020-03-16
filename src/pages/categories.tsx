@@ -5,7 +5,7 @@ import Divider from '@material-ui/core/Divider';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import ProgramSummary from '../components/ProgramSummary';
 import useSorter from '../utils/useSorter';
@@ -39,7 +39,7 @@ function CategoriesPage() {
     <Layout
       title={categories[value][0]}
       tabSticky
-      disableBottomNav
+      componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs
           value={value}
@@ -61,12 +61,14 @@ function CategoriesPage() {
       >
         {categories.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            {d[1].sort((a, b) => sorter(a.week - b.week)).map(v => (
-              <React.Fragment key={v.id}>
-                <ProgramSummary program={v} enableLink />
-                <Divider />
-              </React.Fragment>
-            ))}
+            {d[1]
+              .sort((a, b) => sorter(a.week - b.week))
+              .map(v => (
+                <React.Fragment key={v.id}>
+                  <ProgramSummary program={v} enableLink />
+                  <Divider />
+                </React.Fragment>
+              ))}
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>

@@ -5,13 +5,15 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import Jumbotron from '../components/Jumbotron';
 import JunkList from '../components/JunkList';
+import DrawerNavigation from '../components/DrawerNavigation';
 import WeekSummaryBox from '../components/ProgramSummary';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation, {
-  PageNavigationSkeleton,
+  PageNavigationSkeleton
 } from '../components/PageNavigation';
 import createDescriptionString from '../utils/createDescriptionString';
 import { QueriedProgram } from '../types';
@@ -79,9 +81,28 @@ function ProgramTemplate({ data, pageContext }: Props) {
         )
       );
   }, [previous, program, next]);
+  const [firstImg] = program.playlist
+    .filter((tune, i) => i !== 0)
+    .map(tune => tune.youtube)
+    .filter(tune => tune !== '');
+  
+  const jumbotron = (
+    <Jumbotron
+      title={program.title}
+      header={`第${program.week}回 ${program.date} 全${program.playlist.length}曲`}
+      subtitle={program.subtitle}
+      imgUrl={firstImg ? `https://i.ytimg.com/vi/${firstImg}/0.jpg` : null}
+    />
+  );
 
   return (
-    <Layout title={program.title} description={description} disableBottomNav>
+    <Layout
+      title={program.title}
+      description={description}
+      componentViewports={{ BottomNav: false }}
+      jumbotron={jumbotron}
+      drawerContents={<DrawerNavigation previous={previous} next={next} />}
+    >
       <Helmet>
         {previous ? (
           <link rel="prefetch" href={withPrefix(previous.fields.slug)} />

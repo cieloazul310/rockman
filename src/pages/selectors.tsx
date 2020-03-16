@@ -4,7 +4,7 @@ import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layout/TabPageLayout';
+import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
 import { useSelectors } from '../utils/graphql-hooks';
@@ -36,6 +36,7 @@ function SelectorsPage() {
     <Layout
       title={`${selectors[value][0]}の選曲`}
       tabSticky
+      componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs
           value={value}

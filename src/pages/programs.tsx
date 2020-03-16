@@ -7,7 +7,11 @@ import Programs from '../components/Programs';
 
 function ProgramsPage() {
   return (
-    <Layout title="放送回" maxWidth="md" disableBottomNav>
+    <Layout
+      title="放送回"
+      maxWidth="md"
+      componentViewports={{ BottomNav: false }}
+    >
       <Typography variant="h5" component="h2">
         放送回一覧
       </Typography>
