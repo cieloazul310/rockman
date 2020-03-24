@@ -2,11 +2,13 @@ import * as React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Divider from '@material-ui/core/Divider';
+import List from '@material-ui/core/List';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import ProgramSummary from '../components/ProgramSummary';
 import useSorter from '../utils/useSorter';
 import { useCategories } from '../utils/graphql-hooks';
@@ -61,14 +63,19 @@ function CategoriesPage() {
       >
         {categories.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            {d[1]
-              .sort((a, b) => sorter(a.week - b.week))
-              .map(v => (
-                <React.Fragment key={v.id}>
-                  <ProgramSummary program={v} enableLink />
-                  <Divider />
-                </React.Fragment>
-              ))}
+            <List>
+              {d[1]
+                .sort((a, b) => sorter(a.week - b.week))
+                .map(v => (
+                  <ListItemLink
+                    key={v.id}
+                    to={v.fields.slug}
+                    primaryText={v.title}
+                    secondaryText={`第${v.week}回 ${v.date}`}
+                    divider
+                  />
+                ))}
+            </List>
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>

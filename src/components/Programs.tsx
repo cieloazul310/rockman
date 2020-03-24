@@ -7,6 +7,7 @@ import Chip from '@material-ui/core/Chip';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
+import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import { useAllPrograms } from '../utils/graphql-hooks';
 import { QueriedProgram } from '../types';
 
@@ -31,18 +32,13 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {programs.map(program => (
-            <ListItem
-              dense
-              button
+            <ListItemLink
               key={program.id}
               to={program.fields.slug}
-              component={GatsbyLink}
-            >
-              <ListItemText
-                primary={`${program.week}. ${program.title}`}
-                secondary={program.date}
-              />
-            </ListItem>
+              primaryText={program.title}
+              secondaryText={`第${program.week}回 ${program.date}`}
+              divider
+            />
           ))}
         </List>
       </Collapse>

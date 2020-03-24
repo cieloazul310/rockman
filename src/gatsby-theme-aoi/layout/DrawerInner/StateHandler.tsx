@@ -2,7 +2,7 @@ import * as React from 'react';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItemToggleDarkMode, {
-  ListItemToggleUseSystemTheme
+  ListItemToggleUseSystemTheme,
 } from 'gatsby-theme-aoi/src/components/ListItemToggleDarkMode';
 import ListItemToggleSort from '../../../components/ListItemToggleSort';
 

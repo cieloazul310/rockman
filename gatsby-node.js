@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
-  
+
   const { createPage } = actions;
   const result = await graphql(`
     query AllProgram {
@@ -33,116 +33,45 @@ exports.createPages = async ({ graphql, actions }) => {
             id
             title
             date(formatString: "YYYY-MM-DD")
-            categories
             fields {
               slug
             }
-            guests
+            week
             playlist {
-              artist
-              corner
-              id
-              indexInWeek
-              index
-              kana
-              label
-              name
-              nation
-              producer
-              selector
-              title
-              week
-              year
               youtube
             }
-            subtitle
-            week
-            year
           }
           next {
             id
             title
             date(formatString: "YYYY-MM-DD")
-            categories
             fields {
               slug
             }
-            guests
+            week
             playlist {
-              artist
-              corner
-              id
-              indexInWeek
-              index
-              kana
-              label
-              name
-              nation
-              producer
-              selector
-              title
-              week
-              year
               youtube
             }
-            subtitle
-            week
-            year
           }
           previous {
             id
             title
             date(formatString: "YYYY-MM-DD")
-            categories
             fields {
               slug
             }
-            guests
+            week
             playlist {
-              artist
-              corner
-              id
-              indexInWeek
-              index
-              kana
-              label
-              name
-              nation
-              producer
-              selector
-              title
-              week
-              year
               youtube
             }
-            subtitle
-            week
-            year
           }
         }
       }
     }
   `);
-  const allTunes = result.data.allProgram.edges.reduce(
-    (accum, { node }) => [...accum, ...node.playlist],
-    []
-  );
-  const artists = allTunes
-    .reduce((accum, curr) => {
-      const existedIndex = accum.map(d => d[0]).indexOf(curr.artist);
-      if (existedIndex < 0) {
-        return [...accum, [curr.artist, curr.kana, curr.nation, [curr]]];
-      } else {
-        accum[existedIndex][3].push(curr);
-        return accum;
-      }
-    }, [])
-    .sort(
-      (a, b) =>
-        b[3].length - a[3].length ||
-        getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
-    );
-
+  if (result.errors) {
+    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
+  }
   // create Each Program Pages
   result.data.allProgram.edges.forEach(({ node, next, previous }) => {
     createPage({
@@ -151,28 +80,115 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         previous,
         next,
+        current: node,
         slug: node.fields.slug
       }
     });
   });
 
-  // create Artists Pages (tune >= 2)
+  // create Artists Pages
+  const artistResult = await graphql(`
+    query AllArtists {
+      allProgram(sort: { fields: date, order: ASC }) {
+        group(field: playlist___artist) {
+          edges {
+            node {
+              id
+              playlist {
+                artist
+                kana
+                youtube
+              }
+            }
+          }
+          fieldValue
+        }
+      }
+    }
+  `);
+  if (artistResult.errors) {
+    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
+  }
+
+  const artists = artistResult.data.allProgram.group.map(item => {
+    const edges = removeMultiple(item.edges).map(({ node }) => ({
+      ...node,
+      playlist: node.playlist.filter(({ artist }) => artist === item.fieldValue)
+    }));
+    const tunes = edges.reduce(
+      (accum, curr) => [...accum, ...curr.playlist],
+      []
+    );
+    const [kana] = tunes.map(tune => tune.kana);
+    const [img] = tunes
+      .filter(tune => tune.youtube !== '')
+      .map(tune => tune.youtube);
+    return {
+      fieldValue: item.fieldValue,
+      kana,
+      edges,
+      tunes,
+      img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null
+    };
+  });
+
   artists
-    .filter(d => d[3].length > 1)
+    .sort(
+      (a, b) =>
+        b.edges.length - a.edges.length ||
+        b.tunes.length - a.tunes.length ||
+        getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana))
+    )
     .forEach((d, index, arr) => {
       const previous = index ? arr[index - 1] : null;
       const next = index !== arr.length - 1 ? arr[index + 1] : null;
       createPage({
-        path: `/artist/${d[0]}/`,
+        path: `/artist/${d.fieldValue}/`,
         component: path.resolve('./src/templates/artist.tsx'),
         context: {
           previous,
           next,
-          artist: d[0],
+          current: d,
+          fieldValue: d.fieldValue
         }
       });
     });
-    
+
+  // create Category Pages
+  const categoriesResult = await graphql(`
+    query AllCategories {
+      allProgram(sort: { fields: week, order: ASC }) {
+        group(field: categories) {
+          fieldValue
+          edges {
+            node {
+              id
+            }
+          }
+        }
+      }
+    }
+  `);
+  if (categoriesResult.errors) {
+    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
+  }
+  categoriesResult.data.allProgram.group
+    .sort((a, b) => b.edges.length - a.edges.length)
+    .forEach(({ fieldValue }, index, arr) => {
+      const previous = index === 0 ? null : arr[index - 1];
+      const next = index === arr.length - 1 ? null : arr[index + 1];
+
+      createPage({
+        path: `/categories/${fieldValue}`,
+        component: path.resolve('./src/templates/tab_router.tsx'),
+        context: {
+          previous,
+          next,
+          fieldValue,
+          index
+        }
+      });
+    });
 };
 
 function getYomi(artistName, kana) {
@@ -180,4 +196,11 @@ function getYomi(artistName, kana) {
   if (the === 'The ' || the === 'THE ' || the === 'the ')
     return artistName.slice(4);
   return kana || artistName;
+}
+
+function removeMultiple(edges) {
+  return edges.reduce((accum, curr) => {
+    if (accum.map(d => d.node.id).indexOf(curr.node.id) >= 0) return accum;
+    return [...accum, curr];
+  }, []);
 }

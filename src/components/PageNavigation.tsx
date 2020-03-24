@@ -14,38 +14,38 @@ const useStyles = makeStyles((theme: Theme) =>
       flexDirection: 'row',
       justifyContent: 'space-between',
       [theme.breakpoints.down('sm')]: {
-        flexDirection: 'column',
-      },
-    },
+        flexDirection: 'column'
+      }
+    }
   })
 );
 
 interface NavigationProps {
   to: string;
-  label: string;
+  title: string;
 }
 
 interface Props {
-  prev?: NavigationProps;
+  previous?: NavigationProps;
   next?: NavigationProps;
 }
 
-function PageNavigation({ prev, next }: Props) {
+function PageNavigation({ previous, next }: Props) {
   const classes = useStyles();
   return (
     <Box className={classes.root}>
-      {prev ? (
+      {previous ? (
         <Box py={1} pr={1} textAlign="left">
-          <Button component={GatsbyLink} variant="outlined" to={prev.to}>
+          <Button component={GatsbyLink} variant="outlined" to={previous.to}>
             <ArrowBackIcon />
-            {prev.label}
+            {previous.title}
           </Button>
         </Box>
       ) : null}
       {next ? (
         <Box py={1} pl={1} textAlign="right">
           <Button component={GatsbyLink} variant="outlined" to={next.to}>
-            {next.label}
+            {next.title}
             <ArrowForwardIcon />
           </Button>
         </Box>
@@ -74,4 +74,29 @@ export function PageNavigationSkeleton() {
       </Box>
     </Box>
   );
+}
+
+interface Item {
+  fieldValue: string;
+}
+
+export function createNavigationProps(
+  previous: Item,
+  next: Item,
+  baseUrl: string
+): Props {
+  return {
+    previous: previous
+      ? {
+          to: `${baseUrl}/${previous.fieldValue}/`,
+          title: previous.fieldValue
+        }
+      : null,
+    next: next
+      ? {
+          to: `${baseUrl}/${next.fieldValue}`,
+          title: next.fieldValue
+        }
+      : null
+  };
 }

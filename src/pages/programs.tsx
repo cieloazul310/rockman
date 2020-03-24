@@ -15,11 +15,7 @@ function ProgramsPage() {
       <Typography variant="h5" component="h2">
         放送回一覧
       </Typography>
-      <Container maxWidth="sm" disableGutters>
-        <Box py={4}>
-          <Programs />
-        </Box>
-      </Container>
+      <Programs />
     </Layout>
   );
 }

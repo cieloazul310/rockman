@@ -1,40 +1,18 @@
 import * as React from 'react';
-import Helmet from 'react-helmet';
-import { graphql, navigate, withPrefix } from 'gatsby';
+import { graphql, navigate } from 'gatsby';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import SwipeableViews, { OnSwitchingCallback } from 'react-swipeable-views';
+import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
-import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import Layout from 'gatsby-theme-aoi/src/layout';
 import Jumbotron from '../components/Jumbotron';
-import JunkList from '../components/JunkList';
 import DrawerNavigation from '../components/DrawerNavigation';
-import WeekSummaryBox from '../components/ProgramSummary';
-import { TuneCardSkeleton } from '../components/TuneCard';
-import PageNavigation, {
-  PageNavigationSkeleton
-} from '../components/PageNavigation';
+import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
+import PageNavigation from '../components/PageNavigation';
+import { getPlaylistStrings } from '../utils/filterPlaylist';
 import createDescriptionString from '../utils/createDescriptionString';
 import { QueriedProgram } from '../types';
 import { ProgramTemplateQuery } from '../../graphql-types';
-
-function SkeletonPage({ program }: { program: QueriedProgram }) {
-  return (
-    <Container maxWidth="md">
-      <Box py={2}>
-        <WeekSummaryBox program={program} />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
-        <TuneCardSkeleton />
-        <PageNavigationSkeleton />
-      </Box>
-    </Container>
-  );
-}
 
 interface Props {
   data: ProgramTemplateQuery;
@@ -50,48 +28,75 @@ function ProgramTemplate({ data, pageContext }: Props) {
   const { program } = data;
   const { previous, next } = pageContext;
   const description = createDescriptionString(program);
-  const _onSwiped: OnSwitchingCallback = (index: number, type) => {
-    if (type !== 'end') return;
-
-    if (previous && index === 0) {
-      navigate(previous.fields.slug);
-    } else if (index === 2 || (!previous && index === 1)) {
-      navigate(next.fields.slug);
-    }
+  const initialTab = previous !== null ? 1 : 0;
+  const [tab, setTab] = React.useState(initialTab);
+  const _onChangeIndex = (index: number) => {
+    console.log(initialTab, index);
+    setTab(index);
+  };
+  const _onTransitionEnd = () => {
+    if (tab === initialTab) return;
+    navigate(tab < initialTab ? previous.fields.slug : next.fields.slug);
   };
 
   const SwipePages = React.useMemo(() => {
     return [previous, program, next]
       .filter(obj => obj !== null)
-      .map((tabProgram, index) =>
-        tabProgram.id === program.id ? (
-          <TabPane key={index} maxWidth="md" index={index} value={index}>
-            <JunkList program={tabProgram} />
-            <PageNavigation
-              prev={
-                previous
-                  ? { to: previous.fields.slug, label: previous.title }
-                  : null
+      .map((tabProgram, index) => {
+        const [firstImg] = tabProgram.playlist
+          .filter((tune, i) => i !== 0)
+          .map(tune => tune.youtube)
+          .filter(tune => tune !== '');
+        return (
+          <div key={index}>
+            <Jumbotron
+              title={tabProgram.title}
+              header={`第${tabProgram.week}回 ${tabProgram.date} 全${tabProgram.playlist.length}曲`}
+              subtitle={program.subtitle}
+              imgUrl={
+                firstImg ? `https://i.ytimg.com/vi/${firstImg}/0.jpg` : null
               }
-              next={next ? { to: next.fields.slug, label: next.title } : null}
             />
-          </TabPane>
-        ) : (
-          <SkeletonPage key={index} program={tabProgram} />
-        )
-      );
+            <Container maxWidth="md">
+              <Box pt={4}>
+                {tabProgram.id === program.id ? (
+                  <div>
+                    {tabProgram.playlist.map((tune, i) => (
+                      <TuneCard key={tune.id} tune={tune} />
+                    ))}
+                    <PageNavigation
+                      previous={
+                        previous
+                          ? { to: previous.fields.slug, title: previous.title }
+                          : null
+                      }
+                      next={
+                        next
+                          ? { to: next.fields.slug, title: next.title }
+                          : null
+                      }
+                    />
+                  </div>
+                ) : (
+                  <div>
+                    {tabProgram.playlist.map((_, i) => (
+                      <TuneCardSkeleton key={i} />
+                    ))}
+                  </div>
+                )}
+              </Box>
+            </Container>
+          </div>
+        );
+      });
   }, [previous, program, next]);
-  const [firstImg] = program.playlist
-    .filter((tune, i) => i !== 0)
-    .map(tune => tune.youtube)
-    .filter(tune => tune !== '');
-  
+
   const jumbotron = (
     <Jumbotron
       title={program.title}
-      header={`第${program.week}回 ${program.date} 全${program.playlist.length}曲`}
-      subtitle={program.subtitle}
-      imgUrl={firstImg ? `https://i.ytimg.com/vi/${firstImg}/0.jpg` : null}
+      artists={getPlaylistStrings(program.playlist.slice(1), 'artist').join(
+        '  '
+      )}
     />
   );
 
@@ -99,24 +104,25 @@ function ProgramTemplate({ data, pageContext }: Props) {
     <Layout
       title={program.title}
       description={description}
+      disableGutters
+      disablePaddingTop
       componentViewports={{ BottomNav: false }}
-      jumbotron={jumbotron}
-      drawerContents={<DrawerNavigation previous={previous} next={next} />}
+      drawerContents={
+        <DrawerNavigation
+          previous={
+            previous
+              ? { to: previous.fields.slug, title: previous.title }
+              : null
+          }
+          next={next ? { to: next.fields.slug, title: next.title } : null}
+        />
+      }
     >
-      <Helmet>
-        {previous ? (
-          <link rel="prefetch" href={withPrefix(previous.fields.slug)} />
-        ) : null}
-        {next ? (
-          <link rel="prefetch" href={withPrefix(next.fields.slug)} />
-        ) : null}
-      </Helmet>
       <BindKeyboardSwipeableViews
-        index={!previous ? 0 : 1}
-        onChangeIndex={() => {}}
-        onSwitching={_onSwiped}
+        index={tab}
+        onChangeIndex={_onChangeIndex}
+        onTransitionEnd={_onTransitionEnd}
         resistance
-        enableMouseEvents
       >
         {SwipePages}
       </BindKeyboardSwipeableViews>

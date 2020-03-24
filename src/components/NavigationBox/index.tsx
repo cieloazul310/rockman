@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme: Theme) =>
       boxSizing: 'border-box',
       transition: theme.transitions.create('background'),
       '&:hover': {
-        backgroundColor: theme.palette.background.paper
-      }
-    }
+        backgroundColor: theme.palette.background.paper,
+      },
+    },
   })
 );
 

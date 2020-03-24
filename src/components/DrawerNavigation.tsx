@@ -8,16 +8,20 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import { QueriedProgram } from '../types';
 
+interface NavigationProps {
+  to: string;
+  title: string;
+}
 interface Props {
-  previous: QueriedProgram;
-  next: QueriedProgram;
+  previous?: NavigationProps;
+  next?: NavigationProps;
 }
 
 function DrawerPageNavigation({ previous, next }: Props) {
   return (
     <List subheader={<ListSubheader>Navigation</ListSubheader>}>
       {previous ? (
-        <ListItemAppLink dense button to={previous.fields.slug}>
+        <ListItemAppLink dense button to={previous.to}>
           <ListItemIcon>
             <ArrowBackIcon />
           </ListItemIcon>
@@ -25,7 +29,7 @@ function DrawerPageNavigation({ previous, next }: Props) {
         </ListItemAppLink>
       ) : null}
       {next ? (
-        <ListItemAppLink dense button to={next.fields.slug}>
+        <ListItemAppLink dense button to={next.to}>
           <ListItemIcon>
             <ArrowForwardIcon />
           </ListItemIcon>

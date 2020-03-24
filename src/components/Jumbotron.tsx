@@ -3,7 +3,12 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
-const useStyles = makeStyles<Theme, { imgUrl?: string }>((theme: Theme) =>
+interface StyleProps {
+  height: number;
+  imgUrl?: string;
+}
+
+const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
   createStyles({
     jumbotronBg: ({ imgUrl }) => ({
       height: '100%',
@@ -11,11 +16,11 @@ const useStyles = makeStyles<Theme, { imgUrl?: string }>((theme: Theme) =>
       backgroundImage: imgUrl ? `url(${imgUrl})` : null,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
-      filter: imgUrl ? 'blur(8px) brightness(0.6)' : null,
+      filter: imgUrl ? 'blur(6px) brightness(0.8)' : null,
       transform: imgUrl ? 'scale(1.1)' : null
     }),
-    jumbotronText: {
-      height: 345,
+    jumbotronText: ({ height }) => ({
+      height: height,
       color: 'white',
       position: 'absolute',
       transform: 'translate(0, -100%)',
@@ -23,8 +28,11 @@ const useStyles = makeStyles<Theme, { imgUrl?: string }>((theme: Theme) =>
       flexDirection: 'column',
       justifyContent: 'center',
       zIndex: 2,
-      padding: theme.spacing(2)
-    },
+      padding: theme.spacing(2, 4),
+      [theme.breakpoints.down('xs')]: {
+        padding: theme.spacing(2)
+      }
+    }),
     jumbotronTitle: {
       fontWeight: 'bold'
     }
@@ -32,23 +40,55 @@ const useStyles = makeStyles<Theme, { imgUrl?: string }>((theme: Theme) =>
 );
 
 interface Props {
-  header: string;
-  title: string;
-  subtitle?: string;
+  header?:
+    | string
+    | JSX.Element
+    | JSX.Element[]
+    | (JSX.Element | JSX.Element[])[];
+  title: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
+  height?: number;
+  artists?:
+    | string
+    | JSX.Element
+    | JSX.Element[]
+    | (JSX.Element | JSX.Element[])[];
+  subtitle?:
+    | string
+    | JSX.Element
+    | JSX.Element[]
+    | (JSX.Element | JSX.Element[])[];
   imgUrl?: string;
 }
 
-function Jumbotron({ header, subtitle, title, imgUrl }: Props) {
-  const classes = useStyles({ imgUrl });
+function Jumbotron({
+  header,
+  subtitle,
+  title,
+  artists,
+  imgUrl,
+  height = 300
+}: Props) {
+  const classes = useStyles({ imgUrl, height });
   return (
-    <Box height={345} overflow="hidden">
+    <Box height={height} overflow="hidden" position="relative">
       <div className={classes.jumbotronBg} />
       <div className={classes.jumbotronText}>
         <Typography variant="subtitle2">{header}</Typography>
-        <Typography variant="h2" className={classes.jumbotronTitle}>
+        <Typography
+          variant="h2"
+          className={classes.jumbotronTitle}
+          gutterBottom
+        >
           {title}
         </Typography>
-        {subtitle ? <Typography variant="subtitle1">{subtitle}</Typography> : null}
+        {subtitle ? (
+          <Typography variant="subtitle1">{subtitle}</Typography>
+        ) : null}
+        {artists ? (
+          <Typography variant="body2" component="div">
+            {artists}
+          </Typography>
+        ) : null}
       </div>
     </Box>
   );

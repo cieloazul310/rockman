@@ -22,14 +22,14 @@ export function useDividedPrograms(
   divisor: number,
   filter: (tune: ProgramPlaylist) => boolean = () => true
 ): AbstractProgram[][] {
-  const sorter = useSorter()
+  const sorter = useSorter();
   return React.useMemo(() => {
     return programs
       .sort((a, b) => sorter(a.week - b.week))
       .reduce<AbstractProgram[][]>((accum, curr, index) => {
         const filtered = {
           ...curr,
-          playlist: curr.playlist.filter(filter)
+          playlist: curr.playlist.filter(filter),
         };
         if (index === 0) {
           return [[filtered]];

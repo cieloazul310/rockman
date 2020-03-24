@@ -69,7 +69,12 @@ module.exports = {
         siteUrl: `https://cieloazul310.github.io/`
       }
     },
-    `gatsby-theme-aoi`,
+    {
+      resolve: `gatsby-theme-aoi`,
+      options: {
+        siteId: `gatsby-rockman`
+      }
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-graphql-codegen`,

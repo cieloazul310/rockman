@@ -7,12 +7,12 @@ import {
   CategoryIcon,
   SelectorIcon,
   CornerIcon,
-  TuneIcon
+  TuneIcon,
 } from '../../icons';
 
 export default {
   component: NavigationBox,
-  title: 'NavigationBox'
+  title: 'NavigationBox',
 };
 
 export function Simple() {

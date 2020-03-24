@@ -3,7 +3,10 @@ import { useAppState } from 'gatsby-theme-aoi-top-layout/src/utils/AppStateConte
 
 export default function useSorter() {
   const { sort } = useAppState();
-  return React.useCallback((value: number) => sort === 'older' ? value : - value, [sort]);
+  return React.useCallback(
+    (value: number) => (sort === 'older' ? value : -value),
+    [sort]
+  );
 }
 /** usage
  * const sorter = useSorter();

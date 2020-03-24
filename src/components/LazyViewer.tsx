@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Box from '@material-ui/core/Box';
+import { useInView } from 'react-intersection-observer';
 import TunesByProgram from './TunesByProgram';
 import { TuneCardSkeleton } from './TuneCard';
-import useOnScreen from '../utils/useOnScreen';
 import { useDividedPrograms } from '../utils/useDividedArray';
 import { QueriedProgram } from '../types';
 import { ProgramPlaylist } from '../../graphql-types';
@@ -21,14 +21,13 @@ interface DisplayOnScreenProps {
   once?: boolean;
 }
 
-function DisplayOnScreen({
-  children,
-  margin,
-  once = true,
-}: DisplayOnScreenProps) {
-  const ref = React.useRef();
-  const onScreen = useOnScreen(ref, margin);
-  return <div ref={ref}>{onScreen ? children : <DummyItem />}</div>;
+function DisplayOnScreen({ children, margin = 0, once = true }: DisplayOnScreenProps) {
+  const [ref, inView] = useInView({
+    rootMargin: `${margin}px`,
+    triggerOnce: once
+  });
+
+  return <div ref={ref}>{inView ? children : <DummyItem />}</div>;
 }
 
 interface Props {
@@ -37,9 +36,8 @@ interface Props {
   filter?: (tune: ProgramPlaylist) => boolean;
 }
 
-function LazyViewer({ programs, filter, divisor = 15 }: Props) {
+function LazyViewer({ programs, filter = () => true, divisor = 15 }: Props) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
-  console.log(dividedItems);
   const renderItems = React.useMemo(() => {
     return dividedItems.map((d, i) =>
       i === 0 ? (

@@ -1169,8 +1169,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<IntQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -1257,8 +1255,6 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   buildTime?: Maybe<Scalars['Date']>;
   siteMetadata?: Maybe<SiteSiteMetadata>;
-  port?: Maybe<Scalars['Int']>;
-  host?: Maybe<Scalars['String']>;
   pathPrefix?: Maybe<Scalars['String']>;
   polyfill?: Maybe<Scalars['Boolean']>;
   id: Scalars['ID'];
@@ -1476,8 +1472,6 @@ export type SiteFieldsEnum =
   'siteMetadata___social___instagram' |
   'siteMetadata___social___vimeo' |
   'siteMetadata___social___youtube' |
-  'port' |
-  'host' |
   'pathPrefix' |
   'polyfill' |
   'id' |
@@ -1570,8 +1564,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<IntQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -1628,13 +1620,323 @@ export type SitePageConnectionGroupArgs = {
 };
 
 export type SitePageContext = {
+  previous?: Maybe<SitePageContextPrevious>;
+  next?: Maybe<SitePageContextNext>;
+  current?: Maybe<SitePageContextCurrent>;
   slug?: Maybe<Scalars['String']>;
+  fieldValue?: Maybe<Scalars['String']>;
+  index?: Maybe<Scalars['Int']>;
+};
+
+export type SitePageContextCurrent = {
+  id?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  date?: Maybe<Scalars['Date']>;
+  fields?: Maybe<SitePageContextCurrentFields>;
+  week?: Maybe<Scalars['Int']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextCurrentPlaylist>>>;
+  fieldValue?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  edges?: Maybe<Array<Maybe<SitePageContextCurrentEdges>>>;
+  tunes?: Maybe<Array<Maybe<SitePageContextCurrentTunes>>>;
+  img?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextCurrentEdges = {
+  id?: Maybe<Scalars['String']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextCurrentEdgesPlaylist>>>;
+};
+
+export type SitePageContextCurrentEdgesFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextCurrentEdgesPlaylistFilterListInput>;
+};
+
+export type SitePageContextCurrentEdgesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextCurrentEdgesFilterInput>;
+};
+
+export type SitePageContextCurrentEdgesPlaylist = {
   artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextCurrentEdgesPlaylistFilterInput = {
+  artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextCurrentEdgesPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextCurrentEdgesPlaylistFilterInput>;
+};
+
+export type SitePageContextCurrentFields = {
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextCurrentFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextCurrentFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  title?: Maybe<StringQueryOperatorInput>;
+  date?: Maybe<DateQueryOperatorInput>;
+  fields?: Maybe<SitePageContextCurrentFieldsFilterInput>;
+  week?: Maybe<IntQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextCurrentPlaylistFilterListInput>;
+  fieldValue?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  edges?: Maybe<SitePageContextCurrentEdgesFilterListInput>;
+  tunes?: Maybe<SitePageContextCurrentTunesFilterListInput>;
+  img?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextCurrentPlaylist = {
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextCurrentPlaylistFilterInput = {
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextCurrentPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextCurrentPlaylistFilterInput>;
+};
+
+export type SitePageContextCurrentTunes = {
+  artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextCurrentTunesFilterInput = {
+  artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextCurrentTunesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextCurrentTunesFilterInput>;
 };
 
 export type SitePageContextFilterInput = {
+  previous?: Maybe<SitePageContextPreviousFilterInput>;
+  next?: Maybe<SitePageContextNextFilterInput>;
+  current?: Maybe<SitePageContextCurrentFilterInput>;
   slug?: Maybe<StringQueryOperatorInput>;
+  fieldValue?: Maybe<StringQueryOperatorInput>;
+  index?: Maybe<IntQueryOperatorInput>;
+};
+
+export type SitePageContextNext = {
+  id?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  date?: Maybe<Scalars['Date']>;
+  fields?: Maybe<SitePageContextNextFields>;
+  week?: Maybe<Scalars['Int']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextNextPlaylist>>>;
+  fieldValue?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  edges?: Maybe<Array<Maybe<SitePageContextNextEdges>>>;
+  tunes?: Maybe<Array<Maybe<SitePageContextNextTunes>>>;
+  img?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextEdges = {
+  id?: Maybe<Scalars['String']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextNextEdgesPlaylist>>>;
+  node?: Maybe<SitePageContextNextEdgesNode>;
+};
+
+export type SitePageContextNextEdgesFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextNextEdgesPlaylistFilterListInput>;
+  node?: Maybe<SitePageContextNextEdgesNodeFilterInput>;
+};
+
+export type SitePageContextNextEdgesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextNextEdgesFilterInput>;
+};
+
+export type SitePageContextNextEdgesNode = {
+  id?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextEdgesNodeFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextEdgesPlaylist = {
+  artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextEdgesPlaylistFilterInput = {
   artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextEdgesPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextNextEdgesPlaylistFilterInput>;
+};
+
+export type SitePageContextNextFields = {
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  title?: Maybe<StringQueryOperatorInput>;
+  date?: Maybe<DateQueryOperatorInput>;
+  fields?: Maybe<SitePageContextNextFieldsFilterInput>;
+  week?: Maybe<IntQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextNextPlaylistFilterListInput>;
+  fieldValue?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  edges?: Maybe<SitePageContextNextEdgesFilterListInput>;
+  tunes?: Maybe<SitePageContextNextTunesFilterListInput>;
+  img?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextPlaylist = {
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextPlaylistFilterInput = {
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextNextPlaylistFilterInput>;
+};
+
+export type SitePageContextNextTunes = {
+  artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextNextTunesFilterInput = {
+  artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextNextTunesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextNextTunesFilterInput>;
+};
+
+export type SitePageContextPrevious = {
+  id?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  date?: Maybe<Scalars['Date']>;
+  fields?: Maybe<SitePageContextPreviousFields>;
+  week?: Maybe<Scalars['Int']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextPreviousPlaylist>>>;
+  fieldValue?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  edges?: Maybe<Array<Maybe<SitePageContextPreviousEdges>>>;
+  tunes?: Maybe<Array<Maybe<SitePageContextPreviousTunes>>>;
+  img?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousEdges = {
+  id?: Maybe<Scalars['String']>;
+  playlist?: Maybe<Array<Maybe<SitePageContextPreviousEdgesPlaylist>>>;
+  node?: Maybe<SitePageContextPreviousEdgesNode>;
+};
+
+export type SitePageContextPreviousEdgesFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextPreviousEdgesPlaylistFilterListInput>;
+  node?: Maybe<SitePageContextPreviousEdgesNodeFilterInput>;
+};
+
+export type SitePageContextPreviousEdgesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextPreviousEdgesFilterInput>;
+};
+
+export type SitePageContextPreviousEdgesNode = {
+  id?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousEdgesNodeFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousEdgesPlaylist = {
+  artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousEdgesPlaylistFilterInput = {
+  artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousEdgesPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextPreviousEdgesPlaylistFilterInput>;
+};
+
+export type SitePageContextPreviousFields = {
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousFieldsFilterInput = {
+  slug?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousFilterInput = {
+  id?: Maybe<StringQueryOperatorInput>;
+  title?: Maybe<StringQueryOperatorInput>;
+  date?: Maybe<DateQueryOperatorInput>;
+  fields?: Maybe<SitePageContextPreviousFieldsFilterInput>;
+  week?: Maybe<IntQueryOperatorInput>;
+  playlist?: Maybe<SitePageContextPreviousPlaylistFilterListInput>;
+  fieldValue?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  edges?: Maybe<SitePageContextPreviousEdgesFilterListInput>;
+  tunes?: Maybe<SitePageContextPreviousTunesFilterListInput>;
+  img?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousPlaylist = {
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousPlaylistFilterInput = {
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousPlaylistFilterListInput = {
+  elemMatch?: Maybe<SitePageContextPreviousPlaylistFilterInput>;
+};
+
+export type SitePageContextPreviousTunes = {
+  artist?: Maybe<Scalars['String']>;
+  kana?: Maybe<Scalars['String']>;
+  youtube?: Maybe<Scalars['String']>;
+};
+
+export type SitePageContextPreviousTunesFilterInput = {
+  artist?: Maybe<StringQueryOperatorInput>;
+  kana?: Maybe<StringQueryOperatorInput>;
+  youtube?: Maybe<StringQueryOperatorInput>;
+};
+
+export type SitePageContextPreviousTunesFilterListInput = {
+  elemMatch?: Maybe<SitePageContextPreviousTunesFilterInput>;
 };
 
 export type SitePageEdge = {
@@ -1736,8 +2038,60 @@ export type SitePageFieldsEnum =
   'internal___owner' |
   'internal___type' |
   'isCreatedByStatefulCreatePages' |
+  'context___previous___id' |
+  'context___previous___title' |
+  'context___previous___date' |
+  'context___previous___fields___slug' |
+  'context___previous___week' |
+  'context___previous___playlist' |
+  'context___previous___playlist___youtube' |
+  'context___previous___fieldValue' |
+  'context___previous___kana' |
+  'context___previous___edges' |
+  'context___previous___edges___id' |
+  'context___previous___edges___playlist' |
+  'context___previous___tunes' |
+  'context___previous___tunes___artist' |
+  'context___previous___tunes___kana' |
+  'context___previous___tunes___youtube' |
+  'context___previous___img' |
+  'context___next___id' |
+  'context___next___title' |
+  'context___next___date' |
+  'context___next___fields___slug' |
+  'context___next___week' |
+  'context___next___playlist' |
+  'context___next___playlist___youtube' |
+  'context___next___fieldValue' |
+  'context___next___kana' |
+  'context___next___edges' |
+  'context___next___edges___id' |
+  'context___next___edges___playlist' |
+  'context___next___tunes' |
+  'context___next___tunes___artist' |
+  'context___next___tunes___kana' |
+  'context___next___tunes___youtube' |
+  'context___next___img' |
+  'context___current___id' |
+  'context___current___title' |
+  'context___current___date' |
+  'context___current___fields___slug' |
+  'context___current___week' |
+  'context___current___playlist' |
+  'context___current___playlist___youtube' |
+  'context___current___fieldValue' |
+  'context___current___kana' |
+  'context___current___edges' |
+  'context___current___edges___id' |
+  'context___current___edges___playlist' |
+  'context___current___tunes' |
+  'context___current___tunes___artist' |
+  'context___current___tunes___kana' |
+  'context___current___tunes___youtube' |
+  'context___current___img' |
   'context___slug' |
-  'context___artist' |
+  'context___fieldValue' |
+  'context___index' |
   'pluginCreator___id' |
   'pluginCreator___parent___id' |
   'pluginCreator___parent___parent___id' |
@@ -1792,7 +2146,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___siteUrl' |
   'pluginCreator___pluginOptions___fonts' |
   'pluginCreator___pluginOptions___fonts___family' |
-  'pluginCreator___pluginOptions___utilPath' |
+  'pluginCreator___pluginOptions___siteId' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -1994,7 +2348,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___siteUrl' |
   'pluginOptions___fonts' |
   'pluginOptions___fonts___family' |
-  'pluginOptions___utilPath' |
+  'pluginOptions___siteId' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2123,7 +2477,7 @@ export type SitePluginPluginOptions = {
   icon?: Maybe<Scalars['String']>;
   siteUrl?: Maybe<Scalars['String']>;
   fonts?: Maybe<Array<Maybe<SitePluginPluginOptionsFonts>>>;
-  utilPath?: Maybe<Scalars['String']>;
+  siteId?: Maybe<Scalars['String']>;
   pathCheck?: Maybe<Scalars['Boolean']>;
 };
 
@@ -2140,7 +2494,7 @@ export type SitePluginPluginOptionsFilterInput = {
   icon?: Maybe<StringQueryOperatorInput>;
   siteUrl?: Maybe<StringQueryOperatorInput>;
   fonts?: Maybe<SitePluginPluginOptionsFontsFilterListInput>;
-  utilPath?: Maybe<StringQueryOperatorInput>;
+  siteId?: Maybe<StringQueryOperatorInput>;
   pathCheck?: Maybe<BooleanQueryOperatorInput>;
 };
 
@@ -2238,7 +2592,7 @@ export type IndexQuery = { allProgram: { edges: Array<{ node: (
       ) }> } };
 
 export type ArtistTemplateQueryVariables = {
-  artist: Scalars['String'];
+  fieldValue: Scalars['String'];
 };
 
 
@@ -2256,6 +2610,35 @@ export type ProgramTemplateQuery = { program: Maybe<(
     Pick<Program, 'id' | 'date' | 'subtitle' | 'title' | 'week' | 'year' | 'guests' | 'categories'>
     & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
   )> };
+
+export type CategoryQueryVariables = {
+  fieldValue: Scalars['String'];
+};
+
+
+export type CategoryQuery = { allProgram: { edges: Array<{ node: (
+        Pick<Program, 'id' | 'title' | 'week' | 'date'>
+        & { fields: Maybe<Pick<ProgramFields, 'slug'>> }
+      ) }> } };
+
+export type AllArtistsQueryVariables = {};
+
+
+export type AllArtistsQuery = { allProgram: { group: Array<(
+      Pick<ProgramGroupConnection, 'fieldValue'>
+      & { edges: Array<{ node: (
+          Pick<Program, 'id'>
+          & { playlist: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist'>>>> }
+        ) }> }
+    )> } };
+
+export type AllCategoriesQueryVariables = {};
+
+
+export type AllCategoriesQuery = { allProgram: { group: Array<(
+      Pick<ProgramGroupConnection, 'fieldValue'>
+      & { edges: Array<{ node: Pick<Program, 'id'> }> }
+    )> } };
 
 export type AllProgramQueryVariables = {};
 
