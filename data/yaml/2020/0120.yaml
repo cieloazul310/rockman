@@ -1,0 +1,102 @@
+id: "20200120"
+week: 120
+year: 2020
+title: 1995年・勝手にライバルバンドで漫遊記
+guests: []
+categories: []
+date: 2020-04-19
+playlist:
+  - id: "2020012001"
+    week: 120
+    index: 995
+    indexInWeek: 1
+    title: ロビンソン
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer: ["笹路正徳"]
+    corner: 漫遊前の一曲
+    youtube: 51CH3dPaWXc
+    selector: 草野マサムネ
+  - id: "2020012002"
+    week: 120
+    index: 996
+    indexInWeek: 2
+    title: KNOCKIN' ON YOUR DOOR
+    artist: L⇔R
+    year: 1995
+    nation: JPN
+    label: ポニーキャニオン
+    producer:
+      - 岡井大二
+    youtube: xd8yYObr7L0
+    selector: 草野マサムネ
+  - id: "2020012003"
+    week: 120
+    index: 997
+    indexInWeek: 3
+    title: ズルい女
+    artist: シャ乱Q
+    year: 1995
+    nation: JPN
+    label: BMG JAPAN
+    producer:
+      - 瀬戸由紀男
+    youtube: bplLbHAGSAM
+    selector: 草野マサムネ
+  - id: "2020012004"
+    week: 120
+    index: 998
+    indexInWeek: 4
+    title: ガッツだぜ!!
+    artist: ウルフルズ
+    year: 1995
+    nation: JPN
+    label: 東芝EMI
+    producer:
+      - 伊藤銀次
+    youtube: ATU0gXzMsLw
+    selector: 草野マサムネ
+  - id: "2020012005"
+    week: 120
+    index: 999
+    indexInWeek: 5
+    title: Over Drive
+    artist: JUDY AND MARY
+    year: 1995
+    nation: JPN
+    label: エピックレコーズ
+    selector: 草野マサムネ
+  - id: "2020012006"
+    week: 120
+    index: 1000
+    indexInWeek: 6
+    title: 太陽が燃えている
+    artist: THE YELLOW MONKEY
+    year: 1995
+    nation: JPN
+    label: TRIAD
+    youtube: rfkTkDknZiA
+    selector: 草野マサムネ
+  - id: "2020012007"
+    week: 120
+    index: 1001
+    indexInWeek: 7
+    title: DESIRE
+    artist: LUNA SEA
+    year: 1995
+    nation: JPN
+    label: MCAビクター
+    selector: 草野マサムネ
+  - id: "2020012008"
+    week: 120
+    index: 1002
+    indexInWeek: 8
+    title: ピーターパン
+    artist: BAKU
+    year: 1990
+    nation: JPN
+    label: ポリスター
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

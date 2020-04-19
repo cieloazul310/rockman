@@ -5,9 +5,8 @@ import Chip from '@material-ui/core/Chip';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import NationAvatar from './NationAvatar';
-import { useAllArtists } from '../utils/graphql-hooks';
+import { useAllArtists, ArtistItem } from '../utils/graphql-hooks';
 import { getYomi } from '../utils/sortByYomi';
-import { ArtistItem } from '../types';
 
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
@@ -16,17 +15,16 @@ function renderRow({ index, style, data }: ListChildComponentProps) {
       button
       style={style}
       key={index}
-      to={
-        artist[3].length > 1
-          ? `/artist/${artist[0]}/`
-          : `/artist/?name=${artist[0]}`
-      }
+      to={`/artist/${artist.fieldValue}/`}
     >
       <ListItemAvatar>
-        <NationAvatar nation={artist[2]} />
+        <NationAvatar nation={artist.nation} />
       </ListItemAvatar>
-      <ListItemText primary={artist[0]} secondary={artist[1] || null} />
-      <Chip label={artist[3].length} />
+      <ListItemText
+        primary={artist.fieldValue}
+        secondary={artist.kana || null}
+      />
+      <Chip label={`${artist.tunes.length} / ${artist.edges.length}`} />
     </ListItemAppLink>
   );
 }
@@ -44,7 +42,7 @@ function Artists({
   height = 480,
   itemSize = 60,
   filter = () => true,
-  sort = (a, b) => b[3].length - a[3].length,
+  sort = (a, b) => (b.edges.length - a.edges.length) || (b.tunes.length - a.tunes.length),
 }: Props) {
   const allArtists = useAllArtists();
   const artists = React.useMemo(
@@ -53,7 +51,10 @@ function Artists({
         .filter(filter)
         .sort(
           (a, b) =>
-            sort(a, b) || getYomi(a[0], a[1]).localeCompare(getYomi(b[0], b[1]))
+            sort(a, b) ||
+            getYomi(a.fieldValue, a.kana).localeCompare(
+              getYomi(b.fieldValue, b.kana)
+            )
         ),
     [allArtists, filter, sort]
   );

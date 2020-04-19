@@ -21,10 +21,14 @@ interface DisplayOnScreenProps {
   once?: boolean;
 }
 
-function DisplayOnScreen({ children, margin = 0, once = true }: DisplayOnScreenProps) {
+function DisplayOnScreen({
+  children,
+  margin = 0,
+  once = true,
+}: DisplayOnScreenProps) {
   const [ref, inView] = useInView({
     rootMargin: `${margin}px`,
-    triggerOnce: once
+    triggerOnce: once,
   });
 
   return <div ref={ref}>{inView ? children : <DummyItem />}</div>;

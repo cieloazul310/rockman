@@ -73,13 +73,14 @@ exports.createPages = async ({ graphql, actions }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
   // create Each Program Pages
-  result.data.allProgram.edges.forEach(({ node, next, previous }) => {
+  result.data.allProgram.edges.forEach(({ node, next, previous }, index) => {
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/program.tsx'),
       context: {
         previous,
         next,
+        index,
         current: node,
         slug: node.fields.slug
       }
@@ -97,6 +98,7 @@ exports.createPages = async ({ graphql, actions }) => {
               playlist {
                 artist
                 kana
+                nation
                 youtube
               }
             }
@@ -119,13 +121,14 @@ exports.createPages = async ({ graphql, actions }) => {
       (accum, curr) => [...accum, ...curr.playlist],
       []
     );
-    const [kana] = tunes.map(tune => tune.kana);
+    const [{kana, nation}] = tunes;
     const [img] = tunes
       .filter(tune => tune.youtube !== '')
       .map(tune => tune.youtube);
     return {
       fieldValue: item.fieldValue,
       kana,
+      nation,
       edges,
       tunes,
       img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null
@@ -146,14 +149,15 @@ exports.createPages = async ({ graphql, actions }) => {
         path: `/artist/${d.fieldValue}/`,
         component: path.resolve('./src/templates/artist.tsx'),
         context: {
+          index,
           previous,
           next,
           current: d,
-          fieldValue: d.fieldValue
+          fieldValue: d.fieldValue,
         }
       });
     });
-
+/*
   // create Category Pages
   const categoriesResult = await graphql(`
     query AllCategories {
@@ -189,6 +193,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       });
     });
+    */
 };
 
 function getYomi(artistName, kana) {

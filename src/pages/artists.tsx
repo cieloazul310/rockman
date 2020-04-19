@@ -12,7 +12,7 @@ import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
 import useWindowSize from '../utils/useWindowSize';
-import { ArtistItem } from '../types';
+import { ArtistItem } from '../utils/graphql-hooks'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -36,7 +36,7 @@ function ArtistsPage() {
     } else {
       const regex = RegExp(`${searchText}`, 'i');
       return (artist: ArtistItem) =>
-        regex.test(artist[0]) || regex.test(artist[1]);
+        regex.test(artist.fieldValue) || regex.test(artist.kana);
     }
   }, [searchText]);
   const _onChangeSearchText = (

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
@@ -9,9 +8,8 @@ import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
-import ProgramSummary from '../components/ProgramSummary';
 import useSorter from '../utils/useSorter';
-import { useCategories } from '../utils/graphql-hooks';
+import { useAllCategories } from '../utils/graphql-hooks';
 
 type LocationWithState = WindowLocation & {
   state?: {
@@ -23,55 +21,61 @@ const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CategoriesPage() {
   const location: LocationWithState = useLocation();
-  const categories = useCategories();
+  const categories = useAllCategories();
   const initialValue =
     location.state && location.state.category
-      ? categories.map(d => d[0]).indexOf(location.state.category)
+      ? categories.map(d => d.fieldValue).indexOf(location.state.category)
       : 0;
-  const [value, setValue] = React.useState(initialValue);
+  const [tab, setTab] = React.useState(initialValue);
   const sorter = useSorter();
   const _handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
+    setTab(newValue);
   };
   const _handleChangeIndex = (index: number) => {
-    setValue(index);
+    setTab(index);
   };
+  React.useEffect(() => {
+    history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
+  }, [tab]);
 
   return (
     <Layout
-      title={categories[value][0]}
+      title={categories[tab].fieldValue}
       tabSticky
       componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs
-          value={value}
+          value={tab}
           onChange={_handleChange}
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
           {categories.map(d => (
-            <Tab key={d[0]} label={`${d[0]} ${d[1].length}`} />
+            <Tab
+              key={d.fieldValue}
+              label={`${d.fieldValue} ${d.edges.length}`}
+            />
           ))}
         </Tabs>
       }
     >
       <BindKeyboardSwipeableViews
-        index={value}
+        index={tab}
         onChangeIndex={_handleChangeIndex}
         resistance
       >
         {categories.map((d, index) => (
-          <TabPane key={index} value={value} index={index}>
+          <TabPane key={index} value={tab} index={index}>
             <List>
-              {d[1]
-                .sort((a, b) => sorter(a.week - b.week))
+              {d.edges
+                .sort((a, b) => sorter(a.node.week - b.node.week))
                 .map(v => (
                   <ListItemLink
-                    key={v.id}
-                    to={v.fields.slug}
-                    primaryText={v.title}
-                    secondaryText={`第${v.week}回 ${v.date}`}
+                    key={v.node.id}
+                    to={v.node.fields.slug}
+                    primaryText={v.node.title}
+                    secondaryText={`第${v.node.week}回 ${v.node.date}`}
                     divider
                   />
                 ))}

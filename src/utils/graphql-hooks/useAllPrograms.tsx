@@ -11,7 +11,6 @@ import { getProgramsContainsValue, filterPlaylist } from '../filterPlaylist';
 import { AllProgramQuery, ProgramPlaylist } from '../../../graphql-types';
 
 export function useAllPrograms(): QueriedProgram[] {
-  console.log('useAllPrograms');
   const data = useStaticQuery<AllProgramQuery>(graphql`
     query AllProgram {
       allProgram(sort: { fields: week, order: ASC }) {
@@ -51,20 +50,26 @@ export function useAllPrograms(): QueriedProgram[] {
     }
   `);
   return React.useMemo(() => {
-    console.log('useAllPrograms useMemo');
-    return data.allProgram.edges.map(({ node }) => node);
+    return data.allProgram.edges.map(({ node }) => {
+      const [img] = node.playlist.filter((tune, index) => index !== 0 && tune.youtube && tune.youtube !== '').map(tune => tune.youtube);
+      return { 
+        ...node, 
+        img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null
+      };
+    });
   }, []);
 }
-
+/*
 export function useAllTunes(): ProgramPlaylist[] {
-  console.log('useAllTunes');
+  //console.log('useAllTunes');
   const programs = useAllPrograms();
   return React.useMemo(() => {
-    console.log('useAllTunes useMemo');
+    //console.log('useAllTunes useMemo');
     return programs.reduce((accum, curr) => [...accum, ...curr.playlist], []);
   }, []);
 }
-
+*/
+/*
 export function useAllArtists(): ArtistItem[] {
   console.log('useAllArtists');
   const allTunes = useAllTunes();
@@ -81,9 +86,10 @@ export function useAllArtists(): ArtistItem[] {
     }, []);
   }, []);
 }
-
+*/
+/*
 export function useCategories(): CategoryItem[] {
-  console.log('useCategories');
+  //console.log('useCategories');
   const programs = useAllPrograms();
   return React.useMemo(() => {
     console.log('useCategories useMemo');
@@ -103,13 +109,14 @@ export function useCategories(): CategoryItem[] {
     return categories.sort((a, b) => b[1].length - a[1].length);
   }, []);
 }
-
+*/
+/*
 export function useCorners(): CornerItem[] {
-  console.log('useCorners');
+  //console.log('useCorners');
   const programs = useAllPrograms();
   const allTunes = useAllTunes();
   return React.useMemo(() => {
-    console.log('useCorners useMemo');
+    //console.log('useCorners useMemo');
     return allTunes
       .filter(tune => tune.corner !== '')
       .reduce<CornerItem[]>((accum, curr) => {
@@ -136,13 +143,14 @@ export function useCorners(): CornerItem[] {
       .sort((a, b) => b[2] - a[2]);
   }, []);
 }
-
+*/
+/*
 export function useSelectors(): SelectorItem[] {
-  console.log('useSelectors');
+  //console.log('useSelectors');
   const programs = useAllPrograms();
   const allTunes = useAllTunes();
   return React.useMemo(() => {
-    console.log('useSelectors useMemo');
+    //console.log('useSelectors useMemo');
     return allTunes
       .filter(d => d.selector.length && d.selector !== '草野マサムネ')
       .reduce<SelectorItem[]>((accum, curr) => {
@@ -170,3 +178,4 @@ export function useSelectors(): SelectorItem[] {
       .sort((a, b) => b[2] - a[2]);
   }, []);
 }
+*/

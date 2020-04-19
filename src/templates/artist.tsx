@@ -5,20 +5,27 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
+import {
+  virtualize,
+  bindKeyboard,
+  SlideRenderProps,
+} from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import DrawerNavigation from '../components/DrawerNavigation';
-import PageNavigation, { createNavigationProps } from '../components/PageNavigation';
+import PageNavigation, {
+  createNavigationProps,
+} from '../components/PageNavigation';
+import { useAllArtists } from '../utils/graphql-hooks/';
 import {
   ArtistTemplateQuery,
   Program,
-  ProgramPlaylist
+  ProgramPlaylist,
 } from '../../graphql-types';
 
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
 interface Artist {
   fieldValue: string;
@@ -39,24 +46,42 @@ interface Props {
 }
 
 function ArtistTemplate({ data, pageContext }: Props) {
-  const { previous, next, current, fieldValue } = pageContext;
+  const allArtists = useAllArtists();
+  const artists = React.useMemo(
+    () =>
+      allArtists.sort(
+        (a, b) =>
+          b.edges.length - a.edges.length ||
+          b.tunes.length - a.tunes.length ||
+          getYomi(a.fieldValue, a.kana).localeCompare(
+            getYomi(b.fieldValue, b.kana)
+          )
+      ),
+    []
+  );
+  const { previous, next, index, fieldValue } = pageContext;
   const programs = data.allProgram.edges;
-  const items = [previous, current, next].filter(obj => obj !== null);
-  const initialTab = previous !== null ? 1 : 0;
-  const [tab, setTab] = React.useState(initialTab);
-  const _onChangeIndex = (index: number) => {
-    setTab(index);
+  const [loading, setLoading] = React.useState(false);
+  const [tab, setTab] = React.useState(index);
+  const _onChangeIndex = (i: number) => {
+    setTab(i);
   };
-  const _onTransitionEnd = () => {
-    if (tab === initialTab) return;
-    navigate(
-      `/artist/${tab > initialTab ? next.fieldValue : previous.fieldValue}`
-    );
-  };
+  React.useEffect(() => {
+    let timer = setTimeout(() => {
+      if (tab !== index) {
+        setLoading(true);
+        navigate(`/artist/${artists[tab].fieldValue}`);
+      }
+    }, 500);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [tab]);
 
-  const SwipePages = React.useMemo(() => {
-    return items.map((item, index) => (
-      <div key={index}>
+  function slideRenderer({ index, key }: SlideRenderProps) {
+    const item = artists[index];
+    return (
+      <div key={key}>
         <Jumbotron
           title={item.fieldValue}
           subtitle={`登場回: ${item.edges.length} 曲数: ${item.tunes.length}`}
@@ -84,40 +109,47 @@ function ArtistTemplate({ data, pageContext }: Props) {
                     <Skeleton variant="text" />
                   </Typography>
                   <TuneCardSkeleton />
-                  <TuneCardSkeleton />
-                  <TuneCardSkeleton />
-                  <TuneCardSkeleton />
                 </Box>
               </div>
             )}
           </Box>
         </Container>
       </div>
-    ));
-  }, [previous, programs, next]);
+    );
+  }
 
   return (
     <Layout
       title={fieldValue}
       disableGutters
       disablePaddingTop
+      loading={loading}
       componentViewports={{ BottomNav: false }}
-      drawerContents={<DrawerNavigation {...createNavigationProps(previous, next, '/artist')} />}
+      drawerContents={
+        <DrawerNavigation
+          {...createNavigationProps(previous, next, '/artist')}
+        />
+      }
     >
-      <BindKeyboardSwipeableViews
+      <VirtualizedSwipeableViews
         index={tab}
         onChangeIndex={_onChangeIndex}
-        onTransitionEnd={_onTransitionEnd}
+        slideRenderer={slideRenderer}
+        slideCount={artists.length}
         resistance
-        enableMouseEvents
-      >
-        {SwipePages}
-      </BindKeyboardSwipeableViews>
+      />
     </Layout>
   );
 }
 
 export default ArtistTemplate;
+
+function getYomi(artistName: string, kana: string) {
+  const the = artistName.slice(0, 4);
+  if (the === 'The ' || the === 'THE ' || the === 'the ')
+    return artistName.slice(4);
+  return kana || artistName;
+}
 
 export const query = graphql`
   query ArtistTemplate($fieldValue: String!) {

@@ -17,7 +17,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       filter: imgUrl ? 'blur(6px) brightness(0.8)' : null,
-      transform: imgUrl ? 'scale(1.1)' : null
+      transform: imgUrl ? 'scale(1.1)' : null,
     }),
     jumbotronText: ({ height }) => ({
       height: height,
@@ -30,12 +30,12 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       zIndex: 2,
       padding: theme.spacing(2, 4),
       [theme.breakpoints.down('xs')]: {
-        padding: theme.spacing(2)
-      }
+        padding: theme.spacing(2),
+      },
     }),
     jumbotronTitle: {
-      fontWeight: 'bold'
-    }
+      fontWeight: 'bold',
+    },
   })
 );
 
@@ -66,7 +66,7 @@ function Jumbotron({
   title,
   artists,
   imgUrl,
-  height = 300
+  height = 300,
 }: Props) {
   const classes = useStyles({ imgUrl, height });
   return (

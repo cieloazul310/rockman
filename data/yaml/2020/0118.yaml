@@ -1,0 +1,129 @@
+id: "20200118"
+week: 118
+year: 2020
+title: ハーモニーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2020-04-05
+playlist:
+  - id: "2020011801"
+    week: 118
+    index: 976
+    indexInWeek: 1
+    title: 群青
+    artist: スピッツ
+    kana: ""
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    producer: ["亀田誠治"]
+    corner: 漫遊前の一曲
+    youtube: 13jH7X4aKi8
+    selector: 草野マサムネ
+  - id: "2020011802"
+    week: 118
+    index: 977
+    indexInWeek: 2
+    title: Good Vibrations
+    artist: The Beach Boys
+    year: 1966
+    nation: US
+    label: Capitol
+    producer: []
+    youtube: apBWI6xrbLY
+    selector: 草野マサムネ
+  - id: "2020011803"
+    week: 118
+    index: 978
+    indexInWeek: 3
+    title: Nowhere Man
+    artist: The Beatles
+    year: 1965
+    nation: UK
+    label: Capitol
+    producer: ["George Martin"]
+    youtube: 8scSwaKbE64
+    selector: 草野マサムネ
+  - id: "2020011804"
+    week: 118
+    index: 979
+    indexInWeek: 4
+    title: Lady Friend
+    artist: The Byrds
+    year: 1967
+    nation: US
+    label: Columbia
+    producer: ["Gary Usher"]
+    youtube: BhPA7MssPsE
+    selector: 草野マサムネ
+  - id: "2020011805"
+    week: 118
+    index: 980
+    indexInWeek: 5
+    title: Killer Queen
+    artist: Queen
+    year: 1974
+    nation: UK
+    label: EMI
+    producer: ["Roy Thomas Baker"]
+    youtube: 2ZBtPf7FOoM
+    selector: 草野マサムネ
+  - id: "2020011806"
+    week: 118
+    index: 981
+    indexInWeek: 6
+    title: Tiny Voices
+    artist: Bad Religion
+    year: 1994
+    nation: US
+    label: Atlantic
+    producer: ["Andy Wallace"]
+    youtube: jVpPz6YTo5A
+    selector: 草野マサムネ
+  - id: "2020011807"
+    week: 118
+    index: 982
+    indexInWeek: 7
+    title: Don't You Know What Love Is
+    artist: Touch
+    year: 1980
+    nation: US
+    label: Columbia
+    youtube: c62CVUAgh0A
+    selector: 草野マサムネ
+  - id: "2020011808"
+    week: 118
+    index: 983
+    indexInWeek: 8
+    title: Start Again
+    artist: Teenage Fanclub
+    year: 1997
+    nation: UK
+    label: Creation
+    producer: ["David Bianco"]
+    youtube: txh0s1kiPsg
+    selector: 草野マサムネ
+  - id: "2020011809"
+    week: 118
+    index: 984
+    indexInWeek: 9
+    title: Gypsy
+    artist: Uriah Heep
+    selector: 草野マサムネ
+    year: 1970
+    nation: UK
+    label: Vertigo
+    producer: ["Gerry Bron"]
+    youtube: tCxwx0J-_14
+  - id: "2020011810"
+    week: 118
+    index: 985
+    indexInWeek: 10
+    title: LIMBO
+    artist: ロッテンハッツ
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
+    year: 1992
+    nation: JPN
+    label: キューン・ソニーレコード

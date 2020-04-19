@@ -1,0 +1,127 @@
+id: "20200119"
+week: 119
+year: 2020
+title: スージー・クアトロで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-04-12
+playlist:
+  - id: "2020011901"
+    week: 119
+    index: 986
+    indexInWeek: 1
+    title: 優しいあの子
+    artist: スピッツ
+    kana: ""
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer: ["亀田誠治"]
+    corner: 漫遊前の一曲
+    youtube: RkIOd78C82I
+    selector: 草野マサムネ
+  - id: "2020011902"
+    week: 119
+    index: 987
+    indexInWeek: 2
+    title: 48 Crash
+    artist: Suzi Quatro
+    year: 1973
+    nation: US
+    label: Rak Records
+    producer:
+      - Mike Chapman
+      - Nicky Chinn
+    youtube: xrOiyJ4VEJA
+    selector: 草野マサムネ
+  - id: "2020011903"
+    week: 119
+    index: 988
+    indexInWeek: 3
+    title: What A Way To Die
+    artist: The Pleasure Seekers
+    year: 1965
+    nation: US
+    label: Hideout Records
+    youtube: Nn-Mcs-5u9c
+    selector: 草野マサムネ
+  - id: "2020011904"
+    week: 119
+    index: 989
+    indexInWeek: 4
+    title: Rolling Stone
+    artist: Suzi Quatro
+    year: 1972
+    nation: US
+    label: RAK
+    producer:
+      - Mickie Most
+    youtube: P9y560kCJRw
+    selector: 草野マサムネ
+  - id: "2020011905"
+    week: 119
+    index: 990
+    indexInWeek: 5
+    title: Can the Can
+    artist: Suzi Quatro
+    year: 1973
+    nation: US
+    label: RAK
+    producer:
+      - Mike Chapman
+      - Nicky Chinn
+    youtube: Jk18ZlliDEE
+    selector: 草野マサムネ
+  - id: "2020011906"
+    week: 119
+    index: 991
+    indexInWeek: 6
+    title: Glycerine Queen
+    artist: Suzi Quatro
+    year: 1973
+    nation: US
+    label: RAK
+    producer:
+      - Mike Chapman
+      - Nicky Chinn
+    youtube: ZbRc-t7b6ds
+    selector: 草野マサムネ
+  - id: "2020011907"
+    week: 119
+    index: 992
+    indexInWeek: 7
+    title: The Wild One
+    artist: Suzi Quatro
+    year: 1974
+    nation: US
+    label: RAK
+    producer:
+      - Mike Chapman
+      - Nicky Chinn
+    youtube: cuguOyA9oTQ
+    selector: 草野マサムネ
+  - id: "2020011908"
+    week: 119
+    index: 993
+    indexInWeek: 8
+    title: I've Never Been in Love
+    artist: Suzi Quatro
+    year: 1979
+    nation: US
+    label: RAK
+    producer:
+      - Mike Chapman
+    youtube: ZZjFs7DCulE
+    selector: 草野マサムネ
+  - id: "2020011909"
+    week: 119
+    index: 994
+    indexInWeek: 9
+    title: シネマドリーム
+    artist: ピース
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    year: 2007
+    nation: JPN
+    label: ヤマハミュージックコミュニケーションズ

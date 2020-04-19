@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme: Theme) =>
       flexDirection: 'row',
       justifyContent: 'space-between',
       [theme.breakpoints.down('sm')]: {
-        flexDirection: 'column'
-      }
-    }
+        flexDirection: 'column',
+      },
+    },
   })
 );
 
@@ -89,14 +89,14 @@ export function createNavigationProps(
     previous: previous
       ? {
           to: `${baseUrl}/${previous.fieldValue}/`,
-          title: previous.fieldValue
+          title: previous.fieldValue,
         }
       : null,
     next: next
       ? {
           to: `${baseUrl}/${next.fieldValue}`,
-          title: next.fieldValue
+          title: next.fieldValue,
         }
-      : null
+      : null,
   };
 }

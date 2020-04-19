@@ -76,7 +76,15 @@ module.exports = {
       }
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`,
+    /*
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: []
+      }
+    },
+    */
+    `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-graphql-codegen`,
     // Add typescript stack into webpack
     `gatsby-plugin-typescript`

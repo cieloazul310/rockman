@@ -3,16 +3,22 @@ import { graphql, navigate } from 'gatsby';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
+import {
+  bindKeyboard,
+  virtualize,
+  SlideRenderProps,
+} from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Jumbotron from '../components/Jumbotron';
 import DrawerNavigation from '../components/DrawerNavigation';
 import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation from '../components/PageNavigation';
-import { getPlaylistStrings } from '../utils/filterPlaylist';
+import { useAllPrograms } from '../utils/graphql-hooks';
 import createDescriptionString from '../utils/createDescriptionString';
 import { QueriedProgram } from '../types';
 import { ProgramTemplateQuery } from '../../graphql-types';
+
+const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
 interface Props {
   data: ProgramTemplateQuery;
@@ -20,85 +26,63 @@ interface Props {
     slug: string;
     previous: QueriedProgram;
     next: QueriedProgram;
+    index: number;
   };
 }
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function ProgramTemplate({ data, pageContext }: Props) {
   const { program } = data;
-  const { previous, next } = pageContext;
+  const { previous, next, index, slug } = pageContext;
+  const allPrograms = useAllPrograms();
   const description = createDescriptionString(program);
-  const initialTab = previous !== null ? 1 : 0;
-  const [tab, setTab] = React.useState(initialTab);
-  const _onChangeIndex = (index: number) => {
-    console.log(initialTab, index);
-    setTab(index);
+  const [loading, setLoading] = React.useState(false);
+  const [tab, setTab] = React.useState(index);
+  const _onChangeIndex = (i: number) => {
+    setTab(i);
   };
-  const _onTransitionEnd = () => {
-    if (tab === initialTab) return;
-    navigate(tab < initialTab ? previous.fields.slug : next.fields.slug);
-  };
+  React.useEffect(() => {
+    let timer = setTimeout(() => {
+      if (tab !== index) {
+        setLoading(true);
+        navigate(allPrograms[tab].fields.slug);
+      }
+    }, 500);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [tab]);
 
-  const SwipePages = React.useMemo(() => {
-    return [previous, program, next]
-      .filter(obj => obj !== null)
-      .map((tabProgram, index) => {
-        const [firstImg] = tabProgram.playlist
-          .filter((tune, i) => i !== 0)
-          .map(tune => tune.youtube)
-          .filter(tune => tune !== '');
-        return (
-          <div key={index}>
-            <Jumbotron
-              title={tabProgram.title}
-              header={`第${tabProgram.week}回 ${tabProgram.date} 全${tabProgram.playlist.length}曲`}
-              subtitle={program.subtitle}
-              imgUrl={
-                firstImg ? `https://i.ytimg.com/vi/${firstImg}/0.jpg` : null
-              }
-            />
-            <Container maxWidth="md">
-              <Box pt={4}>
-                {tabProgram.id === program.id ? (
-                  <div>
-                    {tabProgram.playlist.map((tune, i) => (
-                      <TuneCard key={tune.id} tune={tune} />
-                    ))}
-                    <PageNavigation
-                      previous={
-                        previous
-                          ? { to: previous.fields.slug, title: previous.title }
-                          : null
-                      }
-                      next={
-                        next
-                          ? { to: next.fields.slug, title: next.title }
-                          : null
-                      }
-                    />
-                  </div>
-                ) : (
-                  <div>
-                    {tabProgram.playlist.map((_, i) => (
-                      <TuneCardSkeleton key={i} />
-                    ))}
-                  </div>
-                )}
-              </Box>
-            </Container>
-          </div>
-        );
-      });
-  }, [previous, program, next]);
-
-  const jumbotron = (
-    <Jumbotron
-      title={program.title}
-      artists={getPlaylistStrings(program.playlist.slice(1), 'artist').join(
-        '  '
-      )}
-    />
-  );
+  function slideRenderer({ index, key }: SlideRenderProps) {
+    const item = allPrograms[index];
+    return (
+      <div key={key}>
+        <Jumbotron
+          title={item.title}
+          header={`第${item.week}回 ${item.date} 全${item.playlist.length}曲`}
+          subtitle={item.subtitle || null}
+          imgUrl={item.img || null}
+        />
+        <Container maxWidth="md">
+          <Box pt={4}>
+            {item.fields.slug === slug ? (
+              <div>
+                {program.playlist.map(tune => (
+                  <TuneCard key={tune.id} tune={tune} />
+                ))}
+                <PageNavigation {...createNavigationProps(previous, next)} />
+              </div>
+            ) : (
+              <div>
+                <TuneCardSkeleton />
+                <TuneCardSkeleton />
+                <TuneCardSkeleton />
+              </div>
+            )}
+          </Box>
+        </Container>
+      </div>
+    );
+  }
 
   return (
     <Layout
@@ -106,31 +90,34 @@ function ProgramTemplate({ data, pageContext }: Props) {
       description={description}
       disableGutters
       disablePaddingTop
+      loading={loading}
       componentViewports={{ BottomNav: false }}
       drawerContents={
-        <DrawerNavigation
-          previous={
-            previous
-              ? { to: previous.fields.slug, title: previous.title }
-              : null
-          }
-          next={next ? { to: next.fields.slug, title: next.title } : null}
-        />
+        <DrawerNavigation {...createNavigationProps(previous, next)} />
       }
     >
-      <BindKeyboardSwipeableViews
+      <VirtualizedSwipeableViews
         index={tab}
         onChangeIndex={_onChangeIndex}
-        onTransitionEnd={_onTransitionEnd}
+        slideRenderer={slideRenderer}
+        slideCount={allPrograms.length}
         resistance
-      >
-        {SwipePages}
-      </BindKeyboardSwipeableViews>
+      />
     </Layout>
   );
 }
 
 export default ProgramTemplate;
+
+function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
+  return {
+    previous: previous
+      ? { to: previous.fields.slug, title: previous.title }
+      : null,
+
+    next: next ? { to: next.fields.slug, title: next.title } : null,
+  };
+}
 
 export const query = graphql`
   query ProgramTemplate($slug: String!) {

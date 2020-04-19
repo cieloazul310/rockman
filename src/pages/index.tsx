@@ -1,21 +1,24 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import List from '@material-ui/core/List';
 import Grid from '@material-ui/core/Grid';
 import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
 import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import Jumbotron from '../components/Jumbotron';
-import JunkList from '../components/JunkList';
-import ProgramSummary from '../components/ProgramSummary';
+import Stat from '../components/index/Stat';
+import RadikoLink from '../components/index/RadikoLink';
 import NavigationBox from '../components/NavigationBox';
+import { useAllPrograms, useAllArtists } from '../utils/graphql-hooks';
 import {
   ProgramIcon,
   ArtistIcon,
   CategoryIcon,
   SelectorIcon,
-  CornerIcon
+  CornerIcon,
+  TuneIcon
 } from '../icons';
 import { IndexQuery } from '../../graphql-types';
 
@@ -25,6 +28,10 @@ interface Props {
 
 function IndexPage(props: Props) {
   console.log(props);
+  const programs = useAllPrograms();
+  const tunesLength = programs.reduce((accum, curr) => [...accum, ...curr.playlist], []).length;
+  const artistsLength = useAllArtists().length;
+  
   const data = useStaticQuery<IndexQuery>(graphql`
     query Index {
       allProgram(sort: { fields: week, order: DESC }, limit: 8) {
@@ -62,6 +69,7 @@ function IndexPage(props: Props) {
       }
     }
   `);
+  const [latest] = data.allProgram.edges;
   const [firstSong] = data.allProgram.edges.reduce(
     (accum, { node }) => [
       ...accum,
@@ -84,6 +92,27 @@ function IndexPage(props: Props) {
       componentViewports={{ BottomNav: false }}
       jumbotron={jumbotron}
     >
+      <Grid container>
+        <Stat
+          icon={<ProgramIcon fontSize="inherit" />}
+          value={programs.length}
+          title="放送"
+          label="回"
+        />
+        <Stat
+          icon={<TuneIcon fontSize="inherit" />}
+          value={tunesLength}
+          title="曲数"
+          label="曲"
+        />
+        <Stat
+          icon={<ArtistIcon fontSize="inherit" />}
+          
+          value={artistsLength}
+          title="アーティスト"
+          label="組"
+        />
+      </Grid>
       <Typography variant="h5" component="h2">
         最新のプレイリスト
       </Typography>
@@ -98,43 +127,46 @@ function IndexPage(props: Props) {
           />
         ))}
       </List>
-      <Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <NavigationBox
-            icon={<ProgramIcon />}
-            label="放送回"
-            to="/programs/"
-          />
+      <RadikoLink date={latest.node.date} />
+      <Container maxWidth="sm">
+        <Grid container>
+          <Grid item sm={4} md={2}>
+            <NavigationBox
+              icon={<ProgramIcon />}
+              label="放送回"
+              to="/programs/"
+            />
+          </Grid>
+          <Grid item sm={4} md={2}>
+            <NavigationBox
+              icon={<ArtistIcon />}
+              label="アーティスト"
+              to="/artists/"
+            />
+          </Grid>
+          <Grid item sm={4} md={2}>
+            <NavigationBox
+              icon={<CategoryIcon />}
+              label="放送テーマ"
+              to="/categories/"
+            />
+          </Grid>
+          <Grid item sm={4} md={2}>
+            <NavigationBox
+              icon={<SelectorIcon />}
+              label="選曲者"
+              to="/selectors/"
+            />
+          </Grid>
+          <Grid item sm={4} md={2}>
+            <NavigationBox
+              icon={<CornerIcon />}
+              label="コーナー"
+              to="/corners/"
+            />
+          </Grid>
         </Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <NavigationBox
-            icon={<ArtistIcon />}
-            label="アーティスト"
-            to="/artists/"
-          />
-        </Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <NavigationBox
-            icon={<CategoryIcon />}
-            label="放送テーマ"
-            to="/categories/"
-          />
-        </Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <NavigationBox
-            icon={<SelectorIcon />}
-            label="選曲者"
-            to="/selectors/"
-          />
-        </Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <NavigationBox
-            icon={<CornerIcon />}
-            label="コーナー"
-            to="/corners/"
-          />
-        </Grid>
-      </Grid>
+      </Container>
     </Layout>
   );
 }

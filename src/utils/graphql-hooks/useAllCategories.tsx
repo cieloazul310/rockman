@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllCategoriesQuery } from '../../../graphql-types';
 
-export default function useAllCategories() {
+export function useAllCategories() {
   const data = useStaticQuery<AllCategoriesQuery>(graphql`
     query AllCategories {
       allProgram(sort: { fields: week, order: ASC }) {
@@ -11,6 +11,12 @@ export default function useAllCategories() {
           edges {
             node {
               id
+              week
+              title
+              date(formatString: "YYYY-MM-DD")
+              fields {
+                slug
+              }
             }
           }
         }

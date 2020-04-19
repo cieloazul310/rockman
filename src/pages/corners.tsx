@@ -7,17 +7,18 @@ import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
-import { useCorners } from '../utils/graphql-hooks';
+//import { useCorners } from '../utils/graphql-hooks';
 
 type LocationWithState = WindowLocation & {
   state?: {
     corner?: string;
   };
 };
-
+/*
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CornersPage() {
+  
   const location: LocationWithState = useLocation();
   const corners = useCorners();
   const initialValue =
@@ -71,3 +72,13 @@ function CornersPage() {
 }
 
 export default CornersPage;
+*/
+function CornerPage() {
+  return (
+    <Layout title="コーナー">
+      <p>コーナー</p>
+    </Layout>
+  );
+}
+
+export default CornerPage;

@@ -8,6 +8,7 @@ import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
 import { useSelectors } from '../utils/graphql-hooks';
+import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
 
 type LocationWithState = WindowLocation & {
   state?: {
@@ -19,10 +20,14 @@ const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 function SelectorsPage() {
   const location: LocationWithState = useLocation();
   // [[name, programs]]
-  const selectors = useSelectors();
+  const selectors = useAllSelectors();
+  const initialSelector =
+    location.hash !== '' ? decodeURI(location.hash.slice(1)) : null;
   const initialValue =
-    location.state && location.state.selector
-      ? selectors.map(d => d[0]).indexOf(location.state.selector)
+    selectors.map(d => d.fieldValue).indexOf(initialSelector) >= 0
+      ? selectors.map(d => d.fieldValue).indexOf(initialSelector)
+      : location.state && location.state.selector
+      ? selectors.map(d => d.fieldValue).indexOf(location.state.selector)
       : 0;
   const [value, setValue] = React.useState(initialValue);
   const _handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
@@ -31,10 +36,13 @@ function SelectorsPage() {
   const _handleChangeIndex = (index: number) => {
     setValue(index);
   };
+  React.useEffect(() => {
+    history.replaceState(value, '', `#${selectors[value].fieldValue}`);
+  }, [value]);
 
   return (
     <Layout
-      title={`${selectors[value][0]}の選曲`}
+      title={`${selectors[value].fieldValue}の選曲`}
       tabSticky
       componentViewports={{ BottomNav: false }}
       tabs={
@@ -46,7 +54,10 @@ function SelectorsPage() {
           aria-label="scrollable auto tabs example"
         >
           {selectors.map(d => (
-            <Tab key={d[0]} label={`${d[0]} ${d[2]}`} />
+            <Tab
+              key={d.fieldValue}
+              label={`${d.fieldValue} ${d.playlist.length}`}
+            />
           ))}
         </Tabs>
       }
@@ -59,9 +70,9 @@ function SelectorsPage() {
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
             <LazyViewer
-              programs={d[1]}
+              programs={d.edges.map(v => v.node)}
               divisor={15}
-              filter={tune => tune.selector === d[0]}
+              filter={tune => tune.selector === d.fieldValue}
             />
           </TabPane>
         ))}
