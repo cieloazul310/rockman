@@ -22,34 +22,17 @@ function ShareButtons({ className, title, color = 'default' }: Props) {
   return (
     <Box className={className}>
       <Tooltip title="Twitterでシェア">
-        <IconButton
-          key={isClient}
-          color={color}
-          href={twitterUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <IconButton key={isClient} color={color} href={twitterUrl} target="_blank" rel="noopener noreferrer">
           <TwitterIcon />
         </IconButton>
       </Tooltip>
       <Tooltip title="Facebookでシェア">
-        <IconButton
-          key={isClient}
-          color={color}
-          href={fbUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <IconButton key={isClient} color={color} href={fbUrl} target="_blank" rel="noopener noreferrer">
           <FacebookIcon />
         </IconButton>
       </Tooltip>
       <Tooltip title="YouTube">
-        <IconButton
-          color={color || 'default'}
-          href={`https://www.youtube.com/${youtube}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <IconButton color={color || 'default'} href={`https://www.youtube.com/${youtube}`} target="_blank" rel="noopener noreferrer">
           <YouTubeIcon />
         </IconButton>
       </Tooltip>

@@ -22,20 +22,17 @@ const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 function CategoriesPage() {
   const location: LocationWithState = useLocation();
   const categories = useAllCategories();
-  const initialValue =
-    location.state && location.state.category
-      ? categories.map(d => d.fieldValue).indexOf(location.state.category)
-      : 0;
+  const initialValue = location.state && location.state.category ? categories.map((d) => d.fieldValue).indexOf(location.state.category) : 0;
   const [tab, setTab] = React.useState(initialValue);
   const sorter = useSorter();
-  const _handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
+  const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
     setTab(newValue);
   };
   const _handleChangeIndex = (index: number) => {
     setTab(index);
   };
   React.useEffect(() => {
-    history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
+    if (window) window.history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
   }, [tab]);
 
   return (
@@ -44,33 +41,20 @@ function CategoriesPage() {
       tabSticky
       componentViewports={{ BottomNav: false }}
       tabs={
-        <Tabs
-          value={tab}
-          onChange={_handleChange}
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-          {categories.map(d => (
-            <Tab
-              key={d.fieldValue}
-              label={`${d.fieldValue} ${d.edges.length}`}
-            />
+        <Tabs value={tab} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+          {categories.map((d) => (
+            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.edges.length}`} />
           ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews
-        index={tab}
-        onChangeIndex={_handleChangeIndex}
-        resistance
-      >
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={_handleChangeIndex} resistance>
         {categories.map((d, index) => (
           <TabPane key={index} value={tab} index={index}>
             <List>
               {d.edges
                 .sort((a, b) => sorter(a.node.week - b.node.week))
-                .map(v => (
+                .map((v) => (
                   <ListItemLink
                     key={v.node.id}
                     to={v.node.fields.slug}

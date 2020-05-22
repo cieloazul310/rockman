@@ -1,0 +1,97 @@
+id: "20200122"
+week: 122
+year: 2020
+title: 最近沁みる邦楽ロック
+guests: []
+categories: []
+date: 2020-05-03
+playlist:
+  - id: "2020012201"
+    week: 122
+    index: 1011
+    indexInWeek: 1
+    title: みなと
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer: ["亀田誠治"]
+    corner: 漫遊前の一曲
+    youtube: GiuxvmiULhI
+    selector: 草野マサムネ
+  - id: "2020012202"
+    week: 122
+    index: 1012
+    indexInWeek: 2
+    title: I LOVE...
+    artist: Official髭男dism
+    year: 2020
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: bt8wNQJaKAk
+    selector: 草野マサムネ
+  - id: "2020012203"
+    week: 122
+    index: 1013
+    indexInWeek: 3
+    title: See you in my dream
+    artist: Age Factory
+    year: 2018
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    youtube: NlvwIA1Efzs
+    selector: 草野マサムネ
+  - id: "2020012204"
+    week: 122
+    index: 1014
+    indexInWeek: 4
+    title: ロマンチスト(再録)
+    artist: BUGY CRAXONE
+    year: 2017
+    nation: JPN
+    label: インペリアルレコード
+    youtube: hzAeaeVJDhw
+    selector: 草野マサムネ
+  - id: "2020012205"
+    week: 122
+    index: 1015
+    indexInWeek: 5
+    title: ミクロコスモス・マクロハピネス
+    artist: qps
+    year: 2012
+    nation: JPN
+    label: 天使レコード
+    selector: 草野マサムネ
+  - id: "2020012206"
+    week: 122
+    index: 1016
+    indexInWeek: 6
+    title: HOPE
+    artist: 阿部真央
+    kana: あべまお
+    year: 2016
+    nation: JPN
+    label: ポニーキャニオン
+    selector: 草野マサムネ
+  - id: "2020012207"
+    week: 122
+    index: 1017
+    indexInWeek: 7
+    title: SUNNY SIDE WALK
+    artist: KODAMA AND THE DUB STATION BAND
+    year: 2019
+    nation: JPN
+    label: KURASHI
+    selector: 草野マサムネ
+  - id: "2020012208"
+    week: 122
+    index: 1018
+    indexInWeek: 8
+    title: 情熱たましい
+    artist: B-DASH
+    year: 2004
+    nation: JPN
+    label: XTRA LARGE RECORDS
+    youtube: hV8k1guGrpE
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

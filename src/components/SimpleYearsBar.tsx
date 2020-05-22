@@ -20,14 +20,8 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
       justifyContent: 'center',
       textAlign: 'center',
-      backgroundColor:
-        theme.palette.type === 'dark'
-          ? theme.palette.grey[700]
-          : theme.palette.grey[300],
-      color:
-        theme.palette.type === 'dark'
-          ? theme.palette.grey[300]
-          : theme.palette.grey[700],
+      backgroundColor: theme.palette.type === 'dark' ? theme.palette.grey[700] : theme.palette.grey[300],
+      color: theme.palette.type === 'dark' ? theme.palette.grey[300] : theme.palette.grey[700],
       transition: theme.transitions.create(['width', 'background']),
       borderRight: '.5px solid silver',
       '&:last-child': {
@@ -47,12 +41,10 @@ function SimpleYearsBar({ playlist }: Props) {
   const years = React.useMemo(
     () =>
       playlist
-        .map(tune => tune.year)
+        .map((tune) => tune.year)
         .reduce((accum, curr) => {
           // [[197, 1], [198, 2]]
-          const existedIndex = accum
-            .map(d => d[0])
-            .indexOf(Math.floor(curr / 10));
+          const existedIndex = accum.map((d) => d[0]).indexOf(Math.floor(curr / 10));
           if (existedIndex < 0) {
             return [...accum, [Math.floor(curr / 10), 1]];
           } else {
@@ -61,7 +53,7 @@ function SimpleYearsBar({ playlist }: Props) {
           }
         }, [])
         .sort((a, b) => a[0] - b[0])
-        .map(d => [d[0] * 10, d[1]]),
+        .map((d) => [d[0] * 10, d[1]]),
     [playlist]
   );
   return (

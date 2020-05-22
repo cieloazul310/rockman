@@ -19,7 +19,7 @@ function TunesByProgram({ program, filter = () => true }: Props) {
       <Typography variant="h6" component="h3" gutterBottom>
         <AppLink to={program.fields.slug}>{program.title}</AppLink>
       </Typography>
-      {program.playlist.filter(filter).map(tune => (
+      {program.playlist.filter(filter).map((tune) => (
         <TuneCard key={tune.id} tune={tune} />
       ))}
     </Box>

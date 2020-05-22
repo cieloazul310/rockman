@@ -8,11 +8,7 @@ type Easing = {
 type EasingName = 'linear' | 'elastic' | 'inExpo';
 
 // Hook
-export default function useAnimation(
-  easingName: EasingName = 'linear',
-  duration = 500,
-  delay = 0
-) {
+export default function useAnimation(easingName: EasingName = 'linear', duration = 500, delay = 0) {
   // The useAnimationTimer hook calls useState every animation frame ...
   // ... giving us elapsed time and causing a rerender as frequently ...
   // ... as possible for a smooth animation.
@@ -28,9 +24,8 @@ export default function useAnimation(
 // Hardcode here or pull in a dependency
 const easing: Easing = {
   linear: (n: number) => n,
-  elastic: (n: number) =>
-    n * (33 * n * n * n * n - 106 * n * n * n + 126 * n * n - 67 * n + 15),
-  inExpo: (n: number) => Math.pow(2, 10 * (n - 1))
+  elastic: (n: number) => n * (33 * n * n * n * n - 106 * n * n * n + 126 * n * n - 67 * n + 15),
+  inExpo: (n: number) => Math.pow(2, 10 * (n - 1)),
 };
 
 function useAnimationTimer(duration = 1000, delay = 0) {

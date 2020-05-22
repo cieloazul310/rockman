@@ -7,8 +7,7 @@ export default function sortByYomi(a: YamlPlaylist, b: YamlPlaylist) {
                */
 export function getYomi(artistName: string, kana: string) {
   const the = artistName.slice(0, 4);
-  if (the === 'The ' || the === 'THE ' || the === 'the ')
-    return artistName.slice(4);
+  if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
   return kana || artistName;
 }
 

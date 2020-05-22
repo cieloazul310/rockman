@@ -9,8 +9,7 @@ function DrawerFooter() {
         About
       </Typography>
       <Typography variant="body2">
-        このページは、TOKYO-FM で放送されている
-        SPITZ草野マサムネのロック大陸漫遊記のプレイリスト集です。
+        このページは、TOKYO-FM で放送されている SPITZ草野マサムネのロック大陸漫遊記のプレイリスト集です。
       </Typography>
     </Box>
   );

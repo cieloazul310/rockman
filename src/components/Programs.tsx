@@ -31,7 +31,7 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {programs.map(program => (
+          {programs.map((program) => (
             <ListItemLink
               key={program.id}
               to={program.fields.slug}
@@ -49,12 +49,8 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
 function Programs() {
   const programs = useAllPrograms();
   const years = React.useMemo(() => {
-    return [2018, 2019, 2020].map(year => (
-      <ProgramsByYear
-        key={year}
-        year={year}
-        programs={programs.filter(program => program.year === year)}
-      />
+    return [2018, 2019, 2020].map((year) => (
+      <ProgramsByYear key={year} year={year} programs={programs.filter((program) => program.year === year)} />
     ));
   }, [programs]);
 

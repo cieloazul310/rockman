@@ -80,11 +80,7 @@ interface Item {
   fieldValue: string;
 }
 
-export function createNavigationProps(
-  previous: Item,
-  next: Item,
-  baseUrl: string
-): Props {
+export function createNavigationProps(previous: Item, next: Item, baseUrl: string): Props {
   return {
     previous: previous
       ? {

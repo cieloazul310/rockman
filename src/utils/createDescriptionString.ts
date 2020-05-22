@@ -1,12 +1,6 @@
 import { Program } from '../../graphql-types';
 
-export default function DescriptionString({
-  week,
-  title,
-  date,
-  subtitle,
-  guests,
-}: Partial<Program>): string {
+export default function DescriptionString({ week, title, date, subtitle, guests }: Partial<Program>): string {
   const dt = new Date(date);
   const year = dt.getFullYear();
   const month = dt.getMonth() + 1;

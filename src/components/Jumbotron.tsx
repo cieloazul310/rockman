@@ -40,50 +40,25 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
 );
 
 interface Props {
-  header?:
-    | string
-    | JSX.Element
-    | JSX.Element[]
-    | (JSX.Element | JSX.Element[])[];
+  header?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   title: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   height?: number;
-  artists?:
-    | string
-    | JSX.Element
-    | JSX.Element[]
-    | (JSX.Element | JSX.Element[])[];
-  subtitle?:
-    | string
-    | JSX.Element
-    | JSX.Element[]
-    | (JSX.Element | JSX.Element[])[];
+  artists?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
+  subtitle?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   imgUrl?: string;
 }
 
-function Jumbotron({
-  header,
-  subtitle,
-  title,
-  artists,
-  imgUrl,
-  height = 300,
-}: Props) {
+function Jumbotron({ header, subtitle, title, artists, imgUrl, height = 300 }: Props) {
   const classes = useStyles({ imgUrl, height });
   return (
     <Box height={height} overflow="hidden" position="relative">
       <div className={classes.jumbotronBg} />
       <div className={classes.jumbotronText}>
         <Typography variant="subtitle2">{header}</Typography>
-        <Typography
-          variant="h2"
-          className={classes.jumbotronTitle}
-          gutterBottom
-        >
+        <Typography variant="h2" className={classes.jumbotronTitle} gutterBottom>
           {title}
         </Typography>
-        {subtitle ? (
-          <Typography variant="subtitle1">{subtitle}</Typography>
-        ) : null}
+        {subtitle ? <Typography variant="subtitle1">{subtitle}</Typography> : null}
         {artists ? (
           <Typography variant="body2" component="div">
             {artists}

@@ -1,12 +1,6 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import {
-  QueriedProgram,
-  ArtistItem,
-  CategoryItem,
-  CornerItem,
-  SelectorItem,
-} from '../../types';
+import { QueriedProgram, ArtistItem, CategoryItem, CornerItem, SelectorItem } from '../../types';
 import { getProgramsContainsValue, filterPlaylist } from '../filterPlaylist';
 import { AllProgramQuery, ProgramPlaylist } from '../../../graphql-types';
 
@@ -51,10 +45,10 @@ export function useAllPrograms(): QueriedProgram[] {
   `);
   return React.useMemo(() => {
     return data.allProgram.edges.map(({ node }) => {
-      const [img] = node.playlist.filter((tune, index) => index !== 0 && tune.youtube && tune.youtube !== '').map(tune => tune.youtube);
-      return { 
-        ...node, 
-        img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null
+      const [img] = node.playlist.filter((tune, index) => index !== 0 && tune.youtube && tune.youtube !== '').map((tune) => tune.youtube);
+      return {
+        ...node,
+        img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null,
       };
     });
   }, []);

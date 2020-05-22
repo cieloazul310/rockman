@@ -21,23 +21,22 @@ function SelectorsPage() {
   const location: LocationWithState = useLocation();
   // [[name, programs]]
   const selectors = useAllSelectors();
-  const initialSelector =
-    location.hash !== '' ? decodeURI(location.hash.slice(1)) : null;
+  const initialSelector = location.hash !== '' ? decodeURI(location.hash.slice(1)) : null;
   const initialValue =
-    selectors.map(d => d.fieldValue).indexOf(initialSelector) >= 0
-      ? selectors.map(d => d.fieldValue).indexOf(initialSelector)
+    selectors.map((d) => d.fieldValue).indexOf(initialSelector) >= 0
+      ? selectors.map((d) => d.fieldValue).indexOf(initialSelector)
       : location.state && location.state.selector
-      ? selectors.map(d => d.fieldValue).indexOf(location.state.selector)
+      ? selectors.map((d) => d.fieldValue).indexOf(location.state.selector)
       : 0;
   const [value, setValue] = React.useState(initialValue);
-  const _handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
+  const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
     setValue(newValue);
   };
   const _handleChangeIndex = (index: number) => {
     setValue(index);
   };
   React.useEffect(() => {
-    history.replaceState(value, '', `#${selectors[value].fieldValue}`);
+    if (window) window.history.replaceState(value, '', `#${selectors[value].fieldValue}`);
   }, [value]);
 
   return (
@@ -46,34 +45,17 @@ function SelectorsPage() {
       tabSticky
       componentViewports={{ BottomNav: false }}
       tabs={
-        <Tabs
-          value={value}
-          onChange={_handleChange}
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-          {selectors.map(d => (
-            <Tab
-              key={d.fieldValue}
-              label={`${d.fieldValue} ${d.playlist.length}`}
-            />
+        <Tabs value={value} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+          {selectors.map((d) => (
+            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.playlist.length}`} />
           ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews
-        index={value}
-        onChangeIndex={_handleChangeIndex}
-        resistance
-      >
+      <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance>
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            <LazyViewer
-              programs={d.edges.map(v => v.node)}
-              divisor={15}
-              filter={tune => tune.selector === d.fieldValue}
-            />
+            <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune.selector === d.fieldValue} />
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>

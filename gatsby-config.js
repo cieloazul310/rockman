@@ -3,18 +3,11 @@
 module.exports = {
   siteMetadata: {
     title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
-    description:
-      'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
+    description: 'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
     lang: 'ja',
     siteUrl: 'https://cieloazul310.github.io/gatsby-rockman/',
     author: 'cieloazul310',
-    keywords: [
-      'スピッツ',
-      '草野マサムネ',
-      'ロック大陸漫遊記',
-      'プレイリスト',
-      'ラジオ'
-    ],
+    keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト', 'ラジオ'],
     social: {
       mail: '',
       twitter: 'cieloazul310',
@@ -27,8 +20,8 @@ module.exports = {
       tumblr: '',
       instagram: '',
       vimeo: '',
-      youtube: 'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ'
-    }
+      youtube: 'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ',
+    },
   },
   pathPrefix: '/gatsby-rockman',
   plugins: [
@@ -36,20 +29,20 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `yaml`,
-        path: `${__dirname}/data/yaml`
-      }
+        path: `${__dirname}/data/yaml`,
+      },
     },
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
-        typeName: `program`
-      }
+        typeName: `program`,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-74683419-3'
-      }
+        trackingId: 'UA-74683419-3',
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -60,20 +53,20 @@ module.exports = {
         background_color: `#fafafa`,
         theme_color: `#009688`,
         display: `standalone`,
-        icon: `src/assets/icon.png`
-      }
+        icon: `src/assets/icon.png`,
+      },
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://cieloazul310.github.io/`
-      }
+        siteUrl: `https://cieloazul310.github.io/`,
+      },
     },
     {
       resolve: `gatsby-theme-aoi`,
       options: {
-        siteId: `gatsby-rockman`
-      }
+        siteId: `gatsby-rockman`,
+      },
     },
     `gatsby-plugin-sitemap`,
     /*
@@ -84,9 +77,13 @@ module.exports = {
       }
     },
     */
+    {
+      resolve: `gatsby-plugin-eslint`,
+      options: {
+        test: /\.js$|\.jsx$|\.ts$|\.tsx$/,
+      },
+    },
     `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-graphql-codegen`,
-    // Add typescript stack into webpack
-    `gatsby-plugin-typescript`
-  ]
+  ],
 };

@@ -12,26 +12,14 @@ import Stat from '../components/index/Stat';
 import RadikoLink from '../components/index/RadikoLink';
 import NavigationBox from '../components/NavigationBox';
 import { useAllPrograms, useAllArtists } from '../utils/graphql-hooks';
-import {
-  ProgramIcon,
-  ArtistIcon,
-  CategoryIcon,
-  SelectorIcon,
-  CornerIcon,
-  TuneIcon
-} from '../icons';
+import { ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon } from '../icons';
 import { IndexQuery } from '../../graphql-types';
 
-interface Props {
-  //location: LocationWithState;
-}
-
-function IndexPage(props: Props) {
-  console.log(props);
+function IndexPage() {
   const programs = useAllPrograms();
   const tunesLength = programs.reduce((accum, curr) => [...accum, ...curr.playlist], []).length;
   const artistsLength = useAllArtists().length;
-  
+
   const data = useStaticQuery<IndexQuery>(graphql`
     query Index {
       allProgram(sort: { fields: week, order: DESC }, limit: 8) {
@@ -71,10 +59,7 @@ function IndexPage(props: Props) {
   `);
   const [latest] = data.allProgram.edges;
   const [firstSong] = data.allProgram.edges.reduce(
-    (accum, { node }) => [
-      ...accum,
-      ...node.playlist.filter(tune => tune.youtube !== '')
-    ],
+    (accum, { node }) => [...accum, ...node.playlist.filter((tune) => tune.youtube && tune.youtube !== '')],
     []
   );
   const jumbotron = (
@@ -87,31 +72,11 @@ function IndexPage(props: Props) {
   );
 
   return (
-    <Layout
-      maxWidth="md"
-      componentViewports={{ BottomNav: false }}
-      jumbotron={jumbotron}
-    >
+    <Layout maxWidth="md" componentViewports={{ BottomNav: false }} jumbotron={jumbotron}>
       <Grid container>
-        <Stat
-          icon={<ProgramIcon fontSize="inherit" />}
-          value={programs.length}
-          title="放送"
-          label="回"
-        />
-        <Stat
-          icon={<TuneIcon fontSize="inherit" />}
-          value={tunesLength}
-          title="曲数"
-          label="曲"
-        />
-        <Stat
-          icon={<ArtistIcon fontSize="inherit" />}
-          
-          value={artistsLength}
-          title="アーティスト"
-          label="組"
-        />
+        <Stat icon={<ProgramIcon fontSize="inherit" />} value={programs.length} title="放送" label="回" />
+        <Stat icon={<TuneIcon fontSize="inherit" />} value={tunesLength} title="曲数" label="曲" />
+        <Stat icon={<ArtistIcon fontSize="inherit" />} value={artistsLength} title="アーティスト" label="組" />
       </Grid>
       <Typography variant="h5" component="h2">
         最新のプレイリスト
@@ -131,39 +96,19 @@ function IndexPage(props: Props) {
       <Container maxWidth="sm">
         <Grid container>
           <Grid item sm={4} md={2}>
-            <NavigationBox
-              icon={<ProgramIcon />}
-              label="放送回"
-              to="/programs/"
-            />
+            <NavigationBox icon={<ProgramIcon />} label="放送回" to="/programs/" />
           </Grid>
           <Grid item sm={4} md={2}>
-            <NavigationBox
-              icon={<ArtistIcon />}
-              label="アーティスト"
-              to="/artists/"
-            />
+            <NavigationBox icon={<ArtistIcon />} label="アーティスト" to="/artists/" />
           </Grid>
           <Grid item sm={4} md={2}>
-            <NavigationBox
-              icon={<CategoryIcon />}
-              label="放送テーマ"
-              to="/categories/"
-            />
+            <NavigationBox icon={<CategoryIcon />} label="放送テーマ" to="/categories/" />
           </Grid>
           <Grid item sm={4} md={2}>
-            <NavigationBox
-              icon={<SelectorIcon />}
-              label="選曲者"
-              to="/selectors/"
-            />
+            <NavigationBox icon={<SelectorIcon />} label="選曲者" to="/selectors/" />
           </Grid>
           <Grid item sm={4} md={2}>
-            <NavigationBox
-              icon={<CornerIcon />}
-              label="コーナー"
-              to="/corners/"
-            />
+            <NavigationBox icon={<CornerIcon />} label="コーナー" to="/corners/" />
           </Grid>
         </Grid>
       </Container>

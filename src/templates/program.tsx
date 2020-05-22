@@ -3,11 +3,7 @@ import { graphql, navigate } from 'gatsby';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews from 'react-swipeable-views';
-import {
-  bindKeyboard,
-  virtualize,
-  SlideRenderProps,
-} from 'react-swipeable-views-utils';
+import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Jumbotron from '../components/Jumbotron';
 import DrawerNavigation from '../components/DrawerNavigation';
@@ -41,7 +37,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
     setTab(i);
   };
   React.useEffect(() => {
-    let timer = setTimeout(() => {
+    const timer = setTimeout(() => {
       if (tab !== index) {
         setLoading(true);
         navigate(allPrograms[tab].fields.slug);
@@ -66,7 +62,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
           <Box pt={4}>
             {item.fields.slug === slug ? (
               <div>
-                {program.playlist.map(tune => (
+                {program.playlist.map((tune) => (
                   <TuneCard key={tune.id} tune={tune} />
                 ))}
                 <PageNavigation {...createNavigationProps(previous, next)} />
@@ -92,9 +88,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
       disablePaddingTop
       loading={loading}
       componentViewports={{ BottomNav: false }}
-      drawerContents={
-        <DrawerNavigation {...createNavigationProps(previous, next)} />
-      }
+      drawerContents={<DrawerNavigation {...createNavigationProps(previous, next)} />}
     >
       <VirtualizedSwipeableViews
         index={tab}
@@ -111,9 +105,7 @@ export default ProgramTemplate;
 
 function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
   return {
-    previous: previous
-      ? { to: previous.fields.slug, title: previous.title }
-      : null,
+    previous: previous ? { to: previous.fields.slug, title: previous.title } : null,
 
     next: next ? { to: next.fields.slug, title: next.title } : null,
   };

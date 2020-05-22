@@ -6,12 +6,4 @@ import SelectorIcon from '@material-ui/icons/Face';
 import CornerIcon from '@material-ui/icons/EmojiFlags';
 import TuneIcon from '@material-ui/icons/MusicNote';
 
-export {
-  HomeIcon,
-  ProgramIcon,
-  ArtistIcon,
-  CategoryIcon,
-  SelectorIcon,
-  CornerIcon,
-  TuneIcon,
-};
+export { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon };

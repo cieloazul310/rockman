@@ -1,0 +1,104 @@
+id: "20200121"
+week: 121
+year: 2020
+title: 映画ロックで漫遊記
+guests: []
+categories: []
+date: 2020-04-26
+playlist:
+  - id: "2020012101"
+    week: 121
+    index: 1003
+    indexInWeek: 1
+    title: 歌ウサギ
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer: ["亀田誠治"]
+    corner: 漫遊前の一曲
+    youtube: 7KKn4C9786k
+    selector: 草野マサムネ
+  - id: "2020012102"
+    week: 121
+    index: 1004
+    indexInWeek: 2
+    title: Huey Lewis and the News
+    artist: The Power of Love
+    year: 1985
+    nation: US
+    label: Chrysalis
+    youtube: wBl2QGAIx1s
+    selector: 草野マサムネ
+  - id: "2020012103"
+    week: 121
+    index: 1005
+    indexInWeek: 3
+    title: One Way or Another
+    artist: Blondie
+    year: 1979
+    nation: US
+    label: Chrysalis
+    producer:
+      - Mike Chapman
+    youtube: FIXIsYWS8CA
+    selector: 草野マサムネ
+  - id: "2020012104"
+    week: 121
+    index: 1006
+    indexInWeek: 4
+    title: Where Is My Mind?
+    artist: Pixies
+    year: 1988
+    nation: US
+    label: Rough Trades
+    producer:
+      - Steve Albini
+    youtube: 49FB9hhoO6c
+    selector: 草野マサムネ
+  - id: "2020012105"
+    week: 121
+    index: 1007
+    indexInWeek: 5
+    title: Everyday Is a Winding Road
+    artist: Sheryl Crow
+    year: 1996
+    nation: US
+    label: A&M
+    youtube: khrx-zrG460
+    selector: 草野マサムネ
+  - id: "2020012106"
+    week: 121
+    index: 1008
+    indexInWeek: 6
+    title: Brown Shoes
+    artist: Sing Street
+    year: 2016
+    nation: IRE
+    label: Decca
+    youtube: n-p7zFJSQaU
+    selector: 草野マサムネ
+  - id: "2020012107"
+    week: 121
+    index: 1009
+    indexInWeek: 7
+    title: Let It Be
+    artist: Himesh Patel
+    year: 2019
+    nation: UK
+    label: Universal
+    youtube: lNEyW7Hx6nM
+    selector: 草野マサムネ
+  - id: "2020012108"
+    week: 121
+    index: 1010
+    indexInWeek: 8
+    title: 緑のアーチ
+    artist: 湯川潮音
+    kana: ゆかわしおね
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: Gof9Xd51FRU
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

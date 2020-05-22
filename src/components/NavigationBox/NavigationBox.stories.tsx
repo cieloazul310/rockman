@@ -1,14 +1,6 @@
 import * as React from 'react';
 import NavigationBox from './index';
-import {
-  HomeIcon,
-  ProgramIcon,
-  ArtistIcon,
-  CategoryIcon,
-  SelectorIcon,
-  CornerIcon,
-  TuneIcon,
-} from '../../icons';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon } from '../../icons';
 
 export default {
   component: NavigationBox,

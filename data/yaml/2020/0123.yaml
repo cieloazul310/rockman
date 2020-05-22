@@ -1,0 +1,100 @@
+id: "20200123"
+week: 123
+year: 2020
+title: ホーンが効いてるナンバーで漫遊記
+guests: []
+categories: []
+date: 2020-05-10
+playlist:
+  - id: "2020012301"
+    week: 123
+    index: 1019
+    indexInWeek: 1
+    title: 魔法
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 長谷川智樹
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012302"
+    week: 123
+    index: 1020
+    indexInWeek: 2
+    title: 25 or 6 to 4
+    artist: Chicago
+    year: 1970
+    nation: US
+    label: Columbia
+    youtube: 8A3HZvGN0qs
+    selector: 草野マサムネ
+  - id: "2020012303"
+    week: 123
+    index: 1021
+    indexInWeek: 3
+    title: Tell All the People
+    artist: The Doors
+    year: 1969
+    nation: US
+    label: Elektra
+    producer: 
+      - Paul A. Rothchild
+    youtube: 0VuqQlORCLM
+    selector: 草野マサムネ
+  - id: "2020012304"
+    week: 123
+    index: 1022
+    indexInWeek: 4
+    title: No Warmth In My Life
+    artist: Room
+    year: 1970
+    nation: UK
+    label: Deram
+    youtube: lrusCSgZYxg
+    selector: 草野マサムネ
+  - id: "2020012305"
+    week: 123
+    index: 1023
+    indexInWeek: 5
+    title: 恋の味
+    artist: What's Love?
+    year: 2002
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: RBcEjuzacBY
+    selector: 草野マサムネ
+  - id: "2020012306"
+    week: 123
+    index: 1024
+    indexInWeek: 6
+    title: Killer
+    artist: Riot
+    year: 1990
+    nation: US
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2020012307"
+    week: 123
+    index: 1025
+    indexInWeek: 7
+    title: 白いばら
+    artist: KEMURI
+    year: 2007
+    nation: JPN
+    label: avex io
+    youtube: 35aMy5C2M6A
+    selector: 草野マサムネ
+  - id: "2020012308"
+    week: 123
+    index: 1026
+    indexInWeek: 8
+    title: 道標ない旅
+    artist: 永井龍雲
+    kana: ながいりゅううん
+    year: 1979
+    nation: JPN
+    label: キャニオンレコード
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

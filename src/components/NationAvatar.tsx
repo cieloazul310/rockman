@@ -11,9 +11,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
   createStyles({
     nation: ({ nation }) => ({
       backgroundColor: getNationColor(nation, theme.palette.type === 'dark'),
-      color: theme.palette.getContrastText(
-        getNationColor(nation, theme.palette.type === 'dark')
-      ),
+      color: theme.palette.getContrastText(getNationColor(nation, theme.palette.type === 'dark')),
     }),
   })
 );

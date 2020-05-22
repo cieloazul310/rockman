@@ -11,19 +11,11 @@ import { getYomi } from '../utils/sortByYomi';
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
   return (
-    <ListItemAppLink
-      button
-      style={style}
-      key={index}
-      to={`/artist/${artist.fieldValue}/`}
-    >
+    <ListItemAppLink button style={style} key={index} to={`/artist/${artist.fieldValue}/`}>
       <ListItemAvatar>
         <NationAvatar nation={artist.nation} />
       </ListItemAvatar>
-      <ListItemText
-        primary={artist.fieldValue}
-        secondary={artist.kana || null}
-      />
+      <ListItemText primary={artist.fieldValue} secondary={artist.kana || null} />
       <Chip label={`${artist.tunes.length} / ${artist.edges.length}`} />
     </ListItemAppLink>
   );
@@ -42,31 +34,17 @@ function Artists({
   height = 480,
   itemSize = 60,
   filter = () => true,
-  sort = (a, b) => (b.edges.length - a.edges.length) || (b.tunes.length - a.tunes.length),
+  sort = (a, b) => b.edges.length - a.edges.length || b.tunes.length - a.tunes.length,
 }: Props) {
   const allArtists = useAllArtists();
   const artists = React.useMemo(
     () =>
-      allArtists
-        .filter(filter)
-        .sort(
-          (a, b) =>
-            sort(a, b) ||
-            getYomi(a.fieldValue, a.kana).localeCompare(
-              getYomi(b.fieldValue, b.kana)
-            )
-        ),
+      allArtists.filter(filter).sort((a, b) => sort(a, b) || getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana))),
     [allArtists, filter, sort]
   );
 
   return (
-    <FixedSizeList
-      width={width}
-      height={height}
-      itemCount={artists.length}
-      itemSize={itemSize}
-      itemData={artists}
-    >
+    <FixedSizeList width={width} height={height} itemCount={artists.length} itemSize={itemSize} itemData={artists}>
       {renderRow}
     </FixedSizeList>
   );

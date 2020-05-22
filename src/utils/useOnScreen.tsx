@@ -1,9 +1,6 @@
 import * as React from 'react';
 // Hook
-export default function useOnScreen(
-  ref: React.MutableRefObject<Element>,
-  margin = 0
-) {
+export default function useOnScreen(ref: React.MutableRefObject<Element>, margin = 0) {
   // State and setter for storing whether element is visible
   const [isIntersecting, setIntersecting] = React.useState(false);
 

@@ -46,11 +46,7 @@ interface Props {
   defaultOpen?: boolean;
 }
 
-function ProgramSummary({
-  program,
-  enableLink = false,
-  defaultOpen = false,
-}: Props) {
+function ProgramSummary({ program, enableLink = false, defaultOpen = false }: Props) {
   const [open, setOpen] = React.useState(defaultOpen);
   const classes = useStyles({ open });
   const _handleOpen = () => {
@@ -66,12 +62,7 @@ function ProgramSummary({
                 第{program.week}回 {program.date} 全{program.playlist.length}曲
               </Typography>
             </Box>
-            <Box
-              flex="1"
-              display="flex"
-              flexDirection="column"
-              justifyContent="center"
-            >
+            <Box flex="1" display="flex" flexDirection="column" justifyContent="center">
               <Typography variant="h6" component="h2">
                 {enableLink ? (
                   <AppLink color="textPrimary" to={program.fields.slug}>
@@ -104,20 +95,13 @@ function ProgramSummary({
           ) : null}
           <Box>
             <Box component="ul" padding="inherit" margin="inherit">
-              {getPlaylistStrings(program.playlist.slice(1), 'artist').map(
-                artist => (
-                  <Typography
-                    variant="body2"
-                    component="li"
-                    key={artist}
-                    className={classes.summaryArtists}
-                  >
-                    <AppLink to={`/artist/${artist}/`} color="textSecondary">
-                      {artist}
-                    </AppLink>
-                  </Typography>
-                )
-              )}
+              {getPlaylistStrings(program.playlist.slice(1), 'artist').map((artist) => (
+                <Typography variant="body2" component="li" key={artist} className={classes.summaryArtists}>
+                  <AppLink to={`/artist/${artist}/`} color="textSecondary">
+                    {artist}
+                  </AppLink>
+                </Typography>
+              ))}
             </Box>
           </Box>
           <Box pt={1}>
@@ -139,16 +123,12 @@ const useChipStyles = makeStyles((theme: Theme) =>
   })
 );
 
-function CategoriesAndSelectors({
-  program,
-}: {
-  program: Pick<QueriedProgram, 'categories' | 'guests'>;
-}) {
+function CategoriesAndSelectors({ program }: { program: Pick<QueriedProgram, 'categories' | 'guests'> }) {
   const classes = useChipStyles();
   return (
     <Box width="max-content">
       {program.categories && program.categories.length
-        ? program.categories.map(category => (
+        ? program.categories.map((category) => (
             <Chip
               className={classes.chip}
               key={category}
@@ -167,7 +147,7 @@ function CategoriesAndSelectors({
           ))
         : null}
       {program.guests && program.guests.length
-        ? program.guests.map(guest => (
+        ? program.guests.map((guest) => (
             <Chip
               className={classes.chip}
               key={guest}

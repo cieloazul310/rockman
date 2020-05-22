@@ -1,5 +1,5 @@
 const path = require('path');
-const { createFilePath } = require(`gatsby-source-filesystem`);
+//const { createFilePath } = require(`gatsby-source-filesystem`);
 /**
  * @fix load ts file in gatsby-node.js
  */
@@ -15,12 +15,12 @@ exports.onCreateNode = ({ node, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: slug
+      value: slug,
     });
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
 
@@ -82,8 +82,8 @@ exports.createPages = async ({ graphql, actions }) => {
         next,
         index,
         current: node,
-        slug: node.fields.slug
-      }
+        slug: node.fields.slug,
+      },
     });
   });
 
@@ -112,26 +112,21 @@ exports.createPages = async ({ graphql, actions }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
 
-  const artists = artistResult.data.allProgram.group.map(item => {
+  const artists = artistResult.data.allProgram.group.map((item) => {
     const edges = removeMultiple(item.edges).map(({ node }) => ({
       ...node,
-      playlist: node.playlist.filter(({ artist }) => artist === item.fieldValue)
+      playlist: node.playlist.filter(({ artist }) => artist === item.fieldValue),
     }));
-    const tunes = edges.reduce(
-      (accum, curr) => [...accum, ...curr.playlist],
-      []
-    );
-    const [{kana, nation}] = tunes;
-    const [img] = tunes
-      .filter(tune => tune.youtube !== '')
-      .map(tune => tune.youtube);
+    const tunes = edges.reduce((accum, curr) => [...accum, ...curr.playlist], []);
+    const [{ kana, nation }] = tunes;
+    const [img] = tunes.filter((tune) => tune.youtube !== '').map((tune) => tune.youtube);
     return {
       fieldValue: item.fieldValue,
       kana,
       nation,
       edges,
       tunes,
-      img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null
+      img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null,
     };
   });
 
@@ -154,10 +149,10 @@ exports.createPages = async ({ graphql, actions }) => {
           next,
           current: d,
           fieldValue: d.fieldValue,
-        }
+        },
       });
     });
-/*
+  /*
   // create Category Pages
   const categoriesResult = await graphql(`
     query AllCategories {
@@ -198,14 +193,13 @@ exports.createPages = async ({ graphql, actions }) => {
 
 function getYomi(artistName, kana) {
   const the = artistName.slice(0, 4);
-  if (the === 'The ' || the === 'THE ' || the === 'the ')
-    return artistName.slice(4);
+  if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
   return kana || artistName;
 }
 
 function removeMultiple(edges) {
   return edges.reduce((accum, curr) => {
-    if (accum.map(d => d.node.id).indexOf(curr.node.id) >= 0) return accum;
+    if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
     return [...accum, curr];
   }, []);
 }

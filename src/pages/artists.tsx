@@ -12,7 +12,7 @@ import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
 import useWindowSize from '../utils/useWindowSize';
-import { ArtistItem } from '../utils/graphql-hooks'
+import { ArtistItem } from '../utils/graphql-hooks';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -35,13 +35,10 @@ function ArtistsPage() {
       return () => true;
     } else {
       const regex = RegExp(`${searchText}`, 'i');
-      return (artist: ArtistItem) =>
-        regex.test(artist.fieldValue) || regex.test(artist.kana);
+      return (artist: ArtistItem) => regex.test(artist.fieldValue) || regex.test(artist.kana);
     }
   }, [searchText]);
-  const _onChangeSearchText = (
-    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const _onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     event.preventDefault();
     setSearchText(event.target.value);
   };
@@ -98,13 +95,8 @@ function ArtistsPage() {
       </Box>
       <Container maxWidth="sm" disableGutters>
         <Box py={2}>
-          <AutoSizer
-            disableHeight
-            defaultHeight={windowHeight ? windowHeight - 240 : 400}
-          >
-            {({ width, height }) => (
-              <Artists width={width} height={height} filter={filter} />
-            )}
+          <AutoSizer disableHeight defaultHeight={windowHeight ? windowHeight - 240 : 400}>
+            {({ width, height }) => <Artists width={width} height={height} filter={filter} />}
           </AutoSizer>
         </Box>
       </Container>

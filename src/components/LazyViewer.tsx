@@ -21,11 +21,7 @@ interface DisplayOnScreenProps {
   once?: boolean;
 }
 
-function DisplayOnScreen({
-  children,
-  margin = 0,
-  once = true,
-}: DisplayOnScreenProps) {
+function DisplayOnScreen({ children, margin = 0, once = true }: DisplayOnScreenProps) {
   const [ref, inView] = useInView({
     rootMargin: `${margin}px`,
     triggerOnce: once,
@@ -46,13 +42,13 @@ function LazyViewer({ programs, filter = () => true, divisor = 15 }: Props) {
     return dividedItems.map((d, i) =>
       i === 0 ? (
         <div key={i}>
-          {d.map(v => (
+          {d.map((v) => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </div>
       ) : (
         <DisplayOnScreen key={i} margin={40}>
-          {d.map(v => (
+          {d.map((v) => (
             <TunesByProgram program={v} key={v.id} />
           ))}
         </DisplayOnScreen>

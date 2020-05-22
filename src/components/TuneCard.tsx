@@ -24,10 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
       flex: 'auto',
       maxWidth: '30%',
       minWidth: 100,
-      backgroundColor:
-        theme.palette.type === 'dark'
-          ? theme.palette.grey[700]
-          : theme.palette.grey[200],
+      backgroundColor: theme.palette.type === 'dark' ? theme.palette.grey[700] : theme.palette.grey[200],
       display: 'flex',
     },
     cardThumbnailLink: {
@@ -46,17 +43,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 interface Props {
-  tune: Pick<
-    ProgramPlaylist,
-    | 'artist'
-    | 'youtube'
-    | 'title'
-    | 'selector'
-    | 'indexInWeek'
-    | 'corner'
-    | 'nation'
-    | 'year'
-  >;
+  tune: Pick<ProgramPlaylist, 'artist' | 'youtube' | 'title' | 'selector' | 'indexInWeek' | 'corner' | 'nation' | 'year'>;
 }
 
 function TuneCard({ tune }: Props) {
@@ -66,12 +53,7 @@ function TuneCard({ tune }: Props) {
       <Card className={classes.root}>
         <Box className={classes.cardThumbnail}>
           {tune.youtube ? (
-            <a
-              className={classes.cardThumbnailLink}
-              href={`https://youtu.be/${tune.youtube}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a className={classes.cardThumbnailLink} href={`https://youtu.be/${tune.youtube}`} target="_blank" rel="noopener noreferrer">
               <CardMedia
                 className={classes.cardThumbnailInner}
                 image={`https://i.ytimg.com/vi/${tune.youtube}/0.jpg`}
@@ -83,15 +65,10 @@ function TuneCard({ tune }: Props) {
         <Box flex="1">
           <Box px={2} pt={1}>
             <Typography variant="body2">
-              M{tune.indexInWeek}. {tune.corner}{' '}
-              {tune.selector !== '草野マサムネ' ? `${tune.selector}選曲` : null}
+              M{tune.indexInWeek}. {tune.corner} {tune.selector !== '草野マサムネ' ? `${tune.selector}選曲` : null}
             </Typography>
           </Box>
-          <CardHeader
-            avatar={<NationAvatar nation={tune.nation} />}
-            title={tune.title}
-            subheader={`${tune.artist} (${tune.year})`}
-          />
+          <CardHeader avatar={<NationAvatar nation={tune.nation} />} title={tune.title} subheader={`${tune.artist} (${tune.year})`} />
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
               <IconButton component={GatsbyLink} to={`/artist/${tune.artist}`}>
@@ -100,22 +77,14 @@ function TuneCard({ tune }: Props) {
             </Tooltip>
             {tune.selector !== '草野マサムネ' ? (
               <Tooltip title={`${tune.selector}選曲の曲をブラウズ`}>
-                <IconButton
-                  component={GatsbyLink}
-                  to="/selectors/"
-                  state={{ selector: tune.selector }}
-                >
+                <IconButton component={GatsbyLink} to="/selectors/" state={{ selector: tune.selector }}>
                   <SelectorIcon />
                 </IconButton>
               </Tooltip>
             ) : null}
             {tune.youtube ? (
               <Tooltip title="YouTube で視聴する">
-                <IconButton
-                  href={`https://youtu.be/${tune.youtube}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <IconButton href={`https://youtu.be/${tune.youtube}`} target="_blank" rel="noopener noreferrer">
                   <YoutubeIcon />
                 </IconButton>
               </Tooltip>

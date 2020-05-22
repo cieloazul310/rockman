@@ -24,8 +24,6 @@ export function useAllCategories() {
     }
   `);
   return React.useMemo(() => {
-    return data.allProgram.group.sort(
-      (a, b) => b.edges.length - a.edges.length
-    );
+    return data.allProgram.group.sort((a, b) => b.edges.length - a.edges.length);
   }, []);
 }

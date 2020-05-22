@@ -1,10 +1,5 @@
 import * as React from 'react';
-import {
-  makeStyles,
-  createStyles,
-  Theme,
-  useTheme,
-} from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme, useTheme } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
 import getNationColor from '../utils/getNationColor';
 import { ProgramPlaylist } from '../../graphql-types';
@@ -43,15 +38,10 @@ function SimpleNationBar({ playlist }: Props) {
   const nations = React.useMemo(
     () =>
       playlist
-        .map(tune => tune.nation)
+        .map((tune) => tune.nation)
         .reduce(
           (accum, curr) =>
-            accum.map(d => d[0]).indexOf(curr) < 0
-              ? [
-                  ...accum,
-                  [curr, playlist.filter(d => d.nation === curr).length],
-                ]
-              : [...accum],
+            accum.map((d) => d[0]).indexOf(curr) < 0 ? [...accum, [curr, playlist.filter((d) => d.nation === curr).length]] : [...accum],
           []
         )
         .sort((a, b) => b[1] - a[1]),
@@ -69,9 +59,7 @@ function SimpleNationBar({ playlist }: Props) {
               style={{
                 width: `${Math.round((nation[1] * 100) / playlist.length)}%`,
                 background: getNationColor(nation[0], isDark),
-                color: theme.palette.getContrastText(
-                  getNationColor(nation[0], isDark)
-                ),
+                color: theme.palette.getContrastText(getNationColor(nation[0], isDark)),
               }}
             >
               <span>{nation[0]}</span>

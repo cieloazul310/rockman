@@ -11,11 +11,7 @@ export interface CategoryItem {
 export function useAllSelectors(): CategoryItem[] {
   const data = useStaticQuery<AllSelectorsQuery>(graphql`
     query AllSelectors {
-      allProgram(
-        filter: {
-          playlist: { elemMatch: { selector: { ne: "草野マサムネ" } } }
-        }
-      ) {
+      allProgram(filter: { playlist: { elemMatch: { selector: { ne: "草野マサムネ" } } } }) {
         group(field: playlist___selector) {
           fieldValue
           edges {
@@ -47,19 +43,19 @@ export function useAllSelectors(): CategoryItem[] {
 
   return React.useMemo(() => {
     return data.allProgram.group
-      .filter(group => group.fieldValue !== '草野マサムネ')
-      .map(group => {
+      .filter((group) => group.fieldValue !== '草野マサムネ')
+      .map((group) => {
         const edges = removeMultiple(group.edges);
         return {
           fieldValue: group.fieldValue,
           edges,
-          playlist: edges.reduce<Playlist[]>((accum, curr) => [
-            ...accum,
-            ...curr.node.playlist.filter(tune => tune.selector === group.fieldValue)
-          ], [])
+          playlist: edges.reduce<Playlist[]>(
+            (accum, curr) => [...accum, ...curr.node.playlist.filter((tune) => tune.selector === group.fieldValue)],
+            []
+          ),
         };
       })
-      .sort((a, b) => (b.playlist.length - a.playlist.length) || (b.edges.length) - (a.edges.length));
+      .sort((a, b) => b.playlist.length - a.playlist.length || b.edges.length - a.edges.length);
   }, []);
 }
 
@@ -72,7 +68,7 @@ type Playlist = Pick<ProgramPlaylist, 'id' | 'title' | 'artist' | 'year' | 'sele
 
 function removeMultiple(edges: Edge[]): Edge[] {
   return edges.reduce((accum, curr) => {
-    if (accum.map(d => d.node.id).indexOf(curr.node.id) >= 0) return accum;
+    if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
     return [...accum, curr];
   }, []);
 }
