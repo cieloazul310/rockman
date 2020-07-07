@@ -11,14 +11,12 @@ playlist:
     week: 41
     name: 不死身のビーナス
     artist: スピッツ
-    kana: ""
     year: 1994
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: 不死身のビーナス
     index: 334
     indexInWeek: 1
@@ -33,8 +31,6 @@ playlist:
     label: ポリドール
     producer:
       - 佐々木幸男
-    corner: ""
-    youtube: ""
     title: 危険なふたり
     index: 335
     indexInWeek: 2
@@ -49,8 +45,7 @@ playlist:
     label: リプリーズ・レコード
     producer:
       - 小田洋雄
-    corner: ""
-    youtube: ""
+    youtube: O9hrC3EhknA
     title: 少女A
     index: 336
     indexInWeek: 3
@@ -59,13 +54,9 @@ playlist:
     week: 41
     name: 春一番
     artist: キャンディーズ
-    kana: ""
     year: 1976
     nation: JPN
     label: CBS・ソニー
-    producer: []
-    corner: ""
-    youtube: ""
     title: 春一番
     index: 337
     indexInWeek: 4
@@ -74,13 +65,10 @@ playlist:
     week: 41
     name: 男達のメロディー
     artist: SHOGUN
-    kana: ""
     year: 1979
     nation: JPN
     label: CBS・ソニー
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: bDenU0i9N-0
     title: 男達のメロディー
     index: 338
     indexInWeek: 5
@@ -93,9 +81,6 @@ playlist:
     year: 1981
     nation: JPN
     label: CBS・ソニー
-    producer: []
-    corner: ""
-    youtube: ""
     title: チェリーブラッサム
     index: 339
     indexInWeek: 6
@@ -104,13 +89,9 @@ playlist:
     week: 41
     name: 大都会
     artist: クリスタルキング
-    kana: ""
     year: 1979
     nation: JPN
     label: キャニオンレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: 大都会
     index: 340
     indexInWeek: 7
@@ -119,13 +100,10 @@ playlist:
     week: 41
     name: 闘牛士
     artist: Char
-    kana: ""
     year: 1978
     nation: JPN
     label: SEE-SAW
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 闘牛士
     index: 341
     indexInWeek: 8

@@ -119,7 +119,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }));
     const tunes = edges.reduce((accum, curr) => [...accum, ...curr.playlist], []);
     const [{ kana, nation }] = tunes;
-    const [img] = tunes.filter((tune) => tune.youtube !== '').map((tune) => tune.youtube);
+    const [img] = tunes.filter((tune) => tune.youtube && tune.youtube !== '').map((tune) => tune.youtube);
     return {
       fieldValue: item.fieldValue,
       kana,
@@ -131,12 +131,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   });
 
   artists
-    .sort(
-      (a, b) =>
-        b.edges.length - a.edges.length ||
-        b.tunes.length - a.tunes.length ||
-        getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana))
-    )
+    .sort((a, b) => sortByYomi(a, b))
     .forEach((d, index, arr) => {
       const previous = index ? arr[index - 1] : null;
       const next = index !== arr.length - 1 ? arr[index + 1] : null;
@@ -190,6 +185,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
     */
 };
+
+function sortByYomi(a, b) {
+  return getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana));
+}
 
 function getYomi(artistName, kana) {
   const the = artistName.slice(0, 4);

@@ -11,7 +11,6 @@ playlist:
     week: 7
     name: スカーレット
     artist: スピッツ
-    kana: ""
     year: 1998
     nation: JPN
     label: ポリドール
@@ -33,7 +32,6 @@ playlist:
     label: Columbia
     producer:
       - Tom Allom
-    corner: ""
     youtube: yMVV_HsHcX0
     title: The Hellion / Electric Eye
     index: 50
@@ -43,13 +41,11 @@ playlist:
     week: 7
     name: Purgatory
     artist: Iron Maiden
-    kana: ""
     year: 1981
     nation: UK
     label: EMI
     producer:
       - Martin Birch
-    corner: ""
     youtube: ie7GZGdgdPQ
     title: Purgatory
     index: 51
@@ -63,9 +59,6 @@ playlist:
     year: 1982
     nation: JPN
     label: キングレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: あせかきベソかきRock’n Roll run
     index: 52
     indexInWeek: 4
@@ -74,12 +67,9 @@ playlist:
     week: 7
     name: ふっかつのじゅもん
     artist: sumika
-    kana: ""
     year: 2014
     nation: JPN
     label: murffin discs
-    producer: []
-    corner: ""
     youtube: mSe8zHd27MU
     title: ふっかつのじゅもん
     index: 53
@@ -89,14 +79,11 @@ playlist:
     week: 7
     name: You
     artist: Nuno
-    kana: ""
     year: 1997
     nation: US
     label: A&M
     producer:
       - Anthony J. Resta
-    corner: ""
-    youtube: ""
     title: You
     index: 54
     indexInWeek: 6
@@ -105,13 +92,9 @@ playlist:
     week: 7
     name: NO YOUNG
     artist: フラワーカンパニーズ
-    kana: ""
     year: 2017
     nation: JPN
     label: チキン・スキン・レコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: NO YOUNG
     index: 55
     indexInWeek: 7
@@ -120,12 +103,9 @@ playlist:
     week: 7
     name: alone
     artist: BAND-MAID
-    kana: ""
     year: 2016
     nation: JPN
     label: CROWN STONES
-    producer: []
-    corner: ""
     youtube: axF56i4spio
     title: alone
     index: 56
@@ -135,13 +115,11 @@ playlist:
     week: 7
     name: Honey Dripper
     artist: アン・ルイス
-    kana: ""
     year: 1986
     nation: JPN
     label: ビクター
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: -zGSdpa8t4g
     title: Honey Dripper
     index: 57
     indexInWeek: 9

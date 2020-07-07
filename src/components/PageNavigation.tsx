@@ -80,19 +80,19 @@ interface Item {
   fieldValue: string;
 }
 
-export function createNavigationProps(previous: Item, next: Item, baseUrl: string): Props {
+export function createNavigationProps(previous: Item | undefined, next: Item | undefined, baseUrl: string): Props {
   return {
     previous: previous
       ? {
           to: `${baseUrl}/${previous.fieldValue}/`,
           title: previous.fieldValue,
         }
-      : null,
+      : undefined,
     next: next
       ? {
           to: `${baseUrl}/${next.fieldValue}`,
           title: next.fieldValue,
         }
-      : null,
+      : undefined,
   };
 }

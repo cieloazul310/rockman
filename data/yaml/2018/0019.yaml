@@ -27,13 +27,11 @@ playlist:
     week: 19
     name: Those Were the Days
     artist: Mary Hopkin
-    kana: ""
     year: 1968
     nation: UK
     label: Apple
     producer:
       - Paul McCartney
-    corner: ""
     youtube: 1DQepQaporY
     title: Those Were the Days
     index: 149
@@ -43,13 +41,11 @@ playlist:
     week: 19
     name: The Legend of Xanadu
     artist: Dave Dee, Dozy, Beaky, Mick & Tich
-    kana: ""
     year: 1968
     nation: UK
     label: Fontana Records
     producer:
       - Steve Rowland
-    corner: ""
     youtube: NZxFuAc8iMU
     title: The Legend of Xanadu
     index: 150
@@ -59,13 +55,11 @@ playlist:
     week: 19
     name: Hurdy Gurdy Man
     artist: Donovan
-    kana: ""
     year: 1968
     nation: UK
     label: Pye
     producer:
       - Mickie Most
-    corner: ""
     youtube: CHxfOZH8cew
     title: Hurdy Gurdy Man
     index: 151
@@ -75,12 +69,9 @@ playlist:
     week: 19
     name: In-A-Gadda-Da-Vida
     artist: Iron Butterfly
-    kana: ""
     year: 1968
     nation: US
     label: Atco
-    producer: []
-    corner: ""
     youtube: hNBgEirKxq8
     title: In-A-Gadda-Da-Vida
     index: 152
@@ -90,13 +81,10 @@ playlist:
     week: 19
     name: Irrésistiblement
     artist: Sylvie Vartan
-    kana: ""
     year: 1968
     nation: FR
     label: RCA Victor
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: Of0DyhK-OT8
     title: Irrésistiblement
     index: 153
     indexInWeek: 6
@@ -105,12 +93,9 @@ playlist:
     week: 19
     name: Race with the Devil
     artist: The Gun
-    kana: ""
     year: 1968
     nation: UK
     label: CBS
-    producer: []
-    corner: ""
     youtube: Ke3-v0g6GcU
     title: Race with the Devil
     index: 154
@@ -120,13 +105,11 @@ playlist:
     week: 19
     name: 京都
     artist: ピロカルピン
-    kana: ""
     year: 2009
     nation: JPN
     label: グララーガ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: EQajGrkNoIs
     title: 京都
     index: 155
     indexInWeek: 8

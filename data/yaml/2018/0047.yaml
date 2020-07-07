@@ -11,7 +11,6 @@ playlist:
     week: 47
     name: 涙がキラリ☆
     artist: スピッツ
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリドール
@@ -27,13 +26,9 @@ playlist:
     week: 47
     name: ミサイルマン
     artist: THE HIGH-LOWS
-    kana: ""
     year: 1995
     nation: JPN
     label: キティレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: ミサイルマン
     index: 388
     indexInWeek: 2
@@ -42,12 +37,9 @@ playlist:
     week: 47
     name: Garden
     artist: Spiral Life
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリスター
-    producer: []
-    corner: ""
     youtube: bezCXU9hdCs
     title: Garden
     index: 389
@@ -57,13 +49,9 @@ playlist:
     week: 47
     name: とまどいの時を越えて
     artist: FLYING KIDS
-    kana: ""
     year: 1995
     nation: JPN
     label: ビクターエンタテイメント
-    producer: []
-    corner: ""
-    youtube: ""
     title: とまどいの時を越えて
     index: 390
     indexInWeek: 4
@@ -72,13 +60,9 @@ playlist:
     week: 47
     name: Heavy Metal Thunder
     artist: Cornelius
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリスター
-    producer: []
-    corner: ""
-    youtube: ""
     title: Heavy Metal Thunder
     index: 391
     indexInWeek: 5
@@ -91,9 +75,7 @@ playlist:
     year: 1995
     nation: JPN
     label: EMIミュージック・ジャパン
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: 4KsP4-7g_EI
     title: レミレミ
     index: 392
     indexInWeek: 6
@@ -102,7 +84,6 @@ playlist:
     week: 47
     name: ノーコメント
     artist: TRANSISTOR GLAMOUR
-    kana: ""
     year: 1995
     nation: JPN
     label: 日本コロムビア

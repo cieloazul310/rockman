@@ -11,14 +11,12 @@ playlist:
     week: 25
     name: 猫になりたい
     artist: スピッツ
-    kana: ""
     year: 1994
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: 猫になりたい
     index: 202
     indexInWeek: 1
@@ -27,13 +25,11 @@ playlist:
     week: 25
     name: Daydream Believer
     artist: The Monkees
-    kana: ""
     year: 1967
     nation: US
     label: Colgems
     producer:
       - Chip Douglas
-    corner: ""
     youtube: xvqeSJlgaNk
     title: Daydream Believer
     index: 203
@@ -43,13 +39,9 @@ playlist:
     week: 25
     name: Looking for the Man
     artist: Rabbitt
-    kana: ""
     year: 1975
     nation: ZAF
     label: Jo'Burg Records
-    producer: []
-    corner: ""
-    youtube: ""
     title: Looking for the Man
     index: 204
     indexInWeek: 3
@@ -58,14 +50,12 @@ playlist:
     week: 25
     name: Heartache Tonight
     artist: Eagles
-    kana: ""
     year: 1979
     nation: US
     label: Asylum
     producer:
       - Bill Szymczyk
-    corner: ""
-    youtube: ""
+    youtube: _RTXaiQLd-g
     title: Heartache Tonight
     index: 205
     indexInWeek: 4
@@ -74,13 +64,11 @@ playlist:
     week: 25
     name: I Don't Like It
     artist: Zebra
-    kana: ""
     year: 1984
     nation: US
     label: Atlantic
     producer:
       - Jack Douglas
-    corner: ""
     youtube: -0KU-D9dHRk
     title: I Don't Like It
     index: 206
@@ -90,12 +78,9 @@ playlist:
     week: 25
     name: Prepare Your Coffin
     artist: Tortoise
-    kana: ""
     year: 2009
     nation: US
     label: Thrill Jockey
-    producer: []
-    corner: ""
     youtube: 6zRJftR_508
     title: Prepare Your Coffin
     index: 207
@@ -105,12 +90,9 @@ playlist:
     week: 25
     name: Come Unwound
     artist: The Bulls
-    kana: ""
     year: 2014
     nation: US
     label: Diet Pink Records
-    producer: []
-    corner: ""
     youtube: 2Pc64JWiqNA
     title: Come Unwound
     index: 208
@@ -120,13 +102,11 @@ playlist:
     week: 25
     name: You're in Love
     artist: Ratt
-    kana: ""
     year: 1985
     nation: US
     label: Atlantic
     producer:
       - Beau Hill
-    corner: ""
     youtube: 8aqyosRF1Aw
     title: You're in Love
     index: 209
@@ -136,7 +116,6 @@ playlist:
     week: 25
     name: コペルニクス
     artist: SKAFUNK
-    kana: ""
     year: 1989
     nation: JPN
     label: Wonder Force

@@ -26,13 +26,11 @@ playlist:
     week: 46
     name: Debaser
     artist: Pixies
-    kana: ""
     year: 1989
     nation: US
     label: 4AD
     producer:
       - Gil Norton
-    corner: ""
     youtube: PVyS9JwtFoQ
     title: Debaser
     index: 378
@@ -42,13 +40,11 @@ playlist:
     week: 46
     name: Bone Machine
     artist: Pixies
-    kana: ""
     year: 1988
     nation: US
     label: 4AD
     producer:
       - Steve Albini
-    corner: ""
     youtube: HfLk4o6ybCU
     title: Bone Machine
     index: 379
@@ -58,13 +54,11 @@ playlist:
     week: 46
     name: Here Comes Your Man
     artist: Pixies
-    kana: ""
     year: 1989
     nation: US
     label: 4AD
     producer:
       - Gil Norton
-    corner: ""
     youtube: tPgf_btTFlc
     title: Here Comes Your Man
     index: 380
@@ -90,13 +84,11 @@ playlist:
     week: 46
     name: Velouria
     artist: Pixies
-    kana: ""
     year: 1990
     nation: US
     label: 4AD
     producer:
       - Gil Norton
-    corner: ""
     youtube: nc0Mv4Iyxvc
     title: Velouria
     index: 382
@@ -106,13 +98,11 @@ playlist:
     week: 46
     name: Bel Esprit
     artist: Pixies
-    kana: ""
     year: 2016
     nation: US
     label: Pixiesmusic
     producer:
       - Tom Dalgety
-    corner: ""
     youtube: 0O6Q6vb4KBk
     title: Bel Esprit
     index: 383
@@ -122,14 +112,12 @@ playlist:
     week: 46
     name: Broken Face
     artist: Pixies
-    kana: ""
     year: 1988
     nation: US
     label: 4AD
     producer:
       - Steve Albini
-    corner: ""
-    youtube: ""
+    youtube: vVoMyR9X-4Q
     title: Broken Face
     index: 384
     indexInWeek: 8
@@ -138,13 +126,11 @@ playlist:
     week: 46
     name: Allison
     artist: Pixies
-    kana: ""
     year: 1990
     nation: US
     label: 4AD
     producer:
       - Gil Norton
-    corner: ""
     youtube: n37Bdr559to
     title: Allison
     index: 385
@@ -154,11 +140,9 @@ playlist:
     week: 46
     name: できない
     artist: ふくろうず
-    kana: ""
     year: 2010
     nation: JPN
     label: SPACE SHOWER MUSIC
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: _DGp6LhmXoc
     title: できない

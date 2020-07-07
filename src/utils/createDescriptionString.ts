@@ -1,6 +1,8 @@
 import { Program } from '../../graphql-types';
 
-export default function DescriptionString({ week, title, date, subtitle, guests }: Partial<Program>): string {
+type Props = Pick<Program, 'week' | 'title' | 'date' | 'subtitle' | 'guests'> & Partial<Program>;
+
+export default function createDescriptionString({ week, title, date, subtitle, guests }: Props): string {
   const dt = new Date(date);
   const year = dt.getFullYear();
   const month = dt.getMonth() + 1;
@@ -13,6 +15,6 @@ export default function DescriptionString({ week, title, date, subtitle, guests 
     `「${title}」`,
     subtitle ? `〜${subtitle}〜` : ``,
     `のプレイリスト。`,
-    guests.length ? `ゲストは${guests.join('、')}。` : ``,
+    guests?.length ? `ゲストは${guests.join('、')}。` : ``,
   ].join('');
 }

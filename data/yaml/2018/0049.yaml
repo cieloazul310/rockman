@@ -11,14 +11,12 @@ playlist:
     week: 49
     name: エスカルゴ
     artist: スピッツ
-    kana: ""
     year: 2002
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: エスカルゴ
     index: 402
     indexInWeek: 1
@@ -27,12 +25,9 @@ playlist:
     week: 49
     name: Angel from the Coast
     artist: Thin Lizzy
-    kana: ""
     year: 1976
     nation: IRE
     label: Vertigo
-    producer: []
-    corner: ""
     youtube: skZXB37hk0M
     title: Angel from the Coast
     index: 403
@@ -42,13 +37,11 @@ playlist:
     week: 49
     name: Look What the Wind Blew In
     artist: Thin Lizzy
-    kana: ""
     year: 1971
     nation: IRE
     label: Decca Records
     producer:
       - Scott English
-    corner: ""
     youtube: KTjF-yfUtn4
     title: Look What the Wind Blew In
     index: 404
@@ -58,13 +51,11 @@ playlist:
     week: 49
     name: The Rocker
     artist: Thin Lizzy
-    kana: ""
     year: 1973
     nation: IRE
     label: Decca Records
     producer:
       - NickTauber
-    corner: ""
     youtube: BF3NnFruoWQ
     title: The Rocker
     index: 405
@@ -74,13 +65,11 @@ playlist:
     week: 49
     name: King's Vengeance
     artist: Thin Lizzy
-    kana: ""
     year: 1975
     nation: IRE
     label: Vertigo
     producer:
       - Phil Lynott
-    corner: ""
     youtube: cxisFycOcxA
     title: King's Vengeance
     index: 406
@@ -90,13 +79,11 @@ playlist:
     week: 49
     name: S & M
     artist: Thin Lizzy
-    kana: ""
     year: 1979
     nation: IRE
     label: Vertigo
     producer:
       - Tony Visconti
-    corner: ""
     youtube: D4Ix_8YxQWo
     title: S & M
     index: 407
@@ -106,13 +93,11 @@ playlist:
     week: 49
     name: Cowboy Song (Live 1978)
     artist: Thin Lizzy
-    kana: ""
     year: 1978
     nation: IRE
     label: Vertigo
     producer:
       - Tony Visconti
-    corner: ""
     youtube: I_5lv00BmoU
     title: Cowboy Song (Live 1978)
     index: 408
@@ -122,13 +107,11 @@ playlist:
     week: 49
     name: 捨てちまえ
     artist: THEATRE BROOK
-    kana: ""
     year: 1997
     nation: JPN
     label: エピックレコードジャパン
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: xzYDpHKBE5Q
     title: 捨てちまえ
     index: 409
     indexInWeek: 8

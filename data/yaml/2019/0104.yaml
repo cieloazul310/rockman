@@ -11,13 +11,10 @@ playlist:
     week: 104
     name: ブチ
     artist: スピッツ
-    kana: ""
     year: 2016
     nation: JPN
     label: ユニバーサル
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: ブチ
     index: 862
     indexInWeek: 1
@@ -26,13 +23,10 @@ playlist:
     week: 104
     name: ギルド
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2004
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: wwVlJfJgWJI
     title: ギルド
     index: 863
     indexInWeek: 2
@@ -41,7 +35,6 @@ playlist:
     week: 104
     name: Hundred Mile High City
     artist: Ocean Colour Scene
-    kana: ""
     year: 1997
     nation: UK
     label: MCA

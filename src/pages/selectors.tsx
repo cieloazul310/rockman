@@ -7,7 +7,7 @@ import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import LazyViewer from '../components/LazyViewer';
-import { useSelectors } from '../utils/graphql-hooks';
+//import { useSelectors } from '../utils/graphql-hooks';
 import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
 
 type LocationWithState = WindowLocation & {
@@ -18,13 +18,13 @@ type LocationWithState = WindowLocation & {
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function SelectorsPage() {
-  const location: LocationWithState = useLocation();
+  const location = useLocation() as LocationWithState;
   // [[name, programs]]
   const selectors = useAllSelectors();
   const initialSelector = location.hash !== '' ? decodeURI(location.hash.slice(1)) : null;
   const initialValue =
-    selectors.map((d) => d.fieldValue).indexOf(initialSelector) >= 0
-      ? selectors.map((d) => d.fieldValue).indexOf(initialSelector)
+    selectors.map((d) => d.fieldValue).indexOf(initialSelector ?? '') >= 0
+      ? selectors.map((d) => d.fieldValue).indexOf(initialSelector ?? '')
       : location.state && location.state.selector
       ? selectors.map((d) => d.fieldValue).indexOf(location.state.selector)
       : 0;
@@ -37,7 +37,7 @@ function SelectorsPage() {
   };
   React.useEffect(() => {
     if (window) window.history.replaceState(value, '', `#${selectors[value].fieldValue}`);
-  }, [value]);
+  }, [value, selectors]);
 
   return (
     <Layout

@@ -11,7 +11,6 @@ playlist:
     week: 27
     name: 小さな生き物
     artist: スピッツ
-    kana: ""
     year: 2013
     nation: JPN
     label: ユニバーサル
@@ -27,12 +26,9 @@ playlist:
     week: 27
     name: The Concept
     artist: Teenage Fanclub
-    kana: ""
     year: 1991
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: 7JYH1pVbqpQ
     title: The Concept
     index: 221
@@ -42,13 +38,10 @@ playlist:
     week: 27
     name: Like a Virgin
     artist: Teenage Fanclub
-    kana: ""
     year: 1991
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: 16PnxSsfVE8
     title: Like a Virgin
     index: 222
     indexInWeek: 3
@@ -57,12 +50,9 @@ playlist:
     week: 27
     name: The Cabbage
     artist: Teenage Fanclub
-    kana: ""
     year: 1993
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: LiZrfCWsuMk
     title: The Cabbage
     index: 223
@@ -72,12 +62,9 @@ playlist:
     week: 27
     name: Sparky's Dream
     artist: Teenage Fanclub
-    kana: ""
     year: 1995
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: UK_CuMJJLwg
     title: Sparky's Dream
     index: 224
@@ -87,12 +74,9 @@ playlist:
     week: 27
     name: Ain't That Enough
     artist: Teenage Fanclub
-    kana: ""
     year: 1997
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: jdeqYx-9-AQ
     title: Ain't That Enough
     index: 225
@@ -102,12 +86,9 @@ playlist:
     week: 27
     name: I Don't Want Control of You
     artist: Teenage Fanclub
-    kana: ""
     year: 1997
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: ""
     title: I Don't Want Control of You
     index: 226
@@ -117,12 +98,9 @@ playlist:
     week: 27
     name: I'm In Love
     artist: Teenage Fanclub
-    kana: ""
     year: 2016
     nation: UK
     label: Merge
-    producer: []
-    corner: ""
     youtube: FDOLKSp2AWU
     title: I'm In Love
     index: 227
@@ -132,13 +110,10 @@ playlist:
     week: 27
     name: Fall in Love Once Again
     artist: SPORTS
-    kana: ""
     year: 2006
     nation: JPN
     label: ビクターエンタテイメント
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Fall in Love Once Again
     index: 228
     indexInWeek: 9

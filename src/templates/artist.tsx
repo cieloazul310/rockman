@@ -12,6 +12,9 @@ import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import DrawerNavigation from '../components/DrawerNavigation';
 import PageNavigation, { createNavigationProps } from '../components/PageNavigation';
+import ContentBasis from '../components/ContentBasis';
+import NavigationBox from '../components/NavigationBox';
+import sortArtists from '../utils/sortByYomi';
 import { useAllArtists } from '../utils/graphql-hooks/';
 import { ArtistTemplateQuery, Program, ProgramPlaylist } from '../../graphql-types';
 
@@ -37,16 +40,7 @@ interface Props {
 
 function ArtistTemplate({ data, pageContext }: Props) {
   const allArtists = useAllArtists();
-  const artists = React.useMemo(
-    () =>
-      allArtists.sort(
-        (a, b) =>
-          b.edges.length - a.edges.length ||
-          b.tunes.length - a.tunes.length ||
-          getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana))
-      ),
-    []
-  );
+  const artists = React.useMemo(() => sortArtists(allArtists), [allArtists]);
   const { previous, next, index, fieldValue } = pageContext;
   const programs = data.allProgram.edges;
   const [loading, setLoading] = React.useState(false);
@@ -64,7 +58,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
     return () => {
       clearTimeout(timer);
     };
-  }, [tab]);
+  }, [tab, artists, index]);
 
   function slideRenderer({ index, key }: SlideRenderProps) {
     const item = artists[index];
@@ -76,7 +70,12 @@ function ArtistTemplate({ data, pageContext }: Props) {
             {item.fieldValue === fieldValue ? (
               <div>
                 <LazyViewer programs={programs.map(({ node }) => node)} filter={(tune) => tune.artist === fieldValue} />
-                <PageNavigation {...createNavigationProps(previous, next, '/artist')} />
+                <ContentBasis>
+                  <PageNavigation {...createNavigationProps(previous, next, '/artist')} />
+                </ContentBasis>
+                <ContentBasis>
+                  <NavigationBox />
+                </ContentBasis>
               </div>
             ) : (
               <div>
@@ -103,6 +102,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
       disableGutters
       disablePaddingTop
       loading={loading}
+      maxWidth={false}
       componentViewports={{ BottomNav: false }}
       drawerContents={<DrawerNavigation {...createNavigationProps(previous, next, '/artist')} />}
     >
@@ -118,12 +118,6 @@ function ArtistTemplate({ data, pageContext }: Props) {
 }
 
 export default ArtistTemplate;
-
-function getYomi(artistName: string, kana: string) {
-  const the = artistName.slice(0, 4);
-  if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
-  return kana || artistName;
-}
 
 export const query = graphql`
   query ArtistTemplate($fieldValue: String!) {

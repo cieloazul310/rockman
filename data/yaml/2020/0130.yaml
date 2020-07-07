@@ -1,0 +1,100 @@
+id: "20200130"
+week: 130
+year: 2020
+title: アウトロいろいろで漫遊記
+guests: []
+categories: []
+date: 2020-06-28
+playlist:
+  - id: "2020013001"
+    week: 130
+    index: 1078
+    indexInWeek: 1
+    title: 夢追い虫
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ユニバーサルポリドール
+    producer:
+      - 石田小吉
+    youtube: KrCsRH9I5qQ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013002"
+    week: 130
+    index: 1079
+    indexInWeek: 2
+    title: Teenager Forever
+    artist: King Gnu
+    year: 2020
+    nation: JPN
+    label: Ariola Japan
+    youtube: XPUN-w543bc
+    selector: 草野マサムネ
+  - id: "2020013003"
+    week: 130
+    index: 1080
+    indexInWeek: 3
+    title: Power Lover
+    artist: The Rods
+    year: 1982
+    nation: UK
+    label: Arista
+    selector: 草野マサムネ
+  - id: "2020013004"
+    week: 130
+    index: 1081
+    indexInWeek: 4
+    title: 渚にまつわるエトセトラ
+    artist: PUFFY
+    year: 1997
+    nation: JPN
+    label: EPIC
+    producer:
+      - 奥田民生
+    youtube: oVVrICEKdsQ
+    selector: 草野マサムネ
+  - id: "2020013005"
+    week: 130
+    index: 1082
+    indexInWeek: 5
+    title: Heavy Metal Army
+    artist: Heavy Metal Army
+    year: 1981
+    nation: JPN
+    label: NEXUS
+    selector: 草野マサムネ
+  - id: "2020013006"
+    week: 130
+    index: 1083
+    indexInWeek: 6
+    title: Long Gone
+    artist: UFO
+    year: 1981
+    nation: UK
+    label: Chrysails
+    youtube: n2hz-Lw-zsk
+    selector: 草野マサムネ
+  - id: "2020013007"
+    week: 130
+    index: 1084
+    indexInWeek: 7
+    title: Death With Dignity
+    artist: Sufjan Stevens
+    year: 2015
+    nation: US
+    label: Asthmatic Kitty
+    youtube: dsGODTySH0E
+    selector: 草野マサムネ
+  - id: "2020013008"
+    week: 130
+    index: 1085
+    indexInWeek: 8
+    title: Raspberry Plant
+    artist: Plastic Girl In Closet
+    year: 2011
+    nation: JPN
+    label: Only Feedback
+    youtube: qMtVIPhabmU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

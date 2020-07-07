@@ -42,13 +42,10 @@ playlist:
     week: 34
     name: Heart Breaker
     artist: Condition Green
-    kana: ""
     year: 1977
     nation: JPN
     label: SEE-SAW
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: horN7JAYbPw
     title: Heart Breaker
     index: 279
     indexInWeek: 3
@@ -57,13 +54,9 @@ playlist:
     week: 34
     name: 五穀豊穣
     artist: パーシャクラブ
-    kana: ""
     year: 1996
     nation: JPN
     label: Eastworld
-    producer: []
-    corner: ""
-    youtube: ""
     title: 五穀豊穣
     index: 280
     indexInWeek: 4
@@ -72,14 +65,11 @@ playlist:
     week: 34
     name: 上海ハニー
     artist: ORANGE RANGE
-    kana: ""
     year: 2003
     nation: JPN
-    label: gr8! records
+    label: "gr8! records"
     producer:
       - シライシ紗トリ
-    corner: ""
-    youtube: ""
     title: 上海ハニー
     index: 281
     indexInWeek: 5
@@ -88,12 +78,9 @@ playlist:
     week: 34
     name: さよなら
     artist: かりゆし58
-    kana: ""
     year: 2009
     nation: JPN
     label: LD&K Records
-    producer: []
-    corner: ""
     youtube: Quv9IhgPswc
     title: さよなら
     index: 282
@@ -103,12 +90,9 @@ playlist:
     week: 34
     name: Parametric E.Q
     artist: caino
-    kana: ""
     year: 2015
     nation: JPN
     label: VAA
-    producer: []
-    corner: ""
     youtube: C132CaIZJBI
     title: Parametric E.Q
     index: 283

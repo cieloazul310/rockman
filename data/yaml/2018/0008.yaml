@@ -11,13 +11,10 @@ playlist:
     week: 8
     name: ハイファイ・ローファイ(NEW MIX)
     artist: スピッツ
-    kana: ""
     year: 2004
     nation: JPN
     label: ユニバーサル
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: ハイファイ・ローファイ(NEW MIX)
     index: 58
     indexInWeek: 1
@@ -26,13 +23,11 @@ playlist:
     week: 8
     name: Stand Up & Shout
     artist: Dio
-    kana: ""
     year: 1983
     nation: UK
     label: Vertigo
     producer:
       - Ronnie James Dio
-    corner: ""
     youtube: oIqdF4i3q58
     title: Stand Up & Shout
     index: 59
@@ -42,13 +37,11 @@ playlist:
     week: 8
     name: The Spirit of Radio
     artist: Rush
-    kana: ""
     year: 1980
     nation: CAN
     label: Mercury Records
     producer:
       - Terry Brown
-    corner: ""
     youtube: QuL_euRslTc
     title: The Spirit of Radio
     index: 60
@@ -58,13 +51,10 @@ playlist:
     week: 8
     name: Loudness
     artist: Loudness
-    kana: ""
     year: 1981
     nation: JPN
     label: 日本コロムビア
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: od-fB3dBI2Y
     title: Loudness
     index: 61
     indexInWeek: 4
@@ -77,9 +67,6 @@ playlist:
     year: 2009
     nation: JPN
     label: BM tunes
-    producer: []
-    corner: ""
-    youtube: ""
     title: Lonesome in a crowd
     index: 62
     indexInWeek: 5
@@ -88,13 +75,11 @@ playlist:
     week: 8
     name: Cum On Feel the Noize
     artist: Quiet Riot
-    kana: ""
     year: 1983
     nation: US
     label: Pasha
     producer:
       - Spencer Proffer
-    corner: ""
     youtube: ZxgMGk9JPVA
     title: Cum On Feel the Noize
     index: 63
@@ -104,12 +89,9 @@ playlist:
     week: 8
     name: ロマンスがありあまる
     artist: ゲスの極み乙女。
-    kana: ""
     year: 2015
     nation: JPN
     label: ワーナーミュージック・ジャパン
-    producer: []
-    corner: ""
     youtube: C6-AN8J385c
     title: ロマンスがありあまる
     index: 64
@@ -119,13 +101,11 @@ playlist:
     week: 8
     name: LADY REIKO
     artist: BLIZARD
-    kana: ""
     year: 1984
     nation: JPN
     label: ワーナー・パイオニア
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: VkEif3UPKKw
     title: LADY REIKO
     index: 65
     indexInWeek: 8

@@ -1,0 +1,122 @@
+id: "20200131"
+week: 131
+year: 2020
+title: クセになる面白ソングで漫遊記・パート3
+guests: []
+categories: ["面白ソング特集"]
+date: 2020-07-05
+playlist:
+  - id: "2020013101"
+    week: 131
+    index: 1086
+    indexInWeek: 1
+    title: 渚
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    youtube: B7T4NNNWeHg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013102"
+    week: 131
+    index: 1087
+    indexInWeek: 2
+    title: 日本印度化計画
+    artist: 筋肉少女帯
+    kana: きんにくしょうじょたい
+    year: 1989
+    nation: JPN
+    label: トイズファクトリー
+    youtube: 8_SCRBWSrHk
+    selector: 草野マサムネ
+  - id: "2020013103"
+    week: 131
+    index: 1088
+    indexInWeek: 3
+    title: Yarilo
+    artist: Arkona
+    year: 2009
+    nation: RUS
+    label: Napalm Records
+    youtube: Tt6_65LDZ60
+    selector: 草野マサムネ
+  - id: "2020013104"
+    week: 131
+    index: 1089
+    indexInWeek: 4
+    title: Crazy Horses
+    artist: The Osmonds
+    year: 1972
+    nation: US
+    label: MGM
+    producer:
+      - Michael Lloyd
+    youtube: 28iHA3501MY
+    selector: 草野マサムネ
+  - id: "2020013105"
+    week: 131
+    index: 1090
+    indexInWeek: 5
+    title: GO!GO!レンタカー
+    artist: 田辺靖雄・中尾ミエ
+    kana: たなべやすおなかおみえ
+    year: 1966
+    nation: JPN
+    label: ビクター
+    selector: 草野マサムネ
+  - id: "2020013106"
+    week: 131
+    index: 1091
+    indexInWeek: 6
+    title: ジョディーは監獄へ
+    artist: Toy Dolls
+    year: 1986
+    nation: UK
+    label: Volume Records
+    selector: 草野マサムネ
+  - id: "2020013107"
+    week: 131
+    index: 1092
+    indexInWeek: 7
+    title: ファイト!ファイト!ちば!
+    artist: JAGUAR
+    year: 2005
+    nation: JPN
+    label: ビクターエンタテインメント
+    selector: 草野マサムネ
+  - id: "2020013108"
+    week: 131
+    index: 1093
+    indexInWeek: 8
+    title: Rocking Goose
+    artist: Johnny And The Hurricanes
+    year: 1960
+    nation: UK
+    label: London Records
+    youtube: o2eb61RrxAI
+    selector: 草野マサムネ
+  - id: "2020013109"
+    week: 131
+    index: 1094
+    indexInWeek: 9
+    title: Ghoul City
+    artist: ふなっしー
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    youtube: IchPFldi8iA
+    selector: 草野マサムネ
+  - id: "2020013110"
+    week: 131
+    index: 1095
+    indexInWeek: 10
+    title: Hard Blow
+    artist: FLATBACKER
+    year: 1985
+    nation: JPN
+    label: Invitation
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

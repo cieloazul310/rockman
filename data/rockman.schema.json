@@ -7,7 +7,6 @@
     "id",
     "week",
     "title",
-    "subtitle",
     "guests",
     "categories",
     "date",
@@ -82,13 +81,9 @@
             "indexInWeek",
             "title",
             "artist",
-            "kana",
             "year",
             "nation",
-            "label",
-            "producer",
-            "corner",
-            "youtube"
+            "label"
           ],
           "properties": {
             "id": {
@@ -139,7 +134,6 @@
               "description": "",
               "type": "string",
               "examples": [
-                "",
                 "漫遊前の一曲",
                 "ちょっぴりタイムマシン",
                 "放送事故で曲かからず"

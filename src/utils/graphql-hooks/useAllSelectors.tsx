@@ -11,7 +11,7 @@ export interface CategoryItem {
 export function useAllSelectors(): CategoryItem[] {
   const data = useStaticQuery<AllSelectorsQuery>(graphql`
     query AllSelectors {
-      allProgram(filter: { playlist: { elemMatch: { selector: { ne: "草野マサムネ" } } } }) {
+      allProgram {
         group(field: playlist___selector) {
           fieldValue
           edges {
@@ -45,18 +45,19 @@ export function useAllSelectors(): CategoryItem[] {
     return data.allProgram.group
       .filter((group) => group.fieldValue !== '草野マサムネ')
       .map((group) => {
-        const edges = removeMultiple(group.edges);
+        const edges = removeMultiple(group.edges as Edge[]);
         return {
-          fieldValue: group.fieldValue,
+          fieldValue: group.fieldValue ?? 'selector',
           edges,
           playlist: edges.reduce<Playlist[]>(
-            (accum, curr) => [...accum, ...curr.node.playlist.filter((tune) => tune.selector === group.fieldValue)],
+            (accum, curr) =>
+              curr.node.playlist ? [...accum, ...curr.node.playlist.filter((tune) => tune.selector === group.fieldValue)] : [...accum],
             []
           ),
         };
       })
       .sort((a, b) => b.playlist.length - a.playlist.length || b.edges.length - a.edges.length);
-  }, []);
+  }, [data]);
 }
 
 type Edge = {
@@ -67,7 +68,7 @@ type Edge = {
 type Playlist = Pick<ProgramPlaylist, 'id' | 'title' | 'artist' | 'year' | 'selector' | 'youtube'>[];
 
 function removeMultiple(edges: Edge[]): Edge[] {
-  return edges.reduce((accum, curr) => {
+  return edges.reduce<Edge[]>((accum, curr) => {
     if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
     return [...accum, curr];
   }, []);

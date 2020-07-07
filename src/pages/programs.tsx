@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+//import Container from '@material-ui/core/Container';
+//import Box from '@material-ui/core/Box';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Programs from '../components/Programs';
 

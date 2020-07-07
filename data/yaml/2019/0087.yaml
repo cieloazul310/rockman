@@ -27,13 +27,10 @@ playlist:
     week: 87
     name: オンリー ロンリー グローリー
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2004
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: pZQtk0TnvjM
     title: オンリー ロンリー グローリー
     index: 716
     indexInWeek: 2
@@ -42,13 +39,9 @@ playlist:
     week: 87
     name: グングニル
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2000
     nation: JPN
     label: ハイラインレコーズ
-    producer: []
-    corner: ""
-    youtube: ""
     title: グングニル
     index: 717
     indexInWeek: 3
@@ -57,13 +50,10 @@ playlist:
     week: 87
     name: ハルジオン
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2001
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: 3uXlNdPxqwY
     title: ハルジオン
     index: 718
     indexInWeek: 4
@@ -72,13 +62,9 @@ playlist:
     week: 87
     name: 才悩人応援歌
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2007
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: ""
     title: 才悩人応援歌
     index: 719
     indexInWeek: 5
@@ -87,12 +73,9 @@ playlist:
     week: 87
     name: HAPPY
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2010
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
     youtube: RwCl11tyWP0
     title: HAPPY
     index: 720
@@ -102,12 +85,9 @@ playlist:
     week: 87
     name: Aurora
     artist: BUMP OF CHICKEN
-    kana: ""
     year: 2019
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
     youtube: 6NQbSN85kJQ
     title: Aurora
     index: 721
@@ -117,7 +97,6 @@ playlist:
     week: 87
     name: Akatsuki
     artist: PE’Z
-    kana: ""
     year: 2002
     nation: JPN
     label: 東芝EMI

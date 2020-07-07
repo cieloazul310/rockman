@@ -1,24 +1,25 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 import List from '@material-ui/core/List';
 import Grid from '@material-ui/core/Grid';
+import ListSubheader from '@material-ui/core/ListSubheader';
 import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
 import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import Jumbotron from '../components/Jumbotron';
 import Stat from '../components/index/Stat';
-import RadikoLink from '../components/index/RadikoLink';
 import NavigationBox from '../components/NavigationBox';
-import { useAllPrograms, useAllArtists } from '../utils/graphql-hooks';
-import { ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon } from '../icons';
+import Rank from '../components/Rank';
+import ContentBasis from '../components/ContentBasis';
+import { useAllPrograms, useAllArtists, useArtists } from '../utils/graphql-hooks';
+import { ProgramIcon, ArtistIcon, TuneIcon } from '../icons';
 import { IndexQuery } from '../../graphql-types';
 
 function IndexPage() {
   const programs = useAllPrograms();
   const tunesLength = programs.reduce((accum, curr) => [...accum, ...curr.playlist], []).length;
   const artistsLength = useAllArtists().length;
+  const edgesRankItem = useArtists('edges', 26).slice(1);
+  const tunesRankItem = useArtists('tunes', 26).slice(1);
 
   const data = useStaticQuery<IndexQuery>(graphql`
     query Index {
@@ -57,11 +58,10 @@ function IndexPage() {
       }
     }
   `);
-  const [latest] = data.allProgram.edges;
-  const [firstSong] = data.allProgram.edges.reduce(
-    (accum, { node }) => [...accum, ...node.playlist.filter((tune) => tune.youtube && tune.youtube !== '')],
-    []
-  );
+  //const [latest] = data.allProgram.edges;
+  const [firstSong] = data.allProgram.edges.reduce((accum, { node }) => {
+    return node.playlist ? [...accum, ...node.playlist.filter((tune) => tune?.youtube && tune?.youtube !== '')] : [...accum];
+  }, []);
   const jumbotron = (
     <Jumbotron
       title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
@@ -73,45 +73,51 @@ function IndexPage() {
 
   return (
     <Layout maxWidth="md" componentViewports={{ BottomNav: false }} jumbotron={jumbotron}>
-      <Grid container>
-        <Stat icon={<ProgramIcon fontSize="inherit" />} value={programs.length} title="放送" label="回" />
-        <Stat icon={<TuneIcon fontSize="inherit" />} value={tunesLength} title="曲数" label="曲" />
-        <Stat icon={<ArtistIcon fontSize="inherit" />} value={artistsLength} title="アーティスト" label="組" />
-      </Grid>
-      <Typography variant="h5" component="h2">
-        最新のプレイリスト
-      </Typography>
-      <List>
-        {data.allProgram.edges.map(({ node }, index) => (
-          <ListItemLink
-            key={index}
-            to={node.fields.slug}
-            primaryText={node.title}
-            secondaryText={`第${node.week}回 ${node.date}`}
-            divider
-          />
-        ))}
-      </List>
-      <RadikoLink date={latest.node.date} />
-      <Container maxWidth="sm">
+      <ContentBasis>
         <Grid container>
-          <Grid item sm={4} md={2}>
-            <NavigationBox icon={<ProgramIcon />} label="放送回" to="/programs/" />
+          <Stat icon={<ProgramIcon fontSize="inherit" />} value={programs.length} title="放送" label="回" />
+          <Stat icon={<TuneIcon fontSize="inherit" />} value={tunesLength} title="曲数" label="曲" />
+          <Stat icon={<ArtistIcon fontSize="inherit" />} value={artistsLength} title="アーティスト" label="組" />
+        </Grid>
+      </ContentBasis>
+      <ContentBasis>
+        <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
+          {data.allProgram.edges.map(({ node }, index) => (
+            <ListItemLink
+              key={index}
+              to={node.fields?.slug ?? '#'}
+              primaryText={node.title ?? '放送回'}
+              secondaryText={`第${node.week}回 ${node.date}`}
+              divider
+            />
+          ))}
+        </List>
+      </ContentBasis>
+      <ContentBasis>
+        <NavigationBox />
+      </ContentBasis>
+      <ContentBasis>
+        <Grid container>
+          <Grid item xs={12} sm={6}>
+            <Rank
+              items={edgesRankItem}
+              title="登場回数 Top25"
+              itemTitle={(item) => item.fieldValue}
+              itemValue={(item) => `${item.edges.length}回`}
+              dense
+            />
           </Grid>
-          <Grid item sm={4} md={2}>
-            <NavigationBox icon={<ArtistIcon />} label="アーティスト" to="/artists/" />
-          </Grid>
-          <Grid item sm={4} md={2}>
-            <NavigationBox icon={<CategoryIcon />} label="放送テーマ" to="/categories/" />
-          </Grid>
-          <Grid item sm={4} md={2}>
-            <NavigationBox icon={<SelectorIcon />} label="選曲者" to="/selectors/" />
-          </Grid>
-          <Grid item sm={4} md={2}>
-            <NavigationBox icon={<CornerIcon />} label="コーナー" to="/corners/" />
+          <Grid item xs={12} sm={6}>
+            <Rank
+              items={tunesRankItem}
+              title="曲数 Top25"
+              itemTitle={(item) => item.fieldValue}
+              itemValue={(item) => `${item.tunes.length}曲`}
+              dense
+            />
           </Grid>
         </Grid>
-      </Container>
+      </ContentBasis>
     </Layout>
   );
 }

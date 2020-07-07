@@ -17,11 +17,9 @@ function TunesByProgram({ program, filter = () => true }: Props) {
         第{program.week}回 {program.date}
       </Typography>
       <Typography variant="h6" component="h3" gutterBottom>
-        <AppLink to={program.fields.slug}>{program.title}</AppLink>
+        <AppLink to={program.fields?.slug ?? '#'}>{program.title}</AppLink>
       </Typography>
-      {program.playlist.filter(filter).map((tune) => (
-        <TuneCard key={tune.id} tune={tune} />
-      ))}
+      {program?.playlist?.filter(filter).map((tune, index) => <TuneCard key={tune?.id ?? index} tune={tune} />) ?? null}
     </Box>
   );
 }

@@ -11,7 +11,6 @@ playlist:
     week: 40
     name: 楓
     artist: スピッツ
-    kana: ""
     year: 1998
     nation: JPN
     label: ポリドール
@@ -27,13 +26,11 @@ playlist:
     week: 40
     name: Fire and Water
     artist: Free
-    kana: ""
     year: 1970
     nation: UK
     label: Island
     producer:
       - Roy Thomas Baker
-    corner: ""
     youtube: n3Jyn3pIzu0
     title: Fire and Water
     index: 327
@@ -43,13 +40,11 @@ playlist:
     week: 40
     name: Wishing Well
     artist: Free
-    kana: ""
     year: 1973
     nation: UK
     label: Island
     producer:
       - Andy Johns
-    corner: ""
     youtube: zP-QZD9DcdE
     title: Wishing Well
     index: 328
@@ -59,12 +54,9 @@ playlist:
     week: 40
     name: Can’t Get Enough
     artist: Bad Company
-    kana: ""
     year: 1974
     nation: UK
     label: Island
-    producer: []
-    corner: ""
     youtube: 7p9mzYB--uI
     title: Can’t Get Enough
     index: 329
@@ -74,12 +66,9 @@ playlist:
     week: 40
     name: Painted Face
     artist: Bad Company
-    kana: ""
     year: 1982
     nation: UK
     label: Swan Song Records
-    producer: []
-    corner: ""
     youtube: VZMT3F6MLUk
     title: Painted Face
     index: 330
@@ -89,13 +78,11 @@ playlist:
     week: 40
     name: We Are the Champion
     artist: Queen + Paul Rodgers
-    kana: ""
     year: 2005
     nation: UK
     label: Parlophone
     producer:
       - Joshua J. Macrae
-    corner: ""
     youtube: k6AcfSKdy3A
     title: We Are the Champion
     index: 331
@@ -105,12 +92,9 @@ playlist:
     week: 40
     name: Guardian of the Universe
     artist: Free
-    kana: ""
     year: 1972
     nation: UK
     label: Island
-    producer: []
-    corner: ""
     youtube: o93ywNZMsZs
     title: Guardian of the Universe
     index: 332
@@ -120,13 +104,11 @@ playlist:
     week: 40
     name: おもちゃの血
     artist: ローザ・ルクセンブルグ
-    kana: ""
     year: 1986
     nation: JPN
     label: MIDI
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: EFwvrLEAVlQ
     title: おもちゃの血
     index: 333
     indexInWeek: 8

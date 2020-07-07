@@ -11,7 +11,6 @@ playlist:
     week: 39
     name: 君が思い出になる前に
     artist: スピッツ
-    kana: ""
     year: 1993
     nation: JPN
     label: ポリドール
@@ -34,7 +33,7 @@ playlist:
     producer:
       - Todd Rundgren
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: U0wIbia9Xdw
     title: 虹の都へ
     index: 319
     indexInWeek: 2
@@ -43,13 +42,10 @@ playlist:
     week: 39
     name: 全部あとまわし
     artist: The ピーズ
-    kana: ""
     year: 1989
     nation: JPN
     label: ビクター
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 全部あとまわし
     index: 320
     indexInWeek: 3
@@ -58,7 +54,6 @@ playlist:
     week: 39
     name: コッペル
     artist: DOG HAIR DRESSERS
-    kana: ""
     year: 1999
     nation: JPN
     label: SO What? Records
@@ -74,13 +69,10 @@ playlist:
     week: 39
     name: 子供の十字軍
     artist: さねよしいさ子
-    kana: ""
     year: 1993
     nation: JPN
     label: フォーライフ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 子供の十字軍
     index: 322
     indexInWeek: 5
@@ -93,9 +85,7 @@ playlist:
     year: 1972
     nation: JPN
     label: ポリドール
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 旅に出よう
     index: 323
     indexInWeek: 6
@@ -104,13 +94,10 @@ playlist:
     week: 39
     name: 午前8時の脱走計画
     artist: Cymbals
-    kana: ""
     year: 1999
     nation: JPN
     label: ビクター
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 午前8時の脱走計画
     index: 324
     indexInWeek: 7
@@ -119,11 +106,9 @@ playlist:
     week: 39
     name: 町蔵・町子・破壊
     artist: 0、8秒と衝撃。
-    kana: ""
     year: 2011
     nation: JPN
     label: EVOL RECORDS
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: RzjuBm0Z0I4
     title: 町蔵・町子・破壊

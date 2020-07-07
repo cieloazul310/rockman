@@ -2,7 +2,7 @@
 
 > A starter kit for TypeScript-based Gatsby projects Material-UI.
 
-DEMO: https://cieloazul310.github.io/gatsby-starter-typescript-material-ui/
+DEMO: <https://cieloazul310.github.io/gatsby-starter-typescript-material-ui/>
 
 ## Features
 

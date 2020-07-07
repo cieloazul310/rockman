@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link as GatsbyLink, navigate } from 'gatsby';
+import { Link as GatsbyLink } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
@@ -39,11 +39,16 @@ const useStyles = makeStyles((theme: Theme) =>
         transform: 'scale(1.2)',
       },
     },
+    skeleton: {
+      flex: 1,
+      height: '100%',
+    },
   })
 );
 
 interface Props {
-  tune: Pick<ProgramPlaylist, 'artist' | 'youtube' | 'title' | 'selector' | 'indexInWeek' | 'corner' | 'nation' | 'year'>;
+  tune: Pick<ProgramPlaylist, 'artist' | 'youtube' | 'title' | 'selector' | 'indexInWeek' | 'corner' | 'nation' | 'year'> &
+    Partial<ProgramPlaylist>;
 }
 
 function TuneCard({ tune }: Props) {
@@ -60,7 +65,9 @@ function TuneCard({ tune }: Props) {
                 title={`${tune.artist}の${tune.title}をYouTubeで視聴する`}
               />
             </a>
-          ) : null}
+          ) : (
+            <Skeleton variant="rect" className={classes.skeleton} />
+          )}
         </Box>
         <Box flex="1">
           <Box px={2} pt={1}>
@@ -68,7 +75,7 @@ function TuneCard({ tune }: Props) {
               M{tune.indexInWeek}. {tune.corner} {tune.selector !== '草野マサムネ' ? `${tune.selector}選曲` : null}
             </Typography>
           </Box>
-          <CardHeader avatar={<NationAvatar nation={tune.nation} />} title={tune.title} subheader={`${tune.artist} (${tune.year})`} />
+          <CardHeader avatar={<NationAvatar nation={tune.nation ?? ''} />} title={tune.title} subheader={`${tune.artist} (${tune.year})`} />
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
               <IconButton component={GatsbyLink} to={`/artist/${tune.artist}`}>
@@ -104,7 +111,7 @@ export function TuneCardSkeleton() {
     <Box my={2}>
       <Card className={classes.root}>
         <div className={classes.cardThumbnail}>
-          <Skeleton variant="rect" />
+          <Skeleton variant="rect" className={classes.skeleton} />
         </div>
         <Box flex="1">
           <Box px={2} pt={1}>

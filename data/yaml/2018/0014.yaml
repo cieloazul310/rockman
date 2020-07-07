@@ -27,13 +27,9 @@ playlist:
     week: 14
     name: わかってもらえるさ
     artist: RCサクセション
-    kana: ""
     year: 1976
     nation: JPN
     label: キティレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: わかってもらえるさ
     index: 109
     indexInWeek: 2
@@ -46,9 +42,7 @@ playlist:
     year: 1974
     nation: JPN
     label: ポリドール
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: vb28PtBS00Q
     title: 踊ろよベイビー
     index: 110
     indexInWeek: 3
@@ -63,7 +57,6 @@ playlist:
     label: ショーボートレコード
     producer:
       - ミッキー・カーチス
-    corner: ""
     youtube: UINL13_XHLg
     title: 香り
     index: 111
@@ -77,8 +70,6 @@ playlist:
     year: 1974
     nation: JPN
     label: ポリドール
-    producer: []
-    corner: ""
     youtube: ""
     title: 夕飯は御仕舞
     index: 112
@@ -88,13 +79,9 @@ playlist:
     week: 14
     name: スウィート・ホーム大阪
     artist: ファニー・カンパニー
-    kana: ""
     year: 1972
     nation: JPN
     label: アトランティック
-    producer: []
-    corner: ""
-    youtube: ""
     title: スウィート・ホーム大阪
     index: 113
     indexInWeek: 6
@@ -107,9 +94,6 @@ playlist:
     year: 1976
     nation: JPN
     label: Bourbon Records
-    producer: []
-    corner: ""
-    youtube: ""
     title: On Wings of Love
     index: 114
     indexInWeek: 7
@@ -118,13 +102,11 @@ playlist:
     week: 14
     name: シトラス
     artist: advantage Lucy
-    kana: ""
     year: 1998
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: g2tj0CXdx8s
     title: シトラス
     index: 115
     indexInWeek: 8

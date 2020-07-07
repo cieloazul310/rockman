@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useArtists abc 1`] = `
+"1. Andrew Lloyd Webber and Tim Rice 1曲/1回 
+2. Awesome City Club 1曲/1回 
+3. BAND-MAID 1曲/1回 
+4. The Beatles 1曲/1回 
+5. Belinda Carlisle 1曲/1回 
+6. Billy Joel 1曲/1回 
+7. Black Sabbath 1曲/1回 
+8. BLIZARD 1曲/1回 
+9. Blur 1曲/1回 
+10. Boston 1曲/1回 
+11. BRAHMAN 1曲/1回 
+12. Bryan Adams 1曲/1回 
+13. CHAI 1曲/1回 
+14. Cheap Trick 1曲/1回 
+15. Czecho No Republic 1曲/1回 
+16. David Bowie 1曲/1回 
+17. Dio 1曲/1回 
+18. EARTHSHAKER 1曲/1回 
+19. Fleetwood Mac 1曲/1回 
+20. The Groovers 1曲/1回 
+21. The House of Love 1曲/1回 
+22. Iron Maiden 1曲/1回 
+23. Japan 1曲/1回 
+24. Jethro Tull 1曲/1回 
+25. Judas Priest 2曲/2回 
+26. Judee Sill 1曲/1回 
+27. JUN SKY WALKER(S) 1曲/1回 
+28. Kiss 1曲/1回 
+29. The Knack 1曲/1回 
+30. Led Zeppelin 1曲/1回 
+31. The Left Banke 1曲/1回 
+32. Loudness 1曲/1回 
+33. LU-NA 1曲/1回 
+34. The Lumineers 1曲/1回 
+35. Michel Polnareff 1曲/1回 
+36. Mr.Children 1曲/1回 
+37. Nav Katze 1曲/1回 
+38. Nuno 1曲/1回 
+39. NYAI 1曲/1回 
+40. People In the Box 1曲/1回 
+41. The Police 1曲/1回 
+42. The Posies 1曲/1回 
+43. Quiet Riot 1曲/1回 
+44. Randy California 1曲/1回 
+45. Rufus Wainwright 1曲/1回 
+46. Rush 1曲/1回 
+47. Sheen 1曲/1回 
+48. SOON 1曲/1回 
+49. sumika 1曲/1回 
+50. The Sundays 1曲/1回 
+51. Supertramp 1曲/1回 
+52. Suzi Quatro 1曲/1回 
+53. The Verve 1曲/1回 
+54. YeYe 1曲/1回 
+55. アン・ルイス 1曲/1回 
+56. ウルフルズ 1曲/1回 
+57. エレファントカシマシ 1曲/1回 
+58. オフコース 1曲/1回 
+59. くるり 1曲/1回 
+60. ゲスの極み乙女。 1曲/1回 
+61. 陣内大蔵 1曲/1回 
+62. 鈴木祥子 1曲/1回 
+63. スピッツ 10曲/10回 
+64. パノラマメロウ 1曲/1回 
+65. フラワーカンパニーズ 2曲/2回 
+66. 山下達郎 1曲/1回 
+67. 遊佐未森 1曲/1回 
+68. ゆらゆら帝国 1曲/1回 
+69. 横浜銀蝿 1曲/1回 
+70. 吉田ヨウヘイgroup 1曲/1回 "
+`;
+
+exports[`useArtists edges 1`] = `
+"1. スピッツ 10曲/10回 
+2. Judas Priest 2曲/2回 
+3. フラワーカンパニーズ 2曲/2回 
+4. Andrew Lloyd Webber and Tim Rice 1曲/1回 
+5. Awesome City Club 1曲/1回 
+6. BAND-MAID 1曲/1回 
+7. The Beatles 1曲/1回 
+8. Belinda Carlisle 1曲/1回 
+9. Billy Joel 1曲/1回 
+10. Black Sabbath 1曲/1回 "
+`;
+
+exports[`useArtists tunes 1`] = `
+"1. スピッツ 10曲/10回 
+2. Judas Priest 2曲/2回 
+3. フラワーカンパニーズ 2曲/2回 
+4. Andrew Lloyd Webber and Tim Rice 1曲/1回 
+5. Awesome City Club 1曲/1回 
+6. BAND-MAID 1曲/1回 
+7. The Beatles 1曲/1回 
+8. Belinda Carlisle 1曲/1回 
+9. Billy Joel 1曲/1回 
+10. Black Sabbath 1曲/1回 "
+`;

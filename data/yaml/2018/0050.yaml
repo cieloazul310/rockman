@@ -11,13 +11,10 @@ playlist:
     week: 50
     name: ウサギのバイク
     artist: スピッツ
-    kana: ""
     year: 1991
     nation: JPN
     label: ポリドール
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: ウサギのバイク
     index: 410
     indexInWeek: 1
@@ -26,14 +23,12 @@ playlist:
     week: 50
     name: This Is the Sound
     artist: The Juliana Hatfield Three
-    kana: ""
     year: 1993
     nation: US
     label: Mammoth
     producer:
       - Scott Litt
-    corner: ""
-    youtube: ""
+    youtube: I6BmNHAaaAY
     title: This Is the Sound
     index: 411
     indexInWeek: 2
@@ -42,12 +37,9 @@ playlist:
     week: 50
     name: 美しい棘
     artist: GLIM SPANKY
-    kana: ""
     year: 2017
     nation: JPN
     label: ユニバーサル
-    producer: []
-    corner: ""
     youtube: aoHztp815sw
     title: 美しい棘
     index: 412
@@ -57,12 +49,9 @@ playlist:
     week: 50
     name: Motorcrash
     artist: The Sugarcubes
-    kana: ""
     year: 1988
     nation: ISL
     label: One Little Indian
-    producer: []
-    corner: ""
     youtube: vz9WNOkVTWo
     title: Motorcrash
     index: 413
@@ -72,13 +61,9 @@ playlist:
     week: 50
     name: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
     artist: マキシマム ザ ホルモン
-    kana: ""
     year: 2007
     nation: JPN
     label: VAP
-    producer: []
-    corner: ""
-    youtube: ""
     title: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
     index: 414
     indexInWeek: 5
@@ -87,12 +72,9 @@ playlist:
     week: 50
     name: Beautiful Dream
     artist: Suddenly, Tammy!
-    kana: ""
     year: 1995
     nation: US
     label: Warner Bros.
-    producer: []
-    corner: ""
     youtube: fe2L1HXq7u0
     title: Beautiful Dream
     index: 415
@@ -102,12 +84,9 @@ playlist:
     week: 50
     name: タマシイレボリューション
     artist: Superfly
-    kana: ""
     year: 2010
     nation: JPN
     label: ワーナーミュージック・ジャパン
-    producer: []
-    corner: ""
     youtube: Z2tedgbqJJs
     title: タマシイレボリューション
     index: 416
@@ -117,11 +96,9 @@ playlist:
     week: 50
     name: Water Tracks
     artist: トルネード竜巻
-    kana: ""
     year: 2003
     nation: JPN
     label: colla disc
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
     title: Water Tracks

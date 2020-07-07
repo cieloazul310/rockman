@@ -20,9 +20,10 @@ type LocationWithState = WindowLocation & {
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CategoriesPage() {
-  const location: LocationWithState = useLocation();
+  const location = useLocation() as LocationWithState;
   const categories = useAllCategories();
-  const initialValue = location.state && location.state.category ? categories.map((d) => d.fieldValue).indexOf(location.state.category) : 0;
+  // @TODO: add Hash support
+  const initialValue = location.state?.category ? categories.map((d) => d.fieldValue).indexOf(location.state.category) : 0;
   const [tab, setTab] = React.useState(initialValue);
   const sorter = useSorter();
   const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
@@ -33,17 +34,17 @@ function CategoriesPage() {
   };
   React.useEffect(() => {
     if (window) window.history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
-  }, [tab]);
+  }, [tab, categories]);
 
   return (
     <Layout
-      title={categories[tab].fieldValue}
+      title={categories[tab]?.fieldValue ?? 'Category'}
       tabSticky
       componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs value={tab} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
-          {categories.map((d) => (
-            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.edges.length}`} />
+          {categories.map((d, index) => (
+            <Tab key={d.fieldValue ?? index} label={`${d.fieldValue} ${d.edges.length}`} />
           ))}
         </Tabs>
       }
@@ -53,12 +54,12 @@ function CategoriesPage() {
           <TabPane key={index} value={tab} index={index}>
             <List>
               {d.edges
-                .sort((a, b) => sorter(a.node.week - b.node.week))
+                .sort((a, b) => sorter(a.node.week && b.node.week ? a.node.week - b.node.week : 0))
                 .map((v) => (
                   <ListItemLink
                     key={v.node.id}
-                    to={v.node.fields.slug}
-                    primaryText={v.node.title}
+                    to={v.node.fields?.slug ?? '#'}
+                    primaryText={v.node.title ?? 'Program'}
                     secondaryText={`第${v.node.week}回 ${v.node.date}`}
                     divider
                   />

@@ -8,30 +8,20 @@ import useAnimation from '../../utils/useAnimation';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      display: 'flex',
-      padding: theme.spacing(2),
+      margin: 'auto',
     },
-    left: {
+    title: {
       display: 'flex',
-      flexDirection: 'column',
-    },
-    icon: {
-      fontSize: theme.typography.h3.fontSize,
-    },
-    title: {},
-    right: {
-      display: 'flex',
-      //flexDirection: 'column',
-      flexGrow: 1,
+      alignItems: 'center',
     },
     value: {
-      display: 'flex',
-      flexDirection: 'row-reverse',
-      flexGrow: 1,
-      fontSize: theme.typography.h3.fontSize,
-      fontStyle: 'italic',
+      margin: 'auto',
+      maxWidth: theme.spacing(16),
+      textAlign: 'right',
     },
-    label: {},
+    label: {
+      marginLeft: '.5em',
+    },
   })
 );
 
@@ -48,27 +38,33 @@ function Stat({ icon, value, label, title }: Props) {
     triggerOnce: true,
   });
   return (
-    <Grid item xs={12} sm={4} ref={ref}>
-      <div className={classes.root}>
-        <div className={classes.left}>
-          <div className={classes.icon}>{icon}</div>
-          <Typography className={classes.title} component="div" variant="body2">
+    <Grid item xs={4} ref={ref} className={classes.root}>
+      <Grid container>
+        <Grid className={classes.title} item xs={12} sm={5}>
+          <Typography variant="h4" component="span">
+            {icon}
+          </Typography>
+          <Typography variant="body2" component="span">
             {title}
           </Typography>
-        </div>
-        <div className={classes.right}>
-          <div className={classes.value}>{inView ? <StatCore value={value} /> : <span>0</span>}</div>
-          <Typography className={classes.label} variant="body1" component="div">
-            {label}
-          </Typography>
-        </div>
-      </div>
+        </Grid>
+        <Grid item xs={12} sm={7}>
+          <div className={classes.value}>
+            <Typography variant="h3" component="em">
+              {inView ? <StatCore value={value} /> : <span>0</span>}
+            </Typography>
+            <Typography component="span" className={classes.label}>
+              {label}
+            </Typography>
+          </div>
+        </Grid>
+      </Grid>
     </Grid>
   );
 }
 
 function StatCore({ value }: { value: number }) {
-  const animation = useAnimation('linear', value * 2, 250);
+  const animation = useAnimation('linear', value, 250);
   return <span>{Math.round(value * animation)}</span>;
 }
 

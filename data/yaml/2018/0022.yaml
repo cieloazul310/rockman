@@ -11,7 +11,6 @@ playlist:
     week: 22
     name: ロビンソン
     artist: スピッツ
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリドール
@@ -27,13 +26,10 @@ playlist:
     week: 22
     name: 僕はコレクター
     artist: THE COLLECTORS
-    kana: ""
     year: 1987
     nation: JPN
     label: BAIDIS
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: GcO6ojQugZI
     title: 僕はコレクター
     index: 177
     indexInWeek: 2

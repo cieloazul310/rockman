@@ -1,0 +1,106 @@
+id: "20200125"
+week: 125
+year: 2020
+title: 旅にまつわるナンバーリクエストで漫遊記(邦楽編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-05-24
+playlist:
+  - id: "2020012501"
+    week: 125
+    index: 1036
+    indexInWeek: 1
+    title: 僕はきっと旅に出る
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012502"
+    week: 125
+    index: 1037
+    indexInWeek: 2
+    title: 1/6の夢旅人2002
+    artist: 樋口了一
+    kana: ひぐちりょういち
+    year: 2003
+    nation: JPN
+    label: ランブータンレコード
+    producer: 
+      - 太田憲行
+    selector: リクエスト
+  - id: "2020012503"
+    week: 125
+    index: 1038
+    indexInWeek: 3
+    title: イージュー★ライダー
+    artist: 奥田民生
+    kana: おくだたみお
+    year: 1996
+    nation: JPN
+    label: ソニーレコーズ
+    youtube: Mg7rtAWKdok
+    selector: リクエスト
+  - id: "2020012504"
+    week: 125
+    index: 1039
+    indexInWeek: 4
+    title: 君と旅
+    artist: キセル
+    year: 2004
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    selector: リクエスト
+  - id: "2020012505"
+    week: 125
+    index: 1040
+    indexInWeek: 5
+    title: ティンセルタウン
+    artist: Crispy Camera Club
+    year: 2019
+    nation: JPN
+    label: KOGA RECORDS
+    youtube: acKJ4e-o65M
+    selector: リクエスト
+  - id: "2020012506"
+    week: 125
+    index: 1041
+    indexInWeek: 6
+    title: ディーゼル
+    artist: 六角精児バンド
+    kana: ろっかくせいじばんど
+    year: 2014
+    nation: JPN
+    label: HOME WORK RECORDS
+    youtube: Ax-Zi1Fhmcs
+    selector: リクエスト
+  - id: "2020012507"
+    week: 125
+    index: 1042
+    indexInWeek: 7
+    title: ガンダーラ
+    artist: ゴダイゴ
+    year: 1978
+    nation: JPN
+    label: 日本コロムビア
+    youtube: Eer9fjaM05Q
+    producer:
+      - ジョニー野村
+    selector: リクエスト
+  - id: "2020012508"
+    week: 125
+    index: 1043
+    indexInWeek: 8
+    title: 異邦人 -シルクロードのテーマ-
+    artist: 久保田早紀
+    kana: くぼたさき
+    year: 1979
+    nation: JPN
+    label: CBSソニー
+    producer: 
+      - 酒井政利
+    corner: ちょっぴりタイムマシン
+    selector: リクエスト

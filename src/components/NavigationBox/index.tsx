@@ -1,43 +1,41 @@
 import * as React from 'react';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import Box from '@material-ui/core/Box';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import { Link as GatsbyLink } from 'gatsby';
+import Grid from '@material-ui/core/Grid';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import { useTheme } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon } from '../../icons';
+import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      width: 120,
-      height: 120,
-      padding: theme.spacing(1),
-      boxSizing: 'border-box',
-      transition: theme.transitions.create('background'),
-      '&:hover': {
-        backgroundColor: theme.palette.background.paper,
-      },
-    },
-  })
-);
-
-interface Props {
-  icon: JSX.Element;
-  label: string;
+interface NavigationItemProps {
+  title: string;
   to: string;
+  icon: JSX.Element;
+  dense?: boolean;
 }
 
-function NavigationBox({ icon, label, to }: Props) {
-  const classes = useStyles();
+function NavigationItem({ title, to, icon, dense = false }: NavigationItemProps) {
   return (
-    <ButtonBase className={classes.root} component={GatsbyLink} to={to}>
-      <Box display="flex" flexDirection="column">
-        <Box display="flex" justifyContent="center">
-          {icon}
-        </Box>
-        <Box display="flex" justifyContent="center">
-          {label}
-        </Box>
-      </Box>
-    </ButtonBase>
+    <Grid item xs={12} sm={6} md={3}>
+      <ListItemAppLink to={to} button dense={dense}>
+        <ListItemIcon>{icon}</ListItemIcon>
+        <ListItemText primary={title} />
+      </ListItemAppLink>
+    </Grid>
+  );
+}
+
+function NavigationBox() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
+  return (
+    <Grid container>
+      <NavigationItem to="/" title="トップページ" icon={<HomeIcon />} dense={isMobile} />
+      <NavigationItem to="/programs/" title="放送回一覧" icon={<ProgramIcon />} dense={isMobile} />
+      <NavigationItem to="/artists/" title="アーティスト一覧" icon={<ArtistIcon />} dense={isMobile} />
+      <NavigationItem to="/categories/" title="テーマ" icon={<CategoryIcon />} dense={isMobile} />
+      <NavigationItem to="/selectors/" title="選曲者" icon={<SelectorIcon />} dense={isMobile} />
+    </Grid>
   );
 }
 

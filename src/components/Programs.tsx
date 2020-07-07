@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link as GatsbyLink } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -34,8 +33,8 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
           {programs.map((program) => (
             <ListItemLink
               key={program.id}
-              to={program.fields.slug}
-              primaryText={program.title}
+              to={program?.fields?.slug ?? '#'}
+              primaryText={program?.title ?? 'タイトル'}
               secondaryText={`第${program.week}回 ${program.date}`}
               divider
             />

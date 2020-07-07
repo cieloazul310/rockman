@@ -25,11 +25,11 @@ export function useDividedPrograms(
   const sorter = useSorter();
   return React.useMemo(() => {
     return programs
-      .sort((a, b) => sorter(a.week - b.week))
+      .sort((a, b) => sorter(a.week && b.week ? a.week - b.week : 0))
       .reduce<AbstractProgram[][]>((accum, curr, index) => {
         const filtered = {
           ...curr,
-          playlist: curr.playlist.filter(filter),
+          playlist: curr.playlist?.filter(filter) ?? [],
         };
         if (index === 0) {
           return [[filtered]];
@@ -45,5 +45,5 @@ export function useDividedPrograms(
 }
 
 function getPlaylistLength(programs: AbstractProgram[]) {
-  return programs.reduce((accum, curr) => accum + curr.playlist.length, 0);
+  return programs.reduce((accum, curr) => (curr.playlist ? accum + curr.playlist.length : accum), 0);
 }

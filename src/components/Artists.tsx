@@ -1,22 +1,27 @@
 import * as React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Avatar from '@material-ui/core/Avatar';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
-import Chip from '@material-ui/core/Chip';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-import NationAvatar from './NationAvatar';
+//import NationAvatar from './NationAvatar';
 import { useAllArtists, ArtistItem } from '../utils/graphql-hooks';
-import { getYomi } from '../utils/sortByYomi';
+import sortArtists, { SortType } from '../utils/sortByYomi';
 
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
   return (
     <ListItemAppLink button style={style} key={index} to={`/artist/${artist.fieldValue}/`}>
       <ListItemAvatar>
-        <NationAvatar nation={artist.nation} />
+        <Avatar src={artist.img || undefined} alt={artist.fieldValue}>
+          {artist.nation}
+        </Avatar>
       </ListItemAvatar>
       <ListItemText primary={artist.fieldValue} secondary={artist.kana || null} />
-      <Chip label={`${artist.tunes.length} / ${artist.edges.length}`} />
+      <Typography variant="button" component="span">
+        {`${artist.tunes.length}曲 / ${artist.edges.length}回`}
+      </Typography>
     </ListItemAppLink>
   );
 }
@@ -25,22 +30,19 @@ interface Props {
   width?: number;
   height?: number;
   itemSize?: number;
-  filter?: (artist: ArtistItem) => boolean;
-  sort?: (a: ArtistItem, b: ArtistItem) => number;
+  filters?: ((artist: ArtistItem) => boolean)[];
+  sortType: SortType;
 }
 
-function Artists({
-  width = 320,
-  height = 480,
-  itemSize = 60,
-  filter = () => true,
-  sort = (a, b) => b.edges.length - a.edges.length || b.tunes.length - a.tunes.length,
-}: Props) {
+function Artists({ width = 320, height = 480, itemSize = 60, filters = [], sortType = 'abc' }: Props) {
   const allArtists = useAllArtists();
   const artists = React.useMemo(
     () =>
-      allArtists.filter(filter).sort((a, b) => sort(a, b) || getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana))),
-    [allArtists, filter, sort]
+      sortArtists(
+        allArtists.filter((artist) => (filters.length ? filters.length === filters.filter((filter) => filter(artist)).length : true)),
+        { sortType }
+      ),
+    [allArtists, filters, sortType]
   );
 
   return (

@@ -7,6 +7,7 @@ const theme = createMuiTheme({
     primary: teal,
     secondary: orange,
   },
+  /*
   typography: {
     fontFamily: [
       '-apple-system',
@@ -22,6 +23,7 @@ const theme = createMuiTheme({
       '"Segoe UI Symbol"',
     ].join(','),
   },
+  */
 });
 
 export default responsiveFontSizes(theme);

@@ -1,0 +1,100 @@
+id: "20200127"
+week: 127
+year: 2020
+title: 意外な国の70年代ロックで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2020-06-07
+playlist:
+  - id: "2020012701"
+    week: 127
+    index: 1053
+    indexInWeek: 1
+    title: 初夏の日
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012702"
+    week: 127
+    index: 1054
+    indexInWeek: 2
+    title: Share Cheshmat
+    artist: Kourosh Yaghmaei
+    year: 1976
+    nation: IRN
+    label: Now-Again Records
+    youtube: iOKni0Nb0fM
+    selector: 草野マサムネ
+  - id: "2020012703"
+    week: 127
+    index: 1055
+    indexInWeek: 3
+    title: Goca Dünya
+    artist: Erkin Koray
+    year: 1972
+    nation: TUR
+    label: İstanbul Plak
+    youtube: KgjdDez6XwE
+    selector: 草野マサムネ
+  - id: "2020012704"
+    week: 127
+    index: 1056
+    indexInWeek: 4
+    title: Blo
+    artist: Blo
+    year: 1974
+    nation: NGR
+    label: Afrodisia
+    youtube: O_i2J1UBtDk
+    selector: 草野マサムネ
+  - id: "2020012705"
+    week: 127
+    index: 1057
+    indexInWeek: 5
+    title: Break Through
+    artist: The Funkees
+    year: 1973
+    nation: NGR
+    label: EMI
+    youtube: uaSfQMSfQLo
+    selector: 草野マサムネ
+  - id: "2020012706"
+    week: 127
+    index: 1058
+    indexInWeek: 6
+    title: Benjamin, El Pastor
+    artist: León Gieco
+    year: 1971
+    nation: ARG
+    label: Music Hall
+    youtube: KYLz2BmvlI4
+    selector: 草野マサムネ
+  - id: "2020012707"
+    week: 127
+    index: 1059
+    indexInWeek: 7
+    title: Alegria, Alegria
+    artist: Caetano Veloso
+    year: 1968
+    nation: BRA
+    label: Phillips
+    youtube: WL8l8olaMmI
+    selector: 草野マサムネ
+  - id: "2020012708"
+    week: 127
+    index: 1060
+    indexInWeek: 8
+    title: 今夜ナイトラインで
+    artist: ECHOES
+    year: 1985
+    nation: JPN
+    label: CBSソニー
+    producer: 
+      - 井上鑑
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

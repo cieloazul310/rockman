@@ -11,14 +11,12 @@ playlist:
     week: 18
     name: ガーベラ
     artist: スピッツ
-    kana: ""
     year: 2002
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ガーベラ
     index: 140
     indexInWeek: 1
@@ -27,13 +25,9 @@ playlist:
     week: 18
     name: センチメンタル
     artist: Syrup16g
-    kana: ""
     year: 2002
     nation: JPN
     label: トライアド
-    producer: []
-    corner: ""
-    youtube: ""
     title: センチメンタル
     index: 141
     indexInWeek: 2
@@ -46,8 +40,6 @@ playlist:
     year: 2012
     nation: JPN
     label: AVOCADO records
-    producer: []
-    corner: ""
     youtube: YFESOU_YdSA
     title: 小さなリンジー
     index: 142
@@ -61,8 +53,6 @@ playlist:
     year: 2013
     nation: JPN
     label: ポニーキャニオン
-    producer: []
-    corner: ""
     youtube: mvt21LGL7P0
     title: 貴方が好きな私
     index: 143
@@ -72,13 +62,9 @@ playlist:
     week: 18
     name: サルビアの花
     artist: もとまろ
-    kana: ""
     year: 1972
     nation: JPN
     label: キャニオンレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: サルビアの花
     index: 144
     indexInWeek: 5
@@ -87,12 +73,9 @@ playlist:
     week: 18
     name: Autre Temps
     artist: Alcest
-    kana: ""
     year: 2012
     nation: FR
     label: Prophecy Productions
-    producer: []
-    corner: ""
     youtube: 85c-P9hbmBg
     title: Autre Temps
     index: 145
@@ -106,8 +89,6 @@ playlist:
     year: 2012
     nation: JPN
     label: 東雲録音
-    producer: []
-    corner: ""
     youtube: qoa1G6uBz-0
     title: ひかりのふるさと
     index: 146
@@ -117,13 +98,11 @@ playlist:
     week: 18
     name: Boys & Girls
     artist: THE FUSE
-    kana: ""
     year: 1990
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: uvKNhMnR864
     title: Boys & Girls
     index: 147
     indexInWeek: 8

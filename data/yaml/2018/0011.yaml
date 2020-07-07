@@ -11,14 +11,12 @@ playlist:
     week: 11
     name: Holiday
     artist: スピッツ
-    kana: ""
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    youtube: ""
     title: Holiday
     index: 82
     indexInWeek: 1
@@ -27,12 +25,9 @@ playlist:
     week: 11
     name: キルミー
     artist: SUNNY CAR WASH
-    kana: ""
     year: 2017
     nation: JPN
     label: OFUTON RECORDS
-    producer: []
-    corner: ""
     youtube: 8AkTa5QjssU
     title: キルミー
     index: 83
@@ -42,13 +37,10 @@ playlist:
     week: 11
     name: ベイビーイッツオールライト
     artist: Layne
-    kana: ""
     year: 2017
     nation: JPN
     label: Youth Records
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: 8QwymPkrU_A
     title: ベイビーイッツオールライト
     index: 84
     indexInWeek: 3
@@ -57,12 +49,9 @@ playlist:
     week: 11
     name: Lies,Lies,Lies/あの娘は嘘つき
     artist: SHOTGUN RUNNERS
-    kana: ""
     year: 2011
     nation: JPN
     label: MAJESTIC SOUND RECORDS
-    producer: []
-    corner: ""
     youtube: -PCYIJXX0eI
     title: Lies,Lies,Lies/あの娘は嘘つき
     index: 85
@@ -72,12 +61,9 @@ playlist:
     week: 11
     name: きみの春になれたら
     artist: プププランド
-    kana: ""
     year: 2017
     nation: JPN
     label: EXXENTRIC RECORDS
-    producer: []
-    corner: ""
     youtube: -TA2sEgc_Iw
     title: きみの春になれたら
     index: 86
@@ -87,12 +73,9 @@ playlist:
     week: 11
     name: Ghana
     artist: D.A.N
-    kana: ""
     year: 2016
     nation: JPN
     label: SSWB / BAYON PRODUCTION
-    producer: []
-    corner: ""
     youtube: z2EcSLaK15w
     title: Ghana
     index: 87
@@ -102,13 +85,9 @@ playlist:
     week: 11
     name: 檸檬
     artist: BURNOUT SYNDROMES
-    kana: ""
     year: 2016
     nation: JPN
     label: EPIC SONY
-    producer: []
-    corner: ""
-    youtube: ""
     title: 檸檬
     index: 88
     indexInWeek: 7
@@ -121,8 +100,6 @@ playlist:
     year: 2017
     nation: JPN
     label: HOWANIMALMOVE
-    producer: []
-    corner: ""
     youtube: wz2lipZ3Lho
     title: いってみよう
     index: 89
@@ -132,11 +109,9 @@ playlist:
     week: 11
     name: 欲しいのはおまえだけ
     artist: BOW WOW
-    kana: ""
     year: 1980
     nation: JPN
     label: SMS Records
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: ""
     title: 欲しいのはおまえだけ

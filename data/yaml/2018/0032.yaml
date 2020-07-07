@@ -18,7 +18,6 @@ playlist:
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ナンプラー日和
     index: 262
     indexInWeek: 1
@@ -27,12 +26,9 @@ playlist:
     week: 32
     name: Stay (I Missed You)
     artist: Lisa Loeb and Nine Stories
-    kana: ""
     year: 1994
     nation: US
     label: RCA
-    producer: []
-    corner: ""
     youtube: i9HGwRbMiVY
     title: Stay (I Missed You)
     index: 263
@@ -42,13 +38,11 @@ playlist:
     week: 32
     name: Luka
     artist: Suzanne Vega
-    kana: ""
     year: 1987
     nation: US
     label: A&M
     producer:
       - Steve Addabbo
-    corner: ""
     youtube: VZt7J0iaUD0
     title: Luka
     index: 264
@@ -58,12 +52,9 @@ playlist:
     week: 32
     name: Appointments
     artist: Julien Baker
-    kana: ""
     year: 2017
     nation: US
     label: Matador
-    producer: []
-    corner: ""
     youtube: MdBu21i9aEE
     title: Appointments
     index: 265
@@ -73,13 +64,11 @@ playlist:
     week: 32
     name: No Ordinary Love (Live 2011)
     artist: Sade
-    kana: ""
     year: 2012
     nation: US
     label: Epic
     producer:
       - Mike Pela
-    corner: ""
     youtube: au8rHGvytn8
     title: No Ordinary Love (Live 2011)
     index: 266
@@ -89,14 +78,11 @@ playlist:
     week: 32
     name: Beauty
     artist: James Iha
-    kana: ""
     year: 1997
     nation: US
     label: Hut Records
     producer:
       - Jim Scott
-    corner: ""
-    youtube: ""
     title: Beauty
     index: 267
     indexInWeek: 6
@@ -105,13 +91,10 @@ playlist:
     week: 32
     name: Delaware
     artist: Don Peris
-    kana: ""
     year: 2006
     nation: US
     label: Jemez Mountain
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: mkP8AQvZZNo
     title: Delaware
     index: 268
     indexInWeek: 7

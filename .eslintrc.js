@@ -3,14 +3,8 @@ module.exports = {
     __PATH_PREFIX__: true,
   },
   parser: `@typescript-eslint/parser`,
-  extends: [
-    'react-app',
-    'plugin:jsx-a11y/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-  ],
-  plugins: ['@typescript-eslint', 'prettier', 'jsx-a11y'],
+  extends: ['react-app', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier/@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
@@ -21,7 +15,6 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/naming-convention': 'warn',
   },
   overrides: [
     {

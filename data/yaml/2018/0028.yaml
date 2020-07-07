@@ -11,14 +11,12 @@ playlist:
     week: 28
     name: ハニーハニー
     artist: スピッツ
-    kana: ""
     year: 1992
     nation: JPN
     label: ポリドール
     producer:
       - 高橋信彦
     corner: 漫遊前の一曲
-    youtube: ""
     title: ハニーハニー
     index: 229
     indexInWeek: 1
@@ -27,13 +25,11 @@ playlist:
     week: 28
     name: Run Run Run
     artist: Jo Jo Gunne
-    kana: ""
     year: 1972
     nation: US
     label: Asylum
     producer:
       - Tom Dowd
-    corner: ""
     youtube: cOi0Iv5J45c
     title: Run Run Run
     index: 230
@@ -43,13 +39,10 @@ playlist:
     week: 28
     name: ハイ!チャイナ!
     artist: thee michelle gun elephant
-    kana: ""
     year: 1997
     nation: JPN
     label: TRIAD
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: BlLzoedglaw
     title: ハイ!チャイナ!
     index: 231
     indexInWeek: 3
@@ -58,13 +51,11 @@ playlist:
     week: 28
     name: Panic
     artist: The Smiths
-    kana: ""
     year: 1986
     nation: UK
     label: Rough Trade
     producer:
       - John Porter
-    corner: ""
     youtube: wMykYSQaG_c
     title: Panic
     index: 232
@@ -74,12 +65,9 @@ playlist:
     week: 28
     name: Midnight Teenage Shuffle
     artist: PERSONZ
-    kana: ""
     year: 1987
     nation: JPN
     label: BAIDIS
-    producer: []
-    corner: ""
     youtube: pUnQzRNxfiA
     title: Midnight Teenage Shuffle
     index: 233
@@ -89,13 +77,11 @@ playlist:
     week: 28
     name: Gepetto
     artist: Belly
-    kana: ""
     year: 1993
     nation: US
     label: Sire
     producer:
       - Gil Norton
-    corner: ""
     youtube: SBi676v4Gs4
     title: Gepetto
     index: 234
@@ -105,12 +91,9 @@ playlist:
     week: 28
     name: Lazy Sunday
     artist: Small Faces
-    kana: ""
     year: 1968
     nation: UK
     label: EMI
-    producer: []
-    corner: ""
     youtube: o_ZKQtmNMVE
     title: Lazy Sunday
     index: 235
@@ -120,13 +103,11 @@ playlist:
     week: 28
     name: Southern Girls
     artist: Cheap Trick
-    kana: ""
     year: 1977
     nation: US
     label: Epic
     producer:
       - Tom Werman
-    corner: ""
     youtube: VRSg81H7Bm0
     title: Southern Girls
     index: 236
@@ -136,13 +117,10 @@ playlist:
     week: 28
     name: 体力に限界はあるのか
     artist: カステラ
-    kana: ""
     year: 1989
     nation: JPN
     label: CBS・ソニー
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 体力に限界はあるのか
     index: 237
     indexInWeek: 9

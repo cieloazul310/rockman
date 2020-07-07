@@ -1,0 +1,109 @@
+id: "20200128"
+week: 128
+year: 2020
+title: 日本のロック最盛期1999年で漫遊記
+guests: []
+categories: []
+date: 2020-06-14
+playlist:
+  - id: "2020012801"
+    week: 128
+    index: 1061
+    indexInWeek: 1
+    title: 猫ちぐら
+    artist: スピッツ
+    year: 2020
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012802"
+    week: 128
+    index: 1062
+    indexInWeek: 2
+    title: スモーキン・ビリー
+    artist: thee michelle gun elephant
+    year: 1998
+    nation: JPN
+    label: TRIAD
+    youtube: bm0kOhLXQ2U
+    selector: 草野マサムネ
+  - id: "2020012803"
+    week: 128
+    index: 1063
+    indexInWeek: 3
+    title: 正しい街
+    artist: 椎名林檎
+    kana: しいなりんご
+    year: 1999
+    nation: JPN
+    label: イーストワールド
+    producer:
+      - 北城浩志
+    selector: 草野マサムネ
+  - id: "2020012804"
+    week: 128
+    index: 1064
+    indexInWeek: 4
+    title: stay gold
+    artist: Hi-STANDARD
+    year: 1999
+    nation: JPN
+    label: PIZZA OF DEATH RECORDS
+    youtube: scqDV8X5-Xk
+    selector: 草野マサムネ
+  - id: "2020012805"
+    week: 128
+    index: 1065
+    indexInWeek: 5
+    title: 透明少女
+    artist: NUMBER GIRL
+    year: 1999
+    nation: JPN
+    label: 東芝EMI
+    youtube: SUAnU1A38ec
+    selector: 草野マサムネ
+  - id: "2020012806"
+    week: 128
+    index: 1066
+    indexInWeek: 6
+    title: 街
+    artist: くるり
+    year: 1999
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    producer: 
+      - Jim O'Rourke
+    youtube: wT8dhB09s8w
+    selector: 草野マサムネ
+  - id: "2020012807"
+    week: 128
+    index: 1067
+    indexInWeek: 7
+    title: "|￣|_ (PULSE)"
+    artist: THE MAD CAPSULE MARKETS
+    year: 1999
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    selector: 草野マサムネ
+  - id: "2020012808"
+    week: 128
+    index: 1068
+    indexInWeek: 8
+    title: deep
+    artist: BRAHMAN
+    year: 1999
+    nation: JPN
+    label: トイズファクトリー
+    selector: 草野マサムネ
+  - id: "2020012809"
+    week: 128
+    index: 1069
+    indexInWeek: 9
+    title: sweet strawberry toast
+    artist: esrevnoc
+    year: 1998
+    nation: JPN
+    label: エピックレコードジャパン
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

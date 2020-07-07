@@ -13,11 +13,11 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
     jumbotronBg: ({ imgUrl }) => ({
       height: '100%',
       backgroundColor: theme.palette.grey[700],
-      backgroundImage: imgUrl ? `url(${imgUrl})` : null,
+      backgroundImage: imgUrl ? `url(${imgUrl})` : undefined,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
-      filter: imgUrl ? 'blur(6px) brightness(0.8)' : null,
-      transform: imgUrl ? 'scale(1.1)' : null,
+      filter: imgUrl ? 'blur(6px) brightness(0.8)' : undefined,
+      transform: imgUrl ? 'scale(1.1)' : undefined,
     }),
     jumbotronText: ({ height }) => ({
       height: height,
@@ -36,6 +36,14 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
     jumbotronTitle: {
       fontWeight: 'bold',
     },
+    artists: {
+      margin: 0,
+      padding: 0,
+    },
+    artist: {
+      display: 'inline-block',
+      marginRight: '.6em',
+    },
   })
 );
 
@@ -43,7 +51,7 @@ interface Props {
   header?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   title: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   height?: number;
-  artists?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
+  artists?: string[];
   subtitle?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   imgUrl?: string;
 }
@@ -60,9 +68,13 @@ function Jumbotron({ header, subtitle, title, artists, imgUrl, height = 300 }: P
         </Typography>
         {subtitle ? <Typography variant="subtitle1">{subtitle}</Typography> : null}
         {artists ? (
-          <Typography variant="body2" component="div">
-            {artists}
-          </Typography>
+          <ul className={classes.artists}>
+            {artists.map((artist) => (
+              <Typography className={classes.artist} variant="subtitle2" component="li">
+                {artist}
+              </Typography>
+            ))}
+          </ul>
         ) : null}
       </div>
     </Box>

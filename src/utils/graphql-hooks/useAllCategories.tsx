@@ -25,5 +25,12 @@ export function useAllCategories() {
   `);
   return React.useMemo(() => {
     return data.allProgram.group.sort((a, b) => b.edges.length - a.edges.length);
-  }, []);
+  }, [data]);
+}
+
+export function useCategories(fieldValues: string[]) {
+  const categories = useAllCategories();
+  return React.useMemo(() => {
+    return categories.filter((category) => category.fieldValue && fieldValues.includes(category.fieldValue));
+  }, [fieldValues, categories]);
 }

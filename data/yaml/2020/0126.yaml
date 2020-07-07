@@ -1,0 +1,115 @@
+id: "20200126"
+week: 126
+year: 2020
+title: 旅にまつわるナンバーリクエストで漫遊記(洋楽編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-05-31
+playlist:
+  - id: "2020012601"
+    week: 126
+    index: 1044
+    indexInWeek: 1
+    title: 海を見に行こう
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012602"
+    week: 126
+    index: 1045
+    indexInWeek: 2
+    title: Born to Be Wild
+    artist: Steppenwolf
+    year: 1968
+    nation: CAN
+    label: Dunhill
+    producer: 
+      - Gabriel Mekler
+    youtube: 93fAJe8WVjA
+    selector: リクエスト
+  - id: "2020012603"
+    week: 126
+    index: 1046
+    indexInWeek: 3
+    title: Handle with Care
+    artist: Traveling Wilburys
+    year: 1988
+    nation: UK
+    label: Wilbury
+    youtube: 1o4s1KVJaVA
+    selector: リクエスト
+  - id: "2020012604"
+    week: 126
+    index: 1047
+    indexInWeek: 4
+    title: Il viaggio
+    artist: Sonohra
+    year: 2014
+    nation: ITA
+    label: Believe Digital
+    youtube: E-Uw1EoTCwo
+    selector: リクエスト
+  - id: "2020012605"
+    week: 126
+    index: 1048
+    indexInWeek: 5
+    title: 夢中人 (Dream Lover)
+    artist: Faye Wong
+    year: 1994
+    nation: CHN
+    label: Cinepoly
+    youtube: c75keT6Tm_g
+    selector: リクエスト
+  - id: "2020012606"
+    week: 126
+    index: 1049
+    indexInWeek: 6
+    title: Me and You and a Dog Named Boo
+    artist: Lobo
+    year: 1971
+    nation: US
+    label: Big Tree
+    youtube: KMSnhCuQVjU
+    selector: 草野マサムネ
+  - id: "2020012607"
+    week: 126
+    index: 1050
+    indexInWeek: 7
+    title: I've Never Been to Me
+    artist: Charlene
+    year: 1977
+    nation: US
+    label: Prodigal
+    youtube: txGhgfo6Iew
+    selector: リクエスト
+  - id: "2020012608"
+    week: 126
+    index: 1051
+    indexInWeek: 8
+    title: Permanent Holiday
+    artist: The Suicide Machines
+    year: 2000
+    nation: US
+    label: Hollywood
+    youtube: etR-0nN8qFo
+    producer: 
+      - Julian Raymond
+    selector: リクエスト
+  - id: "2020012609"
+    week: 126
+    index: 1052
+    indexInWeek: 9
+    title: 幻惑
+    artist: 椿屋四重奏
+    kana: つばきやしじゅうそう
+    year: 2006
+    nation: JPN
+    label: UKプロジェクト
+    youtube: hVnFSMgD89I
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

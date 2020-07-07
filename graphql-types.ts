@@ -1,4 +1,5 @@
 export type Maybe<T> = T | null;
+export type Exact<T extends { [key: string]: any }> = { [K in keyof T]: T[K] };
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: string;
@@ -1174,8 +1175,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<DateQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -1262,8 +1261,6 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   buildTime?: Maybe<Scalars['Date']>;
   siteMetadata?: Maybe<SiteSiteMetadata>;
-  port?: Maybe<Scalars['Date']>;
-  host?: Maybe<Scalars['String']>;
   pathPrefix?: Maybe<Scalars['String']>;
   polyfill?: Maybe<Scalars['Boolean']>;
   id: Scalars['ID'];
@@ -1274,14 +1271,6 @@ export type Site = Node & {
 
 
 export type SiteBuildTimeArgs = {
-  formatString?: Maybe<Scalars['String']>;
-  fromNow?: Maybe<Scalars['Boolean']>;
-  difference?: Maybe<Scalars['String']>;
-  locale?: Maybe<Scalars['String']>;
-};
-
-
-export type SitePortArgs = {
   formatString?: Maybe<Scalars['String']>;
   fromNow?: Maybe<Scalars['Boolean']>;
   difference?: Maybe<Scalars['String']>;
@@ -1489,8 +1478,6 @@ export type SiteFieldsEnum =
   | 'siteMetadata___social___instagram'
   | 'siteMetadata___social___vimeo'
   | 'siteMetadata___social___youtube'
-  | 'port'
-  | 'host'
   | 'pathPrefix'
   | 'polyfill'
   | 'id'
@@ -1583,8 +1570,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<DateQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -2628,7 +2613,7 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>;
 };
 
-export type IndexQueryVariables = {};
+export type IndexQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type IndexQuery = { allProgram: { edges: Array<{ node: (
@@ -2636,9 +2621,9 @@ export type IndexQuery = { allProgram: { edges: Array<{ node: (
         & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
-export type ArtistTemplateQueryVariables = {
+export type ArtistTemplateQueryVariables = Exact<{
   fieldValue: Scalars['String'];
-};
+}>;
 
 
 export type ArtistTemplateQuery = { allProgram: { edges: Array<{ node: (
@@ -2646,9 +2631,9 @@ export type ArtistTemplateQuery = { allProgram: { edges: Array<{ node: (
         & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
-export type ProgramTemplateQueryVariables = {
+export type ProgramTemplateQueryVariables = Exact<{
   slug: Scalars['String'];
-};
+}>;
 
 
 export type ProgramTemplateQuery = { program?: Maybe<(
@@ -2656,7 +2641,7 @@ export type ProgramTemplateQuery = { program?: Maybe<(
     & { playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'label' | 'kana' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'year' | 'week' | 'youtube'>>>> }
   )> };
 
-export type AllArtistsQueryVariables = {};
+export type AllArtistsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type AllArtistsQuery = { allProgram: { group: Array<(
@@ -2667,7 +2652,7 @@ export type AllArtistsQuery = { allProgram: { group: Array<(
         ) }> }
     )> } };
 
-export type AllCategoriesQueryVariables = {};
+export type AllCategoriesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type AllCategoriesQuery = { allProgram: { group: Array<(
@@ -2678,7 +2663,7 @@ export type AllCategoriesQuery = { allProgram: { group: Array<(
         ) }> }
     )> } };
 
-export type AllProgramQueryVariables = {};
+export type AllProgramQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type AllProgramQuery = { allProgram: { edges: Array<{ node: (
@@ -2686,7 +2671,7 @@ export type AllProgramQuery = { allProgram: { edges: Array<{ node: (
         & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
-export type AllSelectorsQueryVariables = {};
+export type AllSelectorsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type AllSelectorsQuery = { allProgram: { group: Array<(

@@ -1,0 +1,99 @@
+id: "20200129"
+week: 129
+year: 2020
+title: ディアフーフで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-06-21
+playlist:
+  - id: "2020012901"
+    week: 129
+    index: 1070
+    indexInWeek: 1
+    title: 猫ちぐら
+    artist: スピッツ
+    year: 2020
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020012902"
+    week: 129
+    index: 1071
+    indexInWeek: 2
+    title: Whither the Invisible Birds?
+    artist: Deerhoof
+    year: 2002
+    nation: US
+    label: Kill Rock Stars
+    youtube: hjAMDEfdluY
+    selector: 草野マサムネ
+  - id: "2020012903"
+    week: 129
+    index: 1072
+    indexInWeek: 3
+    title: Dummy Discards a Heart
+    artist: Deerhoof
+    year: 2003
+    nation: US
+    label: Kill Rock Stars
+    youtube: xOHEjlf8tSU
+    producer:
+      - Jay Pellicci
+    selector: 草野マサムネ
+  - id: "2020012904"
+    week: 129
+    index: 1073
+    indexInWeek: 4
+    title: Milk Man
+    artist: Deerhoof
+    year: 2004
+    nation: US
+    label: Kill Rock Stars
+    youtube: uV_kfm0Sw8k
+    selector: 草野マサムネ
+  - id: "2020012905"
+    week: 129
+    index: 1074
+    indexInWeek: 5
+    title: O'Malley, Former Underdog
+    artist: Deerhoof
+    year: 2005
+    nation: US
+    label: Kill Rock Stars
+    youtube: 8wQWpYRkfSk
+    selector: 草野マサムネ
+  - id: "2020012906"
+    week: 129
+    index: 1075
+    indexInWeek: 6
+    title: I Will Spite Survive (featuring Jenn Wasner)
+    artist: Deerhoof
+    year: 2017
+    nation: US
+    label: Joyful Noise
+    youtube: LhVITaVC4XI
+    selector: 草野マサムネ
+  - id: "2020012907"
+    week: 129
+    index: 1076
+    indexInWeek: 7
+    title: Future Teenage Cave Artists
+    artist: Deerhoof
+    year: 2020
+    nation: US
+    label: Joyful Noise
+    youtube: -oCsHmYNrXE
+    selector: 草野マサムネ
+  - id: "2020012908"
+    week: 129
+    index: 1077
+    indexInWeek: 8
+    title: 光について
+    artist: GRAPEVINE
+    year: 1999
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: K8KRWEZOvSE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

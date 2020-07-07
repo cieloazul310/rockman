@@ -11,13 +11,11 @@ playlist:
     week: 33
     name: オーバードライブ
     artist: スピッツ
-    kana: ""
     year: 1992
     nation: JPN
     label: ポリドール
     producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: オーバードライブ
     index: 270
     indexInWeek: 1
@@ -26,14 +24,12 @@ playlist:
     week: 33
     name: Colorado Bulldog
     artist: Mr. Big
-    kana: ""
     year: 1993
     nation: US
     label: Atlantic
     producer:
       - Kevin Elson
-    corner: ""
-    youtube: ""
+    youtube: NIGaaimTZkI
     title: Colorado Bulldog
     index: 271
     indexInWeek: 2
@@ -42,14 +38,11 @@ playlist:
     week: 33
     name: Come Dancing
     artist: Jeff Beck
-    kana: ""
     year: 1976
     nation: UK
     label: Epic
     producer:
       - George Martin
-    corner: ""
-    youtube: ""
     title: Come Dancing
     index: 272
     indexInWeek: 3
@@ -62,9 +55,6 @@ playlist:
     year: 1982
     nation: JPN
     label: AIR ⁄ RVC
-    producer: []
-    corner: ""
-    youtube: ""
     title: Sparkle
     index: 273
     indexInWeek: 4
@@ -73,14 +63,11 @@ playlist:
     week: 33
     name: I WANT YOUR LOVE
     artist: DEAD END
-    kana: ""
     year: 1989
     nation: JPN
     label: BMGビクター
     producer:
       - 岡野ハジメ
-    corner: ""
-    youtube: ""
     title: I WANT YOUR LOVE
     index: 274
     indexInWeek: 5
@@ -89,7 +76,6 @@ playlist:
     week: 33
     name: The Weight
     artist: The Band
-    kana: ""
     year: 1968
     nation: US
     label: Capitol Records
@@ -105,13 +91,10 @@ playlist:
     week: 33
     name: GパンとTシャツとブーツで
     artist: The Wells
-    kana: ""
     year: 1993
     nation: JPN
     label: 日本コロムビア
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: GパンとTシャツとブーツで
     index: 276
     indexInWeek: 7

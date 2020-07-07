@@ -6,7 +6,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-import { QueriedProgram } from '../types';
+//import { QueriedProgram } from '../types';
 
 interface NavigationProps {
   to: string;

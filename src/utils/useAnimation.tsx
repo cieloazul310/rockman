@@ -34,7 +34,7 @@ function useAnimationTimer(duration = 1000, delay = 0) {
   React.useEffect(
     () => {
       let animationFrame: number;
-      let timerStop: any;
+      let timerStop: NodeJS.Timeout;
       let start: number;
 
       // Function to be executed on each animation frame
