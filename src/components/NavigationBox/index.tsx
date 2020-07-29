@@ -29,7 +29,7 @@ function NavigationBox() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
   return (
-    <Grid container>
+    <Grid container component="nav">
       <NavigationItem to="/" title="トップページ" icon={<HomeIcon />} dense={isMobile} />
       <NavigationItem to="/programs/" title="放送回一覧" icon={<ProgramIcon />} dense={isMobile} />
       <NavigationItem to="/artists/" title="アーティスト一覧" icon={<ArtistIcon />} dense={isMobile} />

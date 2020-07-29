@@ -1,11 +1,15 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { AllSelectorsQuery, Program, ProgramPlaylist } from '../../../graphql-types';
+import { AllSelectorsQuery } from '../../../graphql-types';
+
+type SelectorsGroup = AllSelectorsQuery['allProgram']['group'][number];
+type SelectorsEdge = SelectorsGroup['edges'][number];
+type SelectorsPlaylist = NonNullable<SelectorsEdge['node']['playlist']>[number];
 
 export interface CategoryItem {
   fieldValue: string;
-  edges: Edge[];
-  playlist: Playlist[];
+  edges: SelectorsEdge[];
+  playlist: SelectorsPlaylist[];
 }
 
 export function useAllSelectors(): CategoryItem[] {
@@ -45,13 +49,13 @@ export function useAllSelectors(): CategoryItem[] {
     return data.allProgram.group
       .filter((group) => group.fieldValue !== '草野マサムネ')
       .map((group) => {
-        const edges = removeMultiple(group.edges as Edge[]);
+        const edges = removeMultiple(group.edges);
         return {
           fieldValue: group.fieldValue ?? 'selector',
           edges,
-          playlist: edges.reduce<Playlist[]>(
+          playlist: edges.reduce<SelectorsPlaylist[]>(
             (accum, curr) =>
-              curr.node.playlist ? [...accum, ...curr.node.playlist.filter((tune) => tune.selector === group.fieldValue)] : [...accum],
+              curr.node.playlist ? [...accum, ...curr.node.playlist.filter((tune) => tune?.selector === group.fieldValue)] : [...accum],
             []
           ),
         };
@@ -60,15 +64,8 @@ export function useAllSelectors(): CategoryItem[] {
   }, [data]);
 }
 
-type Edge = {
-  node: Pick<Program, 'id' | 'week' | 'date' | 'title' | 'fields'> & {
-    playlist?: Playlist[];
-  };
-};
-type Playlist = Pick<ProgramPlaylist, 'id' | 'title' | 'artist' | 'year' | 'selector' | 'youtube'>[];
-
-function removeMultiple(edges: Edge[]): Edge[] {
-  return edges.reduce<Edge[]>((accum, curr) => {
+function removeMultiple(edges: SelectorsEdge[]) {
+  return edges.reduce<SelectorsEdge[]>((accum, curr) => {
     if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
     return [...accum, curr];
   }, []);

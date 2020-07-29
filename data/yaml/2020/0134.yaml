@@ -1,0 +1,104 @@
+id: "20200134"
+week: 134
+year: 2020
+title: 学校にまつわるロックナンバーで漫遊記（洋楽編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-07-26
+playlist:
+  - id: "2020013401"
+    week: 134
+    index: 1115
+    indexInWeek: 1
+    title: 正夢
+    artist: スピッツ
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: algaC2jhu8s
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013402"
+    week: 134
+    index: 1116
+    indexInWeek: 2
+    title: Rock 'n' Roll High School
+    artist: Ramones
+    year: 1979
+    nation: US
+    producer:
+      - Ed Stasium
+    label: Sire
+    youtube: oz7KYUkdlvE
+    selector: リクエスト
+  - id: "2020013403"
+    week: 134
+    index: 1117
+    indexInWeek: 3
+    title: Don't Stand So Close to Me
+    artist: The Police
+    year: 1980
+    nation: UK
+    label: A&M
+    producer:
+      - Nigel Gray
+    youtube: KNIZofPB8ZM
+    selector: リクエスト
+  - id: "2020013404"
+    week: 134
+    index: 1118
+    indexInWeek: 4
+    title: Another Brick in the Wall, Part 2
+    artist: Pink Floyd
+    year: 1979
+    nation: UK
+    label: Harvest
+    youtube: HrxX9TBj2zY
+    selector: リクエスト
+  - id: "2020013405"
+    week: 134
+    index: 1119
+    indexInWeek: 5
+    title: Teenage Dirtbag
+    artist: Wheatus
+    year: 2000
+    nation: US
+    label: Columbia
+    youtube: FC3y9llDXuM
+    selector: リクエスト
+  - id: "2020013406"
+    week: 134
+    index: 1120
+    indexInWeek: 6
+    title: School of Rock (Teacher's Pet) feat. Alex Brightman
+    artist: The Original Broadway Cast of School of Rock
+    year: 2015
+    nation: US
+    label: Warner Bros.
+    youtube: V2CEc-N9ipY
+    selector: リクエスト
+  - id: "2020013407"
+    week: 134
+    index: 1121
+    indexInWeek: 7
+    title: Schooldays
+    artist: The Kinks
+    year: 1975
+    nation: UK
+    label: RCA
+    producer:
+      - Ray Davis
+    selector: リクエスト
+  - id: "2020013408"
+    week: 134
+    index: 1122
+    indexInWeek: 8
+    title: スクール・ガール
+    artist: C-C-B
+    year: 1985
+    nation: JPN
+    label: ポリドール
+    corner: ちょっぴりタイムマシン
+    selector: リクエスト

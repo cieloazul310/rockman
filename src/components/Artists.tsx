@@ -1,11 +1,10 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Avatar from '@material-ui/core/Avatar';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-//import NationAvatar from './NationAvatar';
+import NationAvatar from './NationAvatar';
 import { useAllArtists, ArtistItem } from '../utils/graphql-hooks';
 import sortArtists, { SortType } from '../utils/sortByYomi';
 
@@ -14,9 +13,7 @@ function renderRow({ index, style, data }: ListChildComponentProps) {
   return (
     <ListItemAppLink button style={style} key={index} to={`/artist/${artist.fieldValue}/`}>
       <ListItemAvatar>
-        <Avatar src={artist.img || undefined} alt={artist.fieldValue}>
-          {artist.nation}
-        </Avatar>
+        <NationAvatar nation={artist.nation} img={artist.img} alt={artist.fieldValue} />
       </ListItemAvatar>
       <ListItemText primary={artist.fieldValue} secondary={artist.kana || null} />
       <Typography variant="button" component="span">

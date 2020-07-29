@@ -63,14 +63,14 @@ function Jumbotron({ header, subtitle, title, artists, imgUrl, height = 300 }: P
       <div className={classes.jumbotronBg} />
       <div className={classes.jumbotronText}>
         <Typography variant="subtitle2">{header}</Typography>
-        <Typography variant="h2" className={classes.jumbotronTitle} gutterBottom>
+        <Typography variant="h3" component="h2" className={classes.jumbotronTitle} gutterBottom>
           {title}
         </Typography>
         {subtitle ? <Typography variant="subtitle1">{subtitle}</Typography> : null}
         {artists ? (
           <ul className={classes.artists}>
             {artists.map((artist) => (
-              <Typography className={classes.artist} variant="subtitle2" component="li">
+              <Typography className={classes.artist} variant="subtitle2" component="li" key={artist}>
                 {artist}
               </Typography>
             ))}

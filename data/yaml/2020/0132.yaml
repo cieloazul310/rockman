@@ -1,0 +1,130 @@
+id: "20200132"
+week: 132
+year: 2020
+title: スピリットで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-07-12
+playlist:
+  - id: "2020013201"
+    week: 132
+    index: 1096
+    indexInWeek: 1
+    title: 涙がキラリ☆
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    youtube: hGsNLE45uWE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013202"
+    week: 132
+    index: 1097
+    indexInWeek: 2
+    title: Nature's Way
+    artist: Spirit
+    year: 1970
+    nation: US
+    producer:
+      - David Briggs
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2020013203"
+    week: 132
+    index: 1098
+    indexInWeek: 3
+    title: Uncle Jack
+    artist: Spirit
+    year: 1968
+    nation: US
+    label: Ode
+    producer:
+      - Lou Adler
+    youtube: 6S8sgvPnUkE
+    selector: 草野マサムネ
+  - id: "2020013204"
+    week: 132
+    index: 1099
+    indexInWeek: 4
+    title: Fresh-Garbage
+    artist: Spirit
+    year: 1968
+    nation: US
+    label: Ode
+    producer:
+      - Lou Adler
+    youtube: nkT3fr0uEmo
+    selector: 草野マサムネ
+  - id: "2020013205"
+    week: 132
+    index: 1100
+    indexInWeek: 5
+    title: I Got a Line on You
+    artist: Spirit
+    year: 1968
+    nation: US
+    label: Ode
+    producer:
+      - Lou Adler
+    youtube: 5nmT7FkopjE
+    selector: 草野マサムネ
+  - id: "2020013206"
+    week: 132
+    index: 1101
+    indexInWeek: 6
+    title: Dream Within A Dream
+    artist: Spirit
+    year: 1968
+    nation: US
+    label: Ode
+    producer:
+      - Lou Adler
+    selector: 草野マサムネ
+  - id: "2020013207"
+    week: 132
+    index: 1102
+    indexInWeek: 7
+    title: Dark Eyed Woman
+    artist: Spirit
+    year: 1969
+    nation: US
+    label: Ode
+    selector: 草野マサムネ
+  - id: "2020013208"
+    week: 132
+    index: 1103
+    indexInWeek: 8
+    title: Morning Will Come
+    artist: Spirit
+    year: 1970
+    nation: US
+    producer:
+      - David Briggs
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2020013209"
+    week: 132
+    index: 1104
+    indexInWeek: 9
+    title: Life Has Just Begun
+    artist: Spirit
+    year: 1970
+    nation: US
+    producer:
+      - David Briggs
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2020013210"
+    week: 132
+    index: 1105
+    indexInWeek: 10
+    title: パーフェクトブルー
+    artist: ファズピックス
+    year: 2005
+    nation: JPN
+    label: Blitz Pia Records
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

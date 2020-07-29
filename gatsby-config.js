@@ -45,6 +45,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: 'ca-pub-7323207940463794',
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,

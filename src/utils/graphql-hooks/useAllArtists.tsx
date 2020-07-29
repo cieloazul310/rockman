@@ -1,14 +1,18 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import sortArtists, { SortType } from '../sortByYomi';
-import { AllArtistsQuery, Program, ProgramPlaylist } from '../../../graphql-types';
+import { AllArtistsQuery } from '../../../graphql-types';
+
+type ArtistGroup = AllArtistsQuery['allProgram']['group'][number];
+type ArtistEdge = ArtistGroup['edges'][number];
+type ArtistTune = NonNullable<NonNullable<ArtistEdge['node']['playlist']>[number]>;
 
 export interface ArtistItem {
   fieldValue: string;
   kana?: string;
   nation: string;
   edges: ArtistEdge[];
-  tunes: ProgramPlaylist[];
+  tunes: ArtistTune[];
   img?: string;
 }
 
@@ -35,15 +39,15 @@ export function useAllArtists() {
   `);
   return React.useMemo(() => {
     return data.allProgram.group.map((item) => {
-      const edges = removeMultiple(item.edges as ArtistEdge[]).map(({ node }) => ({
+      const edges = removeMultiple(item.edges).map(({ node }) => ({
         ...node,
-        playlist: node?.playlist?.filter(({ artist }) => artist === item.fieldValue) ?? [],
+        playlist: (node?.playlist?.filter((tune) => tune?.artist === item.fieldValue) ?? []) as ArtistTune[],
       }));
-      const tunes = edges.reduce<ArtistPlaylist[]>((accum, curr) => [...accum, ...curr.playlist], []);
+      const tunes = edges.reduce<ArtistTune[]>((accum, curr) => (curr.playlist ? [...accum, ...curr.playlist] : accum), []);
       const [{ kana, nation }] = tunes;
       const [img] = tunes
-        .filter((tune) => tune.youtube && tune.youtube !== '')
-        .map((tune) => tune.youtube)
+        .filter((tune) => tune?.youtube && tune.youtube !== '')
+        .map((tune) => tune?.youtube)
         .slice(-1);
 
       return {
@@ -57,14 +61,6 @@ export function useAllArtists() {
     });
   }, [data]);
 }
-
-interface ArtistEdge {
-  node: Pick<Program, 'id'> & {
-    playlist?: ArtistPlaylist[];
-  };
-}
-
-type ArtistPlaylist = Pick<ProgramPlaylist, 'artist' | 'kana' | 'nation' | 'youtube'>;
 
 function removeMultiple(edges: ArtistEdge[]) {
   return edges.reduce<ArtistEdge[]>((accum, curr) => {

@@ -2147,6 +2147,7 @@ export type SitePageFieldsEnum =
   | 'pluginCreator___pluginOptions___path'
   | 'pluginCreator___pluginOptions___typeName'
   | 'pluginCreator___pluginOptions___trackingId'
+  | 'pluginCreator___pluginOptions___publisherId'
   | 'pluginCreator___pluginOptions___short_name'
   | 'pluginCreator___pluginOptions___start_url'
   | 'pluginCreator___pluginOptions___background_color'
@@ -2354,6 +2355,7 @@ export type SitePluginFieldsEnum =
   | 'pluginOptions___path'
   | 'pluginOptions___typeName'
   | 'pluginOptions___trackingId'
+  | 'pluginOptions___publisherId'
   | 'pluginOptions___short_name'
   | 'pluginOptions___start_url'
   | 'pluginOptions___background_color'
@@ -2489,6 +2491,7 @@ export type SitePluginPluginOptions = {
   path?: Maybe<Scalars['String']>;
   typeName?: Maybe<Scalars['String']>;
   trackingId?: Maybe<Scalars['String']>;
+  publisherId?: Maybe<Scalars['String']>;
   short_name?: Maybe<Scalars['String']>;
   start_url?: Maybe<Scalars['String']>;
   background_color?: Maybe<Scalars['String']>;
@@ -2511,6 +2514,7 @@ export type SitePluginPluginOptionsFilterInput = {
   path?: Maybe<StringQueryOperatorInput>;
   typeName?: Maybe<StringQueryOperatorInput>;
   trackingId?: Maybe<StringQueryOperatorInput>;
+  publisherId?: Maybe<StringQueryOperatorInput>;
   short_name?: Maybe<StringQueryOperatorInput>;
   start_url?: Maybe<StringQueryOperatorInput>;
   background_color?: Maybe<StringQueryOperatorInput>;
@@ -2613,12 +2617,20 @@ export type StringQueryOperatorInput = {
   glob?: Maybe<Scalars['String']>;
 };
 
+export type StatQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type StatQuery = { allProgram: (
+    Pick<ProgramConnection, 'totalCount' | 'distinct'>
+    & { group: Array<Pick<ProgramGroupConnection, 'totalCount'>> }
+  ) };
+
 export type IndexQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type IndexQuery = { allProgram: { edges: Array<{ node: (
-        Pick<Program, 'id' | 'title' | 'week' | 'date' | 'subtitle' | 'year' | 'categories' | 'guests'>
-        & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'index' | 'indexInWeek' | 'kana' | 'label' | 'producer' | 'nation' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+        Pick<Program, 'id' | 'title' | 'week' | 'date'>
+        & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'youtube'>>>> }
       ) }> } };
 
 export type ArtistTemplateQueryVariables = Exact<{
@@ -2668,7 +2680,7 @@ export type AllProgramQueryVariables = Exact<{ [key: string]: never; }>;
 
 export type AllProgramQuery = { allProgram: { edges: Array<{ node: (
         Pick<Program, 'id' | 'title' | 'date' | 'categories' | 'guests' | 'subtitle' | 'week' | 'year'>
-        & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'name' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
+        & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'artist' | 'corner' | 'id' | 'indexInWeek' | 'index' | 'kana' | 'label' | 'nation' | 'producer' | 'selector' | 'title' | 'week' | 'year' | 'youtube'>>>> }
       ) }> } };
 
 export type AllSelectorsQueryVariables = Exact<{ [key: string]: never; }>;
@@ -2681,3 +2693,8 @@ export type AllSelectorsQuery = { allProgram: { group: Array<(
           & { fields?: Maybe<Pick<ProgramFields, 'slug'>>, playlist?: Maybe<Array<Maybe<Pick<ProgramPlaylist, 'id' | 'indexInWeek' | 'title' | 'artist' | 'year' | 'nation' | 'selector' | 'youtube' | 'corner'>>>> }
         ) }> }
     )> } };
+
+export type AllYearsQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type AllYearsQuery = { allProgram: { group: Array<Pick<ProgramGroupConnection, 'fieldValue'>> } };

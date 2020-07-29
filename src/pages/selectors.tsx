@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Container from '@material-ui/core/Container';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
@@ -6,8 +7,9 @@ import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import ContentBasis from '../components/ContentBasis';
+import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
-//import { useSelectors } from '../utils/graphql-hooks';
 import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
 
 type LocationWithState = WindowLocation & {
@@ -18,15 +20,16 @@ type LocationWithState = WindowLocation & {
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function SelectorsPage() {
-  const location = useLocation() as LocationWithState;
+  const { hash, state } = useLocation() as LocationWithState;
   // [[name, programs]]
   const selectors = useAllSelectors();
-  const initialSelector = location.hash !== '' ? decodeURI(location.hash.slice(1)) : null;
+  const initialSelector = hash !== '' ? decodeURI(hash.slice(1)) : null;
+  const fieldValues = selectors.map(({ fieldValue }) => fieldValue);
   const initialValue =
-    selectors.map((d) => d.fieldValue).indexOf(initialSelector ?? '') >= 0
-      ? selectors.map((d) => d.fieldValue).indexOf(initialSelector ?? '')
-      : location.state && location.state.selector
-      ? selectors.map((d) => d.fieldValue).indexOf(location.state.selector)
+    fieldValues.indexOf(initialSelector) >= 0
+      ? fieldValues.indexOf(initialSelector)
+      : state?.selector
+      ? fieldValues.indexOf(state?.selector)
       : 0;
   const [value, setValue] = React.useState(initialValue);
   const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
@@ -36,7 +39,7 @@ function SelectorsPage() {
     setValue(index);
   };
   React.useEffect(() => {
-    if (window) window.history.replaceState(value, '', `#${selectors[value].fieldValue}`);
+    if (window && typeof window === 'object') window.history.replaceState(value, '', `#${selectors[value].fieldValue}`);
   }, [value, selectors]);
 
   return (
@@ -59,6 +62,11 @@ function SelectorsPage() {
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>
+      <Container maxWidth="md">
+        <ContentBasis>
+          <NavigationBox />
+        </ContentBasis>
+      </Container>
     </Layout>
   );
 }

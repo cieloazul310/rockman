@@ -2,12 +2,15 @@ import * as React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import List from '@material-ui/core/List';
+import Container from '@material-ui/core/Container';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
 import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import ContentBasis from '../components/ContentBasis';
+import NavigationBox from '../components/NavigationBox';
 import useSorter from '../utils/useSorter';
 import { useAllCategories } from '../utils/graphql-hooks';
 
@@ -21,9 +24,17 @@ const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CategoriesPage() {
   const location = useLocation() as LocationWithState;
+  const { hash, state } = location;
   const categories = useAllCategories();
+  const fieldValues = categories.map(({ fieldValue }) => fieldValue);
+  const initialCategory = hash !== '' ? decodeURI(hash.slice(1)) : null;
   // @TODO: add Hash support
-  const initialValue = location.state?.category ? categories.map((d) => d.fieldValue).indexOf(location.state.category) : 0;
+  const initialValue =
+    fieldValues.indexOf(initialCategory) >= 0
+      ? fieldValues.indexOf(initialCategory)
+      : state?.category
+      ? fieldValues.indexOf(state.category)
+      : 0;
   const [tab, setTab] = React.useState(initialValue);
   const sorter = useSorter();
   const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
@@ -33,7 +44,7 @@ function CategoriesPage() {
     setTab(index);
   };
   React.useEffect(() => {
-    if (window) window.history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
+    if (window && typeof window === 'object') window.history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
   }, [tab, categories]);
 
   return (
@@ -68,6 +79,11 @@ function CategoriesPage() {
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>
+      <Container maxWidth="md">
+        <ContentBasis>
+          <NavigationBox />
+        </ContentBasis>
+      </Container>
     </Layout>
   );
 }

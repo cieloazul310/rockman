@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useAllArtists } from './useAllArtists';
+import { schemeNations } from '../getNationColor';
 
 export function useAllNations() {
   const allArtists = useAllArtists();
@@ -14,4 +15,30 @@ export function useAllNations() {
       }))
       .sort((a, b) => b.artists - a.artists || a.nation.localeCompare(b.nation));
   }, [nations, allArtists]);
+}
+
+export function useSchemeNations() {
+  const allNations = useAllNations();
+  type NationItem = typeof allNations[number];
+  return React.useMemo(() => {
+    const [schemed, notSchemed] = allNations.reduce<[NationItem[], NationItem[]]>(
+      (accum, curr) => (schemeNations.includes(curr.nation) ? [[...accum[0], curr], [...accum[1]]] : [[...accum[0]], [...accum[1], curr]]),
+      [[], []]
+    );
+    return [
+      ...schemed,
+      notSchemed.reduce<NationItem>(
+        (accum, curr) => ({
+          ...accum,
+          artists: accum.artists + curr.artists,
+          tunes: accum.tunes + curr.tunes,
+        }),
+        {
+          nation: 'others',
+          artists: 0,
+          tunes: 0,
+        }
+      ),
+    ];
+  }, [allNations]);
 }

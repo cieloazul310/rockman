@@ -16,10 +16,16 @@ interface ProgramsByYearProps {
 }
 
 function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
-  const [open, setOpen] = React.useState(false);
+  const initialOpen = typeof window === 'object' ? sessionStorage.getItem(`${year}open`) : null;
+  const [open, setOpen] = React.useState<boolean>(initialOpen ? (JSON.parse(initialOpen) as boolean) : false);
   const _handleClick = () => {
     setOpen(!open);
   };
+  React.useEffect(() => {
+    if (window && typeof window === 'object') {
+      sessionStorage.setItem(`${year}open`, JSON.stringify(open));
+    }
+  }, [year, open]);
 
   return (
     <>

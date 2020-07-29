@@ -1,0 +1,122 @@
+id: "20200133"
+week: 133
+year: 2020
+title: ヒンヤリしたロックナンバーで漫遊記
+guests: []
+categories: []
+date: 2020-07-19
+playlist:
+  - id: "2020013301"
+    week: 133
+    index: 1106
+    indexInWeek: 1
+    title: 雪風
+    artist: スピッツ
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: KqJBpisB7lE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013302"
+    week: 133
+    index: 1107
+    indexInWeek: 2
+    title: Clocks
+    artist: Coldplay
+    year: 2002
+    nation: UK
+    producer:
+      - Ken Nelson
+    label: Parlophone
+    youtube: d020hcWA_Wg
+    selector: 草野マサムネ
+  - id: "2020013303"
+    week: 133
+    index: 1108
+    indexInWeek: 3
+    title: New Year's Day
+    artist: U2
+    year: 1983
+    nation: IRE
+    label: CBS Ireland
+    producer:
+      - Steve Lillywhite
+    youtube: B1PdPQA6P-Y
+    selector: 草野マサムネ
+  - id: "2020013304"
+    week: 133
+    index: 1109
+    indexInWeek: 4
+    title: Fresh-Garbage
+    artist: Lush
+    year: 1989
+    nation: UK
+    label: 4AD
+    producer:
+      - John Fryer
+    selector: 草野マサムネ
+  - id: "2020013305"
+    week: 133
+    index: 1110
+    indexInWeek: 5
+    title: Perfume Garden
+    artist: The Chameleons
+    year: 1985
+    nation: UK
+    label: Statik Records
+    producer:
+      - Colin Richardson
+    youtube: EFihJB6G_78
+    selector: 草野マサムネ
+  - id: "2020013306"
+    week: 133
+    index: 1111
+    indexInWeek: 6
+    title: (Don't Fear) The Reaper
+    artist: Blue Öyster Cult
+    year: 1976
+    nation: UK
+    label: Columbia
+    producer:
+      - David Lucas
+      - Murray Krugman
+      - Sandy Pearlman
+    youtube: Dy4HA3vUv2c
+    selector: 草野マサムネ
+  - id: "2020013307"
+    week: 133
+    index: 1112
+    indexInWeek: 7
+    title: Dreams Tonite
+    artist: Alvvays
+    year: 2017
+    nation: CAN
+    label: Polyvinyl
+    youtube: ZXu6q-6JKjA
+    selector: 草野マサムネ
+  - id: "2020013308"
+    week: 133
+    index: 1113
+    indexInWeek: 8
+    title: Shine On
+    artist: The House of Love
+    year: 1987
+    nation: UK
+    label: Fontana
+    youtube: QMTTXjja68Y
+    selector: 草野マサムネ
+  - id: "2020013309"
+    week: 133
+    index: 1114
+    indexInWeek: 9
+    title: サークルゲーム
+    artist: Galileo Galilei
+    year: 2013
+    nation: JPN
+    label: SME Records
+    youtube: 6QI_JVX8DVY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

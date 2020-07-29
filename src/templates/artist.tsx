@@ -14,6 +14,7 @@ import DrawerNavigation from '../components/DrawerNavigation';
 import PageNavigation, { createNavigationProps } from '../components/PageNavigation';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
+import RelatedArtists from '../components/RelatedArtists';
 import sortArtists from '../utils/sortByYomi';
 import { useAllArtists } from '../utils/graphql-hooks/';
 import { ArtistTemplateQuery, Program, ProgramPlaylist } from '../../graphql-types';
@@ -73,6 +74,14 @@ function ArtistTemplate({ data, pageContext }: Props) {
                 <ContentBasis>
                   <PageNavigation {...createNavigationProps(previous, next, '/artist')} />
                 </ContentBasis>
+                {item.fieldValue !== 'スピッツ' ? (
+                  <ContentBasis>
+                    <Typography variant="h6" component="h3" gutterBottom>
+                      {item.fieldValue}と同じ回で登場したアーティスト
+                    </Typography>
+                    <RelatedArtists edges={programs} />
+                  </ContentBasis>
+                ) : null}
                 <ContentBasis>
                   <NavigationBox />
                 </ContentBasis>
