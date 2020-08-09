@@ -1,0 +1,101 @@
+id: "20200136"
+week: 136
+year: 2020
+title: イアン・ギランで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-08-09
+playlist:
+  - id: "2020013601"
+    week: 136
+    index: 1132
+    indexInWeek: 1
+    title: ナンプラー日和
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013602"
+    week: 136
+    index: 1133
+    indexInWeek: 2
+    title: Highway Star
+    artist: Deep Purple
+    year: 1972
+    nation: UK
+    label: Purple
+    youtube: LBoHGatV5aQ
+    selector: 草野マサムネ
+  - id: "2020013603"
+    week: 136
+    index: 1134
+    indexInWeek: 3
+    title: Mr. Universe
+    artist: Episode Six
+    year: 1968
+    nation: UK
+    label: Chapter 1
+    youtube: -wqlvYSjAak
+    selector: 草野マサムネ
+  - id: "2020013604"
+    week: 136
+    index: 1135
+    indexInWeek: 4
+    title: Gethsemane (I Only Want to Say)
+    artist: Ian Gillan
+    year: 2009
+    nation: UK
+    label: みらいrecords
+    youtube: tf6yhMynTRo
+    selector: 草野マサムネ
+  - id: "2020013605"
+    week: 136
+    index: 1136
+    indexInWeek: 5
+    title: New Orleans
+    artist: Gillan
+    year: 1981
+    nation: UK
+    label: Virgin
+    youtube: EKldF44UTZo
+    selector: 草野マサムネ
+  - id: "2020013606"
+    week: 136
+    index: 1137
+    indexInWeek: 6
+    title: Digital Bitch
+    artist: Black Sabbath
+    year: 1983
+    nation: UK
+    label: Vertigo
+    youtube: WdUxthfwroY
+    selector: 草野マサムネ
+  - id: "2020013607"
+    week: 136
+    index: 1138
+    indexInWeek: 7
+    title: Throw My Bones
+    artist: Deep Purple
+    year: 2020
+    nation: UK
+    label: earMusic
+    youtube: QUW7PvvbbO4
+    producer:
+      - Bob Ezrin
+    selector: 草野マサムネ
+  - id: "2020013608"
+    week: 136
+    index: 1139
+    indexInWeek: 8
+    title: スコーレ
+    artist: 山崎あおい
+    kana: やまざきあおい
+    year: 2014
+    nation: JPN
+    label: ビクターエンタテイメント
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

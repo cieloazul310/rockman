@@ -1,0 +1,105 @@
+id: "20200135"
+week: 135
+year: 2020
+title: 学校にまつわるロックナンバーで漫遊記(邦楽編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-08-02
+playlist:
+  - id: "2020013501"
+    week: 135
+    index: 1123
+    indexInWeek: 1
+    title: 若葉
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: 2RM2YEzN010
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013502"
+    week: 135
+    index: 1124
+    indexInWeek: 2
+    title: ぼくの好きな先生
+    artist: RCサクセション
+    year: 1972
+    nation: JPN
+    label: 東芝音工
+    selector: リクエスト
+  - id: "2020013503"
+    week: 135
+    index: 1125
+    indexInWeek: 3
+    title: 青春
+    artist: THE HIGH-LOWS
+    year: 2000
+    nation: JPN
+    label: キティ
+    selector: リクエスト
+  - id: "2020013504"
+    week: 135
+    index: 1126
+    indexInWeek: 4
+    title: 地獄先生
+    artist: 相対性理論
+    kana: そうたいせいりろん
+    year: 2009
+    nation: JPN
+    label: みらいrecords
+    selector: リクエスト
+  - id: "2020013505"
+    week: 135
+    index: 1127
+    indexInWeek: 5
+    title: 行きたくない
+    artist: SHISHAMO
+    year: 2013
+    nation: JPN
+    label: GOOD CREATORS RECORDS
+    youtube: UWAx0AhjNKU
+    selector: リクエスト
+  - id: "2020013506"
+    week: 135
+    index: 1128
+    indexInWeek: 6
+    title: 中2 ザ ビーム
+    artist: マキシマム ザ ホルモン
+    year: 2013
+    nation: JPN
+    label: VAP/ミミカジル
+    selector: リクエスト
+  - id: "2020013507"
+    week: 135
+    index: 1129
+    indexInWeek: 7
+    title: 教室
+    artist: NakamuraEmi
+    year: 2018
+    nation: JPN
+    label: 日本コロムビア
+    selector: リクエスト
+  - id: "2020013508"
+    week: 135
+    index: 1130
+    indexInWeek: 8
+    title: 寺子屋FUNK feat. シャカッチ
+    artist: レキシ
+    year: 2016
+    nation: JPN
+    label: 伽羅古録盤
+    selector: リクエスト
+  - id: "2020013509"
+    week: 135
+    index: 1131
+    indexInWeek: 9
+    title: 学園天国
+    artist: フィンガー5
+    year: 1974
+    nation: JPN
+    label: フィリップス・レコード
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
