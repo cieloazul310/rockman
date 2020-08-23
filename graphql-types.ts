@@ -2698,3 +2698,8 @@ export type AllYearsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type AllYearsQuery = { allProgram: { group: Array<Pick<ProgramGroupConnection, 'fieldValue'>> } };
+
+export type PagesQueryQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type PagesQueryQuery = { allSitePage: { nodes: Array<Pick<SitePage, 'path'>> } };
