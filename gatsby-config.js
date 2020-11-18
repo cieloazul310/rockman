@@ -1,11 +1,16 @@
 //const myTheme = require('./src/utils/theme').default;
+const path = require('path');
+const baseUrl = 'https://cieloazul310.github.io';
+const pathPrefix = '/gatsby-rockman';
+const siteUrl = path.join(baseUrl, pathPrefix);
 
 module.exports = {
   siteMetadata: {
     title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
     description: 'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
     lang: 'ja',
-    siteUrl: 'https://cieloazul310.github.io/gatsby-rockman/',
+    siteUrl: siteUrl,
+    baseUrl: baseUrl,
     author: 'cieloazul310',
     keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト', 'ラジオ'],
     social: {
@@ -23,7 +28,7 @@ module.exports = {
       youtube: 'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ',
     },
   },
-  pathPrefix: '/gatsby-rockman',
+  pathPrefix: pathPrefix,
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -65,7 +70,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://cieloazul310.github.io/`,
+        siteUrl: baseUrl,
       },
     },
     {
@@ -74,15 +79,29 @@ module.exports = {
         siteId: `gatsby-rockman`,
       },
     },
-    `gatsby-plugin-sitemap`,
-    /*
     {
-      resolve: `gatsby-plugin-offline`,
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        precachePages: []
-      }
+        query: `
+          {
+            site {
+              siteMetadata {
+                baseUrl
+              }
+            }
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: ({ site }) => {
+          //Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+          return site.siteMetadata.baseUrl;
+        },
+      },
     },
-    */
     {
       resolve: `gatsby-plugin-eslint`,
       options: {

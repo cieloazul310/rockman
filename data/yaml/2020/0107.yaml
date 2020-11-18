@@ -11,7 +11,6 @@ playlist:
     week: 107
     name: ハチミツ
     artist: スピッツ
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリドール
@@ -27,13 +26,11 @@ playlist:
     week: 107
     name: Back on the Streets
     artist: Gary Moore
-    kana: ""
     year: 1978
     nation: UK
     label: MCA
     producer:
       - Chris Tsangarides
-    corner: ""
     youtube: qJcPALuRrR0
     title: Back on the Streets
     index: 883
@@ -43,12 +40,9 @@ playlist:
     week: 107
     name: Love Song
     artist: The Damned
-    kana: ""
     year: 1979
     nation: UK
     label: Chiswick
-    producer: []
-    corner: ""
     youtube: phouch_2xhQ
     title: Love Song
     index: 884
@@ -58,12 +52,10 @@ playlist:
     week: 107
     name: Ace of Spades
     artist: Motörhead
-    kana: ""
     year: 1980
     nation: UK
     label: Bronze
     producer: []
-    corner: ""
     youtube: J-QAKCP8ong
     title: Ace of Spades
     index: 885

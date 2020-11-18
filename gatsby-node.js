@@ -147,43 +147,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         },
       });
     });
-  /*
-  // create Category Pages
-  const categoriesResult = await graphql(`
-    query AllCategories {
-      allProgram(sort: { fields: week, order: ASC }) {
-        group(field: categories) {
-          fieldValue
-          edges {
-            node {
-              id
-            }
-          }
-        }
-      }
-    }
-  `);
-  if (categoriesResult.errors) {
-    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
-  }
-  categoriesResult.data.allProgram.group
-    .sort((a, b) => b.edges.length - a.edges.length)
-    .forEach(({ fieldValue }, index, arr) => {
-      const previous = index === 0 ? null : arr[index - 1];
-      const next = index === arr.length - 1 ? null : arr[index + 1];
-
-      createPage({
-        path: `/categories/${fieldValue}`,
-        component: path.resolve('./src/templates/tab_router.tsx'),
-        context: {
-          previous,
-          next,
-          fieldValue,
-          index
-        }
-      });
-    });
-    */
 };
 
 function sortByYomi(a, b) {

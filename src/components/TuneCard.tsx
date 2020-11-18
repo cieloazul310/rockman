@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -39,6 +38,12 @@ const useStyles = makeStyles((theme: Theme) =>
         transform: 'scale(1.2)',
       },
     },
+    cardRight: {
+      flexGrow: 1,
+    },
+    cardHead: {
+      padding: theme.spacing(1, 2, 0, 2),
+    },
     skeleton: {
       flex: 1,
       height: '100%',
@@ -54,9 +59,9 @@ interface Props {
 function TuneCard({ tune }: Props) {
   const classes = useStyles();
   return (
-    <Box my={2}>
+    <div>
       <Card className={classes.root}>
-        <Box className={classes.cardThumbnail}>
+        <div className={classes.cardThumbnail}>
           {tune.youtube ? (
             <a className={classes.cardThumbnailLink} href={`https://youtu.be/${tune.youtube}`} target="_blank" rel="noopener noreferrer">
               <CardMedia
@@ -68,13 +73,13 @@ function TuneCard({ tune }: Props) {
           ) : (
             <Skeleton variant="rect" className={classes.skeleton} />
           )}
-        </Box>
-        <Box flex="1">
-          <Box px={2} pt={1}>
+        </div>
+        <div className={classes.cardRight}>
+          <div className={classes.cardHead}>
             <Typography variant="body2">
               M{tune.indexInWeek}. {tune.corner} {tune.selector !== '草野マサムネ' ? `${tune.selector}選曲` : null}
             </Typography>
-          </Box>
+          </div>
           <CardHeader avatar={<NationAvatar nation={tune.nation ?? ''} />} title={tune.title} subheader={`${tune.artist} (${tune.year})`} />
           <CardActions>
             <Tooltip title={`${tune.artist}の曲をブラウズ`}>
@@ -97,9 +102,9 @@ function TuneCard({ tune }: Props) {
               </Tooltip>
             ) : null}
           </CardActions>
-        </Box>
+        </div>
       </Card>
-    </Box>
+    </div>
   );
 }
 
@@ -108,17 +113,17 @@ export default TuneCard;
 export function TuneCardSkeleton() {
   const classes = useStyles();
   return (
-    <Box my={2}>
+    <div>
       <Card className={classes.root}>
         <div className={classes.cardThumbnail}>
           <Skeleton variant="rect" className={classes.skeleton} />
         </div>
-        <Box flex="1">
-          <Box px={2} pt={1}>
+        <div className={classes.cardRight}>
+          <div className={classes.cardHead}>
             <Typography variant="body2">
               <Skeleton variant="text" />
             </Typography>
-          </Box>
+          </div>
           <CardHeader
             avatar={<Skeleton variant="circle" width={40} height={40} />}
             title={<Skeleton variant="text" />}
@@ -129,8 +134,8 @@ export function TuneCardSkeleton() {
             <Skeleton variant="circle" width={40} height={40} />
             <Skeleton variant="circle" width={40} height={40} />
           </CardActions>
-        </Box>
+        </div>
       </Card>
-    </Box>
+    </div>
   );
 }

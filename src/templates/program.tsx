@@ -14,6 +14,7 @@ import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation from '../components/PageNavigation';
 import NavigationBox from '../components/NavigationBox';
 import ContentBasis from '../components/ContentBasis';
+import ResponsiveContainer from '../components/ResponsiveContainer';
 import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
 import createDescriptionString from '../utils/createDescriptionString';
 import getAroundPrograms from '../utils/getAroundPrograms';
@@ -63,10 +64,10 @@ function ProgramTemplate({ data, pageContext }: Props) {
           title={item.title ?? 'Artist'}
           header={`第${item.week}回 ${item.date} 全${item.playlist?.length ?? 0}曲`}
           subtitle={item.subtitle ?? undefined}
-          artists={Array.from(new Set(item.playlist?.map((d) => d.artist ?? '')))}
+          artists={Array.from(new Set(item.playlist?.map((d) => d?.artist ?? '')))}
           imgUrl={item.img ?? undefined}
         />
-        <Container maxWidth="md">
+        <ResponsiveContainer maxWidth="md">
           <Box pt={4}>
             {item.fields?.slug === slug ? (
               <div>
@@ -103,7 +104,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
               </div>
             )}
           </Box>
-        </Container>
+        </ResponsiveContainer>
       </div>
     );
   }

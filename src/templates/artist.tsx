@@ -43,7 +43,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
   const allArtists = useAllArtists();
   const artists = React.useMemo(() => sortArtists(allArtists), [allArtists]);
   const { previous, next, index, fieldValue } = pageContext;
-  const programs = data.allProgram.edges;
+  const programs = data.allProgram.group.map(({ edges }) => edges[0]);
   const [loading, setLoading] = React.useState(false);
   const [tab, setTab] = React.useState(index);
   const _onChangeIndex = (i: number) => {
@@ -130,36 +130,38 @@ export default ArtistTemplate;
 
 export const query = graphql`
   query ArtistTemplate($fieldValue: String!) {
-    allProgram(filter: { playlist: { elemMatch: { artist: { glob: $fieldValue } } } }, sort: { fields: week, order: ASC }) {
-      edges {
-        node {
-          id
-          title
-          date(formatString: "YYYY-MM-DD")
-          categories
-          fields {
-            slug
-          }
-          guests
-          subtitle
-          week
-          year
-          playlist {
-            artist
-            corner
+    allProgram(filter: { playlist: { elemMatch: { artist: { eq: $fieldValue } } } }, sort: { fields: date, order: ASC }) {
+      group(field: date, limit: 1) {
+        edges {
+          node {
             id
-            indexInWeek
-            index
-            kana
-            label
-            name
-            nation
-            producer
-            selector
             title
+            date(formatString: "YYYY-MM-DD")
+            categories
+            fields {
+              slug
+            }
+            guests
+            subtitle
             week
             year
-            youtube
+            playlist {
+              artist
+              corner
+              id
+              indexInWeek
+              index
+              kana
+              label
+              name
+              nation
+              producer
+              selector
+              title
+              week
+              year
+              youtube
+            }
           }
         }
       }
