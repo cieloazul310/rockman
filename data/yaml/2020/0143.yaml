@@ -1,0 +1,100 @@
+id: "20200143"
+week: 143
+year: 2020
+title: ○○メタルで漫遊記
+guests: []
+categories: []
+date: 2020-09-27
+playlist:
+  - id: "2020014301"
+    week: 143
+    index: 1186
+    indexInWeek: 1
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014302"
+    week: 143
+    index: 1187
+    indexInWeek: 2
+    title: Stenka na Stenku
+    artist: Arkona
+    year: 2011
+    nation: RUS
+    label: Napalm Records
+    youtube: xDrKpYn-8u8
+    selector: 草野マサムネ
+  - id: "2020014303"
+    week: 143
+    index: 1188
+    indexInWeek: 3
+    title: Chega de Saudade
+    artist: Huaska
+    year: 2012
+    nation: BRA
+    label: 自主制作盤
+    youtube: ohS_gCeEtDA
+    selector: 草野マサムネ
+  - id: "2020014304"
+    week: 143
+    index: 1189
+    indexInWeek: 4
+    title: State of Emergency
+    artist: Skindred
+    year: 2007
+    nation: UK
+    label: Bieler Bros.
+    youtube: 7LCYAdz6R8o
+    selector: 草野マサムネ
+  - id: "2020014305"
+    week: 143
+    index: 1190
+    indexInWeek: 5
+    title: Wooden Pints
+    artist: Korpiklaani
+    year: 2003
+    nation: FIN
+    label: Napalm Records
+    youtube: QjZ1B897Tuk
+    selector: 草野マサムネ
+  - id: "2020014306"
+    week: 143
+    index: 1191
+    indexInWeek: 6
+    title: Sombras En La Oscuridad
+    artist: Flor De Loto
+    year: 2011
+    nation: CHL
+    label: Mylodon Records
+    youtube: 3zyYpOnlj1Q
+    selector: 草野マサムネ
+  - id: "2020014307"
+    week: 143
+    index: 1192
+    indexInWeek: 7
+    title: ねぷたのもんどりこ
+    artist: 人間椅子
+    kana: にんげんいす
+    year: 2013
+    nation: JPN
+    label: 徳間ジャパンコミュニケーションズ
+    youtube: DulFKMbaetM
+    selector: 草野マサムネ
+  - id: "2020014308"
+    week: 143
+    index: 1193
+    indexInWeek: 8
+    title: RUN! RUN! RUN!
+    artist: 大槻真希
+    kana: おおつきまき
+    year: 2000
+    nation: JPN
+    label: エピックレコードジャパン
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

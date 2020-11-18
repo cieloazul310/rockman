@@ -1,0 +1,107 @@
+id: "20200138"
+week: 138
+year: 2020
+title: ラップのロックで漫遊記
+guests: []
+categories: []
+date: 2020-08-23
+playlist:
+  - id: "2020013801"
+    week: 138
+    index: 1147
+    indexInWeek: 1
+    title: シロクマ
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: UiYl1r5m5a0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013802"
+    week: 138
+    index: 1148
+    indexInWeek: 2
+    title: (You Gotta) Fight for Your Right (To Party!)
+    artist: Beastie Boys
+    year: 1986
+    nation: US
+    label: Def Jam
+    producer: 
+      - Rick Rubin
+    youtube: eBShN8qT4lk
+    selector: 草野マサムネ
+  - id: "2020013803"
+    week: 138
+    index: 1149
+    indexInWeek: 3
+    title: Bring the Noise
+    artist: Anthrax
+    year: 1991
+    nation: US
+    label: Island
+    producer:
+      - Mark Dodson
+    youtube: kl1hgXfX5-U
+    selector: 草野マサムネ
+  - id: "2020013804"
+    week: 138
+    index: 1150
+    indexInWeek: 4
+    title: Bulls on Parade
+    artist: Rage Against the Machine
+    year: 1996
+    nation: US
+    label: Epic
+    producer:
+      - Brendan O'Brien
+    youtube: 3L4YrGaR8E4
+    selector: 草野マサムネ
+  - id: "2020013805"
+    week: 138
+    index: 1151
+    indexInWeek: 5
+    title: Break Stuff
+    artist: Limp Bizkit
+    year: 1999
+    nation: US
+    label: Flip
+    producer:
+      - Terry Date
+    youtube: ZpUYjpKg9KY
+    selector: 草野マサムネ
+  - id: "2020013806"
+    week: 138
+    index: 1152
+    indexInWeek: 6
+    title: The Seed (2.0)
+    artist: The Roots
+    year: 2002
+    nation: US
+    label: MCA
+    youtube: ojC0mg2hJCc
+    selector: 草野マサムネ
+  - id: "2020013807"
+    week: 138
+    index: 1153
+    indexInWeek: 7
+    title: Trust Issues
+    artist: Phunk Junkeez
+    year: 2007
+    nation: US
+    label: DMAFT Records
+    youtube: czvUuQOjgic
+    selector: 草野マサムネ
+  - id: "2020013808"
+    week: 138
+    index: 1154
+    indexInWeek: 8
+    title: Nextreme Unknown
+    artist: YKZ
+    year: 2001
+    nation: JPN
+    label: ソニー・ミュージックエンタテインメント
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

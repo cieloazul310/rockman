@@ -1,0 +1,104 @@
+id: "20200141"
+week: 141
+year: 2020
+title: 2008年の日本のロックで漫遊記
+guests: []
+categories: []
+date: 2020-09-13
+playlist:
+  - id: "2020014101"
+    week: 141
+    index: 1171
+    indexInWeek: 1
+    title: まもるさん
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014102"
+    week: 141
+    index: 1172
+    indexInWeek: 2
+    title: Living Dying Message
+    artist: 9mm Parabellum Bullet
+    year: 2008
+    nation: JPN
+    label: EMIミュージック・ジャパン
+    producer:
+      - いしわたり淳治
+    youtube: nWgrkY-fCyU
+    selector: 草野マサムネ
+  - id: "2020014103"
+    week: 141
+    index: 1173
+    indexInWeek: 3
+    title: 愛をこめて花束を
+    artist: Superfly
+    year: 2008
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: gU5oN0KVofU
+    selector: 草野マサムネ
+  - id: "2020014104"
+    week: 141
+    index: 1174
+    indexInWeek: 4
+    title: LOVEずっきゅん
+    artist: 相対性理論
+    kana: そうたいせいりろん
+    year: 2008
+    nation: JPN
+    label: みらいrecords
+    youtube: nFG4oQE1Et8
+    selector: 草野マサムネ
+  - id: "2020014105"
+    week: 141
+    index: 1175
+    indexInWeek: 5
+    title: DOLL
+    artist: SCANDAL
+    year: 2008
+    nation: JPN
+    label: エピックレコードジャパン
+    youtube: X3IFT7Z4pos
+    selector: 草野マサムネ
+  - id: "2020014106"
+    week: 141
+    index: 1176
+    indexInWeek: 6
+    title: 完璧な庭
+    artist: People In The Box
+    year: 2008
+    nation: JPN
+    label: 残響record
+    youtube: zpfBvJTqbSg
+    selector: 草野マサムネ
+  - id: "2020014107"
+    week: 141
+    index: 1177
+    indexInWeek: 7
+    title: 若者のすべて
+    artist: フジファブリック
+    year: 2007
+    nation: JPN
+    label: EMIミュージック・ジャパン
+    youtube: IPBXepn5jTA
+    producer:
+      - 河合マイケル
+    selector: 草野マサムネ
+  - id: "2020014108"
+    week: 141
+    index: 1178
+    indexInWeek: 8
+    title: ネオンBOYS
+    artist: おとぎ話
+    year: 2008
+    nation: JPN
+    label: UK PROJECT
+    youtube: 3_FTYj55GHo
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,106 @@
+id: "20200145"
+week: 145
+year: 2020
+title: ジェファーソンほにゃららで漫遊記
+guests: []
+categories: ["変則アーティスト特集"]
+date: 2020-10-11
+playlist:
+  - id: "2020014501"
+    week: 145
+    index: 1202
+    indexInWeek: 1
+    title: 未来コオロギ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014502"
+    week: 145
+    index: 1203
+    indexInWeek: 2
+    title: Somebody to Love
+    artist: Jefferson Airplane
+    year: 1967
+    nation: US
+    label: RCA Victor
+    youtube: NErryx7E0pw
+    selector: 草野マサムネ
+  - id: "2020014503"
+    week: 145
+    index: 1204
+    indexInWeek: 3
+    title: White Rabbit
+    artist: Jefferson Airplane
+    year: 1967
+    nation: US
+    label: RCA Victor
+    youtube: pnJM_jC7j_4
+    selector: 草野マサムネ
+  - id: "2020014504"
+    week: 145
+    index: 1205
+    indexInWeek: 4
+    title: Jane
+    artist: Jefferson Starship
+    year: 1979
+    nation: US
+    label: Grunt
+    producer:
+      - Ron Nevison
+    youtube: LJCuB-uhNgM
+    selector: 草野マサムネ
+  - id: "2020014505"
+    week: 145
+    index: 1206
+    indexInWeek: 5
+    title: Free
+    artist: Jefferson Starship
+    year: 1981
+    nation: US
+    label: Grunt
+    youtube: rhCubxw46EU
+    producer:
+      - Ron Nevison
+    selector: 草野マサムネ
+  - id: "2020014506"
+    week: 145
+    index: 1207
+    indexInWeek: 6
+    title: We Built This City
+    artist: Starship
+    year: 1985
+    nation: US
+    label: Grunt/RCA
+    producer:
+      - Peter Wolf
+    youtube: K1b8AhIsSYQ
+    selector: 草野マサムネ
+  - id: "2020014507"
+    week: 145
+    index: 1208
+    indexInWeek: 7
+    title: It's About Time
+    artist: Jefferson Starship
+    year: 2020
+    nation: US
+    label: Secret Knock
+    youtube: LTtfVBc3es4
+    selector: 草野マサムネ
+  - id: "2020014508"
+    week: 145
+    index: 1209
+    indexInWeek: 8
+    title: CHANGE
+    artist: 福原美穂
+    kana: ふくはらみほ
+    year: 2008
+    nation: JPN
+    label: gr8! records
+    youtube: Gw4IGiERbEg
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,106 @@
+id: "20200150"
+week: 150
+year: 2020
+title: カンサスで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-11-15
+playlist:
+  - id: "2020015001"
+    week: 150
+    index: 1243
+    indexInWeek: 1
+    title: 優しいあの子
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: RkIOd78C82I
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015002"
+    week: 150
+    index: 1244
+    indexInWeek: 2
+    title: Carry On Wayward Son
+    artist: Kansas
+    year: 1976
+    nation: US
+    label: Kirshner
+    producer:
+      - Jeff Glixman
+    youtube: P5ZJui3aPoQ
+    selector: 草野マサムネ
+  - id: "2020015003"
+    week: 150
+    index: 1245
+    indexInWeek: 3
+    title: Can I Tell You
+    artist: Kansas
+    year: 1974
+    nation: US
+    label: Kirshner
+    producer:
+      - Wally Gold
+    youtube: qZoza3IIfwY
+    selector: 草野マサムネ
+  - id: "2020015004"
+    week: 150
+    index: 1246
+    indexInWeek: 4
+    title: Dust in the Wind
+    artist: Kansas
+    year: 1978
+    nation: US
+    label: Kirshner
+    producer:
+      - Jeff Glixman
+    youtube: tH2w6Oxx0kQ
+    selector: 草野マサムネ
+  - id: "2020015005"
+    week: 150
+    index: 1247
+    indexInWeek: 5
+    title: Point of Know Return
+    artist: Kansas
+    year: 1977
+    nation: US
+    label: Kirshner
+    producer:
+      - Jeff Glixman
+    youtube: iFWtsT5zRKo
+    selector: 草野マサムネ
+  - id: "2020015006"
+    week: 150
+    index: 1248
+    indexInWeek: 6
+    title: People of the South Wind
+    artist: Kansas
+    year: 1979
+    nation: US
+    label: Kirshner
+    youtube: FtXwopQ0GYo
+    selector: 草野マサムネ
+  - id: "2020015007"
+    week: 150
+    index: 1249
+    indexInWeek: 7
+    title: The Song the River Sang
+    artist: Kansas
+    year: 2020
+    nation: US
+    label: Inside Out
+    selector: 草野マサムネ
+  - id: "2020015008"
+    week: 150
+    index: 1250
+    indexInWeek: 8
+    title: キャッチボールデイズ
+    artist: GAUCH!
+    year: 1995
+    nation: JPN
+    label: アポロン
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

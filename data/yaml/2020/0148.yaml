@@ -1,0 +1,103 @@
+id: "20200148"
+week: 148
+year: 2020
+title: 私の好きな歌詞のワンフレーズリクエストで漫遊記(パート2)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-11-01
+playlist:
+  - id: "2020014801"
+    week: 148
+    index: 1227
+    indexInWeek: 1
+    title: 木綿のハンカチーフ
+    artist: 草野マサムネ
+    kana: くさのまさむね
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014802"
+    week: 148
+    index: 1228
+    indexInWeek: 2
+    title: DAY TO DAY
+    artist: ストレイテナー
+    year: 2015
+    nation: JPN
+    label: Virgin Music
+    youtube: qI306Q05xPY
+    selector: リクエスト
+  - id: "2020014803"
+    week: 148
+    index: 1229
+    indexInWeek: 3
+    title: Chi non lavora non fa l'amore
+    artist: Tonino
+    year: 2013
+    nation: ITA
+    label: Vandisk
+    youtube: _KUNNCqbYZ8
+    selector: リクエスト
+  - id: "2020014804"
+    week: 148
+    index: 1230
+    indexInWeek: 4
+    title: ユースレスマシン
+    artist: ハンブレッダーズ
+    year: 2020
+    nation: JPN
+    label: トイズファクトリー
+    youtube: nSO0jlAQnEE
+    selector: リクエスト
+  - id: "2020014805"
+    week: 148
+    index: 1231
+    indexInWeek: 5
+    title: Skin
+    artist: Helsinki Lambda Club
+    year: 2016
+    nation: JPN
+    label: UK.PROJECT
+    youtube: k8MHbYxmMPQ
+    selector: リクエスト
+  - id: "2020014806"
+    week: 148
+    index: 1232
+    indexInWeek: 6
+    title: Why Does It Always Rain on Me?
+    artist: Travis
+    year: 1999
+    nation: UK
+    label: Independiente
+    producer:
+      - Nigel Godrich
+      - Mike Hedges
+    youtube: PXatLOWjr-k
+    selector: リクエスト
+  - id: "2020014807"
+    week: 148
+    index: 1233
+    indexInWeek: 7
+    title: HAPPY BIRTHDAY
+    artist: back number
+    year: 2019
+    nation: JPN
+    label: ユニバーサルシグマ
+    producer:
+      - 小林武史
+    youtube: IsFs06cw-gY
+    selector: リクエスト
+  - id: "2020014808"
+    week: 148
+    index: 1234
+    indexInWeek: 8
+    title: オリビアを聴きながら
+    artist: 尾崎亜美
+    kana: おざきあみ
+    year: 1980
+    nation: JPN
+    label: キャニオンレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,113 @@
+id: "20200147"
+week: 147
+year: 2020
+title: 私の好きな歌詞のワンフレーズリクエストで漫遊記(パート1)
+guests: []
+categories: ["リクエスト特集"]
+date: 2020-10-25
+playlist:
+  - id: "2020014701"
+    week: 147
+    index: 1218
+    indexInWeek: 1
+    title: グリーン
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014702"
+    week: 147
+    index: 1219
+    indexInWeek: 2
+    title: ラクに行こうぜ
+    artist: 忌野清志郎
+    kana: いまわのきよしろう
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    selector: リクエスト
+  - id: "2020014703"
+    week: 147
+    index: 1220
+    indexInWeek: 3
+    title: CALL
+    artist: スカート
+    year: 2016
+    nation: JPN
+    label: カクバリズム
+    youtube: 61TpTwb35CM
+    selector: リクエスト
+  - id: "2020014704"
+    week: 147
+    index: 1221
+    indexInWeek: 4
+    title: Have a Nice Day
+    artist: Bon Jovi
+    year: 2005
+    nation: US
+    label: Island
+    youtube: uCg2BoKiuOM
+    selector: リクエスト
+  - id: "2020014705"
+    week: 147
+    index: 1222
+    indexInWeek: 5
+    title: FiNAL DANCE
+    artist: BiS
+    year: 2014
+    nation: JPN
+    label: avex
+    producer:
+      - 松隈ケンタ
+    youtube: Hc8vjprOWLs
+    selector: リクエスト
+  - id: "2020014706"
+    week: 147
+    index: 1223
+    indexInWeek: 6
+    title: 悲しみの果て
+    artist: エレファントカシマシ
+    year: 1996
+    nation: JPN
+    label: ポニーキャニオン
+    producer:
+      - 土方隆行
+    selector: リクエスト
+  - id: "2020014707"
+    week: 147
+    index: 1224
+    indexInWeek: 7
+    title: 教訓I
+    artist: 加川良 with TE-CHILI
+    kana: かがわりょううぃずてっちり
+    year: 1995
+    nation: JPN
+    label: UK.PROJECT
+    selector: リクエスト
+  - id: "2020014708"
+    week: 147
+    index: 1225
+    indexInWeek: 8
+    title: やってみよう
+    artist: WANIMA
+    year: 2017
+    nation: JPN
+    label: PIZZA OF DEATH RECORDS
+    youtube: Z23EegTiXAw
+    selector: リクエスト
+  - id: "2020014709"
+    week: 147
+    index: 1226
+    indexInWeek: 9
+    title: クレヨン
+    artist: 真島昌利
+    kana: ましままさとし
+    year: 1989
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

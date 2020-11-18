@@ -1,0 +1,105 @@
+id: "20200140"
+week: 140
+year: 2020
+title: 1曲で2、3曲分楽しめるナンバーで漫遊記
+guests: []
+categories: []
+date: 2020-09-06
+playlist:
+  - id: "2020014001"
+    week: 140
+    index: 1163
+    indexInWeek: 1
+    title: 子グマ！子グマ！
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014002"
+    week: 140
+    index: 1164
+    indexInWeek: 2
+    title: Tenement Lady
+    artist: T. Rex
+    year: 1973
+    nation: UK
+    label: EMI
+    producer:
+      - Tony Visconti
+    youtube: 9jSlcVMT7iY
+    selector: 草野マサムネ
+  - id: "2020014003"
+    week: 140
+    index: 1165
+    indexInWeek: 3
+    title: Aquarius/Let the Sunshine In
+    artist: The 5th Dimension
+    year: 1969
+    nation: US
+    label: Soul City
+    producer:
+      - Bones Howe
+    youtube: VlrQ-bOzpkQ
+    selector: 草野マサムネ
+  - id: "2020014004"
+    week: 140
+    index: 1166
+    indexInWeek: 4
+    title: Bring It On Home
+    artist: Led Zeppelin
+    year: 1969
+    nation: UK
+    label: Atlantic
+    youtube: kZnHavrD4vQ
+    selector: 草野マサムネ
+  - id: "2020014005"
+    week: 140
+    index: 1167
+    indexInWeek: 5
+    title: Prelude – Nothin' to Hide
+    artist: Spirit
+    year: 1970
+    nation: US
+    label: Epic
+    producer:
+      - David Briggs
+    selector: 草野マサムネ
+  - id: "2020014006"
+    week: 140
+    index: 1168
+    indexInWeek: 6
+    title: Live and Let Die
+    artist: Paul McCartney & Wings
+    year: 1973
+    nation: UK
+    label: Apple
+    producer:
+      - George Martin
+    youtube: FJsQGWlZp1g
+    selector: 草野マサムネ
+  - id: "2020014007"
+    week: 140
+    index: 1169
+    indexInWeek: 7
+    title: Shut Up and Dance
+    artist: 18 Wheeler
+    year: 1994
+    nation: UK
+    label: Creation
+    selector: 草野マサムネ
+  - id: "2020014008"
+    week: 140
+    index: 1170
+    indexInWeek: 8
+    title: かもめが翔んだ日
+    artist: 渡辺真知子
+    kana: わたなべまちこ
+    year: 1978
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

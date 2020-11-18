@@ -1,0 +1,101 @@
+id: "20200139"
+week: 139
+year: 2020
+title: じゃない方で漫遊記
+guests: []
+categories: []
+date: 2020-08-30
+playlist:
+  - id: "2020013901"
+    week: 139
+    index: 1155
+    indexInWeek: 1
+    title: 夜を駆ける
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020013902"
+    week: 139
+    index: 1156
+    indexInWeek: 2
+    title: オドループ
+    artist: フレデリック
+    year: 2014
+    nation: JPN
+    label: A-Sketch
+    youtube: PCp2iXA1uLE
+    selector: 草野マサムネ
+  - id: "2020013903"
+    week: 139
+    index: 1157
+    indexInWeek: 3
+    title: Bring the Noise
+    artist: Nirvana (UK)
+    year: 1969
+    nation: UK
+    label: Island
+    youtube: 6ko8iHC0nqM
+    selector: 草野マサムネ
+  - id: "2020013904"
+    week: 139
+    index: 1158
+    indexInWeek: 4
+    title: Bulls on Parade
+    artist: Mr Big (UK)
+    year: 1977
+    nation: UK
+    label: EMI
+    youtube: RDH-DL4LHLQ
+    selector: 草野マサムネ
+  - id: "2020013905"
+    week: 139
+    index: 1159
+    indexInWeek: 5
+    title: Los Angeles
+    artist: X
+    year: 1980
+    nation: US
+    label: Slash
+    producer:
+      - Ray Manzarek
+    youtube: BzUt98in4N4
+    selector: 草野マサムネ
+  - id: "2020013906"
+    week: 139
+    index: 1160
+    indexInWeek: 6
+    title: Time Waits For No One
+    artist: The Knack (60s)
+    year: 1966
+    nation: US
+    label: Capitol
+    selector: 草野マサムネ
+  - id: "2020013907"
+    week: 139
+    index: 1161
+    indexInWeek: 7
+    title: Shut Up and Dance
+    artist: Red Hot Chilli Pipers
+    year: 2019
+    nation: UK
+    label: Chilli Pipers Productions
+    youtube: Rx_6STfX3YA
+    selector: 草野マサムネ
+  - id: "2020013908"
+    week: 139
+    index: 1162
+    indexInWeek: 8
+    title: タイトでキュートなヒップがシュールなジョークとムードでテレフォンナンバー
+    artist: 宮本浩次
+    kana: みやもとこうじ
+    year: 1996
+    nation: JPN
+    label: エピック
+    youtube: TsMBF-WaBNI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

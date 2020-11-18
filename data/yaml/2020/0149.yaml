@@ -1,0 +1,103 @@
+id: "20200149"
+week: 149
+year: 2020
+title: TYK・イギリス編第2弾で漫遊記
+guests: []
+categories: ["T・Y・K(当初やりたかった感じ)"]
+date: 2020-11-08
+playlist:
+  - id: "2020014901"
+    week: 149
+    index: 1235
+    indexInWeek: 1
+    title: 楓
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 棚谷祐一
+    youtube: YapsFDcGe_s
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014902"
+    week: 149
+    index: 1236
+    indexInWeek: 2
+    title: Father's Name Is Dad
+    artist: Fire
+    year: 1968
+    nation: UK
+    label: Decca
+    producer:
+      - Tony Clarke
+    youtube: ngjUMJVXBLs
+    selector: 草野マサムネ
+  - id: "2020014903"
+    week: 149
+    index: 1237
+    indexInWeek: 3
+    title: Magic In The Air
+    artist: The Attack
+    year: 1990
+    nation: UK
+    label: RPM
+    youtube: 7zKo8CK2NNM
+    selector: 草野マサムネ
+  - id: "2020014904"
+    week: 149
+    index: 1238
+    indexInWeek: 4
+    title: Sleeping In The Kitchen
+    artist: Mogul Thrash
+    year: 1970
+    nation: UK
+    label: RCA Victor
+    selector: 草野マサムネ
+  - id: "2020014905"
+    week: 149
+    index: 1239
+    indexInWeek: 5
+    title: City Kids
+    artist: Pink Fairies
+    year: 1973
+    nation: UK
+    label: Polydor
+    youtube: w6T9cLlRUYs
+    selector: 草野マサムネ
+  - id: "2020014906"
+    week: 149
+    index: 1240
+    indexInWeek: 6
+    title: Nightjar
+    artist: Necromandus
+    year: 1999
+    nation: UK
+    label: Vertigo
+    producer:
+      - Tony Iommi
+    youtube: nOhttKzj2C4
+    selector: 草野マサムネ
+  - id: "2020014907"
+    week: 149
+    index: 1241
+    indexInWeek: 7
+    title: Delirious
+    artist: Heavy Metal Kids
+    year: 1977
+    nation: UK
+    label: RAK
+    youtube: Dfc3Wun-7F4
+    selector: 草野マサムネ
+  - id: "2020014908"
+    week: 149
+    index: 1242
+    indexInWeek: 8
+    title: 今さらI LOVE YOU
+    artist: 種ともこ
+    kana: たねともこ
+    year: 1993
+    nation: JPN
+    label: CBSソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

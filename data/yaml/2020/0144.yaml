@@ -1,0 +1,108 @@
+id: "20200144"
+week: 144
+year: 2020
+title: アルペジオのロックで漫遊記
+guests: []
+categories: []
+date: 2020-10-04
+playlist:
+  - id: "2020014401"
+    week: 144
+    index: 1194
+    indexInWeek: 1
+    title: 冷たい頬
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    youtube: QzJ_QUc-ygk
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014402"
+    week: 144
+    index: 1195
+    indexInWeek: 2
+    title: Turn! Turn! Turn!
+    artist: The Byrds
+    year: 1965
+    nation: US
+    label: Columbia
+    producer:
+      - Terry Melcher
+    youtube: xVOJla2vYx8
+    selector: 草野マサムネ
+  - id: "2020014403"
+    week: 144
+    index: 1196
+    indexInWeek: 3
+    title: Leaf and Stream
+    artist: Wishbone Ash
+    year: 1972
+    nation: UK
+    label: Decca/MCA
+    producer:
+      - Derek Lawrence
+    youtube: 42rAgE5nblg
+    selector: 草野マサムネ
+  - id: "2020014404"
+    week: 144
+    index: 1197
+    indexInWeek: 4
+    title: You Just Haven't Earned It Yet, Baby
+    artist: The Smiths
+    year: 1987
+    nation: UK
+    label: Rough Trade
+    youtube: eFpSar7AifU
+    selector: 草野マサムネ
+  - id: "2020014405"
+    week: 144
+    index: 1198
+    indexInWeek: 5
+    title: Waiting For The Winter
+    artist: The Popguns
+    year: 1990
+    nation: UK
+    label: Midnight Music
+    youtube: 1lDD968k99c
+    selector: 草野マサムネ
+  - id: "2020014406"
+    week: 144
+    index: 1199
+    indexInWeek: 6
+    title: There She Goes
+    artist: The La's
+    year: 1988
+    nation: UK
+    label: Polydor
+    producer:
+      - Steve Lillywhite
+    youtube: CZXLLMbJdZ4
+    selector: 草野マサムネ
+  - id: "2020014407"
+    week: 144
+    index: 1200
+    indexInWeek: 7
+    title: Dig
+    artist: Incubus
+    year: 2006
+    nation: US
+    label: Epic/Immortal
+    producer:
+      - Brendan O'Brien
+    youtube: nMsZ6wkZWhA
+    selector: 草野マサムネ
+  - id: "2020014408"
+    week: 144
+    index: 1201
+    indexInWeek: 8
+    title: tokyo2012
+    artist: よしむらひらく
+    year: 2012
+    nation: JPN
+    label: Song-CRUX
+    youtube: xA9cZLRJQXM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

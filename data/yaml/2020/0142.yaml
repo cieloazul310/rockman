@@ -1,0 +1,85 @@
+id: "20200142"
+week: 142
+year: 2020
+title: フラワーカンパニーズで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-09-20
+playlist:
+  - id: "2020014201"
+    week: 142
+    index: 1179
+    indexInWeek: 1
+    title: 野生のポルカ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014202"
+    week: 142
+    index: 1180
+    indexInWeek: 2
+    title: 深夜高速
+    artist: フラワーカンパニーズ
+    year: 2004
+    nation: JPN
+    label: トラッシュレコーズ
+    youtube: uAXibMc74oY
+    selector: 草野マサムネ
+  - id: "2020014203"
+    week: 142
+    index: 1181
+    indexInWeek: 3
+    title: はぐれ者讃歌
+    artist: フラワーカンパニーズ
+    year: 2006
+    nation: JPN
+    label: トラッシュレコーズ
+    youtube: vYeJjsGGnIU
+    selector: 草野マサムネ
+  - id: "2020014204"
+    week: 142
+    index: 1182
+    indexInWeek: 4
+    title: ビューティフルドリーマー
+    artist: フラワーカンパニーズ
+    year: 2013
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    youtube: fIh0IAqObi8
+    selector: 草野マサムネ
+  - id: "2020014205"
+    week: 142
+    index: 1183
+    indexInWeek: 5
+    title: ヒコーキ雲
+    artist: フラワーカンパニーズ
+    year: 1997
+    nation: JPN
+    label: アンティノスレコード
+    youtube: 1lpgZnsAJVM
+    selector: 草野マサムネ
+  - id: "2020014206"
+    week: 142
+    index: 1184
+    indexInWeek: 6
+    title: 心の氷
+    artist: フラワーカンパニーズ
+    year: 2013
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    selector: 草野マサムネ
+  - id: "2020014207"
+    week: 142
+    index: 1185
+    indexInWeek: 7
+    title: いましか
+    artist: フラワーカンパニーズ
+    year: 2019
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    selector: 草野マサムネ

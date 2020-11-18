@@ -1,0 +1,107 @@
+id: "20200146"
+week: 146
+year: 2020
+title: ハスキーボイスで漫遊記
+guests: []
+categories: []
+date: 2020-10-18
+playlist:
+  - id: "2020014601"
+    week: 146
+    index: 1210
+    indexInWeek: 1
+    title: 恋は夕暮れ
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020014602"
+    week: 146
+    index: 1211
+    indexInWeek: 2
+    title: Summer of '69
+    artist: Bryan Adams
+    year: 1984
+    nation: CAN
+    label: A&M
+    producer:
+      - Bob Clearmountain
+    youtube: eFjjO_lhf9c
+    selector: 草野マサムネ
+  - id: "2020014603"
+    week: 146
+    index: 1212
+    indexInWeek: 3
+    title: Ace of Spades
+    artist: Motörhead
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: J-QAKCP8ong
+    selector: 草野マサムネ
+  - id: "2020014604"
+    week: 146
+    index: 1213
+    indexInWeek: 4
+    title: It's a Heartache
+    artist: Bonnie Tyler
+    year: 1977
+    nation: UK
+    label: RCA
+    producer:
+      - David Mackay
+    youtube: bEOl38y8Nj8
+    selector: 草野マサムネ
+  - id: "2020014605"
+    week: 146
+    index: 1214
+    indexInWeek: 5
+    title: Do The Right Thing
+    artist: Leatherface
+    year: 1993
+    nation: UK
+    label: Roughneck Recording Company
+    youtube: QtI7khcfNw0
+    selector: 草野マサムネ
+  - id: "2020014606"
+    week: 146
+    index: 1215
+    indexInWeek: 6
+    title: Take Her
+    artist: Rough Cutt
+    year: 1985
+    nation: US
+    label: Warner Bros.
+    producer:
+      - Tom Allom
+    youtube: WzfMAULvNyU
+    selector: 草野マサムネ
+  - id: "2020014607"
+    week: 146
+    index: 1216
+    indexInWeek: 7
+    title: Love Is
+    artist: Rod Stewart
+    year: 2015
+    nation: UK
+    label: Capitol
+    producer:
+      - Kevin Savigar
+    youtube: L1uMA120Mhk
+    selector: 草野マサムネ
+  - id: "2020014608"
+    week: 146
+    index: 1217
+    indexInWeek: 8
+    title: 宿無し
+    artist: 世良公則&ツイスト
+    kana: せらまさのりあんどついすと
+    year: 1978
+    nation: JPN
+    label: キャニオンレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
