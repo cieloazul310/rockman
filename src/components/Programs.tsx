@@ -54,7 +54,9 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
 function Programs() {
   const programs = useAllPrograms();
   const years = React.useMemo(() => {
-    return [2018, 2019, 2020].map((year) => (
+    const firstYear = 2018;
+    const currentYear = new Date().getFullYear();
+    return Array.from({ length: currentYear - firstYear + 1 }, (_, i) => firstYear + i).map((year) => (
       <ProgramsByYear key={year} year={year} programs={programs.filter((program) => program.year === year)} />
     ));
   }, [programs]);

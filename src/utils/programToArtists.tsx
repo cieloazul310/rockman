@@ -1,5 +1,1 @@
-
-
-function programToArtists() {
-
-}
+function programToArtists() {}

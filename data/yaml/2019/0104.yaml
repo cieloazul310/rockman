@@ -2,14 +2,12 @@ id: "20190104"
 week: 104
 year: 2019
 title: 漏れた曲たちで漫遊記
-subtitle: ""
 guests: []
-categories: []
+categories: ["漏れた曲"]
 date: 2019-12-29
 playlist:
   - id: "2019010401"
     week: 104
-    name: ブチ
     artist: スピッツ
     year: 2016
     nation: JPN
@@ -21,7 +19,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010402"
     week: 104
-    name: ギルド
     artist: BUMP OF CHICKEN
     year: 2004
     nation: JPN
@@ -33,14 +30,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010403"
     week: 104
-    name: Hundred Mile High City
     artist: Ocean Colour Scene
     year: 1997
     nation: UK
     label: MCA
     producer:
       - Brendan Lynch
-    corner: ""
     youtube: xIhFpmzRKYM
     title: Hundred Mile High City
     index: 864
@@ -48,14 +43,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010404"
     week: 104
-    name: 暮らしのなかで
     artist: T字路s
-    kana: ""
     year: 2019
     nation: JPN
     label: felicity
-    producer: []
-    corner: ""
     youtube: Y94PAdw0P14
     title: 暮らしのなかで
     index: 865
@@ -63,15 +54,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010405"
     week: 104
-    name: On Your Feet or on Your Knees
     artist: Motörhead
-    kana: ""
     year: 1993
     nation: UK
     label: ZYX
     producer:
       - Howard Benson
-    corner: ""
     youtube: bSdU5x2RGeo
     title: On Your Feet or on Your Knees
     index: 866
@@ -79,31 +67,25 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010406"
     week: 104
-    name: 京都
     artist: 在日ファンク
     kana: ざいにちふぁんく
     year: 2010
     nation: JPN
     label: P-VINE
-    producer: []
-    corner: ""
-    youtube: 6YnhZRClFB0
+    youtube: vuk5xyujibE
     title: 京都
     index: 867
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019010407"
     week: 104
-    name: マケイヌ
     artist: ZIGGY
-    kana: ""
     year: 1999
     nation: JPN
     label: ソニー・ミュージックレコーズ
     producer:
       - 佐藤宣彦
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: マケイヌ
     index: 868
     indexInWeek: 7

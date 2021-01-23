@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
-import Container from '@material-ui/core/Container';
+//import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';

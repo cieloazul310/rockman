@@ -9,31 +9,25 @@ date: 2018-07-22
 playlist:
   - id: "2018002901"
     week: 29
-    name: ハチの針
     artist: スピッツ
-    kana: ""
     year: 2016
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ハチの針
     index: 238
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018002902"
     week: 29
-    name: You Really Got Me
     artist: The Kinks
-    kana: ""
     year: 1964
     nation: UK
     label: Pye
     producer:
       - Shel Talmy
-    corner: ""
     youtube: fTTsY-oz6Go
     title: You Really Got Me
     index: 239
@@ -41,15 +35,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002903"
     week: 29
-    name: Rock Bottom
     artist: UFO
-    kana: ""
     year: 1974
     nation: UK
     label: Chrysalis
     producer:
       - Leo Lyons
-    corner: ""
     youtube: BdJTUuwYBN8
     title: Rock Bottom
     index: 240
@@ -57,15 +48,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002904"
     week: 29
-    name: Welcome to the Jungle
     artist: Guns N' Roses
-    kana: ""
     year: 1987
     nation: US
     label: Geffen
     producer:
       - Mike Clink
-    corner: ""
     youtube: o1tj2zJ2Wvg
     title: Welcome to the Jungle
     index: 241
@@ -73,15 +61,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002905"
     week: 29
-    name: Sick of Myself
     artist: Matthew Sweet
-    kana: ""
     year: 1995
     nation: US
     label: Zoo Entertainment
     producer:
       - Brendan O’Brien
-    corner: ""
     youtube: sNfocDNZWY8
     title: Sick of Myself
     index: 242
@@ -89,15 +74,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002906"
     week: 29
-    name: People of the Sun
     artist: Rage Against the Machine
-    kana: ""
     year: 1996
     nation: US
     label: Epic
     producer:
       - Brendan O’Brien
-    corner: ""
     youtube: scyC9A6o_Ts
     title: People of the Sun
     index: 243
@@ -111,9 +93,7 @@ playlist:
     year: 2015
     nation: JPN
     label: P-VINE
-    producer: []
-    corner: ""
-    youtube: sXr0jiIUr6g
+    youtube: YgOzUmADqdI
     title: ユー・エフ・オー
     index: 244
     indexInWeek: 7
@@ -122,13 +102,10 @@ playlist:
     week: 29
     name: 星のリンダ
     artist: JET KELLY
-    kana: ""
     year: 2004
     nation: JPN
     label: メルダック
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 星のリンダ
     index: 245
     indexInWeek: 8
