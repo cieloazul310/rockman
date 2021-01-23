@@ -1,0 +1,117 @@
+id: "20200151"
+week: 151
+year: 2020
+title: ファズギターで漫遊記
+guests: []
+categories: []
+date: 2020-11-22
+playlist:
+  - id: "2020015101"
+    week: 151
+    index: 1251
+    indexInWeek: 1
+    title: ラズベリー
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015102"
+    week: 151
+    index: 1252
+    indexInWeek: 2
+    title: Carry On Wayward Son
+    artist: Davie Allan And The Arrows
+    year: 1966
+    nation: US
+    label: Tower
+    youtube: CcR24iQa0yU
+    selector: 草野マサムネ
+  - id: "2020015103"
+    week: 151
+    index: 1253
+    indexInWeek: 3
+    title: I Wanna Be Your Dog
+    artist: The Stooges
+    year: 1969
+    nation: US
+    label: Elektra
+    producer:
+      - John Cale
+    youtube: 3gsWt7ey6bo
+    selector: 草野マサムネ
+  - id: "2020015104"
+    week: 151
+    index: 1254
+    indexInWeek: 4
+    title: Summertime
+    artist: Big Brother and the Holding Company
+    year: 1968
+    nation: US
+    label: Columbia
+    producer:
+      - John Simon
+    youtube: A24JZkgvNv4
+    selector: 草野マサムネ
+  - id: "2020015105"
+    week: 151
+    index: 1255
+    indexInWeek: 5
+    title: Walking Down Their Outlook
+    artist: High Tide
+    year: 1969
+    nation: UK
+    label: Liberty
+    youtube: kFF5Bgadjz0
+    selector: 草野マサムネ
+  - id: "2020015106"
+    week: 151
+    index: 1256
+    indexInWeek: 6
+    title: Namorinho De Portão
+    artist: Gal Costa and Gilberto Gil
+    year: 1969
+    nation: BRA
+    label: Philips
+    youtube: 80jNp03ZmPA
+    selector: 草野マサムネ
+  - id: "2020015107"
+    week: 151
+    index: 1257
+    indexInWeek: 7
+    title: Jellybelly
+    artist: The Smashing Pumpkins
+    year: 1995
+    nation: US
+    label: Virgin
+    producer: 
+      - Alan Moulder
+      - Billy CorganFlood
+    youtube: df1SjWNFflA
+    selector: 草野マサムネ
+  - id: "2020015108"
+    week: 151
+    index: 1258
+    indexInWeek: 8
+    title: I Can't Hear You
+    artist: Fu Manchu
+    year: 2004
+    nation: US
+    label: DRT Entertainment
+    youtube: kXi4TkTLBHE
+    selector: 草野マサムネ
+  - id: "2020015108"
+    week: 151
+    index: 1259
+    indexInWeek: 9
+    title: 朝日よさらば
+    artist: ザ・モップス
+    year: 1968
+    nation: JPN
+    label: ビクター
+    youtube: 0k7qKnKS90c
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

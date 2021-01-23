@@ -1,0 +1,108 @@
+id: "20200159"
+week: 159
+year: 2021
+title: スピッツメンバーで漫遊記 2021初春・田村明浩編
+subtitle: 1987 田村アキヒロのライヴ体験で漫遊記
+guests: ["田村明浩"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
+date: 2021-01-17
+playlist:
+  - id: "2021015901"
+    week: 159
+    index: 1316
+    indexInWeek: 1
+    title: 鳥になって
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 田村明浩
+  - id: "2021015902"
+    week: 159
+    index: 1317
+    indexInWeek: 2
+    title: Party At Ground Zero
+    artist: Fishbone
+    year: 1985
+    nation: US
+    label: Columbia
+    producer:
+      - David Kahne
+    youtube: vrONIb9gQ-k
+    selector: 田村明浩
+  - id: "2021015903"
+    week: 159
+    index: 1318
+    indexInWeek: 3
+    title: Sheena Is A Punk Rocker
+    artist: Ramones
+    year: 1977
+    nation: US
+    label: Sire
+    youtube: yCW7Aw8ugOI
+    producer:
+      - Tony Bongiovi
+    selector: 田村明浩
+  - id: "2021015904"
+    week: 159
+    index: 1319
+    indexInWeek: 4
+    title: Shyboy
+    artist: David Lee Roth
+    year: 1986
+    nation: US
+    label: Warner Bros.
+    youtube: ENEkPpdz2MQ
+    producer:
+      - Ted Templeman
+    selector: 田村明浩
+  - id: "2021015905"
+    week: 159
+    index: 1320
+    indexInWeek: 5
+    title: Sally MacLennane
+    artist: The Pogues
+    year: 1985
+    nation: UK
+    label: Stiff
+    producer:
+      - Shane MacGowan
+    youtube: ym-Oz0TMSb0
+    selector: 田村明浩
+  - id: "2021015906"
+    week: 159
+    index: 1321
+    indexInWeek: 6
+    title: You're Crazy
+    artist: Guns N' Roses
+    year: 1987
+    nation: US
+    label: Geffen
+    youtube: e3EQ0xP50u0
+    producer:
+      - Mike Clink
+    selector: 田村明浩
+  - id: "2021015907"
+    week: 159
+    index: 1322
+    indexInWeek: 7
+    title: Perfect
+    artist: Fairground Attraction
+    year: 1988
+    nation: UK
+    label: RCA
+    youtube: txapREGWHp0
+    selector: 田村明浩
+  - id: "2021015908"
+    week: 159
+    index: 1323
+    indexInWeek: 8
+    title: 幸せであるように
+    artist: FLYING KIDS
+    year: 1990
+    nation: JPN
+    label: ビクターエンタテインメント
+    youtube: 5Bj9KT-aih0
+    selector: 田村明浩
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,97 @@
+id: "20200155"
+week: 155
+year: 2020
+title: 2020 気になった曲で漫遊記
+guests: []
+categories: []
+date: 2020-12-20
+playlist:
+  - id: "2020015501"
+    week: 155
+    index: 1284
+    indexInWeek: 1
+    title: 猫ちぐら
+    artist: スピッツ
+    year: 2020
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015502"
+    week: 155
+    index: 1285
+    indexInWeek: 2
+    title: HELLO
+    artist: Official髭男dism
+    year: 2020
+    nation: JPN
+    label: IRORI Records
+    youtube: p1qM75a9FeE
+    selector: 草野マサムネ
+  - id: "2020015503"
+    week: 155
+    index: 1286
+    indexInWeek: 3
+    title: 시작 (Start Over)
+    artist: 가호
+    kana: Gaho
+    year: 2020
+    nation: KOR
+    label: Planetarium Records
+    youtube: O0StKlRHVeE
+    selector: 草野マサムネ
+  - id: "2020015504"
+    week: 155
+    index: 1287
+    indexInWeek: 4
+    title: I Feel Alive
+    artist: TOPS
+    year: 2020
+    nation: CAN
+    label: Arbutus
+    youtube: gG79QGmKt7U
+    selector: 草野マサムネ
+  - id: "2020015505"
+    week: 155
+    index: 1288
+    indexInWeek: 5
+    title: きみは、ぼくの東京だった
+    artist: グッナイ小形
+    year: 2019
+    nation: JPN
+    label: Cafe au Label
+    youtube: o3PPYEaEqFE
+    selector: 草野マサムネ
+  - id: "2020015506"
+    week: 155
+    index: 1289
+    indexInWeek: 6
+    title: Pelota
+    artist: Khruangbin
+    year: 2020
+    nation: US
+    label: Dead Oceans
+    youtube: UULIfPLMuDw
+    selector: 草野マサムネ
+  - id: "2020015507"
+    week: 155
+    index: 1290
+    indexInWeek: 7
+    title: Funny Bunny
+    artist: Uru
+    year: 2020
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    selector: 草野マサムネ
+  - id: "2020015508"
+    week: 155
+    index: 1291
+    indexInWeek: 8
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

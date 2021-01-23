@@ -1,0 +1,90 @@
+id: "20200152"
+week: 152
+year: 2020
+title: 一緒に歌いたくなるメロディアスメタルで漫遊記
+guests: []
+categories: []
+date: 2020-11-29
+playlist:
+  - id: "2020015201"
+    week: 152
+    index: 1260
+    indexInWeek: 1
+    title: 不死身のビーナス
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015202"
+    week: 152
+    index: 1261
+    indexInWeek: 2
+    title: Heaven Can Wait
+    artist: Gamma Ray
+    year: 1990
+    nation: GER
+    label: RCA
+    youtube: zyqFP7wIsMk
+    selector: 草野マサムネ
+  - id: "2020015203"
+    week: 152
+    index: 1262
+    indexInWeek: 3
+    title: Last Day Under the Sun
+    artist: Volbeat
+    year: 2019
+    nation: DNK
+    label: Vertigo
+    youtube: ptro0vwRMaA
+    selector: 草野マサムネ
+  - id: "2020015204"
+    week: 152
+    index: 1263
+    indexInWeek: 4
+    title: Cheyenne Spirit
+    artist: Edenbridge
+    year: 2000
+    nation: AUT
+    label: Massacre
+    youtube: dxUR1ultiqc
+    selector: 草野マサムネ
+  - id: "2020015205"
+    week: 152
+    index: 1264
+    indexInWeek: 5
+    title: Eye for an Eye
+    artist: H.E.A.T
+    year: 2014
+    nation: SWE
+    label: earMUSIC
+    selector: 草野マサムネ
+  - id: "2020015206"
+    week: 152
+    index: 1265
+    indexInWeek: 6
+    title: Change The World
+    artist: Harem Scarem
+    year: 2020
+    nation: CAN
+    label: Frontiers Music SRL
+    youtube: 2BSIC8y7qQc
+    selector: 草野マサムネ
+  - id: "2020015207"
+    week: 152
+    index: 1266
+    indexInWeek: 7
+    title: Return to Myself
+    artist: 浜田麻里
+    kana: はまだまり
+    year: 1989
+    nation: JPN
+    label: インビテーション
+    producer:
+      - Greg Edward
+    youtube: YyVNZOmc_x8
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

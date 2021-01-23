@@ -1,0 +1,113 @@
+id: "20200154"
+week: 154
+year: 2020
+title: 2020漫遊から漏れた曲で漫遊記
+guests: []
+categories: ["漏れた曲"]
+date: 2020-12-13
+playlist:
+  - id: "2020015401"
+    week: 154
+    index: 1275
+    indexInWeek: 1
+    title: ラジオデイズ
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015402"
+    week: 154
+    index: 1276
+    indexInWeek: 2
+    title: 根にもってます
+    artist: 在日ファンク
+    kana: ざいにちふぁんく
+    year: 2014
+    nation: JPN
+    label: 日本コロムビア
+    youtube: 5yMkpJfrePk
+    selector: 草野マサムネ
+  - id: "2020015403"
+    week: 154
+    index: 1277
+    indexInWeek: 3
+    title: For Yasgur's Farm
+    artist: Mountain
+    year: 1970
+    nation: US
+    label: Windfall
+    producer:
+      - Felix Pappalardi
+    selector: 草野マサムネ
+  - id: "2020015404"
+    week: 154
+    index: 1278
+    indexInWeek: 4
+    title: I Want Candy
+    artist: Bow Wow Wow
+    year: 1982
+    nation: UK
+    label: RCA
+    youtube: JoXVYSV4Xcs
+    selector: 草野マサムネ
+  - id: "2020015405"
+    week: 154
+    index: 1279
+    indexInWeek: 5
+    title: ウララ
+    artist: ビッケブランカ
+    year: 2018
+    nation: JPN
+    label: avex trax
+    youtube: ZjyFsVgVLcw
+    selector: 草野マサムネ
+  - id: "2020015406"
+    week: 154
+    index: 1280
+    indexInWeek: 6
+    title: Çemberimde Gül Oya
+    artist: Selda Bağcan
+    year: 1971
+    nation: TUR
+    label: Türküola
+    youtube: Bh-ZVCXUD-Y
+    selector: 草野マサムネ
+  - id: "2020015407"
+    week: 154
+    index: 1281
+    indexInWeek: 7
+    title: In The Land Of The Few
+    artist: Love Sculpture
+    year: 1970
+    nation: UK
+    label: Parlophone
+    youtube: cjVXG-GBkSM
+    selector: 草野マサムネ
+  - id: "2020015408"
+    week: 154
+    index: 1282
+    indexInWeek: 8
+    title: I Kicked a Boy
+    artist: The Sundays
+    year: 1990
+    nation: UK
+    label: Rough Trade
+    producer: 
+      - Ray Shulman
+    youtube: gXr92XTbqZU
+    selector: 草野マサムネ
+  - id: "2020015409"
+    week: 154
+    index: 1283
+    indexInWeek: 9
+    title: JAP
+    artist: THE KIDS
+    year: 1990
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

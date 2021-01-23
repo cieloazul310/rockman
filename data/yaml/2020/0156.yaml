@@ -1,0 +1,110 @@
+id: "20200156"
+week: 156
+year: 2020
+title: エレピが効いてるナンバーで漫遊記
+guests: []
+categories: []
+date: 2020-12-27
+playlist:
+  - id: "2020015601"
+    week: 156
+    index: 1292
+    indexInWeek: 1
+    title: グラスホッパー
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015602"
+    week: 156
+    index: 1293
+    indexInWeek: 2
+    title: Joy to the World
+    artist: Three Dog Night
+    year: 1970
+    nation: US
+    label: Dunhill
+    producer:
+      - Richard Podolor
+    youtube: 7dMIMJqDq0s
+    selector: 草野マサムネ
+  - id: "2020015603"
+    week: 156
+    index: 1294
+    indexInWeek: 3
+    title: Babe
+    artist: Styx
+    year: 1979
+    nation: US
+    label: A&M
+    youtube: yaVyQS1T7TY
+    selector: 草野マサムネ
+  - id: "2020015604"
+    week: 156
+    index: 1295
+    indexInWeek: 4
+    title: You're My Best Friend
+    artist: Queen
+    year: 1976
+    nation: UK
+    label: EMI
+    producer:
+      - Roy Thomas Baker
+    youtube: HaZpZQG2z10
+    selector: 草野マサムネ
+  - id: "2020015605"
+    week: 156
+    index: 1296
+    indexInWeek: 5
+    title: No More Heroes
+    artist: The Stranglers
+    year: 1977
+    nation: UK
+    label: United Artists
+    producer:
+      - Martin Rushent
+    youtube: 2B4bsqYxwo0
+    selector: 草野マサムネ
+  - id: "2020015606"
+    week: 156
+    index: 1297
+    indexInWeek: 6
+    title: Misty Mountain Hop
+    artist: Led Zeppelin
+    year: 1971
+    nation: UK
+    label: Atlantic
+    youtube: n6fBQRaygeo
+    selector: 草野マサムネ
+  - id: "2020015607"
+    week: 156
+    index: 1298
+    indexInWeek: 7
+    title: Everything in Its Right Place
+    artist: Radiohead
+    year: 2000
+    nation: UK
+    label: Parlophone
+    producer:
+      - Nigel Godrich
+    youtube: NUnXxh5U25Y
+    selector: 草野マサムネ
+  - id: "2020015608"
+    week: 156
+    index: 1299
+    indexInWeek: 8
+    title: 中央フリーウェイ
+    artist: 荒井由実
+    kana: あらいゆみ
+    year: 1976
+    nation: JPN
+    label: EXPRESS
+    producer:
+      - 松任谷正隆
+    youtube: 43J3Hdljex4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

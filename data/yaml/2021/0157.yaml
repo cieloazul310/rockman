@@ -1,0 +1,109 @@
+id: "20200157"
+week: 157
+year: 2021
+title: スピッツメンバーで漫遊記 2021初春・三輪テツヤ編
+subtitle: 田村バンドで漫遊記
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
+date: 2021-01-03
+playlist:
+  - id: "2021015701"
+    week: 157
+    index: 1300
+    indexInWeek: 1
+    title: ハートが帰らない
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 石田小吉
+    corner: 漫遊前の一曲
+    selector: 三輪テツヤ
+  - id: "2021015702"
+    week: 157
+    index: 1301
+    indexInWeek: 2
+    title: Magic
+    artist: Rainbow
+    year: 1981
+    nation: UK
+    label: Polydor
+    producer:
+      - Roger Glover
+    youtube: IZZBef_sYUo
+    selector: 三輪テツヤ
+  - id: "2021015703"
+    week: 157
+    index: 1302
+    indexInWeek: 3
+    title: Detroit Rock City
+    artist: Kiss
+    year: 1976
+    nation: US
+    label: Casablanca
+    producer:
+      - Bob Ezrin
+    youtube: naXPoz1Du34
+    selector: 三輪テツヤ
+  - id: "2021015704"
+    week: 157
+    index: 1303
+    indexInWeek: 4
+    title: You
+    artist: G-Force
+    year: 1980
+    nation: IRE
+    label: Jet
+    youtube: ql_m_O1OHPc
+    selector: 三輪テツヤ
+  - id: "2021015705"
+    week: 157
+    index: 1304
+    indexInWeek: 5
+    title: Rock You Like a Hurricane
+    artist: Scorpions
+    year: 1984
+    nation: GER
+    label: United Artists
+    producer:
+      - Dieter Dierks
+    youtube: UCxgbOBVSfM
+    selector: 三輪テツヤ
+  - id: "2021015706"
+    week: 157
+    index: 1305
+    indexInWeek: 6
+    title: Don't Tell Me You Love Me
+    artist: Night Ranger
+    year: 1982
+    nation: US
+    label: Boardwalk
+    youtube: GSWPTU_krTY
+    producer:
+      - Pat Glasser
+    selector: 三輪テツヤ
+  - id: "2021015707"
+    week: 157
+    index: 1306
+    indexInWeek: 7
+    title: Aces High
+    artist: Iron Maiden
+    year: 1984
+    nation: UK
+    label: EMI
+    producer:
+      - Martin Birch
+    youtube: Xg9aQvjMS60
+    selector: 三輪テツヤ
+  - id: "2021015708"
+    week: 157
+    index: 1307
+    indexInWeek: 8
+    title: ZOKKON 命
+    artist: シブがき隊
+    year: 1983
+    nation: JPN
+    label: CBS・ソニー
+    selector: 三輪テツヤ
+    corner: ちょっぴりタイムマシン

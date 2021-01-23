@@ -1,0 +1,107 @@
+id: "20200153"
+week: 153
+year: 2020
+title: ポール・ウェラーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2020-12-06
+playlist:
+  - id: "2020015301"
+    week: 153
+    index: 1267
+    indexInWeek: 1
+    title: ありがとさん
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: I24azAvtwu8
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2020015302"
+    week: 153
+    index: 1268
+    indexInWeek: 2
+    title: In the City
+    artist: The Jam
+    year: 1977
+    nation: UK
+    label: Polydor
+    producer:
+      - Vic Coppersmith-Heaven
+      - Chris Parry
+    youtube: ycnWuHsly0A
+    selector: 草野マサムネ
+  - id: "2020015303"
+    week: 153
+    index: 1269
+    indexInWeek: 3
+    title: Happy Together
+    artist: The Jam
+    year: 1982
+    nation: UK
+    label: Polydor
+    youtube: AIM4sMJBl1U
+    producer:
+      - Peter Wilson
+    selector: 草野マサムネ
+  - id: "2020015304"
+    week: 153
+    index: 1270
+    indexInWeek: 4
+    title: Shout to the Top!
+    artist: The Style Council
+    year: 1984
+    nation: UK
+    label: Polydor
+    youtube: 7m94ip38UKs
+    selector: 草野マサムネ
+  - id: "2020015305"
+    week: 153
+    index: 1271
+    indexInWeek: 5
+    title: Clues
+    artist: Paul Weller
+    year: 1992
+    nation: UK
+    label: Go! Discs
+    youtube: RxrrR3QT-SE
+    selector: 草野マサムネ
+  - id: "2020015306"
+    week: 153
+    index: 1272
+    indexInWeek: 6
+    title: Has My Fire Really Gone Out?
+    artist: Paul Weller
+    year: 1993
+    nation: UK
+    label: Go! Discs
+    producer:
+      - Brendan Lynch
+    youtube: YEFw_CDb4MQ
+    selector: 草野マサムネ
+  - id: "2020015307"
+    week: 153
+    index: 1273
+    indexInWeek: 7
+    title: Village
+    artist: Paul Weller
+    year: 2020
+    nation: UK
+    label: Polydor
+    youtube: gtiwCIhkqJE
+    selector: 草野マサムネ
+  - id: "2020015308"
+    week: 153
+    index: 1274
+    indexInWeek: 8
+    title: 流れ星
+    artist: 辺見えみり
+    kana: へんみえみり
+    year: 1996
+    nation: JPN
+    label: ファンハウス
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
