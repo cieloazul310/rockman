@@ -1,27 +1,19 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useAllTunes } from './useAllTunes';
 import { AllYearsQuery } from '../../../graphql-types';
 
 export function useAllYears() {
-  const allTunes = useAllTunes();
   const data = useStaticQuery<AllYearsQuery>(graphql`
     query AllYears {
-      allProgram {
-        group(field: playlist___year) {
+      allProgramPlaylist(sort: { fields: id, order: ASC }) {
+        group(field: year) {
+          totalCount
           fieldValue
         }
       }
     }
   `);
-  return React.useMemo(
-    () =>
-      data.allProgram.group.map(({ fieldValue }) => ({
-        fieldValue: fieldValue,
-        tunes: allTunes.filter((tune) => tune?.year === parseInt(fieldValue ?? '0', 10)),
-      })),
-    [allTunes, data]
-  );
+  return data.allProgramPlaylist.group;
 }
 
 export function useDecades(years: number[] = []) {
@@ -38,7 +30,7 @@ export function useDecades(years: number[] = []) {
       const items = allYears.filter(({ fieldValue }) => Math.floor(parseInt(fieldValue ?? '0', 10) / 10) === decade / 10);
       return {
         fieldValue: `${decade}s`,
-        value: items.reduce((accum, curr) => accum + curr.tunes.length, 0),
+        value: items.reduce((accum, curr) => accum + curr.totalCount, 0),
         items,
       };
     });

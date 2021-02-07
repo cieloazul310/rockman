@@ -7,8 +7,8 @@ const path = require('path');
 const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
 */
 
-exports.onCreateNode = ({ node, actions }) => {
-  const { createNodeField } = actions;
+exports.onCreateNode = async ({ node, actions }) => {
+  const { createNode, createNodeField } = actions;
   if (node.internal.type === `program`) {
     // /program/${node.id}/
     const slug = `/program/${node.id}`;
@@ -16,6 +16,17 @@ exports.onCreateNode = ({ node, actions }) => {
       node,
       name: `slug`,
       value: slug,
+    });
+    node.playlist.forEach(async (playlist) => {
+      await createNode({
+        ...playlist,
+        parent: node.id,
+        children: [],
+        internal: {
+          type: 'programPlaylist',
+          contentDigest: `${playlist.title}/${playlist.artist}`,
+        },
+      });
     });
   }
 };
