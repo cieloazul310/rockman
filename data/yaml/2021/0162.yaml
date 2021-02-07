@@ -1,7 +1,7 @@
 id: "20200162"
 week: 162
 year: 2021
-title: ピコピコピュンピュン懐かしめシンセロックで漫遊記
+title: 日本のロック御三家辺りで漫遊記
 subtitle: ""
 guests: []
 categories: []
@@ -11,9 +11,9 @@ playlist:
     week: 162
     index: 1340
     indexInWeek: 1
-    title: 見っけ
+    title: タイム・トラベル
     artist: スピッツ
-    year: 2019
+    year: 2012
     nation: JPN
     label: ユニバーサル
     corner: 漫遊前の一曲
@@ -24,84 +24,79 @@ playlist:
     week: 162
     index: 1341
     indexInWeek: 2
-    title: Pop Muzik
-    artist: M
-    year: 1979
-    nation: UK
-    label: MCA
-    youtube: gPoiv0sZ4s4
+    title: 銃爪
+    artist: 世良公則&ツイスト
+    kana: せらまさのりあんどついすと
+    year: 1978
+    nation: JPN
+    label: キャニオン・レコード
     selector: 草野マサムネ
   - id: "2021016203"
     week: 162
     index: 1342
     indexInWeek: 3
-    title: RYDEEN
-    artist: Yellow Magic Orchestra
-    year: 1979
+    title: てぃーんず ぶるーす
+    artist: 原田真二
+    kana: はらだしんじ
+    year: 1977
     nation: JPN
-    label: アルファレコード
-    youtube: nB5g2cUM2FQ
+    label: フォーライフレコード
     producer:
-      - 細野晴臣
+      - 吉田拓郎
     selector: 草野マサムネ
   - id: "2021016204"
     week: 162
     index: 1343
     indexInWeek: 4
-    title: COPY
-    artist: Plastics
-    year: 1980
+    title: 闘牛士
+    artist: Char
+    year: 1978
     nation: JPN
-    label: Invitatio
-    producer:
-      - 佐久間正英
+    label: SEE-SAW
     selector: 草野マサムネ
   - id: "2021016205"
     week: 162
     index: 1344
     indexInWeek: 5
-    title: The Meaning of Love
-    artist: Depeche Mode
-    year: 1982
-    nation: UK
-    label: Mute
-    producer:
-      - Daniel Miller
-    youtube: Fkc6TYIxNls
+    title: 銀河鉄道999
+    artist: ゴダイゴ
+    year: 1979
+    nation: JPN
+    label: 日本コロムビア
     selector: 草野マサムネ
   - id: "2021016206"
     week: 162
     index: 1345
     indexInWeek: 6
-    title: 謎の呪文
-    artist: ヒカシュー
-    year: 1980
+    title: 勝手にシンドバッド
+    artist: サザンオールスターズ
+    year: 1978
     nation: JPN
-    label: イーストワールド
-    producer:
-      - 近田春夫
+    label: Invitation
     selector: 草野マサムネ
   - id: "2021016207"
     week: 162
     index: 1346
     indexInWeek: 7
-    title: Enola Gay
-    artist: Orchestral Manoeuvres in the Dark
-    year: 1980
-    nation: UK
-    label: Dindisc
+    title: 時間よ止まれ
+    artist: 矢沢永吉
+    kana: やざわえいきち
+    year: 1978
+    nation: JPN
+    label: CBSソニー
     producer:
-      - Mike Howlett
-    youtube: d5XJ2GiR6Bo
+      - 大森昭男
+    youtube: hr-G4BdIBl0
     selector: 草野マサムネ
   - id: "2021016208"
     week: 162
     index: 1347
     indexInWeek: 8
-    title: ジェニーはご機嫌ななめ
-    artist: ジューシィ・フルーツ
-    year: 1980
+    title: サード・レディー
+    artist: 桑名正博
+    kana: くわなまさひろ
+    year: 1978
     nation: JPN
-    label: BLOW UP
+    label: RVC
     selector: 草野マサムネ
     corner: ちょっぴりタイムマシン
