@@ -1,0 +1,113 @@
+id: "20200160"
+week: 160
+year: 2021
+title: アークティック・モンキーズで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-01-24
+playlist:
+  - id: "2021016001"
+    week: 160
+    index: 1324
+    indexInWeek: 1
+    title: ガーベラ
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ユニバーサルポリドール
+    corner: 漫遊前の一曲
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021016002"
+    week: 160
+    index: 1325
+    indexInWeek: 2
+    title: I Bet You Look Good on the Dancefloor
+    artist: Arctic Monkeys
+    year: 2006
+    nation: UK
+    label: Domino
+    producer:
+      - Jim Abbiss
+    youtube: pK7egZaT3hs
+    selector: 草野マサムネ
+  - id: "2021016003"
+    week: 160
+    index: 1326
+    indexInWeek: 3
+    title: Brianstorm
+    artist: Arctic Monkeys
+    year: 2007
+    nation: UK
+    label: Domino
+    youtube: 30w8DyEJ__0
+    producer:
+      - James Ford
+    selector: 草野マサムネ
+  - id: "2021016004"
+    week: 160
+    index: 1327
+    indexInWeek: 4
+    title: Fluorescent Adolescent
+    artist: Arctic Monkeys
+    year: 2007
+    nation: UK
+    label: Domino
+    youtube: ma9I9VBKPiw
+    producer:
+      - James Ford
+    selector: 草野マサムネ
+  - id: "2021016005"
+    week: 160
+    index: 1328
+    indexInWeek: 5
+    title: She's Thunderstorms
+    artist: Arctic Monkeys
+    year: 2011
+    nation: UK
+    label: Domino
+    producer:
+      - James Ford
+    youtube: F1sjJjmpQ6A
+    selector: 草野マサムネ
+  - id: "2021016006"
+    week: 160
+    index: 1329
+    indexInWeek: 6
+    title: R U Mine?
+    artist: Arctic Monkeys
+    year: 2013
+    nation: UK
+    label: Domino
+    youtube: VQH8ZTgna3Q
+    producer:
+      - James Ford
+      - Ross Orton
+    selector: 草野マサムネ
+  - id: "2021016007"
+    week: 160
+    index: 1330
+    indexInWeek: 7
+    title: Tranquility Base Hotel & Casino
+    artist: Arctic Monkeys
+    year: 2018
+    nation: UK
+    label: Domino
+    producer:
+      - James Ford
+    youtube: mXuUAtAtMtM
+    selector: 草野マサムネ
+  - id: "2021016008"
+    week: 160
+    index: 1331
+    indexInWeek: 8
+    title: Cosmic rays
+    artist: HUSKING BEE
+    year: 2002
+    nation: JPN
+    label: TOY'S FACTORY
+    youtube: cTm4se-RR-Y
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
