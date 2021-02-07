@@ -1,0 +1,107 @@
+id: "20200162"
+week: 162
+year: 2021
+title: ピコピコピュンピュン懐かしめシンセロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-02-07
+playlist:
+  - id: "2021016201"
+    week: 162
+    index: 1340
+    indexInWeek: 1
+    title: 見っけ
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021016202"
+    week: 162
+    index: 1341
+    indexInWeek: 2
+    title: Pop Muzik
+    artist: M
+    year: 1979
+    nation: UK
+    label: MCA
+    youtube: gPoiv0sZ4s4
+    selector: 草野マサムネ
+  - id: "2021016203"
+    week: 162
+    index: 1342
+    indexInWeek: 3
+    title: RYDEEN
+    artist: Yellow Magic Orchestra
+    year: 1979
+    nation: JPN
+    label: アルファレコード
+    youtube: nB5g2cUM2FQ
+    producer:
+      - 細野晴臣
+    selector: 草野マサムネ
+  - id: "2021016204"
+    week: 162
+    index: 1343
+    indexInWeek: 4
+    title: COPY
+    artist: Plastics
+    year: 1980
+    nation: JPN
+    label: Invitatio
+    producer:
+      - 佐久間正英
+    selector: 草野マサムネ
+  - id: "2021016205"
+    week: 162
+    index: 1344
+    indexInWeek: 5
+    title: The Meaning of Love
+    artist: Depeche Mode
+    year: 1982
+    nation: UK
+    label: Mute
+    producer:
+      - Daniel Miller
+    youtube: Fkc6TYIxNls
+    selector: 草野マサムネ
+  - id: "2021016206"
+    week: 162
+    index: 1345
+    indexInWeek: 6
+    title: 謎の呪文
+    artist: ヒカシュー
+    year: 1980
+    nation: JPN
+    label: イーストワールド
+    producer:
+      - 近田春夫
+    selector: 草野マサムネ
+  - id: "2021016207"
+    week: 162
+    index: 1346
+    indexInWeek: 7
+    title: Enola Gay
+    artist: Orchestral Manoeuvres in the Dark
+    year: 1980
+    nation: UK
+    label: Dindisc
+    producer:
+      - Mike Howlett
+    youtube: d5XJ2GiR6Bo
+    selector: 草野マサムネ
+  - id: "2021016208"
+    week: 162
+    index: 1347
+    indexInWeek: 8
+    title: ジェニーはご機嫌ななめ
+    artist: ジューシィ・フルーツ
+    year: 1980
+    nation: JPN
+    label: BLOW UP
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
