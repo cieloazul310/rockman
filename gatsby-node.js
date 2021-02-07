@@ -17,9 +17,13 @@ exports.onCreateNode = async ({ node, actions }) => {
       name: `slug`,
       value: slug,
     });
+    const programImages = [];
+
     node.playlist.forEach(async (playlist) => {
+      if (playlist.youtube) programImages.push(playlist.youtube);
       await createNode({
         ...playlist,
+        image: playlist.youtube ? `https://i.ytimg.com/vi/${playlist.youtube}/0.jpg` : null,
         parent: node.id,
         children: [],
         internal: {
@@ -27,6 +31,12 @@ exports.onCreateNode = async ({ node, actions }) => {
           contentDigest: `${playlist.title}/${playlist.artist}`,
         },
       });
+    });
+
+    createNodeField({
+      node,
+      name: 'image',
+      value: programImages.length ? `https://i.ytimg.com/vi/${programImages[0]}/0.jpg` : null,
     });
   }
 };
