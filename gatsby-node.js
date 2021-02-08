@@ -1,4 +1,5 @@
 const path = require('path');
+const crypto = require('crypto');
 //const { createFilePath } = require(`gatsby-source-filesystem`);
 /**
  * @fix load ts file in gatsby-node.js
@@ -7,8 +8,27 @@ const path = require('path');
 const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
 */
 
-exports.onCreateNode = async ({ node, actions }) => {
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type Artist implements Node {
+      name: String!
+      kana: String
+      image: String
+      sortName: String!
+      nation: String!
+      program: [program] @link
+      tunes: [programPlaylist] @link
+      programCount: Int!
+      tunesCount: Int!
+    }
+  `);
+};
+const artists = {};
+
+exports.onCreateNode = ({ node, actions }) => {
   const { createNode, createNodeField } = actions;
+
   if (node.internal.type === `program`) {
     // /program/${node.id}/
     const slug = `/program/${node.id}`;
@@ -19,16 +39,32 @@ exports.onCreateNode = async ({ node, actions }) => {
     });
     const programImages = [];
 
-    node.playlist.forEach(async (playlist) => {
-      if (playlist.youtube) programImages.push(playlist.youtube);
-      await createNode({
+    node.playlist.forEach((playlist) => {
+      const { artist, kana, nation, youtube } = playlist;
+      if (youtube) programImages.push(youtube);
+
+      if (!artists[artist]) {
+        artists[artist] = {
+          name: artist,
+          kana,
+          nation,
+          program: [],
+          tunes: [],
+        };
+      }
+      if (!artists[artist].program.includes(node.id)) {
+        artists[artist].program.push(node.id);
+      }
+      artists[artist].tunes.push(playlist);
+
+      createNode({
         ...playlist,
         image: playlist.youtube ? `https://i.ytimg.com/vi/${playlist.youtube}/0.jpg` : null,
         parent: node.id,
         children: [],
         internal: {
           type: 'programPlaylist',
-          contentDigest: `${playlist.title}/${playlist.artist}`,
+          contentDigest: crypto.createHash(`md5`).update(JSON.stringify(playlist)).digest(`hex`),
         },
       });
     });
@@ -37,6 +73,30 @@ exports.onCreateNode = async ({ node, actions }) => {
       node,
       name: 'image',
       value: programImages.length ? `https://i.ytimg.com/vi/${programImages[0]}/0.jpg` : null,
+    });
+
+    // create Artist Node
+    const playlistArtist = new Set(node.playlist.map(({ artist }) => artist));
+    playlistArtist.forEach((name) => {
+      const data = artists[name];
+      console.log(name);
+      const images = data.tunes.filter((tune) => tune.youtube && tune.youtube !== '');
+      createNode({
+        name,
+        ...data,
+        image: images.length ? `https://i.ytimg.com/vi/${images[images.length - 1].youtube}/0.jpg` : null,
+        tunes: data.tunes.map((tune) => tune.id),
+        sortName: getYomi(name, data.kana),
+        programCount: data.program.length,
+        tunesCount: data.tunes.length,
+        id: name,
+        parent: null,
+        children: [],
+        internal: {
+          type: 'Artist',
+          contentDigest: crypto.createHash(`md5`).update(JSON.stringify(data)).digest(`hex`),
+        },
+      });
     });
   }
 };
@@ -98,20 +158,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // create Artists Pages
   const artistResult = await graphql(`
     query AllArtists {
-      allProgram(sort: { fields: date, order: ASC }) {
-        group(field: playlist___artist) {
-          edges {
-            node {
-              id
-              playlist {
-                artist
-                kana
-                nation
-                youtube
-              }
-            }
+      allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
+        edges {
+          node {
+            name
           }
-          fieldValue
+          next {
+            name
+            image
+            tunesCount
+            programCount
+          }
+          previous {
+            name
+            image
+            tunesCount
+            programCount
+          }
         }
       }
     }
@@ -120,56 +183,29 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
 
-  const artists = artistResult.data.allProgram.group.map((item) => {
-    const edges = removeMultiple(item.edges).map(({ node }) => ({
-      ...node,
-      playlist: node.playlist.filter(({ artist }) => artist === item.fieldValue),
-    }));
-    const tunes = edges.reduce((accum, curr) => [...accum, ...curr.playlist], []);
-    const [{ kana, nation }] = tunes;
-    const [img] = tunes.filter((tune) => tune.youtube && tune.youtube !== '').map((tune) => tune.youtube);
-    return {
-      fieldValue: item.fieldValue,
-      kana,
-      nation,
-      edges,
-      tunes,
-      img: img ? `https://i.ytimg.com/vi/${img}/0.jpg` : null,
-    };
-  });
-
-  artists
-    .sort((a, b) => sortByYomi(a, b))
-    .forEach((d, index, arr) => {
-      const previous = index ? arr[index - 1] : null;
-      const next = index !== arr.length - 1 ? arr[index + 1] : null;
-      createPage({
-        path: `/artist/${d.fieldValue}/`,
-        component: path.resolve('./src/templates/artist.tsx'),
-        context: {
-          index,
-          previous,
-          next,
-          current: d,
-          fieldValue: d.fieldValue,
-        },
-      });
+  artistResult.data.allArtist.edges.forEach(({ node, next, previous }, index) => {
+    createPage({
+      path: `/artist/${node.name}/`,
+      component: path.resolve('./src/templates/artist.tsx'),
+      context: {
+        index,
+        previous,
+        next,
+        name: node.name,
+      },
     });
+  });
 };
-
-function sortByYomi(a, b) {
-  return getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana));
-}
 
 function getYomi(artistName, kana) {
   const the = artistName.slice(0, 4);
-  if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
-  return kana || artistName;
+  if (the === 'The ' || the === 'THE ' || the === 'the ') return kanaToHira(artistName.slice(4));
+  return kanaToHira(kana || artistName);
 }
 
-function removeMultiple(edges) {
-  return edges.reduce((accum, curr) => {
-    if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
-    return [...accum, curr];
-  }, []);
+function kanaToHira(str) {
+  return str.replace(/[\u30a1-\u30f6]/g, function (match) {
+    var chr = match.charCodeAt(0) - 0x60;
+    return String.fromCharCode(chr);
+  });
 }

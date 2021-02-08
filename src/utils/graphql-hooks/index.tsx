@@ -5,3 +5,5 @@ export * from './useAllCategories';
 export * from './useAllSelectors';
 export * from './useAllNations';
 export * from './useAllYears';
+export * from './useProgramTop25';
+export * from './useTunesTop25';
