@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) =>
 );
 
 interface Props {
-  children: React.ReactNode | JSX.Element | JSX.Element[] | string | (React.ReactNode | JSX.Element | JSX.Element[] | string)[];
+  children: React.ReactNode;
 }
 
 function ContentBasis({ children }: Props) {
