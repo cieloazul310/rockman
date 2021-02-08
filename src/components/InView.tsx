@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import FallBack from './FallBack';
 
 interface Props {
-  children: JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[] | string;
+  children: React.ReactNode;
 }
 
 function InView({ children }: Props) {

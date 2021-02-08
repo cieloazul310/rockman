@@ -1,0 +1,102 @@
+id: "20200162"
+week: 162
+year: 2021
+title: 日本のロック御三家辺りで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-02-07
+playlist:
+  - id: "2021016201"
+    week: 162
+    index: 1340
+    indexInWeek: 1
+    title: タイム・トラベル
+    artist: スピッツ
+    year: 2012
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021016202"
+    week: 162
+    index: 1341
+    indexInWeek: 2
+    title: 銃爪
+    artist: 世良公則&ツイスト
+    kana: せらまさのりあんどついすと
+    year: 1978
+    nation: JPN
+    label: キャニオン・レコード
+    selector: 草野マサムネ
+  - id: "2021016203"
+    week: 162
+    index: 1342
+    indexInWeek: 3
+    title: てぃーんず ぶるーす
+    artist: 原田真二
+    kana: はらだしんじ
+    year: 1977
+    nation: JPN
+    label: フォーライフレコード
+    producer:
+      - 吉田拓郎
+    selector: 草野マサムネ
+  - id: "2021016204"
+    week: 162
+    index: 1343
+    indexInWeek: 4
+    title: 闘牛士
+    artist: Char
+    year: 1978
+    nation: JPN
+    label: SEE-SAW
+    selector: 草野マサムネ
+  - id: "2021016205"
+    week: 162
+    index: 1344
+    indexInWeek: 5
+    title: 銀河鉄道999
+    artist: ゴダイゴ
+    year: 1979
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+  - id: "2021016206"
+    week: 162
+    index: 1345
+    indexInWeek: 6
+    title: 勝手にシンドバッド
+    artist: サザンオールスターズ
+    year: 1978
+    nation: JPN
+    label: Invitation
+    selector: 草野マサムネ
+  - id: "2021016207"
+    week: 162
+    index: 1346
+    indexInWeek: 7
+    title: 時間よ止まれ
+    artist: 矢沢永吉
+    kana: やざわえいきち
+    year: 1978
+    nation: JPN
+    label: CBSソニー
+    producer:
+      - 大森昭男
+    youtube: hr-G4BdIBl0
+    selector: 草野マサムネ
+  - id: "2021016208"
+    week: 162
+    index: 1347
+    indexInWeek: 8
+    title: サード・レディー
+    artist: 桑名正博
+    kana: くわなまさひろ
+    year: 1978
+    nation: JPN
+    label: RVC
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

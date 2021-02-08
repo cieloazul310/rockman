@@ -65,7 +65,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
           header={`第${item.week}回 ${item.date} 全${item.playlist?.length ?? 0}曲`}
           subtitle={item.subtitle ?? undefined}
           artists={Array.from(new Set(item.playlist?.map((d) => d?.artist ?? '')))}
-          imgUrl={item.img ?? undefined}
+          imgUrl={item.fields?.image ?? undefined}
         />
         <ResponsiveContainer maxWidth="md">
           <Box pt={4}>
@@ -152,6 +152,9 @@ export const query = graphql`
       year
       guests
       categories
+      fields {
+        image
+      }
       playlist {
         artist
         corner
@@ -160,14 +163,13 @@ export const query = graphql`
         indexInWeek
         label
         kana
-        name
         nation
-        producer
         selector
         title
         year
         week
         youtube
+        image
       }
     }
   }
