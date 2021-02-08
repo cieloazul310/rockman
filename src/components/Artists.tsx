@@ -11,13 +11,13 @@ import sortArtists, { SortType } from '../utils/sortByYomi';
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
   return (
-    <ListItemAppLink button style={style} key={index} to={`/artist/${artist.node.name}/`}>
+    <ListItemAppLink button style={style} key={index} to={`/artist/${artist.fieldValue}/`}>
       <ListItemAvatar>
-        <NationAvatar nation={artist.node.nation} img={artist.node.image ?? undefined} alt={artist.node.name} />
+        <NationAvatar nation={artist.nation} img={artist.img} alt={artist.fieldValue} />
       </ListItemAvatar>
-      <ListItemText primary={artist.node.name} secondary={artist.node.kana || null} />
+      <ListItemText primary={artist.fieldValue} secondary={artist.kana || null} />
       <Typography variant="button" component="span">
-        {`${artist.node.tunesCount}曲 / ${artist.node.programCount}回`}
+        {`${artist.tunes.length}曲 / ${artist.edges.length}回`}
       </Typography>
     </ListItemAppLink>
   );

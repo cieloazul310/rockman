@@ -1,32 +1,10 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { AllTunesQuery } from '../../../graphql-types';
+import { useAllPrograms, ProgramEdge } from './useAllPrograms';
 
 export function useAllTunes() {
-  const data = useStaticQuery<AllTunesQuery>(graphql`
-    query AllTunes {
-      allProgramPlaylist(sort: { fields: id, order: ASC }) {
-        edges {
-          node {
-            artist
-            corner
-            id
-            image
-            index
-            indexInWeek
-            kana
-            label
-            nation
-            producer
-            selector
-            title
-            week
-            year
-            youtube
-          }
-        }
-      }
-    }
-  `);
-  return React.useMemo(() => data.allProgramPlaylist.edges, [data]);
+  const allProgram = useAllPrograms();
+  type Playlist = NonNullable<ProgramEdge['node']['playlist']>;
+  return React.useMemo(() => allProgram.reduce<Playlist>((accum, curr) => (curr.playlist ? [...accum, ...curr.playlist] : accum), []), [
+    allProgram,
+  ]);
 }

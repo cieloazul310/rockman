@@ -48,11 +48,11 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
 );
 
 interface Props {
-  header?: React.ReactNode;
-  title: React.ReactNode;
+  header?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
+  title: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   height?: number;
   artists?: string[];
-  subtitle?: React.ReactNode;
+  subtitle?: string | JSX.Element | JSX.Element[] | (JSX.Element | JSX.Element[])[];
   imgUrl?: string;
 }
 
