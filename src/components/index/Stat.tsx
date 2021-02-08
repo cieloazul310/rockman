@@ -82,13 +82,13 @@ export function StatsFallBack() {
 }
 
 export default function Stats() {
-  const { allProgram, allProgramPlaylist, allArtist } = useStaticQuery<StatQuery>(graphql`
+  const { allProgram, allArtist } = useStaticQuery<StatQuery>(graphql`
     query Stat {
       allProgram {
         totalCount
-      }
-      allProgramPlaylist {
-        totalCount
+        group(field: playlist) {
+          totalCount
+        }
       }
       allArtist {
         totalCount
@@ -99,7 +99,7 @@ export default function Stats() {
   return (
     <Grid container>
       <Stat icon={<ProgramIcon fontSize="inherit" />} value={allProgram.totalCount} title="放送" label="回" />
-      <Stat icon={<TuneIcon fontSize="inherit" />} value={allProgramPlaylist.totalCount} title="曲数" label="曲" />
+      <Stat icon={<TuneIcon fontSize="inherit" />} value={allProgram.group[0].totalCount} title="曲数" label="曲" />
       <Stat icon={<ArtistIcon fontSize="inherit" />} value={allArtist.totalCount} title="アーティスト" label="組" />
     </Grid>
   );

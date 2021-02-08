@@ -1,39 +1,48 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
 //import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
+// import Box from '@material-ui/core/Box';
+//import SwipeableViews from 'react-swipeable-views';
+// import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
+// import List from '@material-ui/core/List';
+// import ListSubheader from '@material-ui/core/ListSubheader';
 import Layout from 'gatsby-theme-aoi/src/layout';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
-import Jumbotron from '../components/Jumbotron';
-import DrawerNavigation from '../components/DrawerNavigation';
-import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
-import PageNavigation from '../components/PageNavigation';
-import NavigationBox from '../components/NavigationBox';
-import ContentBasis from '../components/ContentBasis';
-import ResponsiveContainer from '../components/ResponsiveContainer';
-import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
-import createDescriptionString from '../utils/createDescriptionString';
-import getAroundPrograms from '../utils/getAroundPrograms';
+// import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import { ProgramPageHeader } from '../components/PageHeader';
+// import Jumbotron from '../components/Jumbotron';
+// import DrawerNavigation from '../components/DrawerNavigation';
+// import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
+// import PageNavigation from '../components/PageNavigation';
+// import NavigationBox from '../components/NavigationBox';
+// import ContentBasis from '../components/ContentBasis';
+// import ResponsiveContainer from '../components/ResponsiveContainer';
+// import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
+// import createDescriptionString from '../utils/createDescriptionString';
+// import getAroundPrograms from '../utils/getAroundPrograms';
 import { QueriedProgram } from '../types';
-import { ProgramTemplateQuery } from '../../graphql-types';
+import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
-const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+// const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
 interface Props {
   data: ProgramTemplateQuery;
-  pageContext: {
-    slug: string;
-    previous: QueriedProgram;
-    next: QueriedProgram;
-    index: number;
-  };
+  pageContext: SitePageContext;
 }
 
 function ProgramTemplate({ data, pageContext }: Props) {
+  return (
+    <Layout title={data.program?.title} disableGutters disablePaddingTop>
+      <ProgramPageHeader program={data.program} />
+      <div>
+        {data.program?.playlist?.map((tune) => (
+          <p key={tune?.id}>
+            {tune?.title} / {tune?.artist?.name}
+          </p>
+        ))}
+      </div>
+    </Layout>
+  );
+  /*
   const { program } = data;
   const { previous, next, index, slug } = pageContext;
   const allPrograms = useAllPrograms();
@@ -129,6 +138,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
       />
     </Layout>
   );
+  */
 }
 
 export default ProgramTemplate;
@@ -156,7 +166,11 @@ export const query = graphql`
         image
       }
       playlist {
-        artist
+        artist {
+          name
+          programCount
+          tunesCount
+        }
         corner
         id
         index
@@ -169,7 +183,6 @@ export const query = graphql`
         year
         week
         youtube
-        image
       }
     }
   }

@@ -22,6 +22,33 @@ exports.createSchemaCustomization = ({ actions }) => {
       programCount: Int!
       tunesCount: Int!
     }
+    type program implements Node {
+      week: Int!
+      year: Int!
+      title: String!
+      subtitle: String
+      guests: [String]
+      categories: [String]
+      date: Date! @dateformat
+      playlist: [programPlaylist]
+    }
+    type programPlaylist {
+      id: String!
+      index: Int
+      indexInWeek: Int!
+      week: Int!
+      title: String!
+      artist: Artist @link(by: "name")
+      kana: String
+      year: Int!
+      nation: String!
+      label: String
+      producer: [String]
+      corner: String
+      youtube: String
+      selector: String!
+      image: String
+    }
   `);
 };
 const artists = {};
@@ -56,7 +83,7 @@ exports.onCreateNode = ({ node, actions }) => {
         artists[artist].program.push(node.id);
       }
       artists[artist].tunes.push(playlist);
-
+      /*
       createNode({
         ...playlist,
         image: playlist.youtube ? `https://i.ytimg.com/vi/${playlist.youtube}/0.jpg` : null,
@@ -67,6 +94,7 @@ exports.onCreateNode = ({ node, actions }) => {
           contentDigest: crypto.createHash(`md5`).update(JSON.stringify(playlist)).digest(`hex`),
         },
       });
+      */
     });
 
     createNodeField({
