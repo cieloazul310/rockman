@@ -51,40 +51,27 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
-            id
-            title
-            date(formatString: "YYYY-MM-DD")
             fields {
               slug
-            }
-            week
-            playlist {
-              youtube
             }
           }
           next {
-            id
             title
             date(formatString: "YYYY-MM-DD")
             fields {
               slug
+              image
             }
             week
-            playlist {
-              youtube
-            }
           }
           previous {
-            id
             title
             date(formatString: "YYYY-MM-DD")
             fields {
               slug
+              image
             }
             week
-            playlist {
-              youtube
-            }
           }
         }
       }

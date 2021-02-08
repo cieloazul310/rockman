@@ -11,6 +11,7 @@ export function useAllTunes() {
             artist
             corner
             id
+            image
             index
             indexInWeek
             kana
