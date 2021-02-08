@@ -7,8 +7,8 @@ const path = require('path');
 const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
 */
 
-exports.onCreateNode = ({ node, actions }) => {
-  const { createNodeField } = actions;
+exports.onCreateNode = async ({ node, actions }) => {
+  const { createNode, createNodeField } = actions;
   if (node.internal.type === `program`) {
     // /program/${node.id}/
     const slug = `/program/${node.id}`;
@@ -16,6 +16,27 @@ exports.onCreateNode = ({ node, actions }) => {
       node,
       name: `slug`,
       value: slug,
+    });
+    const programImages = [];
+
+    node.playlist.forEach(async (playlist) => {
+      if (playlist.youtube) programImages.push(playlist.youtube);
+      await createNode({
+        ...playlist,
+        image: playlist.youtube ? `https://i.ytimg.com/vi/${playlist.youtube}/0.jpg` : null,
+        parent: node.id,
+        children: [],
+        internal: {
+          type: 'programPlaylist',
+          contentDigest: `${playlist.title}/${playlist.artist}`,
+        },
+      });
+    });
+
+    createNodeField({
+      node,
+      name: 'image',
+      value: programImages.length ? `https://i.ytimg.com/vi/${programImages[0]}/0.jpg` : null,
     });
   }
 };
@@ -30,40 +51,27 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
-            id
-            title
-            date(formatString: "YYYY-MM-DD")
             fields {
               slug
-            }
-            week
-            playlist {
-              youtube
             }
           }
           next {
-            id
             title
             date(formatString: "YYYY-MM-DD")
             fields {
               slug
+              image
             }
             week
-            playlist {
-              youtube
-            }
           }
           previous {
-            id
             title
             date(formatString: "YYYY-MM-DD")
             fields {
               slug
+              image
             }
             week
-            playlist {
-              youtube
-            }
           }
         }
       }
