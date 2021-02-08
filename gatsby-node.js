@@ -1,4 +1,5 @@
 const path = require('path');
+const crypto = require('crypto');
 //const { createFilePath } = require(`gatsby-source-filesystem`);
 /**
  * @fix load ts file in gatsby-node.js
@@ -7,8 +8,25 @@ const path = require('path');
 const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
 */
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type Artist implements Node {
+      name: String!
+      kana: String
+      sortName: String!
+      nation: String!
+      program: [program] @link
+      tunes: [programPlaylist] @link
+    }
+  `);
+};
+
 exports.onCreateNode = async ({ node, actions }) => {
   const { createNode, createNodeField } = actions;
+
+  const artists = {};
+
   if (node.internal.type === `program`) {
     // /program/${node.id}/
     const slug = `/program/${node.id}`;
@@ -19,8 +37,24 @@ exports.onCreateNode = async ({ node, actions }) => {
     });
     const programImages = [];
 
-    node.playlist.forEach(async (playlist) => {
-      if (playlist.youtube) programImages.push(playlist.youtube);
+    node.playlist.forEach(async ({ artist, kana, nation, youtube, ...playlist }) => {
+      if (youtube) programImages.push(youtube);
+
+      if (!artists[artist]) {
+        artists[artist] = {
+          name: artist,
+          kana,
+          nation,
+          program: [node.id],
+          tunes: [playlist],
+        };
+      } else {
+        if (!artists[artist].program.includes(node.id)) {
+          artists[artist].program.push(node.id);
+        }
+        artists[artist].tunes.push(playlist.id);
+      }
+
       await createNode({
         ...playlist,
         image: playlist.youtube ? `https://i.ytimg.com/vi/${playlist.youtube}/0.jpg` : null,
@@ -28,7 +62,7 @@ exports.onCreateNode = async ({ node, actions }) => {
         children: [],
         internal: {
           type: 'programPlaylist',
-          contentDigest: `${playlist.title}/${playlist.artist}`,
+          contentDigest: crypto.createHash(`md5`).update(JSON.stringify(playlist)).digest(`hex`),
         },
       });
     });
@@ -39,6 +73,24 @@ exports.onCreateNode = async ({ node, actions }) => {
       value: programImages.length ? `https://i.ytimg.com/vi/${programImages[0]}/0.jpg` : null,
     });
   }
+
+  Object.entries(artists).forEach(([name, data]) => {
+    const images = data.tunes.filter((tune) => tune.youtube && tune.youtube !== '');
+    createNode({
+      name,
+      ...data,
+      image: images[images.length - 1],
+      tunes: data.tunes.map((tune) => tune.id),
+      sortName: getYomi(name, data.kana),
+      id: name,
+      parent: null,
+      children: [],
+      internal: {
+        type: 'Artist',
+        contentDigest: crypto.createHash(`md5`).update(JSON.stringify(data)).digest(`hex`),
+      },
+    });
+  });
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -163,8 +215,8 @@ function sortByYomi(a, b) {
 
 function getYomi(artistName, kana) {
   const the = artistName.slice(0, 4);
-  if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
-  return kana || artistName;
+  if (the === 'The ' || the === 'THE ' || the === 'the ') return kanaToHira(artistName.slice(4));
+  return kanaToHira(kana || artistName);
 }
 
 function removeMultiple(edges) {
@@ -172,4 +224,11 @@ function removeMultiple(edges) {
     if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
     return [...accum, curr];
   }, []);
+}
+
+function kanaToHira(str) {
+  return str.replace(/[\u30a1-\u30f6]/g, function (match) {
+    var chr = match.charCodeAt(0) - 0x60;
+    return String.fromCharCode(chr);
+  });
 }
