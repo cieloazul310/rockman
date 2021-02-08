@@ -7,9 +7,6 @@ import Skeleton from '@material-ui/lab/Skeleton';
 import SwipeableViews from 'react-swipeable-views';
 import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import PageHeader from '../components/PageHeader';
-/*
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
@@ -18,39 +15,31 @@ import PageNavigation, { createNavigationProps } from '../components/PageNavigat
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import RelatedArtists from '../components/RelatedArtists';
-*/
-// import sortArtists from '../utils/sortByYomi';
-// import { useAllArtists } from '../utils/graphql-hooks/';
-import { ArtistTemplateQuery, SitePageContext, Program, ProgramPlaylist } from '../../graphql-types';
+import sortArtists from '../utils/sortByYomi';
+import { useAllArtists } from '../utils/graphql-hooks/';
+import { ArtistTemplateQuery, Program, ProgramPlaylist } from '../../graphql-types';
 
-// const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+
+interface Artist {
+  fieldValue: string;
+  edges: Program[];
+  tunes: ProgramPlaylist[];
+  img?: string;
+}
 
 interface Props {
   data: ArtistTemplateQuery;
-  pageContext: SitePageContext;
+  pageContext: {
+    fieldValue: string;
+    previous?: Artist;
+    next?: Artist;
+    current: Artist;
+    index: number;
+  };
 }
 
 function ArtistTemplate({ data, pageContext }: Props) {
-  const { previous, next } = pageContext;
-  return (
-    <Layout title={data.artist?.name} disableGutters disablePaddingTop>
-      <PageHeader artist={data.artist} />
-      <div>
-        {data.artist?.tunes?.map((tune) => (
-          <p key={tune?.id}>{tune?.title}</p>
-        ))}
-      </div>
-      <div>
-        <p>
-          <AppLink to={`/artist/${previous?.name}`}>{previous?.name}</AppLink>
-        </p>
-        <p>
-          <AppLink to={`/artist/${next?.name}`}>{next?.name}</AppLink>
-        </p>
-      </div>
-    </Layout>
-  );
-  /*
   const allArtists = useAllArtists();
   const artists = React.useMemo(() => sortArtists(allArtists), [allArtists]);
   const { previous, next, index, fieldValue } = pageContext;
@@ -135,40 +124,46 @@ function ArtistTemplate({ data, pageContext }: Props) {
       />
     </Layout>
   );
-  */
 }
 
 export default ArtistTemplate;
 
 export const query = graphql`
-  query ArtistTemplate($name: String!) {
-    artist(name: { eq: $name }) {
-      tunesCount
-      programCount
-      image
-      kana
-      name
-      nation
-      program {
-        date
-        week
-        title
-        subtitle
-      }
-      tunes {
-        corner
-        id
-        image
-        indexInWeek
-        artist
-        kana
-        label
-        nation
-        selector
-        title
-        week
-        year
-        youtube
+  query ArtistTemplate($fieldValue: String!) {
+    allProgram(filter: { playlist: { elemMatch: { artist: { eq: $fieldValue } } } }, sort: { fields: date, order: ASC }) {
+      group(field: date, limit: 1) {
+        edges {
+          node {
+            id
+            title
+            date(formatString: "YYYY-MM-DD")
+            categories
+            fields {
+              slug
+            }
+            guests
+            subtitle
+            week
+            year
+            playlist {
+              artist
+              corner
+              id
+              indexInWeek
+              index
+              kana
+              label
+              name
+              nation
+              producer
+              selector
+              title
+              week
+              year
+              youtube
+            }
+          }
+        }
       }
     }
   }
