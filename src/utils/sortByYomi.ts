@@ -19,15 +19,15 @@ export default function sortArtists(artists: ArtistItem[], options: SortArtistsO
 }
 
 export function sortByYomi(a: ArtistItem, b: ArtistItem) {
-  return getYomi(a.fieldValue, a.kana).localeCompare(getYomi(b.fieldValue, b.kana));
+  return getYomi(a.node.name, a.node.kana ?? undefined).localeCompare(getYomi(b.node.name, b.node.kana ?? undefined));
 }
 
 export function sortByEdges(a: ArtistItem, b: ArtistItem) {
-  return -(a.edges.length - b.edges.length);
+  return -(a.node.programCount - b.node.programCount);
 }
 
 export function sortByTunes(a: ArtistItem, b: ArtistItem) {
-  return -(a.tunes.length - b.tunes.length);
+  return -(a.node.tunesCount - b.node.tunesCount);
 }
 
 export function getYomi(artistName: string, kana?: string) {

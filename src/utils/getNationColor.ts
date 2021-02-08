@@ -13,9 +13,12 @@ const colorScheme = {
 
 export type SchemeNations = keyof typeof colorScheme;
 export const schemeNations = Object.keys(colorScheme);
+export function isSchemeNations(nation: string): nation is SchemeNations {
+  return schemeNations.includes(nation);
+}
 
 export default function getNationColor(nation: string, isDark = false) {
-  if (nation === 'JPN' || nation === 'UK' || nation === 'US' || nation === 'FR' || nation === 'AUS' || nation === 'CAN') {
+  if (isSchemeNations(nation)) {
     return isDark ? colorScheme[nation][300] : colorScheme[nation][500];
   } else {
     return grey[500];

@@ -24,7 +24,7 @@ import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
 import useFullHeight from '../utils/useFullHeight';
-import { useAllNations, ArtistItem } from '../utils/graphql-hooks';
+import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
 import { SortType } from '../utils/sortByYomi';
 
 interface StylesProps {
@@ -122,7 +122,7 @@ function ArtistsPage() {
       return () => true;
     } else {
       const regex = RegExp(`${searchText}`, 'i');
-      return (artist: ArtistItem) => regex.test(artist.fieldValue) || regex.test(artist.kana);
+      return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
     }
   }, [searchText]);
   const _onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -159,10 +159,16 @@ function ArtistsPage() {
   };
   const appearFilters = React.useMemo(
     () => (artist: ArtistItem) =>
-      appearMultiple && appearOnce ? true : appearMultiple ? artist.edges.length > 1 : appearOnce ? artist.edges.length === 1 : false,
+      appearMultiple && appearOnce
+        ? true
+        : appearMultiple
+        ? artist.node.programCount > 1
+        : appearOnce
+        ? artist.node.programCount === 1
+        : false,
     [appearMultiple, appearOnce]
   );
-  const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.nation), [nationFilter]);
+  const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.node.nation), [nationFilter]);
   const filters = React.useMemo(() => [searchFilter, appearFilters, nationFilters], [searchFilter, appearFilters, nationFilters]);
 
   const SortList = () => (
@@ -224,7 +230,7 @@ function ArtistsPage() {
               </ListItemIcon>
               <ListItemText primary={nation.nation} />
               <Typography variant="button" component="span">
-                {nation.artists}
+                {nation.totalCount}
               </Typography>
             </ListItem>
           ))}
