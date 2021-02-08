@@ -16,7 +16,7 @@ function DummyItem() {
 }
 
 interface DisplayOnScreenProps {
-  children: JSX.Element | JSX.Element[];
+  children: React.ReactNode;
   margin?: number;
   once?: boolean;
 }
