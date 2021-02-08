@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllTunesQuery } from '../../../graphql-types';
-
+/*
 export function useAllTunes() {
   const data = useStaticQuery<AllTunesQuery>(graphql`
     query AllTunes {
@@ -30,3 +30,4 @@ export function useAllTunes() {
   `);
   return React.useMemo(() => data.allProgramPlaylist.edges, [data]);
 }
+*/

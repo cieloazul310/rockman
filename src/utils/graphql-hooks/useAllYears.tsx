@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllYearsQuery } from '../../../graphql-types';
-
+/*
 export function useAllYears() {
   const data = useStaticQuery<AllYearsQuery>(graphql`
     query AllYears {
@@ -36,3 +36,4 @@ export function useDecades(years: number[] = []) {
     });
   }, [allYears, years]);
 }
+*/

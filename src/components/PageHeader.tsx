@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import { ArtistTemplateQuery } from '../../graphql-types';
+import { ProgramTemplateQuery, ArtistTemplateQuery } from '../../graphql-types';
 
 interface StylesProps {
   image?: string | null;
@@ -38,29 +38,66 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
 );
 
 interface Props {
-  artist: ArtistTemplateQuery['artist'];
+  image?: string | null;
+  top?: React.ReactNode;
+  bottom?: React.ReactNode;
 }
 
-function PageHeader({ artist }: Props) {
-  const classes = useStyles({ image: artist?.image });
+function PageHeader({ image, top, bottom }: Props) {
+  const classes = useStyles({ image });
   return (
     <div className={classes.root}>
       <div className={classes.left}>
         <div className={classes.image} />
       </div>
       <div className={classes.right}>
-        <div>
+        <div>{top}</div>
+        <div>{bottom}</div>
+      </div>
+    </div>
+  );
+}
+
+export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['program'] }) {
+  return (
+    <PageHeader
+      image={program?.fields?.image}
+      top={
+        <>
+          <Typography variant="body2">{program?.date}</Typography>
+          <Typography variant="h4" component="h2">
+            {program?.title}
+          </Typography>
+        </>
+      }
+      bottom={
+        <>
+          <Typography variant="caption">{program?.playlist?.length}回</Typography>
+        </>
+      }
+    />
+  );
+}
+
+export function ArtistPageHeader({ artist }: { artist: ArtistTemplateQuery['artist'] }) {
+  return (
+    <PageHeader
+      image={artist?.image}
+      top={
+        <>
           <Typography variant="h4" component="h2">
             {artist?.name}
           </Typography>
           <Typography variant="body2">{artist?.nation}</Typography>
-        </div>
-        <div>
+        </>
+      }
+      bottom={
+        <>
           <Typography variant="caption">{artist?.programCount}回</Typography>
           <Typography variant="caption">{artist?.tunesCount}曲</Typography>
-        </div>
-      </div>
-    </div>
+        </>
+      }
+    />
   );
 }
 

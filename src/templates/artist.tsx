@@ -8,7 +8,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import PageHeader from '../components/PageHeader';
+import { ArtistPageHeader } from '../components/PageHeader';
 /*
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
@@ -34,7 +34,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
   const { previous, next } = pageContext;
   return (
     <Layout title={data.artist?.name} disableGutters disablePaddingTop>
-      <PageHeader artist={data.artist} />
+      <ArtistPageHeader artist={data.artist} />
       <div>
         {data.artist?.tunes?.map((tune) => (
           <p key={tune?.id}>{tune?.title}</p>
@@ -160,7 +160,9 @@ export const query = graphql`
         id
         image
         indexInWeek
-        artist
+        artist {
+          name
+        }
         kana
         label
         nation

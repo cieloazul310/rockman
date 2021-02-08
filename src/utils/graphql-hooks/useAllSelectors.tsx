@@ -31,7 +31,9 @@ export function useAllSelectors(): CategoryItem[] {
                 id
                 indexInWeek
                 title
-                artist
+                artist {
+                  name
+                }
                 year
                 nation
                 selector

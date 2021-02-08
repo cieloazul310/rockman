@@ -18,7 +18,9 @@ export function useAllPrograms() {
             }
             guests
             playlist {
-              artist
+              artist {
+                name
+              }
               corner
               id
               indexInWeek
