@@ -11,6 +11,7 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 // import ListSubheader from '@material-ui/core/ListSubheader';
 import Layout from '../layout/Template';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import Section from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
 // import Jumbotron from '../components/Jumbotron';
@@ -23,11 +24,11 @@ import Tune from '../components/Tune';
 // import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
 // import createDescriptionString from '../utils/createDescriptionString';
 // import getAroundPrograms from '../utils/getAroundPrograms';
-import { QueriedProgram } from '../types';
+// import { QueriedProgram } from '../types';
 import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
 // const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
-
+/*
 const useStyles = makeStyles((theme) =>
   createStyles({
     content: {
@@ -35,17 +36,17 @@ const useStyles = makeStyles((theme) =>
     },
   })
 );
-
+*/
 interface Props {
   data: ProgramTemplateQuery;
   pageContext: SitePageContext;
 }
 
 function ProgramTemplate({ data, pageContext }: Props) {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
     <Layout title={data.program?.title} disableGutters jumbotron={<ProgramPageHeader program={data.program} />}>
-      <div className={classes.content}>
+      <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
           <Tab label="詳細" />
@@ -55,7 +56,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
             <Tune key={tune?.id} tune={tune} />
           ))}
         </div>
-      </div>
+      </Section>
     </Layout>
   );
   /*
@@ -158,7 +159,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
 }
 
 export default ProgramTemplate;
-
+/*
 function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
   return {
     previous: previous ? { to: previous.fields?.slug ?? '#', title: previous.title } : null,
@@ -166,7 +167,7 @@ function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
     next: next ? { to: next.fields?.slug ?? '#', title: next.title } : null,
   };
 }
-
+*/
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
     program(fields: { slug: { eq: $slug } }) {

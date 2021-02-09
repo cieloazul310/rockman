@@ -7,6 +7,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import Section, { SectionDivider } from '../components/Section';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
@@ -58,10 +59,13 @@ function SelectorsPage() {
       <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance>
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index}>
-            <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune.selector === d.fieldValue} />
+            <Section>
+              <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune.selector === d.fieldValue} />
+            </Section>
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>
+      <SectionDivider />
       <Container maxWidth="md">
         <ContentBasis>
           <NavigationBox />

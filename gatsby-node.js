@@ -107,12 +107,15 @@ exports.onCreateNode = ({ node, actions }) => {
     playlistArtist.forEach((name) => {
       const data = artists[name];
       console.log(name);
-      const images = data.tunes.filter((tune) => tune.youtube && tune.youtube !== '');
+      const program = [...data.program].sort((a, b) => a.week - b.week);
+      const tunes = [...data.tunes].sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
+      const images = tunes.filter((tune) => tune.youtube && tune.youtube !== '');
       createNode({
         name,
         ...data,
+        program,
+        tunes,
         image: images.length ? `https://i.ytimg.com/vi/${images[images.length - 1].youtube}/0.jpg` : null,
-        tunes: data.tunes,
         sortName: getYomi(name, data.kana),
         programCount: data.program.length,
         tunesCount: data.tunes.length,

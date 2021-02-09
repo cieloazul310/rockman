@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-// import Typography from '@material-ui/core/Typography';
+import Typography from '@material-ui/core/Typography';
 // import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 // import Skeleton from '@material-ui/lab/Skeleton';
@@ -10,7 +10,9 @@ import Tab from '@material-ui/core/Tab';
 // import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import Layout from '../layout/Template';
+import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
+import TunesByProgram from '../components/TunesByProgram';
 /*
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
@@ -34,27 +36,32 @@ interface Props {
 
 function ArtistTemplate({ data, pageContext }: Props) {
   const { previous, next } = pageContext;
+  const programs = data.artist?.program?.map((program) => ({
+    ...program,
+    playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
+  }));
   return (
     <Layout title={data.artist?.name} disableGutters jumbotron={<ArtistPageHeader artist={data.artist} />}>
-      <div>
+      <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
           <Tab label="詳細" />
         </Tabs>
         <div>
-          {data.artist?.tunes?.map((tune) => (
-            <p key={tune?.id}>{tune?.title}</p>
+          {programs?.map((program) => (
+            <TunesByProgram key={program.week} program={program} />
           ))}
         </div>
-      </div>
-      <div>
+      </Section>
+      <SectionDivider />
+      <Section>
         <p>
           <AppLink to={`/artist/${previous?.name}`}>{previous?.name}</AppLink>
         </p>
         <p>
           <AppLink to={`/artist/${next?.name}`}>{next?.name}</AppLink>
         </p>
-      </div>
+      </Section>
     </Layout>
   );
   /*
@@ -157,7 +164,7 @@ export const query = graphql`
       name
       nation
       program {
-        date
+        date(formatString: "YYYY-MM-DD")
         week
         title
         subtitle
