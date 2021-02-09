@@ -27,7 +27,7 @@ function SelectorsPage() {
   const initialSelector = hash !== '' ? decodeURI(hash.slice(1)) : null;
   const fieldValues = selectors.map(({ fieldValue }) => fieldValue);
   const initialValue =
-    fieldValues.indexOf(initialSelector) >= 0
+    initialSelector && fieldValues.indexOf(initialSelector) >= 0
       ? fieldValues.indexOf(initialSelector)
       : state?.selector
       ? fieldValues.indexOf(state?.selector)
@@ -42,6 +42,11 @@ function SelectorsPage() {
   React.useEffect(() => {
     if (window && typeof window === 'object') window.history.replaceState(value, '', `#${selectors[value].fieldValue}`);
   }, [value, selectors]);
+  React.useEffect(() => {
+    if (typeof window === 'object') {
+      window.scrollTo(0, 0);
+    }
+  }, [value]);
 
   return (
     <Layout
