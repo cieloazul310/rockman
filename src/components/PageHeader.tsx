@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import { ProgramTemplateQuery, ArtistTemplateQuery } from '../../graphql-types';
@@ -13,6 +14,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       display: 'flex',
       height: 200,
       padding: theme.spacing(2, 0),
+      background: theme.palette.background.paper,
     },
     left: {
       width: '50%',
@@ -65,7 +67,7 @@ export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['
       top={
         <>
           <Typography variant="body2">{program?.date}</Typography>
-          <Typography variant="h4" component="h2">
+          <Typography variant="h6" component="h2">
             {program?.title}
           </Typography>
         </>
@@ -85,7 +87,7 @@ export function ArtistPageHeader({ artist }: { artist: ArtistTemplateQuery['arti
       image={artist?.image}
       top={
         <>
-          <Typography variant="h4" component="h2">
+          <Typography variant="h6" component="h2">
             {artist?.name}
           </Typography>
           <Typography variant="body2">{artist?.nation}</Typography>

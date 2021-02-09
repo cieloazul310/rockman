@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
-import Skeleton from '@material-ui/lab/Skeleton';
-import SwipeableViews from 'react-swipeable-views';
-import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layout';
+// import Typography from '@material-ui/core/Typography';
+// import Container from '@material-ui/core/Container';
+// import Box from '@material-ui/core/Box';
+// import Skeleton from '@material-ui/lab/Skeleton';
+// import SwipeableViews from 'react-swipeable-views';
+// import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
+import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import { ArtistPageHeader } from '../components/PageHeader';
 /*
@@ -33,8 +33,7 @@ interface Props {
 function ArtistTemplate({ data, pageContext }: Props) {
   const { previous, next } = pageContext;
   return (
-    <Layout title={data.artist?.name} disableGutters disablePaddingTop>
-      <ArtistPageHeader artist={data.artist} />
+    <Layout title={data.artist?.name} disableGutters disablePaddingTop jumbotron={<ArtistPageHeader artist={data.artist} />}>
       <div>
         {data.artist?.tunes?.map((tune) => (
           <p key={tune?.id}>{tune?.title}</p>

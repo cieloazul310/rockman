@@ -9,6 +9,7 @@ import { graphql, navigate } from 'gatsby';
 import Layout from 'gatsby-theme-aoi/src/layout';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import { ProgramPageHeader } from '../components/PageHeader';
+import Tune from '../components/Tune';
 // import Jumbotron from '../components/Jumbotron';
 // import DrawerNavigation from '../components/DrawerNavigation';
 // import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
@@ -35,9 +36,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
       <ProgramPageHeader program={data.program} />
       <div>
         {data.program?.playlist?.map((tune) => (
-          <p key={tune?.id}>
-            {tune?.title} / {tune?.artist?.name}
-          </p>
+          <Tune key={tune?.id} tune={tune} />
         ))}
       </div>
     </Layout>

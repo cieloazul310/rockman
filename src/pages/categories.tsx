@@ -8,7 +8,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import ProgramItem from '../components/ProgramItem';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import useSorter from '../utils/useSorter';
@@ -66,14 +66,8 @@ function CategoriesPage() {
             <List>
               {d.edges
                 .sort((a, b) => sorter(a.node.week && b.node.week ? a.node.week - b.node.week : 0))
-                .map((v) => (
-                  <ListItemLink
-                    key={v.node.id}
-                    to={v.node.fields?.slug ?? '#'}
-                    primaryText={v.node.title ?? 'Program'}
-                    secondaryText={`第${v.node.week}回 ${v.node.date}`}
-                    divider
-                  />
+                .map(({ node }) => (
+                  <ProgramItem key={node.id} program={node} />
                 ))}
             </List>
           </TabPane>

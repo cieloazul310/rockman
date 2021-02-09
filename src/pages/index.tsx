@@ -3,11 +3,11 @@ import { useStaticQuery, graphql } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import loadable from '@loadable/component';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
-import Ranks from '../components/index/Ranks';
+import ProgramItem from '../components/ProgramItem';
+// import Ranks from '../components/index/Ranks';
 import ContentBasis from '../components/ContentBasis';
 import InView from '../components/InView';
 //import Stats from '../components/index/Stat';
@@ -31,23 +31,21 @@ function IndexPage() {
             date(formatString: "YYYY-MM-DD")
             fields {
               slug
-            }
-            playlist {
-              youtube
+              image
             }
           }
         }
       }
     }
   `);
-  const tunesWithImage = data.allProgram.edges
-    .map(({ node }) => node.playlist?.filter((tune) => tune?.youtube && tune?.youtube !== ''))
-    .reduce((accum, curr) => (accum && curr ? [...accum, ...curr] : []), []);
+  const images = data.allProgram.edges
+    .map(({ node }) => node.fields?.image ?? undefined)
+    .filter((image): image is string => Boolean(image));
   const jumbotron = (
     <Jumbotron
       title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
       header="TOKYO-FM 全国38局ネットで放送中"
-      imgUrl={tunesWithImage ? `https://i.ytimg.com/vi/${tunesWithImage[0]?.youtube}/0.jpg` : undefined}
+      imgUrl={images.length ? images[0] : undefined}
       height={346}
     />
   );
@@ -59,14 +57,8 @@ function IndexPage() {
       </ContentBasis>
       <ContentBasis>
         <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
-          {data.allProgram.edges.map(({ node }, index) => (
-            <ListItemLink
-              key={index}
-              to={node.fields?.slug ?? '#'}
-              primaryText={node.title ?? '放送回'}
-              secondaryText={`第${node.week}回 ${node.date}`}
-              divider
-            />
+          {data.allProgram.edges.map(({ node }) => (
+            <ProgramItem key={node.week} program={node} />
           ))}
         </List>
       </ContentBasis>
@@ -78,9 +70,9 @@ function IndexPage() {
           <AdInArticle />
         </InView>
       </ContentBasis>
-      <ContentBasis>
+      {/*<ContentBasis>
         <Ranks />
-      </ContentBasis>
+      </ContentBasis>*/}
     </Layout>
   );
 }
