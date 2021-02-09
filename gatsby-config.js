@@ -106,7 +106,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-eslint`,
       options: {
-        test: /\.js$|\.jsx$|\.ts$|\.tsx$/,
+        stages: ['develop'],
+        extensions: ['js', 'jsx', 'ts', 'tsx'],
+        exclude: ['node_modules', '.cache', 'public'],
       },
     },
     `gatsby-plugin-remove-serviceworker`,
