@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { AllYearsQuery } from '../../../graphql-types';
+// import { AllYearsQuery } from '../../../graphql-types';
 /*
 export function useAllYears() {
   const data = useStaticQuery<AllYearsQuery>(graphql`

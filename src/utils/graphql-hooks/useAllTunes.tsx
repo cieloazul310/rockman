@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { AllTunesQuery } from '../../../graphql-types';
+// import { useStaticQuery, graphql } from 'gatsby';
+// import { AllTunesQuery } from '../../../graphql-types';
 /*
 export function useAllTunes() {
   const data = useStaticQuery<AllTunesQuery>(graphql`
@@ -11,7 +11,6 @@ export function useAllTunes() {
             artist
             corner
             id
-            image
             index
             indexInWeek
             kana
