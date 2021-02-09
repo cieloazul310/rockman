@@ -46,6 +46,11 @@ function CategoriesPage() {
   React.useEffect(() => {
     if (window && typeof window === 'object') window.history.replaceState(tab, '', `#${categories[tab].fieldValue}`);
   }, [tab, categories]);
+  React.useEffect(() => {
+    if (typeof window === 'object') {
+      window.scrollTo(0, 0);
+    }
+  }, [tab]);
 
   return (
     <Layout
