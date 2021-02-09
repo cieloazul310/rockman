@@ -107,7 +107,7 @@ exports.onCreateNode = ({ node, actions }) => {
     playlistArtist.forEach((name) => {
       const data = artists[name];
       console.log(name);
-      const program = [...data.program].sort((a, b) => a.week - b.week);
+      const program = [...data.program].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
       const tunes = [...data.tunes].sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
       const images = tunes.filter((tune) => tune.youtube && tune.youtube !== '');
       createNode({
