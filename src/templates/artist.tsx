@@ -1,13 +1,15 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 // import Typography from '@material-ui/core/Typography';
 // import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 // import Skeleton from '@material-ui/lab/Skeleton';
 // import SwipeableViews from 'react-swipeable-views';
 // import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import Layout from '../layout/Template';
 import { ArtistPageHeader } from '../components/PageHeader';
 /*
 import Jumbotron from '../components/Jumbotron';
@@ -33,11 +35,17 @@ interface Props {
 function ArtistTemplate({ data, pageContext }: Props) {
   const { previous, next } = pageContext;
   return (
-    <Layout title={data.artist?.name} disableGutters disablePaddingTop jumbotron={<ArtistPageHeader artist={data.artist} />}>
+    <Layout title={data.artist?.name} disableGutters jumbotron={<ArtistPageHeader artist={data.artist} />}>
       <div>
-        {data.artist?.tunes?.map((tune) => (
-          <p key={tune?.id}>{tune?.title}</p>
-        ))}
+        <Tabs indicatorColor="secondary" centered value={0}>
+          <Tab label="曲" />
+          <Tab label="詳細" />
+        </Tabs>
+        <div>
+          {data.artist?.tunes?.map((tune) => (
+            <p key={tune?.id}>{tune?.title}</p>
+          ))}
+        </div>
       </div>
       <div>
         <p>

@@ -3,7 +3,10 @@ import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Skeleton from '@material-ui/lab/Skeleton';
-import { Maybe, ProgramPlaylist } from '../../../graphql-types';
+import TextSpan from '../TextSpan';
+import { TuneIcon } from '../../icons';
+import { useAvatarStyles } from '../../styles';
+import { Maybe, ProgramPlaylist, Artist } from '../../../graphql-types';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -13,43 +16,51 @@ const useStyles = makeStyles((theme) =>
     },
     left: {
       display: 'flex',
-      padding: theme.spacing(1),
+      padding: theme.spacing(0, 1),
+      alignItems: 'center',
+      flexShrink: 0,
     },
     right: {
       display: 'flex',
-      padding: theme.spacing(1),
-    },
-    avatar: {
-      width: theme.spacing(7),
-      height: theme.spacing(7),
-      [theme.breakpoints.up('md')]: {
-        width: theme.spacing(11),
-        height: theme.spacing(11),
-      },
+      flexDirection: 'column',
+      padding: theme.spacing(0, 1),
+      flexGrow: 1,
     },
   })
 );
 
 interface Props {
-  tune: Maybe<Pick<ProgramPlaylist, 'title' | 'artist' | 'indexInWeek' | 'youtube'>>;
+  tune: Maybe<
+    Pick<ProgramPlaylist, 'title' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube'> & { artist?: Maybe<Pick<Artist, 'name'>> }
+  >;
 }
 
 function Tune({ tune }: Props) {
   const classes = useStyles();
+  const avatarClass = useAvatarStyles();
   return (
     <div className={classes.root}>
       <div className={classes.left}>
         <Avatar
-          className={classes.avatar}
+          className={avatarClass.avatar}
           variant="square"
           src={tune?.youtube ? `https://i.ytimg.com/vi/${tune?.youtube}/0.jpg` : undefined}
-        />
+        >
+          <TuneIcon />
+        </Avatar>
       </div>
       <div className={classes.right}>
-        <Typography>{tune?.indexInWeek}.</Typography>
+        <Typography variant="body2" color="textSecondary">
+          <TextSpan>{`M${tune?.indexInWeek}.`}</TextSpan>
+          <TextSpan>{tune?.corner}</TextSpan>
+          {tune?.selector && tune.selector !== '草野マサムネ' ? <TextSpan>{tune.selector}選曲</TextSpan> : null}
+        </Typography>
         <div>
           <Typography>{tune?.title}</Typography>
-          <Typography variant="body2">{tune?.artist?.name}</Typography>
+          <Typography variant="body2">
+            <TextSpan>{tune?.artist?.name}</TextSpan>
+            <TextSpan color="textSecondary">{`(${tune?.year})`}</TextSpan>
+          </Typography>
         </div>
       </div>
     </div>

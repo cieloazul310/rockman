@@ -1,7 +1,8 @@
 import * as React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import TextSpan from './TextSpan';
 import { ProgramTemplateQuery, ArtistTemplateQuery } from '../../graphql-types';
 
 interface StylesProps {
@@ -21,6 +22,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       maxWidth: 280,
       padding: theme.spacing(0, 1),
       display: 'flex',
+      flexShrink: 0,
     },
     image: {
       backgroundColor: theme.palette.grey[700],
@@ -66,15 +68,28 @@ export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['
       image={program?.fields?.image}
       top={
         <>
-          <Typography variant="body2">{program?.date}</Typography>
+          <Typography variant="body2" color="textSecondary">
+            <TextSpan>{`第${program?.week}回`}</TextSpan>
+            <TextSpan>{program?.date}</TextSpan>
+            <TextSpan>全{program?.playlist?.length}曲</TextSpan>
+          </Typography>
           <Typography variant="h6" component="h2">
             {program?.title}
           </Typography>
+          {program?.subtitle ? <Typography>{program.subtitle}</Typography> : null}
         </>
       }
       bottom={
         <>
-          <Typography variant="caption">{program?.playlist?.length}回</Typography>
+          <Typography variant="body2">
+            {program?.categories?.map((category) => (
+              <TextSpan>
+                <AppLink to="/categories" state={{ category: category ?? undefined }}>
+                  {category}
+                </AppLink>
+              </TextSpan>
+            ))}
+          </Typography>
         </>
       }
     />

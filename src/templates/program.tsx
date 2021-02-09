@@ -1,12 +1,15 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 //import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 //import SwipeableViews from 'react-swipeable-views';
 // import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
 // import List from '@material-ui/core/List';
 // import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from 'gatsby-theme-aoi/src/layout';
+import Layout from '../layout/Template';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
@@ -25,19 +28,33 @@ import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
 // const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
+const useStyles = makeStyles((theme) =>
+  createStyles({
+    content: {
+      background: theme.palette.background.paper,
+    },
+  })
+);
+
 interface Props {
   data: ProgramTemplateQuery;
   pageContext: SitePageContext;
 }
 
 function ProgramTemplate({ data, pageContext }: Props) {
+  const classes = useStyles();
   return (
-    <Layout title={data.program?.title} disableGutters disablePaddingTop>
-      <ProgramPageHeader program={data.program} />
-      <div>
-        {data.program?.playlist?.map((tune) => (
-          <Tune key={tune?.id} tune={tune} />
-        ))}
+    <Layout title={data.program?.title} disableGutters jumbotron={<ProgramPageHeader program={data.program} />}>
+      <div className={classes.content}>
+        <Tabs indicatorColor="secondary" centered value={0}>
+          <Tab label="曲" />
+          <Tab label="詳細" />
+        </Tabs>
+        <div>
+          {data.program?.playlist?.map((tune) => (
+            <Tune key={tune?.id} tune={tune} />
+          ))}
+        </div>
       </div>
     </Layout>
   );
