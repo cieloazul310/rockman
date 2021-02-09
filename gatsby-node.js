@@ -18,7 +18,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       sortName: String!
       nation: String!
       program: [program] @link
-      tunes: [programPlaylist] @link
+      tunes: [programPlaylist]
       programCount: Int!
       tunesCount: Int!
     }
@@ -47,7 +47,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       corner: String
       youtube: String
       selector: String!
-      image: String
     }
   `);
 };
@@ -113,7 +112,7 @@ exports.onCreateNode = ({ node, actions }) => {
         name,
         ...data,
         image: images.length ? `https://i.ytimg.com/vi/${images[images.length - 1].youtube}/0.jpg` : null,
-        tunes: data.tunes.map((tune) => tune.id),
+        tunes: data.tunes,
         sortName: getYomi(name, data.kana),
         programCount: data.program.length,
         tunesCount: data.tunes.length,

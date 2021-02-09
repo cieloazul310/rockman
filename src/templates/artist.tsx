@@ -158,7 +158,6 @@ export const query = graphql`
       tunes {
         corner
         id
-        image
         indexInWeek
         artist {
           name
