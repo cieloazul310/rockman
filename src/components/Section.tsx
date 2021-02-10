@@ -5,6 +5,9 @@ const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
       background: theme.palette.background.paper,
+      [theme.breakpoints.up('md')]: {
+        padding: theme.spacing(0, 1),
+      },
     },
     divider: {
       paddingBottom: theme.spacing(2),

@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
     item: {
       width: '50%',
       flexShrink: 0,
-      padding: theme.spacing(0, 1),
+      padding: theme.spacing(1),
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'flex-start',
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme: Theme) =>
       background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 700],
     },
     itemIcon: {
-      padding: theme.spacing(2),
+      padding: theme.spacing(2, 1),
     },
     itemAvatar: {
       padding: theme.spacing(0, 1),
@@ -86,7 +86,7 @@ function PageNavigationButton({ variant, item, navigation }: PageNavigationButto
             </Avatar>
           </div>
           <div className={clsx(classes.itemText, { [classes.itemTextRight]: navigation === 'next' })}>
-            <Typography>{variant === 'program' ? item?.title : item?.name}</Typography>
+            <Typography variant="body2">{variant === 'program' ? item?.title : item?.name}</Typography>
             <Typography variant="body2" color="textSecondary">
               {variant === 'program' ? `第${item?.week}回` : `${item?.tunesCount}曲/${item?.programCount}回`}
             </Typography>
