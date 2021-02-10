@@ -1,3 +1,5 @@
+import * as React from 'react';
+import Avatar, { AvatarProps } from '@material-ui/core/Avatar';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
 export const useAvatarStyles = makeStyles((theme) =>
@@ -12,3 +14,10 @@ export const useAvatarStyles = makeStyles((theme) =>
     },
   })
 );
+
+function MyAvatar(props: Omit<AvatarProps, 'variant'>) {
+  const classes = useAvatarStyles();
+  return <Avatar className={classes.avatar} variant="square" {...props} />;
+}
+
+export default MyAvatar;

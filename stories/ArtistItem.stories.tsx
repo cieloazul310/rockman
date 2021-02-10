@@ -1,5 +1,4 @@
 import * as React from 'react';
-import ArtistItem from '../src/components/ArtistItem';
 import ArtistItemContainer from '../src/components/ArtistItemContainer';
 
 const stories = { title: 'ArtistItem' };
@@ -31,7 +30,7 @@ const data = [
   },
   {
     name: 'Queen',
-    image: 'https://i.ytimg.com/vi/boJhWtw-6Gg/0.jpg',
+    image: 'https://i.ytimg.com/vi/fJ9rUzIMcZQ/0.jpg',
     programCount: 6,
     tunesCount: 6,
   },
