@@ -1,15 +1,7 @@
 import { CreateNodeArgs, Node } from 'gatsby';
 import crypto from 'crypto';
 import { getYomi } from '../src/utils/sortByYomi';
-import { Program, ProgramPlaylist } from '../graphql-types';
-
-type PurePlaylist = Omit<ProgramPlaylist, 'artist'> & {
-  artist: string;
-};
-
-type PureProgram = Omit<Program, 'playlist'> & {
-  playlist: PurePlaylist[];
-};
+import { PureProgram, PurePlaylist } from './types';
 
 type ArtistContainer = {
   [key: string]: {
