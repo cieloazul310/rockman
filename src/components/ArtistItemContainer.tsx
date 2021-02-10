@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) =>
 
 interface Props {
   title: string;
-  artists: ArtistItemProps['artist'][];
+  artists?: ArtistItemProps['artist'][] | null;
 }
 
 function ArtistItemContainer({ artists, title }: Props) {
@@ -51,7 +51,7 @@ function ArtistItemContainer({ artists, title }: Props) {
       <div className={classes.wrapper}>
         <Grid container={!isMobile} className={classes.container}>
           {artists
-            .filter((artist) => artist?.name !== 'スピッツ')
+            ?.filter((artist) => artist?.name !== 'スピッツ')
             .map((artist) => (
               <Grid className={classes.item} item={!isMobile || undefined} key={artist?.name} sm={!isMobile ? 2 : undefined}>
                 <ArtistItem artist={artist} />

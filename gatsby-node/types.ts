@@ -53,3 +53,11 @@ export type PureProgram = Omit<Program, 'playlist'> & {
 export type PurePlaylist = Omit<ProgramPlaylist, 'artist'> & {
   artist: string;
 };
+
+export interface PureArtist {
+  name: string;
+  kana?: string | null;
+  nation: string;
+  program: PureProgram[];
+  tunes: PurePlaylist[];
+}
