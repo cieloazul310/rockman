@@ -1,16 +1,11 @@
 import { CreateNodeArgs, Node } from 'gatsby';
 import crypto from 'crypto';
 import { getYomi } from '../src/utils/sortByYomi';
-import { PureProgram, PurePlaylist } from './types';
+import { getRelatedArtists } from '../src/utils/getRelatedArtists';
+import { PureProgram, PureArtist } from './types';
 
 type ArtistContainer = {
-  [key: string]: {
-    name: string;
-    kana?: string | null;
-    nation: string;
-    program: PureProgram[];
-    tunes: PurePlaylist[];
-  };
+  [key: string]: PureArtist;
 };
 
 const artists: ArtistContainer = {};
@@ -60,12 +55,14 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       const program = [...data.program].sort((a, b) => a.week - b.week).map(({ id }) => id);
       const tunes = [...data.tunes].sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
       const images = tunes.filter((tune) => tune.youtube && tune.youtube !== '');
+      const relatedArtists = getRelatedArtists(data);
 
       createNode({
         ...data,
         image: images.length ? `https://i.ytimg.com/vi/${images[images.length - 1].youtube}/0.jpg` : null,
         program,
         tunes,
+        relatedArtists,
         sortName: getYomi(name, data.kana),
         programCount: data.program.length,
         tunesCount: data.tunes.length,

@@ -14,6 +14,7 @@ export function createSchemaCustomization({ actions }: CreateSchemaCustomization
       tunes: [programPlaylist]
       programCount: Int!
       tunesCount: Int!
+      relatedArtists: [Artist] @link(by: "name")
     }
     type program implements Node {
       week: Int!

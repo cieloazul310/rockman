@@ -55,7 +55,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
       </Section>
       <SectionDivider />
       <Section>
-        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={[data.artist]} />
+        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={data.artist?.relatedArtists} />
       </Section>
       <SectionDivider />
       <Section>
@@ -186,6 +186,12 @@ export const query = graphql`
         week
         year
         youtube
+      }
+      relatedArtists {
+        name
+        image
+        tunesCount
+        programCount
       }
     }
   }
