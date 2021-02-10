@@ -8,6 +8,7 @@ const stories = {
 export default stories;
 
 const data = {
+  id: '20200210001',
   title: 'ヒバリのこころ',
   indexInWeek: 1,
   artist: {

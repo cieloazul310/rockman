@@ -2,23 +2,24 @@ import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 // import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 // import Skeleton from '@material-ui/lab/Skeleton';
 // import SwipeableViews from 'react-swipeable-views';
 // import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+// import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import Layout from '../layout/Template';
 import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
 import TunesByProgram from '../components/TunesByProgram';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import PageNavigation from '../components/PageNavigation';
 /*
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
 import DrawerNavigation from '../components/DrawerNavigation';
-import PageNavigation, { createNavigationProps } from '../components/PageNavigation';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import RelatedArtists from '../components/RelatedArtists';
@@ -35,7 +36,6 @@ interface Props {
 }
 
 function ArtistTemplate({ data, pageContext }: Props) {
-  const { previous, next } = pageContext;
   const programs = data.artist?.program?.map((program) => ({
     ...program,
     playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
@@ -55,12 +55,11 @@ function ArtistTemplate({ data, pageContext }: Props) {
       </Section>
       <SectionDivider />
       <Section>
-        <p>
-          <AppLink to={`/artist/${previous?.name}`}>{previous?.name}</AppLink>
-        </p>
-        <p>
-          <AppLink to={`/artist/${next?.name}`}>{next?.name}</AppLink>
-        </p>
+        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={[data.artist]} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigation variant="artist" pageContext={pageContext} />
       </Section>
     </Layout>
   );
@@ -168,6 +167,9 @@ export const query = graphql`
         week
         title
         subtitle
+        fields {
+          slug
+        }
       }
       tunes {
         corner

@@ -14,6 +14,7 @@ const data = {
   title: 'ヒバリのこころで漫遊記',
   playlist: [
     {
+      id: '20210210001',
       title: 'ヒバリのこころ',
       indexInWeek: 1,
       artist: {
@@ -25,6 +26,7 @@ const data = {
       selector: '草野マサムネ',
     },
     {
+      id: '20210210002',
       title: 'トゲトゲの木',
       indexInWeek: 2,
       artist: {
@@ -34,6 +36,7 @@ const data = {
       selector: '草野マサムネ',
     },
     {
+      id: '20210210003',
       title: '353号線のうた',
       indexInWeek: 3,
       artist: {
@@ -43,6 +46,7 @@ const data = {
       selector: '草野マサムネ',
     },
     {
+      id: '20210210004',
       title: '恋のうた',
       indexInWeek: 4,
       artist: {
@@ -52,6 +56,7 @@ const data = {
       selector: '草野マサムネ',
     },
     {
+      id: '20210210005',
       title: 'おっぱい',
       indexInWeek: 5,
       artist: {
@@ -61,6 +66,7 @@ const data = {
       selector: '草野マサムネ',
     },
     {
+      id: '20210210006',
       title: '死にもの狂いのカゲロウを見ていた',
       indexInWeek: 6,
       artist: {

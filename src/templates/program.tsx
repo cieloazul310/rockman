@@ -11,13 +11,14 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 // import ListSubheader from '@material-ui/core/ListSubheader';
 import Layout from '../layout/Template';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
-import Section from '../components/Section';
+import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
+import ArtistItemContainer from '../components/ArtistItemContainer';
 // import Jumbotron from '../components/Jumbotron';
 // import DrawerNavigation from '../components/DrawerNavigation';
 // import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
-// import PageNavigation from '../components/PageNavigation';
+import PageNavigation from '../components/PageNavigation';
 // import NavigationBox from '../components/NavigationBox';
 // import ContentBasis from '../components/ContentBasis';
 // import ResponsiveContainer from '../components/ResponsiveContainer';
@@ -56,6 +57,14 @@ function ProgramTemplate({ data, pageContext }: Props) {
             <Tune key={tune?.id} tune={tune} />
           ))}
         </div>
+      </Section>
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="登場アーティスト" artists={data.program?.playlist?.map((tune) => tune?.artist)} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigation variant="program" pageContext={pageContext} />
       </Section>
     </Layout>
   );
@@ -185,6 +194,7 @@ export const query = graphql`
       playlist {
         artist {
           name
+          image
           programCount
           tunesCount
         }

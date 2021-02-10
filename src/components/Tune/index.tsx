@@ -32,7 +32,9 @@ const useStyles = makeStyles((theme) =>
 
 export interface TuneProps {
   tune: Maybe<
-    Pick<ProgramPlaylist, 'title' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube'> & { artist?: Maybe<Pick<Artist, 'name'>> }
+    Pick<ProgramPlaylist, 'id' | 'title' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube'> & {
+      artist?: Maybe<Pick<Artist, 'name'>>;
+    }
   >;
 }
 

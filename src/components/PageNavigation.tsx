@@ -1,98 +1,67 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import Skeleton from '@material-ui/lab/Skeleton';
+import { SitePageContext } from '../../graphql-types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between',
-      [theme.breakpoints.down('sm')]: {
+      [theme.breakpoints.only('xs')]: {
         flexDirection: 'column',
+      },
+    },
+    item: {
+      width: '50%',
+      flexShrink: 0,
+      display: 'flex',
+      [theme.breakpoints.only('xs')]: {
+        width: '100%',
       },
     },
   })
 );
 
-interface NavigationProps {
-  to: string;
-  title: string;
-}
-
 interface Props {
-  previous?: NavigationProps;
-  next?: NavigationProps;
+  variant: 'program' | 'artist';
+  pageContext: SitePageContext;
 }
 
-function PageNavigation({ previous, next }: Props) {
+function PageNavigation({ variant, pageContext }: Props) {
+  const { previous, next } = pageContext;
   const classes = useStyles();
   return (
-    <Box className={classes.root}>
+    <div className={classes.root}>
       {previous ? (
-        <Box py={1} pr={1} textAlign="left">
-          <Button component={GatsbyLink} variant="outlined" to={previous.to}>
+        <div className={classes.item}>
+          <Button
+            component={GatsbyLink}
+            variant="outlined"
+            to={variant === 'program' ? previous?.fields?.slug ?? '#' : `/artist/${previous?.name}`}
+          >
             <ArrowBackIcon />
-            {previous.title}
+            {variant === 'program' ? previous.title : previous.name}
           </Button>
-        </Box>
+        </div>
       ) : null}
       {next ? (
-        <Box py={1} pl={1} textAlign="right">
-          <Button component={GatsbyLink} variant="outlined" to={next.to}>
-            {next.title}
+        <div className={classes.item}>
+          <Button
+            component={GatsbyLink}
+            variant="outlined"
+            to={variant === 'program' ? next?.fields?.slug ?? '#' : `/artist/${next?.name}`}
+          >
+            {variant === 'program' ? next.title : next.name}
             <ArrowForwardIcon />
           </Button>
-        </Box>
+        </div>
       ) : null}
-    </Box>
+    </div>
   );
 }
 
 export default PageNavigation;
-
-export function PageNavigationSkeleton() {
-  const classes = useStyles();
-  return (
-    <Box className={classes.root}>
-      <Box p={1} textAlign="left">
-        <Button variant="outlined">
-          <Skeleton variant="circle" width={24} height={24} />
-          <Skeleton variant="text" width={120} />
-        </Button>
-      </Box>
-      <Box p={1} textAlign="right">
-        <Button variant="outlined">
-          <Skeleton variant="text" width={120} />
-          <Skeleton variant="circle" width={24} height={24} />
-        </Button>
-      </Box>
-    </Box>
-  );
-}
-
-interface Item {
-  fieldValue: string;
-}
-
-export function createNavigationProps(previous: Item | undefined, next: Item | undefined, baseUrl: string): Props {
-  return {
-    previous: previous
-      ? {
-          to: `${baseUrl}/${previous.fieldValue}/`,
-          title: previous.fieldValue,
-        }
-      : undefined,
-    next: next
-      ? {
-          to: `${baseUrl}/${next.fieldValue}`,
-          title: next.fieldValue,
-        }
-      : undefined,
-  };
-}

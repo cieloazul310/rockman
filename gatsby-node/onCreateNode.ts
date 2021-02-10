@@ -34,7 +34,7 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       if (!artists[artist]) {
         artists[artist] = {
           name: artist,
-          kana,
+          kana: kana && kana !== '' ? kana : null,
           nation,
           program: [],
           tunes: [],
