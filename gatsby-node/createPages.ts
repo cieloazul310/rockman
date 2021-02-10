@@ -1,29 +1,35 @@
-require('ts-node').register({
-  compilerOptions: {
-    module: 'commonjs',
-    target: 'esnext',
-  },
-});
-//const { createFilePath } = require(`gatsby-source-filesystem`);
-/**
- * @fix load ts file in gatsby-node.js
- */
-/*
-const { getYomi, encodeArtistName } = require('./src/utils/sortByYomi.ts');
-*/
-exports.createSchemaCustomization = require('./gatsby-node/index').createSchemaCustomization;
+import * as path from 'path';
+import { CreatePagesArgs } from 'gatsby';
+import { Program, Artist } from '../graphql-types';
 
-exports.onCreateNode = require('./gatsby-node/index').onCreateNode;
+type ProgramPrevNext = Pick<Program, 'title' | 'date' | 'fields' | 'week'>;
 
-exports.createPages = require('./gatsby-node/index').createPages;
-/*
-exports.createPages = async ({ graphql, actions, reporter }) => {
-  // **Note:** The graphql function call returns a Promise
-  // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
+interface CreateProgramPagesQueryData {
+  allProgram: {
+    edges: {
+      node: Pick<Program, 'fields'>;
+      next: ProgramPrevNext;
+      previous: ProgramPrevNext;
+    }[];
+  };
+}
 
+type ArtistPrevNext = Pick<Artist, 'name' | 'image' | 'programCount' | 'tunesCount'>;
+
+interface CreateArtistPagesQueryData {
+  allArtist: {
+    edges: {
+      node: Pick<Artist, 'name'>;
+      next: ArtistPrevNext;
+      previous: ArtistPrevNext;
+    }[];
+  };
+}
+
+export async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
   const { createPage } = actions;
-  const result = await graphql(`
-    query AllProgram {
+  const result = await graphql<CreateProgramPagesQueryData>(`
+    query CreateProgramPages {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
@@ -57,23 +63,25 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
   // create Each Program Pages
-  result.data.allProgram.edges.forEach(({ node, next, previous }, index) => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve('./src/templates/program.tsx'),
-      context: {
-        previous,
-        next,
-        index,
-        current: node,
-        slug: node.fields.slug,
-      },
-    });
+  result.data?.allProgram.edges.forEach(({ node, next, previous }, index) => {
+    if (node.fields?.slug) {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve('./src/templates/program.tsx'),
+        context: {
+          previous,
+          next,
+          index,
+          current: node,
+          slug: node.fields?.slug,
+        },
+      });
+    }
   });
 
   // create Artists Pages
-  const artistResult = await graphql(`
-    query AllArtists {
+  const artistResult = await graphql<CreateArtistPagesQueryData>(`
+    query CreateArtistPages {
       allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
         edges {
           node {
@@ -99,7 +107,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
 
-  artistResult.data.allArtist.edges.forEach(({ node, next, previous }, index) => {
+  artistResult.data?.allArtist.edges.forEach(({ node, next, previous }, index) => {
     createPage({
       path: `/artist/${node.name}/`,
       component: path.resolve('./src/templates/artist.tsx'),
@@ -111,5 +119,4 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     });
   });
-};
-*/
+}
