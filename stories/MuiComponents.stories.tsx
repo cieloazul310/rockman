@@ -7,7 +7,9 @@ import Typography, { TypographyProps } from '@material-ui/core/Typography';
 
 // export default { title: 'Material-UI', decorators: [withMuiTheme()] };
 
-export default { title: 'Material-UI' };
+const stories = { title: 'Material-UI' };
+
+export default stories;
 
 const variants: TypographyProps['variant'][] = [
   'h1',
@@ -32,6 +34,18 @@ export function MuiTypography() {
       {variants.map((variant) => (
         <Box p={1} key={variant}>
           <Typography variant={variant}>{`MuiTypography ${variant}`}</Typography>
+        </Box>
+      ))}
+    </Container>
+  );
+}
+
+export function MuiTypographyPrimary() {
+  return (
+    <Container maxWidth="md">
+      {variants.map((variant) => (
+        <Box p={1} key={variant}>
+          <Typography variant={variant} color="primary">{`MuiTypography ${variant}`}</Typography>
         </Box>
       ))}
     </Container>

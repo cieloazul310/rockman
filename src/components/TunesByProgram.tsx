@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Skeleton from '@material-ui/lab/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import Tune from './Tune';
+import Tune, { TuneSkeleton, TuneProps } from './Tune';
 import TextSpan from './TextSpan';
-import { Maybe, Program, ProgramPlaylist, Artist } from '../../graphql-types';
+import { Maybe, Program } from '../../graphql-types';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -20,19 +21,15 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-interface Props {
+export interface TunesByProgramProps {
   program: Maybe<
     Pick<Program, 'week' | 'date' | 'fields' | 'title'> & {
-      playlist: Maybe<
-        Pick<ProgramPlaylist, 'id' | 'title' | 'year' | 'indexInWeek' | 'corner' | 'youtube' | 'selector'> & {
-          artist: Maybe<Pick<Artist, 'name'>>;
-        }
-      >[];
+      playlist: TuneProps['tune'][];
     }
   >;
 }
 
-function TunesByProgram({ program }: Props) {
+function TunesByProgram({ program }: TunesByProgramProps) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -51,3 +48,25 @@ function TunesByProgram({ program }: Props) {
 }
 
 export default TunesByProgram;
+
+export function TunesByProgramSkeleton() {
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <div className={classes.header}>
+        <Typography variant="body2" color="textSecondary">
+          <TextSpan>
+            <Skeleton width={40} />
+          </TextSpan>
+          <TextSpan>
+            <Skeleton width={60} />
+          </TextSpan>
+        </Typography>
+        <Typography className={classes.title} variant="body1" color="secondary">
+          <Skeleton width={260} />
+        </Typography>
+      </div>
+      <div>{Array.from({ length: 4 }).map((_, index) => <TuneSkeleton key={index} />) ?? null}</div>
+    </div>
+  );
+}
