@@ -30,10 +30,17 @@ export function sortByTunes(a: ArtistItem, b: ArtistItem) {
   return -(a.node.tunesCount - b.node.tunesCount);
 }
 
-export function getYomi(artistName: string, kana?: string) {
+export function getYomi(artistName: string, kana?: string | null) {
   const the = artistName.slice(0, 4);
   if (the === 'The ' || the === 'THE ' || the === 'the ') return artistName.slice(4);
-  return kana || artistName;
+  return kanaToHira(kana ?? artistName);
+}
+
+export function kanaToHira(str: string) {
+  return str.replace(/[\u30a1-\u30f6]/g, (match) => {
+    const chr = match.charCodeAt(0) - 0x60;
+    return String.fromCharCode(chr);
+  });
 }
 
 export function encodeArtistName(artistName: string) {
