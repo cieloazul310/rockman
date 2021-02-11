@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { TuneProps } from '../components/Tune';
 import { TunesByProgramProps } from '../components/TunesByProgram';
-import useSorter from './useSorter';
+import { useSortProgram } from './useSorter';
 
 export default function useDividedArray<T>(items: T[], divisor: number) {
   return React.useMemo(() => {
@@ -22,26 +22,24 @@ export function useDividedPrograms<T extends TunesByProgramProps['program']>(
   divisor: number,
   filter: (tune: TuneProps['tune']) => boolean = () => true
 ): T[][] {
-  const sorter = useSorter();
+  const sortProgram = useSortProgram();
   return React.useMemo(() => {
-    return programs
-      .sort((a, b) => sorter(a?.week && b?.week ? a.week - b.week : 0))
-      .reduce<T[][]>((accum, curr, index) => {
-        const filtered = {
-          ...curr,
-          playlist: curr?.playlist?.filter(filter) ?? [],
-        };
-        if (index === 0) {
-          return [[filtered]];
-        }
-        if (getPlaylistLength(accum[accum.length - 1]) < divisor) {
-          accum[accum.length - 1].push(filtered);
-          return accum;
-        } else {
-          return [...accum, [filtered]];
-        }
-      }, []);
-  }, [programs, divisor, filter, sorter]);
+    return programs.sort(sortProgram).reduce<T[][]>((accum, curr, index) => {
+      const filtered = {
+        ...curr,
+        playlist: curr?.playlist?.filter(filter) ?? [],
+      };
+      if (index === 0) {
+        return [[filtered]];
+      }
+      if (getPlaylistLength(accum[accum.length - 1]) < divisor) {
+        accum[accum.length - 1].push(filtered);
+        return accum;
+      } else {
+        return [...accum, [filtered]];
+      }
+    }, []);
+  }, [programs, divisor, filter, sortProgram]);
 }
 
 function getPlaylistLength<T extends TunesByProgramProps['program']>(programs: T[]): number {

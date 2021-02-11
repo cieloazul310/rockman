@@ -1,11 +1,29 @@
 import * as React from 'react';
-import { useAppState } from 'gatsby-theme-aoi-top-layout/src/utils/AppStateContext';
+import { useAppState } from '../gatsby-theme-aoi-top-layout/utils/AppStateContext';
+import { Maybe, Program, ProgramPlaylist } from '../../graphql-types';
 
-export default function useSorter() {
-  const { sort } = useAppState();
-  return React.useCallback((value: number) => (sort === 'older' ? value : -value), [sort]);
-}
 /** usage
  * const sorter = useSorter();
  * programs.sort((a, b) => sorter(a.week - b.week))
  */
+export default function useSorter() {
+  const { sort } = useAppState();
+  return React.useCallback((value: number) => (sort === 'older' ? value : -value), [sort]);
+}
+
+export function useSortProgram() {
+  const sorter = useSorter();
+  return (a: Maybe<Pick<Program, 'week'>>, b: Maybe<Pick<Program, 'week'>>) => sorter((a?.week ?? 0) - (b?.week ?? 0));
+}
+
+export function useSortProgramNode() {
+  const sorter = useSorter();
+  return (a: { node: Maybe<Pick<Program, 'week'>> }, b: { node: Maybe<Pick<Program, 'week'>> }) =>
+    sorter((a?.node?.week ?? 0) - (b?.node?.week ?? 0));
+}
+
+export function useSortPlaylist() {
+  const sorter = useSorter();
+  return (a: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>>, b: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>>) =>
+    sorter((a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0));
+}
