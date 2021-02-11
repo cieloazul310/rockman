@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) =>
 
 export interface TunesByProgramProps {
   program: Maybe<
-    Pick<Program, 'week' | 'date' | 'fields' | 'title'> & {
+    Pick<Program, 'id' | 'week' | 'date' | 'fields' | 'title'> & {
       playlist: TuneProps['tune'][];
     }
   >;

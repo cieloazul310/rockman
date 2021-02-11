@@ -6,34 +6,38 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-//import { QueriedProgram } from '../types';
+import { SitePageContext } from '../../graphql-types';
 
-interface NavigationProps {
-  to: string;
-  title: string;
-}
 interface Props {
-  previous?: NavigationProps;
-  next?: NavigationProps;
+  variant: 'program' | 'artist';
+  pageContext: SitePageContext;
 }
 
-function DrawerPageNavigation({ previous, next }: Props) {
+function DrawerPageNavigation({ pageContext, variant }: Props) {
+  const { previous, next } = pageContext;
+  const isProgram = variant === 'program';
   return (
     <List subheader={<ListSubheader>Navigation</ListSubheader>}>
       {previous ? (
-        <ListItemAppLink dense button to={previous.to}>
+        <ListItemAppLink dense button to={isProgram ? previous.fields?.slug ?? '#' : `/artist/${previous.name}`}>
           <ListItemIcon>
             <ArrowBackIcon />
           </ListItemIcon>
-          <ListItemText primary={previous.title} secondary="prev" />
+          <ListItemText
+            primary={isProgram ? previous.title : previous.name}
+            secondary={isProgram ? `第${previous.week}回` : `${previous.tunesCount}曲/${previous.programCount}回`}
+          />
         </ListItemAppLink>
       ) : null}
       {next ? (
-        <ListItemAppLink dense button to={next.to}>
+        <ListItemAppLink dense button to={isProgram ? next.fields?.slug ?? '#' : `/artist/${next.name}`}>
           <ListItemIcon>
             <ArrowForwardIcon />
           </ListItemIcon>
-          <ListItemText primary={next.title} secondary="next" />
+          <ListItemText
+            primary={isProgram ? next.title : next.name}
+            secondary={isProgram ? `第${next.week}回` : `${next.tunesCount}曲/${next.programCount}回`}
+          />
         </ListItemAppLink>
       ) : null}
     </List>

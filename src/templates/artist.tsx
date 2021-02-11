@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { graphql, navigate } from 'gatsby';
+import { graphql } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 // import Typography from '@material-ui/core/Typography';
@@ -15,18 +15,19 @@ import { ArtistPageHeader } from '../components/PageHeader';
 import TunesByProgram from '../components/TunesByProgram';
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
+import DrawerNavigation from '../components/DrawerNavigation';
 /*
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
-import DrawerNavigation from '../components/DrawerNavigation';
+
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import RelatedArtists from '../components/RelatedArtists';
 */
 // import sortArtists from '../utils/sortByYomi';
 // import { useAllArtists } from '../utils/graphql-hooks/';
-import { ArtistTemplateQuery, SitePageContext, Program, ProgramPlaylist } from '../../graphql-types';
+import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
 
 // const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
 
@@ -41,7 +42,12 @@ function ArtistTemplate({ data, pageContext }: Props) {
     playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
   }));
   return (
-    <Layout title={data.artist?.name} disableGutters jumbotron={<ArtistPageHeader artist={data.artist} />}>
+    <Layout
+      title={data.artist?.name}
+      disableGutters
+      jumbotron={<ArtistPageHeader artist={data.artist} />}
+      drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}
+    >
       <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
@@ -163,6 +169,7 @@ export const query = graphql`
       name
       nation
       program {
+        id
         date(formatString: "YYYY-MM-DD")
         week
         title

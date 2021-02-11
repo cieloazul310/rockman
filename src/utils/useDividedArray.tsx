@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { TuneProps } from '../components/Tune';
+import { TunesByProgramProps } from '../components/TunesByProgram';
 import useSorter from './useSorter';
-import { AbstractProgram } from '../types';
-import { ProgramPlaylist } from '../../graphql-types';
 
 export default function useDividedArray<T>(items: T[], divisor: number) {
   return React.useMemo(() => {
@@ -17,19 +17,19 @@ export default function useDividedArray<T>(items: T[], divisor: number) {
   }, [items, divisor]);
 }
 
-export function useDividedPrograms(
-  programs: AbstractProgram[],
+export function useDividedPrograms<T extends TunesByProgramProps['program']>(
+  programs: T[],
   divisor: number,
-  filter: (tune: ProgramPlaylist) => boolean = () => true
-): AbstractProgram[][] {
+  filter: (tune: TuneProps['tune']) => boolean = () => true
+): T[][] {
   const sorter = useSorter();
   return React.useMemo(() => {
     return programs
-      .sort((a, b) => sorter(a.week && b.week ? a.week - b.week : 0))
-      .reduce<AbstractProgram[][]>((accum, curr, index) => {
+      .sort((a, b) => sorter(a?.week && b?.week ? a.week - b.week : 0))
+      .reduce<T[][]>((accum, curr, index) => {
         const filtered = {
           ...curr,
-          playlist: curr.playlist?.filter(filter) ?? [],
+          playlist: curr?.playlist?.filter(filter) ?? [],
         };
         if (index === 0) {
           return [[filtered]];
@@ -44,6 +44,6 @@ export function useDividedPrograms(
   }, [programs, divisor, filter, sorter]);
 }
 
-function getPlaylistLength(programs: AbstractProgram[]) {
-  return programs.reduce((accum, curr) => (curr.playlist ? accum + curr.playlist.length : accum), 0);
+function getPlaylistLength<T extends TunesByProgramProps['program']>(programs: T[]): number {
+  return programs.reduce((accum, curr) => (curr?.playlist ? accum + curr.playlist.length : accum), 0);
 }

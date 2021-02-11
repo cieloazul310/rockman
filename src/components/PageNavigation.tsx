@@ -22,11 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
     item: {
       width: '50%',
       flexShrink: 0,
-      padding: theme.spacing(1),
       display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'flex-start',
-      borderRight: `1px solid ${theme.palette.divider}`,
       transition: theme.transitions.create('background'),
       [theme.breakpoints.only('xs')]: {
         width: '100%',
@@ -36,12 +32,25 @@ const useStyles = makeStyles((theme: Theme) =>
         background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 700],
       },
     },
+    itemInside: {
+      flexGrow: 1,
+      padding: theme.spacing(1, 7, 1, 1),
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+      alignItems: 'center',
+      borderRight: `1px solid ${theme.palette.divider}`,
+      [theme.breakpoints.only('xs')]: {
+        borderRight: 'none',
+      },
+    },
     itemRight: {
+      padding: theme.spacing(1, 1, 1, 7),
       flexDirection: 'row-reverse',
       borderRight: 'none',
     },
     disabled: {
-      background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 700],
+      background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 800],
     },
     itemIcon: {
       padding: theme.spacing(2, 1),
@@ -67,31 +76,33 @@ interface PageNavigationButtonProps {
 
 function PageNavigationButton({ variant, item, navigation }: PageNavigationButtonProps) {
   const classes = useStyles();
+  const isProgram = variant === 'program';
+  const isNext = navigation === 'next';
   return (
     <ButtonBase
       classes={{
-        root: clsx(classes.item, { [classes.itemRight]: navigation === 'next' }),
+        root: classes.item,
         disabled: classes.disabled,
       }}
       disabled={!Boolean(item)}
       component={GatsbyLink}
-      to={variant === 'program' ? item?.fields?.slug ?? '#' : `/artist/${item?.name}`}
+      to={isProgram ? item?.fields?.slug ?? '#' : `/artist/${item?.name}`}
     >
       {item ? (
-        <>
-          <div className={classes.itemIcon}>{navigation === 'previous' ? <ArrowBackIcon /> : <ArrowForwardIcon />}</div>
+        <div className={clsx(classes.itemInside, { [classes.itemRight]: isNext })}>
+          <div className={classes.itemIcon}>{isNext ? <ArrowForwardIcon /> : <ArrowBackIcon />}</div>
           <div className={classes.itemAvatar}>
-            <Avatar src={variant === 'program' ? item.fields?.image ?? undefined : item.image ?? undefined}>
-              {variant === 'program' ? <ProgramIcon /> : <ArtistIcon />}
+            <Avatar src={isProgram ? item.fields?.image ?? undefined : item.image ?? undefined}>
+              {isProgram ? <ProgramIcon /> : <ArtistIcon />}
             </Avatar>
           </div>
-          <div className={clsx(classes.itemText, { [classes.itemTextRight]: navigation === 'next' })}>
-            <Typography variant="body2">{variant === 'program' ? item?.title : item?.name}</Typography>
+          <div className={clsx(classes.itemText, { [classes.itemTextRight]: isNext })}>
+            <Typography variant="body2">{isProgram ? item?.title : item?.name}</Typography>
             <Typography variant="body2" color="textSecondary">
-              {variant === 'program' ? `第${item?.week}回` : `${item?.tunesCount}曲/${item?.programCount}回`}
+              {isProgram ? `第${item?.week}回` : `${item?.tunesCount}曲/${item?.programCount}回`}
             </Typography>
           </div>
-        </>
+        </div>
       ) : null}
     </ButtonBase>
   );
