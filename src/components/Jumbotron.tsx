@@ -16,7 +16,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
     },
     jumbotronBg: ({ image }) => ({
       height: '100%',
-      backgroundColor: theme.palette.type === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
+      backgroundColor: !image && theme.palette.type === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
       backgroundImage: image ? `url(${image})` : undefined,
       backgroundPosition: 'center',
       backgroundSize: 'cover',

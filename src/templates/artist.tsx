@@ -9,10 +9,10 @@ import Tab from '@material-ui/core/Tab';
 // import SwipeableViews from 'react-swipeable-views';
 // import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
 // import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import Layout from '../layout/Template';
+import Layout from '../layout/';
 import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
-import TunesByProgram from '../components/TunesByProgram';
+import TunesByProgram, { TunesByProgramSkeleton } from '../components/TunesByProgram';
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
 import DrawerNavigation from '../components/DrawerNavigation';
@@ -37,17 +37,15 @@ interface Props {
 }
 
 function ArtistTemplate({ data, pageContext }: Props) {
+  const [tab, setTab] = React.useState(1);
+
   const programs = data.artist?.program?.map((program) => ({
     ...program,
     playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
   }));
   return (
-    <Layout
-      title={data.artist?.name}
-      disableGutters
-      jumbotron={<ArtistPageHeader artist={data.artist} />}
-      drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}
-    >
+    <Layout title={data.artist?.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
+      <ArtistPageHeader artist={data.artist} />
       <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />

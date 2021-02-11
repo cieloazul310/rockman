@@ -2,14 +2,14 @@ import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+// import { makeStyles, createStyles } from '@material-ui/core/styles';
 //import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 //import SwipeableViews from 'react-swipeable-views';
 // import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
 // import List from '@material-ui/core/List';
 // import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from '../layout/Template';
+import Layout from '../layout';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
@@ -53,12 +53,8 @@ function ProgramTemplate({ data, pageContext }: Props) {
       )
     : [];
   return (
-    <Layout
-      title={data.program?.title}
-      disableGutters
-      jumbotron={<ProgramPageHeader program={data.program} />}
-      drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}
-    >
+    <Layout title={data.program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
+      <ProgramPageHeader program={data.program} />
       <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
@@ -180,15 +176,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
 }
 
 export default ProgramTemplate;
-/*
-function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
-  return {
-    previous: previous ? { to: previous.fields?.slug ?? '#', title: previous.title } : null,
 
-    next: next ? { to: next.fields?.slug ?? '#', title: next.title } : null,
-  };
-}
-*/
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
     program(fields: { slug: { eq: $slug } }) {
