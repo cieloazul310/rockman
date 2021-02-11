@@ -1,14 +1,9 @@
 import * as React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, navigate } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-// import Typography from '@material-ui/core/Typography';
-// import Container from '@material-ui/core/Container';
-// import Box from '@material-ui/core/Box';
-// import Skeleton from '@material-ui/lab/Skeleton';
-// import SwipeableViews from 'react-swipeable-views';
-// import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
-// import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout/';
 import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
@@ -16,20 +11,12 @@ import TunesByProgram, { TunesByProgramSkeleton } from '../components/TunesByPro
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
 import DrawerNavigation from '../components/DrawerNavigation';
-/*
-import Jumbotron from '../components/Jumbotron';
-import LazyViewer from '../components/LazyViewer';
-import { TuneCardSkeleton } from '../components/TuneCard';
-
-import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
-import RelatedArtists from '../components/RelatedArtists';
-*/
-// import sortArtists from '../utils/sortByYomi';
-// import { useAllArtists } from '../utils/graphql-hooks/';
-import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
+import { AdInArticle } from '../components/Ads';
+import { useSortProgram } from '../utils/useSorter';
+import { ArtistTemplateQuery, SitePageContext, SitePageContextPrevious, SitePageContextNext } from '../../graphql-types';
 
-// const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 interface Props {
   data: ArtistTemplateQuery;
@@ -37,26 +24,40 @@ interface Props {
 }
 
 function ArtistTemplate({ data, pageContext }: Props) {
-  const [tab, setTab] = React.useState(1);
-
+  const { previous, next } = pageContext;
+  const sortProgram = useSortProgram();
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && index === initialIndex + 1) {
+      navigate(`/artist/${next.name}`);
+    }
+    if (previous && index === initialIndex - 1) {
+      navigate(`/artist/${previous?.name}`);
+    }
+  };
   const programs = data.artist?.program?.map((program) => ({
     ...program,
     playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
   }));
-  return (
-    <Layout title={data.artist?.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
+  const tabs = [
+    previous ? <TonarinoTab key={previous?.name} item={previous} /> : null,
+    <div key="main">
       <ArtistPageHeader artist={data.artist} />
+      <SectionDivider />
       <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
           <Tab label="詳細" />
         </Tabs>
         <div>
-          {programs?.map((program) => (
+          {programs?.sort(sortProgram).map((program) => (
             <TunesByProgram key={program.week} program={program} />
           ))}
         </div>
       </Section>
+      <SectionDivider />
+      <AdInArticle />
       <SectionDivider />
       <Section>
         <ArtistItemContainer title="同じ回で登場したアーティスト" artists={data.artist?.relatedArtists} />
@@ -65,8 +66,38 @@ function ArtistTemplate({ data, pageContext }: Props) {
       <Section>
         <PageNavigation variant="artist" pageContext={pageContext} />
       </Section>
+    </div>,
+    next ? <TonarinoTab key={next.name} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
+
+  return (
+    <Layout title={data.artist?.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
+      <BindKeyboardSwipeableViews index={1} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
+
+  interface TonarinoTabProps {
+    item?: Pick<SitePageContextNext | SitePageContextPrevious, 'name' | 'image' | 'programCount' | 'tunesCount'> | null;
+  }
+
+  function TonarinoTab({ item }: TonarinoTabProps) {
+    return (
+      <div>
+        <ArtistPageHeader artist={item} />
+        <SectionDivider />
+        <Section>
+          <TunesByProgramSkeleton />
+        </Section>
+      </div>
+    );
+  }
+
   /*
   const allArtists = useAllArtists();
   const artists = React.useMemo(() => sortArtists(allArtists), [allArtists]);

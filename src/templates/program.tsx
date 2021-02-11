@@ -3,33 +3,27 @@ import { graphql, navigate } from 'gatsby';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 // import { makeStyles, createStyles } from '@material-ui/core/styles';
-//import Container from '@material-ui/core/Container';
-// import Box from '@material-ui/core/Box';
-//import SwipeableViews from 'react-swipeable-views';
-// import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
-// import List from '@material-ui/core/List';
-// import ListSubheader from '@material-ui/core/ListSubheader';
+import SwipeableViews from 'react-swipeable-views';
+import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout';
-// import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
 import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
-import Tune from '../components/Tune';
+import Tune, { TuneSkeleton } from '../components/Tune';
 import ArtistItemContainer from '../components/ArtistItemContainer';
-// import Jumbotron from '../components/Jumbotron';
-// import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
 import PageNavigation from '../components/PageNavigation';
 import DrawerNavigation from '../components/DrawerNavigation';
+import NavigationBox from '../components/NavigationBox';
+import { AdInArticle } from '../components/Ads';
 // import NavigationBox from '../components/NavigationBox';
-// import ContentBasis from '../components/ContentBasis';
 // import ResponsiveContainer from '../components/ResponsiveContainer';
 // import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
 // import createDescriptionString from '../utils/createDescriptionString';
 // import getAroundPrograms from '../utils/getAroundPrograms';
 // import { QueriedProgram } from '../types';
 import { removeMultiple } from '../utils/removeMultiple';
-import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
+import { ProgramTemplateQuery, SitePageContext, SitePageContextNext, SitePageContextPrevious } from '../../graphql-types';
 
-// const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 /*
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -46,15 +40,29 @@ interface Props {
 
 function ProgramTemplate({ data, pageContext }: Props) {
   // const classes = useStyles();
+  const { previous, next } = pageContext;
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && next?.fields?.slug && index === initialIndex + 1) {
+      navigate(next.fields.slug);
+    }
+    if (previous && previous?.fields?.slug && index === initialIndex - 1) {
+      navigate(previous.fields.slug);
+    }
+  };
   const artists = data.program?.playlist
     ? removeMultiple(
         data.program.playlist.map((tune) => tune?.artist),
         (item) => item?.name
       )
     : [];
-  return (
-    <Layout title={data.program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
+
+  const tabs = [
+    previous ? <TonarinoTab key={previous.title} item={previous} /> : null,
+    <div key="main">
       <ProgramPageHeader program={data.program} />
+      <SectionDivider />
       <Section>
         <Tabs indicatorColor="secondary" centered value={0}>
           <Tab label="曲" />
@@ -67,12 +75,27 @@ function ProgramTemplate({ data, pageContext }: Props) {
         </div>
       </Section>
       <SectionDivider />
+      <AdInArticle />
+      <SectionDivider />
       <Section>
         <ArtistItemContainer title="登場アーティスト" artists={artists} />
       </Section>
       <SectionDivider />
       <Section>
         <PageNavigation variant="program" pageContext={pageContext} />
+      </Section>
+    </div>,
+    next ? <TonarinoTab key={next.title} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
+
+  return (
+    <Layout title={data.program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
+      <BindKeyboardSwipeableViews index={1} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
       </Section>
     </Layout>
   );
@@ -176,6 +199,27 @@ function ProgramTemplate({ data, pageContext }: Props) {
 }
 
 export default ProgramTemplate;
+
+interface TonarinoTabProps {
+  item?: Pick<SitePageContextNext | SitePageContextPrevious, 'fields' | 'week' | 'title' | 'date'> | null;
+}
+
+function TonarinoTab({ item }: TonarinoTabProps) {
+  return (
+    <div>
+      <ProgramPageHeader program={item} />
+      <SectionDivider />
+      <Section>
+        <TuneSkeleton />
+        <TuneSkeleton />
+        <TuneSkeleton />
+        <TuneSkeleton />
+        <TuneSkeleton />
+        <TuneSkeleton />
+      </Section>
+    </div>
+  );
+}
 
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
