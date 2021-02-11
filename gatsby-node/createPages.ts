@@ -92,12 +92,14 @@ export async function createPages({ graphql, actions, reporter }: CreatePagesArg
             image
             tunesCount
             programCount
+            nation
           }
           previous {
             name
             image
             tunesCount
             programCount
+            nation
           }
         }
       }

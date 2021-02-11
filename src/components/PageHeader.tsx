@@ -25,7 +25,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       flexShrink: 0,
     },
     image: {
-      backgroundColor: theme.palette.grey[700],
+      backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
       backgroundImage: ({ image }) => (image ? `url(${image})` : undefined),
       backgroundPosition: 'center',
       backgroundSize: 'cover',
@@ -85,7 +85,7 @@ export function ProgramPageHeader({
           <Typography variant="body2" color="textSecondary">
             <TextSpan>{`第${program?.week}回`}</TextSpan>
             <TextSpan>{program?.date}</TextSpan>
-            <TextSpan>全{program?.playlist?.length}曲</TextSpan>
+            <TextSpan>全{program?.playlist?.length ?? '**'}曲</TextSpan>
           </Typography>
           <Typography className={classes.title} variant="h6" component="h2">
             {program?.title}

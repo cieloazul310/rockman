@@ -125,36 +125,36 @@ function ArtistsPage() {
       return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
     }
   }, [searchText]);
-  const _onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     event.preventDefault();
     setSearchText(event.target.value);
   };
-  const _clearSearchText = () => {
+  const clearSearchText = () => {
     setSearchText('');
   };
-  const _setSortType = (newSortType: SortType) => () => {
+  const handleSortType = (newSortType: SortType) => () => {
     setSortType(newSortType);
   };
-  const _toggleAppearMultiple = () => {
+  const toggleAppearMultiple = () => {
     setAppearMultiple(!appearMultiple);
   };
-  const _toggleAppearOnce = () => {
+  const toggleAppearOnce = () => {
     setAppearOnce(!appearOnce);
   };
-  const _toggleNationFilterOpen = () => {
+  const toggleNationFilterOpen = () => {
     setNationFilterOpen(!nationFilterOpen);
   };
-  const _toggleNationFilter = (newNation: string) => () => {
+  const toggleNationFilter = (newNation: string) => () => {
     if (nationFilter.includes(newNation)) {
       setNationFilter(nationFilter.filter((nation) => nation !== newNation));
     } else {
       setNationFilter([...nationFilter, newNation]);
     }
   };
-  const _clearNationFilter = () => {
+  const clearNationFilter = () => {
     setNationFilter([]);
   };
-  const _resetNationFilter = () => {
+  const resetNationFilter = () => {
     setNationFilter(nations.map(({ nation }) => nation));
   };
   const appearFilters = React.useMemo(
@@ -173,19 +173,19 @@ function ArtistsPage() {
 
   const SortList = () => (
     <List subheader={<ListSubheader>並び順</ListSubheader>}>
-      <ListItem dense button onClick={_setSortType('abc')}>
+      <ListItem dense button onClick={handleSortType('abc')}>
         <ListItemIcon>
           <Radio edge="start" checked={sortType === 'abc'} />
         </ListItemIcon>
         <ListItemText primary="abc" />
       </ListItem>
-      <ListItem dense button onClick={_setSortType('edges')}>
+      <ListItem dense button onClick={handleSortType('edges')}>
         <ListItemIcon>
           <Radio edge="start" checked={sortType === 'edges'} />
         </ListItemIcon>
         <ListItemText primary="登場回数" />
       </ListItem>
-      <ListItem dense button onClick={_setSortType('tunes')}>
+      <ListItem dense button onClick={handleSortType('tunes')}>
         <ListItemIcon>
           <Radio edge="start" checked={sortType === 'tunes'} />
         </ListItemIcon>
@@ -196,19 +196,19 @@ function ArtistsPage() {
 
   const FilterList = () => (
     <List subheader={<ListSubheader>フィルタ</ListSubheader>}>
-      <ListItem dense button onClick={_toggleAppearMultiple}>
+      <ListItem dense button onClick={toggleAppearMultiple}>
         <ListItemIcon>
           <Checkbox edge="start" checked={appearMultiple} />
         </ListItemIcon>
         <ListItemText primary="複数回登場" />
       </ListItem>
-      <ListItem dense button onClick={_toggleAppearOnce}>
+      <ListItem dense button onClick={toggleAppearOnce}>
         <ListItemIcon>
           <Checkbox edge="start" checked={appearOnce} />
         </ListItemIcon>
         <ListItemText primary="1回のみ登場" />
       </ListItem>
-      <ListItem button dense onClick={_toggleNationFilterOpen}>
+      <ListItem button dense onClick={toggleNationFilterOpen}>
         <ListItemIcon>
           <FlagIcon />
         </ListItemIcon>
@@ -217,14 +217,14 @@ function ArtistsPage() {
       </ListItem>
       <Collapse in={nationFilterOpen} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <ListItem className={classes.nested} button dense onClick={_resetNationFilter}>
+          <ListItem className={classes.nested} button dense onClick={resetNationFilter}>
             <ListItemText primary="すべてのチェックをつける" />
           </ListItem>
-          <ListItem className={classes.nested} button dense onClick={_clearNationFilter}>
+          <ListItem className={classes.nested} button dense onClick={clearNationFilter}>
             <ListItemText primary="すべてのチェックを外す" />
           </ListItem>
           {nations.map((nation) => (
-            <ListItem className={classes.nested} key={nation.nation} dense button onClick={_toggleNationFilter(nation.nation)}>
+            <ListItem className={classes.nested} key={nation.nation} dense button onClick={toggleNationFilter(nation.nation)}>
               <ListItemIcon>
                 <Checkbox edge="start" checked={nationFilter.includes(nation.nation)} />
               </ListItemIcon>
@@ -242,7 +242,6 @@ function ArtistsPage() {
   return (
     <Layout
       title="アーティスト一覧"
-      maxWidth="md"
       disablePaddingTop
       componentViewports={{ BottomNav: false }}
       drawerContents={
@@ -263,13 +262,13 @@ function ArtistsPage() {
               </IconButton>
               <InputBase
                 value={searchText}
-                onChange={_onChangeSearchText}
+                onChange={onChangeSearchText}
                 className={classes.searchText}
                 placeholder="アーティストを検索"
                 inputProps={{ 'aria-label': 'search artists' }}
               />
               {searchText !== '' ? (
-                <IconButton edge="end" onClick={_clearSearchText}>
+                <IconButton edge="end" onClick={clearSearchText}>
                   <CancelIcon />
                 </IconButton>
               ) : null}

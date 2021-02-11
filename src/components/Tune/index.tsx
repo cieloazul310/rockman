@@ -62,9 +62,13 @@ function Tune({ tune }: TuneProps) {
           <Typography>{tune?.title}</Typography>
           <Typography variant="body2">
             <TextSpan>
-              <AppLink to={`/artist/${tune?.artist?.name}`} color="inherit">
-                {tune?.artist?.name}
-              </AppLink>
+              {tune?.artist?.name !== 'スピッツ' ? (
+                <AppLink to={`/artist/${tune?.artist?.name}`} color="inherit">
+                  {tune?.artist?.name}
+                </AppLink>
+              ) : (
+                'スピッツ'
+              )}
             </TextSpan>
             <TextSpan color="textSecondary">{`(${tune?.year})`}</TextSpan>
           </Typography>

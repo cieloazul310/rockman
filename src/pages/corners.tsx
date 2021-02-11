@@ -1,19 +1,20 @@
 import * as React from 'react';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import { useLocation, WindowLocation } from '@reach/router';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
+// import Tabs from '@material-ui/core/Tabs';
+// import Tab from '@material-ui/core/Tab';
+// import { useLocation, WindowLocation } from '@reach/router';
+// import SwipeableViews from 'react-swipeable-views';
+// import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
-import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
-import LazyViewer from '../components/LazyViewer';
+// import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+// import LazyViewer from '../components/LazyViewer';
 //import { useCorners } from '../utils/graphql-hooks';
-
+/*
 type LocationWithState = WindowLocation & {
   state?: {
     corner?: string;
   };
 };
+*/
 /*
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
