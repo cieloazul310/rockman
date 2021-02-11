@@ -1,13 +1,15 @@
 import * as React from 'react';
+import Box from '@material-ui/core/Box';
 import Section from '../src/components/Section';
 import PageNavigation from '../src/components/PageNavigation';
+import DrawerNavigation from '../src/components/DrawerNavigation';
 
 const stories = { title: 'PageNavigation' };
 export default stories;
 
 const programContext = {
   next: {
-    title: 'ほにゃららで漫遊記',
+    title: 'ほにゃららほにゃららほにゃららほにゃららで漫遊記',
     week: 20,
     date: '2021-02-10',
     fields: {
@@ -15,7 +17,7 @@ const programContext = {
     },
   },
   previous: {
-    title: 'ほにゃららで漫遊記',
+    title: 'ほにゃららほにゃららほにゃららほにゃららで漫遊記',
     week: 18,
     date: '2021-01-27',
     fields: {
@@ -68,5 +70,21 @@ export function ArtistEnd() {
     <Section>
       <PageNavigation variant="artist" pageContext={{ previous: artistContext.previous }} />
     </Section>
+  );
+}
+
+export function DrawerProgram() {
+  return (
+    <Box width={280} bgcolor="background.paper">
+      <DrawerNavigation variant="program" pageContext={programContext} />
+    </Box>
+  );
+}
+
+export function DrawerArtist() {
+  return (
+    <Box width={280} bgcolor="background.paper">
+      <DrawerNavigation variant="artist" pageContext={artistContext} />
+    </Box>
   );
 }

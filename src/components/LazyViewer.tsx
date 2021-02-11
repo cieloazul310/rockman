@@ -1,19 +1,8 @@
 import * as React from 'react';
-import Box from '@material-ui/core/Box';
 import { useInView } from 'react-intersection-observer';
-import TunesByProgram from './TunesByProgram';
-import { TuneCardSkeleton } from './TuneCard';
+import { TuneProps } from './Tune';
+import TunesByProgram, { TunesByProgramSkeleton, TunesByProgramProps } from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
-import { QueriedProgram } from '../types';
-import { ProgramPlaylist } from '../../graphql-types';
-
-function DummyItem() {
-  return (
-    <Box py={4}>
-      <TuneCardSkeleton />
-    </Box>
-  );
-}
 
 interface DisplayOnScreenProps {
   children: React.ReactNode;
@@ -27,13 +16,23 @@ function DisplayOnScreen({ children, margin = 0, once = true }: DisplayOnScreenP
     triggerOnce: once,
   });
 
-  return <div ref={ref}>{inView ? children : <DummyItem />}</div>;
+  return (
+    <div ref={ref}>
+      {inView ? (
+        children
+      ) : (
+        <div>
+          <TunesByProgramSkeleton />
+        </div>
+      )}
+    </div>
+  );
 }
 
 interface Props {
-  programs: QueriedProgram[];
+  programs: TunesByProgramProps['program'][];
   divisor?: number;
-  filter?: (tune: ProgramPlaylist) => boolean;
+  filter?: (tune: TuneProps['tune']) => boolean;
 }
 
 function LazyViewer({ programs, filter = () => true, divisor = 15 }: Props) {
@@ -43,13 +42,13 @@ function LazyViewer({ programs, filter = () => true, divisor = 15 }: Props) {
       i === 0 ? (
         <div key={i}>
           {d.map((v) => (
-            <TunesByProgram program={v} key={v.id} />
+            <TunesByProgram program={v} key={v?.id} />
           ))}
         </div>
       ) : (
         <DisplayOnScreen key={i} margin={40}>
           {d.map((v) => (
-            <TunesByProgram program={v} key={v.id} />
+            <TunesByProgram program={v} key={v?.id} />
           ))}
         </DisplayOnScreen>
       )

@@ -8,22 +8,19 @@ import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
 import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import Section from '../components/Section';
 import ProgramItem from '../components/ProgramItem';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 import useSorter from '../utils/useSorter';
 import { useAllCategories } from '../utils/graphql-hooks';
 
-type LocationWithState = WindowLocation & {
-  state?: {
-    category?: string;
-  };
-};
-
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function CategoriesPage() {
-  const location = useLocation() as LocationWithState;
+  const location = useLocation() as WindowLocation<{
+    category?: string;
+  }>;
   const { hash, state } = location;
   const categories = useAllCategories();
   const fieldValues = categories.map(({ fieldValue }) => fieldValue);
@@ -56,6 +53,7 @@ function CategoriesPage() {
     <Layout
       title={categories[tab]?.fieldValue ?? 'Category'}
       tabSticky
+      disableGutters
       componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs value={tab} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
@@ -67,14 +65,16 @@ function CategoriesPage() {
     >
       <BindKeyboardSwipeableViews index={tab} onChangeIndex={_handleChangeIndex} resistance>
         {categories.map((d, index) => (
-          <TabPane key={index} value={tab} index={index}>
-            <List>
-              {d.edges
-                .sort((a, b) => sorter(a.node.week && b.node.week ? a.node.week - b.node.week : 0))
-                .map(({ node }) => (
-                  <ProgramItem key={node.id} program={node} />
-                ))}
-            </List>
+          <TabPane key={index} value={tab} index={index} disableGutters>
+            <Section>
+              <List>
+                {d.edges
+                  .sort((a, b) => sorter(a.node.week && b.node.week ? a.node.week - b.node.week : 0))
+                  .map(({ node }) => (
+                    <ProgramItem key={node.id} program={node} />
+                  ))}
+              </List>
+            </Section>
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>

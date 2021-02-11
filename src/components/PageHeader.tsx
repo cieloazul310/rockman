@@ -62,7 +62,17 @@ function PageHeader({ image, top, bottom }: Props) {
   );
 }
 
+const useTypoStyles = makeStyles((theme) =>
+  createStyles({
+    title: {
+      fontWeight: theme.typography.fontWeightBold,
+      lineHeight: 1.2,
+    },
+  })
+);
+
 export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['program'] }) {
+  const classes = useTypoStyles();
   return (
     <PageHeader
       image={program?.fields?.image}
@@ -73,17 +83,17 @@ export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['
             <TextSpan>{program?.date}</TextSpan>
             <TextSpan>全{program?.playlist?.length}曲</TextSpan>
           </Typography>
-          <Typography variant="h6" component="h2">
+          <Typography className={classes.title} variant="h6" component="h2">
             {program?.title}
           </Typography>
-          {program?.subtitle ? <Typography>{program.subtitle}</Typography> : null}
+          {program?.subtitle ? <Typography variant="body2">{program.subtitle}</Typography> : null}
         </>
       }
       bottom={
         <>
           <Typography variant="body2">
             {program?.categories?.map((category) => (
-              <TextSpan>
+              <TextSpan key={category}>
                 <AppLink to="/categories" state={{ category: category ?? undefined }}>
                   {category}
                 </AppLink>
@@ -97,12 +107,13 @@ export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['
 }
 
 export function ArtistPageHeader({ artist }: { artist: ArtistTemplateQuery['artist'] }) {
+  const classes = useTypoStyles();
   return (
     <PageHeader
       image={artist?.image}
       top={
         <>
-          <Typography variant="h6" component="h2">
+          <Typography className={classes.title} variant="h6" component="h2">
             {artist?.name}
           </Typography>
           <Typography variant="body2">{artist?.nation}</Typography>
@@ -110,8 +121,10 @@ export function ArtistPageHeader({ artist }: { artist: ArtistTemplateQuery['arti
       }
       bottom={
         <>
-          <Typography variant="caption">{artist?.programCount}回</Typography>
-          <Typography variant="caption">{artist?.tunesCount}曲</Typography>
+          <Typography variant="body2">
+            <TextSpan>{artist?.tunesCount}曲</TextSpan>
+            <TextSpan>{artist?.programCount}回</TextSpan>
+          </Typography>
         </>
       }
     />
