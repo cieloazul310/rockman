@@ -12,7 +12,7 @@ import ProgramItem from '../components/ProgramItem';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
-import useSorter from '../utils/useSorter';
+import { useSortProgramNode } from '../utils/useSorter';
 import { useAllCategories } from '../utils/graphql-hooks';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -33,11 +33,11 @@ function CategoriesPage() {
       ? fieldValues.indexOf(state.category)
       : 0;
   const [tab, setTab] = React.useState(initialValue);
-  const sorter = useSorter();
-  const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
+  const sortProgramNode = useSortProgramNode();
+  const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
     setTab(newValue);
   };
-  const _handleChangeIndex = (index: number) => {
+  const handleChangeIndex = (index: number) => {
     setTab(index);
   };
   React.useEffect(() => {
@@ -57,24 +57,22 @@ function CategoriesPage() {
       disablePaddingTop
       componentViewports={{ BottomNav: false }}
       tabs={
-        <Tabs value={tab} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+        <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           {categories.map((d, index) => (
             <Tab key={d.fieldValue ?? index} label={`${d.fieldValue} ${d.edges.length}`} />
           ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={_handleChangeIndex} resistance>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance>
         {categories.map((d, index) => (
           <TabPane key={index} value={tab} index={index} disableGutters>
             <Jumbotron title={fieldValues[tab]} footer={`全${d.edges.length}回`} />
             <Section>
               <List>
-                {d.edges
-                  .sort((a, b) => sorter(a.node.week && b.node.week ? a.node.week - b.node.week : 0))
-                  .map(({ node }, i) => (
-                    <ProgramItem key={node.id} program={node} last={i === d.edges.length - 1} />
-                  ))}
+                {d.edges.sort(sortProgramNode).map(({ node }, i) => (
+                  <ProgramItem key={node.id} program={node} last={i === d.edges.length - 1} />
+                ))}
               </List>
             </Section>
           </TabPane>
