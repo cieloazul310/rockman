@@ -13,7 +13,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
   createStyles({
     root: {
       display: 'flex',
-      height: 200,
+      height: 240,
       padding: theme.spacing(2, 0),
       background: theme.palette.background.paper,
     },

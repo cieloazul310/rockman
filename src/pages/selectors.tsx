@@ -1,16 +1,16 @@
 import * as React from 'react';
-import Container from '@material-ui/core/Container';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
-import TabPane from 'gatsby-theme-aoi/src/layout/TabPane';
+import TabPane from '../layout/TabPane';
 import Section, { SectionDivider } from '../components/Section';
-import ContentBasis from '../components/ContentBasis';
+import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
+import { AdInArticle } from '../components/Ads';
 import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -62,18 +62,19 @@ function SelectorsPage() {
       <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance>
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index} disableGutters>
+            <Jumbotron title={`${selectors[value].fieldValue}の選曲`} footer={`${d.playlist.length}曲/${d.edges.length}回`} />
             <Section>
-              <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune.selector === d.fieldValue} />
+              <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune?.selector === d.fieldValue} />
             </Section>
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <Container maxWidth="md">
-        <ContentBasis>
-          <NavigationBox />
-        </ContentBasis>
-      </Container>
+      <AdInArticle />
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
 }

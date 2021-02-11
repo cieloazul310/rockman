@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Skeleton from '@material-ui/lab/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import { Maybe, Artist } from '../../graphql-types';
 
@@ -72,3 +73,26 @@ function ArtistItem({ artist }: ArtistItemProps) {
 }
 
 export default ArtistItem;
+
+export function ArtistItemSkeleton() {
+  const classes = useStyles({});
+  return (
+    <AppLink to="#" color="inherit" className={classes.root}>
+      <div className={classes.item}>
+        <div className={classes.imageContainer}>
+          <div className={classes.image} />
+          <div className={classes.label}>
+            <Typography variant="caption">
+              <Skeleton width={40} />
+            </Typography>
+          </div>
+        </div>
+        <div className={classes.name}>
+          <Typography variant="body2">
+            <Skeleton />
+          </Typography>
+        </div>
+      </div>
+    </AppLink>
+  );
+}
