@@ -13,7 +13,8 @@ export default function useSorter() {
 
 export function useSortProgram() {
   const sorter = useSorter();
-  return (a: Maybe<Pick<Program, 'week'>>, b: Maybe<Pick<Program, 'week'>>) => sorter((a?.week ?? 0) - (b?.week ?? 0));
+  return (a: Maybe<Pick<Program, 'week'>> | undefined, b: Maybe<Pick<Program, 'week'>> | undefined) =>
+    sorter((a?.week ?? 0) - (b?.week ?? 0));
 }
 
 export function useSortProgramNode() {
@@ -24,6 +25,8 @@ export function useSortProgramNode() {
 
 export function useSortPlaylist() {
   const sorter = useSorter();
-  return (a: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>>, b: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>>) =>
-    sorter((a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0));
+  return (
+    a: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>> | undefined,
+    b: Maybe<Pick<ProgramPlaylist, 'week' | 'indexInWeek'>> | undefined
+  ) => sorter((a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0));
 }

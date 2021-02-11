@@ -54,7 +54,14 @@ export interface ArtistItemProps {
 function ArtistItem({ artist }: ArtistItemProps) {
   const classes = useStyles({ image: artist?.image });
   return (
-    <AppLink to={`/artist/${artist?.name}`} color="inherit" className={classes.root}>
+    <AppLink
+      to={`/artist/${artist?.name}`}
+      color="inherit"
+      className={classes.root}
+      onTouchMove={isolateTouch}
+      onTouchStart={isolateTouch}
+      onTouchEnd={isolateTouch}
+    >
       <div className={classes.item}>
         <div className={classes.imageContainer}>
           <div className={classes.image} />
@@ -95,4 +102,8 @@ export function ArtistItemSkeleton() {
       </div>
     </AppLink>
   );
+}
+
+function isolateTouch(event: React.TouchEvent) {
+  event.stopPropagation();
 }

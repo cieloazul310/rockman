@@ -44,12 +44,13 @@ function ArtistItemContainer({ artists, title }: Props) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
       <div className={classes.header}>
         <Typography>{title}</Typography>
       </div>
-      <div className={classes.wrapper}>
+      <div className={classes.wrapper} onTouchMove={isolateTouch} onTouchStart={isolateTouch} onTouchEnd={isolateTouch}>
         <Grid container={!isMobile} className={classes.container}>
           {artists
             ?.filter((artist) => artist?.name !== 'スピッツ')
@@ -88,4 +89,8 @@ export function ArtistItemContainerSkeleton({ length }: { length: number }) {
       </div>
     </div>
   );
+}
+
+function isolateTouch(event: React.TouchEvent) {
+  event.stopPropagation();
 }

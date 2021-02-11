@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import TextSpan from './TextSpan';
-import { ProgramTemplateQuery, ArtistTemplateQuery } from '../../graphql-types';
+import { Maybe, Program, Artist } from '../../graphql-types';
 
 interface StylesProps {
   image?: string | null;
@@ -71,7 +71,11 @@ const useTypoStyles = makeStyles((theme) =>
   })
 );
 
-export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['program'] }) {
+export function ProgramPageHeader({
+  program,
+}: {
+  program: Maybe<Pick<Program, 'fields' | 'week' | 'date' | 'playlist' | 'title' | 'subtitle' | 'categories'>>;
+}) {
   const classes = useTypoStyles();
   return (
     <PageHeader
@@ -106,7 +110,7 @@ export function ProgramPageHeader({ program }: { program: ProgramTemplateQuery['
   );
 }
 
-export function ArtistPageHeader({ artist }: { artist: ArtistTemplateQuery['artist'] }) {
+export function ArtistPageHeader({ artist }: { artist: Maybe<Pick<Artist, 'image' | 'name' | 'nation' | 'tunesCount' | 'programCount'>> }) {
   const classes = useTypoStyles();
   return (
     <PageHeader
