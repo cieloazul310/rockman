@@ -6,7 +6,7 @@ import ListItemAppLink from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { useLocation } from '@reach/router';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon } from '../../../icons';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon } from '../../../icons';
 
 function DrawerContent() {
   const { pathname } = useLocation();
@@ -35,12 +35,6 @@ function DrawerContent() {
           <CategoryIcon />
         </ListItemIcon>
         <ListItemText primary="テーマ" />
-      </ListItemAppLink>
-      <ListItemAppLink to="/corners/" selected={pathname === withPrefix('/corners/')} button component={GatsbyLink}>
-        <ListItemIcon>
-          <CornerIcon />
-        </ListItemIcon>
-        <ListItemText primary="コーナー" />
       </ListItemAppLink>
       <ListItemAppLink to="/selectors/" selected={pathname === withPrefix('/selectors/')} button component={GatsbyLink}>
         <ListItemIcon>

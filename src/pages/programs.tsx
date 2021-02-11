@@ -1,6 +1,5 @@
 import * as React from 'react';
-import Container from '@material-ui/core/Container';
-import Layout from '../layout/Template';
+import Layout from '../layout';
 import Section, { SectionDivider } from '../components/Section';
 import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
@@ -9,11 +8,11 @@ import { AdInArticle } from '../components/Ads';
 
 function ProgramsPage() {
   return (
-    <Layout title="放送回" disableGutters disablePaddingTop jumbotron={<Jumbotron title="放送回一覧" />}>
+    <Layout title="放送回">
+      <Jumbotron title="放送回一覧" />
+      <SectionDivider />
       <Section>
-        <Container maxWidth="md" disableGutters>
-          <Programs />
-        </Container>
+        <Programs />
       </Section>
       <SectionDivider />
       <AdInArticle />

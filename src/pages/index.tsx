@@ -1,21 +1,20 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { graphql, PageProps } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from '../layout/Template';
+import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import ProgramItem from '../components/ProgramItem';
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import Section, { SectionDivider } from '../components/Section';
-import ContentBasis from '../components/ContentBasis';
-import InView from '../components/InView';
 import Stats from '../components/index/Stat';
-import { AdInArticle, AdInFooter } from '../components/Ads';
+import { AdInArticle } from '../components/Ads';
 import { useProgramTop25 } from '../utils/graphql-hooks/useProgramTop25';
 import { IndexQuery } from '../../graphql-types';
 
-function IndexPage() {
+function IndexPage({ data }: PageProps<IndexQuery>) {
+  /*
   const data = useStaticQuery<IndexQuery>(graphql`
     query Index {
       allProgram(sort: { fields: week, order: DESC }, limit: 8) {
@@ -34,20 +33,20 @@ function IndexPage() {
       }
     }
   `);
+  */
   const top25 = useProgramTop25();
   const images = data.allProgram.edges
     .map(({ node }) => node.fields?.image ?? undefined)
     .filter((image): image is string => Boolean(image));
-  const jumbotron = (
-    <Jumbotron
-      title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
-      header="TOKYO-FM 全国38局ネットで放送中"
-      image={images.length ? images[0] : undefined}
-    />
-  );
 
   return (
-    <Layout componentViewports={{ BottomNav: false }} jumbotron={jumbotron} disableGutters disablePaddingTop>
+    <Layout>
+      <Jumbotron
+        title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
+        header="TOKYO-FM 全国38局ネットで放送中"
+        image={images.length ? images[0] : undefined}
+      />
+      <SectionDivider />
       <Section>
         <Stats />
       </Section>
@@ -74,3 +73,22 @@ function IndexPage() {
 }
 
 export default IndexPage;
+
+export const query = graphql`
+  query Index {
+    allProgram(sort: { fields: week, order: DESC }, limit: 8) {
+      edges {
+        node {
+          id
+          title
+          week
+          date(formatString: "YYYY-MM-DD")
+          fields {
+            slug
+            image
+          }
+        }
+      }
+    }
+  }
+`;

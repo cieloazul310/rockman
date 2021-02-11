@@ -8,10 +8,10 @@ type Props = {
   visible?: boolean;
 } & ContainerProps;
 
-function TabPane({ index, value, children, maxWidth = 'md', ...props }: Props) {
+function TabPane({ index, value, children, ...props }: Props) {
   return (
     <div role="tabpanel" hidden={value !== index} id={`full-width-tabpanel-${index}`} aria-labelledby={`full-width-tab-${index}`}>
-      <Container maxWidth={maxWidth} {...props}>
+      <Container {...props}>
         <div>{value === index ? children : null}</div>
       </Container>
     </div>
