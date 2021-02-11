@@ -5,12 +5,12 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import Switch from '@material-ui/core/Switch';
 import SortIcon from '@material-ui/icons/Sort';
-import { useAppState, useDispatch } from 'gatsby-theme-aoi-top-layout/src/utils/AppStateContext';
+import { useAppState, useDispatch } from '../gatsby-theme-aoi-top-layout/utils/AppStateContext';
 
 function ListItemToggleSort() {
   const { sort } = useAppState();
   const dispatch = useDispatch();
-  const _toggleSort = () => {
+  const toggleSort = () => {
     dispatch({ type: 'TOGGLE_SORT' });
   };
   return (
@@ -20,12 +20,7 @@ function ListItemToggleSort() {
       </ListItemIcon>
       <ListItemText primary="新しい順" />
       <ListItemSecondaryAction>
-        <Switch
-          edge="end"
-          onChange={_toggleSort}
-          checked={sort === 'newer'}
-          inputProps={{ 'aria-labelledby': 'switch-list-toggle-sort' }}
-        />
+        <Switch edge="end" onChange={toggleSort} checked={sort === 'newer'} inputProps={{ 'aria-labelledby': 'switch-list-toggle-sort' }} />
       </ListItemSecondaryAction>
     </ListItem>
   );
