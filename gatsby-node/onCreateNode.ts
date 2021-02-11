@@ -20,11 +20,18 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       name: `slug`,
       value: slug,
     });
-    const programImages: string[] = [];
+    const programNotSpitzImages: string[] = [];
+    const programSpitzImages: string[] = [];
 
     node.playlist.forEach((playlist) => {
       const { artist, kana, nation, youtube } = playlist;
-      if (youtube) programImages.push(youtube);
+      if (youtube && youtube !== '') {
+        if (artist !== 'スピッツ') {
+          programNotSpitzImages.push(youtube);
+        } else {
+          programSpitzImages.push(youtube);
+        }
+      }
 
       if (!artists[artist]) {
         artists[artist] = {
@@ -41,6 +48,8 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       }
       tunes.push(playlist);
     });
+
+    const programImages = [...programNotSpitzImages, ...programSpitzImages];
 
     createNodeField({
       node,

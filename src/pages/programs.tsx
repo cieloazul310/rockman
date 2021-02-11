@@ -1,15 +1,26 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Layout from 'gatsby-theme-aoi/src/layout';
+import Container from '@material-ui/core/Container';
+import Layout from '../layout/Template';
+import Section, { SectionDivider } from '../components/Section';
+import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
+import NavigationBox from '../components/NavigationBox';
+import { AdInArticle } from '../components/Ads';
 
 function ProgramsPage() {
   return (
-    <Layout title="放送回" maxWidth="md" componentViewports={{ BottomNav: false }}>
-      <Typography variant="h5" component="h2">
-        放送回一覧
-      </Typography>
-      <Programs />
+    <Layout title="放送回" disableGutters disablePaddingTop jumbotron={<Jumbotron title="放送回一覧" />}>
+      <Section>
+        <Container maxWidth="md" disableGutters>
+          <Programs />
+        </Container>
+      </Section>
+      <SectionDivider />
+      <AdInArticle />
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
 }

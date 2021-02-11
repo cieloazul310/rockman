@@ -40,3 +40,6 @@ export const decorators = [
   (Story) => <LocationProvider history={history}><Story /></LocationProvider>,
   withMuiTheme([theme, darkTheme]),
 ];
+export const parameters = {
+  layout: 'fullscreen',
+};

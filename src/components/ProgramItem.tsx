@@ -6,9 +6,10 @@ import { Maybe, Program } from '../../graphql-types';
 
 interface Props {
   program: Maybe<Pick<Program, 'fields' | 'title' | 'week' | 'date'>>;
+  last?: boolean;
 }
 
-function ProgramItem({ program }: Props) {
+function ProgramItem({ program, last }: Props) {
   const classes = useAvatarStyles();
   return (
     <ListItemLink
@@ -16,7 +17,8 @@ function ProgramItem({ program }: Props) {
       to={program?.fields?.slug ?? '#'}
       primaryText={program?.title ?? 'タイトル'}
       secondaryText={`第${program?.week}回 ${program?.date}`}
-      divider
+      divider={!last}
+      inset
     />
   );
 }

@@ -3,7 +3,8 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { makeStyles, createStyles, useTheme } from '@material-ui/core/styles';
-import ArtistItem, { ArtistItemProps } from './ArtistItem';
+import Skeleton from '@material-ui/lab/Skeleton';
+import ArtistItem, { ArtistItemSkeleton, ArtistItemProps } from './ArtistItem';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -64,3 +65,27 @@ function ArtistItemContainer({ artists, title }: Props) {
 }
 
 export default ArtistItemContainer;
+
+export function ArtistItemContainerSkeleton({ length }: { length: number }) {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <div className={classes.header}>
+        <Typography>
+          <Skeleton width={100} />
+        </Typography>
+      </div>
+      <div className={classes.wrapper}>
+        <Grid container={!isMobile} className={classes.container}>
+          {Array.from({ length }).map((_, index) => (
+            <Grid className={classes.item} item={!isMobile || undefined} key={index} sm={!isMobile ? 2 : undefined}>
+              <ArtistItemSkeleton />
+            </Grid>
+          ))}
+        </Grid>
+      </div>
+    </div>
+  );
+}

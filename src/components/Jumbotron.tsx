@@ -1,25 +1,29 @@
 import * as React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 interface StyleProps {
-  height: number;
-  imgUrl?: string;
+  image?: string;
 }
+const height = 240;
 
 const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
   createStyles({
-    jumbotronBg: ({ imgUrl }) => ({
+    root: {
+      height,
+      overflow: 'hidden',
+      position: 'relative',
+    },
+    jumbotronBg: ({ image }) => ({
       height: '100%',
-      backgroundColor: theme.palette.grey[700],
-      backgroundImage: imgUrl ? `url(${imgUrl})` : undefined,
+      backgroundColor: theme.palette.type === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
+      backgroundImage: image ? `url(${image})` : undefined,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
-      filter: imgUrl ? 'blur(6px) brightness(0.8)' : undefined,
-      transform: imgUrl ? 'scale(1.1)' : undefined,
+      filter: image ? 'blur(6px) brightness(0.8)' : undefined,
+      transform: image ? 'scale(1.1)' : undefined,
     }),
-    jumbotronText: ({ height }) => ({
+    jumbotronText: {
       height: height,
       color: 'white',
       position: 'absolute',
@@ -32,17 +36,9 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       [theme.breakpoints.down('xs')]: {
         padding: theme.spacing(2),
       },
-    }),
+    },
     jumbotronTitle: {
       fontWeight: 'bold',
-    },
-    artists: {
-      margin: 0,
-      padding: 0,
-    },
-    artist: {
-      display: 'inline-block',
-      marginRight: '.6em',
     },
   })
 );
@@ -50,34 +46,23 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
 interface Props {
   header?: React.ReactNode;
   title: React.ReactNode;
-  height?: number;
-  artists?: string[];
-  subtitle?: React.ReactNode;
-  imgUrl?: string;
+  footer?: React.ReactNode;
+  image?: string;
 }
 
-function Jumbotron({ header, subtitle, title, artists, imgUrl, height = 300 }: Props) {
-  const classes = useStyles({ imgUrl, height });
+function Jumbotron({ header, footer, title, image }: Props) {
+  const classes = useStyles({ image });
   return (
-    <Box height={height} overflow="hidden" position="relative">
+    <div className={classes.root}>
       <div className={classes.jumbotronBg} />
       <div className={classes.jumbotronText}>
-        <Typography variant="subtitle2">{header}</Typography>
-        <Typography variant="h3" component="h2" className={classes.jumbotronTitle} gutterBottom>
+        {header ? <Typography variant="subtitle2">{header}</Typography> : null}
+        <Typography variant="h5" component="h2" className={classes.jumbotronTitle} gutterBottom>
           {title}
         </Typography>
-        {subtitle ? <Typography variant="subtitle1">{subtitle}</Typography> : null}
-        {artists ? (
-          <ul className={classes.artists}>
-            {artists.map((artist) => (
-              <Typography className={classes.artist} variant="subtitle2" component="li" key={artist}>
-                {artist}
-              </Typography>
-            ))}
-          </ul>
-        ) : null}
+        {footer ? <Typography variant="subtitle2">{footer}</Typography> : null}
       </div>
-    </Box>
+    </div>
   );
 }
 
