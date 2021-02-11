@@ -1,27 +1,72 @@
 import * as React from 'react';
-import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Skeleton from '@material-ui/lab/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import TuneCard from './TuneCard';
-import { Program, ProgramPlaylist } from '../../graphql-types';
+import Tune, { TuneSkeleton, TuneProps } from './Tune';
+import TextSpan from './TextSpan';
+import { Maybe, Program } from '../../graphql-types';
 
-interface Props {
-  program: Pick<Program, 'week' | 'date' | 'fields' | 'title' | 'playlist'>;
-  filter?: (tune?: ProgramPlaylist) => boolean;
+const useStyles = makeStyles((theme) =>
+  createStyles({
+    root: {
+      padding: theme.spacing(1, 0),
+    },
+    header: {
+      padding: theme.spacing(1),
+    },
+    title: {
+      fontWeight: theme.typography.fontWeightBold,
+    },
+  })
+);
+
+export interface TunesByProgramProps {
+  program: Maybe<
+    Pick<Program, 'id' | 'week' | 'date' | 'fields' | 'title'> & {
+      playlist: TuneProps['tune'][];
+    }
+  >;
 }
 
-function TunesByProgram({ program, filter = () => true }: Props) {
+function TunesByProgram({ program }: TunesByProgramProps) {
+  const classes = useStyles();
   return (
-    <Box py={2}>
-      <Typography variant="subtitle2" component="span">
-        第{program.week}回 {program.date}
-      </Typography>
-      <Typography variant="h6" component="h3" gutterBottom>
-        <AppLink to={program.fields?.slug ?? '#'}>{program.title}</AppLink>
-      </Typography>
-      {program?.playlist?.filter(filter).map((tune, index) => <TuneCard key={tune?.id ?? index} tune={tune} />) ?? null}
-    </Box>
+    <div className={classes.root}>
+      <div className={classes.header}>
+        <Typography variant="body2" color="textSecondary">
+          <TextSpan>第{program?.week}回</TextSpan>
+          <TextSpan>{program?.date}</TextSpan>
+        </Typography>
+        <Typography className={classes.title} variant="body1">
+          <AppLink to={program?.fields?.slug ?? '#'}>{program?.title}</AppLink>
+        </Typography>
+      </div>
+      <div>{program?.playlist?.map((tune) => <Tune key={tune?.id} tune={tune} />) ?? null}</div>
+    </div>
   );
 }
 
 export default TunesByProgram;
+
+export function TunesByProgramSkeleton() {
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <div className={classes.header}>
+        <Typography variant="body2" color="textSecondary">
+          <TextSpan>
+            <Skeleton width={40} />
+          </TextSpan>
+          <TextSpan>
+            <Skeleton width={60} />
+          </TextSpan>
+        </Typography>
+        <Typography className={classes.title} variant="body1" color="secondary">
+          <Skeleton width={260} />
+        </Typography>
+      </div>
+      <div>{Array.from({ length: 4 }).map((_, index) => <TuneSkeleton key={index} />) ?? null}</div>
+    </div>
+  );
+}

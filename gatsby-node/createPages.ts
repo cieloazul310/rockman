@@ -1,6 +1,6 @@
 import * as path from 'path';
 import { CreatePagesArgs } from 'gatsby';
-import { Program, Artist } from '../graphql-types';
+import { Program, Artist } from './types';
 
 type ProgramPrevNext = Pick<Program, 'title' | 'date' | 'fields' | 'week'>;
 

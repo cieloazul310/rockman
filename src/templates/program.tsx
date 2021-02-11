@@ -1,45 +1,83 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 //import Container from '@material-ui/core/Container';
 // import Box from '@material-ui/core/Box';
 //import SwipeableViews from 'react-swipeable-views';
 // import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
 // import List from '@material-ui/core/List';
 // import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from 'gatsby-theme-aoi/src/layout';
+import Layout from '../layout/Template';
 // import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
+import Tune from '../components/Tune';
+import ArtistItemContainer from '../components/ArtistItemContainer';
 // import Jumbotron from '../components/Jumbotron';
-// import DrawerNavigation from '../components/DrawerNavigation';
 // import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
-// import PageNavigation from '../components/PageNavigation';
+import PageNavigation from '../components/PageNavigation';
+import DrawerNavigation from '../components/DrawerNavigation';
 // import NavigationBox from '../components/NavigationBox';
 // import ContentBasis from '../components/ContentBasis';
 // import ResponsiveContainer from '../components/ResponsiveContainer';
 // import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
 // import createDescriptionString from '../utils/createDescriptionString';
 // import getAroundPrograms from '../utils/getAroundPrograms';
-import { QueriedProgram } from '../types';
+// import { QueriedProgram } from '../types';
+import { removeMultiple } from '../utils/removeMultiple';
 import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
 // const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
-
+/*
+const useStyles = makeStyles((theme) =>
+  createStyles({
+    content: {
+      background: theme.palette.background.paper,
+    },
+  })
+);
+*/
 interface Props {
   data: ProgramTemplateQuery;
   pageContext: SitePageContext;
 }
 
 function ProgramTemplate({ data, pageContext }: Props) {
+  // const classes = useStyles();
+  const artists = data.program?.playlist
+    ? removeMultiple(
+        data.program.playlist.map((tune) => tune?.artist),
+        (item) => item?.name
+      )
+    : [];
   return (
-    <Layout title={data.program?.title} disableGutters disablePaddingTop>
-      <ProgramPageHeader program={data.program} />
-      <div>
-        {data.program?.playlist?.map((tune) => (
-          <p key={tune?.id}>
-            {tune?.title} / {tune?.artist?.name}
-          </p>
-        ))}
-      </div>
+    <Layout
+      title={data.program?.title}
+      disableGutters
+      jumbotron={<ProgramPageHeader program={data.program} />}
+      drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}
+    >
+      <Section>
+        <Tabs indicatorColor="secondary" centered value={0}>
+          <Tab label="曲" />
+          <Tab label="詳細" />
+        </Tabs>
+        <div>
+          {data.program?.playlist?.map((tune) => (
+            <Tune key={tune?.id} tune={tune} />
+          ))}
+        </div>
+      </Section>
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="登場アーティスト" artists={artists} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigation variant="program" pageContext={pageContext} />
+      </Section>
     </Layout>
   );
   /*
@@ -142,7 +180,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
 }
 
 export default ProgramTemplate;
-
+/*
 function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
   return {
     previous: previous ? { to: previous.fields?.slug ?? '#', title: previous.title } : null,
@@ -150,7 +188,7 @@ function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
     next: next ? { to: next.fields?.slug ?? '#', title: next.title } : null,
   };
 }
-
+*/
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
     program(fields: { slug: { eq: $slug } }) {
@@ -168,6 +206,7 @@ export const query = graphql`
       playlist {
         artist {
           name
+          image
           programCount
           tunesCount
         }

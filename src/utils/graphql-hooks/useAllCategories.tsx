@@ -16,6 +16,7 @@ export function useAllCategories() {
               date(formatString: "YYYY-MM-DD")
               fields {
                 slug
+                image
               }
             }
           }

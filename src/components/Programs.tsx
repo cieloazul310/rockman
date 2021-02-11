@@ -6,13 +6,12 @@ import Chip from '@material-ui/core/Chip';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
+import ProgramItem from './ProgramItem';
 import { useAllPrograms } from '../utils/graphql-hooks';
-import { QueriedProgram } from '../types';
 
 interface ProgramsByYearProps {
   year: number;
-  programs: QueriedProgram[];
+  programs: ReturnType<typeof useAllPrograms>;
 }
 
 function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
@@ -36,14 +35,8 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {programs.map((program) => (
-            <ListItemLink
-              key={program.id}
-              to={program?.fields?.slug ?? '#'}
-              primaryText={program?.title ?? 'タイトル'}
-              secondaryText={`第${program.week}回 ${program.date}`}
-              divider
-            />
+          {programs.map((program, index) => (
+            <ProgramItem key={program.id} program={program} />
           ))}
         </List>
       </Collapse>

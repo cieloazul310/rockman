@@ -1,24 +1,11 @@
 import { CreateNodeArgs, Node } from 'gatsby';
 import crypto from 'crypto';
 import { getYomi } from '../src/utils/sortByYomi';
-import { Program, ProgramPlaylist } from '../graphql-types';
-
-type PurePlaylist = Omit<ProgramPlaylist, 'artist'> & {
-  artist: string;
-};
-
-type PureProgram = Omit<Program, 'playlist'> & {
-  playlist: PurePlaylist[];
-};
+import { getRelatedArtists } from '../src/utils/getRelatedArtists';
+import { PureProgram, PureArtist } from './types';
 
 type ArtistContainer = {
-  [key: string]: {
-    name: string;
-    kana?: string | null;
-    nation: string;
-    program: PureProgram[];
-    tunes: PurePlaylist[];
-  };
+  [key: string]: PureArtist;
 };
 
 const artists: ArtistContainer = {};
@@ -33,16 +20,23 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       name: `slug`,
       value: slug,
     });
-    const programImages: string[] = [];
+    const programNotSpitzImages: string[] = [];
+    const programSpitzImages: string[] = [];
 
     node.playlist.forEach((playlist) => {
       const { artist, kana, nation, youtube } = playlist;
-      if (youtube) programImages.push(youtube);
+      if (youtube && youtube !== '') {
+        if (artist !== 'スピッツ') {
+          programNotSpitzImages.push(youtube);
+        } else {
+          programSpitzImages.push(youtube);
+        }
+      }
 
       if (!artists[artist]) {
         artists[artist] = {
           name: artist,
-          kana,
+          kana: kana && kana !== '' ? kana : null,
           nation,
           program: [],
           tunes: [],
@@ -54,6 +48,8 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       }
       tunes.push(playlist);
     });
+
+    const programImages = [...programNotSpitzImages, ...programSpitzImages];
 
     createNodeField({
       node,
@@ -68,12 +64,14 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       const program = [...data.program].sort((a, b) => a.week - b.week).map(({ id }) => id);
       const tunes = [...data.tunes].sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
       const images = tunes.filter((tune) => tune.youtube && tune.youtube !== '');
+      const relatedArtists = getRelatedArtists(data);
 
       createNode({
         ...data,
         image: images.length ? `https://i.ytimg.com/vi/${images[images.length - 1].youtube}/0.jpg` : null,
         program,
         tunes,
+        relatedArtists,
         sortName: getYomi(name, data.kana),
         programCount: data.program.length,
         tunesCount: data.tunes.length,
