@@ -47,7 +47,7 @@ function SelectorsPage() {
 
   return (
     <Layout
-      title={`${selectors[value].fieldValue}の選曲`}
+      title="選曲者"
       tabSticky
       disableGutters
       componentViewports={{ BottomNav: false }}
@@ -59,7 +59,7 @@ function SelectorsPage() {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance>
+      <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance animateHeight>
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index} disableGutters>
             <Jumbotron title={`${selectors[value].fieldValue}の選曲`} footer={`${d.playlist.length}曲/${d.edges.length}回`} />

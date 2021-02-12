@@ -64,7 +64,7 @@ function CategoriesPage() {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight>
         {categories.map((d, index) => (
           <TabPane key={index} value={tab} index={index} disableGutters>
             <Jumbotron title={fieldValues[tab]} footer={`全${d.edges.length}回`} />
