@@ -41,6 +41,7 @@ export function createSchemaCustomization({ actions }: CreateSchemaCustomization
       corner: String
       youtube: String
       selector: String!
+      program: program! @link(by: "week", from: "week")
     }
   `);
 }

@@ -5,7 +5,7 @@ import List from '@material-ui/core/List';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
+import Layout from '../layout/TabLayout';
 import TabPane from '../layout/TabPane';
 import Section, { SectionDivider } from '../components/Section';
 import ProgramItem from '../components/ProgramItem';
@@ -51,11 +51,7 @@ function CategoriesPage() {
 
   return (
     <Layout
-      title={categories[tab]?.fieldValue ?? 'Category'}
-      tabSticky
-      disableGutters
-      disablePaddingTop
-      componentViewports={{ BottomNav: false }}
+      title="テーマ"
       tabs={
         <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           {categories.map((d, index) => (
