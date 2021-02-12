@@ -6,7 +6,7 @@ import ListItemAppLink from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { useLocation } from '@reach/router';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TimeMachineIcon } from '../../../icons';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon } from '../../../icons';
 
 function DrawerContent() {
   const { pathname } = useLocation();
@@ -41,6 +41,12 @@ function DrawerContent() {
           <SelectorIcon />
         </ListItemIcon>
         <ListItemText primary="選曲者" />
+      </ListItemAppLink>
+      <ListItemAppLink to="/boarding/" selected={pathname === withPrefix('/boarding/')} button component={GatsbyLink}>
+        <ListItemIcon>
+          <TakeOffIcon />
+        </ListItemIcon>
+        <ListItemText primary="漫遊前の一曲" />
       </ListItemAppLink>
       <ListItemAppLink to="/timemachine/" selected={pathname === withPrefix('/timemachine/')} button component={GatsbyLink}>
         <ListItemIcon>

@@ -61,3 +61,17 @@ export interface PureArtist {
   program: PureProgram[];
   tunes: PurePlaylist[];
 }
+
+export interface PureSpitzAlbum {
+  id: string;
+  albumIdNum: number;
+  year: number;
+  title: string;
+  tunes: PureSpitzTunes[];
+}
+
+export interface PureSpitzTunes {
+  id: string;
+  index: number;
+  title: string;
+}
