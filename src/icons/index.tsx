@@ -5,5 +5,6 @@ import CategoryIcon from '@material-ui/icons/ViewModule';
 import SelectorIcon from '@material-ui/icons/Face';
 import CornerIcon from '@material-ui/icons/EmojiFlags';
 import TuneIcon from '@material-ui/icons/MusicNote';
+import TimeMachineIcon from '@material-ui/icons/History';
 
-export { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon };
+export { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon, TimeMachineIcon };
