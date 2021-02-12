@@ -3,13 +3,14 @@ import { graphql, PageProps } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
+import Layout from '../layout/TabLayout';
 import TabPane from '../layout/TabPane';
 import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
-import Tune from '../components/Tune';
+import { TuneByProgram } from '../components/TunesByProgram';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import useSorter from '../utils/useSorter';
@@ -18,8 +19,20 @@ import { TimeMachineQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
+const useStyles = makeStyles((theme) =>
+  createStyles({
+    year: {
+      padding: theme.spacing(2, 0),
+    },
+    yearHeader: {
+      padding: theme.spacing(0, 1),
+    },
+  })
+);
+
 function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
   const [tab, setTab] = React.useState(0);
+  const classes = useStyles();
   const items = getDividedYears(data.allTunes ?? [], 5, (tune) => tune?.year ?? 0);
   const sorter = useSorter();
   const handleChangeIndex = (index: number) => {
@@ -37,15 +50,15 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
   return (
     <Layout
       title="ちょっぴりタイムマシン"
-      tabSticky
-      disableGutters
-      componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           {[...items]
             .sort((a, b) => b.value - a.value)
             .map((fifth) => (
-              <Tab key={fifth.value} label={getFiveYearString(fifth.value)} />
+              <Tab
+                key={fifth.value}
+                label={`${getFiveYearString(fifth.value)} ${fifth.items.reduce((accum, curr) => accum + curr.items.length, 0)}`}
+              />
             ))}
         </Tabs>
       }
@@ -61,25 +74,20 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
               />
               <SectionDivider />
               <Section>
-                <Typography variant="h6" gutterBottom>
-                  {getFiveYearString(fifth.value)}
-                </Typography>
-                <div>
-                  {[...fifth.items]
-                    .sort((a, b) => sorter(a.value - b.value))
-                    .map((annu) => (
-                      <div key={annu.value}>
-                        <Typography variant="body1" gutterBottom>
-                          {annu.value}
-                        </Typography>
-                        <div>
-                          {annu.items.map((tune) => (
-                            <Tune key={tune?.id} tune={tune} />
-                          ))}
-                        </div>
+                {[...fifth.items]
+                  .sort((a, b) => sorter(a.value - b.value))
+                  .map((annu) => (
+                    <div key={annu.value} className={classes.year}>
+                      <div className={classes.yearHeader}>
+                        <Typography variant="h6">{annu.value}</Typography>
                       </div>
-                    ))}
-                </div>
+                      <div>
+                        {annu.items.map((tune) => (
+                          <TuneByProgram key={tune?.id} tune={tune} />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
               </Section>
             </TabPane>
           ))}
@@ -110,6 +118,14 @@ export const query = graphql`
       corner
       artist {
         name
+      }
+      program {
+        week
+        title
+        date(formatString: "YYYY-MM-DD")
+        fields {
+          slug
+        }
       }
     }
   }

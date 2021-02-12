@@ -49,6 +49,34 @@ function TunesByProgram({ program }: TunesByProgramProps) {
 
 export default TunesByProgram;
 
+interface TuneByProgramProps {
+  tune: Maybe<
+    TuneProps['tune'] & {
+      program: Maybe<Pick<Program, 'week' | 'date' | 'fields' | 'title'>>;
+    }
+  >;
+}
+
+export function TuneByProgram({ tune }: TuneByProgramProps) {
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <div className={classes.header}>
+        <Typography variant="body2" color="textSecondary">
+          <TextSpan>第{tune?.program?.week}回</TextSpan>
+          <TextSpan>{tune?.program?.date}</TextSpan>
+        </Typography>
+        <Typography className={classes.title} variant="body1">
+          <AppLink to={tune?.program?.fields?.slug ?? '#'}>{tune?.program?.title}</AppLink>
+        </Typography>
+      </div>
+      <div>
+        <Tune tune={tune} />
+      </div>
+    </div>
+  );
+}
+
 export function TunesByProgramSkeleton() {
   const classes = useStyles();
   return (

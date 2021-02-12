@@ -41,11 +41,7 @@ function IndexPage({ data }: PageProps<IndexQuery>) {
 
   return (
     <Layout>
-      <Jumbotron
-        title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
-        header="TOKYO-FM 全国38局ネットで放送中"
-        image={images.length ? images[0] : undefined}
-      />
+      <Jumbotron title="ロック大陸漫遊記 プレイリスト集" footer="since 2018" image={images.length ? images[0] : undefined} />
       <SectionDivider />
       <Section>
         <Stats />
