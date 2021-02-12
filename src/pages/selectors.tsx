@@ -4,7 +4,7 @@ import Tab from '@material-ui/core/Tab';
 import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
+import Layout from '../layout/TabLayout';
 import TabPane from '../layout/TabPane';
 import Section, { SectionDivider } from '../components/Section';
 import Jumbotron from '../components/Jumbotron';
@@ -48,9 +48,6 @@ function SelectorsPage() {
   return (
     <Layout
       title="選曲者"
-      tabSticky
-      disableGutters
-      componentViewports={{ BottomNav: false }}
       tabs={
         <Tabs value={value} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           {selectors.map((d) => (
