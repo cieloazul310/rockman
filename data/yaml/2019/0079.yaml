@@ -4,35 +4,28 @@ year: 2019
 title: ハーモニカが入ったロックナンバーで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["楽器"]
 date: 2019-07-07
 playlist:
   - id: "2019007901"
     week: 79
-    name: 船乗り
     artist: スピッツ
-    kana: ""
     year: 2001
     nation: JPN
     label: ポリドール
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: 船乗り
     index: 649
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019007902"
     week: 79
-    name: Love Me Do
     artist: The Beatles
-    kana: ""
     year: 1962
     nation: UK
     label: Parlophone
     producer:
       - George Martin
-    corner: ""
     youtube: 0pGOFX1D_jg
     title: Love Me Do
     index: 650
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007903"
     week: 79
-    name: Heart of Gold
     artist: Neil Young
-    kana: ""
     year: 1972
     nation: US
     label: Reprise Records
     producer:
       - Elliot Mazer
-    corner: ""
     youtube: X3IA6pIVank
     title: Heart of Gold
     index: 651
@@ -56,14 +46,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007904"
     week: 79
-    name: When the Levee Breaks
     artist: Led Zeppelin
-    kana: ""
     year: 1971
     nation: UK
     label: Atlantic
-    producer: []
-    corner: ""
     youtube: FFDYuO53BUk
     title: When the Levee Breaks
     index: 652
@@ -71,14 +57,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007905"
     week: 79
-    name: Slow Emotion Replay
     artist: The The
-    kana: ""
     year: 1993
     nation: UK
     label: Sony Records
-    producer: []
-    corner: ""
     youtube: q7ZZVJ120A4
     title: Slow Emotion Replay
     index: 653
@@ -86,29 +68,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007906"
     week: 79
-    name: 星のラブレター
     artist: THE BOOM
-    kana: ""
     year: 1989
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
-    corner: ""
-    youtube: ""
     title: 星のラブレター
     index: 654
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019007907"
     week: 79
-    name: 恋をしましょう
     artist: フラワーカンパニーズ
-    kana: ""
     year: 1996
     nation: JPN
     label: アンティノスレコード
-    producer: []
-    corner: ""
     youtube: OeqNLagjlEA
     title: 恋をしましょう
     index: 655
@@ -116,15 +89,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007908"
     week: 79
-    name: Happy Song
     artist: oh! penelope
-    kana: ""
     year: 1995
     nation: JPN
     label: EPIC SONY
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Happy Song
     index: 656
     indexInWeek: 8

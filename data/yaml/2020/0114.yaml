@@ -4,35 +4,28 @@ year: 2020
 title: オルガンがいい感じのナンバーで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["楽器"]
 date: 2020-03-08
 playlist:
   - id: "2020011401"
     week: 114
-    name: 遠吠えシャッフル
     artist: スピッツ
-    kana: ""
     year: 2013
     nation: JPN
     label: ユニバーサル
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: 遠吠えシャッフル
     index: 941
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020011402"
     week: 114
-    name: Light My Fire
     artist: The Doors
-    kana: ""
     year: 1967
     nation: US
     label: Elektra
     producer: 
       - Paul A. Rothchild
-    corner: ""
     youtube: mbj1RFaoyLk
     title: Light My Fire
     index: 942
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011403"
     week: 114
-    name: A Whiter Shade of Pale
     artist: Procol Harum
-    kana: ""
     year: 1967
     nation: UK
     label: Deram
     producer: 
       - Denny Cordell
-    corner: ""
     youtube: PHJRouEN-SY
     title: A Whiter Shade of Pale
     indexInWeek: 3
@@ -56,14 +46,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011404"
     week: 114
-    name: Looking Around
     artist: Yes
-    kana: ""
     year: 1969
     nation: UK
     label: Atlantic
-    producer: []
-    corner: ""
     youtube: saFVrWBPl_0
     title: Looking Around
     index: 945
@@ -71,15 +57,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011405"
     week: 114
-    name: (I Don't Want to Go to) Chelsea
     artist: Elvis Costello
-    kana: ""
     year: 1978
     nation: UK
     label: Radar
     producer:
       - Nick Lowe
-    corner: ""
     youtube: XvRQDsH0Yho
     title: (I Don't Want to Go to) Chelsea
     index: 945
@@ -87,29 +70,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011406"
     week: 114
-    name: 爆弾じかけ
     artist: ニューエスト・モデル
-    kana: ""
     year: 1986
     nation: JPN
     label: 自主制作
-    producer: []
-    corner: ""
-    youtube: ""
     title: 爆弾じかけ
     index: 946
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2020011407"
     week: 114
-    name: Hush
     artist: Kula Shaker
-    kana: ""
     year: 1997
     nation: UK
     label: Columbia
-    producer: []
-    corner: ""
     youtube: hZ4vK0VUGu0
     title: Hush
     index: 947
@@ -119,16 +93,12 @@ playlist:
     week: 114
     index: 948
     indexInWeek: 8
-    corner: ""
     selector: 草野マサムネ
-    name: This Is How It Feels
     title: This Is How It Feels
     artist: Inspiral Carpets
-    kana: ""
     year: 1990
     nation: UK
     label: Mute
-    producer: []
     youtube: J-fX0UbpZls
   - id: "2020011409"
     week: 114
@@ -136,12 +106,8 @@ playlist:
     indexInWeek: 9
     corner: ちょっぴりタイムマシン
     selector: 草野マサムネ
-    name: 手にハンマーを
     title: 手にハンマーを
     artist: いずみたくシンガーズ
-    kana: ""
     year: 1973
     nation: JPN
     label: BLACK
-    producer: []
-    youtube: ""
