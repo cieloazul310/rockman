@@ -2,7 +2,7 @@ import * as React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TimeMachineIcon } from '../../icons';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon } from '../../icons';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 
 interface NavigationItemProps {
@@ -30,6 +30,7 @@ function NavigationBox() {
       <NavigationItem to="/artists/" title="アーティスト一覧" icon={<ArtistIcon />} />
       <NavigationItem to="/categories/" title="テーマ" icon={<CategoryIcon />} />
       <NavigationItem to="/selectors/" title="選曲者" icon={<SelectorIcon />} />
+      <NavigationItem to="/takeoff/" title="漫遊前の一曲" icon={<TakeOffIcon />} />
       <NavigationItem to="/timemachine/" title="ちょっぴりタイムマシン" icon={<TimeMachineIcon />} />
     </Grid>
   );

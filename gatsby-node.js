@@ -7,6 +7,8 @@ require('ts-node').register({
 
 exports.createSchemaCustomization = require('./gatsby-node/index').createSchemaCustomization;
 
+exports.sourceNodes = require('./gatsby-node/index').sourceNodes;
+
 exports.onCreateNode = require('./gatsby-node/index').onCreateNode;
 
 exports.createResolvers = require('./gatsby-node/index').createResolvers;

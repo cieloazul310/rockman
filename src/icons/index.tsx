@@ -6,5 +6,6 @@ import SelectorIcon from '@material-ui/icons/Face';
 import CornerIcon from '@material-ui/icons/EmojiFlags';
 import TuneIcon from '@material-ui/icons/MusicNote';
 import TimeMachineIcon from '@material-ui/icons/History';
+import TakeOffIcon from '@material-ui/icons/FlightTakeoff';
 
-export { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon, TimeMachineIcon };
+export { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, CornerIcon, TuneIcon, TakeOffIcon, TimeMachineIcon };
