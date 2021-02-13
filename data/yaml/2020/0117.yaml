@@ -9,15 +9,13 @@ date: 2020-03-29
 playlist:
   - id: "2020011701"
     week: 117
-    title: 恋する凡人 (Live from SPITZ JAMBOREE TOUR 2010)
+    title: 恋する凡人(Live from SPITZ JAMBOREE TOUR 2010)
     artist: スピッツ
-    kana: ""
     year: 2010
     nation: JPN
     label: ユニバーサル
     producer: ["亀田誠治"]
     corner: 漫遊前の一曲
-    youtube: ""
     index: 967
     indexInWeek: 1
     selector: 草野マサムネ
@@ -29,8 +27,6 @@ playlist:
     year: 1974
     nation: JPN
     label: RCA
-    producer: []
-    corner: ""
     youtube: NvTPuCy6-Y0
     index: 968
     indexInWeek: 2
@@ -39,12 +35,9 @@ playlist:
     week: 117
     title: I Want You to Want Me (Live 1978)
     artist: Cheap Trick
-    kana: ""
     year: 1978
     nation: US
     label: Epic
-    producer: []
-    corner: ""
     youtube: -qgpewMCVjs
     index: 969
     indexInWeek: 3
@@ -53,26 +46,18 @@ playlist:
     week: 117
     title: Donw On Me (Live 1968)
     artist: Janis Joplin
-    kana: ""
     year: 1972
     nation: US
     label: Columbia
-    producer: []
-    corner: ""
-    youtube: ""
     index: 970
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2020011705"
     week: 117
     title: "Why I'm Me (Live at MISSION IMPOSSIBLE KYOTO)"  artist: RIZE
-    kana: ""
     year: 2014
     nation: JPN
     label: TENSAIBAKA RECORDS
-    producer: []
-    corner: ""
-    youtube: ""
     index: 971
     indexInWeek: 5
     selector: 草野マサムネ
@@ -80,12 +65,9 @@ playlist:
     week: 117
     title: Mother Mary (Live 1978)
     artist: UFO
-    kana: ""
     year: 1979
     nation: UK
     label: Chrysails
-    producer: []
-    corner: ""
     youtube: B_EudtoWStQ
     index: 972
     indexInWeek: 6
@@ -94,12 +76,9 @@ playlist:
     week: 117
     title: My Love Will Not Let You Down (Live 2000)
     artist: Bruce Springsteen
-    kana: ""
     year: 2001
     nation: US
     label: Sony
-    producer: []
-    corner: ""
     youtube: 4EaEpBNxV6w
     index: 973
     indexInWeek: 7
@@ -110,12 +89,9 @@ playlist:
     indexInWeek: 8
     title: "Rock 'n' Roll Suicide (Live 1972)"
     artist: David Bowie
-    kana: ""
     year: 2008
     nation: UK
     label: EMI
-    producer: []
-    corner: ""
     youtube: txh0s1kiPsg
     selector: 草野マサムネ
   - id: "2020011709"
@@ -124,11 +100,8 @@ playlist:
     indexInWeek: 9
     title: 春一番 (Live 1976)
     artist: キャンディーズ
-    kana: ""
     corner: ちょっぴりタイムマシン
     selector: 草野マサムネ
     year: 1976
     nation: JPN
     label: CBSソニー
-    producer: []
-    youtube: ""
