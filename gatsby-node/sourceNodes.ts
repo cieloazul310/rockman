@@ -1,6 +1,7 @@
 import { SourceNodesArgs } from 'gatsby';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as yaml from 'yaml';
 import { PureSpitzAlbum } from './types';
 
 export function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
@@ -21,7 +22,7 @@ export function sourceNodes({ actions, createNodeId, createContentDigest }: Sour
     }
   `);
 
-  const data: PureSpitzAlbum[] = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/spitzAlbums.json'), 'utf8'));
+  const data: PureSpitzAlbum[] = yaml.parse(fs.readFileSync(path.resolve(__dirname, '../data/spitzAlbums.yaml'), 'utf8'));
 
   data.forEach((album) => {
     const nodeContent = JSON.stringify(album);

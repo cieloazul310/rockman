@@ -32,12 +32,14 @@ export function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
             type: 'program',
           });
           return (
-            data.filter(({ playlist }) =>
-              playlist
-                .filter(({ artist }) => artist === 'スピッツ')
-                .map(({ title }) => title)
-                .includes(source.title as string)
-            ) ?? []
+            data
+              .filter(({ playlist }) =>
+                playlist
+                  .filter(({ artist }) => artist === 'スピッツ')
+                  .map(({ title }) => title)
+                  .includes(source.title as string)
+              )
+              .sort((a, b) => a.week - b.week) ?? []
           );
         },
       },
