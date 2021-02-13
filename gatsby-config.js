@@ -7,7 +7,7 @@ const contentDir = `${__dirname}/devData`;
 
 module.exports = {
   siteMetadata: {
-    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
+    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集`,
     description: 'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
     lang: 'ja',
     siteUrl: siteUrl,

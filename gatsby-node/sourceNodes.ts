@@ -17,7 +17,7 @@ export function sourceNodes({ actions, createNodeId, createContentDigest }: Sour
       id: String!
       index: Int!
       title: String!
-      tunes: [programPlaylist]! @link(by: "title", from: "title")
+      append: [program]!
     }
   `);
 

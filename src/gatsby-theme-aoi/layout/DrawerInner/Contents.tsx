@@ -42,7 +42,7 @@ function DrawerContent() {
         </ListItemIcon>
         <ListItemText primary="選曲者" />
       </ListItemAppLink>
-      <ListItemAppLink to="/boarding/" selected={pathname === withPrefix('/boarding/')} button component={GatsbyLink}>
+      <ListItemAppLink to="/takeoff/" selected={pathname === withPrefix('/takeoff/')} button component={GatsbyLink}>
         <ListItemIcon>
           <TakeOffIcon />
         </ListItemIcon>

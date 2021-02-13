@@ -106,7 +106,7 @@ export default TimeMachinePage;
 
 export const query = graphql`
   query TimeMachine {
-    allTunes(corner: "ちょっぴりタイムマシン") {
+    allTunes(corner: { eq: "ちょっぴりタイムマシン" }) {
       year
       title
       week

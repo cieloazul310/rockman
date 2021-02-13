@@ -30,7 +30,7 @@ function NavigationBox() {
       <NavigationItem to="/artists/" title="アーティスト一覧" icon={<ArtistIcon />} />
       <NavigationItem to="/categories/" title="テーマ" icon={<CategoryIcon />} />
       <NavigationItem to="/selectors/" title="選曲者" icon={<SelectorIcon />} />
-      <NavigationItem to="/boarding/" title="漫遊前の一曲" icon={<TakeOffIcon />} />
+      <NavigationItem to="/takeoff/" title="漫遊前の一曲" icon={<TakeOffIcon />} />
       <NavigationItem to="/timemachine/" title="ちょっぴりタイムマシン" icon={<TimeMachineIcon />} />
     </Grid>
   );
