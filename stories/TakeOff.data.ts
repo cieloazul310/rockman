@@ -19,13 +19,41 @@ export const album = {
               slug: '/program/20180009',
             },
           },
+          {
+            title: 'アコギサウンドリクエストで漫遊記',
+            week: 9,
+            id: '20180009',
+            date: '2018-03-04',
+            fields: {
+              slug: '/program/20180009',
+            },
+          },
+          {
+            title: 'アコギサウンドリクエストで漫遊記',
+            week: 9,
+            id: '20180009',
+            date: '2018-03-04',
+            fields: {
+              slug: '/program/20180009',
+            },
+          },
         ],
       },
       {
         id: '001502',
         index: 2,
         title: 'ありふれた人生',
-        append: [],
+        append: [
+          {
+            title: 'アコギサウンドリクエストで漫遊記',
+            week: 9,
+            id: '20180009',
+            date: '2018-03-04',
+            fields: {
+              slug: '/program/20180009',
+            },
+          },
+        ],
       },
       {
         id: '001503',
@@ -37,7 +65,17 @@ export const album = {
         id: '001504',
         index: 4,
         title: '優しくなりたいな',
-        append: [],
+        append: [
+          {
+            title: 'アコギサウンドリクエストで漫遊記',
+            week: 9,
+            id: '20180009',
+            date: '2018-03-04',
+            fields: {
+              slug: '/program/20180009',
+            },
+          },
+        ],
       },
       {
         id: '001505',

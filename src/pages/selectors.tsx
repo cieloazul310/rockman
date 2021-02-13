@@ -60,6 +60,7 @@ function SelectorsPage() {
         {selectors.map((d, index) => (
           <TabPane key={index} value={value} index={index} disableGutters>
             <Jumbotron title={`${selectors[value].fieldValue}の選曲`} footer={`${d.playlist.length}曲/${d.edges.length}回`} />
+            <SectionDivider />
             <Section>
               <LazyViewer programs={d.edges.map((v) => v.node)} divisor={15} filter={(tune) => tune?.selector === d.fieldValue} />
             </Section>

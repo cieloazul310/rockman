@@ -64,6 +64,7 @@ function CategoriesPage() {
         {categories.map((d, index) => (
           <TabPane key={index} value={tab} index={index} disableGutters>
             <Jumbotron title={fieldValues[tab]} footer={`全${d.edges.length}回`} />
+            <SectionDivider />
             <Section>
               <List>
                 {d.edges.sort(sortProgramNode).map(({ node }, i) => (

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import SwipeableViews from 'react-swipeable-views';
@@ -9,6 +8,7 @@ import Layout from '../layout/TabLayout';
 import TabPane from '../layout/TabPane';
 import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
+import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { TuneByProgram } from '../components/TunesByProgram';
 import { TakeOffQuery } from '../../graphql-types';
 
@@ -51,20 +51,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
             />
             <SectionDivider />
             <Section>
-              {node.tunes.map((tune) => (
-                <div key={tune.id}>
-                  <Typography variant="body1" gutterBottom>
-                    {tune.index}. {tune.title}
-                  </Typography>
-                  <div>
-                    {tune.append?.map((program) => (
-                      <Typography variant="body2" color="secondary" key={program?.id}>
-                        {program?.title}
-                      </Typography>
-                    ))}
-                  </div>
-                </div>
-              ))}
+              <TakeOffAlbum album={node} />
             </Section>
           </TabPane>
         ))}
@@ -72,16 +59,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
           <Jumbotron title="その他の楽曲" />
           <SectionDivider />
           <Section>
-            {others.edges.map(({ node }) => (
-              <div key={node.id}>
-                <Typography variant="h6">{node.title}</Typography>
-                {node.tunes.map((tune) => (
-                  <Typography key={tune.id} variant="body1">
-                    {tune.index}. {tune.title}
-                  </Typography>
-                ))}
-              </div>
-            ))}
+            <TakeOffOthers albums={others} />
           </Section>
         </TabPane>
         <TabPane index={albums.edges.length + 1} value={tab} disableGutters>
