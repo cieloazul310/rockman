@@ -10,6 +10,8 @@ import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { TuneByProgram } from '../components/TunesByProgram';
+import NavigationBox from '../components/NavigationBox';
+import { AdInArticle } from '../components/Ads';
 import { TakeOffQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -72,6 +74,12 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
           </Section>
         </TabPane>
       </BindKeyboardSwipeableViews>
+      <SectionDivider />
+      <AdInArticle />
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
 }
