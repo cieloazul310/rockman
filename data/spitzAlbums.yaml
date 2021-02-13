@@ -47,7 +47,7 @@
   tunes:
     - id: "000201"
       index: 1
-      title: ウサギとバイク
+      title: ウサギのバイク
     - id: "000202"
       index: 2
       title: 日曜日
@@ -419,7 +419,7 @@
       title: 甘い手
     - id: "001206"
       index: 6
-      title: HOLIDAY
+      title: Holiday
     - id: "001207"
       index: 7
       title: "8823"
@@ -934,6 +934,14 @@
     - id: "022003"
       index: 3
       title: 愛のしるし（LIVE'98 version）
+- id: sg22
+  albumIdNum: 222
+  year: 2000
+  title: メモリーズ／放浪カモメはどこまでも
+  tunes:
+    - id: "022202"
+      index: 2
+      title: 放浪カモメはどこまでも
 - id: sg25
   albumIdNum: 225
   year: 2001
