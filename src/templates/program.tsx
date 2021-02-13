@@ -72,10 +72,9 @@ function ProgramTemplate({ data, pageContext }: Props) {
     </div>,
     next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
   ].filter((element): element is JSX.Element => Boolean(element));
-
   return (
     <Layout title={data.program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
-      <BindKeyboardSwipeableViews index={1} onChangeIndex={handleChangeIndex} resistance>
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
