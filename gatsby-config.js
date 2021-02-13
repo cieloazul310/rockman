@@ -1,9 +1,9 @@
 //const myTheme = require('./src/utils/theme').default;
 const path = require('path');
 const baseUrl = 'https://cieloazul310.github.io';
-const pathPrefix = '/gatsby-rockman';
+const pathPrefix = '/rockman';
 const siteUrl = path.join(baseUrl, pathPrefix);
-const contentDir = `${__dirname}/devData`;
+const contentDir = `${__dirname}/data`;
 
 module.exports = {
   siteMetadata: {
@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-aoi`,
       options: {
-        siteId: `gatsby-rockman`,
+        siteId: `rockman`,
       },
     },
     {

@@ -1,29 +1,55 @@
-# gatsby-starter-typescript-material-ui
+# ロック大陸漫遊記プレイリスト集
 
-> A starter kit for TypeScript-based Gatsby projects Material-UI.
+**ロック大陸漫遊記プレイリスト集**は、TOKYO-FM他全国38局で放送されているラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。
 
-DEMO: <https://cieloazul310.github.io/gatsby-starter-typescript-material-ui/>
+原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。
 
-## Features
+SPITZ 草野マサムネのロック大陸漫遊記
+<https://www.tfm.co.jp/manyuki/>
 
-- TypeScript
-- Material-UI
-- Storybook
-- Responsive UI
-- Hold App State
-- Dark Mode
+全国38局放送時間一覧
+<https://www.tfm.co.jp/manyuki/index.php?catid=3350>
 
-<!--
-The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
+## コンテンツ
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+このサイトは、**放送回別**オンエアリスト、**アーティスト別**オンエアリスト、**テーマ別**放送回、**選曲者別**オンエアリスト、**漫遊前の一曲**オンエアリスト、**ちょっぴりタイムマシン**オンエアリストのページ
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
-```
+### 放送回別オンエアリスト
 
-## Deploy
+放送回ごとのオンエアリストです。
+掲載している YouTube の動画は全てアーティスト公式、またはレーベル公式のものです。
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
--->
+### アーティスト別オンエアリスト
+
+アーティスト別のオンエアリストです。オンエアされた楽曲と放送回を見ることができます。登場回数と曲数を計測しています。
+
+### アーティスト一覧
+
+アーティスト一覧のページでは、ロック大陸漫遊記で放送された全アーティストを検索することができます。
+
+### テーマ別放送回
+
+ロック大陸漫遊記の放送回を「ワン・アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。
+
+### 選曲者別オンエアリスト
+
+ロック大陸漫遊記に登場したゲストやリクエストによる選曲を分類したページです。
+
+### 漫遊前の一曲オンエアリスト
+
+漫遊前の一曲は、放送の1曲目にオンエアされるスピッツ（稀にスピッツ以外）の楽曲をスピッツのアルバム別に分類したページです。
+
+### ちょっぴりタイムマシンオンエアリスト
+
+ちょっぴりタイムマシンは、放送の最後にオンエアされる「最近ラジオでかかってない少し前の日本の楽曲を掘り起こそう」というコーナーです。ちょっぴりタイムマシンで放送された楽曲を年代別に分類したページです。
+
+## サイトについて
+
+ロック大陸漫遊記プレイリスト集
+<https://cieloazul310.github.io/rockman/>
+
+作者: [@cieloazul310](https://twitter.com/cieloazul310)
+サイト: [水戸地図](https://cieloazul310.github.io)
+公開日: 2021-02-14
+
+© 2021 cieloazul310 All rights reserved.
