@@ -9,44 +9,31 @@ date: 2019-08-11
 playlist:
   - id: "2019008401"
     week: 84
-    name: 悪役
     artist: スピッツ
-    kana: ""
     year: 2019
     nation: JPN
     label: ユニバーサル
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: 悪役
     index: 690
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008402"
     week: 84
-    name: ハネノバシ
     artist: SHISHAMO
-    kana: ""
     year: 2019
     nation: JPN
     label: ユニバーサルシグマ
-    producer: []
-    corner: ""
-    youtube: ""
     title: ハネノバシ
     index: 691
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2019008403"
     week: 84
-    name: 君が海
     artist: My Hair is Bad
-    kana: ""
     year: 2019
     nation: JPN
     label: EMI
-    producer: []
-    corner: ""
     youtube: 58uc_4DMAao
     title: 君が海
     index: 692
@@ -54,14 +41,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008404"
     week: 84
-    name: イエス
     artist: ズーカラデル
-    kana: ""
     year: 2019
     nation: JPN
     label: SPACE SHOWER MUSIC
-    producer: []
-    corner: ""
     youtube: hqko0yGdMi0
     title: イエス
     index: 693
@@ -69,58 +52,41 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008405"
     week: 84
-    name: 旅の手帖
     artist: サニーデイ・サービス
-    kana: ""
     year: 1997
     nation: JPN
     label: RHYME
-    producer: []
-    corner: ""
-    youtube: ""
     title: 旅の手帖
     index: 694
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2019008406"
     week: 84
-    name: Catch up, latency
     artist: UNISON SQUARE GARDEN
-    kana: ""
     year: 2018
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: 8er1vO2V1qI
+    youtube: an6sDPGRCyg
     title: Catch up, latency
     index: 695
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019008407"
     week: 84
-    name: かよわきエナジー～Take Me Home, Country Roads
     artist: GOING UNDER GROUND
-    kana: ""
     year: 2001
     nation: JPN
     label: ビクターエンタテイメント
-    producer: []
-    corner: ""
-    youtube: ""
     title: かよわきエナジー～Take Me Home, Country Roads
     index: 696
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2019008408"
     week: 84
-    name: 労働
     artist: PERIDOTS
-    kana: ""
     year: 2006
     nation: JPN
     label: EMIミュージック・ジャパン
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: 0HNft8D0Mps
     title: 労働

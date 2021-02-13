@@ -73,7 +73,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
 
   return (
     <Layout title={data.artist?.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
-      <BindKeyboardSwipeableViews index={1} onChangeIndex={handleChangeIndex} resistance>
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>
       <SectionDivider />

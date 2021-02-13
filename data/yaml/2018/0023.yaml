@@ -9,31 +9,25 @@ date: 2018-06-10
 playlist:
   - id: "2018002301"
     week: 23
-    name: ジュテーム？
     artist: スピッツ
-    kana: ""
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    youtube: ""
     title: ジュテーム？
     index: 184
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018002302"
     week: 23
-    name: Je veux qu’il revienne
     artist: Françoise Hardy
-    kana: ""
     year: 1964
     nation: FR
     label: Disques Vogue
     producer:
       - Jacques Wolfsohn
-    corner: ""
     youtube: opUnrzBE45s
     title: Je veux qu’il revienne
     index: 185
@@ -41,14 +35,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002303"
     week: 23
-    name: Harley Davidson
     artist: Brigitte Bardot
-    kana: ""
     year: 1968
     nation: FR
     label: Mercury Records
-    producer: []
-    corner: ""
     youtube: nKltTdqtLFo
     title: Harley Davidson
     index: 186
@@ -56,14 +46,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002304"
     week: 23
-    name: Antisocial
     artist: Trust
-    kana: ""
     year: 1980
     nation: FR
     label: BMG
-    producer: []
-    corner: ""
     youtube: Hx_m7Y9nGtU
     title: Antisocial
     index: 187
@@ -71,14 +57,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002305"
     week: 23
-    name: Cybele's Reverie
     artist: Stereolab
-    kana: ""
     year: 1996
     nation: UK
     label: Duophonic
-    producer: []
-    corner: ""
     youtube: NgGkUMCixH0
     title: Cybele's Reverie
     index: 188
@@ -86,14 +68,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002306"
     week: 23
-    name: J't'emmène au vent
     artist: Louise attaque
-    kana: ""
     year: 1997
     nation: FR
     label: Atmosphériques
-    producer: []
-    corner: ""
     youtube: BRTDC9Z5UdE
     title: J't'emmène au vent
     index: 189
@@ -101,14 +79,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002307"
     week: 23
-    name: Perdus cette nuit
     artist: BB Brunes
-    kana: ""
     year: 2007
     nation: FR
     label: Warner Music
-    producer: []
-    corner: ""
     youtube: gf4yoP3wWdo
     title: Perdus cette nuit
     index: 190
@@ -116,14 +90,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002308"
     week: 23
-    name: Je cours
     artist: Kyo
-    kana: ""
     year: 2003
     nation: FR
     label: Jive Records
-    producer: []
-    corner: ""
     youtube: 5xqBUE8z-bk
     title: Je cours
     index: 191
@@ -131,15 +101,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002309"
     week: 23
-    name: 明日の行方
     artist: SMILE
-    kana: ""
     year: 1995
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 明日の行方
     index: 192
     indexInWeek: 9

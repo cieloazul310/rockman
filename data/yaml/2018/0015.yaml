@@ -9,30 +9,23 @@ date: 2018-04-15
 playlist:
   - id: "2018001501"
     week: 15
-    name: 子グマ!子グマ!
     artist: スピッツ
-    kana: ""
     year: 2016
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
-    title: 子グマ!子グマ!
+    title: 子グマ！子グマ！
     index: 116
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018001502"
     week: 15
-    name: We Will Rock You
     artist: Queen
-    kana: ""
     year: 1977
     nation: UK
     label: EMI
-    producer: []
-    corner: ""
     youtube: -tJYN-eG1zk
     title: We Will Rock You
     index: 117
@@ -40,14 +33,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001503"
     week: 15
-    name: If the Kids Are United
     artist: Sham 69
-    kana: ""
     year: 1978
     nation: UK
     label: Polydor
-    producer: []
-    corner: ""
     youtube: ag-Ht5jg-6M
     title: If the Kids Are United
     index: 118
@@ -55,14 +44,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001504"
     week: 15
-    name: Idle Gossip
     artist: Toy Dolls
-    kana: ""
     year: 1986
     nation: UK
     label: Volume Records
-    producer: []
-    corner: ""
     youtube: RjCi2vFeZhk
     title: Idle Gossip
     index: 119
@@ -70,15 +55,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001505"
     week: 15
-    name: We’re Not Gonna Take It
     artist: Twisted Sister
-    kana: ""
     year: 1984
     nation: US
     label: Atlantic
     producer:
       - Tom Werman
-    corner: ""
     youtube: 4xmckWVPRaI
     title: We’re Not Gonna Take It
     index: 120
@@ -86,15 +68,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001506"
     week: 15
-    name: Drunken Lullabies
     artist: Flogging Molly
-    kana: ""
     year: 2002
     nation: US
     label: SideOneDummy
     producer:
       - Ted Hutt
-    corner: ""
     youtube: 89NjEeHku8o
     title: Drunken Lullabies
     index: 121
@@ -102,14 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001507"
     week: 15
-    name: Sólo le pido a Dios
     artist: León Gieco
-    kana: ""
     year: 1978
     nation: ARG
     label: Music Hall
-    producer: []
-    corner: ""
     youtube: UdEIMVbGUI4
     title: Sólo le pido a Dios
     index: 122
@@ -117,15 +92,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001508"
     week: 15
-    name: 天井裏から愛を込めて
     artist: アンジー
-    kana: ""
     year: 1988
     nation: JPN
     label: メルダック
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 天井裏から愛を込めて
     index: 123
     indexInWeek: 8
