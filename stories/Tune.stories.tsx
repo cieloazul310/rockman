@@ -17,6 +17,7 @@ const data = {
   year: 1991,
   youtube: 'GYmu0pLeU_c',
   selector: '草野マサムネ',
+  nation: 'JPN',
 };
 
 export function Basic() {
