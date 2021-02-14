@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import { useLocation } from '@reach/router';
+import InView from './InView';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -63,6 +64,7 @@ export function AdInArticle() {
         [ad]
       </Typography>
       <ins
+        key={pathname}
         className="adsbygoogle"
         style={{ display: 'block', textAlign: 'center' }}
         data-ad-layout="in-article"
@@ -89,6 +91,7 @@ export function AdInFooter() {
         [ad]
       </Typography>
       <ins
+        key={pathname}
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-7323207940463794"

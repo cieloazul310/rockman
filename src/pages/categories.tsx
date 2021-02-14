@@ -4,7 +4,6 @@ import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout/TabLayout';
@@ -17,26 +16,21 @@ import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { useSortProgramNode } from '../utils/useSorter';
+import { useParseHash, useHash } from '../utils/useHash';
 import { useAllCategories } from '../utils/graphql-hooks';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
+interface WindowState {
+  category?: string;
+}
+
 function CategoriesPage() {
-  const location = useLocation() as WindowLocation<{
-    category?: string;
-  }>;
-  const { hash, state, pathname } = location;
   const categories = useAllCategories();
-  const fieldValues = React.useMemo(() => ['', ...categories.map(({ fieldValue }) => fieldValue)], [categories]);
-  const initialCategory = hash !== '' ? decodeURI(hash.slice(1)) : null;
-  // @TODO: add Hash support
-  const initialValue =
-    fieldValues.indexOf(initialCategory) >= 0
-      ? fieldValues.indexOf(initialCategory)
-      : state?.category
-      ? fieldValues.indexOf(state.category)
-      : 0;
-  const [tab, setTab] = React.useState(initialValue);
+  const titles = React.useMemo(() => ['', ...categories.map(({ fieldValue }) => fieldValue ?? '')], [categories]);
+  const initialTab = useParseHash<WindowState>(titles, (state) => state?.category ?? undefined);
+  const [tab, setTab] = React.useState(initialTab);
+
   const sortProgramNode = useSortProgramNode();
   const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
     setTab(newValue);
@@ -47,10 +41,8 @@ function CategoriesPage() {
   const onItemClicked = (index: number) => () => {
     setTab(index);
   };
-  React.useEffect(() => {
-    if (window && typeof window === 'object')
-      window.history.replaceState(tab, '', tab !== 0 ? `#${categories[tab - 1].fieldValue}` : pathname);
-  }, [tab, categories, pathname]);
+
+  useHash(tab, titles);
   React.useEffect(() => {
     if (typeof window === 'object') {
       window.scrollTo(0, 0);

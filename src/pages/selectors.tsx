@@ -4,7 +4,6 @@ import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import { useLocation, WindowLocation } from '@reach/router';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout/TabLayout';
@@ -17,33 +16,28 @@ import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
 import { AdInArticle } from '../components/Ads';
 import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
+import { useParseHash, useHash } from '../utils/useHash';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
+interface WindowState {
+  selector?: string;
+}
+
 function SelectorsPage() {
-  const { hash, state, pathname } = useLocation() as WindowLocation<{
-    selector?: string;
-  }>;
-  // [[name, programs]]
   const selectors = useAllSelectors();
-  const initialSelector = hash !== '' ? decodeURI(hash.slice(1)) : null;
-  const fieldValues = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
-  const initialValue =
-    initialSelector && fieldValues.indexOf(initialSelector) >= 0
-      ? fieldValues.indexOf(initialSelector)
-      : state?.selector
-      ? fieldValues.indexOf(state?.selector)
-      : 0;
-  const [value, setValue] = React.useState(initialValue);
+  const titles = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
+  const initialTab = useParseHash<WindowState>(titles, (state) => state?.selector ?? undefined);
+  const [tab, setTab] = React.useState(initialTab);
   const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
-  const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
-    setValue(newValue);
+  const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newTab: number) => {
+    setTab(newTab);
   };
   const handleChangeIndex = (index: number) => {
-    setValue(index);
+    setTab(index);
   };
   const onItemClicked = (index: number) => () => {
-    setValue(index);
+    setTab(index);
   };
   const onSeem = React.useCallback(
     (inView: boolean) => {
@@ -56,21 +50,19 @@ function SelectorsPage() {
   const actionCallbacks = ({ updateHeight }: { updateHeight: () => void }) => {
     setUpdateHeight(() => updateHeight);
   };
-  React.useEffect(() => {
-    if (window && typeof window === 'object')
-      window.history.replaceState(value, '', value !== 0 ? `#${selectors[value - 1].fieldValue}` : pathname);
-  }, [value, selectors, pathname]);
+
+  useHash(tab, titles);
   React.useEffect(() => {
     if (typeof window === 'object') {
       window.scrollTo(0, 0);
     }
-  }, [value]);
+  }, [tab]);
 
   return (
     <Layout
       title="選曲者"
       tabs={
-        <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+        <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           <Tab label="概要" />
           {selectors.map((d) => (
             <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.playlist.length}`} />
@@ -78,8 +70,8 @@ function SelectorsPage() {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={value} onChangeIndex={handleChangeIndex} resistance animateHeight action={actionCallbacks}>
-        <TabPane index={0} value={value} disableGutters>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={actionCallbacks}>
+        <TabPane index={0} value={tab} disableGutters>
           <Jumbotron title="選曲者" />
           <SectionDivider />
           <Section>
@@ -99,7 +91,7 @@ function SelectorsPage() {
           </Section>
         </TabPane>
         {selectors.map((d, index) => (
-          <TabPane key={index} value={value} index={index + 1} disableGutters>
+          <TabPane key={index} value={tab} index={index + 1} disableGutters>
             <Jumbotron title={`${d.fieldValue}の選曲`} footer={`${d.playlist.length}曲/${d.edges.length}回`} />
             <SectionDivider />
             <Section>

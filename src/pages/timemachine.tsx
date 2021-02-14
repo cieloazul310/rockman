@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import { useLocation } from '@reach/router';
 import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
@@ -20,6 +19,7 @@ import { AdInArticle } from '../components/Ads';
 import Article, { Paragraph } from '../components/Article';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
+import { useParseHash, useHash } from '../utils/useHash';
 import { TimeMachineQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -36,11 +36,9 @@ const useStyles = makeStyles((theme) =>
 );
 
 function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
-  const { pathname, hash } = useLocation();
   const items = getDividedYears(data.allTunes ?? [], 5, (tune) => tune?.year ?? 0).sort((a, b) => b.value - a.value);
   const titles = React.useMemo(() => ['', ...items.map(({ value }) => value.toString())], [items]);
-  const hashText = hash !== '' ? decodeURI(hash.slice(1)) : null;
-  const initialTab = !hashText || titles.indexOf(hashText) >= 0 ? titles.indexOf(hashText ?? '') : 0;
+  const initialTab = useParseHash(titles);
   const [tab, setTab] = React.useState(initialTab);
   const classes = useStyles();
   const sorter = useSorter();
@@ -53,9 +51,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
   const onItemClicked = (index: number) => () => {
     setTab(index);
   };
-  React.useEffect(() => {
-    if (window && typeof window === 'object') window.history.replaceState(tab, '', tab === 0 ? pathname : `#${titles[tab]}`);
-  }, [tab, titles, pathname]);
+  useHash(tab, titles);
   React.useEffect(() => {
     if (typeof window === 'object') {
       window.scrollTo(0, 0);
