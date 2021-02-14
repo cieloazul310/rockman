@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -30,7 +31,9 @@ function ProgramsByYear({ year, programs }: ProgramsByYearProps) {
     <>
       <ListItem button onClick={_handleClick}>
         <ListItemText primary={`${year}年`} />
-        <Chip label={programs.length} />
+        <Typography variant="button" component="span">
+          {programs.length}回
+        </Typography>
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>

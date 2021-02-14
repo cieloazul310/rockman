@@ -11,7 +11,7 @@ import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffI
 function DrawerContent() {
   const { pathname } = useLocation();
   return (
-    <List subheader={<ListSubheader>Menu</ListSubheader>}>
+    <List subheader={<ListSubheader>コンテンツ</ListSubheader>}>
       <ListItemAppLink to="/" selected={pathname === withPrefix('/')} button component={GatsbyLink}>
         <ListItemIcon>
           <HomeIcon />
