@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import { useLocation } from '@reach/router';
 import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
@@ -18,16 +17,15 @@ import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { TuneByProgram } from '../components/TunesByProgram';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
+import { useParseHash, useHash } from '../utils/useHash';
 import { TakeOffQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function TakeOff({ data }: PageProps<TakeOffQuery>) {
-  const { hash, pathname } = useLocation();
   const { albums, others, notSpitz } = data;
-  const hashText = hash !== '' ? decodeURI(hash.slice(1)) : null;
   const titles = React.useMemo(() => ['', ...albums.edges.map(({ node }) => node.title), 'その他の楽曲', 'スピッツ以外の楽曲'], [albums]);
-  const initialTab = !hashText || titles.indexOf(hashText) >= 0 ? titles.indexOf(hashText ?? '') : 0;
+  const initialTab = useParseHash(titles);
   const [tab, setTab] = React.useState(initialTab);
   const handleChangeIndex = (index: number) => {
     setTab(index);
@@ -38,9 +36,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
   const onItemClicked = (index: number) => () => {
     setTab(index);
   };
-  React.useEffect(() => {
-    if (window && typeof window === 'object') window.history.replaceState(tab, '', tab === 0 ? pathname : `#${titles[tab]}`);
-  }, [tab, titles, pathname]);
+  useHash(tab, titles);
   React.useEffect(() => {
     if (typeof window === 'object') {
       window.scrollTo(0, 0);
