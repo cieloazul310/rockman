@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
       padding: theme.spacing(2, 0),
+      wordWrap: 'break-word',
     },
     section: {
       paddingBottom: theme.spacing(1),

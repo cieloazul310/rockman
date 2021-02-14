@@ -56,7 +56,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight={typeof window === 'object'}>
         <TabPane index={0} value={tab} disableGutters>
           <Jumbotron title="漫遊前の一曲" />
           <SectionDivider />

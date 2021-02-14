@@ -9,7 +9,7 @@ import { AdInArticle } from '../components/Ads';
 
 function About() {
   return (
-    <Layout title="About">
+    <Layout title="このサイトについて">
       <Jumbotron title="このサイトについて" />
       <SectionDivider />
       <Section>

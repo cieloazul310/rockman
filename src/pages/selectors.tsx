@@ -28,6 +28,7 @@ function SelectorsPage() {
   const selectors = useAllSelectors();
   const titles = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
   const initialTab = useParseHash<WindowState>(titles, (state) => state?.selector ?? undefined);
+  console.log(initialTab);
   const [tab, setTab] = React.useState(initialTab);
   const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
   const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newTab: number) => {
@@ -65,12 +66,18 @@ function SelectorsPage() {
         <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           <Tab label="概要" />
           {selectors.map((d) => (
-            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.playlist.length}`} />
+            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.totalCount}`} />
           ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={actionCallbacks}>
+      <BindKeyboardSwipeableViews
+        index={tab}
+        onChangeIndex={handleChangeIndex}
+        resistance
+        animateHeight={typeof window === 'object'}
+        action={actionCallbacks}
+      >
         <TabPane index={0} value={tab} disableGutters>
           <Jumbotron title="選曲者" />
           <SectionDivider />
@@ -82,7 +89,7 @@ function SelectorsPage() {
                   <ListItem key={index} button onClick={onItemClicked(index + 1)}>
                     <ListItemText primary={selector.fieldValue} />
                     <Typography variant="button" component="span">
-                      {selector.playlist.length}曲/{selector.edges.length}回
+                      {selector.totalCount}曲/{selector.edges.length}回
                     </Typography>
                   </ListItem>
                 ))}
@@ -92,7 +99,7 @@ function SelectorsPage() {
         </TabPane>
         {selectors.map((d, index) => (
           <TabPane key={index} value={tab} index={index + 1} disableGutters>
-            <Jumbotron title={`${d.fieldValue}の選曲`} footer={`${d.playlist.length}曲/${d.edges.length}回`} />
+            <Jumbotron title={`${d.fieldValue}の選曲`} footer={`${d.totalCount}曲/${d.edges.length}回`} />
             <SectionDivider />
             <Section>
               <LazyViewer
