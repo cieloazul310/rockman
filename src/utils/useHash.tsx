@@ -16,10 +16,8 @@ export function useParseHash<T = null>(titles: string[], stateFunction?: (state?
 
 export function useHash(tab: number, titles: string[]) {
   const { pathname } = useLocation();
-  console.log(pathname);
   React.useEffect(() => {
     if (window && typeof window === 'object') window.history.replaceState(tab, '', tab !== 0 ? withHash(titles[tab]) : pathname);
-    console.log(withHash(titles[tab]));
   }, [tab, titles, pathname]);
 }
 
