@@ -3,12 +3,13 @@ const path = require('path');
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
 const siteUrl = path.join(baseUrl, pathPrefix);
-const contentDir = `${__dirname}/data`;
+const contentDir = `${__dirname}/devData`;
 
 module.exports = {
   siteMetadata: {
-    title: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集`,
-    description: 'TOKYO-FM で放送中のラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」のプレイリスト集。',
+    title: `ロック大陸漫遊記プレイリスト集`,
+    description:
+      'ロック大陸漫遊記プレイリスト集は、TOKYO-FM他全国38局で放送されているラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。',
     lang: 'ja',
     siteUrl: siteUrl,
     baseUrl: baseUrl,
@@ -59,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `SPITZ 草野マサムネのロック大陸漫遊記プレイリスト集 β`,
+        name: `ロック大陸漫遊記プレイリスト集`,
         short_name: `ロク漫プレイリスト`,
         start_url: `/`,
         background_color: `#fafafa`,
@@ -98,7 +99,6 @@ module.exports = {
           }
         `,
         resolveSiteUrl: ({ site }) => {
-          //Alternatively, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
           return site.siteMetadata.baseUrl;
         },
       },
