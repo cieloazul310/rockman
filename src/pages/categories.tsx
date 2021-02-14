@@ -27,7 +27,7 @@ function CategoriesPage() {
   }>;
   const { hash, state, pathname } = location;
   const categories = useAllCategories();
-  const fieldValues = categories.map(({ fieldValue }) => fieldValue);
+  const fieldValues = React.useMemo(() => ['', ...categories.map(({ fieldValue }) => fieldValue)], [categories]);
   const initialCategory = hash !== '' ? decodeURI(hash.slice(1)) : null;
   // @TODO: add Hash support
   const initialValue =

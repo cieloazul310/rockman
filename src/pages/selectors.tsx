@@ -27,7 +27,7 @@ function SelectorsPage() {
   // [[name, programs]]
   const selectors = useAllSelectors();
   const initialSelector = hash !== '' ? decodeURI(hash.slice(1)) : null;
-  const fieldValues = ['', ...selectors.map(({ fieldValue }) => fieldValue)];
+  const fieldValues = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
   const initialValue =
     initialSelector && fieldValues.indexOf(initialSelector) >= 0
       ? fieldValues.indexOf(initialSelector)
@@ -36,10 +36,10 @@ function SelectorsPage() {
       : 0;
   const [value, setValue] = React.useState(initialValue);
   const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
-  const _handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
+  const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newValue: number) => {
     setValue(newValue);
   };
-  const _handleChangeIndex = (index: number) => {
+  const handleChangeIndex = (index: number) => {
     setValue(index);
   };
   const onItemClicked = (index: number) => () => {
@@ -70,7 +70,7 @@ function SelectorsPage() {
     <Layout
       title="選曲者"
       tabs={
-        <Tabs value={value} onChange={_handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+        <Tabs value={value} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
           <Tab label="概要" />
           {selectors.map((d) => (
             <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.playlist.length}`} />
@@ -78,7 +78,7 @@ function SelectorsPage() {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={value} onChangeIndex={_handleChangeIndex} resistance animateHeight action={actionCallbacks}>
+      <BindKeyboardSwipeableViews index={value} onChangeIndex={handleChangeIndex} resistance animateHeight action={actionCallbacks}>
         <TabPane index={0} value={value} disableGutters>
           <Jumbotron title="選曲者" />
           <SectionDivider />
