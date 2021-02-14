@@ -72,7 +72,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight={typeof window === 'object'}>
         <TabPane value={tab} index={0} disableGutters>
           <Jumbotron title="ちょっぴりタイムマシン" />
           <SectionDivider />

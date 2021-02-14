@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout';
@@ -49,10 +47,6 @@ function ProgramTemplate({ data, pageContext }: Props) {
       <ProgramPageHeader program={data.program} />
       <SectionDivider />
       <Section>
-        <Tabs indicatorColor="secondary" centered value={0}>
-          <Tab label="曲" />
-          <Tab label="詳細" />
-        </Tabs>
         <div>
           {data.program?.playlist?.map((tune) => (
             <Tune key={tune?.id} tune={tune} />

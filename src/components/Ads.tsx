@@ -4,7 +4,6 @@ import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import { useLocation } from '@reach/router';
-import InView from './InView';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -30,8 +29,10 @@ export function AdInDrawer() {
   const classes = useStyles();
   React.useEffect(() => {
     if (window) {
-      window.adsbygoogle = window.adsbygoogle || [];
-      window.adsbygoogle.push({});
+      window.onload = () => {
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
+      };
     }
   }, [pathname]);
   return (
@@ -54,8 +55,10 @@ export function AdInArticle() {
   const classes = useStyles();
   React.useEffect(() => {
     if (window) {
-      window.adsbygoogle = window.adsbygoogle || [];
-      window.adsbygoogle.push({});
+      window.onload = () => {
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
+      };
     }
   }, [pathname]);
   return (
@@ -81,8 +84,10 @@ export function AdInFooter() {
   const classes = useStyles();
   React.useEffect(() => {
     if (window) {
-      window.adsbygoogle = window.adsbygoogle || [];
-      window.adsbygoogle.push({});
+      window.onload = () => {
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
+      };
     }
   }, [pathname]);
   return (

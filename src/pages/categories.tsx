@@ -61,14 +61,14 @@ function CategoriesPage() {
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight>
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight={typeof window === 'object'}>
         <TabPane value={tab} index={0} disableGutters>
           <Jumbotron title="テーマ" />
           <SectionDivider />
           <Section>
             <Article>
               <Paragraph>
-                ロック大陸漫遊記の放送回を「ワン・アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。
+                ロック大陸漫遊記の放送回を「アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。
               </Paragraph>
               <List>
                 {categories.map((category, index) => (

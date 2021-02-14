@@ -1,23 +1,21 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { removeMultiple } from '../removeMultiple';
 import { AllSelectorsQuery } from '../../../graphql-types';
-
-type SelectorsGroup = AllSelectorsQuery['allProgram']['group'][number];
-type SelectorsEdge = SelectorsGroup['edges'][number];
-type SelectorsPlaylist = NonNullable<SelectorsEdge['node']['playlist']>[number];
 
 export interface CategoryItem {
   fieldValue: string;
-  edges: SelectorsEdge[];
-  playlist: SelectorsPlaylist[];
+  edges: AllSelectorsQuery['allProgram']['group'][number]['edges'][number][];
+  totalCount: number;
 }
 
 export function useAllSelectors(): CategoryItem[] {
   const data = useStaticQuery<AllSelectorsQuery>(graphql`
     query AllSelectors {
-      allProgram {
+      allProgram(filter: { playlist: { elemMatch: { selector: { regex: "/^(?!.*草野マサムネ).*$/" } } } }) {
         group(field: playlist___selector) {
           fieldValue
+          totalCount
           edges {
             node {
               id
@@ -51,24 +49,13 @@ export function useAllSelectors(): CategoryItem[] {
     return data.allProgram.group
       .filter((group) => group.fieldValue !== '草野マサムネ')
       .map((group) => {
-        const edges = removeMultiple(group.edges);
+        const edges = removeMultiple(group.edges, ({ node }) => node.id);
         return {
           fieldValue: group.fieldValue ?? 'selector',
           edges,
-          playlist: edges.reduce<SelectorsPlaylist[]>(
-            (accum, curr) =>
-              curr.node.playlist ? [...accum, ...curr.node.playlist.filter((tune) => tune?.selector === group.fieldValue)] : [...accum],
-            []
-          ),
+          totalCount: group.totalCount,
         };
       })
-      .sort((a, b) => b.playlist.length - a.playlist.length || b.edges.length - a.edges.length);
+      .sort((a, b) => b.totalCount - a.totalCount || b.edges.length - a.edges.length);
   }, [data]);
-}
-
-function removeMultiple(edges: SelectorsEdge[]) {
-  return edges.reduce<SelectorsEdge[]>((accum, curr) => {
-    if (accum.map((d) => d.node.id).indexOf(curr.node.id) >= 0) return accum;
-    return [...accum, curr];
-  }, []);
 }

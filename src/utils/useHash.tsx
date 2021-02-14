@@ -3,9 +3,8 @@ import { useLocation, WindowLocation } from '@reach/router';
 
 export function useParseHash<T = null>(titles: string[], stateFunction?: (state?: T | null) => string | undefined | null) {
   const { hash, state } = useLocation() as WindowLocation<T>;
-  console.log(hash, state);
   return React.useMemo(() => {
-    console.log(state);
+    if (!hash && typeof state !== 'object') return 0;
     const stateTitle = typeof state === 'object' && typeof stateFunction === 'function' ? stateFunction(state) : null;
     const stateTitleIndex = stateTitle ? titles.indexOf(stateTitle) : -1;
     if (stateTitleIndex >= 0) return stateTitleIndex;
@@ -17,8 +16,10 @@ export function useParseHash<T = null>(titles: string[], stateFunction?: (state?
 
 export function useHash(tab: number, titles: string[]) {
   const { pathname } = useLocation();
+  console.log(pathname);
   React.useEffect(() => {
     if (window && typeof window === 'object') window.history.replaceState(tab, '', tab !== 0 ? withHash(titles[tab]) : pathname);
+    console.log(withHash(titles[tab]));
   }, [tab, titles, pathname]);
 }
 
