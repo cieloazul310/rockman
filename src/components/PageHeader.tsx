@@ -125,7 +125,7 @@ export function ArtistPageHeader({ artist }: { artist: Maybe<Pick<Artist, 'image
       }
       bottom={
         <>
-          <Typography variant="body2">
+          <Typography variant="body1">
             <TextSpan>{artist?.tunesCount}曲</TextSpan>
             <TextSpan>{artist?.programCount}回</TextSpan>
           </Typography>
