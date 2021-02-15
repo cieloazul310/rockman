@@ -99,7 +99,7 @@ function ArtistsPage() {
   const [searchText, setSearchText] = React.useState(initialState.searchText ?? '');
   const [appearMultiple, setAppearMultiple] = React.useState(initialState.appearMultiple ?? true);
   const [appearOnce, setAppearOnce] = React.useState(initialState.appearOnce ?? true);
-  const [nationFilter, setNationFilter] = React.useState(initialState.nationFilter ?? nations.map(({ nation }) => nation));
+  const [nationFilter, setNationFilter] = React.useState(initialState.nationFilter ?? nations.map(({ fieldValue }) => fieldValue));
   const [nationFilterOpen, setNationFilterOpen] = React.useState(false);
 
   React.useEffect(() => {
