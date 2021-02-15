@@ -163,7 +163,7 @@ export const query = graphql`
         }
       }
     }
-    allTunes {
+    allTunes(selector: { ne: "草野マサムネ" }) {
       week
       title
       artist {

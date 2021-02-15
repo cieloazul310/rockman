@@ -53,9 +53,10 @@ export function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
           nation: `StringQueryOperatorInput`,
           artist: `StringQueryOperatorInput`,
           title: `StringQueryOperatorInput`,
+          selector: `StringQueryOperatorInput`,
         },
         resolve: (source, args, context, info) => {
-          const { year, corner, nation, artist, title } = args;
+          const { year, corner, nation, artist, title, selector } = args;
           const allProgram = context.nodeModel.getAllNodes<PureProgram>({ type: `program` });
           const allTunes = allProgram
             .reduce<PurePlaylist[]>((accum, curr) => [...accum, ...curr.playlist], [])
@@ -66,7 +67,8 @@ export function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
             .filter((tune) => stringQueryFilter(artist)(tune.artist))
             .filter((tune) => intQueryFilter(year)(tune.year))
             .filter((tune) => stringQueryFilter(corner)(tune.corner ?? ''))
-            .filter((tune) => stringQueryFilter(nation)(tune.nation));
+            .filter((tune) => stringQueryFilter(nation)(tune.nation))
+            .filter((tune) => stringQueryFilter(selector)(tune.selector));
         },
       },
     },

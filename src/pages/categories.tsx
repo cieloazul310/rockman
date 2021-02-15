@@ -26,7 +26,7 @@ interface WindowState {
   category?: string;
 }
 
-function CategoriesPage({ data }: PageProps<CategoriesPageQuery>) {
+function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>) {
   const categories = React.useMemo(() => {
     return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount);
   }, [data]);
