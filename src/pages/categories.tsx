@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { graphql, PageProps } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
@@ -17,7 +18,7 @@ import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { useSortProgramNode } from '../utils/useSorter';
 import { useParseHash, useHash } from '../utils/useHash';
-import { useAllCategories } from '../utils/graphql-hooks';
+import { CategoriesPageQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -25,8 +26,10 @@ interface WindowState {
   category?: string;
 }
 
-function CategoriesPage() {
-  const categories = useAllCategories();
+function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>) {
+  const categories = React.useMemo(() => {
+    return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount);
+  }, [data]);
   const titles = React.useMemo(() => ['', ...categories.map(({ fieldValue }) => fieldValue ?? '')], [categories]);
   const initialTab = useParseHash<WindowState>(titles, (state) => state?.category ?? undefined);
   const [tab, setTab] = React.useState(initialTab);
@@ -108,3 +111,26 @@ function CategoriesPage() {
 }
 
 export default CategoriesPage;
+
+export const query = graphql`
+  query CategoriesPage {
+    allProgram(sort: { fields: week, order: ASC }, filter: { categories: { ne: "" } }) {
+      group(field: categories) {
+        totalCount
+        fieldValue
+        edges {
+          node {
+            id
+            week
+            title
+            date(formatString: "YYYY-MM-DD")
+            fields {
+              slug
+              image
+            }
+          }
+        }
+      }
+    }
+  }
+`;

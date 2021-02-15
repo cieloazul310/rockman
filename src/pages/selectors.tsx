@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { graphql, PageProps } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import Tabs from '@material-ui/core/Tabs';
 import List from '@material-ui/core/List';
@@ -15,8 +16,9 @@ import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
 import { AdInArticle } from '../components/Ads';
-import { useAllSelectors } from '../utils/graphql-hooks/useAllSelectors';
+import { removeMultiple } from '../utils/removeMultiple';
 import { useParseHash, useHash } from '../utils/useHash';
+import { SelectorsPageQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -24,11 +26,29 @@ interface WindowState {
   selector?: string;
 }
 
-function SelectorsPage() {
-  const selectors = useAllSelectors();
+function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>) {
+  const selectors = React.useMemo(() => {
+    const { allProgram, allTunes } = data;
+    const tunes = allTunes?.sort((a, b) => (a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0)) ?? [];
+    return allProgram.group
+      .filter((group) => group.fieldValue !== '草野マサムネ')
+      .map((group, index) => {
+        const selected = tunes.filter((tune) => tune?.selector === group.fieldValue);
+        return {
+          fieldValue: group.fieldValue ?? index.toString(),
+          totalCount: group.totalCount,
+          edges: removeMultiple(group.edges, ({ node }) => node.id).map(({ node }) => ({
+            node: {
+              ...node,
+              playlist: selected.filter((tune) => tune?.week === node.week),
+            },
+          })),
+        };
+      })
+      .sort((a, b) => b.totalCount - a.totalCount || b.edges.length - a.edges.length);
+  }, [data]);
   const titles = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
   const initialTab = useParseHash<WindowState>(titles, (state) => state?.selector ?? undefined);
-  console.log(initialTab);
   const [tab, setTab] = React.useState(initialTab);
   const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
   const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newTab: number) => {
@@ -123,3 +143,39 @@ function SelectorsPage() {
 }
 
 export default SelectorsPage;
+
+export const query = graphql`
+  query SelectorsPage {
+    allProgram(filter: { playlist: { elemMatch: { selector: { regex: "/^(?!.*草野マサムネ).*$/" } } } }) {
+      group(field: playlist___selector) {
+        fieldValue
+        totalCount
+        edges {
+          node {
+            id
+            week
+            date(formatString: "YYYY-MM-DD")
+            title
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+    allTunes(selector: { ne: "草野マサムネ" }) {
+      week
+      title
+      artist {
+        name
+      }
+      year
+      indexInWeek
+      corner
+      youtube
+      id
+      nation
+      selector
+    }
+  }
+`;

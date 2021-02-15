@@ -2,7 +2,9 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllArtistsQuery } from '../../../graphql-types';
 
-export function useAllArtists() {
+export type ArtistItem = AllArtistsQuery['allArtist']['edges'][number];
+
+export function useAllArtists(): ArtistItem[] {
   const data = useStaticQuery<AllArtistsQuery>(graphql`
     query AllArtists {
       allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
@@ -15,15 +17,6 @@ export function useAllArtists() {
             nation
             programCount
             tunesCount
-            program {
-              date(formatString: "YYYY-MM-DD")
-              week
-            }
-            tunes {
-              title
-              year
-              week
-            }
           }
         }
       }
@@ -31,5 +24,3 @@ export function useAllArtists() {
   `);
   return React.useMemo(() => data.allArtist.edges, [data]);
 }
-
-export type ArtistItem = ReturnType<typeof useAllArtists>[number];

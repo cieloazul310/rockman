@@ -2,30 +2,25 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllCategoriesQuery } from '../../../graphql-types';
 
-export function useAllCategories() {
+export type CategoryItem = Pick<AllCategoriesQuery['allProgram']['group'][number], 'totalCount'> & {
+  fieldValue: NonNullable<AllCategoriesQuery['allProgram']['group'][number]['fieldValue']>;
+};
+
+export function useAllCategories(): CategoryItem[] {
   const data = useStaticQuery<AllCategoriesQuery>(graphql`
     query AllCategories {
       allProgram(sort: { fields: week, order: ASC }) {
         group(field: categories) {
           fieldValue
-          edges {
-            node {
-              id
-              week
-              title
-              date(formatString: "YYYY-MM-DD")
-              fields {
-                slug
-                image
-              }
-            }
-          }
+          totalCount
         }
       }
     }
   `);
   return React.useMemo(() => {
-    return data.allProgram.group.sort((a, b) => b.edges.length - a.edges.length);
+    return data.allProgram.group
+      .filter((group): group is CategoryItem => Boolean(group.fieldValue))
+      .sort((a, b) => b.totalCount - a.totalCount);
   }, [data]);
 }
 

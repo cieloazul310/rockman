@@ -5,7 +5,7 @@ import { TunesCountQuery } from '../../../graphql-types';
 export function useTunesTop25() {
   const data = useStaticQuery<TunesCountQuery>(graphql`
     query TunesCount {
-      allArtist(sort: { fields: tunesCount, order: DESC }, limit: 25, filter: { name: { ne: "スピッツ" } }) {
+      allArtist(sort: { fields: [tunesCount, sortName], order: [DESC, ASC] }, limit: 25, filter: { name: { ne: "スピッツ" } }) {
         edges {
           node {
             id
