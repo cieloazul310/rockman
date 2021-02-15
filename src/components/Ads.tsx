@@ -84,10 +84,8 @@ export function AdInFooter() {
   const classes = useStyles();
   React.useEffect(() => {
     if (window) {
-      window.onload = () => {
-        window.adsbygoogle = window.adsbygoogle || [];
-        window.adsbygoogle.push({});
-      };
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
     }
   }, [pathname]);
   return (
