@@ -28,7 +28,6 @@ function SelectorsPage() {
   const selectors = useAllSelectors();
   const titles = React.useMemo(() => ['', ...selectors.map(({ fieldValue }) => fieldValue)], [selectors]);
   const initialTab = useParseHash<WindowState>(titles, (state) => state?.selector ?? undefined);
-  console.log(initialTab);
   const [tab, setTab] = React.useState(initialTab);
   const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
   const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newTab: number) => {

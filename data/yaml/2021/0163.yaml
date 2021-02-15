@@ -1,0 +1,107 @@
+id: "20200163"
+week: 163
+year: 2021
+title: コンコンコンで漫遊記
+subtitle: ""
+guests: []
+categories: ["楽器"]
+date: 2021-02-14
+playlist:
+  - id: "2021016301"
+    week: 163
+    index: 1348
+    indexInWeek: 1
+    title: ミカンズのテーマ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサルポリドール
+    corner: 漫遊前の一曲
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021016302"
+    week: 163
+    index: 1349
+    indexInWeek: 2
+    title: Honky Tonk Women
+    artist: The Rolling Stones
+    year: 1969
+    nation: UK
+    label: Decca
+    producer:
+      - Jimmy Miller
+    youtube: hqqkGxZ1_8I
+    selector: 草野マサムネ
+  - id: "2021016303"
+    week: 163
+    index: 1350
+    indexInWeek: 3
+    title: Hair of the Dog
+    artist: Nazareth
+    year: 1975
+    nation: UK
+    label: Vertigo
+    youtube: Nn7AnxAw2Jk
+    producer:
+      - Manny Charlton
+    selector: 草野マサムネ
+  - id: "2021016304"
+    week: 163
+    index: 1351
+    indexInWeek: 4
+    title: Little Sister
+    artist: Queens of The Stone Age
+    year: 2005
+    nation: US
+    label: Interscope
+    youtube: hGRqnNEOpe0
+    selector: 草野マサムネ
+  - id: "2021016305"
+    week: 163
+    index: 1352
+    indexInWeek: 5
+    title: Pictured Life
+    artist: Scorpions
+    year: 1976
+    nation: GER
+    label: RCA
+    producer: 
+      - Dieter Dierks
+    selector: 草野マサムネ
+  - id: "2021016306"
+    week: 163
+    index: 1353
+    indexInWeek: 6
+    title: L.A. Texas Boy
+    artist: Nitzinger
+    year: 1972
+    nation: US
+    label: Capitol
+    youtube: PReJvTtxIAs
+    selector: 草野マサムネ
+  - id: "2021016307"
+    week: 163
+    index: 1354
+    indexInWeek: 7
+    title: Detroit Girls
+    artist: Starz
+    year: 1976
+    nation: US
+    label: Capitol
+    producer:
+      - Jack Douglas
+    youtube: XT8avZGlnzY
+    selector: 草野マサムネ
+  - id: "2021016308"
+    week: 163
+    index: 1355
+    indexInWeek: 8
+    title: WAO!
+    artist: UNICORN
+    year: 2009
+    nation: JPN
+    label: キューンレコード
+    youtube: qsbgcQxZ6xI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
