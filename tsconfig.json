@@ -1,6 +1,6 @@
 {
   "include": [
-    "./src/**/*"
+     "src/**/*"
   ],
   "compilerOptions": {
     "target": "esnext",
@@ -11,8 +11,9 @@
     ],
     "allowJs": true,
     "checkJs": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
+    "isolatedModules": true,
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,

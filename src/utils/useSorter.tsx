@@ -13,7 +13,7 @@ export default function useSorter() {
 
 export function useSortProgram() {
   const sorter = useSorter();
-  return (a: Maybe<Pick<Program, 'week'>> | undefined, b: Maybe<Pick<Program, 'week'>> | undefined) =>
+  return (a: Maybe<Pick<Program, 'week'>>, b: Maybe<Pick<Program, 'week'>>) =>
     sorter((a?.week ?? 0) - (b?.week ?? 0));
 }
 
