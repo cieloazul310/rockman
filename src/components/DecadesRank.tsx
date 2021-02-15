@@ -2,9 +2,9 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, useTheme } from '@material-ui/core/styles';
 import { Chart, BarSeries, PieSeries, Title, ArgumentAxis, ValueAxis, Legend } from '@devexpress/dx-react-chart-material-ui';
-import { Palette } from '@devexpress/dx-react-chart';
-import { useDecades, useSchemeNations } from '../utils/graphql-hooks';
-import { useGetNationColor } from '../utils/getNationColor';
+// import { Palette } from '@devexpress/dx-react-chart';
+// import { useDecades, useSchemeNations } from '../utils/graphql-hooks';
+// import { useGetNationColor } from '../utils/getNationColor';
 
 const useTitleStyles = makeStyles((theme) =>
   createStyles({
@@ -26,7 +26,7 @@ function TitleComponent({ text }: Title.TextProps) {
     </div>
   );
 }
-
+/*
 export function DecadesRank() {
   const { palette } = useTheme();
   const decades = useDecades();
@@ -41,7 +41,8 @@ export function DecadesRank() {
     </div>
   );
 }
-
+*/
+/*
 export function NationsRank() {
   const nations = useSchemeNations();
   const getNationColor = useGetNationColor();
@@ -57,3 +58,4 @@ export function NationsRank() {
     </div>
   );
 }
+*/

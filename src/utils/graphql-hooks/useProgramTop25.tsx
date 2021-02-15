@@ -5,7 +5,11 @@ import { ProgramCountQuery } from '../../../graphql-types';
 export function useProgramTop25() {
   const data = useStaticQuery<ProgramCountQuery>(graphql`
     query ProgramCount {
-      allArtist(sort: { fields: programCount, order: DESC }, limit: 25, filter: { name: { ne: "スピッツ" } }) {
+      allArtist(
+        sort: { fields: [programCount, tunesCount, sortName], order: [DESC, DESC, ASC] }
+        limit: 25
+        filter: { name: { ne: "スピッツ" } }
+      ) {
         edges {
           node {
             id

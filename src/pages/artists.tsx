@@ -155,7 +155,7 @@ function ArtistsPage() {
     setNationFilter([]);
   };
   const resetNationFilter = () => {
-    setNationFilter(nations.map(({ nation }) => nation));
+    setNationFilter(nations.map(({ fieldValue }) => fieldValue));
   };
   const appearFilters = React.useMemo(
     () => (artist: ArtistItem) =>
@@ -224,11 +224,11 @@ function ArtistsPage() {
             <ListItemText primary="すべてのチェックを外す" />
           </ListItem>
           {nations.map((nation) => (
-            <ListItem className={classes.nested} key={nation.nation} dense button onClick={toggleNationFilter(nation.nation)}>
+            <ListItem className={classes.nested} key={nation.fieldValue} dense button onClick={toggleNationFilter(nation.fieldValue)}>
               <ListItemIcon>
-                <Checkbox edge="start" checked={nationFilter.includes(nation.nation)} />
+                <Checkbox edge="start" checked={nationFilter.includes(nation.fieldValue)} />
               </ListItemIcon>
-              <ListItemText primary={nation.nation} />
+              <ListItemText primary={nation.fieldValue} />
               <Typography variant="button" component="span">
                 {nation.totalCount}
               </Typography>
