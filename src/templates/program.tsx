@@ -12,7 +12,7 @@ import DrawerNavigation from '../components/DrawerNavigation';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { ProgramTonarinoTab } from '../components/TonarinoTab';
-import { removeMultiple } from '../utils/removeMultiple';
+import removeMultiple from '../utils/removeMultiple';
 import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);

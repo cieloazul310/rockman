@@ -24,7 +24,7 @@ declare global {
   }
 }
 
-export function AdInDrawer() {
+export function AdInDrawer(): JSX.Element {
   const { pathname } = useLocation();
   const classes = useStyles();
   React.useEffect(() => {
@@ -50,7 +50,7 @@ export function AdInDrawer() {
   );
 }
 
-export function AdInArticle() {
+export function AdInArticle(): JSX.Element {
   const { pathname } = useLocation();
   const classes = useStyles();
   React.useEffect(() => {
@@ -79,7 +79,7 @@ export function AdInArticle() {
   );
 }
 
-export function AdInFooter() {
+export function AdInFooter(): JSX.Element {
   const { pathname } = useLocation();
   const classes = useStyles();
   React.useEffect(() => {

@@ -9,12 +9,12 @@ import ProgramItem from '../components/ProgramItem';
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import Section, { SectionDivider } from '../components/Section';
 import Article, { Paragraph, Link } from '../components/Article';
-import Stats from '../components/index/Stat';
+import Stats from '../components/Stat';
 import { AdInArticle } from '../components/Ads';
 import { useProgramTop25 } from '../utils/graphql-hooks/useProgramTop25';
 import { IndexQuery } from '../../graphql-types';
 
-function IndexPage({ data }: PageProps<IndexQuery>) {
+function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
   const top25 = useProgramTop25();
   const images = data.allProgram.edges
     .map(({ node }) => node.fields?.image ?? undefined)

@@ -51,7 +51,12 @@ interface Props {
   title: string;
 }
 
-export function Stat({ icon, value, label, title }: Props) {
+function StatCore({ value }: { value: number }): JSX.Element {
+  const animation = useAnimation('linear', value, 0);
+  return <span>{Math.round(value * animation)}</span>;
+}
+
+export function Stat({ icon, value, label, title }: Props): JSX.Element {
   const classes = useStyles();
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -78,12 +83,7 @@ export function Stat({ icon, value, label, title }: Props) {
   );
 }
 
-function StatCore({ value }: { value: number }) {
-  const animation = useAnimation('linear', value, 0);
-  return <span>{Math.round(value * animation)}</span>;
-}
-
-export function StatsFallBack() {
+export function StatsFallBack(): JSX.Element {
   return (
     <Grid container>
       <Stat icon={<ProgramIcon fontSize="inherit" />} value={0} title="放送" label="回" />
@@ -93,7 +93,7 @@ export function StatsFallBack() {
   );
 }
 
-export default function Stats() {
+export default function Stats(): JSX.Element {
   const classes = useStyles();
   const { allProgram, allArtist } = useStaticQuery<StatQuery>(graphql`
     query Stat {

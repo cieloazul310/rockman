@@ -8,7 +8,7 @@ interface DisplayOnScreenProps {
   children: React.ReactNode;
   margin?: number;
   once?: boolean;
-  onSeem?: (inView?: boolean) => void;
+  onSeem?: (() => void) | ((inView: boolean) => void);
 }
 
 function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayOnScreenProps) {
@@ -39,23 +39,23 @@ interface Props {
   programs: TunesByProgramProps['program'][];
   divisor?: number;
   filter?: (tune: TuneProps['tune']) => boolean;
-  onSeem?: (inView?: boolean) => void;
+  onSeem?: (() => void) | ((inView: boolean) => void);
 }
 
 function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Props) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
-    return dividedItems.map((d, i) =>
-      i === 0 ? (
-        <div key={i}>
-          {d.map((v) => (
-            <TunesByProgram program={v} key={v?.id} />
+    return dividedItems.map((dividedItem, index) =>
+      index === 0 ? (
+        <div key={index}>
+          {dividedItem.map((program) => (
+            <TunesByProgram program={program} key={program?.id} />
           ))}
         </div>
       ) : (
-        <DisplayOnScreen key={i} margin={40} onSeem={onSeem}>
-          {d.map((v) => (
-            <TunesByProgram program={v} key={v?.id} />
+        <DisplayOnScreen key={index} margin={40} onSeem={onSeem}>
+          {dividedItem.map((program) => (
+            <TunesByProgram program={program} key={program?.id} />
           ))}
         </DisplayOnScreen>
       )
