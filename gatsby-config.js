@@ -3,6 +3,7 @@ const path = require('path');
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/gatsby-rockman';
 const siteUrl = path.join(baseUrl, pathPrefix);
+const contentDir = `${__dirname}/devData`;
 
 module.exports = {
   siteMetadata: {
@@ -34,7 +35,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `yaml`,
-        path: `${__dirname}/data/yaml`,
+        path: `${contentDir}/yaml`,
       },
     },
     {

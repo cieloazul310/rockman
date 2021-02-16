@@ -6,27 +6,29 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import NationAvatar from './NationAvatar';
-import { ArtistItem } from '../utils/graphql-hooks';
+import { ProgramCountQuery, TunesCountQuery } from '../../graphql-types';
+
+type ArtistEdges = ProgramCountQuery['allArtist']['edges'] | TunesCountQuery['allArtist']['edges'];
 
 interface Props {
-  items: ArtistItem[];
+  edges: ArtistEdges;
   title: string;
-  itemTitle: (item: ArtistItem) => string;
-  itemValue: (item: ArtistItem) => string | number;
+  nodeTitle: (edge: ArtistEdges[number]['node']) => string;
+  nodeValue: (edge: ArtistEdges[number]['node']) => string | number;
   dense?: boolean;
 }
 
-function Rank({ items, title, itemTitle, itemValue, dense = false }: Props) {
+function Rank({ edges, title, nodeTitle, nodeValue, dense = false }: Props) {
   return (
     <List subheader={<ListSubheader>{title}</ListSubheader>}>
-      {items.map((item) => (
-        <ListItemAppLink key={item.fieldValue} button to={`/artist/${item.fieldValue}/`} dense={dense}>
+      {edges.map(({ node }) => (
+        <ListItemAppLink key={node.id} button to={`/artist/${node.name}/`} dense={dense}>
           <ListItemAvatar>
-            <NationAvatar nation={item.nation} img={item.img} alt={item.fieldValue} />
+            <NationAvatar nation={node.nation} img={node.image ?? undefined} alt={node.name} />
           </ListItemAvatar>
-          <ListItemText primary={itemTitle(item)} />
+          <ListItemText primary={nodeTitle(node)} />
           <Typography variant="button" component="span">
-            {itemValue(item)}
+            {nodeValue(node)}
           </Typography>
         </ListItemAppLink>
       ))}

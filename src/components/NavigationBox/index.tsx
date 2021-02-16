@@ -10,7 +10,7 @@ import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 interface NavigationItemProps {
   title: string;
   to: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   dense?: boolean;
 }
 

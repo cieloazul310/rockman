@@ -45,12 +45,12 @@ export function DecadesRank() {
 export function NationsRank() {
   const nations = useSchemeNations();
   const getNationColor = useGetNationColor();
-  const scheme = nations.map((nation) => getNationColor(nation.nation));
+  const scheme = nations.map((nation) => getNationColor(nation.nation ?? ''));
   return (
     <div>
       <Chart data={nations} height={400}>
         <Palette scheme={scheme} />
-        <PieSeries valueField="tunes" argumentField="nation" innerRadius={0.6} name="地域" />
+        <PieSeries valueField="tunesCount" argumentField="nation" innerRadius={0.6} name="地域" />
         <Legend />
         <Title text="地域別曲数" textComponent={TitleComponent} />
       </Chart>
