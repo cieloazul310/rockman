@@ -5,7 +5,7 @@ import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
 import Article, { ArticleSection, ArticleTitle, Paragraph, H3, H4, Link } from '../components/Article';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 
 function About(): JSX.Element {
   return (
@@ -104,7 +104,7 @@ function About(): JSX.Element {
         </Article>
       </Section>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

@@ -15,7 +15,7 @@ import Article, { Paragraph } from '../components/Article';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import LazyViewer from '../components/LazyViewer';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
 import { useParseHash, useHash } from '../utils/useHash';
 import { SelectorsPageQuery } from '../../graphql-types';
@@ -133,7 +133,7 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>): JS
         ))}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

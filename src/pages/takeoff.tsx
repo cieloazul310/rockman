@@ -16,7 +16,7 @@ import Article, { Paragraph } from '../components/Article';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { TuneByProgram } from '../components/TunesByProgram';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { useParseHash, useHash } from '../utils/useHash';
 import { TakeOffQuery } from '../../graphql-types';
 
@@ -115,7 +115,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>): JSX.Element {
         </TabPane>
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

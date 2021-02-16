@@ -10,7 +10,7 @@ import ArtistItemContainer from '../components/ArtistItemContainer';
 import Section, { SectionDivider } from '../components/Section';
 import Article, { Paragraph, Link } from '../components/Article';
 import Stats from '../components/Stat';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { useProgramTop25 } from '../utils/graphql-hooks/useProgramTop25';
 import { IndexQuery } from '../../graphql-types';
 
@@ -58,7 +58,7 @@ function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
         </List>
       </Section>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <ArtistItemContainer title="登場回数Top25" artists={top25.map(({ node }) => node)} />

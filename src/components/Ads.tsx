@@ -24,21 +24,20 @@ declare global {
   }
 }
 
-export function AdInDrawer(): JSX.Element {
+export function AdBasic(): JSX.Element {
   const { pathname } = useLocation();
   const classes = useStyles();
   React.useEffect(() => {
     if (window) {
-      window.onload = () => {
-        window.adsbygoogle = window.adsbygoogle || [];
-        window.adsbygoogle.push({});
-      };
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
     }
   }, [pathname]);
   return (
-    <div key={pathname} className={classes.root}>
+    <div key={pathname} className={clsx(classes.root, classes.inArticle)}>
       <Typography variant="caption">[ad]</Typography>
       <ins
+        key={pathname}
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-7323207940463794"

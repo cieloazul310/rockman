@@ -15,7 +15,7 @@ import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
 import { TuneByProgram } from '../components/TunesByProgram';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import Article, { Paragraph } from '../components/Article';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
@@ -118,7 +118,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>): JSX.Element {
         ))}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

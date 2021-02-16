@@ -5,7 +5,7 @@ import Section, { SectionDivider } from '../components/Section';
 import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { ProgramPageQuery } from '../../graphql-types';
 
 function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
@@ -17,7 +17,7 @@ function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
         <Programs data={data.allProgram.group} />
       </Section>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />
