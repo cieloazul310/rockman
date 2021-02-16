@@ -1,61 +1,79 @@
 import * as React from 'react';
-import Box from '@material-ui/core/Box';
 import { useInView } from 'react-intersection-observer';
-import TunesByProgram from './TunesByProgram';
-import { TuneCardSkeleton } from './TuneCard';
+import { TuneProps } from './Tune';
+import TunesByProgram, { TunesByProgramSkeleton, TunesByProgramProps } from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
-import { QueriedProgram } from '../types';
-import { ProgramPlaylist } from '../../graphql-types';
-
-function DummyItem() {
-  return (
-    <Box py={4}>
-      <TuneCardSkeleton />
-    </Box>
-  );
-}
 
 interface DisplayOnScreenProps {
   children: React.ReactNode;
   margin?: number;
   once?: boolean;
+  onSeem?: (() => void) | ((inView: boolean) => void);
 }
 
-function DisplayOnScreen({ children, margin = 0, once = true }: DisplayOnScreenProps) {
+function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayOnScreenProps) {
   const [ref, inView] = useInView({
     rootMargin: `${margin}px`,
     triggerOnce: once,
   });
+  React.useEffect(() => {
+    if (inView && onSeem) {
+      onSeem(inView);
+    }
+  }, [inView, onSeem]);
 
-  return <div ref={ref}>{inView ? children : <DummyItem />}</div>;
+  return (
+    <div ref={ref}>
+      {inView ? (
+        children
+      ) : (
+        <div>
+          <TunesByProgramSkeleton />
+        </div>
+      )}
+    </div>
+  );
 }
+
+DisplayOnScreen.defaultProps = {
+  margin: 0,
+  once: true,
+  onSeem: undefined,
+};
 
 interface Props {
-  programs: QueriedProgram[];
+  programs: TunesByProgramProps['program'][];
   divisor?: number;
-  filter?: (tune: ProgramPlaylist) => boolean;
+  filter?: (tune: TuneProps['tune']) => boolean;
+  onSeem?: (() => void) | ((inView: boolean) => void);
 }
 
-function LazyViewer({ programs, filter = () => true, divisor = 15 }: Props) {
+function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Props): JSX.Element {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
-    return dividedItems.map((d, i) =>
-      i === 0 ? (
-        <div key={i}>
-          {d.map((v) => (
-            <TunesByProgram program={v} key={v.id} />
+    return dividedItems.map((dividedItem, index) =>
+      index === 0 ? (
+        <div key={index.toString()}>
+          {dividedItem.map((program) => (
+            <TunesByProgram program={program} key={program?.id} />
           ))}
         </div>
       ) : (
-        <DisplayOnScreen key={i} margin={40}>
-          {d.map((v) => (
-            <TunesByProgram program={v} key={v.id} />
+        <DisplayOnScreen key={index.toString()} margin={40} onSeem={onSeem}>
+          {dividedItem.map((program) => (
+            <TunesByProgram program={program} key={program?.id} />
           ))}
         </DisplayOnScreen>
       )
     );
-  }, [dividedItems]);
+  }, [dividedItems, onSeem]);
   return <div>{renderItems}</div>;
 }
+
+LazyViewer.defaultProps = {
+  divisor: 15,
+  filter: () => true,
+  onSeem: undefined,
+};
 
 export default LazyViewer;

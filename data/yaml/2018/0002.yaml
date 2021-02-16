@@ -9,31 +9,26 @@ date: 2018-01-14
 playlist:
   - id: "2018000201"
     week: 2
-    name: 歌ウサギ
     artist: スピッツ
-    kana: ""
     year: 2017
     nation: JPN
     label: Universal Records
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: 歌ウサギ
+    youtube: 7KKn4C9786k
     index: 10
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018000202"
     week: 2
-    name: Superstar
     artist: Andrew Lloyd Webber and Tim Rice
-    kana: ""
     year: 1969
     nation: UK
     label: Decca/MCA
     producer:
       - Tim Rice, Andrew Lloyd Webber
-    corner: ""
     youtube: Je6g1ufZhJY
     title: Superstar
     index: 11
@@ -41,14 +36,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000203"
     week: 2
-    name: The Living End
     artist: Judee Sill
-    kana: ""
     year: 1974
     nation: US
     label: Water Records
-    producer: []
-    corner: ""
     youtube: 4gIBGTgnOdU
     title: The Living End
     index: 12
@@ -56,15 +47,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000204"
     week: 2
-    name: Dust
     artist: Fleetwood Mac
-    kana: ""
     year: 1972
     nation: UK
     label: Reprise Records
     producer:
       - Fleetwood Mac
-    corner: ""
     youtube: -i3w576gr9o
     title: Dust
     index: 13
@@ -78,8 +66,6 @@ playlist:
     year: 2017
     nation: JPN
     label: P-VINE
-    producer: []
-    corner: ""
     youtube: kRa6RMfrfvI
     title: サースティ
     index: 14
@@ -87,31 +73,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000206"
     week: 2
-    name: You Stole My Heart
     artist: Randy California
-    kana: ""
     year: 1979
     nation: US
-    label: ""
     producer:
       - Randy California
-    corner: ""
-    youtube: ""
+    youtube: SXvNFObDtgk
     title: You Stole My Heart
     index: 15
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2018000207"
     week: 2
-    name: N.E.O.
     artist: CHAI
-    kana: ""
     year: 2017
     nation: JPN
     label: OTEMOYAN record
-    producer:
-      - CHAI
-    corner: ""
     youtube: YMGf3zyhG94
     title: N.E.O.
     index: 16
@@ -119,15 +96,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000208"
     week: 2
-    name: Dreamtime
     artist: SOON
-    kana: ""
     year: 1998
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Dreamtime
     index: 17
     indexInWeek: 8

@@ -14,15 +14,14 @@ const colorScheme = {
 export type SchemeNations = keyof typeof colorScheme;
 export const schemeNations = Object.keys(colorScheme);
 
-export default function getNationColor(nation: string, isDark = false) {
-  if (nation === 'JPN' || nation === 'UK' || nation === 'US' || nation === 'FR' || nation === 'AUS' || nation === 'CAN') {
+export default function getNationColor(nation: string, isDark = false): string {
+  if (isSchemeNations(nation)) {
     return isDark ? colorScheme[nation][300] : colorScheme[nation][500];
-  } else {
-    return grey[500];
   }
+  return grey[500];
 }
 
-export function useGetNationColor() {
+export function useGetNationColor(): (nation: string, isDark: boolean) => string {
   const isDark = useTheme().palette.type === 'dark';
   return React.useCallback((nation: string) => getNationColor(nation, isDark), [isDark]);
 }

@@ -1,3 +1,5 @@
+/* eslint @typescript-eslint/no-use-before-define: off */
+
 import * as React from 'react';
 
 type Easing = {
@@ -7,25 +9,13 @@ type Easing = {
 };
 type EasingName = 'linear' | 'elastic' | 'inExpo';
 
-// Hook
-export default function useAnimation(easingName: EasingName = 'linear', duration = 500, delay = 0) {
-  // The useAnimationTimer hook calls useState every animation frame ...
-  // ... giving us elapsed time and causing a rerender as frequently ...
-  // ... as possible for a smooth animation.
-  const elapsed = useAnimationTimer(duration, delay);
-  // Amount of specified duration elapsed on a scale from 0 - 1
-  const n = Math.min(1, elapsed / duration);
-  // Return altered value based on our specified easing function
-  return easing[easingName](n);
-}
-
 // Some easing functions copied from:
 // https://github.com/streamich/ts-easing/blob/master/src/index.ts
 // Hardcode here or pull in a dependency
 const easing: Easing = {
   linear: (n: number) => n,
   elastic: (n: number) => n * (33 * n * n * n * n - 106 * n * n * n + 126 * n * n - 67 * n + 15),
-  inExpo: (n: number) => Math.pow(2, 10 * (n - 1)),
+  inExpo: (n: number) => 2 ** (10 * (n - 1)),
 };
 
 function useAnimationTimer(duration = 1000, delay = 0) {
@@ -74,4 +64,16 @@ function useAnimationTimer(duration = 1000, delay = 0) {
   );
 
   return elapsed;
+}
+
+// Hook
+export default function useAnimation(easingName: EasingName = 'linear', duration = 500, delay = 0): number {
+  // The useAnimationTimer hook calls useState every animation frame ...
+  // ... giving us elapsed time and causing a rerender as frequently ...
+  // ... as possible for a smooth animation.
+  const elapsed = useAnimationTimer(duration, delay);
+  // Amount of specified duration elapsed on a scale from 0 - 1
+  const n = Math.min(1, elapsed / duration);
+  // Return altered value based on our specified easing function
+  return easing[easingName](n);
 }

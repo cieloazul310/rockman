@@ -1,19 +1,24 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
-import Skeleton from '@material-ui/lab/Skeleton';
 import SwipeableViews from 'react-swipeable-views';
+<<<<<<< HEAD
 import { virtualize, bindKeyboard, SlideRenderProps } from 'react-swipeable-views-utils';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
 import { TuneCardSkeleton } from '../components/TuneCard';
+=======
+import { bindKeyboard } from 'react-swipeable-views-utils';
+import Layout from '../layout';
+import Section, { SectionDivider } from '../components/Section';
+import { ArtistPageHeader } from '../components/PageHeader';
+import TunesByProgram from '../components/TunesByProgram';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import PageNavigation from '../components/PageNavigation';
+>>>>>>> develop
 import DrawerNavigation from '../components/DrawerNavigation';
-import PageNavigation, { createNavigationProps } from '../components/PageNavigation';
-import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
+<<<<<<< HEAD
 import RelatedArtists from '../components/RelatedArtists';
 import sortArtists from '../utils/sortByYomi';
 import { useAllArtists } from '../utils/graphql-hooks/';
@@ -27,6 +32,15 @@ interface Artist {
   tunes: ProgramPlaylist[];
   img?: string;
 }
+=======
+import { AdBasic } from '../components/Ads';
+import { ArtistTonarinoTab } from '../components/TonarinoTab';
+import { useSortProgram } from '../utils/useSorter';
+import nonNullable from '../utils/nonNullable';
+import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
+
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+>>>>>>> develop
 
 interface Props {
   data: ArtistTemplateQuery;
@@ -39,6 +53,7 @@ interface Props {
   };
 }
 
+<<<<<<< HEAD
 function ArtistTemplate({ data, pageContext }: Props) {
   const allArtists = useAllArtists();
   const artists = React.useMemo(() => sortArtists(allArtists), [allArtists]);
@@ -48,80 +63,61 @@ function ArtistTemplate({ data, pageContext }: Props) {
   const [tab, setTab] = React.useState(index);
   const _onChangeIndex = (i: number) => {
     setTab(i);
+=======
+function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
+  const artist = nonNullable(data.artist);
+  const { previous, next } = pageContext;
+  const sortProgram = useSortProgram();
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && index === initialIndex + 1) {
+      navigate(`/artist/${next.name}`);
+    }
+    if (previous && index === initialIndex - 1) {
+      navigate(`/artist/${previous?.name}`);
+    }
+>>>>>>> develop
   };
-  React.useEffect(() => {
-    const timer = setTimeout(() => {
-      if (tab !== index) {
-        setLoading(true);
-        navigate(`/artist/${artists[tab].fieldValue}`);
-      }
-    }, 500);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [tab, artists, index]);
-
-  function slideRenderer({ index, key }: SlideRenderProps) {
-    const item = artists[index];
-    return (
-      <div key={key}>
-        <Jumbotron title={item.fieldValue} subtitle={`登場回: ${item.edges.length} 曲数: ${item.tunes.length}`} imgUrl={item.img} />
-        <Container maxWidth="md">
-          <Box pt={4}>
-            {item.fieldValue === fieldValue ? (
-              <div>
-                <LazyViewer programs={programs.map(({ node }) => node)} filter={(tune) => tune.artist === fieldValue} />
-                <ContentBasis>
-                  <PageNavigation {...createNavigationProps(previous, next, '/artist')} />
-                </ContentBasis>
-                {item.fieldValue !== 'スピッツ' ? (
-                  <ContentBasis>
-                    <Typography variant="h6" component="h3" gutterBottom>
-                      {item.fieldValue}と同じ回で登場したアーティスト
-                    </Typography>
-                    <RelatedArtists edges={programs} />
-                  </ContentBasis>
-                ) : null}
-                <ContentBasis>
-                  <NavigationBox />
-                </ContentBasis>
-              </div>
-            ) : (
-              <div>
-                <Box py={2}>
-                  <Typography variant="subtitle2">
-                    <Skeleton variant="text" width={100} />
-                  </Typography>
-                  <Typography variant="h6">
-                    <Skeleton variant="text" />
-                  </Typography>
-                  <TuneCardSkeleton />
-                </Box>
-              </div>
-            )}
-          </Box>
-        </Container>
-      </div>
-    );
-  }
+  const programs = artist.program?.map((program) => ({
+    ...program,
+    playlist: artist.tunes?.filter((tune) => tune?.week === program?.week),
+  }));
+  const tabs = [
+    previous ? <ArtistTonarinoTab key={previous?.name} item={previous} /> : null,
+    <div key="main">
+      <ArtistPageHeader artist={artist} />
+      <SectionDivider />
+      <Section>
+        <div>
+          {programs?.sort(sortProgram).map((program) => (
+            <TunesByProgram key={program.week} program={program} />
+          ))}
+        </div>
+      </Section>
+      <SectionDivider />
+      <AdBasic />
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={nonNullable(artist.relatedArtists)} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigation variant="artist" pageContext={pageContext} />
+      </Section>
+    </div>,
+    next ? <ArtistTonarinoTab key={next.name} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
 
   return (
-    <Layout
-      title={fieldValue}
-      disableGutters
-      disablePaddingTop
-      loading={loading}
-      maxWidth={false}
-      componentViewports={{ BottomNav: false }}
-      drawerContents={<DrawerNavigation {...createNavigationProps(previous, next, '/artist')} />}
-    >
-      <VirtualizedSwipeableViews
-        index={tab}
-        onChangeIndex={_onChangeIndex}
-        slideRenderer={slideRenderer}
-        slideCount={artists.length}
-        resistance
-      />
+    <Layout title={artist.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
 }
@@ -129,6 +125,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
 export default ArtistTemplate;
 
 export const query = graphql`
+<<<<<<< HEAD
   query ArtistTemplate($fieldValue: String!) {
     allProgram(filter: { playlist: { elemMatch: { artist: { eq: $fieldValue } } } }, sort: { fields: date, order: ASC }) {
       group(field: date, limit: 1) {
@@ -164,6 +161,47 @@ export const query = graphql`
             }
           }
         }
+=======
+  query ArtistTemplate($name: String!) {
+    artist(name: { eq: $name }) {
+      tunesCount
+      programCount
+      image
+      kana
+      name
+      nation
+      program {
+        id
+        date(formatString: "YYYY-MM-DD")
+        week
+        title
+        subtitle
+        fields {
+          slug
+        }
+      }
+      tunes {
+        corner
+        id
+        indexInWeek
+        artist {
+          name
+        }
+        kana
+        label
+        nation
+        selector
+        title
+        week
+        year
+        youtube
+>>>>>>> develop
+      }
+      relatedArtists {
+        name
+        image
+        tunesCount
+        programCount
       }
     }
   }

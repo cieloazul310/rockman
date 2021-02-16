@@ -5,7 +5,7 @@ import Layout from 'gatsby-theme-aoi/src/layout';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 
-function NotFoundPage() {
+function NotFoundPage(): JSX.Element {
   const location = useLocation();
   return (
     <Layout title="Not Found" maxWidth="md">

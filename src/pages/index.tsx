@@ -1,88 +1,93 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { graphql, PageProps } from 'gatsby';
 import List from '@material-ui/core/List';
 import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from 'gatsby-theme-aoi/src/layouts/JumbotronLayout';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
-import loadable from '@loadable/component';
+import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
-import Ranks from '../components/index/Ranks';
-import ContentBasis from '../components/ContentBasis';
-import InView from '../components/InView';
-//import Stats from '../components/index/Stat';
-//import FallBack from '../components/FallBack';
-import { StatsFallBack } from '../components/index/Stat';
-import { AdInArticle } from '../components/Ads';
+import ProgramItem from '../components/ProgramItem';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import Section, { SectionDivider } from '../components/Section';
+import Article, { Paragraph, Link } from '../components/Article';
+import Stats from '../components/Stat';
+import { AdBasic } from '../components/Ads';
+import { useProgramTop25 } from '../utils/graphql-hooks/useProgramTop25';
 import { IndexQuery } from '../../graphql-types';
-const Stats = loadable(() => import('../components/index/Stat'), {
-  fallback: <StatsFallBack />,
-});
 
-function IndexPage() {
-  const data = useStaticQuery<IndexQuery>(graphql`
-    query Index {
-      allProgram(sort: { fields: week, order: DESC }, limit: 8) {
-        edges {
-          node {
-            id
-            title
-            week
-            date(formatString: "YYYY-MM-DD")
-            fields {
-              slug
-            }
-            playlist {
-              youtube
-            }
-          }
-        }
-      }
-    }
-  `);
-  const tunesWithImage = data.allProgram.edges
-    .map(({ node }) => node.playlist?.filter((tune) => tune?.youtube && tune?.youtube !== ''))
-    .reduce((accum, curr) => (accum && curr ? [...accum, ...curr] : []), []);
-  const jumbotron = (
-    <Jumbotron
-      title="SPITZ草野マサムネのロック大陸漫遊記 プレイリスト集"
-      header="TOKYO-FM 全国38局ネットで放送中"
-      imgUrl={tunesWithImage ? `https://i.ytimg.com/vi/${tunesWithImage[0]?.youtube}/0.jpg` : undefined}
-      height={346}
-    />
-  );
+function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
+  const top25 = useProgramTop25();
+  const images = data.allProgram.edges
+    .map(({ node }) => node.fields?.image ?? undefined)
+    .filter((image): image is string => Boolean(image));
 
   return (
-    <Layout maxWidth="md" componentViewports={{ BottomNav: false }} jumbotron={jumbotron}>
-      <ContentBasis>
+    <Layout>
+      <Jumbotron title="ロック大陸漫遊記 プレイリスト集" footer="since 2018" image={images.length ? images[0] : undefined} />
+      <SectionDivider />
+      <Section>
         <Stats />
-      </ContentBasis>
-      <ContentBasis>
+        <Article maxWidth="lg">
+          <Paragraph>
+            <strong>ロック大陸漫遊記プレイリスト集</strong>は、TOKYO-FM他全国38局で放送されているラジオ番組
+            <strong>「SPITZ 草野マサムネのロック大陸漫遊記」</strong>
+            でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。
+          </Paragraph>
+          <Paragraph>
+            原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。
+          </Paragraph>
+          <Paragraph>
+            <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
+            <br />
+            <Link href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</Link>
+          </Paragraph>
+          <Paragraph>
+            全国38局放送時間一覧
+            <br />
+            <Link href="https://www.tfm.co.jp/manyuki/index.php?catid=3350" rel="noopener noreferrer">
+              https://www.tfm.co.jp/manyuki/index.php?catid=3350
+            </Link>
+          </Paragraph>
+        </Article>
+      </Section>
+      <SectionDivider />
+      <Section>
         <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
-          {data.allProgram.edges.map(({ node }, index) => (
-            <ListItemLink
-              key={index}
-              to={node.fields?.slug ?? '#'}
-              primaryText={node.title ?? '放送回'}
-              secondaryText={`第${node.week}回 ${node.date}`}
-              divider
-            />
+          {data.allProgram.edges.map(({ node }, index, arr) => (
+            <ProgramItem key={node.week} program={node} last={index === arr.length - 1} />
           ))}
         </List>
-      </ContentBasis>
-      <ContentBasis>
+      </Section>
+      <SectionDivider />
+      <AdBasic />
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="登場回数Top25" artists={top25.map(({ node }) => node)} />
+      </Section>
+      <SectionDivider />
+      <Section>
         <NavigationBox />
-      </ContentBasis>
-      <ContentBasis>
-        <InView>
-          <AdInArticle />
-        </InView>
-      </ContentBasis>
-      <ContentBasis>
-        <Ranks />
-      </ContentBasis>
+      </Section>
     </Layout>
   );
 }
 
 export default IndexPage;
+
+export const query = graphql`
+  query Index {
+    allProgram(sort: { fields: week, order: DESC }, limit: 8) {
+      edges {
+        node {
+          id
+          title
+          week
+          date(formatString: "YYYY-MM-DD")
+          fields {
+            slug
+            image
+          }
+        }
+      }
+    }
+  }
+`;

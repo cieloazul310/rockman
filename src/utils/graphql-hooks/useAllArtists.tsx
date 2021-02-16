@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import sortArtists, { SortType } from '../sortByYomi';
 import { AllArtistsQuery } from '../../../graphql-types';
 
+<<<<<<< HEAD
 type ArtistGroup = AllArtistsQuery['allProgram']['group'][number];
 type ArtistEdge = ArtistGroup['edges'][number];
 type ArtistTune = NonNullable<NonNullable<ArtistEdge['node']['playlist']>[number]>;
@@ -31,6 +32,23 @@ export function useAllArtists() {
                 youtube
               }
             }
+=======
+export type ArtistItem = AllArtistsQuery['allArtist']['edges'][number];
+
+export function useAllArtists(): ArtistItem[] {
+  const data = useStaticQuery<AllArtistsQuery>(graphql`
+    query AllArtists {
+      allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
+        edges {
+          node {
+            id
+            image
+            kana
+            name
+            nation
+            programCount
+            tunesCount
+>>>>>>> develop
           }
           fieldValue
         }
@@ -68,6 +86,7 @@ function removeMultiple(edges: ArtistEdge[]) {
     return [...accum, curr];
   }, []);
 }
+<<<<<<< HEAD
 
 export function useArtists(sortType: SortType, limit = 0) {
   const allArtists = useAllArtists();
@@ -75,3 +94,5 @@ export function useArtists(sortType: SortType, limit = 0) {
     return sortArtists(allArtists, { sortType }).slice(0, limit || allArtists.length);
   }, [sortType, limit, allArtists]);
 }
+=======
+>>>>>>> develop

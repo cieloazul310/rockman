@@ -1,145 +1,87 @@
 import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
-//import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard, virtualize, SlideRenderProps } from 'react-swipeable-views-utils';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import Layout from 'gatsby-theme-aoi/src/layout';
-import ListItemLink from 'gatsby-theme-aoi/src/components/ListItemLink';
-import Jumbotron from '../components/Jumbotron';
-import DrawerNavigation from '../components/DrawerNavigation';
-import TuneCard, { TuneCardSkeleton } from '../components/TuneCard';
+import { bindKeyboard } from 'react-swipeable-views-utils';
+import Layout from '../layout';
+import Section, { SectionDivider } from '../components/Section';
+import { ProgramPageHeader } from '../components/PageHeader';
+import Tune from '../components/Tune';
+import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
+import DrawerNavigation from '../components/DrawerNavigation';
 import NavigationBox from '../components/NavigationBox';
-import ContentBasis from '../components/ContentBasis';
-import ResponsiveContainer from '../components/ResponsiveContainer';
-import { useAllPrograms, useCategories } from '../utils/graphql-hooks';
-import createDescriptionString from '../utils/createDescriptionString';
-import getAroundPrograms from '../utils/getAroundPrograms';
-import { QueriedProgram } from '../types';
-import { ProgramTemplateQuery } from '../../graphql-types';
+import { AdBasic } from '../components/Ads';
+import { ProgramTonarinoTab } from '../components/TonarinoTab';
+import removeMultiple from '../utils/removeMultiple';
+import nonNullable from '../utils/nonNullable';
+import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
-const VirtualizedSwipeableViews = bindKeyboard(virtualize(SwipeableViews));
+const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 interface Props {
   data: ProgramTemplateQuery;
-  pageContext: {
-    slug: string;
-    previous: QueriedProgram;
-    next: QueriedProgram;
-    index: number;
-  };
+  pageContext: SitePageContext;
 }
 
-function ProgramTemplate({ data, pageContext }: Props) {
-  const { program } = data;
-  const { previous, next, index, slug } = pageContext;
-  const allPrograms = useAllPrograms();
-  const categories = useCategories((program?.categories as string[]) ?? []);
-  const description = createDescriptionString(program);
-  const [loading, setLoading] = React.useState(false);
-  const [tab, setTab] = React.useState(index);
-  const _onChangeIndex = (i: number) => {
-    setTab(i);
+function ProgramTemplate({ data, pageContext }: Props): JSX.Element {
+  const program = nonNullable(data.program);
+  const { previous, next } = pageContext;
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && next?.fields?.slug && index === initialIndex + 1) {
+      navigate(next.fields.slug);
+    }
+    if (previous && previous?.fields?.slug && index === initialIndex - 1) {
+      navigate(previous.fields.slug);
+    }
   };
-  React.useEffect(() => {
-    const timer = setTimeout(() => {
-      if (tab !== index) {
-        setLoading(true);
-        navigate(allPrograms[tab]?.fields?.slug ?? '#');
-      }
-    }, 500);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [tab, index, allPrograms]);
+  const artists = program.playlist
+    ? removeMultiple(
+        program.playlist.map((tune) => tune?.artist),
+        (item) => item?.name
+      )
+    : [];
 
-  function slideRenderer({ index, key }: SlideRenderProps) {
-    const item = allPrograms[index];
-    return (
-      <div key={key}>
-        <Jumbotron
-          title={item.title ?? 'Artist'}
-          header={`第${item.week}回 ${item.date} 全${item.playlist?.length ?? 0}曲`}
-          subtitle={item.subtitle ?? undefined}
-          artists={Array.from(new Set(item.playlist?.map((d) => d?.artist ?? '')))}
-          imgUrl={item.fields?.image ?? undefined}
-        />
-        <ResponsiveContainer maxWidth="md">
-          <Box pt={4}>
-            {item.fields?.slug === slug ? (
-              <div>
-                {program?.playlist?.map((tune, index) => (tune ? <TuneCard key={tune.id ?? index} tune={tune} /> : null))}
-                <ContentBasis>
-                  <PageNavigation {...createNavigationProps(previous, next)} />
-                </ContentBasis>
-                <ContentBasis>
-                  {categories.map((category, index) => (
-                    <List key={index} subheader={<ListSubheader>{category.fieldValue}</ListSubheader>}>
-                      {getAroundPrograms(category.edges, program?.id ?? 'dummy').map((v) => (
-                        <ListItemLink
-                          key={v.node.id}
-                          selected={v.node.id === program?.id}
-                          to={v.node.fields?.slug ?? '#'}
-                          primaryText={v.node.title ?? 'Program'}
-                          secondaryText={`第${v.node.week}回 ${v.node.date}`}
-                          divider
-                          dense
-                        />
-                      ))}
-                    </List>
-                  ))}
-                </ContentBasis>
-                <ContentBasis>
-                  <NavigationBox />
-                </ContentBasis>
-              </div>
-            ) : (
-              <div>
-                <TuneCardSkeleton />
-                <TuneCardSkeleton />
-                <TuneCardSkeleton />
-              </div>
-            )}
-          </Box>
-        </ResponsiveContainer>
-      </div>
-    );
-  }
-
+  const tabs = [
+    previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
+    <div key="main">
+      <ProgramPageHeader program={program} />
+      <SectionDivider />
+      <Section>
+        <div>
+          {program.playlist?.map((tune) => (
+            <Tune key={tune?.id} tune={tune} />
+          ))}
+        </div>
+      </Section>
+      <SectionDivider />
+      <AdBasic />
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="登場アーティスト" artists={artists} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigation variant="program" pageContext={pageContext} />
+      </Section>
+    </div>,
+    next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
   return (
-    <Layout
-      title={program?.title ?? '放送回'}
-      description={description}
-      disableGutters
-      disablePaddingTop
-      maxWidth={false}
-      loading={loading}
-      componentViewports={{ BottomNav: false }}
-      drawerContents={<DrawerNavigation {...createNavigationProps(previous, next)} />}
-    >
-      <VirtualizedSwipeableViews
-        index={tab}
-        onChangeIndex={_onChangeIndex}
-        slideRenderer={slideRenderer}
-        slideCount={allPrograms.length}
-        resistance
-      />
+    <Layout title={program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
+      <SectionDivider />
+      <Section>
+        <NavigationBox />
+      </Section>
     </Layout>
   );
 }
 
 export default ProgramTemplate;
-
-function createNavigationProps(previous: QueriedProgram, next: QueriedProgram) {
-  return {
-    previous: previous ? { to: previous.fields?.slug ?? '#', title: previous.title } : null,
-
-    next: next ? { to: next.fields?.slug ?? '#', title: next.title } : null,
-  };
-}
 
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
@@ -156,7 +98,12 @@ export const query = graphql`
         image
       }
       playlist {
-        artist
+        artist {
+          name
+          image
+          programCount
+          tunesCount
+        }
         corner
         id
         index
@@ -169,7 +116,6 @@ export const query = graphql`
         year
         week
         youtube
-        image
       }
     }
   }

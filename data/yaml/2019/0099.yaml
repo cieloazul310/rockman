@@ -4,65 +4,51 @@ year: 2019
 title: フルートが入ったナンバーで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["楽器"]
 date: 2019-11-24
 playlist:
   - id: "2019009901"
     week: 99
-    name: まがった僕のしっぽ
     artist: スピッツ
-    kana: ""
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: まがった僕のしっぽ
     index: 819
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009902"
     week: 99
-    name: ブールヴァード
     artist: 吉田ヨウヘイgroup
     kana: よしだようへいぐるーぷ
     year: 2014
     nation: JPN
     label: P-VINE
-    producer: []
-    corner: ""
-    youtube: XvsPZqsl_kk
+    youtube: pqBNkHUYKSk
     title: ブールヴァード
     index: 820
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2019009903"
     week: 99
-    name: I Talk to the Wind
     artist: King Crimson
-    kana: ""
     year: 1969
     nation: UK
     label: Atlantic
-    producer: []
-    corner: ""
-    youtube: ""
+    youtube: UlKrH07au6E
     title: I Talk to the Wind
     index: 821
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019009904"
     week: 99
-    name: Going Up the Country
     artist: Canned Heat
-    kana: ""
     year: 1968
     nation: US
     label: Liberty
-    producer: []
-    corner: ""
     youtube: 4eQMA_noRYQ
     title: Going Up the Country
     index: 822
@@ -70,30 +56,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009905"
     week: 99
-    name: Aporia
     artist: JYOCHO
-    kana: ""
     year: 2018
     nation: JPN
     label: No Big Deal Records
-    producer: []
-    corner: ""
-    youtube: ""
     title: Aporia
     index: 823
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2019009906"
     week: 99
-    name: California Dreamin’
     artist: The Mamas and the Papas
-    kana: ""
     year: 1965
     nation: US
     label: Dunhill
     producer:
       - Lou Adler
-    corner: ""
     youtube: N-aK6JnyFmk
     title: California Dreamin’
     index: 824
@@ -101,14 +79,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009907"
     week: 99
-    name: Cross-Eyed Mary
     artist: Jethro Tull
-    kana: ""
     year: 1971
     nation: UK
     label: Chrysalis
-    producer: []
-    corner: ""
     youtube: eqC1yInWBMo
     title: Cross-Eyed Mary
     index: 825
@@ -116,15 +90,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009908"
     week: 99
-    name: くすりをたくさん
     artist: 大貫妙子
     kana: おおぬきたえこ
     year: 1977
     nation: JPN
     label: PANAM
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: くすりをたくさん
     index: 826
     indexInWeek: 8

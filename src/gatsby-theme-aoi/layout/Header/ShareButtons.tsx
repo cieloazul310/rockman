@@ -14,7 +14,7 @@ type Props = {
   title?: string;
 } & Partial<Pick<IconButtonProps, 'color'>>;
 
-function ShareButtons({ className, title, color = 'default' }: Props) {
+function ShareButtons({ className, title, color = 'default' }: Props): JSX.Element {
   const isClient = useUpdateOnClient();
   const { youtube } = useSiteMetadata().social;
   const twitterUrl = useSocialShare('twitter', title);
@@ -39,5 +39,10 @@ function ShareButtons({ className, title, color = 'default' }: Props) {
     </Box>
   );
 }
+
+ShareButtons.defaultProps = {
+  className: undefined,
+  title: undefined,
+};
 
 export default ShareButtons;
