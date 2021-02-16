@@ -15,7 +15,7 @@ import Article, { Paragraph } from '../components/Article';
 import ProgramItem from '../components/ProgramItem';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { useSortProgramNode } from '../utils/useSorter';
 import { useParseHash, useHash } from '../utils/useHash';
 import { CategoriesPageQuery } from '../../graphql-types';
@@ -101,7 +101,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>): 
         ))}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

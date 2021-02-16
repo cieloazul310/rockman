@@ -2,11 +2,11 @@ import * as React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from '../TabLayout';
+import Layout from './TabLayout';
 import Tab from '../components/MuiTab';
 import Section, { SectionDivider } from '../components/Section';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { useParseHash, useHash } from '../utils/useHash';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -77,7 +77,7 @@ function TabTemplate<T, S>({ items, getTitle, stateFunction, tabs, children }: P
         {children}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <NavigationBox />

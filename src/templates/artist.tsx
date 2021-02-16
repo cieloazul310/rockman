@@ -10,7 +10,7 @@ import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
 import DrawerNavigation from '../components/DrawerNavigation';
 import NavigationBox from '../components/NavigationBox';
-import { AdInArticle } from '../components/Ads';
+import { AdBasic } from '../components/Ads';
 import { ArtistTonarinoTab } from '../components/TonarinoTab';
 import { useSortProgram } from '../utils/useSorter';
 import nonNullable from '../utils/nonNullable';
@@ -54,7 +54,7 @@ function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
         </div>
       </Section>
       <SectionDivider />
-      <AdInArticle />
+      <AdBasic />
       <SectionDivider />
       <Section>
         <ArtistItemContainer title="同じ回で登場したアーティスト" artists={nonNullable(artist.relatedArtists)} />
