@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../icons';
+import { useSiteMenu } from '../utils/graphql-hooks';
 
 interface NavigationItemProps {
   title: string;
@@ -23,16 +23,12 @@ function NavigationItem({ title, to, icon }: NavigationItemProps): JSX.Element {
 }
 
 function NavigationBox(): JSX.Element {
+  const menu = useSiteMenu();
   return (
     <Grid container component="nav" alignItems="center">
-      <NavigationItem to="/" title="トップページ" icon={<HomeIcon />} />
-      <NavigationItem to="/programs/" title="放送回一覧" icon={<ProgramIcon />} />
-      <NavigationItem to="/artists/" title="アーティスト一覧" icon={<ArtistIcon />} />
-      <NavigationItem to="/categories/" title="テーマ" icon={<CategoryIcon />} />
-      <NavigationItem to="/selectors/" title="選曲者" icon={<SelectorIcon />} />
-      <NavigationItem to="/takeoff/" title="漫遊前の一曲" icon={<TakeOffIcon />} />
-      <NavigationItem to="/timemachine/" title="ちょっぴりタイムマシン" icon={<TimeMachineIcon />} />
-      <NavigationItem to="/about/" title="サイトについて" icon={<AboutIcon />} />
+      {menu.map(({ name, path, icon }) => (
+        <NavigationItem key={path} to={path} title={name} icon={icon} />
+      ))}
     </Grid>
   );
 }

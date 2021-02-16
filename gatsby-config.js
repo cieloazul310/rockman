@@ -1,4 +1,3 @@
-//const myTheme = require('./src/utils/theme').default;
 const path = require('path');
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
@@ -16,6 +15,16 @@ module.exports = {
     baseUrl: baseUrl,
     author: 'cieloazul310',
     keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト', 'ラジオ'],
+    menu: [
+      { name: 'トップページ', path: '/' },
+      { name: '放送回一覧', path: '/programs/' },
+      { name: 'アーティスト', path: '/artists/' },
+      { name: 'テーマ', path: '/categories/' },
+      { name: '選曲者', path: '/selectors/' },
+      { name: '漫遊前の一曲', path: '/takeoff/' },
+      { name: 'ちょっぴりタイムマシン', path: '/timemachine/' },
+      { name: 'サイトについて', path: '/about/' },
+    ],
     social: {
       mail: '',
       twitter: 'cieloazul310',
