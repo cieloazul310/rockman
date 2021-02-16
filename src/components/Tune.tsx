@@ -4,11 +4,11 @@ import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Skeleton from '@material-ui/lab/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import TextSpan from '../TextSpan';
-import { TuneIcon } from '../../icons';
-import { useAvatarStyles } from '../../styles';
-import { useGetNationColor } from '../../utils/getNationColor';
-import { Maybe, ProgramPlaylist, Artist } from '../../../graphql-types';
+import TextSpan from './TextSpan';
+import { TuneIcon } from '../icons';
+import { useAvatarStyles } from '../styles';
+import { useGetNationColor } from '../utils/getNationColor';
+import { Maybe, ProgramPlaylist, Artist } from '../../graphql-types';
 
 interface StylesProps {
   nationColor?: string;
@@ -54,7 +54,7 @@ export interface TuneProps {
   >;
 }
 
-function Tune({ tune }: TuneProps) {
+function Tune({ tune }: TuneProps): JSX.Element {
   const getNationColor = useGetNationColor();
   const classes = useStyles({ nationColor: getNationColor(tune?.nation ?? '') });
   const avatarClass = useAvatarStyles();
@@ -111,7 +111,7 @@ function Tune({ tune }: TuneProps) {
 
 export default Tune;
 
-export function TuneSkeleton() {
+export function TuneSkeleton(): JSX.Element {
   const classes = useStyles({});
   const avatarClass = useAvatarStyles();
   return (

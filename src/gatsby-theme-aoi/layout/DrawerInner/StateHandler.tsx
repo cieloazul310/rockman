@@ -4,7 +4,7 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import ListItemToggleDarkMode, { ListItemToggleUseSystemTheme } from 'gatsby-theme-aoi/src/components/ListItemToggleDarkMode';
 import ListItemToggleSort from '../../../components/ListItemToggleSort';
 
-function StateHandler() {
+function StateHandler(): JSX.Element {
   return (
     <List subheader={<ListSubheader>設定</ListSubheader>}>
       <ListItemToggleSort />

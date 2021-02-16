@@ -1,6 +1,7 @@
-import { useStaticQuery, graphql } from 'gatsby';
-import { AllProgramQuery } from '../../../graphql-types';
-
+// import { useStaticQuery, graphql } from 'gatsby';
+// import { AllProgramQuery } from '../../../graphql-types';
+export {};
+/*
 export function useAllPrograms() {
   const data = useStaticQuery<AllProgramQuery>(graphql`
     query AllProgram {
@@ -22,3 +23,4 @@ export function useAllPrograms() {
   `);
   return data.allProgram.edges;
 }
+*/

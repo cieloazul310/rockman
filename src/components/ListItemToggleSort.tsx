@@ -7,7 +7,7 @@ import Switch from '@material-ui/core/Switch';
 import SortIcon from '@material-ui/icons/Sort';
 import { useAppState, useDispatch } from '../gatsby-theme-aoi-top-layout/utils/AppStateContext';
 
-function ListItemToggleSort() {
+function ListItemToggleSort(): JSX.Element {
   const { sort } = useAppState();
   const dispatch = useDispatch();
   const toggleSort = () => {

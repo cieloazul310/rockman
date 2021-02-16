@@ -31,7 +31,7 @@ function ListItemLink({
   secondaryAction,
   textClasses,
   ...props
-}: ListItemLinkProps) {
+}: ListItemLinkProps): JSX.Element {
   const isMobile = useMediaQuery((theme: Theme) => theme.breakpoints.down('xs'));
 
   return isMobile || button ? (
@@ -57,4 +57,13 @@ function ListItemLink({
     </ListItem>
   );
 }
+
+ListItemLink.defaultProps = {
+  secondaryText: undefined,
+  inset: false,
+  avatar: undefined,
+  secondaryAction: undefined,
+  textClasses: undefined,
+};
+
 export default ListItemLink;

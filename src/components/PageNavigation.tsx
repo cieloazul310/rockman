@@ -84,7 +84,7 @@ function PageNavigationButton({ variant, item, navigation }: PageNavigationButto
         root: classes.item,
         disabled: classes.disabled,
       }}
-      disabled={!Boolean(item)}
+      disabled={!item}
       component={GatsbyLink}
       to={isProgram ? item?.fields?.slug ?? '#' : `/artist/${item?.name}`}
     >
@@ -113,7 +113,7 @@ interface Props {
   pageContext: Pick<SitePageContext, 'next' | 'previous'>;
 }
 
-function PageNavigation({ variant, pageContext }: Props) {
+function PageNavigation({ variant, pageContext }: Props): JSX.Element {
   const { previous, next } = pageContext;
   const classes = useStyles();
   return (

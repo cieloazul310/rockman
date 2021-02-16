@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../../icons';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../icons';
 
 interface NavigationItemProps {
   title: string;

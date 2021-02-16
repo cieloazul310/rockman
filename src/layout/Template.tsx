@@ -15,7 +15,7 @@ type Props = {
   jumbotron: JSX.Element | JSX.Element[];
 } & LayoutProps;
 
-export default function JumbotronLayout({ jumbotron, disableGutters, children, maxWidth = false, ...props }: Props) {
+export default function JumbotronLayout({ jumbotron, disableGutters, children, maxWidth = false, ...props }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <Layout maxWidth={false} disableGutters disablePaddingTop componentViewports={{ BottomNav: false }} {...props}>

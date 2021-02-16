@@ -26,7 +26,7 @@ interface WindowState {
   selector?: string;
 }
 
-function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>) {
+function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>): JSX.Element {
   const selectors = React.useMemo(() => {
     const { allProgram, allTunes } = data;
     const tunes = allTunes?.sort((a, b) => (a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0)) ?? [];
@@ -106,7 +106,7 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>) {
               <Paragraph>ロック大陸漫遊記に登場したゲストやリクエストによる選曲を分類したページです。</Paragraph>
               <List>
                 {selectors.map((selector, index) => (
-                  <ListItem key={index} button onClick={onItemClicked(index + 1)}>
+                  <ListItem key={selector.fieldValue} button onClick={onItemClicked(index + 1)}>
                     <ListItemText primary={selector.fieldValue} />
                     <Typography variant="button" component="span">
                       {selector.totalCount}曲/{selector.edges.length}回
@@ -117,15 +117,15 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>) {
             </Article>
           </Section>
         </TabPane>
-        {selectors.map((d, index) => (
-          <TabPane key={index} value={tab} index={index + 1} disableGutters>
-            <Jumbotron title={`${d.fieldValue}の選曲`} footer={`${d.totalCount}曲/${d.edges.length}回`} />
+        {selectors.map((selector, index) => (
+          <TabPane key={selector.fieldValue} value={tab} index={index + 1} disableGutters>
+            <Jumbotron title={`${selector.fieldValue}の選曲`} footer={`${selector.totalCount}曲/${selector.edges.length}回`} />
             <SectionDivider />
             <Section>
               <LazyViewer
-                programs={d.edges.map((v) => v.node)}
+                programs={selector.edges.map((v) => v.node)}
                 divisor={15}
-                filter={(tune) => tune?.selector === d.fieldValue}
+                filter={(tune) => tune?.selector === selector.fieldValue}
                 onSeem={onSeem}
               />
             </Section>

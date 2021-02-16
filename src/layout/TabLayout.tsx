@@ -7,7 +7,7 @@ function TabLayout({
   children,
   tabs,
   ...props
-}: Omit<LayoutProps, 'tabSticky' | 'disableGutters' | 'componentViewports' | 'tabs'> & Required<Pick<LayoutProps, 'tabs'>>) {
+}: Omit<LayoutProps, 'tabSticky' | 'disableGutters' | 'componentViewports' | 'tabs'> & Required<Pick<LayoutProps, 'tabs'>>): JSX.Element {
   const isClient = useUpdateOnClient();
   return (
     <Layout tabSticky disableGutters componentViewports={{ BottomNav: false }} {...props} tabs={tabs} key={isClient}>

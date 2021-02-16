@@ -85,7 +85,7 @@ interface StoredState {
   nationFilter: string[];
 }
 
-function ArtistsPage() {
+function ArtistsPage(): JSX.Element {
   const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
   const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
 
@@ -120,10 +120,9 @@ function ArtistsPage() {
   const searchFilter = React.useMemo(() => {
     if (searchText === '') {
       return () => true;
-    } else {
-      const regex = RegExp(`${searchText}`, 'i');
-      return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
     }
+    const regex = RegExp(`${searchText}`, 'i');
+    return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
   }, [searchText]);
   const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     event.preventDefault();
@@ -158,14 +157,12 @@ function ArtistsPage() {
     setNationFilter(nations.map(({ fieldValue }) => fieldValue));
   };
   const appearFilters = React.useMemo(
-    () => (artist: ArtistItem) =>
-      appearMultiple && appearOnce
-        ? true
-        : appearMultiple
-        ? artist.node.programCount > 1
-        : appearOnce
-        ? artist.node.programCount === 1
-        : false,
+    () => (artist: ArtistItem) => {
+      if (appearMultiple && appearOnce) return true;
+      if (appearMultiple) return artist.node.programCount > 1;
+      if (appearOnce) return artist.node.programCount === 1;
+      return false;
+    },
     [appearMultiple, appearOnce]
   );
   const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.node.nation), [nationFilter]);

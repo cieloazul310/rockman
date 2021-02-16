@@ -35,6 +35,12 @@ function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayO
   );
 }
 
+DisplayOnScreen.defaultProps = {
+  margin: 0,
+  once: true,
+  onSeem: undefined,
+};
+
 interface Props {
   programs: TunesByProgramProps['program'][];
   divisor?: number;
@@ -42,18 +48,18 @@ interface Props {
   onSeem?: (() => void) | ((inView: boolean) => void);
 }
 
-function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Props) {
+function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Props): JSX.Element {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
     return dividedItems.map((dividedItem, index) =>
       index === 0 ? (
-        <div key={index}>
+        <div key={index.toString()}>
           {dividedItem.map((program) => (
             <TunesByProgram program={program} key={program?.id} />
           ))}
         </div>
       ) : (
-        <DisplayOnScreen key={index} margin={40} onSeem={onSeem}>
+        <DisplayOnScreen key={index.toString()} margin={40} onSeem={onSeem}>
           {dividedItem.map((program) => (
             <TunesByProgram program={program} key={program?.id} />
           ))}
@@ -63,5 +69,11 @@ function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Pro
   }, [dividedItems, onSeem]);
   return <div>{renderItems}</div>;
 }
+
+LazyViewer.defaultProps = {
+  divisor: 15,
+  filter: () => true,
+  onSeem: undefined,
+};
 
 export default LazyViewer;

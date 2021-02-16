@@ -38,7 +38,7 @@ interface Props {
   album: TakeOffQuery['albums']['edges'][number]['node'];
 }
 
-export function TakeOffAlbumItem({ album }: Props) {
+export function TakeOffAlbumItem({ album }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <div>
@@ -67,7 +67,7 @@ export function TakeOffAlbumItem({ album }: Props) {
   );
 }
 
-function TakeOffAlbum({ album }: Props) {
+function TakeOffAlbum({ album }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -82,7 +82,7 @@ interface TakeOffOthersProps {
   albums: TakeOffQuery['albums'];
 }
 
-export function TakeOffOthers({ albums }: TakeOffOthersProps) {
+export function TakeOffOthers({ albums }: TakeOffOthersProps): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>

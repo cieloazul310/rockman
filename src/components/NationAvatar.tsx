@@ -23,7 +23,7 @@ interface Props {
   alt?: string;
 }
 
-function NationAvatar({ nation, img, alt }: Props) {
+function NationAvatar({ nation, img, alt }: Props): JSX.Element {
   const classes = useStyles({ nation });
   return (
     <Avatar className={classes.nation} src={img} alt={alt} aria-label="avatar">
@@ -31,5 +31,10 @@ function NationAvatar({ nation, img, alt }: Props) {
     </Avatar>
   );
 }
+
+NationAvatar.defaultProps = {
+  img: undefined,
+  alt: undefined,
+};
 
 export default NationAvatar;

@@ -13,14 +13,14 @@ const AppStateContext = React.createContext<{
 
 export default AppStateContext;
 
-export function useAppState() {
+export function useAppState(): AppState {
   const { state } = React.useContext(AppStateContext);
   return React.useMemo(() => {
     return state;
   }, [state]);
 }
 
-export function useDispatch() {
+export function useDispatch(): React.Dispatch<Action> {
   const { dispatch } = React.useContext(AppStateContext);
   return React.useCallback(
     (action: Action) => {

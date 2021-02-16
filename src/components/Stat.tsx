@@ -4,9 +4,9 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import { useInView } from 'react-intersection-observer';
-import useAnimation from '../../utils/useAnimation';
-import { ProgramIcon, ArtistIcon, TuneIcon } from '../../icons';
-import { StatQuery } from '../../../graphql-types';
+import { ProgramIcon, ArtistIcon, TuneIcon } from '../icons';
+import useAnimation from '../utils/useAnimation';
+import { StatQuery } from '../../graphql-types';
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({

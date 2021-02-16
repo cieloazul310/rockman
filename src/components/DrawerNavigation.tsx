@@ -13,7 +13,7 @@ interface Props {
   pageContext: SitePageContext;
 }
 
-function DrawerPageNavigation({ pageContext, variant }: Props) {
+function DrawerPageNavigation({ pageContext, variant }: Props): JSX.Element {
   const { previous, next } = pageContext;
   const isProgram = variant === 'program';
   return (

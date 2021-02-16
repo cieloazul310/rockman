@@ -18,7 +18,7 @@ interface Props {
   last?: boolean;
 }
 
-function ProgramItem({ program, last }: Props) {
+function ProgramItem({ program, last }: Props): JSX.Element {
   const classes = useAvatarStyles();
   const textClasses = useStyles();
   return (
@@ -33,5 +33,9 @@ function ProgramItem({ program, last }: Props) {
     />
   );
 }
+
+ProgramItem.defaultProps = {
+  last: false,
+};
 
 export default ProgramItem;

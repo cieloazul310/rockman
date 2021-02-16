@@ -6,7 +6,7 @@ import ContentBasis from '../../../components/ContentBasis';
 import { AdInFooter } from '../../../components/Ads';
 import InView from '../../../components/InView';
 
-function Footer() {
+function Footer(): JSX.Element {
   return (
     <footer>
       <Box px={2} py={4} textAlign="center">

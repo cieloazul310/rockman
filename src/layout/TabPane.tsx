@@ -7,10 +7,9 @@ type Props = {
   // this tab's index
   index: number;
   children: React.ReactNode;
-  visible?: boolean;
 } & ContainerProps;
 
-function TabPane({ index, value, children, ...props }: Props) {
+function TabPane({ index, value, children, ...props }: Props): JSX.Element {
   return (
     <div
       role="tabpanel"

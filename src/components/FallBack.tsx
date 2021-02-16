@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-function FallBack(props: CircularProgressProps) {
+function FallBack(props: CircularProgressProps): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>

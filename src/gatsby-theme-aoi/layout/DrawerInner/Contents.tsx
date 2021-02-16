@@ -8,7 +8,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { useLocation } from '@reach/router';
 import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../../../icons';
 
-function DrawerContent() {
+function DrawerContent(): JSX.Element {
   const { pathname } = useLocation();
   return (
     <List subheader={<ListSubheader>コンテンツ</ListSubheader>}>

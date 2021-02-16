@@ -29,7 +29,7 @@ export interface TunesByProgramProps {
   >;
 }
 
-function TunesByProgram({ program }: TunesByProgramProps) {
+function TunesByProgram({ program }: TunesByProgramProps): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -57,7 +57,7 @@ interface TuneByProgramProps {
   >;
 }
 
-export function TuneByProgram({ tune }: TuneByProgramProps) {
+export function TuneByProgram({ tune }: TuneByProgramProps): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -77,7 +77,7 @@ export function TuneByProgram({ tune }: TuneByProgramProps) {
   );
 }
 
-export function TunesByProgramSkeleton() {
+export function TunesByProgramSkeleton(): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -94,7 +94,7 @@ export function TunesByProgramSkeleton() {
           <Skeleton width={260} />
         </Typography>
       </div>
-      <div>{Array.from({ length: 4 }).map((_, index) => <TuneSkeleton key={index} />) ?? null}</div>
+      <div>{Array.from({ length: 4 }).map((_, index) => <TuneSkeleton key={index.toString()} />) ?? null}</div>
     </div>
   );
 }

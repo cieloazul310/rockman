@@ -14,7 +14,7 @@ interface CreateProgramPagesQueryData {
   };
 }
 
-type ArtistPrevNext = Pick<Artist, 'name' | 'image' | 'programCount' | 'tunesCount'>;
+type ArtistPrevNext = Pick<Artist, 'name' | 'image' | 'programCount' | 'tunesCount' | 'nation'>;
 
 interface CreateArtistPagesQueryData {
   allArtist: {
@@ -26,7 +26,7 @@ interface CreateArtistPagesQueryData {
   };
 }
 
-export async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
+export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs): Promise<void> {
   const { createPage } = actions;
   const result = await graphql<CreateProgramPagesQueryData>(`
     query CreateProgramPages {

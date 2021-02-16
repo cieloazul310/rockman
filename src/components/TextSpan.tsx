@@ -15,14 +15,18 @@ type Props = {
   children?: React.ReactNode | null;
 } & Exclude<TypographyProps, 'children'>;
 
-function TextSpan({ children, ...props }: Props) {
+function TextSpan({ children, variant, ...props }: Props): JSX.Element | null {
   const classes = useStyles();
   if (!children) return null;
   return (
-    <Typography className={classes.root} component="span" {...props} variant={props.variant ?? 'inherit'}>
+    <Typography className={classes.root} component="span" {...props} variant={variant ?? 'inherit'}>
       {children}
     </Typography>
   );
 }
+
+TextSpan.defaultProps = {
+  children: undefined,
+};
 
 export default TextSpan;

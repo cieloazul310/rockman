@@ -11,7 +11,7 @@ export const useAvatarStyles = makeStyles((theme) =>
   })
 );
 
-function MyAvatar(props: Omit<AvatarProps, 'variant'>) {
+function MyAvatar(props: Omit<AvatarProps, 'variant'>): JSX.Element {
   const classes = useAvatarStyles();
   return <Avatar className={classes.avatar} variant="square" {...props} />;
 }
