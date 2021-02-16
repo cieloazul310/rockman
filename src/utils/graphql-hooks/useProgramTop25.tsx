@@ -2,7 +2,9 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { ProgramCountQuery } from '../../../graphql-types';
 
-export function useProgramTop25() {
+export type ProgramTop25Artist = ProgramCountQuery['allArtist']['edges'][number];
+
+export function useProgramTop25(): ProgramTop25Artist[] {
   const data = useStaticQuery<ProgramCountQuery>(graphql`
     query ProgramCount {
       allArtist(

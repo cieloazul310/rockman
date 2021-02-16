@@ -2,7 +2,7 @@ import * as React from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from '../layout/TabLayout';
+import Layout from '../TabLayout';
 import Tab from '../components/MuiTab';
 import Section, { SectionDivider } from '../components/Section';
 import NavigationBox from '../components/NavigationBox';

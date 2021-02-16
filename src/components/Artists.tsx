@@ -31,12 +31,12 @@ interface Props {
   sortType: SortType;
 }
 
-function Artists({ width = 320, height = 480, itemSize = 60, filters = [], sortType = 'abc' }: Props) {
+function Artists({ width = 320, height = 480, itemSize = 60, filters, sortType }: Props): JSX.Element {
   const allArtists = useAllArtists();
   const artists = React.useMemo(
     () =>
       sortArtists(
-        allArtists.filter((artist) => (filters.length ? filters.length === filters.filter((filter) => filter(artist)).length : true)),
+        allArtists.filter((artist) => (filters?.length ? filters.length === filters.filter((filter) => filter(artist)).length : true)),
         { sortType }
       ),
     [allArtists, filters, sortType]
@@ -48,5 +48,12 @@ function Artists({ width = 320, height = 480, itemSize = 60, filters = [], sortT
     </FixedSizeList>
   );
 }
+
+Artists.defaultProps = {
+  width: 320,
+  height: 480,
+  itemSize: 60,
+  filters: [],
+};
 
 export default Artists;

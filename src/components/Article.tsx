@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-function Article({ children, maxWidth, ...props }: ContainerProps) {
+function Article({ children, maxWidth, ...props }: ContainerProps): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -39,7 +39,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export function ArticleSection({ children }: Props) {
+export function ArticleSection({ children }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -48,7 +48,7 @@ export function ArticleSection({ children }: Props) {
   );
 }
 
-export function ArticleTitle({ children }: Props) {
+export function ArticleTitle({ children }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <Typography className={classes.h2} variant="h6" component="h2" align="center">
@@ -57,7 +57,7 @@ export function ArticleTitle({ children }: Props) {
   );
 }
 
-export function Paragraph({ children }: Props) {
+export function Paragraph({ children }: Props): JSX.Element {
   return (
     <Typography variant="body2" paragraph>
       {children}
@@ -65,7 +65,7 @@ export function Paragraph({ children }: Props) {
   );
 }
 
-export function H3({ children }: Props) {
+export function H3({ children }: Props): JSX.Element {
   return (
     <Typography variant="subtitle1" component="h3" gutterBottom>
       {children}
@@ -73,7 +73,7 @@ export function H3({ children }: Props) {
   );
 }
 
-export function H4({ children }: Props) {
+export function H4({ children }: Props): JSX.Element {
   const classes = useStyles();
   return (
     <Typography className={classes.h4} variant="body2" component="h4" gutterBottom>
@@ -82,7 +82,7 @@ export function H4({ children }: Props) {
   );
 }
 
-export function Link({ children, href, ...props }: LinkProps) {
+export function Link({ children, href, ...props }: LinkProps): JSX.Element {
   return (
     <MuiLink color="secondary" href={href} target="_blank" rel="noopener noreferrer" {...props}>
       {children}

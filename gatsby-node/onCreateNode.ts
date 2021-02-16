@@ -1,7 +1,7 @@
 import { CreateNodeArgs, Node } from 'gatsby';
 import crypto from 'crypto';
 import { getYomi } from '../src/utils/sortByYomi';
-import { getRelatedArtists } from '../src/utils/getRelatedArtists';
+import { getRelatedArtists } from './utils';
 import { PureProgram, PureArtist } from './types';
 
 type ArtistContainer = {
@@ -10,7 +10,11 @@ type ArtistContainer = {
 
 const artists: ArtistContainer = {};
 
-export function onCreateNode({ node, actions }: CreateNodeArgs) {
+function isProgramNode(node: Node | PureProgram): node is PureProgram {
+  return node.internal.type === 'program';
+}
+
+export default function onCreateNode({ node, actions }: CreateNodeArgs): void {
   const { createNode, createNodeField } = actions;
 
   if (isProgramNode(node)) {
@@ -85,8 +89,4 @@ export function onCreateNode({ node, actions }: CreateNodeArgs) {
       });
     });
   }
-}
-
-function isProgramNode(node: Node | PureProgram): node is PureProgram {
-  return node.internal.type === 'program';
 }

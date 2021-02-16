@@ -24,7 +24,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       transform: image ? 'scale(1.1)' : undefined,
     }),
     jumbotronText: {
-      height: height,
+      height,
       color: 'white',
       position: 'absolute',
       transform: 'translate(0, -100%)',
@@ -50,7 +50,7 @@ interface Props {
   image?: string;
 }
 
-function Jumbotron({ header, footer, title, image }: Props) {
+function Jumbotron({ header, footer, title, image }: Props): JSX.Element {
   const classes = useStyles({ image });
   return (
     <div className={classes.root}>
@@ -65,5 +65,11 @@ function Jumbotron({ header, footer, title, image }: Props) {
     </div>
   );
 }
+
+Jumbotron.defaultProps = {
+  header: undefined,
+  footer: undefined,
+  image: undefined,
+};
 
 export default Jumbotron;

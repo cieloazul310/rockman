@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as yaml from 'yaml';
 import { PureSpitzAlbum } from './types';
 
-export function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
+export default function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs): void {
   const { createNode, createTypes } = actions;
 
   createTypes(`

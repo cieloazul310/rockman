@@ -47,7 +47,7 @@ interface Props {
   bottom?: React.ReactNode;
 }
 
-function PageHeader({ image, top, bottom }: Props) {
+function PageHeader({ image, top, bottom }: Props): JSX.Element {
   const classes = useStyles({ image });
   return (
     <div className={classes.root}>
@@ -62,6 +62,12 @@ function PageHeader({ image, top, bottom }: Props) {
   );
 }
 
+PageHeader.defaultProps = {
+  image: undefined,
+  top: undefined,
+  bottom: undefined,
+};
+
 const useTypoStyles = makeStyles((theme) =>
   createStyles({
     title: {
@@ -75,7 +81,7 @@ export function ProgramPageHeader({
   program,
 }: {
   program: Maybe<Pick<Program, 'fields' | 'week' | 'date' | 'playlist' | 'title' | 'subtitle' | 'categories'>>;
-}) {
+}): JSX.Element {
   const classes = useTypoStyles();
   return (
     <PageHeader
@@ -110,7 +116,11 @@ export function ProgramPageHeader({
   );
 }
 
-export function ArtistPageHeader({ artist }: { artist: Maybe<Pick<Artist, 'image' | 'name' | 'nation' | 'tunesCount' | 'programCount'>> }) {
+export function ArtistPageHeader({
+  artist,
+}: {
+  artist: Maybe<Pick<Artist, 'image' | 'name' | 'nation' | 'tunesCount' | 'programCount'>>;
+}): JSX.Element {
   const classes = useTypoStyles();
   return (
     <PageHeader

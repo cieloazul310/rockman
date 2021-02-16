@@ -19,14 +19,14 @@ interface Props {
   children: React.ReactNode;
 }
 
-function Section({ children }: Props) {
+function Section({ children }: Props): JSX.Element {
   const classes = useStyles();
   return <div className={classes.root}>{children}</div>;
 }
 
 export default Section;
 
-export function SectionDivider() {
+export function SectionDivider(): JSX.Element {
   const classes = useStyles();
   return <div className={classes.divider} />;
 }

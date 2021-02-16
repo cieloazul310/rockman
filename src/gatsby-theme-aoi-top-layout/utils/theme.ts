@@ -7,23 +7,6 @@ const theme = createMuiTheme({
     primary: teal,
     secondary: orange,
   },
-  /*
-  typography: {
-    fontFamily: [
-      '-apple-system',
-      'YuGothic',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
-    ].join(','),
-  },
-  */
 });
 
 export default responsiveFontSizes(theme);

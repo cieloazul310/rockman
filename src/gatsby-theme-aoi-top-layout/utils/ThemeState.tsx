@@ -11,7 +11,7 @@ export const initialThemeState = (darkMode = false, useSystemTheme = false): The
 
 export type ThemeAction = { type: 'TOGGLE_DARKMODE' } | { type: 'TOGGLE_USE_SYSTEM_THEME' };
 
-export default function themeReducer(state: ThemeState, action: ThemeAction) {
+export default function themeReducer(state: ThemeState, action: ThemeAction): ThemeState {
   switch (action.type) {
     case 'TOGGLE_DARKMODE':
       return {

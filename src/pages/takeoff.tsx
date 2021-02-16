@@ -22,7 +22,7 @@ import { TakeOffQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
-function TakeOff({ data }: PageProps<TakeOffQuery>) {
+function TakeOff({ data }: PageProps<TakeOffQuery>): JSX.Element {
   const { albums, others, notSpitz } = data;
   const titles = React.useMemo(() => ['', ...albums.edges.map(({ node }) => node.title), 'その他の楽曲', 'スピッツ以外の楽曲'], [albums]);
   const initialTab = useParseHash(titles);
@@ -85,7 +85,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>) {
           </Section>
         </TabPane>
         {albums.edges.map(({ node }, index) => (
-          <TabPane key={index} index={index + 1} value={tab} disableGutters>
+          <TabPane key={node.title} index={index + 1} value={tab} disableGutters>
             <Jumbotron
               title={node.title}
               header={node.year}

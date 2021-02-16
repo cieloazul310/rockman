@@ -3,17 +3,20 @@ import { TuneProps } from '../components/Tune';
 import { TunesByProgramProps } from '../components/TunesByProgram';
 import { useSortProgram } from './useSorter';
 
-export default function useDividedArray<T>(items: T[], divisor: number) {
+function getPlaylistLength<T extends TunesByProgramProps['program']>(programs: T[]): number {
+  return programs.reduce((accum, curr) => (curr?.playlist ? accum + curr.playlist.length : accum), 0);
+}
+
+export default function useDividedArray<T>(items: T[], divisor: number): T[][] {
   return React.useMemo(() => {
     if (items.length <= divisor) {
       return [items];
-    } else {
-      // ex. length = 105, divisor = 20, result = 6
-      const result = Math.ceil(items.length / divisor);
-      return Array.from({ length: result }, (d, i) => {
-        return items.slice(i * divisor, (i + 1) * divisor);
-      });
     }
+    // ex. length = 105, divisor = 20, result = 6
+    const result = Math.ceil(items.length / divisor);
+    return Array.from({ length: result }, (_, i) => {
+      return items.slice(i * divisor, (i + 1) * divisor);
+    });
   }, [items, divisor]);
 }
 
@@ -35,13 +38,8 @@ export function useDividedPrograms<T extends TunesByProgramProps['program']>(
       if (getPlaylistLength(accum[accum.length - 1]) < divisor) {
         accum[accum.length - 1].push(filtered);
         return accum;
-      } else {
-        return [...accum, [filtered]];
       }
+      return [...accum, [filtered]];
     }, []);
   }, [programs, divisor, filter, sortProgram]);
-}
-
-function getPlaylistLength<T extends TunesByProgramProps['program']>(programs: T[]): number {
-  return programs.reduce((accum, curr) => (curr?.playlist ? accum + curr.playlist.length : accum), 0);
 }

@@ -11,17 +11,17 @@ const ThemeDispatchContext = React.createContext<Context>({
 export default ThemeDispatchContext;
 
 // Context Hooks
-export function useThemeContextState() {
+export function useThemeContextState(): ThemeState {
   const { state } = React.useContext(ThemeDispatchContext);
   return state;
 }
-export function useToggleDark() {
+export function useToggleDark(): () => void {
   const { dispatch } = React.useContext(ThemeDispatchContext);
   return React.useCallback(() => {
     dispatch({ type: 'TOGGLE_DARKMODE' });
   }, [dispatch]);
 }
-export function useToggleUseSystem() {
+export function useToggleUseSystem(): () => void {
   const { dispatch } = React.useContext(ThemeDispatchContext);
   return React.useCallback(() => {
     dispatch({ type: 'TOGGLE_USE_SYSTEM_THEME' });

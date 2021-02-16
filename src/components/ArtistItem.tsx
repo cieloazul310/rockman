@@ -51,7 +51,11 @@ export interface ArtistItemProps {
   artist?: Maybe<Pick<Artist, 'name' | 'image' | 'tunesCount' | 'programCount'>>;
 }
 
-function ArtistItem({ artist }: ArtistItemProps) {
+function isolateTouch(event: React.TouchEvent) {
+  event.stopPropagation();
+}
+
+function ArtistItem({ artist }: ArtistItemProps): JSX.Element {
   const classes = useStyles({ image: artist?.image });
   return (
     <AppLink
@@ -81,7 +85,7 @@ function ArtistItem({ artist }: ArtistItemProps) {
 
 export default ArtistItem;
 
-export function ArtistItemSkeleton() {
+export function ArtistItemSkeleton(): JSX.Element {
   const classes = useStyles({});
   return (
     <AppLink to="#" color="inherit" className={classes.root}>
@@ -102,8 +106,4 @@ export function ArtistItemSkeleton() {
       </div>
     </AppLink>
   );
-}
-
-function isolateTouch(event: React.TouchEvent) {
-  event.stopPropagation();
 }

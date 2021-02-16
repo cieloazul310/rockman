@@ -22,12 +22,12 @@ type GatsbyResolverMap = {
   };
 };
 
-export function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
+export default function onCreateResolvers({ createResolvers }: CreateResolversArgs): void {
   const resolvers: GatsbyResolverMap = {
     spitzTunes: {
       append: {
         type: [`program`],
-        resolve: (source, args, context, info) => {
+        resolve: (source, args, context) => {
           const data = context.nodeModel.getAllNodes<PureProgram>({
             type: 'program',
           });
@@ -55,7 +55,7 @@ export function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
           title: `StringQueryOperatorInput`,
           selector: `StringQueryOperatorInput`,
         },
-        resolve: (source, args, context, info) => {
+        resolve: (source, args, context) => {
           const { year, corner, nation, artist, title, selector } = args;
           const allProgram = context.nodeModel.getAllNodes<PureProgram>({ type: `program` });
           const allTunes = allProgram

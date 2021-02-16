@@ -10,7 +10,7 @@ const useStyles = makeStyles(() =>
   })
 );
 
-function MuiTab(props: TabProps) {
+function MuiTab(props: TabProps): JSX.Element {
   const classes = useStyles();
   return <Tab classes={classes} {...props} />;
 }

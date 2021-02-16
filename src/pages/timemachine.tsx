@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
+function TimeMachinePage({ data }: PageProps<TimeMachineQuery>): JSX.Element {
   const items = getDividedYears(data.allTunes ?? [], 5, (tune) => tune?.year ?? 0).sort((a, b) => b.value - a.value);
   const titles = React.useMemo(() => ['', ...items.map(({ value }) => value.toString())], [items]);
   const initialTab = useParseHash(titles);
@@ -83,7 +83,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
               </Paragraph>
               <List>
                 {items.map((fifth, index) => (
-                  <ListItem key={index} button onClick={onItemClicked(index + 1)}>
+                  <ListItem key={fifth.value.toString()} button onClick={onItemClicked(index + 1)}>
                     <ListItemText primary={getFiveYearString(fifth.value)} />
                     <Typography variant="button" component="span">
                       {getClusteredLength(fifth)}曲
@@ -95,7 +95,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
           </Section>
         </TabPane>
         {items.map((fifth, index) => (
-          <TabPane key={index} value={tab} index={index + 1} disableGutters>
+          <TabPane key={fifth.value.toString()} value={tab} index={index + 1} disableGutters>
             <Jumbotron title={getFiveYearString(fifth.value)} footer={`全${getClusteredLength(fifth)}曲`} />
             <SectionDivider />
             <Section>

@@ -2,7 +2,7 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Article, { Paragraph, Link } from '../../../components/Article';
 
-function DrawerFooter() {
+function DrawerFooter(): JSX.Element {
   return (
     <Article>
       <Typography variant="subtitle2" gutterBottom>

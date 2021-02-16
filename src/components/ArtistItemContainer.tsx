@@ -35,12 +35,16 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-interface Props {
-  title: string;
-  artists?: ArtistItemProps['artist'][] | null;
+function isolateTouch(event: React.TouchEvent) {
+  event.stopPropagation();
 }
 
-function ArtistItemContainer({ artists, title }: Props) {
+interface Props {
+  title: string;
+  artists: ArtistItemProps['artist'][];
+}
+
+function ArtistItemContainer({ artists, title }: Props): JSX.Element {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
   const classes = useStyles();
@@ -53,7 +57,7 @@ function ArtistItemContainer({ artists, title }: Props) {
       <div className={classes.wrapper} onTouchMove={isolateTouch} onTouchStart={isolateTouch} onTouchEnd={isolateTouch}>
         <Grid container={!isMobile} className={classes.container}>
           {artists
-            ?.filter((artist) => artist?.name !== 'スピッツ')
+            .filter((artist) => artist?.name !== 'スピッツ')
             .map((artist) => (
               <Grid className={classes.item} item={!isMobile || undefined} key={artist?.name} sm={!isMobile ? 2 : undefined}>
                 <ArtistItem artist={artist} />
@@ -67,7 +71,7 @@ function ArtistItemContainer({ artists, title }: Props) {
 
 export default ArtistItemContainer;
 
-export function ArtistItemContainerSkeleton({ length }: { length: number }) {
+export function ArtistItemContainerSkeleton({ length }: { length: number }): JSX.Element {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
   const classes = useStyles();
@@ -81,7 +85,7 @@ export function ArtistItemContainerSkeleton({ length }: { length: number }) {
       <div className={classes.wrapper}>
         <Grid container={!isMobile} className={classes.container}>
           {Array.from({ length }).map((_, index) => (
-            <Grid className={classes.item} item={!isMobile || undefined} key={index} sm={!isMobile ? 2 : undefined}>
+            <Grid className={classes.item} item={!isMobile || undefined} key={index.toString()} sm={!isMobile ? 2 : undefined}>
               <ArtistItemSkeleton />
             </Grid>
           ))}
@@ -89,8 +93,4 @@ export function ArtistItemContainerSkeleton({ length }: { length: number }) {
       </div>
     </div>
   );
-}
-
-function isolateTouch(event: React.TouchEvent) {
-  event.stopPropagation();
 }

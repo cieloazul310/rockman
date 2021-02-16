@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, navigate } from 'gatsby';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import Layout from '../layout/';
+import Layout from '../layout';
 import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
 import TunesByProgram from '../components/TunesByProgram';
@@ -13,6 +13,7 @@ import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { ArtistTonarinoTab } from '../components/TonarinoTab';
 import { useSortProgram } from '../utils/useSorter';
+import nonNullable from '../utils/nonNullable';
 import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -22,7 +23,8 @@ interface Props {
   pageContext: SitePageContext;
 }
 
-function ArtistTemplate({ data, pageContext }: Props) {
+function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
+  const artist = nonNullable(data.artist);
   const { previous, next } = pageContext;
   const sortProgram = useSortProgram();
   const initialIndex = previous ? 1 : 0;
@@ -35,14 +37,14 @@ function ArtistTemplate({ data, pageContext }: Props) {
       navigate(`/artist/${previous?.name}`);
     }
   };
-  const programs = data.artist?.program?.map((program) => ({
+  const programs = artist.program?.map((program) => ({
     ...program,
-    playlist: data.artist?.tunes?.filter((tune) => tune?.week === program?.week),
+    playlist: artist.tunes?.filter((tune) => tune?.week === program?.week),
   }));
   const tabs = [
     previous ? <ArtistTonarinoTab key={previous?.name} item={previous} /> : null,
     <div key="main">
-      <ArtistPageHeader artist={data.artist} />
+      <ArtistPageHeader artist={artist} />
       <SectionDivider />
       <Section>
         <div>
@@ -55,7 +57,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
       <AdInArticle />
       <SectionDivider />
       <Section>
-        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={data.artist?.relatedArtists} />
+        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={nonNullable(artist.relatedArtists)} />
       </Section>
       <SectionDivider />
       <Section>
@@ -66,7 +68,7 @@ function ArtistTemplate({ data, pageContext }: Props) {
   ].filter((element): element is JSX.Element => Boolean(element));
 
   return (
-    <Layout title={data.artist?.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
+    <Layout title={artist.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
       <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>

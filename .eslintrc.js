@@ -3,19 +3,45 @@ module.exports = {
     __PATH_PREFIX__: true,
   },
   parser: `@typescript-eslint/parser`,
-  extends: ['react-app', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier/@typescript-eslint'],
-  plugins: ['@typescript-eslint', 'prettier'],
+  extends: [
+    'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+    'prettier',
+    'prettier/react',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+  ],
+  plugins: ['@typescript-eslint', 'prettier', 'jest'],
   ignorePatterns: ['graphql-types.ts'],
   parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
+    project: './tsconfig.json',
   },
   env: {
     browser: true,
-    node: true,
+    es6: true,
+    jest: true,
   },
   rules: {
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    // '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'prettier/prettier': [
+      'warn',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+    'react/jsx-props-no-spreading': [
+      'off',
+      {
+        custom: 'ignore',
+      },
+    ],
   },
   overrides: [
     {

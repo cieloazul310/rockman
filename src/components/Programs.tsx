@@ -17,7 +17,7 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
   const { fieldValue, totalCount, edges } = data;
   const initialOpen = typeof window === 'object' ? sessionStorage.getItem(`${fieldValue}open`) : null;
   const [open, setOpen] = React.useState<boolean>(initialOpen ? Boolean(JSON.parse(initialOpen)) : false);
-  const _handleClick = () => {
+  const handleClick = () => {
     setOpen(!open);
   };
   React.useEffect(() => {
@@ -28,7 +28,7 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
 
   return (
     <>
-      <ListItem button onClick={_handleClick}>
+      <ListItem button onClick={handleClick}>
         <ListItemText primary={`${fieldValue}年`} />
         <Typography variant="button" component="span">
           {totalCount}回
@@ -50,7 +50,7 @@ interface Props {
   data: ProgramPageQuery['allProgram']['group'];
 }
 
-function Programs({ data }: Props) {
+function Programs({ data }: Props): JSX.Element {
   const items = React.useMemo(() => data.filter((group): group is ProgramYearsGroup => Boolean(group.fieldValue)), [data]);
 
   return (

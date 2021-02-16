@@ -20,10 +20,10 @@ function TabsDummy() {
 }
 
 interface ProgramTonarinoTabProps {
-  item?: Pick<SitePageContextNext | SitePageContextPrevious, 'fields' | 'week' | 'title' | 'date'> | null;
+  item: Pick<NonNullable<SitePageContextNext> | NonNullable<SitePageContextPrevious>, 'fields' | 'week' | 'title' | 'date'>;
 }
 
-export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps) {
+export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps): JSX.Element {
   return (
     <div>
       <ProgramPageHeader program={item} />
@@ -42,10 +42,10 @@ export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps) {
 }
 
 interface ArtistTonarinoTabProps {
-  item?: Pick<SitePageContextNext | SitePageContextPrevious, 'name' | 'image' | 'programCount' | 'tunesCount'> | null;
+  item: Pick<NonNullable<SitePageContextNext> | NonNullable<SitePageContextPrevious>, 'name' | 'image' | 'programCount' | 'tunesCount'>;
 }
 
-export function ArtistTonarinoTab({ item }: ArtistTonarinoTabProps) {
+export function ArtistTonarinoTab({ item }: ArtistTonarinoTabProps): JSX.Element {
   return (
     <div>
       <ArtistPageHeader artist={item} />

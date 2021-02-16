@@ -26,7 +26,7 @@ interface WindowState {
   category?: string;
 }
 
-function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>) {
+function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>): JSX.Element {
   const categories = React.useMemo(() => {
     return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount);
   }, [data]);
@@ -75,7 +75,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>) {
               </Paragraph>
               <List>
                 {categories.map((category, index) => (
-                  <ListItem key={index} button onClick={onItemClicked(index + 1)}>
+                  <ListItem key={category.fieldValue ?? index.toString()} button onClick={onItemClicked(index + 1)}>
                     <ListItemText primary={category.fieldValue} />
                     <Typography variant="button" component="span">
                       {category.edges.length}回
@@ -86,14 +86,14 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>) {
             </Article>
           </Section>
         </TabPane>
-        {categories.map((d, index) => (
-          <TabPane key={index} value={tab} index={index + 1} disableGutters>
-            <Jumbotron title={d.fieldValue} footer={`全${d.edges.length}回`} />
+        {categories.map((category, index) => (
+          <TabPane key={category.fieldValue ?? index.toString()} value={tab} index={index + 1} disableGutters>
+            <Jumbotron title={category.fieldValue} footer={`全${category.edges.length}回`} />
             <SectionDivider />
             <Section>
               <List>
-                {d.edges.sort(sortProgramNode).map(({ node }, i) => (
-                  <ProgramItem key={node.id} program={node} last={i === d.edges.length - 1} />
+                {category.edges.sort(sortProgramNode).map(({ node }, i) => (
+                  <ProgramItem key={node.id} program={node} last={i === category.edges.length - 1} />
                 ))}
               </List>
             </Section>

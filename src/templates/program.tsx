@@ -12,7 +12,8 @@ import DrawerNavigation from '../components/DrawerNavigation';
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { ProgramTonarinoTab } from '../components/TonarinoTab';
-import { removeMultiple } from '../utils/removeMultiple';
+import removeMultiple from '../utils/removeMultiple';
+import nonNullable from '../utils/nonNullable';
 import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -22,7 +23,8 @@ interface Props {
   pageContext: SitePageContext;
 }
 
-function ProgramTemplate({ data, pageContext }: Props) {
+function ProgramTemplate({ data, pageContext }: Props): JSX.Element {
+  const program = nonNullable(data.program);
   const { previous, next } = pageContext;
   const initialIndex = previous ? 1 : 0;
   const handleChangeIndex = (index: number) => {
@@ -34,9 +36,9 @@ function ProgramTemplate({ data, pageContext }: Props) {
       navigate(previous.fields.slug);
     }
   };
-  const artists = data.program?.playlist
+  const artists = program.playlist
     ? removeMultiple(
-        data.program.playlist.map((tune) => tune?.artist),
+        program.playlist.map((tune) => tune?.artist),
         (item) => item?.name
       )
     : [];
@@ -44,11 +46,11 @@ function ProgramTemplate({ data, pageContext }: Props) {
   const tabs = [
     previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
     <div key="main">
-      <ProgramPageHeader program={data.program} />
+      <ProgramPageHeader program={program} />
       <SectionDivider />
       <Section>
         <div>
-          {data.program?.playlist?.map((tune) => (
+          {program.playlist?.map((tune) => (
             <Tune key={tune?.id} tune={tune} />
           ))}
         </div>
@@ -67,7 +69,7 @@ function ProgramTemplate({ data, pageContext }: Props) {
     next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
   ].filter((element): element is JSX.Element => Boolean(element));
   return (
-    <Layout title={data.program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
+    <Layout title={program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
       <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>

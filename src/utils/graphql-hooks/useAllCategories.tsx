@@ -24,7 +24,7 @@ export function useAllCategories(): CategoryItem[] {
   }, [data]);
 }
 
-export function useCategories(fieldValues: string[]) {
+export function useCategories(fieldValues: string[]): CategoryItem[] {
   const categories = useAllCategories();
   return React.useMemo(() => {
     return categories.filter((category) => category.fieldValue && fieldValues.includes(category.fieldValue));

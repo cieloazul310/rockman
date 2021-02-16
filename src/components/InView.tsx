@@ -6,7 +6,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-function InView({ children }: Props) {
+function InView({ children }: Props): JSX.Element {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });

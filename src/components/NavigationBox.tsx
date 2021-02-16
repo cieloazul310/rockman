@@ -2,8 +2,8 @@ import * as React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../../icons';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
+import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../icons';
 
 interface NavigationItemProps {
   title: string;
@@ -11,7 +11,7 @@ interface NavigationItemProps {
   icon: React.ReactNode;
 }
 
-function NavigationItem({ title, to, icon }: NavigationItemProps) {
+function NavigationItem({ title, to, icon }: NavigationItemProps): JSX.Element {
   return (
     <Grid item xs={12} sm={6} md={3}>
       <ListItemAppLink to={to} button>
@@ -22,7 +22,7 @@ function NavigationItem({ title, to, icon }: NavigationItemProps) {
   );
 }
 
-function NavigationBox() {
+function NavigationBox(): JSX.Element {
   return (
     <Grid container component="nav" alignItems="center">
       <NavigationItem to="/" title="トップページ" icon={<HomeIcon />} />

@@ -1,7 +1,8 @@
-import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { TunesCountQuery } from '../../../graphql-types';
-
+// import * as React from 'react';
+// import { useStaticQuery, graphql } from 'gatsby';
+// import { TunesCountQuery } from '../../../graphql-types';
+export {};
+/*
 export function useTunesTop25() {
   const data = useStaticQuery<TunesCountQuery>(graphql`
     query TunesCount {
@@ -22,3 +23,4 @@ export function useTunesTop25() {
   `);
   return React.useMemo(() => data.allArtist.edges, [data]);
 }
+*/

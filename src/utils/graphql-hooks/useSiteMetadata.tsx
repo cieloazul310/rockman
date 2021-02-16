@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import { Site } from '../../../graphql-types';
 
-export function useSiteMetadata() {
+export default function useSiteMetadata(): Site['siteMetadata'] {
   const data = useStaticQuery<{ site: Required<Pick<Site, 'siteMetadata'>> }>(graphql`
     query useSiteMetadata {
       site {

@@ -13,13 +13,9 @@ interface Props {
   children: React.ReactNode;
 }
 
-function ContentBasis({ children }: Props) {
+function ContentBasis({ children }: Props): JSX.Element {
   const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <section>{children}</section>
-    </div>
-  );
+  return <div className={classes.root}>{children}</div>;
 }
 
 export default ContentBasis;

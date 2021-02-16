@@ -8,7 +8,7 @@ import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 import { ProgramPageQuery } from '../../graphql-types';
 
-function ProgramsPage({ data }: PageProps<ProgramPageQuery>) {
+function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
   return (
     <Layout title="放送回">
       <Jumbotron title="放送回一覧" />

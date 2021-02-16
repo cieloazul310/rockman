@@ -1,6 +1,6 @@
 import { CreateSchemaCustomizationArgs } from 'gatsby';
 
-export function createSchemaCustomization({ actions }: CreateSchemaCustomizationArgs) {
+export default function createSchemaCustomization({ actions }: CreateSchemaCustomizationArgs): void {
   const { createTypes } = actions;
 
   createTypes(`

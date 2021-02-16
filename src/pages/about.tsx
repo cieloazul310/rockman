@@ -7,7 +7,7 @@ import Article, { ArticleSection, ArticleTitle, Paragraph, H3, H4, Link } from '
 import NavigationBox from '../components/NavigationBox';
 import { AdInArticle } from '../components/Ads';
 
-function About() {
+function About(): JSX.Element {
   return (
     <Layout title="このサイトについて">
       <Jumbotron title="このサイトについて" />
