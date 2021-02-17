@@ -1,14 +1,9 @@
 import * as React from 'react';
-// import { addDecorator } from '@storybook/react';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Typography, { TypographyProps } from '@material-ui/core/Typography';
-// import theme from '../src/gatsby-theme-aoi-top-layout/utils/theme';
-
-// export default { title: 'Material-UI', decorators: [withMuiTheme()] };
 
 const stories = { title: 'Material-UI' };
-
 export default stories;
 
 const variants: TypographyProps['variant'][] = [
@@ -28,7 +23,7 @@ const variants: TypographyProps['variant'][] = [
   'srOnly',
 ];
 
-export function MuiTypography() {
+export function MuiTypography(): JSX.Element {
   return (
     <Container maxWidth="md">
       {variants.map((variant) => (
@@ -40,7 +35,7 @@ export function MuiTypography() {
   );
 }
 
-export function MuiTypographyPrimary() {
+export function MuiTypographyPrimary(): JSX.Element {
   return (
     <Container maxWidth="md">
       {variants.map((variant) => (

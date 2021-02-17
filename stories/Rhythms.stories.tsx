@@ -9,7 +9,7 @@ import { ArtistItemContainerSkeleton } from '../src/components/ArtistItemContain
 const stories = { title: 'Rhythms' };
 export default stories;
 
-export function Rhythms() {
+export function Rhythms(): JSX.Element {
   return (
     <div>
       <Section>

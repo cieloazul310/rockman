@@ -6,15 +6,15 @@ import { album, others } from './TakeOff.data';
 const stories = { title: 'TakeOff' };
 export default stories;
 
-export function Album() {
+export function Album(): JSX.Element {
   return (
     <Section>
-      <TakeOffAlbum album={album} />
+      <TakeOffAlbum album={album.node} />
     </Section>
   );
 }
 
-export function Others() {
+export function Others(): JSX.Element {
   return (
     <Section>
       <TakeOffOthers albums={others} />
