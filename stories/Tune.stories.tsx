@@ -20,7 +20,7 @@ const data = {
   nation: 'JPN',
 };
 
-export function Basic() {
+export function Basic(): JSX.Element {
   return (
     <Section>
       <Tune tune={data} />
@@ -28,7 +28,7 @@ export function Basic() {
   );
 }
 
-export function Additional() {
+export function Additional(): JSX.Element {
   return (
     <Section>
       <Tune tune={{ ...data, selector: '田村明浩' }} />
@@ -37,22 +37,22 @@ export function Additional() {
   );
 }
 
-export function Multiple() {
+export function Multiple(): JSX.Element {
   return (
     <Section>
       {Array.from({ length: 10 }).map((_, i) => (
-        <Tune key={i} tune={{ ...data, indexInWeek: i + 1 }} />
+        <Tune key={i.toString()} tune={{ ...data, indexInWeek: i + 1 }} />
       ))}
     </Section>
   );
 }
 
-export function Skeleton() {
+export function Skeleton(): JSX.Element {
   return (
     <Section>
       <Tune tune={data} />
       {Array.from({ length: 4 }).map((_, i) => (
-        <TuneSkeleton key={i} />
+        <TuneSkeleton key={i.toString()} />
       ))}
     </Section>
   );
