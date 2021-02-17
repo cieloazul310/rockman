@@ -66,6 +66,6 @@ const data = [
   },
 ];
 
-export function Basic() {
+export function Basic(): JSX.Element {
   return <ArtistItemContainer title="関連アーティスト" artists={data} />;
 }

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Section from '../src/components/Section';
 import Article, { ArticleSection, ArticleTitle, Paragraph, H3, H4, Link } from '../src/components/Article';
+
 const stories = { title: 'Article' };
 export default stories;
 
@@ -40,7 +41,7 @@ function ItemH4() {
   );
 }
 
-export function Basic() {
+export function Basic(): JSX.Element {
   return (
     <Section>
       <Article>
@@ -72,7 +73,7 @@ export function Basic() {
   );
 }
 
-export function Many() {
+export function Many(): JSX.Element {
   return (
     <Section>
       <Article>

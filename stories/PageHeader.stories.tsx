@@ -26,10 +26,10 @@ const artist = {
   tunesCount: 3,
 };
 
-export function Program() {
+export function Program(): JSX.Element {
   return <ProgramPageHeader program={program} />;
 }
 
-export function Artist() {
+export function Artist(): JSX.Element {
   return <ArtistPageHeader artist={artist} />;
 }
