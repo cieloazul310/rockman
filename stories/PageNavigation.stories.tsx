@@ -41,7 +41,7 @@ const artistContext = {
   },
 };
 
-export function Program() {
+export function Program(): JSX.Element {
   return (
     <Section>
       <PageNavigation variant="program" pageContext={programContext} />
@@ -49,7 +49,7 @@ export function Program() {
   );
 }
 
-export function ProgramFirst() {
+export function ProgramFirst(): JSX.Element {
   return (
     <Section>
       <PageNavigation variant="program" pageContext={{ next: programContext.next }} />
@@ -57,7 +57,7 @@ export function ProgramFirst() {
   );
 }
 
-export function Artist() {
+export function Artist(): JSX.Element {
   return (
     <Section>
       <PageNavigation variant="artist" pageContext={artistContext} />
@@ -65,7 +65,7 @@ export function Artist() {
   );
 }
 
-export function ArtistEnd() {
+export function ArtistEnd(): JSX.Element {
   return (
     <Section>
       <PageNavigation variant="artist" pageContext={{ previous: artistContext.previous }} />
@@ -73,7 +73,7 @@ export function ArtistEnd() {
   );
 }
 
-export function DrawerProgram() {
+export function DrawerProgram(): JSX.Element {
   return (
     <Box width={280} bgcolor="background.paper">
       <DrawerNavigation variant="program" pageContext={programContext} />
@@ -81,7 +81,7 @@ export function DrawerProgram() {
   );
 }
 
-export function DrawerArtist() {
+export function DrawerArtist(): JSX.Element {
   return (
     <Box width={280} bgcolor="background.paper">
       <DrawerNavigation variant="artist" pageContext={artistContext} />

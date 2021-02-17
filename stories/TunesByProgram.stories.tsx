@@ -6,6 +6,7 @@ const stories = { title: 'TunesByProgram' };
 export default stories;
 
 const data = {
+  id: '20210001',
   week: 10,
   date: '2021-02-10',
   fields: {
@@ -79,7 +80,7 @@ const data = {
   ],
 };
 
-export function Basic() {
+export function Basic(): JSX.Element {
   return (
     <Section>
       <TunesByPrograms program={data} />
@@ -87,7 +88,7 @@ export function Basic() {
   );
 }
 
-export function Skeleton() {
+export function Skeleton(): JSX.Element {
   return (
     <Section>
       <TunesByProgramSkeleton />

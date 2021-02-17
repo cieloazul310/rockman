@@ -21,7 +21,8 @@ module.exports = {
     },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+    project: './tsconfig.eslint.json',
   },
   env: {
     browser: true,
@@ -29,7 +30,6 @@ module.exports = {
     jest: true,
   },
   rules: {
-    // '@typescript-eslint/explicit-module-boundary-types': 'off',
     'prettier/prettier': [
       'warn',
       {

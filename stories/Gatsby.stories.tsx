@@ -3,7 +3,7 @@ import { Link as GatsbyLink } from 'gatsby';
 
 export default { title: 'Gatsby' };
 
-export function Link() {
+export function Link(): JSX.Element {
   return (
     <div>
       <GatsbyLink to="#">GatsbyLink</GatsbyLink>

@@ -1,13 +1,13 @@
 import * as React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Section from '../src/components/Section';
-import { Stat, useStyles } from '../src/components/index/Stat';
+import { Stat, useStyles } from '../src/components/Stat';
 import { ProgramIcon, ArtistIcon, TuneIcon } from '../src/icons';
 
 const stories = { title: 'Stat' };
 export default stories;
 
-export function Basic() {
+export function Basic(): JSX.Element {
   const classes = useStyles();
   return (
     <Section>
