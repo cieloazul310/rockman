@@ -3,8 +3,8 @@ const path = require('path');
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
 const siteUrl = path.join(baseUrl, pathPrefix);
-const contentDir = `${__dirname}/data`;
-// const contentDir = `${__dirname}/devData`;
+// const contentDir = `${__dirname}/data`;
+const contentDir = `${__dirname}/devData`;
 
 module.exports = {
   siteMetadata: {
@@ -60,12 +60,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-74683419-3',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: 'ca-pub-7323207940463794',
       },
     },
     {
