@@ -4,17 +4,18 @@ import clsx from 'clsx';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import { useLocation } from '@reach/router';
+import InView from './InView';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
       overflow: 'hidden',
       padding: theme.spacing(0, 2),
+      minWidth: 120,
     },
     inArticle: {
       minHeight: 120,
       maxHeight: 160,
-      minWidth: 120,
     },
   })
 );
@@ -25,7 +26,7 @@ declare global {
   }
 }
 
-export function AdBasic(): JSX.Element {
+export function AdBasicInner(): JSX.Element {
   const { pathname } = useLocation();
   const classes = useStyles();
   React.useEffect(() => {
@@ -47,6 +48,14 @@ export function AdBasic(): JSX.Element {
         data-full-width-responsive="true"
       />
     </div>
+  );
+}
+
+export function AdBasic(): JSX.Element {
+  return (
+    <InView>
+      <AdBasicInner />
+    </InView>
   );
 }
 
