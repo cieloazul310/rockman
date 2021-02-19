@@ -121,7 +121,7 @@ function ArtistsPage(): JSX.Element {
     if (searchText === '') {
       return () => true;
     }
-    const regex = RegExp(`${searchText}`, 'i');
+    const regex = RegExp(searchText.replace(/([.^$|*+?()[\]{}\\-])/g, '\\$1'), 'i');
     return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
   }, [searchText]);
   const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

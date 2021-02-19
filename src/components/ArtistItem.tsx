@@ -48,7 +48,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
 );
 
 export interface ArtistItemProps {
-  artist?: Maybe<Pick<Artist, 'name' | 'image' | 'tunesCount' | 'programCount'>>;
+  artist?: Maybe<Pick<Artist, 'name' | 'image' | 'tunesCount' | 'programCount' | 'slug'>>;
 }
 
 function isolateTouch(event: React.TouchEvent) {
@@ -59,7 +59,7 @@ function ArtistItem({ artist }: ArtistItemProps): JSX.Element {
   const classes = useStyles({ image: artist?.image });
   return (
     <AppLink
-      to={`/artist/${artist?.name}`}
+      to={artist?.slug ?? '#'}
       color="inherit"
       className={classes.root}
       onTouchMove={isolateTouch}

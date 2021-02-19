@@ -168,6 +168,7 @@ export const query = graphql`
       title
       artist {
         name
+        slug
       }
       year
       indexInWeek

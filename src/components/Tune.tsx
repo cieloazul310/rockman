@@ -94,7 +94,7 @@ function Tune({ tune }: TuneProps): JSX.Element {
           <Typography variant="body2">
             <TextSpan>
               {tune?.artist?.name !== 'スピッツ' ? (
-                <AppLink to={`/artist/${tune?.artist?.name}`} color="inherit">
+                <AppLink to={tune?.artist?.slug ?? '#'} color="inherit">
                   {tune?.artist?.name}
                 </AppLink>
               ) : (
