@@ -13,6 +13,9 @@ const colorScheme = {
 
 export type SchemeNations = keyof typeof colorScheme;
 export const schemeNations = Object.keys(colorScheme);
+export function isSchemeNations(nation: string): nation is SchemeNations {
+  return schemeNations.includes(nation);
+}
 
 export default function getNationColor(nation: string, isDark = false): string {
   if (isSchemeNations(nation)) {

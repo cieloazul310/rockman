@@ -24,7 +24,7 @@ import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
 import useFullHeight from '../utils/useFullHeight';
-import { useAllNations, ArtistItem } from '../utils/graphql-hooks';
+import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
 import { SortType } from '../utils/sortByYomi';
 
 interface StylesProps {
@@ -165,7 +165,7 @@ function ArtistsPage(): JSX.Element {
     },
     [appearMultiple, appearOnce]
   );
-  const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.nation), [nationFilter]);
+  const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.node.nation), [nationFilter]);
   const filters = React.useMemo(() => [searchFilter, appearFilters, nationFilters], [searchFilter, appearFilters, nationFilters]);
 
   const SortList = () => (
@@ -227,7 +227,7 @@ function ArtistsPage(): JSX.Element {
               </ListItemIcon>
               <ListItemText primary={nation.fieldValue} />
               <Typography variant="button" component="span">
-                {nation.artists}
+                {nation.totalCount}
               </Typography>
             </ListItem>
           ))}

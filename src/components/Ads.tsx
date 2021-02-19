@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) =>
     inArticle: {
       minHeight: 120,
       maxHeight: 160,
+      minWidth: 120,
     },
   })
 );

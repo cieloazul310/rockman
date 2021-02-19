@@ -11,7 +11,7 @@ import Section, { SectionDivider } from '../components/Section';
 import Article, { Paragraph, Link } from '../components/Article';
 import Stats from '../components/Stat';
 import { AdBasic } from '../components/Ads';
-import { useProgramTop25 } from '../utils/graphql-hooks/useProgramTop25';
+import { useProgramTop25 } from '../utils/graphql-hooks';
 import { IndexQuery } from '../../graphql-types';
 
 function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
