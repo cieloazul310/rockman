@@ -11,7 +11,7 @@ import sortArtists, { SortType } from '../utils/sortByYomi';
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const artist: ArtistItem = data[index];
   return (
-    <ListItemAppLink button style={style} key={index} to={`/artist/${artist.node.name}/`}>
+    <ListItemAppLink button style={style} key={index} to={artist.node.slug ?? '#'}>
       <ListItemAvatar>
         <NationAvatar nation={artist.node.nation} img={artist.node.image ?? undefined} alt={artist.node.name} />
       </ListItemAvatar>

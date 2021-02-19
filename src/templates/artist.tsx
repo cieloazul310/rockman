@@ -31,10 +31,10 @@ function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
     if (next && index === initialIndex + 1) {
-      navigate(`/artist/${next.name}`);
+      navigate(next.slug ?? '#');
     }
     if (previous && index === initialIndex - 1) {
-      navigate(`/artist/${previous?.name}`);
+      navigate(previous.slug ?? '#');
     }
   };
   const programs = artist.program?.map((program) => ({
@@ -107,6 +107,7 @@ export const query = graphql`
         indexInWeek
         artist {
           name
+          slug
         }
         kana
         label
@@ -122,6 +123,7 @@ export const query = graphql`
         image
         tunesCount
         programCount
+        slug
       }
     }
   }

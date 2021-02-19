@@ -79,6 +79,7 @@ export default function onCreateNode({ node, actions }: CreateNodeArgs): void {
         sortName: getYomi(name, data.kana),
         programCount: data.program.length,
         tunesCount: data.tunes.length,
+        slug: `/artist/${name.replace(/[&/\\#,+()$~%.'":*?<>{}]/g, '')}`,
         id: name,
         parent: null,
         children: [],

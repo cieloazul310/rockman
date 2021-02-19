@@ -15,6 +15,7 @@ export default function useTunesTop25(): TunesCountQuery['allArtist']['edges'] {
             nation
             programCount
             tunesCount
+            slug
           }
         }
       }

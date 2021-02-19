@@ -19,7 +19,7 @@ type ArtistPrevNext = Pick<Artist, 'name' | 'image' | 'programCount' | 'tunesCou
 interface CreateArtistPagesQueryData {
   allArtist: {
     edges: {
-      node: Pick<Artist, 'name'>;
+      node: Pick<Artist, 'name' | 'slug'>;
       next: ArtistPrevNext;
       previous: ArtistPrevNext;
     }[];
@@ -86,6 +86,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
         edges {
           node {
             name
+            slug
           }
           next {
             name
@@ -93,6 +94,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
             tunesCount
             programCount
             nation
+            slug
           }
           previous {
             name
@@ -100,6 +102,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
             tunesCount
             programCount
             nation
+            slug
           }
         }
       }
@@ -111,7 +114,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
 
   artistResult.data?.allArtist.edges.forEach(({ node, next, previous }, index) => {
     createPage({
-      path: `/artist/${node.name}/`,
+      path: node.slug,
       component: path.resolve('./src/templates/artist.tsx'),
       context: {
         index,

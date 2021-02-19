@@ -103,6 +103,7 @@ export const query = graphql`
           image
           programCount
           tunesCount
+          slug
         }
         corner
         id

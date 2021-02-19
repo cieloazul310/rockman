@@ -17,6 +17,7 @@ export function useAllArtists(): ArtistItem[] {
             nation
             programCount
             tunesCount
+            slug
           }
         }
       }
