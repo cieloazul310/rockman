@@ -2,7 +2,20 @@ import * as Gatsby from 'gatsby';
 import { renderHook } from '@testing-library/react-hooks';
 import { useCategories } from '../useAllCategories';
 import { AllCategoriesQuery } from '../../../../graphql-types';
+
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
+
+function allCategoriesQuery(): AllCategoriesQuery {
+  return {
+    allProgram: {
+      group: [
+        { fieldValue: 'アーティスト特集', totalCount: 10 },
+        { fieldValue: '古い音楽雑誌で漫遊記', totalCount: 10 },
+        { fieldValue: 'リズム特集', totalCount: 10 },
+      ],
+    },
+  };
+}
 
 beforeEach(() => {
   useStaticQuery.mockImplementationOnce(() => {
@@ -25,15 +38,3 @@ describe('useCategories', () => {
     expect(result.current.map((d) => d.fieldValue ?? '')).not.toContain('アーティスト特集');
   });
 });
-
-function allCategoriesQuery(): AllCategoriesQuery {
-  return {
-    allProgram: {
-      group: [
-        { fieldValue: 'アーティスト特集', totalCount: 10 },
-        { fieldValue: '古い音楽雑誌で漫遊記', totalCount: 10 },
-        { fieldValue: 'リズム特集', totalCount: 10 },
-      ],
-    },
-  };
-}

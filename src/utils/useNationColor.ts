@@ -17,14 +17,15 @@ export function isSchemeNations(nation: string): nation is SchemeNations {
   return schemeNations.includes(nation);
 }
 
-export default function getNationColor(nation: string, isDark = false): string {
-  if (isSchemeNations(nation)) {
-    return isDark ? colorScheme[nation][300] : colorScheme[nation][500];
-  }
-  return grey[500];
-}
-
-export function useGetNationColor(): (nation: string, isDark: boolean) => string {
-  const isDark = useTheme().palette.type === 'dark';
-  return React.useCallback((nation: string) => getNationColor(nation, isDark), [isDark]);
+// returns [nation color, contrast text color]
+export default function useNationColor(nation: string): string[] {
+  const { palette } = useTheme();
+  return React.useMemo(() => {
+    const isDark = palette.type === 'dark';
+    if (isSchemeNations(nation)) {
+      const nationColor = isDark ? colorScheme[nation][300] : colorScheme[nation][600];
+      return [nationColor, palette.getContrastText(nationColor)];
+    }
+    return [grey[600], palette.getContrastText(grey[600])];
+  }, [palette, nation]);
 }

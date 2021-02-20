@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { isSchemeNations } from '../getNationColor';
+import { isSchemeNations } from '../useNationColor';
 import { AllNationsQuery } from '../../../graphql-types';
 
 export type NationsItem = Pick<AllNationsQuery['allArtist']['group'][number], 'totalCount'> & {
