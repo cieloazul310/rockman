@@ -1,20 +1,16 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Skeleton from '@material-ui/lab/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import TextSpan from './TextSpan';
+import NationLabel from './NationLabel';
 import { TuneIcon } from '../icons';
 import { useAvatarStyles } from '../styles';
-import { useGetNationColor } from '../utils/getNationColor';
 import { Maybe, ProgramPlaylist, Artist } from '../../graphql-types';
 
-interface StylesProps {
-  nationColor?: string;
-}
-
-const useStyles = makeStyles<Theme, StylesProps>((theme) =>
+const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
       display: 'flex',
@@ -39,9 +35,6 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       position: 'absolute',
       top: 0,
       left: 0,
-      padding: '0 .2em',
-      background: ({ nationColor }) => nationColor,
-      color: ({ nationColor }) => (nationColor ? theme.palette.getContrastText(nationColor) : undefined),
     },
   })
 );
@@ -49,14 +42,13 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
 export interface TuneProps {
   tune: Maybe<
     Pick<ProgramPlaylist, 'id' | 'title' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'> & {
-      artist?: Maybe<Pick<Artist, 'name'>>;
+      artist?: Maybe<Pick<Artist, 'name' | 'slug'>>;
     }
   >;
 }
 
 function Tune({ tune }: TuneProps): JSX.Element {
-  const getNationColor = useGetNationColor();
-  const classes = useStyles({ nationColor: getNationColor(tune?.nation ?? '') });
+  const classes = useStyles();
   const avatarClass = useAvatarStyles();
   const avatar = (
     <div className={classes.avatarContainer}>
@@ -68,7 +60,7 @@ function Tune({ tune }: TuneProps): JSX.Element {
         <TuneIcon />
       </Avatar>
       <div className={classes.nationLabel}>
-        <Typography variant="caption">{tune?.nation}</Typography>
+        <NationLabel nation={tune?.nation ?? ''} />
       </div>
     </div>
   );

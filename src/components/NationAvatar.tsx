@@ -1,18 +1,19 @@
 import * as React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import getNationColor from '../utils/getNationColor';
+import useNationColor from '../utils/useNationColor';
 
 interface StyleProps {
-  nation: string;
+  background: string;
+  color: string;
 }
 
-const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
+const useStyles = makeStyles<Theme, StyleProps>(() =>
   createStyles({
-    nation: ({ nation }) => ({
-      backgroundColor: getNationColor(nation, theme.palette.type === 'dark'),
-      color: theme.palette.getContrastText(getNationColor(nation, theme.palette.type === 'dark')),
-      border: `1px solid ${getNationColor(nation, theme.palette.type === 'dark')}`,
+    nation: ({ background, color }) => ({
+      background,
+      color,
+      border: `1px solid ${background}`,
     }),
   })
 );
@@ -24,7 +25,8 @@ interface Props {
 }
 
 function NationAvatar({ nation, img, alt }: Props): JSX.Element {
-  const classes = useStyles({ nation });
+  const [background, color] = useNationColor(nation);
+  const classes = useStyles({ background, color });
   return (
     <Avatar className={classes.nation} src={img} alt={alt} aria-label="avatar">
       {nation}
