@@ -1,0 +1,108 @@
+id: "20200164"
+week: 164
+year: 2021
+title: 70年代チープ・トリックで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-02-21
+playlist:
+  - id: "2021016401"
+    week: 164
+    index: 1356
+    indexInWeek: 1
+    title: エスカルゴ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサルポリドール
+    corner: 漫遊前の一曲
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021016402"
+    week: 164
+    index: 1357
+    indexInWeek: 2
+    title: Way of the World
+    artist: Cheap Trick
+    year: 1979
+    nation: US
+    label: Epic
+    producer:
+      - Tom Werman
+    youtube: y1JuM8fP2dM
+    selector: 草野マサムネ
+  - id: "2021016403"
+    week: 164
+    index: 1358
+    indexInWeek: 3
+    title: Surrender
+    artist: Cheap Trick
+    year: 1978
+    nation: US
+    label: Epic
+    producer:
+      - Tom Werman
+    youtube: ZbkypX1OhZ0
+    selector: 草野マサムネ
+  - id: "2021016404"
+    week: 164
+    index: 1359
+    indexInWeek: 4
+    title: Clock Strikes Ten
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    producer:
+      - Tom Werman
+    youtube: T42Y-FuEnFw
+    selector: 草野マサムネ
+  - id: "2021016405"
+    week: 164
+    index: 1360
+    indexInWeek: 5
+    title: I Want You to Want Me
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    producer: 
+      - Tom Werman
+    youtube: -qgpewMCVjs
+    selector: 草野マサムネ
+  - id: "2021016406"
+    week: 164
+    index: 1361
+    indexInWeek: 6
+    title: Such a Good Girl
+    artist: Cheap Trick
+    year: 1980
+    nation: US
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2021016407"
+    week: 164
+    index: 1362
+    indexInWeek: 7
+    title: He's a Whore
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    producer:
+      - Jack Douglas
+    youtube: jxKm5PjFMHQ
+    selector: 草野マサムネ
+  - id: "2021016408"
+    week: 164
+    index: 1363
+    indexInWeek: 8
+    title: シャイニン・オン 君が哀しい
+    artist: ルック
+    year: 1985
+    nation: JPN
+    label: EPIC・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
