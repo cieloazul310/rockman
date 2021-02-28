@@ -1,0 +1,108 @@
+id: "20200165"
+week: 165
+year: 2021
+title: レスポール使いで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-02-28
+playlist:
+  - id: "2021016501"
+    week: 165
+    index: 1364
+    indexInWeek: 1
+    title: たまご
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    producer:
+      - 笹路正徳
+    selector: 草野マサムネ
+  - id: "2021016502"
+    week: 165
+    index: 1365
+    indexInWeek: 2
+    title: How High the Moon
+    artist: Les Paul & Mary Ford
+    year: 1951
+    nation: US
+    label: Capitol
+    youtube: DLweGCkQcOg
+    selector: 草野マサムネ
+  - id: "2021016503"
+    week: 165
+    index: 1366
+    indexInWeek: 3
+    title: All Your Love
+    artist: John Mayall & the Bluesbreakers
+    year: 1966
+    nation: UK
+    label: Decca
+    producer:
+      - Mike Vernon
+    youtube: OkedAcAAcU4
+    selector: 草野マサムネ
+  - id: "2021016504"
+    week: 165
+    index: 1367
+    indexInWeek: 4
+    title: Rock and Roll
+    artist: Led Zeppelin
+    year: 1971
+    nation: UK
+    label: Atlantic
+    youtube: RCN6eRVav5k
+    selector: 草野マサムネ
+  - id: "2021016505"
+    week: 165
+    index: 1368
+    indexInWeek: 5
+    title: Ziggy Stardust
+    artist: David Bowie
+    year: 1972
+    nation: UK
+    label: RCA
+    producer: 
+      - Ken Scott
+    youtube: 7KEn0uOEILs
+    selector: 草野マサムネ
+  - id: "2021016506"
+    week: 165
+    index: 1369
+    indexInWeek: 6
+    title: God Save the Queen
+    artist: Sex Pistols
+    year: 1977
+    nation: UK
+    label: Virgin
+    producer:
+      - Chris Thomas
+    youtube: yqrAPOZxgzU
+    selector: 草野マサムネ
+  - id: "2021016507"
+    week: 165
+    index: 1370
+    indexInWeek: 7
+    title: It's So Easy
+    artist: Guns N' Roses
+    year: 1987
+    nation: US
+    label: Geffen
+    producer:
+      - Mike Clink
+    youtube: FMbl1ntpIXQ
+    selector: 草野マサムネ
+  - id: "2021016508"
+    week: 165
+    index: 1371
+    indexInWeek: 8
+    title: ループ&ループ
+    artist: ASIAN KUNG-FU GENERATION
+    year: 2004
+    nation: JPN
+    label: Ki/oon Records
+    youtube: Aq6gMHBobcA
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
