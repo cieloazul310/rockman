@@ -991,6 +991,14 @@
     - id: "024301"
       index: 1
       title: 猫ちぐら
+- id: sg44
+  albumIdNum: 244
+  year: 2021
+  title: 紫の夜を越えて
+  tunes:
+    - id: "024401"
+      index: 1
+      title: 紫の夜を越えて
 - id: tr200212
   albumIdNum: 3002
   year: 2002
