@@ -19,7 +19,7 @@ function DrawerPageNavigation({ pageContext, variant }: Props): JSX.Element {
   return (
     <List subheader={<ListSubheader>Navigation</ListSubheader>}>
       {previous ? (
-        <ListItemAppLink dense button to={isProgram ? previous.fields?.slug ?? '#' : `/artist/${previous.name}`}>
+        <ListItemAppLink dense button to={isProgram ? previous.fields?.slug ?? '#' : previous.slug ?? '#'}>
           <ListItemIcon>
             <ArrowBackIcon />
           </ListItemIcon>
@@ -30,7 +30,7 @@ function DrawerPageNavigation({ pageContext, variant }: Props): JSX.Element {
         </ListItemAppLink>
       ) : null}
       {next ? (
-        <ListItemAppLink dense button to={isProgram ? next.fields?.slug ?? '#' : `/artist/${next.name}`}>
+        <ListItemAppLink dense button to={isProgram ? next.fields?.slug ?? '#' : next.slug ?? '#'}>
           <ListItemIcon>
             <ArrowForwardIcon />
           </ListItemIcon>

@@ -1,0 +1,104 @@
+id: "20200166"
+week: 166
+year: 2021
+title: 2011年の日本のロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-03-07
+playlist:
+  - id: "2021016601"
+    week: 166
+    index: 1372
+    indexInWeek: 1
+    title: 初恋に捧ぐ
+    artist: スピッツ
+    year: 2012
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021016602"
+    week: 166
+    index: 1373
+    indexInWeek: 2
+    title: カロン
+    artist: ねごと
+    year: 2011
+    nation: JPN
+    label: Ki/oon Records
+    producer:
+      - いしわたり淳治
+    youtube: 9UBvB8joUeE
+    selector: 草野マサムネ
+  - id: "2021016603"
+    week: 166
+    index: 1374
+    indexInWeek: 3
+    title: 賽の河原
+    artist: BRAHMAN
+    year: 2011
+    nation: JPN
+    label: トイズファクトリー
+    youtube: kxfUTPWat4Y
+    selector: 草野マサムネ
+  - id: "2021016604"
+    week: 166
+    index: 1375
+    indexInWeek: 4
+    title: 圏内の歌
+    artist: 七尾旅人
+    kana: ななおたびと
+    year: 2012
+    nation: JPN
+    label: felicity
+    youtube: sUj4bzvw3eE
+    selector: 草野マサムネ
+  - id: "2021016605"
+    week: 166
+    index: 1376
+    indexInWeek: 5
+    title: 恋するロデオ
+    artist: 毛皮のマリーズ
+    kana: けがわのまりーず
+    year: 2011
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+  - id: "2021016606"
+    week: 166
+    index: 1377
+    indexInWeek: 6
+    title: バイシクル
+    artist: NICO Touches the Walls
+    year: 2011
+    nation: JPN
+    label: キューンレコード
+    producer:
+      - 岡野ハジメ
+    youtube: faPUhGlEonk
+    selector: 草野マサムネ
+  - id: "2021016607"
+    week: 166
+    index: 1378
+    indexInWeek: 7
+    title: I love you & I need you ふくしま
+    artist: 猪苗代湖ズ
+    kana: いなわしろこず
+    year: 2011
+    nation: JPN
+    label: MORE ACTION, MORE HOPE.
+    youtube: sQEVUsHt1Bk
+    selector: 草野マサムネ
+  - id: "2021016608"
+    week: 166
+    index: 1379
+    indexInWeek: 8
+    title: Make No Systems
+    artist: BARBARS
+    year: 2011
+    nation: JPN
+    label: キングレコード
+    youtube: SjPK6PK7R8o
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

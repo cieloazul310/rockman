@@ -143,6 +143,7 @@ export const query = graphql`
       corner
       artist {
         name
+        slug
       }
       program {
         week

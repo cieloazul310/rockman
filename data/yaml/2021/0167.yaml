@@ -1,0 +1,108 @@
+id: "20200167"
+week: 167
+year: 2021
+title: 好きなドラマーリクエスト・その1で漫遊記
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2021-03-14
+playlist:
+  - id: "2021016701"
+    week: 167
+    index: 1380
+    indexInWeek: 1
+    title: 1987→
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: SalC2mBb1QQ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021016702"
+    week: 167
+    index: 1381
+    indexInWeek: 2
+    title: Documentary film
+    artist: Mr.Children
+    year: 2020
+    nation: JPN
+    label: トイズファクトリー
+    producer:
+      - Steve Fitzmaurice
+      - Ken Masui
+    youtube: mdc2bTg30gI
+    selector: リクエスト
+  - id: "2021016703"
+    week: 167
+    index: 1382
+    indexInWeek: 3
+    title: チバニクル
+    artist: ふなっしー
+    year: 2018
+    nation: JPN
+    label: ユニバーサルミュージック
+    youtube: 78rzfhr8abM
+    selector: リクエスト
+  - id: "2021016704"
+    week: 167
+    index: 1383
+    indexInWeek: 4
+    title: My Generation
+    artist: The Who
+    year: 1965
+    nation: UK
+    label: Brunswick
+    producer:
+      - Shel Talmy
+    youtube: nMREjRFJkfM
+    selector: リクエスト
+  - id: "2021016705"
+    week: 167
+    index: 1384
+    indexInWeek: 5
+    title: シャングリラ
+    artist: チャットモンチー
+    year: 2006
+    nation: JPN
+    label: Ki/oon Records
+    producer:
+      - いしわたり淳治
+    youtube: NEb9MTNk3y4
+    selector: リクエスト
+  - id: "2021016706"
+    week: 167
+    index: 1385
+    indexInWeek: 6
+    title: Zone 3
+    artist: LITE
+    year: 2019
+    nation: JPN
+    label: I want the moon
+    youtube: ZXWKN8mJchM
+    selector: リクエスト
+  - id: "2021016707"
+    week: 167
+    index: 1386
+    indexInWeek: 7
+    title: 茫洋
+    artist: 真心ブラザーズ
+    kana: まごころぶらざーず
+    year: 2019
+    nation: JPN
+    label: Do Thing Recordings
+    selector: リクエスト
+  - id: "2021016708"
+    week: 167
+    index: 1387
+    indexInWeek: 8
+    title: SPEEDER
+    artist: MOTORWORKS
+    year: 2004
+    nation: JPN
+    label: ドリーミュージック
+    youtube: VfTe5nkYGwc
+    selector: リクエスト
+    corner: ちょっぴりタイムマシン

@@ -44,6 +44,7 @@ export type Artist = {
   tunes: ProgramPlaylist[];
   programCount: number;
   tunesCount: number;
+  slug: string;
 } & Pick<Node, 'id' | 'internal' | 'parent' | 'children' | 'owner'>;
 
 export type PureProgram = Omit<Program, 'playlist'> & {

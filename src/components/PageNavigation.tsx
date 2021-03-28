@@ -86,7 +86,7 @@ function PageNavigationButton({ variant, item, navigation }: PageNavigationButto
       }}
       disabled={!item}
       component={GatsbyLink}
-      to={isProgram ? item?.fields?.slug ?? '#' : `/artist/${item?.name}`}
+      to={isProgram ? item?.fields?.slug ?? '#' : item?.slug ?? '#'}
     >
       {item ? (
         <div className={clsx(classes.itemInside, { [classes.itemRight]: isNext })}>

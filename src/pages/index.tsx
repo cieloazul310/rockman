@@ -6,16 +6,17 @@ import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';
 import ProgramItem from '../components/ProgramItem';
-import ArtistItemContainer from '../components/ArtistItemContainer';
+// import ArtistItemContainer from '../components/ArtistItemContainer';
+import ProgramTop25 from '../components/ProgramTop25';
 import Section, { SectionDivider } from '../components/Section';
 import Article, { Paragraph, Link } from '../components/Article';
 import Stats from '../components/Stat';
 import { AdBasic } from '../components/Ads';
-import { useProgramTop25 } from '../utils/graphql-hooks';
+// import { useProgramTop25 } from '../utils/graphql-hooks';
 import { IndexQuery } from '../../graphql-types';
 
 function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
-  const top25 = useProgramTop25();
+  // const top25 = useProgramTop25();
   const images = data.allProgram.edges
     .map(({ node }) => node.fields?.image ?? undefined)
     .filter((image): image is string => Boolean(image));
@@ -61,7 +62,7 @@ function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
       <AdBasic />
       <SectionDivider />
       <Section>
-        <ArtistItemContainer title="登場回数Top25" artists={top25.map(({ node }) => node)} />
+        <ProgramTop25 />
       </Section>
       <SectionDivider />
       <Section>

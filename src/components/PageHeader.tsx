@@ -2,6 +2,7 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
 import { Maybe, Program, Artist } from '../../graphql-types';
 
@@ -30,6 +31,12 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       flexGrow: 1,
+      position: 'relative',
+    },
+    label: {
+      position: 'absolute',
+      top: 0,
+      left: 0,
     },
     right: {
       flexGrow: 1,
@@ -45,14 +52,15 @@ interface Props {
   image?: string | null;
   top?: React.ReactNode;
   bottom?: React.ReactNode;
+  label?: React.ReactNode;
 }
 
-function PageHeader({ image, top, bottom }: Props): JSX.Element {
+function PageHeader({ image, top, bottom, label }: Props): JSX.Element {
   const classes = useStyles({ image });
   return (
     <div className={classes.root}>
       <div className={classes.left}>
-        <div className={classes.image} />
+        <div className={classes.image}>{label ? <div className={classes.label}>{label}</div> : null}</div>
       </div>
       <div className={classes.right}>
         <div>{top}</div>
@@ -66,6 +74,7 @@ PageHeader.defaultProps = {
   image: undefined,
   top: undefined,
   bottom: undefined,
+  label: undefined,
 };
 
 const useTypoStyles = makeStyles((theme) =>
@@ -125,6 +134,7 @@ export function ArtistPageHeader({
   return (
     <PageHeader
       image={artist?.image}
+      label={<NationLabel nation={artist?.nation ?? ''} />}
       top={
         <>
           <Typography className={classes.title} variant="h6" component="h2">
@@ -136,8 +146,7 @@ export function ArtistPageHeader({
       bottom={
         <>
           <Typography variant="body1">
-            <TextSpan>{artist?.tunesCount}曲</TextSpan>
-            <TextSpan>{artist?.programCount}回</TextSpan>
+            {artist?.tunesCount}曲/{artist?.programCount}回
           </Typography>
         </>
       }

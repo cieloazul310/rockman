@@ -15,6 +15,7 @@ export default function createSchemaCustomization({ actions }: CreateSchemaCusto
       programCount: Int!
       tunesCount: Int!
       relatedArtists: [Artist] @link(by: "name")
+      slug: String!
     }
     type program implements Node {
       week: Int!
