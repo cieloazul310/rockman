@@ -31,10 +31,20 @@ playlist:
     nation: JPN
     label: Front Of Union
     selector: 草野マサムネ
-  - id: "2021016903"
+  - id: "2021016902"
     week: 169
-    index: 1398
-    indexInWeek: 3
+    index: 1397
+    indexInWeek: 2
+    title: Tonight
+    artist: FIVE NO RISK
+    year: 2010
+    nation: JPN
+    label: Front Of Union
+    selector: 草野マサムネ
+  - id: "2021016904"
+    week: 169
+    index: 1399
+    indexInWeek: 4
     title: Let's Spend the Night Together
     artist: David Bowie
     year: 1973
@@ -42,10 +52,10 @@ playlist:
     label: RCA
     youtube: tXo7wMwDJA8
     selector: 草野マサムネ
-  - id: "2021016904"
+  - id: "2021016905"
     week: 169
-    index: 1399
-    indexInWeek: 4
+    index: 1400
+    indexInWeek: 5
     title: 夜をぶっとばせ
     artist: ORIGINAL LOVE
     year: 1991
@@ -53,10 +63,10 @@ playlist:
     label: EASTWORLD
     youtube: jLJQMLxMnhw
     selector: 草野マサムネ
-  - id: "2021016905"
+  - id: "2021016906"
     week: 169
-    index: 1400
-    indexInWeek: 5
+    index: 1401
+    indexInWeek: 6
     title: Hot Summer Night
     artist: Night
     year: 1979
@@ -64,10 +74,10 @@ playlist:
     label: Planet
     youtube: Cmt2XYr8ofY
     selector: 草野マサムネ
-  - id: "2021016906"
+  - id: "2021016907"
     week: 169
-    index: 1401
-    indexInWeek: 6
+    index: 1402
+    indexInWeek: 7
     title: Night Runner
     artist: Bronz
     year: 1984
@@ -75,10 +85,10 @@ playlist:
     label: Bronze
     youtube: 5jN-yVaFLec
     selector: 草野マサムネ
-  - id: "2021016907"
+  - id: "2021016908"
     week: 169
-    index: 1402
-    indexInWeek: 7
+    index: 1403
+    indexInWeek: 8
     title: 雨あがりの夜空に
     artist: RCサクセション
     year: 1980
@@ -87,10 +97,10 @@ playlist:
     producer:
       - 前田一郎
     selector: 草野マサムネ
-  - id: "2021016908"
+  - id: "2021016909"
     week: 169
-    index: 1403
-    indexInWeek: 8
+    index: 1404
+    indexInWeek: 9
     title: 真夏の夜の事
     artist: 初恋の嵐
     kana: はつこいのあらし

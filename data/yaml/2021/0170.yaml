@@ -1,0 +1,100 @@
+id: "20200170"
+week: 170
+year: 2021
+title: トルコのロックで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2021-04-04
+playlist:
+  - id: "2021017001"
+    week: 170
+    index: 1405
+    indexInWeek: 1
+    title: SUGINAMI MELODY
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017002"
+    week: 170
+    index: 1406
+    indexInWeek: 2
+    title: Tatli Dile Güler Yüze
+    artist: Altın Gün
+    year: 2018
+    nation: TUR
+    label: Les Disques Bongo Joe
+    youtube: g8x5tEWhblo
+    selector: 草野マサムネ
+  - id: "2021017002"
+    week: 170
+    index: 1407
+    indexInWeek: 2
+    title: Tonight
+    artist: Erkin Koray
+    year: 1974
+    nation: TUR
+    label: Doğan
+    youtube: F-k_Fr67bPQ
+    selector: 草野マサムネ
+  - id: "2021017004"
+    week: 170
+    index: 1408
+    indexInWeek: 4
+    title: Sarı Çizmeli Mehmet Ağa
+    artist: Barış Manço
+    year: 1999
+    nation: TUR
+    label: Emre
+    youtube: NVXUN2_W1N0
+    selector: 草野マサムネ
+  - id: "2021017005"
+    week: 170
+    index: 1409
+    indexInWeek: 5
+    title: Hologram
+    artist: Gaye Su Akyol
+    year: 2016
+    nation: TUR
+    label: Glitterbeat
+    youtube: GeeczW-sj84
+    selector: 草野マサムネ
+  - id: "2021017006"
+    week: 170
+    index: 1410
+    indexInWeek: 6
+    title: Kolbastı
+    artist: Marsis
+    year: 2009
+    nation: TUR
+    label: Kalan
+    youtube: doGGGHeHJx4
+    selector: 草野マサムネ
+  - id: "2021017007"
+    week: 170
+    index: 1411
+    indexInWeek: 7
+    title: Hap Koydum
+    artist: Kibariye
+    year: 2014
+    nation: TUR
+    label: Avrupa Müzik
+    youtube: Q0AdXAh-6gA
+    selector: 草野マサムネ
+  - id: "2021017008"
+    week: 170
+    index: 1412
+    indexInWeek: 8
+    title: あこがれ
+    artist: 竹尾智晴
+    kana: たけおともはる
+    year: 1972
+    nation: JPN
+    label: テイチク
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
