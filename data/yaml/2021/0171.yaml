@@ -1,0 +1,109 @@
+id: "20200171"
+week: 171
+year: 2021
+title: 70年代のエアロスミスで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-04-11
+playlist:
+  - id: "2021017101"
+    week: 171
+    index: 1413
+    indexInWeek: 1
+    title: 幻のドラゴン
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017102"
+    week: 171
+    index: 1414
+    indexInWeek: 2
+    title: Back In The Saddle
+    artist: Aerosmith
+    year: 1976
+    nation: US
+    label: Columbia
+    producer: 
+      - Jack Douglas
+    youtube: lX8GG3dnsp8
+    selector: 草野マサムネ
+  - id: "2021017102"
+    week: 171
+    index: 1415
+    indexInWeek: 3
+    title: Dream On
+    artist: Aerosmith
+    year: 1973
+    nation: US
+    label: Columbia
+    producer: 
+      - Adrian Barber
+    youtube: 89dGC8de0CA
+    selector: 草野マサムネ
+  - id: "2021017104"
+    week: 171
+    index: 1416
+    indexInWeek: 4
+    title: Toys in the Attic
+    artist: Aerosmith
+    year: 1975
+    nation: US
+    label: Columbia
+    producer: 
+      - Jack Douglas
+    youtube: C7X8OQ7BEqM
+    selector: 草野マサムネ
+  - id: "2021017105"
+    week: 171
+    index: 1417
+    indexInWeek: 5
+    title: Nobody's Fault
+    artist: Aerosmith
+    year: 1976
+    nation: US
+    label: Columbia
+    producer: 
+      - Jack Douglas
+    youtube: Ze6h1t7Z734
+    selector: 草野マサムネ
+  - id: "2021017106"
+    week: 171
+    index: 1418
+    indexInWeek: 6
+    title: Remember (Walking in the Sand)
+    artist: Aerosmith
+    year: 1979
+    nation: US
+    label: Columbia
+    youtube: POLYGEfhQBc
+    selector: 草野マサムネ
+  - id: "2021017107"
+    week: 171
+    index: 1419
+    indexInWeek: 7
+    title: You See Me Crying
+    artist: Aerosmith
+    year: 1975
+    nation: US
+    label: Columbia
+    producer: 
+      - Jack Douglas
+    youtube: HAYIs9-qRqI
+    selector: 草野マサムネ
+  - id: "2021017108"
+    week: 171
+    index: 1420
+    indexInWeek: 8
+    title: 恋愛ジャンキー（えせボーナストラックちっく）
+    artist: aiko
+    year: 2000
+    nation: JPN
+    label: ポニーキャニオン
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
