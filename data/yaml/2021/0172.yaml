@@ -1,0 +1,107 @@
+id: "20200172"
+week: 172
+year: 2021
+title: もっと売れると思ってたバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-04-18
+playlist:
+  - id: "2021017201"
+    week: 172
+    index: 1421
+    indexInWeek: 1
+    title: 裸のままで
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    youtube: JnSryjy5eNw
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017202"
+    week: 172
+    index: 1422
+    indexInWeek: 2
+    title: Antmusic
+    artist: Adam and the Ants
+    year: 1980
+    nation: UK
+    label: Epic
+    producer: 
+      - Chris Hughes
+    youtube: Rm9drIwmmU4
+    selector: 草野マサムネ
+  - id: "2021017202"
+    week: 172
+    index: 1423
+    indexInWeek: 3
+    title: A Selection
+    artist: Fishbone
+    year: 1986
+    nation: US
+    label: Columbia
+    producer: 
+      - David Kahne
+    selector: 草野マサムネ
+  - id: "2021017204"
+    week: 172
+    index: 1424
+    indexInWeek: 4
+    title: Calling All the Heroes
+    artist: It Bites
+    year: 1986
+    nation: UK
+    label: Virgin
+    producer: 
+      - Francis Dunnery
+    youtube: PpMlpY38gjE
+    selector: 草野マサムネ
+  - id: "2021017205"
+    week: 172
+    index: 1425
+    indexInWeek: 5
+    title: Under the God
+    artist: Tin Machine
+    year: 1989
+    nation: UK
+    label: EMI
+    producer: 
+      - Tim Palmer
+    youtube: LdG2UzNYiis
+    selector: 草野マサムネ
+  - id: "2021017206"
+    week: 172
+    index: 1426
+    indexInWeek: 6
+    title: New Thing
+    artist: Enuff Z'nuff
+    year: 1989
+    nation: US
+    label: Atco
+    youtube: 85BVnQMiFFw
+    selector: 草野マサムネ
+  - id: "2021017207"
+    week: 172
+    index: 1427
+    indexInWeek: 7
+    title: The Awakening
+    artist: Screaming Maldini
+    year: 2013
+    nation: UK
+    label: HipHipHip
+    youtube: 5ehzMbNYfSE
+    selector: 草野マサムネ
+  - id: "2021017208"
+    week: 172
+    index: 1428
+    indexInWeek: 8
+    title: バラ色の人生
+    artist: GEN
+    year: 1990
+    nation: JPN
+    label: ビクターインビテーション
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
