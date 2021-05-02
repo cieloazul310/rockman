@@ -1,0 +1,151 @@
+id: "20200174"
+week: 174
+year: 2021
+title: 2分のナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-05-02
+playlist:
+  - id: "2021017401"
+    week: 174
+    index: 1437
+    indexInWeek: 1
+    title: 花泥棒
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017402"
+    week: 174
+    index: 1438
+    indexInWeek: 2
+    title: Look Through Any Window
+    artist: The Hollies
+    year: 1965
+    nation: UK
+    label: Parlophone
+    youtube: _gy8RoW-_HM
+    selector: 草野マサムネ
+  - id: "2021017402"
+    week: 174
+    index: 1439
+    indexInWeek: 3
+    title: Try It
+    artist: The Attack
+    year: 1967
+    nation: UK
+    label: Decca
+    youtube: cL1OG4HAeDY
+    selector: 草野マサムネ
+  - id: "2021017404"
+    week: 174
+    index: 1440
+    indexInWeek: 4
+    title: Evening Gown
+    artist: The Left Banke
+    year: 1967
+    nation: US
+    label: Smash
+    youtube: dg4q3mN2Vdc
+    selector: 草野マサムネ
+  - id: "2021017405"
+    week: 174
+    index: 1441
+    indexInWeek: 5
+    title: I'd Rather You Leave Me
+    artist: The Choir
+    year: 1976
+    nation: US
+    label: ポリドール
+    youtube: 9JLrsniMjds
+    selector: 草野マサムネ
+  - id: "2021017406"
+    week: 174
+    index: 1442
+    indexInWeek: 6
+    title: Hello There
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    producer:
+      - Tom Werman
+    youtube: QK72bHiqM-Q
+    selector: 草野マサムネ
+  - id: "2021017407"
+    week: 174
+    index: 1443
+    indexInWeek: 7
+    title: Heartbeat
+    artist: The Knack
+    year: 1979
+    nation: US
+    label: Epic
+    producer:
+      - Mike Chapman
+    youtube: 5lWWaUWNrUw
+    selector: 草野マサムネ
+  - id: "2021017408"
+    week: 174
+    index: 1444
+    indexInWeek: 8
+    title: No Action
+    artist: Elvis Costello
+    year: 1978
+    nation: UK
+    label: Radar
+    producer:
+      - Nick Lowe
+    youtube: -YwI3CiU0xw
+    selector: 草野マサムネ
+  - id: "2021017409"
+    week: 174
+    index: 1445
+    indexInWeek: 9
+    title: Murphy's Law
+    artist: Murphy's Law
+    year: 1986
+    nation: US
+    label: Profile Records
+    youtube: Fucdv-z8An8
+    selector: 草野マサムネ
+  - id: "2021017410"
+    week: 174
+    index: 1446
+    indexInWeek: 10
+    title: Get Free
+    artist: The Vines
+    year: 2002
+    nation: AUS
+    label: Capitol
+    youtube: asOvnGHwtDU
+    producer:
+      - Rob Schnapf
+    selector: 草野マサムネ
+  - id: "2021017411"
+    week: 174
+    index: 1447
+    indexInWeek: 11
+    title: Ways to Phrase a Rejection
+    artist: Drowners
+    year: 2014
+    nation: US
+    label: Frenchkiss Records
+    youtube: P68zBg4VOhg
+    selector: 草野マサムネ
+  - id: "2021017412"
+    week: 174
+    index: 1447
+    indexInWeek: 12
+    title: CHANCES
+    artist: LOW IQ 01
+    year: 2001
+    nation: JPN
+    label: DIWPHALANX RECORDS
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
