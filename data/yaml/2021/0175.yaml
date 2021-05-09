@@ -1,0 +1,111 @@
+id: "20200175"
+week: 175
+year: 2021
+title: ザ・スミスで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-05-09
+playlist:
+  - id: "2021017501"
+    week: 175
+    index: 1448
+    indexInWeek: 1
+    title: 初夏の日
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017502"
+    week: 175
+    index: 1449
+    indexInWeek: 2
+    title: William, It Was Really Nothing
+    artist: The Smiths
+    year: 1984
+    nation: UK
+    label: Rough Trade
+    youtube: P22TEf4pZZs
+    selector: 草野マサムネ
+  - id: "2021017502"
+    week: 175
+    index: 1450
+    indexInWeek: 3
+    title: Hand in Glove (album version)
+    artist: The Smiths
+    year: 1984
+    nation: UK
+    label: Rough Trade
+    youtube: WiN-n990oE8
+    selector: 草野マサムネ
+  - id: "2021017504"
+    week: 175
+    index: 1451
+    indexInWeek: 4
+    title: This Charming Man
+    artist: The Smiths
+    year: 1983
+    nation: UK
+    label: Rough Trade
+    youtube: cJRP3LRcUFg
+    selector: 草野マサムネ
+  - id: "2021017505"
+    week: 175
+    index: 1452
+    indexInWeek: 5
+    title: Cemetry Gates
+    artist: The Smiths
+    year: 1986
+    nation: UK
+    label: Rough Trade
+    youtube: dfXqxjMkyQ4
+    selector: 草野マサムネ
+  - id: "2021017506"
+    week: 175
+    index: 1453
+    indexInWeek: 6
+    title: Ask
+    artist: The Smiths
+    year: 1986
+    nation: UK
+    label: Rough Trade
+    youtube: zoo9Vu1a9bU
+    selector: 草野マサムネ
+  - id: "2021017507"
+    week: 175
+    index: 1454
+    indexInWeek: 7
+    title: London
+    artist: The Smiths
+    year: 1987
+    nation: UK
+    label: Rough Trade
+    youtube: 6QqT3FE4ISY
+    selector: 草野マサムネ
+  - id: "2021017508"
+    week: 175
+    index: 1455
+    indexInWeek: 8
+    title: Girlfriend in a Coma
+    artist: The Smiths
+    year: 1987
+    nation: UK
+    label: Rough Trade
+    youtube: 3GhoWZ5qTwI
+    selector: 草野マサムネ
+  - id: "2021017509"
+    week: 175
+    index: 1456
+    indexInWeek: 9
+    title: WALK ON THE MOON
+    artist: M-AGE
+    year: 1992
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: tipdTxt1K8A
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
