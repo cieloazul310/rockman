@@ -1,0 +1,97 @@
+id: "20200180"
+week: 180
+year: 2021
+title: ロックサウンドなアイドル曲で漫遊記 (パート1)
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2021-06-13
+playlist:
+  - id: "2021018001"
+    week: 180
+    index: 1490
+    indexInWeek: 1
+    title: 猫ちぐら
+    artist: スピッツ
+    year: 2020
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018002"
+    week: 180
+    index: 1491
+    indexInWeek: 2
+    title: ド・キ・ド・キ☆モーニング
+    artist: BABYMETAL
+    year: 2011
+    nation: JPN
+    label: 重音部RECORDS
+    youtube: cirhQ8iLdbw
+    selector: リクエスト
+  - id: "2021018002"
+    week: 180
+    index: 1492
+    indexInWeek: 3
+    title: 水生
+    artist: CYNHN
+    year: 2020
+    nation: JPN
+    label: I BLUE
+    youtube: AaxPzPlvF-s
+    selector: リクエスト
+  - id: "2021018004"
+    week: 180
+    index: 1493
+    indexInWeek: 4
+    title: Rollin’
+    artist: SixTONES
+    year: 2021
+    nation: JPN
+    label: SME Records
+    selector: リクエスト
+  - id: "2021018005"
+    week: 180
+    index: 1494
+    indexInWeek: 5
+    title: Rock and Roll Love Letter
+    artist: Bay City Rollers
+    year: 1976
+    nation: UK
+    label: Arista
+    youtube: jzJGJ3eHhiI
+    selector: リクエスト
+  - id: "2021018006"
+    week: 180
+    index: 1495
+    indexInWeek: 6
+    title: SEBADAVA MAINEBION
+    artist: RINGO SISTERS
+    year: 2019
+    nation: JPN
+    label: リンゴミュージック
+    youtube: 3dHru7ceblg
+    selector: リクエスト
+  - id: "2021018007"
+    week: 180
+    index: 1496
+    indexInWeek: 7
+    title: YOU惑－MAY惑
+    artist: THE GOOD-BYE
+    year: 1984
+    nation: JPN
+    label: ビクター音楽産業
+    selector: リクエスト
+  - id: "2021018008"
+    week: 180
+    index: 1497
+    indexInWeek: 8
+    title: コンサートの夜
+    artist: 森高千里
+    kana: もりたかちさと
+    year: 1992
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: M3z6USU2lFI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
