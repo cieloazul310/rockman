@@ -1,0 +1,96 @@
+id: "20200181"
+week: 181
+year: 2021
+title: ロックサウンドなアイドル曲で漫遊記 (パート2)
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2021-06-20
+playlist:
+  - id: "2021018101"
+    week: 181
+    index: 1498
+    indexInWeek: 1
+    title: 潮騒ちゃん
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018102"
+    week: 181
+    index: 1499
+    indexInWeek: 2
+    title: Tokyoholic
+    artist: 関ジャニ∞
+    kana: かんじゃにえいと
+    year: 2017
+    nation: JPN
+    label: INFINITY RECORDS
+    selector: リクエスト
+  - id: "2021018102"
+    week: 181
+    index: 1500
+    indexInWeek: 3
+    title: スライド (New Recording Version)
+    artist: RAY
+    year: 2020
+    nation: JPN
+    label: DISTORTED RECORDS
+    youtube: e9JgnGAlETo
+    selector: リクエスト
+  - id: "2021018104"
+    week: 181
+    index: 1501
+    indexInWeek: 4
+    title: メロンジュース
+    artist: HKT48
+    year: 2013
+    nation: JPN
+    label: UNIVERSAL SIGMA
+    youtube: y5jHsV7hCHY
+    selector: リクエスト
+  - id: "2021018105"
+    week: 181
+    index: 1502
+    indexInWeek: 5
+    title: Ray
+    artist: PassCode
+    year: 2018
+    nation: JPN
+    label: ユニバーサル
+    youtube: bI0_Hx__dFU
+    selector: リクエスト
+  - id: "2021018106"
+    week: 181
+    index: 1503
+    indexInWeek: 6
+    title: DREAMER
+    artist: レイジー
+    year: 1980
+    nation: JPN
+    label: RCA
+    selector: リクエスト
+  - id: "2021018107"
+    week: 181
+    index: 1504
+    indexInWeek: 7
+    title: One Night Kids
+    artist: 本田恭章
+    kana: ほんだやすあき
+    year: 1983
+    nation: JPN
+    label: フィリップス・レコード
+    selector: リクエスト
+  - id: "2021018108"
+    week: 181
+    index: 1505
+    indexInWeek: 8
+    title: メルト
+    artist: supercell
+    year: 2009
+    nation: JPN
+    label: GT music
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
