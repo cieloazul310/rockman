@@ -1,0 +1,97 @@
+id: "20200182"
+week: 182
+year: 2021
+title: ジミヘンのとっかかり曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-06-27
+playlist:
+  - id: "2021018201"
+    week: 182
+    index: 1506
+    indexInWeek: 1
+    title: ドルフィン・ラヴ
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018202"
+    week: 182
+    index: 1507
+    indexInWeek: 2
+    title: Fire
+    artist: The Jimi Hendrix Experience
+    year: 1967
+    nation: US
+    label: Track
+    selector: 草野マサムネ
+  - id: "2021018202"
+    week: 182
+    index: 1508
+    indexInWeek: 3
+    title: Little Wing
+    artist: The Jimi Hendrix Experience
+    year: 1967
+    nation: US
+    label: Track
+    youtube: 72ABomY0MmA
+    selector: 草野マサムネ
+  - id: "2021018204"
+    week: 182
+    index: 1509
+    indexInWeek: 4
+    title: Crosstown Traffic
+    artist: The Jimi Hendrix Experience
+    year: 1968
+    nation: US
+    label: Reprise
+    youtube: 0-xyGFI_Nq8
+    selector: 草野マサムネ
+  - id: "2021018205"
+    week: 182
+    index: 1510
+    indexInWeek: 5
+    title: Highway Chile
+    artist: The Jimi Hendrix Experience
+    year: 1967
+    nation: US
+    label: Track
+    selector: 草野マサムネ
+  - id: "2021018206"
+    week: 182
+    index: 1511
+    indexInWeek: 6
+    title: All Along the Watchtower
+    artist: The Jimi Hendrix Experience
+    year: 1968
+    nation: US
+    label: Reprise
+    youtube: TLV4_xaYynY
+    selector: 草野マサムネ
+  - id: "2021018207"
+    week: 182
+    index: 1512
+    indexInWeek: 7
+    title: Hey Joe
+    artist: The Jimi Hendrix Experience
+    year: 1966
+    nation: US
+    label: Polydor
+    youtube: rXwMrBb2x1Q
+    selector: 草野マサムネ
+  - id: "2021018208"
+    week: 182
+    index: 1513
+    indexInWeek: 8
+    title: LOVE・Magic
+    artist: AURA
+    year: 1990
+    nation: JPN
+    label: エピック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
