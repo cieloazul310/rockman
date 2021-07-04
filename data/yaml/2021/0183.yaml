@@ -1,0 +1,101 @@
+id: "20200183"
+week: 183
+year: 2021
+title: ピアノがいい感じのナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["楽器"]
+date: 2021-07-04
+playlist:
+  - id: "2021018301"
+    week: 183
+    index: 1514
+    indexInWeek: 1
+    title: 楓
+    artist: スピッツ
+    year: 1997
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 棚谷祐一
+    youtube: YapsFDcGe_s
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018302"
+    week: 183
+    index: 1515
+    indexInWeek: 2
+    title: Brief Candles
+    artist: The Zombies
+    year: 1967
+    nation: UK
+    label: CBS
+    youtube: W4EMJwxaFyA
+    selector: 草野マサムネ
+  - id: "2021018302"
+    week: 183
+    index: 1516
+    indexInWeek: 3
+    title: Mister Pleasant
+    artist: The Kinks
+    year: 1967
+    nation: US
+    label: Pye
+    youtube: fwpJGewUyYk
+    selector: 草野マサムネ
+  - id: "2021018304"
+    week: 183
+    index: 1517
+    indexInWeek: 4
+    title: After the Gold Rush
+    artist: Neil Young
+    year: 1970
+    nation: US
+    label: Reprise
+    youtube: gGEhbRvfNS4
+    selector: 草野マサムネ
+  - id: "2021018305"
+    week: 183
+    index: 1518
+    indexInWeek: 5
+    title: Philosophy
+    artist: Ben Folds Five
+    year: 1995
+    nation: US
+    label: Passenger
+    youtube: 8PCA8OalwU0
+    selector: 草野マサムネ
+  - id: "2021018306"
+    week: 183
+    index: 1519
+    indexInWeek: 6
+    title: A Thousand Miles
+    artist: Vanessa Carlton
+    year: 2002
+    nation: US
+    label: A&M
+    youtube: Cwkej79U3ek
+    selector: 草野マサムネ
+  - id: "2021018307"
+    week: 183
+    index: 1520
+    indexInWeek: 7
+    title: Imagine
+    artist: John Lennon
+    year: 1971
+    nation: UK
+    label: Apple
+    youtube: VOgFZfRVaww
+    selector: 草野マサムネ
+  - id: "2021018308"
+    week: 183
+    index: 1521
+    indexInWeek: 8
+    title: 100ミリちょっとの
+    artist: フィッシュマンズ
+    year: 1992
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: OfZJ7xXKlU0
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
