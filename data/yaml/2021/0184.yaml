@@ -1,0 +1,89 @@
+id: "20200184"
+week: 184
+year: 2021
+title: ディスコビートのロックナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["リズム特集"]
+date: 2021-07-11
+playlist:
+  - id: "2021018401"
+    week: 184
+    index: 1522
+    indexInWeek: 1
+    title: エンドロールには早すぎる
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018402"
+    week: 184
+    index: 1523
+    indexInWeek: 2
+    title: Da Ya Think I'm Sexy?
+    artist: Rod Stewart
+    year: 1978
+    nation: UK
+    label: Warner Bros.
+    youtube: Hphwfq1wLJs
+    selector: 草野マサムネ
+  - id: "2021018402"
+    week: 184
+    index: 1524
+    indexInWeek: 3
+    title: I Was Made for Lovin' You
+    artist: Kiss
+    year: 1979
+    nation: US
+    label: Casablanca
+    youtube: ZhIsAZO5gl0
+    selector: 草野マサムネ
+  - id: "2021018404"
+    week: 184
+    index: 1525
+    indexInWeek: 4
+    title: After the Gold Rush
+    artist: Blondie
+    year: 1979
+    nation: US
+    label: Chrysalis
+    youtube: WGU_4-5RaxU
+    selector: 草野マサムネ
+  - id: "2021018405"
+    week: 184
+    index: 1526
+    indexInWeek: 5
+    title: Goodnight Tonight
+    artist: Paul McCartney & Wings
+    year: 1979
+    nation: UK
+    label: Parlophone
+    youtube: 20--CXaceIM
+    selector: 草野マサムネ
+  - id: "2021018406"
+    week: 184
+    index: 1527
+    indexInWeek: 6
+    title: Shine a Little Love
+    artist: Electric Light Orchestra
+    year: 1979
+    nation: UK
+    label: Jet
+    youtube: GJuTIxwQw0k
+    selector: 草野マサムネ
+  - id: "2021018407"
+    week: 184
+    index: 1528
+    indexInWeek: 7
+    title: FEVER
+    artist: TRICERATOPS
+    year: 1998
+    nation: JPN
+    label: エピックレコードジャパン
+    youtube: rkdfqvycsYM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
