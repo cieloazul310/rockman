@@ -1,0 +1,100 @@
+id: "20200188"
+week: 188
+year: 2021
+title: ブリッジミュートのズンズンロックで漫遊記 
+subtitle: ""
+guests: []
+categories: []
+date: 2021-08-08
+playlist:
+  - id: "2021018801"
+    week: 188
+    index: 1553
+    indexInWeek: 1
+    title: りありてぃ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018802"
+    week: 188
+    index: 1554
+    indexInWeek: 2
+    title: Communication Breakdown
+    artist: Led Zeppelin
+    year: 1969
+    nation: UK
+    label: Atlantic
+    youtube: 2atkj_KWLl0
+    selector: 草野マサムネ
+  - id: "2021018802"
+    week: 188
+    index: 1555
+    indexInWeek: 3
+    title: Cherry Bomb
+    artist: The Runaways
+    year: 1976
+    nation: US
+    label: Mercury
+    youtube: _EBvXpjudf8
+    selector: 草野マサムネ
+  - id: "2021018804"
+    week: 188
+    index: 1556
+    indexInWeek: 4
+    title: Breakin' the Chains
+    artist: Dokken
+    year: 1981
+    nation: US
+    label: Carrere
+    youtube: kgAyiQgBL88
+    selector: 草野マサムネ
+  - id: "2021018805"
+    week: 188
+    index: 1557
+    indexInWeek: 5
+    title: We Die Young
+    artist: Alice in Chains
+    year: 1990
+    nation: US
+    label: Columbia
+    youtube: 6JA25BIxgtk
+    selector: 草野マサムネ
+  - id: "2021018806"
+    week: 188
+    index: 1558
+    indexInWeek: 6
+    title: Fever
+    artist: Bullet for My Valentine
+    year: 2010
+    nation: UK
+    label: Sony Music
+    youtube: lIQjj944jw0
+    selector: 草野マサムネ
+  - id: "2021018807"
+    week: 188
+    index: 1559
+    indexInWeek: 7
+    title: The End of the Game
+    artist: Weezer
+    year: 2021
+    nation: US
+    label: Atlantic
+    youtube: Rl-hSj3gnks
+    selector: 草野マサムネ
+  - id: "2021018808"
+    week: 188
+    index: 1560
+    indexInWeek: 8
+    title: I'm On Fire
+    artist: 44MAGNUM
+    year: 1983
+    nation: JPN
+    label: Moon Records
+    youtube: i0I8gW4mpdE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
