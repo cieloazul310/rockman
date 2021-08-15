@@ -1,0 +1,100 @@
+id: "20200189"
+week: 189
+year: 2021
+title: リック・デリンジャーで漫遊記 
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-08-15
+playlist:
+  - id: "2021018901"
+    week: 189
+    index: 1561
+    indexInWeek: 1
+    title: ナンプラー日和
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018902"
+    week: 189
+    index: 1562
+    indexInWeek: 2
+    title: Hang On Sloopy
+    artist: The McCoys
+    year: 1965
+    nation: US
+    label: Bang
+    youtube: x8TBs-UZhEI
+    selector: 草野マサムネ
+  - id: "2021018902"
+    week: 189
+    index: 1563
+    indexInWeek: 3
+    title: Rock and Roll, Hoochie Koo
+    artist: Rick Derringer
+    year: 1973
+    nation: US
+    label: Blue Sky
+    youtube: KdSQA3SgWqk
+    selector: 草野マサムネ
+  - id: "2021018904"
+    week: 189
+    index: 1564
+    indexInWeek: 4
+    title: Breakin' the Chains
+    artist: The Edgar Winter Group
+    year: 1974
+    nation: US
+    label: Epic
+    youtube: 2Waof3QW3ug
+    selector: 草野マサムネ
+  - id: "2021018905"
+    week: 189
+    index: 1565
+    indexInWeek: 5
+    title: Sailor (Live 1977)
+    artist: Derringer
+    year: 1977
+    nation: US
+    label: Blue Sky
+    youtube: P7ZQzZSTPRg
+    selector: 草野マサムネ
+  - id: "2021018906"
+    week: 189
+    index: 1566
+    indexInWeek: 6
+    title: Desires of the Heart
+    artist: Rick Derringer
+    year: 1979
+    nation: US
+    label: Blue Sky
+    youtube: 6wEjfViYEaM
+    selector: 草野マサムネ
+  - id: "2021018907"
+    week: 189
+    index: 1567
+    indexInWeek: 7
+    title: Eat It
+    artist: >
+      "Weird Al" Yankovic
+    year: 1984
+    nation: US
+    label: Rock 'n Roll Records
+    youtube: ZcJjMnHoIBI
+    selector: 草野マサムネ
+  - id: "2021018908"
+    week: 189
+    index: 1568
+    indexInWeek: 8
+    title: 君が思い出になる前に
+    artist: ネーネーズ
+    year: 1997
+    nation: JPN
+    label: アンティノスレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
