@@ -80,8 +80,8 @@ playlist:
     index: 1567
     indexInWeek: 7
     title: Eat It
-    artist: >
-      "Weird Al" Yankovic
+    artist: "\"Weird Al\" Yankovic"
+    kana: Werid Al Yankovic
     year: 1984
     nation: US
     label: Rock 'n Roll Records
