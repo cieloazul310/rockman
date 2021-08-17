@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { RenderBodyArgs } from 'gatsby';
 
@@ -13,5 +14,5 @@ const HeadComponents = [
 export function onRenderBody({ setHeadComponents }: RenderBodyArgs): void {
   setHeadComponents(HeadComponents);
 }
-
+*/
 export default {};
