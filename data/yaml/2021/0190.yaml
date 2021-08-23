@@ -1,0 +1,96 @@
+id: "20200190"
+week: 190
+year: 2021
+title: デュエットのナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-08-22
+playlist:
+  - id: "2021019001"
+    week: 190
+    index: 1569
+    indexInWeek: 1
+    title: ウサギのバイク
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019002"
+    week: 190
+    index: 1570
+    indexInWeek: 2
+    title: 打上花火
+    artist: DAOKO×米津玄師
+    year: 2017
+    nation: JPN
+    label: トイズファクトリー
+    youtube: -tKVN2mAKRI
+    selector: 草野マサムネ
+  - id: "2021019002"
+    week: 190
+    index: 1571
+    indexInWeek: 3
+    title: Suncrush
+    artist: 18 Wheeler
+    year: 1994
+    nation: UK
+    label: Creation
+    selector: 草野マサムネ
+  - id: "2021019004"
+    week: 190
+    index: 1572
+    indexInWeek: 4
+    title: テレパシー
+    artist: Czecho No Republic
+    year: 2018
+    nation: JPN
+    label: 日本コロムビア
+    youtube: XPEXHpjPhxY
+    selector: 草野マサムネ
+  - id: "2021019005"
+    week: 190
+    index: 1573
+    indexInWeek: 5
+    title: To the End (La Comedie) (featuring Françoise Hardy)
+    artist: Blur
+    year: 1995
+    nation: UK
+    label: Food
+    youtube: oDocg__EQfc
+    selector: 草野マサムネ
+  - id: "2021019006"
+    week: 190
+    index: 1574
+    indexInWeek: 6
+    title: 臨時ダイヤ
+    artist: 橋本絵莉子波多野裕文
+    kana: はしもとえりこはたのひろふみ
+    year: 2017
+    nation: JPN
+    label: Ki/oon Music
+    selector: 草野マサムネ
+  - id: "2021019007"
+    week: 190
+    index: 1575
+    indexInWeek: 7
+    title: Dirty Love (featuring Iggy Pop)
+    artist: Kesha
+    year: 2012
+    nation: US
+    label: Kemosabe
+    youtube: hLerp9KHAe8
+    selector: 草野マサムネ
+  - id: "2021019008"
+    week: 190
+    index: 1576
+    indexInWeek: 8
+    title: 皆笑った they all laughed
+    artist: ピチカート・ファイヴ
+    year: 1987
+    nation: JPN
+    label: CBS/SONY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
