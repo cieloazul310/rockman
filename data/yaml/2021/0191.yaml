@@ -1,0 +1,101 @@
+id: "20200191"
+week: 191
+year: 2021
+title: ミュージック・ライフの表紙だったけど…なアーティストで漫遊記
+subtitle: ""
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2021-08-29
+playlist:
+  - id: "2021019101"
+    week: 191
+    index: 1577
+    indexInWeek: 1
+    title: 海ねこ
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 長谷川智樹
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019102"
+    week: 191
+    index: 1578
+    indexInWeek: 2
+    title: The Sun Ain't Gonna Shine (Anymore)
+    artist: The Walker Brothers
+    year: 1966
+    nation: US
+    label: Smash
+    youtube: pcZnLwY0kds
+    selector: 草野マサムネ
+  - id: "2021019102"
+    week: 191
+    index: 1579
+    indexInWeek: 3
+    title: Mrs. Brown, You've Got a Lovely Daughter
+    artist: Herman's Hermits
+    year: 1965
+    nation: UK
+    label: MGM
+    youtube: dYoF2H2uegY
+    selector: 草野マサムネ
+  - id: "2021019104"
+    week: 191
+    index: 1580
+    indexInWeek: 4
+    title: I'd Love to Change the World
+    artist: Ten Years After
+    year: 1971
+    nation: UK
+    label: Chrysalis
+    youtube: qUGE8Y07-2k
+    selector: 草野マサムネ
+  - id: "2021019105"
+    week: 191
+    index: 1581
+    indexInWeek: 5
+    title: Show Me the Way
+    artist: Peter Frampton
+    year: 1975
+    nation: UK
+    label: A&M
+    youtube: Qh4zqMMaRlA
+    selector: 草野マサムネ
+  - id: "2021019106"
+    week: 191
+    index: 1582
+    indexInWeek: 6
+    title: Cat Scratch Fever
+    artist: Ted Nugent
+    year: 1977
+    nation: US
+    label: Epic
+    youtube: I47floRRAFs
+    selector: 草野マサムネ
+  - id: "2021019107"
+    week: 191
+    index: 1583
+    indexInWeek: 7
+    title: Beat's So Lonely
+    artist: Charlie Sexton
+    year: 1985
+    nation: US
+    label: MCA
+    youtube: uCRtHVEroQ0
+    selector: 草野マサムネ
+  - id: "2021019108"
+    week: 191
+    index: 1584
+    indexInWeek: 8
+    title: ため息ロック
+    artist: 辻香織
+    kana: つじかおり
+    year: 2013
+    nation: JPN
+    label: KAOMISE RECORD
+    youtube: 2o0Iz3T3nbY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
