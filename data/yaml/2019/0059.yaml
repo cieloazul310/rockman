@@ -4,36 +4,30 @@ year: 2019
 title: ギターインストで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["ギター"]
 date: 2019-02-17
 playlist:
   - id: "2019005901"
     week: 59
-    name: ただ春を待つ
     artist: スピッツ
-    kana: ""
     year: 1998
     nation: JPN
     label: ポリドール
     producer:
       - 棚谷祐一
     corner: 漫遊前の一曲
-    youtube: ""
     title: ただ春を待つ
     index: 486
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019005902"
     week: 59
-    name: Into the Arena
     artist: Michael Schenker Group
-    kana: ""
     year: 1980
     nation: GER
     label: Chrysalis
     producer:
       - Roger Glover
-    corner: ""
     youtube: BWeBbHRKDIk
     title: Into the Arena
     index: 487
@@ -41,15 +35,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005903"
     week: 59
-    name: Eruption
     artist: Van Halen
-    kana: ""
     year: 1978
     nation: US
     label: Warner Bros.
     producer:
       - Ted Templeman
-    corner: ""
     youtube: M4Czx8EWXb0
     title: Eruption
     index: 488
@@ -57,14 +48,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005904"
     week: 59
-    name: Lester Leaps In
     artist: The Monochrome Set
-    kana: ""
     year: 1979
     nation: UK
     label: Rough Trade
-    producer: []
-    corner: ""
     youtube: ZyWNhgITOZI
     title: Lester Leaps In
     index: 489
@@ -72,15 +59,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005905"
     week: 59
-    name: The Hunt
     artist: Tommy Emmanuel
-    kana: ""
     year: 1993
     nation: AUS
     label: Columbia
     producer:
       - Rick Neigher
-    corner: ""
     youtube: r74uI1pQBsI
     title: The Hunt
     index: 490
@@ -88,13 +72,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005906"
     week: 59
-    name: Stratagem
     artist: Eric Johnson
-    kana: ""
     year: 2017
     nation: US
     label: Vortexan Music
-    producer: []
     corner: 放送事故で曲かからず
     youtube: 4S4grLL10UM
     title: Stratagem
@@ -103,14 +84,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005907"
     week: 59
-    name: Weiss Heim
     artist: Rainbow
-    kana: ""
     year: 1980
     nation: UK
     label: Polydor
-    producer: []
-    corner: ""
     youtube: w-taBiGe21g
     title: Weiss Heim
     index: 492
@@ -118,30 +95,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005908"
     week: 59
-    name: SACRED FIELD
     artist: TAK MATSUMOTO
-    kana: ""
     year: 2002
     nation: JPN
     label: Rooms RECORDS
-    producer: []
-    corner: ""
-    youtube: ""
     title: SACRED FIELD
     index: 493
     indexInWeek: 8
     selector: 草野マサムネ
   - id: "2019005909"
     week: 59
-    name: SAUDADE
     artist: 高中正義
     kana: たかなかまさよし
     year: 1982
     nation: JPN
     label: Kitty Records
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: SAUDADE
     index: 494
     indexInWeek: 9
