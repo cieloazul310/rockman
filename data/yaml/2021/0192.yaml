@@ -18,7 +18,6 @@ playlist:
     label: ユニバーサル
     producer:
       - 亀田誠治
-    youtube: gt2_v9njDNg
     corner: 漫遊前の一曲
     selector: 草野マサムネ
   - id: "2021019202"
