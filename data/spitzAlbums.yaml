@@ -876,6 +876,9 @@
     - id: "010109"
       index: 9
       title: 青い車
+    - id: "010115"
+      index: 15
+      title: スカーレット
 - id: sc02
   albumIdNum: 102
   year: 2006
