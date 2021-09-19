@@ -910,6 +910,23 @@
     - id: "010315"
       index: 15
       title: 1987→
+- id: sp0100
+  albumIdNum: 151
+  year: 2021
+  title: 花鳥風月+
+  tunes:
+    - id: "015112"
+      index: 12
+      title: ヒバリのこころ(インディーズver.)
+    - id: "015114"
+      index: 14
+      title: 353号線のうた
+    - id: "015115"
+      index: 15
+      title: 恋のうた(インディーズver.)
+    - id: "015117"
+      index: 17
+      title: 死にもの狂いのカゲロウを見ていた
 - id: sg08
   albumIdNum: 208
   year: 1994
