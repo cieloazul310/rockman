@@ -1,0 +1,98 @@
+id: "20200194"
+week: 194
+year: 2021
+title: ダイナソーJr.で漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-09-19
+playlist:
+  - id: "2021019401"
+    week: 194
+    index: 1601
+    indexInWeek: 1
+    title: 今
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019402"
+    week: 194
+    index: 1602
+    indexInWeek: 2
+    title: Little Fury Things
+    artist: Dinosaur Jr.
+    year: 1987
+    nation: US
+    label: Homestead Records
+    youtube: 4WAFdBU88bg
+    selector: 草野マサムネ
+  - id: "2021019403"
+    week: 194
+    index: 1603
+    indexInWeek: 3
+    title: Puke + Cry
+    artist: Dinosaur Jr.
+    year: 1991
+    nation: US
+    label: Blanco y Negro
+    youtube: V7kkCXAUNSA
+    selector: 草野マサムネ
+  - id: "2021019404"
+    week: 194
+    index: 1604
+    indexInWeek: 4
+    title: Out There
+    artist: Dinosaur Jr.
+    year: 1993
+    nation: US
+    label: Blanco y Negro
+    youtube: XelDCDRnboE
+    selector: 草野マサムネ
+  - id: "2021019405"
+    week: 194
+    index: 1605
+    indexInWeek: 5
+    title: Rude
+    artist: Dinosaur Jr.
+    year: 2012
+    nation: US
+    label: Jagjaguwar
+    youtube: E4L5J9k1ryI
+    selector: 草野マサムネ
+  - id: "2021019406"
+    week: 194
+    index: 1606
+    indexInWeek: 6
+    title: Tiny
+    artist: Dinosaur Jr.
+    year: 2016
+    nation: US
+    label: Jagjaguwar
+    youtube: Iwa3DO5_irM
+    selector: 草野マサムネ
+  - id: "2021019407"
+    week: 194
+    index: 1607
+    indexInWeek: 7
+    title: Garden
+    artist: Dinosaur Jr.
+    year: 2021
+    nation: US
+    label: Jagjaguwar
+    youtube: Hu0_TOybRx0
+    selector: 草野マサムネ
+  - id: "2021019408"
+    week: 194
+    index: 1608
+    indexInWeek: 8
+    title: 花占い
+    artist: 桜田淳子
+    kana: さくらだじゅんこ
+    year: 1974
+    nation: JPN
+    label: ビクター音楽産業
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
