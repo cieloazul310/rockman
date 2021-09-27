@@ -1,0 +1,114 @@
+id: "20200195"
+week: 195
+year: 2021
+title: クセになる面白ソングで漫遊記・パート4
+subtitle: ""
+guests: []
+categories: ["面白ソング特集"]
+date: 2021-09-26
+playlist:
+  - id: "2021019501"
+    week: 195
+    index: 1609
+    indexInWeek: 1
+    title: ありがとさん
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    youtube: I24azAvtwu8
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019502"
+    week: 195
+    index: 1610
+    indexInWeek: 2
+    title: バカボンの国のポンパラスの種
+    artist: ローザ・ルクセンブルグ
+    year: 1987
+    nation: JPN
+    label: MIDI INC.
+    youtube: -VnsHNVAm1s
+    selector: 草野マサムネ
+  - id: "2021019503"
+    week: 195
+    index: 1611
+    indexInWeek: 3
+    title: To Sing a Metal Song
+    artist: Van Canto
+    year: 2010
+    nation: GER
+    label: Napalm Records
+    youtube: 6bFxdSFMpMQ
+    selector: 草野マサムネ
+  - id: "2021019504"
+    week: 195
+    index: 1612
+    indexInWeek: 4
+    title: 安めぐみのテーマ
+    artist: 水中、それは苦しい
+    kana: すいちゅうそれはくるしい
+    year: 2006
+    nation: JPN
+    label: 初恋妄℃学園
+    youtube: NTUlmFgfNRs
+    selector: 草野マサムネ
+  - id: "2021019505"
+    week: 195
+    index: 1613
+    indexInWeek: 5
+    title: It's No Game (No. 1)
+    artist: David Bowie
+    year: 1980
+    nation: UK
+    label: RCA
+    youtube: 24Ur_OdR7yo
+    selector: 草野マサムネ
+  - id: "2021019506"
+    week: 195
+    index: 1614
+    indexInWeek: 6
+    title: カオリバー
+    artist: 辻香織
+    kana: つじかおり
+    year: 2017
+    nation: JPN
+    label: コロムビアミュージックエンタテインメント
+    youtube: tZDmL2A8SsE
+    selector: 草野マサムネ
+  - id: "2021019507"
+    week: 195
+    index: 1615
+    indexInWeek: 7
+    title: 初恋バンザイ
+    artist: 笑福亭鶴瓶
+    kana: しょうふくていつるべ
+    year: 1976
+    nation: JPN
+    label: Roon Record
+    selector: 草野マサムネ
+  - id: "2021019508"
+    week: 195
+    index: 1616
+    indexInWeek: 8
+    title: Anata Bakana
+    artist: Yamasuki Singers
+    year: 1971
+    nation: FRA
+    label: Biram
+    youtube: H4hK9S7nhJw
+    selector: 草野マサムネ
+  - id: "2021019509"
+    week: 195
+    index: 1617
+    indexInWeek: 9
+    title: 下ッ端
+    artist: 金玉
+    kana: こんぎょく
+    year: 1973
+    nation: JPN
+    label: キングレコード
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
