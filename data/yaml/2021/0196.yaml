@@ -1,0 +1,100 @@
+id: "20200196"
+week: 196
+year: 2021
+title: キッスのソロアルバムで漫遊記
+subtitle: ""
+guests: []
+categories: ["変則アーティスト特集"]
+date: 2021-10-03
+playlist:
+  - id: "2021019601"
+    week: 196
+    index: 1618
+    indexInWeek: 1
+    title: 不思議
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019602"
+    week: 196
+    index: 1619
+    indexInWeek: 2
+    title: Hold Me, Touch Me (Think of Me When We're Apart)
+    artist: Paul Stanley
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: g1x7slXlHX8
+    selector: 草野マサムネ
+  - id: "2021019603"
+    week: 196
+    index: 1620
+    indexInWeek: 3
+    title: Wouldn't You Like to Know Me
+    artist: Paul Stanley
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: blhRlW0IUBI
+    selector: 草野マサムネ
+  - id: "2021019604"
+    week: 196
+    index: 1621
+    indexInWeek: 4
+    title: Rip It Out
+    artist: Ace Frehley
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: 3C_sIotnmVQ
+    selector: 草野マサムネ
+  - id: "2021019605"
+    week: 196
+    index: 1622
+    indexInWeek: 5
+    title: New York Groove
+    artist: Ace Frehley
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: DXeeY9D9u94
+    selector: 草野マサムネ
+  - id: "2021019606"
+    week: 196
+    index: 1623
+    indexInWeek: 6
+    title: You Matter to Me
+    artist: Peter Criss
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: Wd-2CcdoWEY
+    selector: 草野マサムネ
+  - id: "2021019607"
+    week: 196
+    index: 1624
+    indexInWeek: 7
+    title: See You in Your Dreams
+    artist: Gene Simmons
+    year: 1978
+    nation: US
+    label: Casablanca
+    youtube: gYvzkfn8Ig4
+    selector: 草野マサムネ
+  - id: "2021019608"
+    week: 196
+    index: 1625
+    indexInWeek: 8
+    title: 危険な女神
+    artist: KATSUMI
+    year: 1990
+    nation: JPN
+    label: パイオニアLDC
+    youtube: aVFpt603atc
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
