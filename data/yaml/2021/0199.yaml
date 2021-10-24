@@ -1,0 +1,101 @@
+id: "20200199"
+week: 199
+year: 2021
+title: カラオケで歌ってみたいロックナンバー・パート2
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2021-10-24
+playlist:
+  - id: "2021019901"
+    week: 199
+    index: 1642
+    indexInWeek: 1
+    title: YM71D
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019902"
+    week: 199
+    index: 1643
+    indexInWeek: 2
+    title: 狙いうち
+    artist: 山本リンダ
+    kana: やまもとりんだ
+    year: 1973
+    nation: JPN
+    label: キャニオンレコード
+    youtube: H6gl70Akg-c
+    selector: リクエスト
+  - id: "2021019903"
+    week: 199
+    index: 1644
+    indexInWeek: 3
+    title: Black Dog
+    artist: Led Zeppelin
+    year: 1971
+    nation: UK
+    label: Atlantic
+    youtube: 6tlSx0jkuLM
+    selector: リクエスト
+  - id: "2021019904"
+    week: 199
+    index: 1645
+    indexInWeek: 4
+    title: おにぎりユニバース
+    artist: 私の思い出
+    kana: わたしのおもいで
+    year: 2016
+    nation: JPN
+    label: 思い出レコード
+    youtube: TfQpHRreRmM
+    selector: リクエスト
+  - id: "2021019905"
+    week: 199
+    index: 1646
+    indexInWeek: 5
+    title: 感情のピクセル
+    artist: 岡崎体育
+    kana: おかざきたいいく
+    year: 2017
+    nation: JPN
+    label: SME Records
+    youtube: 3yoJY0IqiV0
+    selector: リクエスト
+  - id: "2021019906"
+    week: 199
+    index: 1647
+    indexInWeek: 6
+    title: If It Makes You Happy
+    artist: Sheryl Crow
+    year: 1996
+    nation: US
+    label: A&M
+    youtube: dyihQtBes1I
+    selector: リクエスト
+  - id: "2021019907"
+    week: 199
+    index: 1648
+    indexInWeek: 7
+    title: キモちE
+    artist: RCサクセション
+    year: 1980
+    nation: JPN
+    label: Kitty Records
+    selector: リクエスト
+  - id: "2021019908"
+    week: 199
+    index: 1649
+    indexInWeek: 8
+    title: 二人の世界
+    artist: あおい輝彦
+    year: 1971
+    nation: JPN
+    label: RCA
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
