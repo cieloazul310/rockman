@@ -1,0 +1,109 @@
+id: "20200200"
+week: 200
+year: 2021
+title: エンジェルなロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-10-31
+playlist:
+  - id: "2021020001"
+    week: 200
+    index: 1650
+    indexInWeek: 1
+    title: 僕の天使マリ
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020002"
+    week: 200
+    index: 1651
+    indexInWeek: 2
+    title: Rock and Rollers
+    artist: Angel
+    year: 1975
+    nation: US
+    label: Casablanca
+    selector: 草野マサムネ
+  - id: "2021020003"
+    week: 200
+    index: 1652
+    indexInWeek: 3
+    title: Angel Witch
+    artist: Angel Witch
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: 8oZpW3wyiWI
+    selector: 草野マサムネ
+  - id: "2021020004"
+    week: 200
+    index: 1653
+    indexInWeek: 4
+    title: Woman in Disguise
+    artist: Angelic Upstarts
+    year: 1983
+    nation: UK
+    label: Anagram Records
+    youtube: i0QSw9YhL6w
+    selector: 草野マサムネ
+  - id: "2021020005"
+    week: 200
+    index: 1654
+    indexInWeek: 5
+    title: I'd Kill for Her
+    artist: The Black Angels
+    year: 2017
+    nation: US
+    label: Partisan Records
+    youtube: 4C7tfkuGqe4
+    selector: 草野マサムネ
+  - id: "2021020006"
+    week: 200
+    index: 1655
+    indexInWeek: 6
+    title: Bang My Drum
+    artist: Angel Du$t
+    year: 2019
+    nation: US
+    label: Roadrunner Records
+    youtube: Ij4sNyfsX5w
+    selector: 草野マサムネ
+  - id: "2021020007"
+    week: 200
+    index: 1656
+    indexInWeek: 7
+    title: Super Ultimate Happy Happy Song
+    artist: 夕闇に誘いし漆黒の天使達
+    kana: ゆうやみにいざないししっこくのえんじぇる
+    year: 2021
+    nation: JPN
+    label: NEO KINDER RECORD
+    youtube: 0zqyxc2iT1Y
+    selector: 草野マサムネ
+  - id: "2021020008"
+    week: 200
+    index: 1657
+    indexInWeek: 8
+    title: Ride the Sky
+    artist: Lucifer's Friend
+    year: 1970
+    nation: GER
+    label: Philips
+    youtube: VD_mytxCdeg
+    selector: 草野マサムネ
+  - id: "2021020009"
+    week: 200
+    index: 1658
+    indexInWeek: 9
+    title: 君にTRY AGAIN
+    artist: BLUE ANGEL
+    year: 1993
+    nation: JPN
+    label: 東芝EMI
+    youtube: bQ_uuLNT8aA
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
