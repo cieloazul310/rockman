@@ -1019,6 +1019,14 @@
     - id: "024401"
       index: 1
       title: 紫の夜を越えて
+- id: sg45
+  albumIdNum: 245
+  year: 2021
+  title: 大好物
+  tunes:
+    - id: "024501"
+      index: 1
+      title: 大好物
 - id: tr200212
   albumIdNum: 3002
   year: 2002

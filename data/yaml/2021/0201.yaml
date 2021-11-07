@@ -1,0 +1,110 @@
+id: "20201201"
+week: 201
+year: 2021
+title: ティンパニーが入ったナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["楽器"]
+date: 2021-11-07
+playlist:
+  - id: "2021020101"
+    week: 201
+    index: 1659
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: Z5uEbh1ZG9k
+    selector: 草野マサムネ
+  - id: "2021020102"
+    week: 201
+    index: 1660
+    indexInWeek: 2
+    title: 愛のしるし
+    artist: PUFFY
+    year: 1998
+    nation: JPN
+    label: エピックレコードジャパン
+    youtube: AfjqLXhNSjw
+    selector: 草野マサムネ
+  - id: "2021020103"
+    week: 201
+    index: 1661
+    indexInWeek: 3
+    title: In My Room
+    artist: The Walker Brothers
+    year: 1966
+    nation: US
+    label: Philips
+    youtube: C9nOOJ6EJH4
+    selector: 草野マサムネ
+  - id: "2021020104"
+    week: 201
+    index: 1662
+    indexInWeek: 4
+    title: Every Little Thing
+    artist: The Beatles
+    year: 1964
+    nation: UK
+    label: Parlophone
+    youtube: jrDikOz8YSU
+    selector: 草野マサムネ
+  - id: "2021020105"
+    week: 201
+    index: 1663
+    indexInWeek: 5
+    title: White Room
+    artist: Cream
+    year: 1968
+    nation: UK
+    label: Polydor
+    youtube: V5BF1V1pbTs
+    selector: 草野マサムネ
+  - id: "2021020106"
+    week: 201
+    index: 1664
+    indexInWeek: 6
+    title: Angel from Hamburger Heaven
+    artist: Alvin Stardust
+    year: 1975
+    nation: UK
+    label: Magnet
+    youtube: QafjMTxqZp4
+    selector: 草野マサムネ
+  - id: "2021020107"
+    week: 201
+    index: 1665
+    indexInWeek: 7
+    title: Jerusalem
+    artist: Emerson, Lake & Palmer
+    year: 1973
+    nation: UK
+    label: Manticore
+    youtube: JjIwdv8bmjI
+    selector: 草野マサムネ
+  - id: "2021020108"
+    week: 201
+    index: 1666
+    indexInWeek: 8
+    title: Viva la Vida
+    artist: Coldplay
+    year: 2008
+    nation: UK
+    label: Parlophone
+    youtube: dvgZkm1xWPE
+    selector: 草野マサムネ
+  - id: "2021020109"
+    week: 201
+    index: 1667
+    indexInWeek: 9
+    title: 銀色クリアデイズ (NEW MIX)
+    artist: 堂島孝平
+    kana: どうじまこうへい
+    year: 2004
+    nation: JPN
+    label: 徳間ジャパンコミュニケーションズ
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
