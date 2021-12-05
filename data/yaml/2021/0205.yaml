@@ -1,0 +1,99 @@
+id: "20210205"
+week: 205
+year: 2021
+title: デジロック的なナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-12-05
+playlist:
+  - id: "2021020501"
+    week: 205
+    index: 1695
+    indexInWeek: 1
+    title: いろは
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 石田小吉
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020502"
+    week: 205
+    index: 1696
+    indexInWeek: 2
+    title: Firestarter
+    artist: The Prodigy
+    year: 1997
+    nation: UK
+    label: Big beat
+    youtube: wmin5WkOuPw
+    selector: 草野マサムネ
+  - id: "2021020503"
+    week: 205
+    index: 1697
+    indexInWeek: 3
+    title: Setting Sun
+    artist: The Chemical Brothers
+    year: 1997
+    nation: UK
+    label: Freestyle Dust
+    youtube: p5NX1FC-7-w
+    selector: 草野マサムネ
+  - id: "2021020504"
+    week: 205
+    index: 1698
+    indexInWeek: 4
+    title: Genius
+    artist: Pitchshifter
+    year: 1998
+    nation: UK
+    label: Geffen
+    youtube: eGyhggr96Uk
+    selector: 草野マサムネ
+  - id: "2021020505"
+    week: 205
+    index: 1699
+    indexInWeek: 5
+    title: Slash Dot Dash
+    artist: Fatboy Slim
+    year: 2004
+    nation: UK
+    label: Skint
+    youtube: PrD19P2fzO0
+    selector: 草野マサムネ
+  - id: "2021020506"
+    week: 205
+    index: 1700
+    indexInWeek: 6
+    title: Yo! Future
+    artist: Apollo 440
+    year: 1999
+    nation: UK
+    label: Stealth Sonic
+    selector: 草野マサムネ
+  - id: "2021020507"
+    week: 205
+    index: 1701
+    indexInWeek: 7
+    title: Sweet Lullaby
+    artist: Deep Forest
+    year: 1992
+    nation: FR
+    label: 550 Records
+    youtube: lIF5EEneWEU
+    selector: 草野マサムネ
+  - id: "2021020508"
+    week: 205
+    index: 1702
+    indexInWeek: 8
+    title: Kick It Out
+    artist: BOOM BOOM SATELLITES
+    year: 2006
+    nation: JPN
+    label: gr8! records
+    youtube: 56KV6q9CH_4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
