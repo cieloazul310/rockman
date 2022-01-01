@@ -1,0 +1,99 @@
+id: "20220209"
+week: 209
+year: 2022
+title: 2022年セレクトから漏れた曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-01-01
+playlist:
+  - id: "2022020901"
+    week: 209
+    index: 1729
+    indexInWeek: 1
+    title: 花と虫
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022020902"
+    week: 209
+    index: 1730
+    indexInWeek: 2
+    title: 春泥棒
+    artist: ヨルシカ
+    year: 2022
+    nation: JPN
+    label: ユニバーサル
+    youtube: Sw1Flgub9s8
+    selector: 草野マサムネ
+  - id: "2022020903"
+    week: 209
+    index: 1731
+    indexInWeek: 3
+    title: Reiht euch ein ihr Lumpen
+    artist: In Extremo
+    year: 2020
+    nation: GER
+    label: Universal
+    youtube: 15v76gZbCY4
+    selector: 草野マサムネ
+  - id: "2022020904"
+    week: 209
+    index: 1732
+    indexInWeek: 4
+    title: Swigen O Genfigen
+    artist: Y Cledrau
+    year: 2017
+    nation: UK
+    label: I Ka Ching Records
+    youtube: WnypD2GnbMo
+    selector: 草野マサムネ
+  - id: "2022020905"
+    week: 209
+    index: 1733
+    indexInWeek: 5
+    title: Rock of Ages
+    artist: Def Leppard
+    year: 1983
+    nation: UK
+    label: Vertigo
+    youtube: UvhPRxeSdKE
+    selector: 草野マサムネ
+  - id: "2022020906"
+    week: 209
+    index: 1734
+    indexInWeek: 6
+    title: Shining all over feat. Gotch
+    artist: 日暮愛葉
+    kana: ひぐらしあいは
+    year: 2020
+    nation: JPN
+    label: Only In Dreams
+    youtube: dFyX6qYqVk8
+    selector: 草野マサムネ
+  - id: "2022020907"
+    week: 209
+    index: 1735
+    indexInWeek: 7
+    title: Neverending
+    artist: Turboweekend
+    year: 2012
+    nation: DNK
+    label: EMI
+    youtube: iUOM8ZZAea0
+    selector: 草野マサムネ
+  - id: "2022020908"
+    week: 209
+    index: 1736
+    indexInWeek: 8
+    title: サファリ・ナイト
+    artist: 大橋純子
+    kana: おおはしじゅんこ
+    year: 1978
+    nation: JPN
+    label: Philips
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
