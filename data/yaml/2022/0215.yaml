@@ -1,0 +1,97 @@
+id: "20220215"
+week: 215
+year: 2022
+title: パブロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-02-13
+playlist:
+  - id: "2022021501"
+    week: 215
+    index: 1776
+    indexInWeek: 1
+    title: ベビーフェイス(Album Version)
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022021502"
+    week: 215
+    index: 1777
+    indexInWeek: 2
+    title: Roxette
+    artist: Dr. Feelgood
+    year: 1974
+    nation: UK
+    label: United Artists
+    youtube: vLw-vy6NGLQ
+    selector: 草野マサムネ
+  - id: "2022021503"
+    week: 215
+    index: 1778
+    indexInWeek: 3
+    title: (What's So Funny 'Bout) Peace, Love, and Understanding
+    artist: Brinsley Schwarz
+    year: 1974
+    nation: UK
+    label: United Artists
+    selector: 草野マサムネ
+  - id: "2022021504"
+    week: 215
+    index: 1779
+    indexInWeek: 4
+    title: Dancing the Night Away
+    artist: The Motors
+    year: 1977
+    nation: UK
+    label: Virgin
+    youtube: KUwvM0An6KM
+    selector: 草野マサムネ
+  - id: "2022021505"
+    week: 215
+    index: 1780
+    indexInWeek: 5
+    title: White Honey
+    artist: Graham Parker
+    year: 1976
+    nation: UK
+    label: Vertigo
+    youtube: 3Cerr6jI_1o
+    selector: 草野マサムネ
+  - id: "2022021506"
+    week: 215
+    index: 1781
+    indexInWeek: 6
+    title: Sex & Drugs & Rock & Roll
+    artist: Ian Dury
+    year: 1977
+    nation: UK
+    label: Stiff Records
+    youtube: BCaPTNhwK-4
+    selector: 草野マサムネ
+  - id: "2022021507"
+    week: 215
+    index: 1782
+    indexInWeek: 7
+    title: Motor Boys Motor (from "Letsagetabitarockin'")
+    artist: The 101ers
+    year: 2005
+    nation: UK
+    label: Astralwerks
+    youtube: TzHAdrenbCg
+    selector: 草野マサムネ
+  - id: "2022021508"
+    week: 215
+    index: 1783
+    indexInWeek: 8
+    title: 謎はと・か・な・い・で
+    artist: 加藤有紀
+    kana: かとうゆき
+    year: 1983
+    nation: JPN
+    label: KENWOOD
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
