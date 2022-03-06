@@ -1,10 +1,10 @@
-id: "20200188"
+id: "20210188"
 week: 188
 year: 2021
-title: ブリッジミュートのズンズンロックで漫遊記 
+title: ブリッジミュートのズンズンロックで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["ギター"]
 date: 2021-08-08
 playlist:
   - id: "2021018801"
@@ -31,7 +31,7 @@ playlist:
     label: Atlantic
     youtube: 2atkj_KWLl0
     selector: 草野マサムネ
-  - id: "2021018802"
+  - id: "2021018803"
     week: 188
     index: 1555
     indexInWeek: 3

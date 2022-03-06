@@ -1,0 +1,97 @@
+id: "20210197"
+week: 197
+year: 2021
+title: ドイツ語のロックナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2021-10-10
+playlist:
+  - id: "2021019701"
+    week: 197
+    index: 1626
+    indexInWeek: 1
+    title: 遠吠えシャッフル
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019702"
+    week: 197
+    index: 1627
+    indexInWeek: 2
+    title: Ausländer
+    artist: Rammstein
+    year: 2019
+    nation: GER
+    label: Universal
+    youtube: pat2c33sbog
+    selector: 草野マサムネ
+  - id: "2021019703"
+    week: 197
+    index: 1628
+    indexInWeek: 3
+    title: Boogie Woogie-Mädchen
+    artist: Udo Lindenberg & Das Panikorchester
+    year: 1973
+    nation: GER
+    label: Telefunken
+    youtube: sg2-rvqxWhU
+    selector: 草野マサムネ
+  - id: "2021019704"
+    week: 197
+    index: 1629
+    indexInWeek: 4
+    title: Unbeschreiblich weiblich
+    artist: Nina Hagen Band
+    year: 1978
+    nation: GER
+    label: CBS
+    youtube: jST2VFRcse0
+    selector: 草野マサムネ
+  - id: "2021019705"
+    week: 197
+    index: 1630
+    indexInWeek: 5
+    title: 99 Luftballons
+    artist: Nena
+    year: 1983
+    nation: GER
+    label: Epic
+    youtube: Fpu5a0Bl8eY
+    selector: 草野マサムネ
+  - id: "2021019706"
+    week: 197
+    index: 1631
+    indexInWeek: 6
+    title: Wir beide
+    artist: Juli
+    year: 2006
+    nation: GER
+    label: Universal
+    youtube: 7HJ48oJ7IQE
+    selector: 草野マサムネ
+  - id: "2021019707"
+    week: 197
+    index: 1632
+    indexInWeek: 7
+    title: Songs für Liam
+    artist: Kraftklub
+    year: 2012
+    nation: GER
+    label: Universal
+    youtube: 0zm68cRptYo
+    selector: 草野マサムネ
+  - id: "2021019708"
+    week: 197
+    index: 1633
+    indexInWeek: 8
+    title: 言錆の樹
+    artist: ジン
+    year: 2005
+    nation: JPN
+    label: 3xB
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

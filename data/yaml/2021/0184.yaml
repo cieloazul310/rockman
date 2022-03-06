@@ -1,4 +1,4 @@
-id: "20200184"
+id: "20210184"
 week: 184
 year: 2021
 title: ディスコビートのロックナンバーで漫遊記
@@ -31,7 +31,7 @@ playlist:
     label: Warner Bros.
     youtube: Hphwfq1wLJs
     selector: 草野マサムネ
-  - id: "2021018402"
+  - id: "2021018403"
     week: 184
     index: 1524
     indexInWeek: 3
@@ -46,7 +46,7 @@ playlist:
     week: 184
     index: 1525
     indexInWeek: 4
-    title: After the Gold Rush
+    title: Heart of Glass
     artist: Blondie
     year: 1979
     nation: US

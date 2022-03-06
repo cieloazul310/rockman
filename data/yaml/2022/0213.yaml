@@ -1,0 +1,87 @@
+id: "20220213"
+week: 213
+year: 2022
+title: ポール・ディアノで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-01-30
+playlist:
+  - id: "2022021301"
+    week: 213
+    index: 1761
+    indexInWeek: 1
+    title: トビウオ
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022021302"
+    week: 213
+    index: 1762
+    indexInWeek: 2
+    title: Iron Maiden
+    artist: Iron Maiden
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: L3OHi_vw4jY
+    selector: 草野マサムネ
+  - id: "2022021303"
+    week: 213
+    index: 1763
+    indexInWeek: 3
+    title: Remember Tomorrow
+    artist: Iron Maiden
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: hvoStFJFTb8
+    selector: 草野マサムネ
+  - id: "2022021304"
+    week: 213
+    index: 1764
+    indexInWeek: 4
+    title: Purgatory
+    artist: Iron Maiden
+    year: 1981
+    nation: UK
+    label: EMI
+    youtube: ie7GZGdgdPQ
+    selector: 草野マサムネ
+  - id: "2022021305"
+    week: 213
+    index: 1765
+    indexInWeek: 5
+    title: Antigua
+    artist: Di'Anno
+    year: 1984
+    nation: UK
+    label: FM Coast to Coast
+    youtube: -3ej5NzwdMI
+    selector: 草野マサムネ
+  - id: "2022021306"
+    week: 213
+    index: 1766
+    indexInWeek: 6
+    title: Torch Of Hate
+    artist: Paul Di'anno's Battlezone
+    year: 1987
+    nation: UK
+    label: Powerstation Records
+    youtube: ogvC7mIk7k0
+    selector: 草野マサムネ
+  - id: "2022021307"
+    week: 213
+    index: 1767
+    indexInWeek: 7
+    title: 山田君
+    artist: 0930
+    kana: おくさま
+    year: 2000
+    nation: JPN
+    label: HEAT WAVE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -9,9 +9,7 @@ date: 2018-04-29
 playlist:
   - id: "2018001701"
     week: 17
-    name: 群青
     artist: スピッツ
-    kana: ""
     year: 2007
     nation: JPN
     label: ユニバーサル
@@ -25,14 +23,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001702"
     week: 17
-    name: July Morning
     artist: Uriah Heep
-    kana: ""
     year: 1971
     nation: UK
     label: Bronze
-    producer: []
-    corner: ""
     youtube: SAx5XtiB2CQ
     title: July Morning
     index: 133
@@ -40,14 +34,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001703"
     week: 17
-    name: Look at Yourself
     artist: Uriah Heep
-    kana: ""
     year: 1971
     nation: UK
     label: Bronze
-    producer: []
-    corner: ""
     youtube: 07qum-r17A8
     title: Look at Yourself
     index: 134
@@ -55,14 +45,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001704"
     week: 17
-    name: The Wizard
     artist: Uriah Heep
-    kana: ""
     year: 1972
     nation: UK
     label: Bronze
-    producer: []
-    corner: ""
     youtube: Mki3xYnStUM
     title: The Wizard
     index: 135
@@ -70,14 +56,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001705"
     week: 17
-    name: Come Away Melinda
     artist: Uriah Heep
-    kana: ""
     year: 1970
     nation: UK
     label: Vertigo
-    producer: []
-    corner: ""
     youtube: 21aH8nI5Nhw
     title: Come Away Melinda
     index: 136
@@ -85,14 +67,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001706"
     week: 17
-    name: Too Scared to Run
     artist: Uriah Heep
-    kana: ""
     year: 1982
     nation: UK
     label: Bronze
-    producer: []
-    corner: ""
     youtube: kUgItn-NM9M
     title: Too Scared to Run
     index: 137
@@ -100,14 +78,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001707"
     week: 17
-    name: I Can See You
     artist: Uriah Heep
-    kana: ""
     year: 2011
     nation: UK
     label: Frontiers
-    producer: []
-    corner: ""
     youtube: wWy3HyDwcBE
     title: I Can See You
     index: 138
@@ -115,15 +89,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001708"
     week: 17
-    name: この森へ←
     artist: チエ・カジウラ
-    kana: ""
     year: 1996
     nation: JPN
     label: SPEEDSTAR RECORDS
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: Pj7gT-DN05c
     title: この森へ←
     index: 139
     indexInWeek: 8

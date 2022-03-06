@@ -876,6 +876,9 @@
     - id: "010109"
       index: 9
       title: 青い車
+    - id: "010115"
+      index: 15
+      title: スカーレット
 - id: sc02
   albumIdNum: 102
   year: 2006
@@ -907,6 +910,23 @@
     - id: "010315"
       index: 15
       title: 1987→
+- id: sp0100
+  albumIdNum: 151
+  year: 2021
+  title: 花鳥風月+
+  tunes:
+    - id: "015112"
+      index: 12
+      title: ヒバリのこころ(インディーズver.)
+    - id: "015114"
+      index: 14
+      title: 353号線のうた
+    - id: "015115"
+      index: 15
+      title: 恋のうた(インディーズver.)
+    - id: "015117"
+      index: 17
+      title: 死にもの狂いのカゲロウを見ていた
 - id: sg08
   albumIdNum: 208
   year: 1994
@@ -999,6 +1019,14 @@
     - id: "024401"
       index: 1
       title: 紫の夜を越えて
+- id: sg45
+  albumIdNum: 245
+  year: 2021
+  title: 大好物
+  tunes:
+    - id: "024501"
+      index: 1
+      title: 大好物
 - id: tr200212
   albumIdNum: 3002
   year: 2002

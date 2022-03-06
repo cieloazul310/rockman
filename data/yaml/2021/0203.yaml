@@ -1,0 +1,98 @@
+id: "20210203"
+week: 203
+year: 2021
+title: ヘアメタルで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-11-21
+playlist:
+  - id: "2021020301"
+    week: 203
+    index: 1678
+    indexInWeek: 1
+    title: 僕はきっと旅に出る
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020302"
+    week: 203
+    index: 1679
+    indexInWeek: 2
+    title: Shake Me
+    artist: Cinderella
+    year: 1986
+    nation: US
+    label: Mercury
+    youtube: ptPekKOigkQ
+    selector: 草野マサムネ
+  - id: "2021020303"
+    week: 203
+    index: 1680
+    indexInWeek: 3
+    title: The Strong Will Rock
+    artist: Black 'n Blue
+    year: 1984
+    nation: US
+    label: Geffen
+    selector: 草野マサムネ
+  - id: "2021020304"
+    week: 203
+    index: 1681
+    indexInWeek: 4
+    title: Fallen Angel
+    artist: Poison
+    year: 1988
+    nation: US
+    label: Enigma
+    youtube: CIqxx14TcMA
+    selector: 草野マサムネ
+  - id: "2021020305"
+    week: 203
+    index: 1682
+    indexInWeek: 5
+    title: Makes Me Wanna Sing
+    artist: Stryper
+    year: 1985
+    nation: US
+    label: Enigma
+    youtube: SVnKvvK7sgc
+    selector: 草野マサムネ
+  - id: "2021020306"
+    week: 203
+    index: 1683
+    indexInWeek: 6
+    title: Gotta Let Go
+    artist: Lita Ford
+    year: 1984
+    nation: US
+    label: Mercury
+    selector: 草野マサムネ
+  - id: "2021020307"
+    week: 203
+    index: 1684
+    indexInWeek: 7
+    title: Eyes of a Panther
+    artist: Steel Panther
+    year: 2009
+    nation: US
+    label: Universal
+    youtube: ZnZM1CzQF8Y
+    selector: 草野マサムネ
+  - id: "2021020308"
+    week: 203
+    index: 1685
+    indexInWeek: 8
+    title: P.S. I LOVE YOU
+    artist: PINK SAPPHIRE
+    year: 1990
+    nation: JPN
+    label: ハミングバードレコード
+    youtube: H3X7DLgV4u0
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

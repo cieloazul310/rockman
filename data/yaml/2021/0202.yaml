@@ -1,0 +1,123 @@
+id: "20210202"
+week: 202
+year: 2021
+title: ダムドで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-11-14
+playlist:
+  - id: "2021020201"
+    week: 202
+    index: 1668
+    indexInWeek: 1
+    title: 紫の夜を越えて
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: nqjkgsRD7Sw
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020202"
+    week: 202
+    index: 1669
+    indexInWeek: 2
+    title: Neat Neat Neat
+    artist: The Damned
+    year: 1977
+    nation: UK
+    label: Stiff
+    youtube: gXKDtkCzSCw
+    selector: 草野マサムネ
+  - id: "2021020203"
+    week: 202
+    index: 1670
+    indexInWeek: 3
+    title: Fan Club
+    artist: The Damned
+    year: 1977
+    nation: UK
+    label: Stiff
+    youtube: eq61uIImbU8
+    selector: 草野マサムネ
+  - id: "2021020204"
+    week: 202
+    index: 1671
+    indexInWeek: 4
+    title: Love Song
+    artist: The Damned
+    year: 1979
+    nation: UK
+    label: Chiswick
+    youtube: gc0och2Q_zg
+    selector: 草野マサムネ
+  - id: "2021020205"
+    week: 202
+    index: 1672
+    indexInWeek: 5
+    title: Smash It Up (Part 1)
+    artist: The Damned
+    year: 1979
+    nation: UK
+    label: Chiswick
+    youtube: -FFx68qSAuY
+    selector: 草野マサムネ
+  - id: "2021020206"
+    week: 202
+    index: 1673
+    indexInWeek: 6
+    title: Smash It Up (Part 2)
+    artist: The Damned
+    year: 1979
+    nation: UK
+    label: Chiswick
+    youtube: -FFx68qSAuY
+    selector: 草野マサムネ
+  - id: "2021020207"
+    week: 202
+    index: 1674
+    indexInWeek: 7
+    title: Grimly Fiendish
+    artist: The Damned
+    year: 1985
+    nation: UK
+    label: Off Beat
+    youtube: veSSSW2-Nz8
+    selector: 草野マサムネ
+  - id: "2021020208"
+    week: 202
+    index: 1675
+    indexInWeek: 8
+    title: Black Is the Night
+    artist: The Damned
+    year: 2019
+    nation: UK
+    label: BMG
+    youtube: da7Bc_w4nhM
+    selector: 草野マサムネ
+  - id: "2021020209"
+    week: 202
+    index: 1676
+    indexInWeek: 9
+    title: Melody Lee
+    artist: The Damned
+    year: 1979
+    nation: UK
+    label: Chiswick
+    youtube: qPL2O-tPEc4
+    selector: 草野マサムネ
+  - id: "2021020210"
+    week: 202
+    index: 1677
+    indexInWeek: 10
+    title: ハナノイロ
+    artist: nano.RIPE
+    year: 2011
+    nation: JPN
+    label: Lantis
+    youtube: 8GMrg7d7AQk
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

@@ -1,0 +1,97 @@
+id: "20210193"
+week: 193
+year: 2021
+title: 作詞の師匠で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-09-12
+playlist:
+  - id: "2021019301"
+    week: 193
+    index: 1593
+    indexInWeek: 1
+    title: アカネ
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 石田小吉
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019302"
+    week: 193
+    index: 1594
+    indexInWeek: 2
+    title: 玉ネギ畑
+    artist: The STALIN
+    year: 1982
+    nation: JPN
+    label: クライマックスレコード
+    selector: 草野マサムネ
+  - id: "2021019303"
+    week: 193
+    index: 1595
+    indexInWeek: 3
+    title: うめたて
+    artist: ZELDA
+    year: 1983
+    nation: JPN
+    label: 日本フォノグラム
+    selector: 草野マサムネ
+  - id: "2021019304"
+    week: 193
+    index: 1596
+    indexInWeek: 4
+    title: 人にやさしく
+    artist: THE BLUE HEARTS
+    year: 1988
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+  - id: "2021019305"
+    week: 193
+    index: 1597
+    indexInWeek: 5
+    title: タイム・トラベル
+    artist: 原田真二
+    kana: はらだしんじ
+    year: 1978
+    nation: JPN
+    label: フォーライフレコード
+    selector: 草野マサムネ
+  - id: "2021019306"
+    week: 193
+    index: 1598
+    indexInWeek: 6
+    title: Wave of Mutilation
+    artist: Pixies
+    year: 1989
+    nation: US
+    label: 4AD
+    youtube: RuHeAs0rw5M
+    selector: 草野マサムネ
+  - id: "2021019307"
+    week: 193
+    index: 1599
+    indexInWeek: 7
+    title: そして僕は途方に暮れる
+    artist: 大沢誉志幸
+    kana: おおさわよしゆき
+    year: 1984
+    nation: JPN
+    label: EPICソニー
+    selector: 草野マサムネ
+  - id: "2021019308"
+    week: 193
+    index: 1600
+    indexInWeek: 8
+    title: 恋は、ご多忙申し上げます
+    artist: 原由子
+    kana: はらゆうこ
+    year: 1983
+    nation: JPN
+    label: タイシタレーベル
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

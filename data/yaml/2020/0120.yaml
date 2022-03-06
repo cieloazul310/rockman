@@ -88,6 +88,7 @@ playlist:
     year: 1995
     nation: JPN
     label: MCAビクター
+    youtube: bYDExWsMD_g
     selector: 草野マサムネ
   - id: "2020012008"
     week: 120
@@ -98,5 +99,6 @@ playlist:
     year: 1990
     nation: JPN
     label: ポリスター
+    youtube: miM7d6pZ7uA
     corner: ちょっぴりタイムマシン
     selector: 草野マサムネ

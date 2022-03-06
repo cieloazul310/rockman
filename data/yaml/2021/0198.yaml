@@ -1,0 +1,101 @@
+id: "20210198"
+week: 198
+year: 2021
+title: カラオケで歌ってみたいロックナンバー・パート1
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2021-10-17
+playlist:
+  - id: "2021019801"
+    week: 198
+    index: 1634
+    indexInWeek: 1
+    title: ロビンソン
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    youtube: 51CH3dPaWXc
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019802"
+    week: 198
+    index: 1635
+    indexInWeek: 2
+    title: 褒めろよ
+    artist: GLIM SPANKY
+    year: 2015
+    nation: JPN
+    label: Virgin Records
+    youtube: HE4WwsgQSDg
+    selector: リクエスト
+  - id: "2021019803"
+    week: 198
+    index: 1636
+    indexInWeek: 3
+    title: Don't Stop Me Now
+    artist: Queen
+    year: 1979
+    nation: UK
+    label: EMI
+    youtube: HgzGwKwLmgM
+    selector: リクエスト
+  - id: "2021019804"
+    week: 198
+    index: 1637
+    indexInWeek: 4
+    title: MONSTAR
+    artist: いきものがかり
+    year: 2013
+    nation: JPN
+    label: エピックレコードジャパン
+    selector: リクエスト
+  - id: "2021019805"
+    week: 198
+    index: 1638
+    indexInWeek: 5
+    title: ラメのパンタロン
+    artist: ゆらゆら帝国
+    year: 2001
+    nation: JPN
+    label: ユニバーサル
+    youtube: G8YSJb4OwKg
+    selector: リクエスト
+  - id: "2021019806"
+    week: 198
+    index: 1639
+    indexInWeek: 6
+    title: Runaway
+    artist: Bon Jovi
+    year: 1984
+    nation: US
+    label: Mercury
+    youtube: s86K-p089R8
+    selector: リクエスト
+  - id: "2021019807"
+    week: 198
+    index: 1640
+    indexInWeek: 7
+    title: 欲望のしるし
+    artist: 奇妙礼太郎
+    kana: きみょうれいたろう
+    year: 2017
+    nation: JPN
+    label: unBORDE
+    selector: リクエスト
+  - id: "2021019808"
+    week: 198
+    index: 1641
+    indexInWeek: 8
+    title: かもめ
+    artist: 浅川マキ
+    kana: あさかわまき
+    year: 1971
+    nation: JPN
+    label: EXPRESS
+    youtube: myJfKIfl2xk
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

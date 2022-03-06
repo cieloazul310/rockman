@@ -9,7 +9,6 @@ date: 2018-02-04
 playlist:
   - id: "2018000501"
     week: 5
-    name: みなと
     artist: スピッツ
     year: 2016
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000502"
     week: 5
-    name: The Drugs Don’t Work
     artist: The Verve
     year: 1997
     nation: UK
@@ -38,7 +36,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000503"
     week: 5
-    name: Real Animal
     artist: The House of Love
     year: 1987
     nation: UK
@@ -50,7 +47,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000504"
     week: 5
-    name: Can’t Be Sure
     artist: The Sundays
     year: 1989
     nation: UK
@@ -64,7 +60,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000505"
     week: 5
-    name: 空洞です
     artist: ゆらゆら帝国
     year: 2007
     nation: JPN
@@ -76,7 +71,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000506"
     week: 5
-    name: Summer of '69
     artist: Bryan Adams
     year: 1984
     nation: CAN
@@ -90,7 +84,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000507"
     week: 5
-    name: I Don't Know What It Is
     artist: Rufus Wainwright
     year: 2004
     nation: CAN
@@ -104,7 +97,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000508"
     week: 5
-    name: 夕なぎ
     artist: Nav Katze
     year: 1987
     nation: JPN
@@ -113,6 +105,7 @@ playlist:
       - 窪田晴男
     corner: ちょっぴりタイムマシン
     title: 夕なぎ
+    youtube: IWkNf-F3Rj8
     index: 40
     indexInWeek: 8
     selector: 草野マサムネ

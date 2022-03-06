@@ -9,7 +9,6 @@ date: 2018-05-06
 playlist:
   - id: "2018001801"
     week: 18
-    name: ガーベラ
     artist: スピッツ
     year: 2002
     nation: JPN
@@ -23,18 +22,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001802"
     week: 18
-    name: センチメンタル
     artist: Syrup16g
     year: 2002
     nation: JPN
     label: トライアド
     title: センチメンタル
+    youtube: 1RrdWrcaMQE
     index: 141
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2018001803"
     week: 18
-    name: 小さなリンジー
     artist: 田中茉裕
     kana: たなかまひろ
     year: 2012
@@ -47,7 +45,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001804"
     week: 18
-    name: 貴方が好きな私
     artist: 阿部真央
     kana: あべまお
     year: 2013
@@ -60,7 +57,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001805"
     week: 18
-    name: サルビアの花
     artist: もとまろ
     year: 1972
     nation: JPN
@@ -71,7 +67,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001806"
     week: 18
-    name: Autre Temps
     artist: Alcest
     year: 2012
     nation: FR
@@ -83,7 +78,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001807"
     week: 18
-    name: ひかりのふるさと
     artist: 青葉市子
     kana: あおばいちこ
     year: 2012
@@ -96,7 +90,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001808"
     week: 18
-    name: Boys & Girls
     artist: THE FUSE
     year: 1990
     nation: JPN

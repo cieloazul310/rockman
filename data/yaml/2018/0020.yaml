@@ -23,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002002"
     week: 20
-    name: マッハバロン
     artist: すぎうらよしひろ
     year: 1974
     nation: JPN
@@ -34,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002003"
     week: 20
-    name: ルパン三世 その2
     artist: チャーリー・コーセー
     year: 1971
     nation: JPN
@@ -46,7 +44,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002004"
     week: 20
-    name: はじめ人間ギャートルズ
     artist: ザ・ギャートルズ
     year: 1974
     nation: JPN
@@ -58,21 +55,15 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002005"
     week: 20
-    name: ファイトだ!!ピュー太
     artist: フォア・ジェッツ
     year: 1968
     nation: JPN
-    label: ""
-    producer: []
-    corner: ""
-    youtube: ""
     title: ファイトだ!!ピュー太
     index: 160
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018002006"
     week: 20
-    name: ハクション大魔王のうた
     artist: 嶋崎由理
     kana: しまざきゆり
     year: 1969
@@ -85,7 +76,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002007"
     week: 20
-    name: さすらいの太陽
     artist: スリー・グレイセス
     year: 1971
     nation: JPN
@@ -96,7 +86,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002008"
     week: 20
-    name: きこえるかしら
     artist: 大和田りつこ
     kana: おおわだりつこ
     year: 1979
@@ -108,7 +97,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002009"
     week: 20
-    name: ミクロイドS
     artist: ヤング・スターズ
     year: 1973
     nation: JPN
@@ -119,7 +107,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002010"
     week: 20
-    name: レオのうた
     artist: 弘田三枝子
     kana: ひろたみえこ
     year: 1965
@@ -130,7 +117,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002011"
     week: 20
-    name: 正義の使者だぜ ドテラマン
     artist: こおろぎ'73
     year: 1986
     nation: JPN
@@ -141,13 +127,13 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002012"
     week: 20
-    name: Kill Me Stop
     artist: CASCADE
     year: 1995
     nation: JPN
     label: ビクターエンタテイメント
     corner: ちょっぴりタイムマシン
     title: Kill Me Stop
+    youtube: 1haqSbrzk-E
     index: 167
     indexInWeek: 12
     selector: 草野マサムネ

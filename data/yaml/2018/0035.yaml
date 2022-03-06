@@ -9,7 +9,6 @@ date: 2018-09-02
 playlist:
   - id: "2018003501"
     week: 35
-    name: 夏が終わる
     artist: スピッツ
     year: 1993
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003502"
     week: 35
-    name: It's Still Rock and Roll to Me
     artist: Billy Joel
     year: 1980
     nation: US
@@ -37,7 +35,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003503"
     week: 35
-    name: Wonder Woman
     artist: Attila
     year: 1970
     nation: US
@@ -48,7 +45,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003504"
     week: 35
-    name: Los Angelenos
     artist: Billy Joel
     year: 1974
     nation: US
@@ -62,7 +58,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003505"
     week: 35
-    name: Prelude/Angry Young Man
     artist: Billy Joel
     year: 1976
     nation: US
@@ -74,7 +69,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003506"
     week: 35
-    name: You May Be Right
     artist: Billy Joel
     year: 1980
     nation: US
@@ -88,7 +82,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003507"
     week: 35
-    name: Shades of Grey
     artist: Billy Joel
     year: 1993
     nation: US
@@ -100,14 +93,13 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003508"
     week: 35
-    name: 夢ゴコチ
     artist: 江口洋介
     kana: えぐちようすけ
     year: 1991
     nation: JPN
     label: ポリドール
     corner: ちょっぴりタイムマシン
-    title: 夢ゴゴチ
+    title: 夢ゴコチ
     index: 292
     indexInWeek: 8
     selector: 草野マサムネ

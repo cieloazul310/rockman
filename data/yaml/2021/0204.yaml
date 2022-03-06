@@ -1,0 +1,110 @@
+id: "20210204"
+week: 204
+year: 2021
+title: ウェールズ語のナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2021-11-28
+playlist:
+  - id: "2021020401"
+    week: 204
+    index: 1686
+    indexInWeek: 1
+    title: 幻のドラゴン
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020402"
+    week: 204
+    index: 1687
+    indexInWeek: 2
+    title: Dyma Ni
+    artist: Fleur de Lys
+    year: 2019
+    nation: UK
+    label: Cosh Records
+    youtube: ZbgqS3-p_qE
+    selector: 草野マサムネ
+  - id: "2021020403"
+    week: 204
+    index: 1688
+    indexInWeek: 3
+    title: Hogia Ynys Môn
+    artist: Endaf Emlyn
+    year: 1972
+    nation: UK
+    label: Wren Records
+    youtube: cCYezlAsoA4
+    selector: 草野マサムネ
+  - id: "2021020404"
+    week: 204
+    index: 1689
+    indexInWeek: 4
+    title: Doli Glwt
+    artist: Sidan
+    year: 1975
+    nation: UK
+    label: Sain
+    youtube: 8gXHqFDesC4
+    selector: 草野マサムネ
+  - id: "2021020405"
+    week: 204
+    index: 1690
+    indexInWeek: 5
+    title: Y Ffordd (The Road)
+    artist: The Alarm
+    year: 1991
+    nation: UK
+    label: Crai
+    youtube: Oh_9AO2wONE
+    selector: 草野マサムネ
+  - id: "2021020406"
+    week: 204
+    index: 1691
+    indexInWeek: 6
+    title: Gyda Gwên (With A Smile)
+    artist: Catatonia
+    year: 1996
+    nation: UK
+    label: Blanco y Negro
+    youtube: HdgThqGLBsw
+    selector: 草野マサムネ
+  - id: "2021020407"
+    week: 204
+    index: 1692
+    indexInWeek: 7
+    title: Dal I Ddysgu
+    artist: Y Bandana
+    year: 2016
+    nation: UK
+    label: Copa
+    selector: 草野マサムネ
+  - id: "2021020408"
+    week: 204
+    index: 1693
+    indexInWeek: 8
+    title: Geni Yn Y Nos
+    artist: Yws Gwynedd
+    year: 2017
+    nation: UK
+    label: Recordiau Côsh Records
+    youtube: tWDV2O1xp4g
+    selector: 草野マサムネ
+  - id: "2021020409"
+    week: 204
+    index: 1694
+    indexInWeek: 9
+    title: i don't know me.
+    artist: みつき
+    year: 2008
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: Jk-gTTYwqFg
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

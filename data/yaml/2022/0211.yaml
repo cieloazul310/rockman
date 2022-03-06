@@ -1,0 +1,97 @@
+id: "20220211"
+week: 211
+year: 2022
+title: 新春スペシャル・スピッツメンバーで漫遊記2022・田村明浩編
+subtitle: マーシャルアンプで漫遊記
+guests: ["田村明浩"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
+date: 2022-01-16
+playlist:
+  - id: "2022021101"
+    week: 211
+    index: 1745
+    indexInWeek: 1
+    title: ガラクタ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 田村明浩
+  - id: "2022021102"
+    week: 211
+    index: 1746
+    indexInWeek: 2
+    title: All Your Love
+    artist: John Mayall & the Bluesbreakers
+    year: 1966
+    nation: UK
+    label: Decca
+    youtube: OkedAcAAcU4
+    selector: 田村明浩
+  - id: "2022021103"
+    week: 211
+    index: 1747
+    indexInWeek: 3
+    title: Fire (Live 1967 from "BBC Sessions")
+    artist: The Jimi Hendrix Experience
+    year: 1998
+    nation: US
+    label: Experience Hendrix
+    selector: 田村明浩
+  - id: "2022021104"
+    week: 211
+    index: 1748
+    indexInWeek: 4
+    title: Love Me Tender
+    artist: Mick Ronson
+    year: 1974
+    nation: UK
+    label: RCA
+    youtube: CFNS14NX1Ik
+    selector: 田村明浩
+  - id: "2022021105"
+    week: 211
+    index: 1749
+    indexInWeek: 5
+    title: You Shook Me All Night Long
+    artist: AC/DC
+    year: 1980
+    nation: AUS
+    label: Albert
+    youtube: Lo2qQmj0_h4
+    selector: 田村明浩
+  - id: "2022021106"
+    week: 211
+    index: 1750
+    indexInWeek: 6
+    title: Ain't Talkin' 'bout Love
+    artist: Van Halen
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: qtwBFz6lfrY
+    selector: 田村明浩
+  - id: "2022021107"
+    week: 211
+    index: 1751
+    indexInWeek: 7
+    title: Peacock Suit
+    artist: Paul Weller
+    year: 1997
+    nation: UK
+    label: Island
+    youtube: qOYrioF-hB8
+    selector: 田村明浩
+  - id: "2022021108"
+    week: 211
+    index: 1752
+    indexInWeek: 8
+    title: ANOTHER DAY,ANOTHER NIGHT
+    artist: Spiral Life
+    year: 1993
+    nation: JPN
+    label: ポリスター
+    youtube: 7FVhtg8eaF4
+    selector: 田村明浩
+    corner: ちょっぴりタイムマシン
