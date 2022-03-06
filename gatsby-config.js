@@ -116,7 +116,7 @@ module.exports = {
         exclude: ['node_modules', '.cache', 'public'],
       },
     },
-    `gatsby-plugin-remove-serviceworker`,
-    `gatsby-plugin-graphql-codegen`,
+    // `gatsby-plugin-remove-serviceworker`,
+    // `gatsby-plugin-graphql-codegen`,
   ],
 };
