@@ -125,7 +125,7 @@ function TakeOff({ data }: PageProps<TakeOffQuery>): JSX.Element {
 }
 
 export default TakeOff;
-
+/*
 export const query = graphql`
   query TakeOff {
     albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }) {
@@ -188,3 +188,4 @@ export const query = graphql`
     }
   }
 `;
+*/

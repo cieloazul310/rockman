@@ -1,4 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
+
+export { createSchemaCustomization, sourceNodes, onCreateNode, createResolvers } from './gatsby-node/index';
+/*
 require('ts-node').register({
   compilerOptions: {
     module: 'commonjs',
@@ -13,5 +16,5 @@ exports.sourceNodes = require('./gatsby-node/index').sourceNodes;
 exports.onCreateNode = require('./gatsby-node/index').onCreateNode;
 
 exports.createResolvers = require('./gatsby-node/index').createResolvers;
-
-exports.createPages = require('./gatsby-node/index').createPages;
+*/
+// exports.createPages = require('./gatsby-node/index').createPages;

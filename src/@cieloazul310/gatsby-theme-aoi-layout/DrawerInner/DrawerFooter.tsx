@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
-import Article, { Paragraph, Link } from '../../../components/Article';
+import { Article, Paragraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 
-function DrawerFooter(): JSX.Element {
+function DrawerFooter() {
   return (
     <Article>
       <Typography variant="subtitle2" gutterBottom>
@@ -19,14 +19,14 @@ function DrawerFooter(): JSX.Element {
       <Paragraph>
         <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
         <br />
-        <Link href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</Link>
+        <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
       </Paragraph>
       <Paragraph>
         全国38局放送時間一覧
         <br />
-        <Link href="https://www.tfm.co.jp/manyuki/index.php?catid=3350" rel="noopener noreferrer">
+        <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
           https://www.tfm.co.jp/manyuki/index.php?catid=3350
-        </Link>
+        </ExternalLink>
       </Paragraph>
     </Article>
   );

@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { TunesCountQuery } from '../../../graphql-types';
@@ -23,3 +24,4 @@ export default function useTunesTop25(): TunesCountQuery['allArtist']['edges'] {
   `);
   return React.useMemo(() => data.allArtist.edges, [data]);
 }
+*/

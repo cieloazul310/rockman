@@ -1,14 +1,14 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import { useLocation } from '@reach/router';
-import Layout from 'gatsby-theme-aoi/src/layout';
+import { Layout } from '@cieloazul310/gatsby-theme-aoi';
 import ContentBasis from '../components/ContentBasis';
 import NavigationBox from '../components/NavigationBox';
 
-function NotFoundPage(): JSX.Element {
+function NotFoundPage() {
   const location = useLocation();
   return (
-    <Layout title="Not Found" maxWidth="md">
+    <Layout title="Not Found">
       <Typography variant="h2" gutterBottom>
         NOT FOUND
       </Typography>

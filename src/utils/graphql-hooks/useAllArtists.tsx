@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllArtistsQuery } from '../../../graphql-types';
@@ -25,3 +26,4 @@ export function useAllArtists(): ArtistItem[] {
   `);
   return React.useMemo(() => data.allArtist.edges, [data]);
 }
+*/

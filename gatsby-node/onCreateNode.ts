@@ -1,21 +1,14 @@
 import { CreateNodeArgs, Node } from 'gatsby';
-import crypto from 'crypto';
 import { getYomi } from '../src/utils/sortByYomi';
 import { Program } from '../types';
-/*
-type ArtistContainer = {
-  [key: string]: PureArtist;
-};
 
-const artists: ArtistContainer = {};
-*/
 const artists: string[] = [];
 
 function isProgramNode(node: Node | (Program & Node)): node is Program & Node {
   return node.internal.type === 'Program';
 }
 
-export default function onCreateNode({ node, actions }: CreateNodeArgs) {
+export default function onCreateNode({ node, actions, createContentDigest, createNodeId }: CreateNodeArgs) {
   const { createNode } = actions;
 
   if (!isProgramNode(node)) return;
@@ -25,20 +18,23 @@ export default function onCreateNode({ node, actions }: CreateNodeArgs) {
     .map(({ artist, kana, nation }) => ({ artist, kana, nation }));
 
   programArtists.forEach((data) => {
-    const yomi = getYomi(data.artist, data.kana);
-    if (!artists.includes(yomi)) {
-      artists.push(yomi);
-    } else {
-      createNode({
-        id: `artist-${yomi}`,
-        parent: null,
-        children: [],
-        internal: {
-          type: 'Artist',
-          contentDigest: crypto.createHash(`md5`).update(JSON.stringify(data)).digest(`hex`),
-        },
-      });
-    }
+    const sortName = getYomi(data.artist, data.kana);
+    if (artists.includes(sortName)) return;
+
+    const nodeContent = JSON.stringify({ ...data, sortName });
+    const nodeMeta = {
+      id: createNodeId(`artist-${sortName}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: 'Artist',
+        content: nodeContent,
+        contentDigest: createContentDigest(data),
+      },
+    };
+    createNode({ ...data, sortName, ...nodeMeta });
+
+    artists.push(sortName);
   });
   /*
   const slug = `/program/${node.id}/`;

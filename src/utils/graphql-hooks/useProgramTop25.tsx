@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { ProgramCountQuery } from '../../../graphql-types';
@@ -27,3 +28,4 @@ export default function useProgramTop25(): ProgramCountQuery['allArtist']['edges
   `);
   return React.useMemo(() => data.allArtist.edges, [data]);
 }
+*/

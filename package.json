@@ -1,6 +1,7 @@
 {
   "name": "rockman",
-  "description": "Gatsby TypeScript Material-UI Starter",
+  "private": true,
+  "description": "SPITZ草野マサムネ ロック大陸漫遊記のプレイリスト集",
   "version": "0.0.1",
   "author": "cieloazul310 <cieloazul310@gmail.com>",
   "dependencies": {
@@ -9,6 +10,8 @@
     "@devexpress/dx-react-chart": "^3.0.2",
     "@devexpress/dx-react-chart-material-ui": "^3.0.2",
     "@devexpress/dx-react-core": "^3.0.2",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
     "@loadable/component": "^5.15.2",
     "@mui/icons-material": "^5.5.0",
     "@mui/material": "^5.5.0",
@@ -24,6 +27,7 @@
     "gatsby-transformer-yaml": "^4.9.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-intersection-observer": "^8.33.1",
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0",
@@ -37,7 +41,6 @@
     "material-ui"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby clean && gatsby build --prefix-paths",
     "develop": "gatsby develop -o -H 0.0.0.0",
@@ -51,7 +54,7 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.15",
+    "@babel/core": "^7.17.5",
     "@babel/preset-typescript": "^7.16.7",
     "@harelpls/storybook-addon-materialui": "^2.0.0",
     "@storybook/addon-actions": "^6.4.19",

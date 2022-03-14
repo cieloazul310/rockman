@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useAppState } from '../gatsby-theme-aoi-top-layout/utils/AppStateContext';
+import { useAppState } from '../@cieloazul310/gatsby-theme-aoi-top-layout/utils/AppStateContext';
 import { Maybe, Program, ProgramPlaylist } from '../../graphql-types';
 
 /** usage

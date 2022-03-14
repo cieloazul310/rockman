@@ -1,9 +1,8 @@
-import * as path from 'path';
 import { GatsbyConfig } from 'gatsby';
 
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
-const siteUrl = path.join(baseUrl, pathPrefix);
+// const siteUrl = path.join(baseUrl, pathPrefix);
 const contentDir = `./data`;
 
 const config: GatsbyConfig = {
@@ -12,7 +11,7 @@ const config: GatsbyConfig = {
     description:
       'ロック大陸漫遊記プレイリスト集は、TOKYO-FM他全国38局で放送されているラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。',
     lang: 'ja',
-    siteUrl,
+    siteUrl: 'https://cieloazul310.github.io/rockman',
     baseUrl,
     author: 'cieloazul310',
     keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト', 'ラジオ'],

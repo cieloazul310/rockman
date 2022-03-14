@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { HomeIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon, AboutIcon } from '../../icons';
@@ -38,3 +39,4 @@ export default function useSiteMenu(): SiteMenu[] {
     [data]
   );
 }
+*/

@@ -111,9 +111,9 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQuery, WindowState>): 
 }
 
 export default CategoriesPage;
-
+/*
 export const query = graphql`
-  query CategoriesPage {
+  query {
     allProgram(sort: { fields: week, order: ASC }, filter: { categories: { ne: "" } }) {
       group(field: categories) {
         totalCount
@@ -134,3 +134,4 @@ export const query = graphql`
     }
   }
 `;
+*/

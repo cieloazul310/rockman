@@ -1,5 +1,5 @@
 import * as React from 'react';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
 import Section, { SectionDivider } from '../components/Section';
@@ -7,7 +7,7 @@ import Article, { ArticleSection, ArticleTitle, Paragraph, H3, H4, Link } from '
 import NavigationBox from '../components/NavigationBox';
 import { AdBasic } from '../components/Ads';
 
-function About(): JSX.Element {
+function About() {
   return (
     <Layout title="このサイトについて">
       <Jumbotron title="このサイトについて" />

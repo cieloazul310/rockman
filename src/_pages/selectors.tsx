@@ -26,7 +26,7 @@ interface WindowState {
   selector?: string;
 }
 
-function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>): JSX.Element {
+function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>) {
   const selectors = React.useMemo(() => {
     const { allProgram, allTunes } = data;
     const tunes = allTunes?.sort((a, b) => (a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0)) ?? [];
@@ -143,7 +143,7 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQuery, WindowState>): JS
 }
 
 export default SelectorsPage;
-
+/*
 export const query = graphql`
   query SelectorsPage {
     allProgram(filter: { playlist: { elemMatch: { selector: { regex: "/^(?!.*草野マサムネ).*$/" } } } }) {
@@ -180,3 +180,4 @@ export const query = graphql`
     }
   }
 `;
+*/

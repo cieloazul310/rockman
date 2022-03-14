@@ -81,7 +81,7 @@ function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
 }
 
 export default ArtistTemplate;
-
+/*
 export const query = graphql`
   query ArtistTemplate($name: String!) {
     artist(name: { eq: $name }) {
@@ -128,3 +128,4 @@ export const query = graphql`
     }
   }
 `;
+*/

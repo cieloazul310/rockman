@@ -1,6 +1,8 @@
-import { CreateSchemaCustomizationArgs } from 'gatsby';
+import { Node, CreateSchemaCustomizationArgs } from 'gatsby';
+import { GatsbyGraphQLContext } from './graphql';
+import { Program, SpitzTune } from '../types';
 
-export default function createSchemaCustomization({ actions }: CreateSchemaCustomizationArgs): void {
+export default async function createSchemaCustomization({ actions, schema }: CreateSchemaCustomizationArgs) {
   const { createTypes } = actions;
 
   createTypes(`
@@ -54,7 +56,34 @@ export default function createSchemaCustomization({ actions }: CreateSchemaCusto
       id: String!
       index: Int!
       title: String!
-      append: [Program]!
+      program: [Program]!
     }
   `);
+
+  createTypes(
+    schema.buildObjectType({
+      name: `SpitzTune`,
+      fields: {
+        program: {
+          type: `[Program]!`,
+          resolve: async (source: SpitzTune, args: unknown, context: GatsbyGraphQLContext) => {
+            const { entries } = await context.nodeModel.findAll<Program & Node>({
+              type: 'Program',
+              query: {
+                filter: { playlist: { elemMatch: { title: { eq: source.title } } } },
+              },
+            });
+            return Array.from(entries)
+              .filter(({ playlist }) =>
+                playlist
+                  .filter(({ artist }) => artist === 'スピッツ')
+                  .map(({ title }) => title)
+                  .includes(source.title)
+              )
+              .sort((a, b) => a.week - b.week);
+          },
+        },
+      },
+    })
+  );
 }

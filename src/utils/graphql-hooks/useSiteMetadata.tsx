@@ -1,3 +1,4 @@
+/*
 import { graphql, useStaticQuery } from 'gatsby';
 import { Site } from '../../../graphql-types';
 
@@ -18,3 +19,4 @@ export default function useSiteMetadata(): Site['siteMetadata'] {
   `);
   return data.site.siteMetadata;
 }
+*/

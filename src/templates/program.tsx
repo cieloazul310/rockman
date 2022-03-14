@@ -82,7 +82,7 @@ function ProgramTemplate({ data, pageContext }: Props): JSX.Element {
 }
 
 export default ProgramTemplate;
-
+/*
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
     program(fields: { slug: { eq: $slug } }) {
@@ -121,3 +121,4 @@ export const query = graphql`
     }
   }
 `;
+*/

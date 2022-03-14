@@ -1,3 +1,4 @@
+/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllCategoriesQuery } from '../../../graphql-types';
@@ -30,3 +31,4 @@ export function useCategories(fieldValues: string[]): CategoryItem[] {
     return categories.filter((category) => category.fieldValue && fieldValues.includes(category.fieldValue));
   }, [fieldValues, categories]);
 }
+*/

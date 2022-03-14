@@ -2,7 +2,7 @@
 
 import { PureArtist } from './types';
 
-interface IntQueryOperatorInput {
+export type IntQueryOperatorInput = {
   eq?: number | null;
   ne?: number | null;
   gt?: number | null;
@@ -11,7 +11,7 @@ interface IntQueryOperatorInput {
   lte?: number | null;
   in?: number[] | null;
   nin?: number[] | null;
-}
+};
 
 function argIsIntQueryOperatorInput(arg: unknown | IntQueryOperatorInput): arg is IntQueryOperatorInput {
   return true;
@@ -35,14 +35,14 @@ export function intQueryFilter(arg: unknown | IntQueryOperatorInput): (input: nu
     (!nin || !nin.includes(input));
 }
 
-interface StringQueryOperatorInput {
+export type StringQueryOperatorInput = {
   eq?: string | null;
   ne?: string | null;
   in?: string[] | null;
   nin?: string[] | null;
   regex?: string | null;
   glob?: string | null;
-}
+};
 
 function argIsStringQueryOperatorInput(arg: unknown | StringQueryOperatorInput): arg is StringQueryOperatorInput {
   return true;

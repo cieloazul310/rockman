@@ -5,8 +5,8 @@ import Tabs from '@mui/material/Tabs';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
+// import makeStyles from '@mui/styles/makeStyles';
+// import createStyles from '@mui/styles/createStyles';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout/TabLayout';
@@ -24,7 +24,7 @@ import { useParseHash, useHash } from '../utils/useHash';
 import { TimeMachineQuery } from '../../graphql-types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
-
+/*
 const useStyles = makeStyles((theme) =>
   createStyles({
     year: {
@@ -35,8 +35,8 @@ const useStyles = makeStyles((theme) =>
     },
   })
 );
-
-function TimeMachinePage({ data }: PageProps<TimeMachineQuery>): JSX.Element {
+*/
+function TimeMachinePage({ data }: PageProps<TimeMachineQuery>) {
   const items = getDividedYears(data.allTunes ?? [], 5, (tune) => tune?.year ?? 0).sort((a, b) => b.value - a.value);
   const titles = React.useMemo(() => ['', ...items.map(({ value }) => value.toString())], [items]);
   const initialTab = useParseHash(titles);
@@ -129,7 +129,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachineQuery>): JSX.Element {
 }
 
 export default TimeMachinePage;
-
+/*
 export const query = graphql`
   query TimeMachine {
     allTunes(corner: { eq: "ちょっぴりタイムマシン" }) {
@@ -157,3 +157,4 @@ export const query = graphql`
     }
   }
 `;
+*/

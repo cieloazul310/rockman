@@ -1,3 +1,4 @@
+/*
 import { useStaticQuery, graphql } from 'gatsby';
 import { AllProgramQuery } from '../../../graphql-types';
 
@@ -22,3 +23,4 @@ export function useAllPrograms() {
   `);
   return data.allProgram.edges;
 }
+*/

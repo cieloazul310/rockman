@@ -1,19 +1,20 @@
 export type Sort = 'older' | 'newer';
 
-export interface AppState {
+export type AppState = {
   sort: Sort;
-}
+};
+
 export const initialAppState: AppState = {
   sort: 'older',
 };
 
-export function useInitialAppState(isMobile: boolean): AppState {
+export function useInitialAppState() {
   return initialAppState;
 }
 
 export type Action = { type: 'TOGGLE_SORT' };
 
-export default function reducer(state: AppState, action: Action): AppState {
+export default function reducer(state: AppState, action: Action) {
   switch (action.type) {
     case 'TOGGLE_SORT':
       return {

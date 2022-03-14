@@ -15,20 +15,20 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme, Theme } from '@mui/material/styles';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
+// import makeStyles from '@mui/styles/makeStyles';
+// import createStyles from '@mui/styles/createStyles';
 import SearchIcon from '@mui/icons-material/Search';
 import CancelIcon from '@mui/icons-material/Cancel';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FlagIcon from '@mui/icons-material/Flag';
 import { AutoSizer } from 'react-virtualized';
-import Layout from 'gatsby-theme-aoi/src/layout';
+import { Layout } from '@cieloazul310/gatsby-theme-aoi';
 import Artists from '../components/Artists';
 import useFullHeight from '../utils/useFullHeight';
-import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
+// import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
 import { SortType } from '../utils/sortByYomi';
-
+/*
 interface StylesProps {
   height: number;
 }
@@ -78,7 +78,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
     },
   })
 );
-
+*/
 interface StoredState {
   sortType: SortType;
   searchText: string;
@@ -87,7 +87,8 @@ interface StoredState {
   nationFilter: string[];
 }
 
-function ArtistsPage(): JSX.Element {
+function ArtistsPage() {
+  /*
   const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
   const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
 
@@ -292,6 +293,8 @@ function ArtistsPage(): JSX.Element {
       </div>
     </Layout>
   );
+  */
+  return <Layout>artist</Layout>;
 }
 
 export default ArtistsPage;

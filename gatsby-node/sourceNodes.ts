@@ -7,7 +7,7 @@ import { SpitzAlbum } from '../types';
 export default function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
   const { createNode } = actions;
 
-  const data: SpitzAlbum[] = yaml.parse(fs.readFileSync(path.resolve('../data/spitzAlbums.yaml'), 'utf8'));
+  const data: SpitzAlbum[] = yaml.parse(fs.readFileSync(path.resolve('./data/spitzAlbums.yaml'), 'utf8'));
 
   data.forEach((album) => {
     const nodeContent = JSON.stringify(album);
@@ -16,7 +16,7 @@ export default function sourceNodes({ actions, createNodeId, createContentDigest
       parent: null,
       children: [],
       internal: {
-        type: `spitzAlbum`,
+        type: `SpitzAlbum`,
         mediaType: `text/html`,
         content: nodeContent,
         contentDigest: createContentDigest(album),

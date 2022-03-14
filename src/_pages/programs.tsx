@@ -8,7 +8,7 @@ import NavigationBox from '../components/NavigationBox';
 import { AdBasic } from '../components/Ads';
 import { ProgramPageQuery } from '../../graphql-types';
 
-function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
+function ProgramsPage({ data }: PageProps<ProgramPageQuery>) {
   return (
     <Layout title="放送回">
       <Jumbotron title="放送回一覧" />
@@ -27,7 +27,7 @@ function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
 }
 
 export default ProgramsPage;
-
+/*
 export const query = graphql`
   query ProgramPage {
     allProgram(sort: { fields: week, order: ASC }) {
@@ -50,3 +50,4 @@ export const query = graphql`
     }
   }
 `;
+*/
