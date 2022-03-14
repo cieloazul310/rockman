@@ -1,0 +1,108 @@
+id: "20220218"
+week: 218
+year: 2022
+title: 元気出そうなツンタンビートで漫遊記
+subtitle: ""
+guests: []
+categories: ["リズム特集"]
+date: 2022-03-06
+playlist:
+  - id: "2022021801"
+    week: 218
+    index: 1800
+    indexInWeek: 1
+    title: 野生のポルカ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022021802"
+    week: 218
+    index: 1801
+    indexInWeek: 2
+    title: つきかけ
+    artist: LEARNERS
+    year: 2020
+    nation: JPN
+    label: KiliKiliVilla
+    youtube: vpug4Vs25uM
+    selector: 草野マサムネ
+  - id: "2022021803"
+    week: 218
+    index: 1802
+    indexInWeek: 3
+    title: Jasmine
+    artist: sumika
+    year: 2021
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    youtube: -Azf1X9e7VU
+    selector: 草野マサムネ
+  - id: "2022021804"
+    week: 218
+    index: 1803
+    indexInWeek: 4
+    title: everything is my guitar
+    artist: andymori
+    year: 2008
+    nation: JPN
+    label: Youth Records
+    youtube: SAIWRnvxmHo
+    selector: 草野マサムネ
+  - id: "2022021805"
+    week: 218
+    index: 1804
+    indexInWeek: 5
+    title: キセキの渚
+    artist: ソウル・フラワー・ユニオン
+    year: 2011
+    nation: JPN
+    label: BM-tunes
+    youtube: ai6CkT0KZoo
+    selector: 草野マサムネ
+  - id: "2022021806"
+    week: 218
+    index: 1805
+    indexInWeek: 6
+    title: ハッピーエンディング
+    artist: 東京カランコロン
+    kana: とうきょうからんころん
+    year: 2017
+    nation: JPN
+    label: TALTO
+    selector: 草野マサムネ
+  - id: "2022021807"
+    week: 218
+    index: 1806
+    indexInWeek: 7
+    title: 未来
+    artist: ズーカラデル
+    year: 2021
+    nation: JPN
+    label: Victor Entertainment
+    youtube: PMff3a0AE2k
+    selector: 草野マサムネ
+  - id: "2022021808"
+    week: 218
+    index: 1807
+    indexInWeek: 8
+    title: 午走-umahashiru-
+    artist: SpecialThanks
+    year: 2017
+    nation: JPN
+    label: KOGA RECORDS
+    youtube: BQazzq4BwgU
+    selector: 草野マサムネ
+  - id: "2022021809"
+    week: 218
+    index: 1808
+    indexInWeek: 9
+    title: 微熱なキ・ブ・ン
+    artist: ヒルビリー・バップス
+    year: 1986
+    nation: JPN
+    label: キティレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

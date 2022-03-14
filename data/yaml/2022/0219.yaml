@@ -1,0 +1,119 @@
+id: "20220219"
+week: 219
+year: 2022
+title: バズコックスで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-03-13
+playlist:
+  - id: "2022021901"
+    week: 219
+    index: 1809
+    indexInWeek: 1
+    title: メモリーズ
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    youtube: bkDLvKgI-dQ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022021902"
+    week: 219
+    index: 1810
+    indexInWeek: 2
+    title: I Don't Mind
+    artist: Buzzcocks
+    year: 1978
+    nation: UK
+    label: United Artists
+    youtube: Kqufuwc_QDc
+    selector: 草野マサムネ
+  - id: "2022021903"
+    week: 219
+    index: 1811
+    indexInWeek: 3
+    title: Boredom
+    artist: Buzzcocks
+    year: 2021
+    nation: UK
+    label: New Hormones
+    youtube: IqFiS4iRvlU
+    selector: 草野マサムネ
+  - id: "2022021904"
+    week: 219
+    index: 1812
+    indexInWeek: 4
+    title: Orgasm Addict
+    artist: Buzzcocks
+    year: 1977
+    nation: UK
+    label: United Artists
+    youtube: 3mEsJo5Tg5k
+    selector: 草野マサムネ
+  - id: "2022021905"
+    week: 219
+    index: 1813
+    indexInWeek: 5
+    title: Ever Fallen in Love (With Someone You Shouldn't've)
+    artist: Buzzcocks
+    year: 1978
+    nation: UK
+    label: United Artists
+    youtube: 0Af7ayYIJ9w
+    selector: 草野マサムネ
+  - id: "2022021906"
+    week: 219
+    index: 1814
+    indexInWeek: 6
+    title: Autonomy
+    artist: Buzzcocks
+    year: 1978
+    nation: UK
+    label: United Artists
+    youtube: 9ldWjyGvX7k
+    selector: 草野マサムネ
+  - id: "2022021907"
+    week: 219
+    index: 1815
+    indexInWeek: 7
+    title: Thunder of Hearts
+    artist: Buzzcocks
+    year: 1999
+    nation: UK
+    label: Go-Kart
+    youtube: Ajn-VM-XrPM
+    selector: 草野マサムネ
+  - id: "2022021908"
+    week: 219
+    index: 1816
+    indexInWeek: 8
+    title: Wish I Never Loved You
+    artist: Buzzcocks
+    year: 2006
+    nation: UK
+    label: Cooking Vinyl
+    selector: 草野マサムネ
+  - id: "2022021909"
+    week: 219
+    index: 1817
+    indexInWeek: 9
+    title: Recoil
+    artist: Magazine
+    year: 1978
+    nation: UK
+    label: Virgin
+    youtube: 6pFBgVdPack
+    selector: 草野マサムネ
+  - id: "2022021910"
+    week: 219
+    index: 1818
+    indexInWeek: 10
+    title: Yellow Magic Carnival
+    artist: MANNA
+    year: 1979
+    nation: JPN
+    label: Epic
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
