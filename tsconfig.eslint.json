@@ -1,8 +1,4 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": [
-    "node_modules",
-    "public",
-    "graphql-types.ts"
-  ]
+  "include": ["src/**/*", "gatsby-node/**/*", "types.d.ts", ".eslintrc.js", "gatsby-config.ts", "gatsby-node.js", "gatsby-ssr.tsx"]
 }

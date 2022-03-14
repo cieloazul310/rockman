@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import { useLocation } from '@reach/router';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import ContentBasis from '../components/ContentBasis';

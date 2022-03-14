@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Container from '@material-ui/core/Container';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Container from '@mui/material/Container';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 import Layout, { LayoutProps } from 'gatsby-theme-aoi/src/layout';
 
 const useStyles = makeStyles((theme) =>

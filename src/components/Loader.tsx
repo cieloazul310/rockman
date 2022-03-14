@@ -1,6 +1,9 @@
 import * as React from 'react';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import CircularProgress from '@mui/material/CircularProgress';
+import { Theme } from '@mui/material/styles';
+
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 
 interface StylesProps {
   height: number;

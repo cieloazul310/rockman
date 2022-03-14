@@ -1,8 +1,9 @@
 import * as React from 'react';
-import Container, { ContainerProps } from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import MuiLink, { LinkProps } from '@material-ui/core/Link';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Container, { ContainerProps } from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import MuiLink, { LinkProps } from '@mui/material/Link';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 
 const useStyles = makeStyles((theme) =>
   createStyles({

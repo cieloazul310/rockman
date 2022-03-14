@@ -1,16 +1,13 @@
 import * as React from 'react';
-import Layout from 'gatsby-theme-aoi/src/layouts/TabPageLayout';
-import { LayoutProps } from 'gatsby-theme-aoi/src/layout';
-import useUpdateOnClient from 'gatsby-theme-aoi/src/utils/useUpdateOnClient';
+import { Layout, LayoutProps } from '@cieloazul310/gatsby-theme-aoi';
 
 function TabLayout({
   children,
   tabs,
   ...props
-}: Omit<LayoutProps, 'tabSticky' | 'disableGutters' | 'componentViewports' | 'tabs'> & Required<Pick<LayoutProps, 'tabs'>>): JSX.Element {
-  const isClient = useUpdateOnClient();
+}: Omit<LayoutProps, 'tabSticky' | 'componentViewports' | 'tabs'> & Required<Pick<LayoutProps, 'tabs'>>) {
   return (
-    <Layout tabSticky disableGutters componentViewports={{ BottomNav: false }} {...props} tabs={tabs} key={isClient}>
+    <Layout tabSticky componentViewports={{ bottomNav: false }} {...props} tabs={tabs}>
       {children}
     </Layout>
   );

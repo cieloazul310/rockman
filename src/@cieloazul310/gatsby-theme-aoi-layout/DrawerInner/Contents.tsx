@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Link as GatsbyLink, withPrefix } from 'gatsby';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import ListItemAppLink from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
+import List from '@mui/material/List';
+import ListSubheader from '@mui/material/ListSubheader';
+import ListItemAppLink from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import { useLocation } from '@reach/router';
 import { useSiteMenu } from '../../../utils/graphql-hooks';
 

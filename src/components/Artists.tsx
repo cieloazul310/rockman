@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import ListItemText from '@material-ui/core/ListItemText';
+import Typography from '@mui/material/Typography';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import NationAvatar from './NationAvatar';

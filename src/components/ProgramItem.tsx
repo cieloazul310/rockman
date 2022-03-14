@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Avatar from '@material-ui/core/Avatar';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Avatar from '@mui/material/Avatar';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 import ListItemLink from './ListItemAppLink';
 import { useAvatarStyles } from '../styles';
 import { Maybe, Program } from '../../graphql-types';

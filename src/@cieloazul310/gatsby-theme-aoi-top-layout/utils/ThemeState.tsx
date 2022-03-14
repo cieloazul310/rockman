@@ -11,7 +11,13 @@ export const initialThemeState = (darkMode = false, useSystemTheme = false): The
 
 export type ThemeAction = { type: 'TOGGLE_DARKMODE' } | { type: 'TOGGLE_USE_SYSTEM_THEME' };
 
-export default function themeReducer(state: ThemeState, action: ThemeAction): ThemeState {
+/**
+ * The global reducer wrapping whole app for `ThemeState`.
+ * @param {Object} state `ThemeState`
+ * @param {Object} action `ThemeAction` for `ThemeState`
+ * @returns {Object} `ThemeState`
+ */
+export default function themeReducer(state: ThemeState, action: ThemeAction) {
   switch (action.type) {
     case 'TOGGLE_DARKMODE':
       return {
@@ -24,6 +30,6 @@ export default function themeReducer(state: ThemeState, action: ThemeAction): Th
         useSystemTheme: !state.useSystemTheme,
       };
     default:
-      throw new Error(`Unrecognized action type`);
+      throw new Error('Unrecognized action type');
   }
 }

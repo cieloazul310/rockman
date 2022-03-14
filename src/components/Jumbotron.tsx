@@ -1,6 +1,9 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Typography from '@mui/material/Typography';
+import { Theme } from '@mui/material/styles';
+
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 
 interface StyleProps {
   image?: string;
@@ -16,7 +19,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
     },
     jumbotronBg: ({ image }) => ({
       height: '100%',
-      backgroundColor: !image && theme.palette.type === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
+      backgroundColor: !image && theme.palette.mode === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
       backgroundImage: image ? `url(${image})` : undefined,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
@@ -33,7 +36,7 @@ const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
       justifyContent: 'center',
       zIndex: 2,
       padding: theme.spacing(2, 4),
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints.down('sm')]: {
         padding: theme.spacing(2),
       },
     },

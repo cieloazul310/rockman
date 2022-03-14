@@ -1,25 +1,27 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import Hidden from '@material-ui/core/Hidden';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import Collapse from '@material-ui/core/Collapse';
-import Radio from '@material-ui/core/Radio';
-import Checkbox from '@material-ui/core/Checkbox';
-import InputBase from '@material-ui/core/InputBase';
-import IconButton from '@material-ui/core/IconButton';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { makeStyles, createStyles, useTheme, Theme } from '@material-ui/core/styles';
-import SearchIcon from '@material-ui/icons/Search';
-import CancelIcon from '@material-ui/icons/Cancel';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import FlagIcon from '@material-ui/icons/Flag';
+import Typography from '@mui/material/Typography';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import Hidden from '@mui/material/Hidden';
+import List from '@mui/material/List';
+import ListSubheader from '@mui/material/ListSubheader';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import Collapse from '@mui/material/Collapse';
+import Radio from '@mui/material/Radio';
+import Checkbox from '@mui/material/Checkbox';
+import InputBase from '@mui/material/InputBase';
+import IconButton from '@mui/material/IconButton';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme, Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import SearchIcon from '@mui/icons-material/Search';
+import CancelIcon from '@mui/icons-material/Cancel';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FlagIcon from '@mui/icons-material/Flag';
 import { AutoSizer } from 'react-virtualized';
 import Layout from 'gatsby-theme-aoi/src/layout';
 import Artists from '../components/Artists';
@@ -90,7 +92,7 @@ function ArtistsPage(): JSX.Element {
   const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
 
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const contentHeight = useFullHeight();
   const classes = useStyles({ height: contentHeight });
   const nations = useAllNations();
@@ -254,7 +256,7 @@ function ArtistsPage(): JSX.Element {
         <div className={classes.searcher}>
           <div>
             <Paper component="form" className={classes.searchBox}>
-              <IconButton disabled edge="start">
+              <IconButton disabled edge="start" size="large">
                 <SearchIcon />
               </IconButton>
               <InputBase
@@ -265,7 +267,7 @@ function ArtistsPage(): JSX.Element {
                 inputProps={{ 'aria-label': 'search artists' }}
               />
               {searchText !== '' ? (
-                <IconButton edge="end" onClick={clearSearchText}>
+                <IconButton edge="end" onClick={clearSearchText} size="large">
                   <CancelIcon />
                 </IconButton>
               ) : null}
@@ -274,7 +276,7 @@ function ArtistsPage(): JSX.Element {
         </div>
         <div className={classes.main}>
           <Grid container className={classes.gridContainer}>
-            <Hidden xsDown>
+            <Hidden smDown>
               <Grid item sm={4} className={classes.desktopGrid}>
                 <SortList />
                 <FilterList />

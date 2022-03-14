@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Tabs from '@material-ui/core/Tabs';
+import Tabs from '@mui/material/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from './TabLayout';

@@ -1,12 +1,14 @@
 import * as React from 'react';
 import clsx from 'clsx';
 import { Link as GatsbyLink } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Avatar from '@material-ui/core/Avatar';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import Typography from '@mui/material/Typography';
+import Avatar from '@mui/material/Avatar';
+import { Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import ButtonBase from '@mui/material/ButtonBase';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ProgramIcon, ArtistIcon } from '../icons';
 import { SitePageContext } from '../../graphql-types';
 
@@ -29,7 +31,7 @@ const useStyles = makeStyles((theme: Theme) =>
         borderRight: 'none',
       },
       '&:hover': {
-        background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 700],
+        background: theme.palette.grey[theme.palette.mode === 'light' ? 100 : 700],
       },
     },
     itemInside: {
@@ -50,7 +52,7 @@ const useStyles = makeStyles((theme: Theme) =>
       borderRight: 'none',
     },
     disabled: {
-      background: theme.palette.grey[theme.palette.type === 'light' ? 100 : 800],
+      background: theme.palette.grey[theme.palette.mode === 'light' ? 100 : 800],
     },
     itemIcon: {
       padding: theme.spacing(2, 1),

@@ -29,7 +29,7 @@ interface CreateArtistPagesQueryData {
 export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs): Promise<void> {
   const { createPage } = actions;
   const result = await graphql<CreateProgramPagesQueryData>(`
-    query CreateProgramPages {
+    query {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
@@ -81,7 +81,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
 
   // create Artists Pages
   const artistResult = await graphql<CreateArtistPagesQueryData>(`
-    query CreateArtistPages {
+    query {
       allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
         edges {
           node {

@@ -1,4 +1,4 @@
-type Artist = {
+export type Artist = {
   name: string;
   kana: string | null;
   sortName: string;
@@ -12,7 +12,7 @@ type Artist = {
   slug: string;
 };
 
-type Program = {
+export type Program = {
   week: number;
   year: number;
   title: string;
@@ -23,7 +23,7 @@ type Program = {
   playlist: Tune[];
 };
 
-type Tune = {
+export type Tune = {
   id: string;
   index: number;
   indexInWeek: number;
@@ -39,26 +39,27 @@ type Tune = {
   selector: string;
 };
 
-type TuneBrowser = Omit<Tune, 'artist'> & {
+export type TuneBrowser = Omit<Tune, 'artist'> & {
   artist: Artist;
   program: Program;
 };
 
-type SpitzAlbum = {
+export type SpitzAlbum = {
+  id: string;
   albumIdNum: number;
   year: number;
   title: string;
   tunes: SpitzTune[];
 };
-type SpitzAlbumBrowser = Omit<SpitzAlbum, 'tunes'> & {
+export type SpitzAlbumBrowser = Omit<SpitzAlbum, 'tunes'> & {
   tunes: SpitzTuneBrowser[];
 };
 
-type SpitzTune = {
+export type SpitzTune = {
   id: string;
   index: number;
   title: string;
 };
-type SpitzTuneBrowser = SpitzTune & {
+export type SpitzTuneBrowser = SpitzTune & {
   append: ProgramBrowser[];
 };

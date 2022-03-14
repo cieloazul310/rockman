@@ -1,9 +1,11 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { makeStyles, createStyles, useTheme } from '@material-ui/core/styles';
-import Skeleton from '@material-ui/lab/Skeleton';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import Skeleton from '@mui/material/Skeleton';
 import ArtistItem, { ArtistItemSkeleton, ArtistItemProps } from './ArtistItem';
 
 const useStyles = makeStyles((theme) =>

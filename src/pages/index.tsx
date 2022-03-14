@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
+import List from '@mui/material/List';
+import ListSubheader from '@mui/material/ListSubheader';
 import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
 import NavigationBox from '../components/NavigationBox';

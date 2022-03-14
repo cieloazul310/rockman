@@ -8,9 +8,8 @@
     ],
     "allowJs": true,
     "checkJs": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "moduleResolution": "node",
-    "isolatedModules": true,
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -18,4 +17,12 @@
     "noEmit": true,
     "skipLibCheck": true
   },
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+    }
+  }
 }

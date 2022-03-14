@@ -1,6 +1,8 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Typography from '@mui/material/Typography';
+import { Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
@@ -26,7 +28,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       flexShrink: 0,
     },
     image: {
-      backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
+      backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 700],
       backgroundImage: ({ image }) => (image ? `url(${image})` : undefined),
       backgroundPosition: 'center',
       backgroundSize: 'cover',

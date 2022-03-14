@@ -1,7 +1,9 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Skeleton from '@material-ui/lab/Skeleton';
+import Typography from '@mui/material/Typography';
+import { Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import Skeleton from '@mui/material/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import { Maybe, Artist } from '../../graphql-types';
 
@@ -26,7 +28,7 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
       position: 'relative',
     },
     image: {
-      backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 300 : 700],
+      backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 300 : 700],
       backgroundImage: ({ image }) => (image ? `url(${image})` : undefined),
       backgroundPosition: 'center',
       backgroundSize: 'cover',

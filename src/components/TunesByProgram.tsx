@@ -1,7 +1,8 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
-import Skeleton from '@material-ui/lab/Skeleton';
+import Typography from '@mui/material/Typography';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import Skeleton from '@mui/material/Skeleton';
 import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
 import Tune, { TuneSkeleton, TuneProps } from './Tune';
 import TextSpan from './TextSpan';

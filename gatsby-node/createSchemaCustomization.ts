@@ -4,20 +4,20 @@ export default function createSchemaCustomization({ actions }: CreateSchemaCusto
   const { createTypes } = actions;
 
   createTypes(`
-    type Artist implements Node {
+    type Artist implements Node @dontInfer {
       name: String!
       kana: String
       image: String
       sortName: String!
       nation: String!
-      program: [program] @link
-      tunes: [programPlaylist]
+      program: [Program] @link
+      tunes: [Tune]!
       programCount: Int!
       tunesCount: Int!
       relatedArtists: [Artist] @link(by: "name")
       slug: String!
     }
-    type program implements Node {
+    type Program implements Node @dontInfer {
       week: Int!
       year: Int!
       title: String!
@@ -25,9 +25,9 @@ export default function createSchemaCustomization({ actions }: CreateSchemaCusto
       guests: [String]
       categories: [String]
       date: Date! @dateformat
-      playlist: [programPlaylist]
+      playlist: [Tune]!
     }
-    type programPlaylist {
+    type Tune @dontInfer {
       id: String!
       index: Int
       indexInWeek: Int!
@@ -42,7 +42,19 @@ export default function createSchemaCustomization({ actions }: CreateSchemaCusto
       corner: String
       youtube: String
       selector: String!
-      program: program! @link(by: "week", from: "week")
+      program: Program! @link(by: "week", from: "week")
+    }
+    type SpitzAlbum implements Node @dontInfer {
+      albumIdNum: Int!
+      year: Int!
+      title: String!
+      tunes: [SpitzTune!]!
+    }
+    type SpitzTune {
+      id: String!
+      index: Int!
+      title: String!
+      append: [Program]!
     }
   `);
 }

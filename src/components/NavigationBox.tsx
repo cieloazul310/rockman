@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Grid from '@material-ui/core/Grid';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
+import Grid from '@mui/material/Grid';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
 import { useSiteMenu } from '../utils/graphql-hooks';
 

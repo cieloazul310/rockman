@@ -2,26 +2,22 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: true,
   },
-  parser: `@typescript-eslint/parser`,
+  parser: '@typescript-eslint/parser',
   extends: [
+    'airbnb',
     'airbnb-typescript',
-    'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  plugins: ['@typescript-eslint', 'prettier', 'jest'],
-  ignorePatterns: ['graphql-types.ts'],
+  plugins: ['react', '@typescript-eslint', 'jest'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    tsconfigRootDir: __dirname,
     project: './tsconfig.eslint.json',
   },
   env: {

@@ -1,12 +1,12 @@
-/* eslint-disable-next-line import/newline-after-import */
-const path = require('path');
+import * as path from 'path';
+import { GatsbyConfig } from 'gatsby';
+
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
 const siteUrl = path.join(baseUrl, pathPrefix);
-const contentDir = `${__dirname}/data`;
-// const contentDir = `${__dirname}/devData`;
+const contentDir = `./data`;
 
-module.exports = {
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `ロック大陸漫遊記プレイリスト集`,
     description:
@@ -26,23 +26,19 @@ module.exports = {
       { name: 'ちょっぴりタイムマシン', path: '/timemachine/' },
       { name: 'サイトについて', path: '/about/' },
     ],
-    social: {
-      mail: '',
-      twitter: 'cieloazul310',
-      github: 'cieloazul310',
-      facebook: '',
-      gitlab: '',
-      linkedin: '',
-      medium: '',
-      pocket: '',
-      tumblr: '',
-      instagram: '',
-      vimeo: '',
-      youtube: 'playlist?list=PLGqFsFmePh4xxQjnjCpBLYsJY-VecUzdJ',
-    },
+    social: [
+      { name: 'twitter', url: 'https://twitter.com/cieloazul310' },
+      { name: 'github', url: 'https://github.com/cieloazul310' },
+    ],
   },
   pathPrefix,
   plugins: [
+    {
+      resolve: `@cieloazul310/gatsby-theme-aoi`,
+      options: {
+        siteId: `rockman`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -53,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
-        typeName: `program`,
+        typeName: `Program`,
       },
     },
     {
@@ -81,40 +77,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-theme-aoi`,
-      options: {
-        siteId: `rockman`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                baseUrl
-              }
-            }
-            allSitePage {
-              nodes {
-                path
-              }
-            }
-          }
-        `,
-        resolveSiteUrl: ({ site }) => {
-          return site.siteMetadata.baseUrl;
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-eslint`,
       options: {
-        stages: ['develop'],
-        extensions: ['js', 'jsx', 'ts', 'tsx'],
-        exclude: ['node_modules', '.cache', 'public'],
+        failOnError: false,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 };
+
+export default config;

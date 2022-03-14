@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+import { Theme } from '@mui/material/styles';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 import { useInView } from 'react-intersection-observer';
 import { ProgramIcon, ArtistIcon, TuneIcon } from '../icons';
 import useAnimation from '../utils/useAnimation';
@@ -18,7 +20,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
       alignItems: 'baseline',
       flexDirection: 'row',
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints.down('sm')]: {
         flexDirection: 'column',
         alignItems: 'inherit',
         padding: theme.spacing(2, 0),

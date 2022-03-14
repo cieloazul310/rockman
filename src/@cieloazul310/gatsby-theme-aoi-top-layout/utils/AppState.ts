@@ -7,6 +7,10 @@ export const initialAppState: AppState = {
   sort: 'older',
 };
 
+export function useInitialAppState(isMobile: boolean): AppState {
+  return initialAppState;
+}
+
 export type Action = { type: 'TOGGLE_SORT' };
 
 export default function reducer(state: AppState, action: Action): AppState {

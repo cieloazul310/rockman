@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Tab, { TabProps } from '@material-ui/core/Tab';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Tab, { TabProps } from '@mui/material/Tab';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 
 const useStyles = makeStyles(() =>
   createStyles({

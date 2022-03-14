@@ -1,11 +1,12 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import Typography from '@material-ui/core/Typography';
-import Tabs from '@material-ui/core/Tabs';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Typography from '@mui/material/Typography';
+import Tabs from '@mui/material/Tabs';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import Layout from '../layout/TabLayout';
