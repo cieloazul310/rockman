@@ -1,4 +1,13 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*", "gatsby-node/**/*", "types.d.ts", ".eslintrc.js", "gatsby-config.ts", "gatsby-node.ts", "gatsby-ssr.tsx"]
+  "include": [
+    "src/**/*",
+    "gatsby-node/**/*",
+    "types.d.ts",
+    ".eslintrc.js",
+    "gatsby-config.ts",
+    "gatsby-node.ts",
+    "gatsby-ssr.tsx",
+    "plugins/**/*"
+  ]
 }

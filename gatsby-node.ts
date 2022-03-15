@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
+export { createSchemaCustomization, sourceNodes, onCreateNode, createResolvers, createPages } from './gatsby-node/index';
 
-export { createSchemaCustomization, sourceNodes, onCreateNode, createResolvers } from './gatsby-node/index';
 /*
 require('ts-node').register({
   compilerOptions: {

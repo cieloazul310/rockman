@@ -1,7 +1,50 @@
 import * as path from 'path';
 import { CreatePagesArgs } from 'gatsby';
-import { Program, Artist } from './types';
+import { Program, ArtistBrowser } from '../types';
 
+type CreatePagesQueryData = {
+  allProgram: {
+    edges: {
+      node: Pick<Program, 'week' | 'title' | 'slug' | 'date'>;
+    }[];
+  };
+};
+
+export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
+  const { createPage } = actions;
+  const result = await graphql<CreatePagesQueryData>(`
+    query {
+      allProgram(sort: { fields: week, order: ASC }) {
+        edges {
+          node {
+            week
+            title
+            slug
+            date(formatString: "YYYY-MM-DD")
+          }
+        }
+      }
+    }
+  `);
+  if (result.errors) {
+    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
+  }
+  if (!result.data) throw new Error('There are no posts');
+
+  const { allProgram } = result.data;
+  allProgram.edges.forEach(({ node }, index) => {
+    const previous = index === allProgram.edges.length - 1 ? null : allProgram.edges[index + 1].node;
+    const next = index === 0 ? null : allProgram.edges[index - 1].node;
+
+    createPage({
+      path: node.slug,
+      component: path.resolve('./src/templates/program.tsx'),
+      context: { previous: previous?.slug, next: next?.slug, slug: node.slug },
+    });
+  });
+}
+
+/*
 type ProgramPrevNext = Pick<Program, 'title' | 'date' | 'fields' | 'week'>;
 
 interface CreateProgramPagesQueryData {
@@ -125,3 +168,4 @@ export default async function createPages({ graphql, actions, reporter }: Create
     });
   });
 }
+*/

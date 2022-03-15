@@ -1,4 +1,5 @@
 // import { ArtistItem } from './graphql-hooks';
+import { Artist } from '../../types';
 
 export type SortType = 'abc' | 'edges' | 'tunes';
 

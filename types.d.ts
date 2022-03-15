@@ -2,25 +2,35 @@ export type Artist = {
   name: string;
   kana: string | null;
   sortName: string;
-  image: string | null;
   nation: string;
-  program: Program[];
-  tunes: Tune[];
-  programCount: number;
-  tunesCount: number;
-  relatedArtists: Artist[];
   slug: string;
+};
+
+export type ArtistBrowser = Artist & {
+  program: {
+    programs: Program[];
+    programsCount: number;
+    tunes: Tune[];
+    tunesCount: number;
+    image: string | null;
+    relatedArtists: ArtistBrowser[];
+  };
 };
 
 export type Program = {
   week: number;
   year: number;
+  date: string;
+  slug: string;
   title: string;
   subtitle: string | null;
+  image: string | null;
   guests: string[] | null;
   categories: string[];
-  date: string;
   playlist: Tune[];
+};
+export type ProgramBrowser = Omit<Program, 'playlist'> & {
+  playlist: TuneBrowser[];
 };
 
 export type Tune = {
@@ -40,7 +50,7 @@ export type Tune = {
 };
 
 export type TuneBrowser = Omit<Tune, 'artist'> & {
-  artist: Artist;
+  artist: ArtistBrowser;
   program: Program;
 };
 

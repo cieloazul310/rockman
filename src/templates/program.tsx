@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { graphql, navigate } from 'gatsby';
+import { graphql, navigate, PageProps } from 'gatsby';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
+import { Jumbotron, Section, SectionDivider, Article, H4 } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
+/*
 import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
@@ -14,19 +16,48 @@ import { AdBasic } from '../components/Ads';
 import { ProgramTonarinoTab } from '../components/TonarinoTab';
 import removeMultiple from '../utils/removeMultiple';
 import nonNullable from '../utils/nonNullable';
-import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
+*/
+// import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
+import { ProgramBrowser } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
-
+/*
 interface Props {
   data: ProgramTemplateQuery;
   pageContext: SitePageContext;
 }
+*/
+type ProgramTemplateData = {
+  program: ProgramBrowser;
+};
 
-function ProgramTemplate({ data, pageContext }: Props): JSX.Element {
-  const program = nonNullable(data.program);
+type ProgramTemplateContext = {
+  slug: string;
+  previous: string | null;
+  next: string | null;
+};
+
+function ProgramTemplate({ data, pageContext }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
+  const { program } = data;
   const { previous, next } = pageContext;
   const initialIndex = previous ? 1 : 0;
+  console.log(program.playlist);
+  return (
+    <Layout title={program.title}>
+      <Jumbotron bgImage={program.image ?? undefined} title={program.title} maxWidth="md" />
+      <SectionDivider />
+      <Section>
+        <Article maxWidth="md">
+          {program.playlist.map((tune) => (
+            <H4 key={tune.id}>
+              {tune.title} / {tune.artist.name}
+            </H4>
+          ))}
+        </Article>
+      </Section>
+    </Layout>
+  );
+  /*
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
     if (next && next?.fields?.slug && index === initialIndex + 1) {
@@ -79,46 +110,41 @@ function ProgramTemplate({ data, pageContext }: Props): JSX.Element {
       </Section>
     </Layout>
   );
+  */
 }
 
 export default ProgramTemplate;
-/*
+
 export const query = graphql`
   query ProgramTemplate($slug: String!) {
-    program(fields: { slug: { eq: $slug } }) {
+    program(slug: { eq: $slug }) {
       id
-      date(formatString: "YYYY-MM-DD")
-      subtitle
-      title
-      week
       year
+      week
+      date(formatString: "YYYY-MM-DD")
+      title
+      image
+      subtitle
       guests
       categories
-      fields {
-        image
-      }
       playlist {
-        artist {
-          name
-          image
-          programCount
-          tunesCount
-          slug
-        }
-        corner
         id
+        week
         index
         indexInWeek
-        label
-        kana
-        nation
-        selector
         title
+        artist {
+          name
+          slug
+        }
+        kana
         year
-        week
+        nation
+        label
         youtube
+        corner
+        selector
       }
     }
   }
 `;
-*/

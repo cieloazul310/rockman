@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as yaml from 'yaml';
 import { SpitzAlbum } from '../types';
 
-export default function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
+export default async function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
   const { createNode } = actions;
 
   const data: SpitzAlbum[] = yaml.parse(fs.readFileSync(path.resolve('./data/spitzAlbums.yaml'), 'utf8'));
