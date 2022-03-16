@@ -1,13 +1,18 @@
 import * as React from 'react';
 import { graphql, navigate, PageProps } from 'gatsby';
+import Typography from '@mui/material/Typography';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Jumbotron, Section, SectionDivider, Article, H4 } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
+import { PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
+import { ProgramPageHeader } from '../components/PageHeader';
+import Tune from '../components/Tune';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import removeMultiple from '../utils/removeMultiple';
 /*
 import Section, { SectionDivider } from '../components/Section';
 import { ProgramPageHeader } from '../components/PageHeader';
-import Tune from '../components/Tune';
 import ArtistItemContainer from '../components/ArtistItemContainer';
 import PageNavigation from '../components/PageNavigation';
 import DrawerNavigation from '../components/DrawerNavigation';
@@ -29,6 +34,8 @@ interface Props {
 */
 type ProgramTemplateData = {
   program: ProgramBrowser;
+  previous: Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'image'> | null;
+  next: Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'image'> | null;
 };
 
 type ProgramTemplateContext = {
@@ -37,23 +44,47 @@ type ProgramTemplateContext = {
   next: string | null;
 };
 
-function ProgramTemplate({ data, pageContext }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
-  const { program } = data;
-  const { previous, next } = pageContext;
-  const initialIndex = previous ? 1 : 0;
-  console.log(program.playlist);
+function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
+  const { program, previous, next } = data;
+  // const initialIndex = previous ? 1 : 0;
+  const artists = program.playlist
+    ? removeMultiple(
+        program.playlist.map((tune) => tune?.artist),
+        (item) => item?.name
+      )
+    : [];
+
   return (
     <Layout title={program.title}>
-      <Jumbotron bgImage={program.image ?? undefined} title={program.title} maxWidth="md" />
+      <ProgramPageHeader program={program} />
       <SectionDivider />
       <Section>
-        <Article maxWidth="md">
+        <Article maxWidth="md" disableGutters>
           {program.playlist.map((tune) => (
-            <H4 key={tune.id}>
-              {tune.title} / {tune.artist.name}
-            </H4>
+            <Tune key={tune.id} tune={tune} />
           ))}
         </Article>
+      </Section>
+      <SectionDivider />
+      <Section>
+        <ArtistItemContainer title="登場アーティスト" artists={artists} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigationContainer>
+          <PageNavigationItem to={previous?.slug ?? '#'} disabled={!previous}>
+            <Typography variant="body2">{previous?.title}</Typography>
+            <Typography variant="body2" color="text.secondary">
+              {previous?.date}
+            </Typography>
+          </PageNavigationItem>
+          <PageNavigationItem to={next?.slug ?? '#'} next disabled={!next}>
+            <Typography variant="body2">{next?.title}</Typography>
+            <Typography variant="body2" color="text.secondary">
+              {next?.date}
+            </Typography>
+          </PageNavigationItem>
+        </PageNavigationContainer>
       </Section>
     </Layout>
   );
@@ -116,7 +147,7 @@ function ProgramTemplate({ data, pageContext }: PageProps<ProgramTemplateData, P
 export default ProgramTemplate;
 
 export const query = graphql`
-  query ProgramTemplate($slug: String!) {
+  query ProgramTemplate($slug: String!, $previous: String, $next: String) {
     program(slug: { eq: $slug }) {
       id
       year
@@ -128,23 +159,24 @@ export const query = graphql`
       guests
       categories
       playlist {
-        id
-        week
-        index
-        indexInWeek
-        title
-        artist {
-          name
-          slug
-        }
-        kana
-        year
-        nation
-        label
-        youtube
-        corner
-        selector
+        ...tuneFields
       }
+    }
+    previous: program(slug: { eq: $previous }) {
+      id
+      week
+      slug
+      date(formatString: "YYYY-MM-DD")
+      title
+      image
+    }
+    next: program(slug: { eq: $next }) {
+      id
+      week
+      slug
+      date(formatString: "YYYY-MM-DD")
+      title
+      image
     }
   }
 `;

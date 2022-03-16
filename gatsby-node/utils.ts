@@ -145,7 +145,7 @@ export function createSlug(str: string) {
 
 export function createArtistImage(tunes: Tune[]) {
   const youtube = tunes.reduce<string | null>((accum, curr) => {
-    return curr.youtube ?? accum;
+    return curr.youtube || accum;
   }, null);
   return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
 }

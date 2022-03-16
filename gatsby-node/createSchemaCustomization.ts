@@ -64,6 +64,10 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
       title: String!
       program: [Program]!
     }
+    type AllTunes {
+      totalCount: Int!
+      tunes: [Tune]!
+    }
   `);
 
   createTypes(
@@ -97,7 +101,7 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
             if (source.artist === 'スピッツ') {
               return {
                 name: 'スピッツ',
-                sortName: 'スピッツ',
+                sortName: 'すぴっつ',
                 nation: 'JPN',
                 slug: '/takeoff/',
                 program: {
@@ -142,16 +146,19 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
               },
             });
             const programs = Array.from(entries).sort((a, b) => a.week - b.week);
-            const playlist = programs.reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], []);
-            const tunes = playlist.filter(({ artist }) => artist === source.name);
+            const programTunes = programs.reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], []);
+            const tunes = programTunes.filter(({ artist }) => artist === source.name);
 
             return {
-              programs,
+              programs: programs.map(({ playlist, ...program }) => ({
+                ...program,
+                playlist: playlist.filter(({ artist }) => artist === source.name),
+              })),
               programsCount: await totalCount(),
               tunes,
               tunesCount: tunes.length,
               image: createArtistImage(tunes),
-              relatedArtists: await createRelatedArtists(source.name, playlist, context),
+              relatedArtists: await createRelatedArtists(source.name, programTunes, context),
             };
           },
         },

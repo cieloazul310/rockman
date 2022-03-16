@@ -1,5 +1,4 @@
 /* eslint @typescript-eslint/no-use-before-define: off */
-
 import * as React from 'react';
 
 type Easing = {
@@ -67,7 +66,7 @@ function useAnimationTimer(duration = 1000, delay = 0) {
 }
 
 // Hook
-export default function useAnimation(easingName: EasingName = 'linear', duration = 500, delay = 0): number {
+export default function useAnimation(easingName: EasingName = 'linear', duration = 500, delay = 0) {
   // The useAnimationTimer hook calls useState every animation frame ...
   // ... giving us elapsed time and causing a rerender as frequently ...
   // ... as possible for a smooth animation.

@@ -1,31 +1,26 @@
-/*
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { ProgramCountQuery } from '../../../graphql-types';
+import { MinimumArtist } from '../../../types';
 
-export default function useProgramTop25(): ProgramCountQuery['allArtist']['edges'] {
-  const data = useStaticQuery<ProgramCountQuery>(graphql`
+type UseProgramTop25QueryData = {
+  allArtist: {
+    edges: {
+      node: MinimumArtist;
+    }[];
+  };
+};
+
+export default function useProgramTop25() {
+  const { allArtist } = useStaticQuery<UseProgramTop25QueryData>(graphql`
     query ProgramCount {
-      allArtist(
-        sort: { fields: [programCount, tunesCount, sortName], order: [DESC, DESC, ASC] }
-        limit: 25
-        filter: { name: { ne: "スピッツ" } }
-      ) {
+      allArtist(sort: { fields: [program___programsCount, program___tunesCount, sortName], order: [DESC, DESC, ASC] }, limit: 25) {
         edges {
           node {
-            id
-            image
-            kana
-            name
-            nation
-            programCount
-            tunesCount
-            slug
+            ...minimumArtist
           }
         }
       }
     }
   `);
-  return React.useMemo(() => data.allArtist.edges, [data]);
+  return React.useMemo(() => allArtist.edges, [allArtist]);
 }
-*/

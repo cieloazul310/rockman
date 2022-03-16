@@ -1,55 +1,47 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
-import Skeleton from '@mui/material/Skeleton';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import Tune, { TuneSkeleton, TuneProps } from './Tune';
+import { AppLink, Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
+import Tune from './Tune';
 import TextSpan from './TextSpan';
-import { Maybe, Program } from '../../graphql-types';
+import { ProgramBrowser, TuneFields } from '../../types';
 
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      padding: theme.spacing(1, 0),
-    },
-    header: {
-      padding: theme.spacing(1),
-    },
-    title: {
-      fontWeight: theme.typography.fontWeightBold,
-    },
-  })
-);
+type TunesByProgramProps = {
+  program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneFields[];
+  };
+};
 
-export interface TunesByProgramProps {
-  program: Maybe<
-    Pick<Program, 'id' | 'week' | 'date' | 'fields' | 'title'> & {
-      playlist: TuneProps['tune'][];
-    }
-  >;
-}
-
-function TunesByProgram({ program }: TunesByProgramProps): JSX.Element {
-  const classes = useStyles();
+function TunesByProgram({ program }: TunesByProgramProps) {
   return (
-    <div className={classes.root}>
-      <div className={classes.header}>
-        <Typography variant="body2" color="textSecondary">
-          <TextSpan>第{program?.week}回</TextSpan>
-          <TextSpan>{program?.date}</TextSpan>
-        </Typography>
-        <Typography className={classes.title} variant="body1">
-          <AppLink to={program?.fields?.slug ?? '#'}>{program?.title}</AppLink>
-        </Typography>
-      </div>
-      <div>{program?.playlist?.map((tune) => <Tune key={tune?.id} tune={tune} />) ?? null}</div>
-    </div>
+    <section>
+      <Section>
+        <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
+          <Box p={1}>
+            <Typography variant="body1" color="textSecondary">
+              <TextSpan label={`第${program.week}回`} />
+              <TextSpan label={program.date} />
+            </Typography>
+            <Typography fontWeight="bold">
+              <AppLink to={program.slug}>{program.title}</AppLink>
+            </Typography>
+            {program.subtitle ? <Typography variant="body2">{program.subtitle}</Typography> : null}
+          </Box>
+          <Box>
+            {program.playlist.map((tune) => (
+              <Tune key={tune.id} tune={tune} />
+            ))}
+          </Box>
+        </Container>
+      </Section>
+      <SectionDivider />
+    </section>
   );
 }
 
 export default TunesByProgram;
-
+/*
 interface TuneByProgramProps {
   tune: Maybe<
     TuneProps['tune'] & {
@@ -99,3 +91,4 @@ export function TunesByProgramSkeleton(): JSX.Element {
     </div>
   );
 }
+*/

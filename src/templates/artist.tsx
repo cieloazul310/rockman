@@ -1,8 +1,16 @@
 import * as React from 'react';
-import { graphql, navigate } from 'gatsby';
+import { graphql, navigate, PageProps } from 'gatsby';
+import Typography from '@mui/material/Typography';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
+import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
+import { ArtistPageHeader } from '../components/PageHeader';
+import TunesByProgram from '../components/TunesByProgram';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
+/*
 import Section, { SectionDivider } from '../components/Section';
 import { ArtistPageHeader } from '../components/PageHeader';
 import TunesByProgram from '../components/TunesByProgram';
@@ -15,15 +23,60 @@ import { ArtistTonarinoTab } from '../components/TonarinoTab';
 import { useSortProgram } from '../utils/useSorter';
 import nonNullable from '../utils/nonNullable';
 import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
+*/
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
-interface Props {
-  data: ArtistTemplateQuery;
-  pageContext: SitePageContext;
-}
+type ArtistTemplateData = {
+  artist: Pick<ArtistBrowser, 'name' | 'kana' | 'nation'> & {
+    program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'> & {
+      programs: (Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+        playlist: TuneFields[];
+      })[];
+      relatedArtists: MinimumArtist[];
+    };
+  };
+  previous: MinimumArtist | null;
+  next: MinimumArtist | null;
+};
+type ArtistTemplateContext = {
+  index: number;
+};
 
-function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
+function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateContext>) {
+  const { artist, previous, next } = data;
+  // const { index } = pageContext;
+
+  return (
+    <Layout title={artist.name}>
+      <ArtistPageHeader artist={artist} />
+      <SectionDivider />
+      {artist.program.programs.map((program) => (
+        <TunesByProgram key={program.id} program={program} />
+      ))}
+      <Section>
+        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={artist.program.relatedArtists} />
+      </Section>
+      <SectionDivider />
+      <Section>
+        <PageNavigationContainer>
+          <PageNavigationItem to={previous?.slug ?? '#'} disabled={!previous}>
+            <Typography variant="body2">{previous?.name}</Typography>
+            <Typography variant="body2" color="text.secondary">
+              {previous?.program.tunesCount}曲 / {previous?.program.programsCount}回
+            </Typography>
+          </PageNavigationItem>
+          <PageNavigationItem to={next?.slug ?? '#'} next disabled={!next}>
+            <Typography variant="body2">{next?.name}</Typography>
+            <Typography variant="body2" color="text.secondary">
+              {next?.program.tunesCount}曲 / {next?.program.programsCount}回
+            </Typography>
+          </PageNavigationItem>
+        </PageNavigationContainer>
+      </Section>
+    </Layout>
+  );
+  /*
   const artist = nonNullable(data.artist);
   const { previous, next } = pageContext;
   const sortProgram = useSortProgram();
@@ -78,54 +131,42 @@ function ArtistTemplate({ data, pageContext }: Props): JSX.Element {
       </Section>
     </Layout>
   );
+*/
 }
 
 export default ArtistTemplate;
-/*
+
 export const query = graphql`
-  query ArtistTemplate($name: String!) {
-    artist(name: { eq: $name }) {
-      tunesCount
-      programCount
-      image
-      kana
+  query ArtistTemplate($slug: String!, $previous: String, $next: String) {
+    artist(slug: { eq: $slug }) {
       name
       nation
+      kana
       program {
-        id
-        date(formatString: "YYYY-MM-DD")
-        week
-        title
-        subtitle
-        fields {
+        programs {
+          id
+          week
+          title
           slug
+          date(formatString: "YYYY-MM-DD")
+          subtitle
+          playlist {
+            ...tuneFields
+          }
         }
-      }
-      tunes {
-        corner
-        id
-        indexInWeek
-        artist {
-          name
-          slug
-        }
-        kana
-        label
-        nation
-        selector
-        title
-        week
-        year
-        youtube
-      }
-      relatedArtists {
-        name
-        image
+        programsCount
         tunesCount
-        programCount
-        slug
+        image
+        relatedArtists {
+          ...minimumArtist
+        }
       }
+    }
+    previous: artist(slug: { eq: $previous }) {
+      ...minimumArtist
+    }
+    next: artist(slug: { eq: $next }) {
+      ...minimumArtist
     }
   }
 `;
-*/

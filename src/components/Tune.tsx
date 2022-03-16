@@ -1,16 +1,20 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import MuiLink from '@mui/material/Link';
 import Avatar from '@mui/material/Avatar';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
-import Skeleton from '@mui/material/Skeleton';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+// import makeStyles from '@mui/styles/makeStyles';
+// import createStyles from '@mui/styles/createStyles';
+// import Skeleton from '@mui/material/Skeleton';
+// import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
 import NationLabel from './NationLabel';
 import { TuneIcon } from '../icons';
-import { useAvatarStyles } from '../styles';
-import { Maybe, ProgramPlaylist, Artist } from '../../graphql-types';
-
+import { TuneBrowser } from '../../types';
+// import { useAvatarStyles } from '../styles';
+// import { Maybe, ProgramPlaylist, Artist } from '../../graphql-types';
+/*
 const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
@@ -39,71 +43,82 @@ const useStyles = makeStyles((theme) =>
     },
   })
 );
-
-export interface TuneProps {
+*/
+export type TuneProps = {
+  tune: Pick<TuneBrowser, 'id' | 'title' | 'indexInWeek' | 'artist' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'>;
+  /*
   tune: Maybe<
     Pick<ProgramPlaylist, 'id' | 'title' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'> & {
       artist?: Maybe<Pick<Artist, 'name' | 'slug'>>;
     }
   >;
-}
+  */
+};
 
-function Tune({ tune }: TuneProps): JSX.Element {
-  const classes = useStyles();
-  const avatarClass = useAvatarStyles();
+function Tune({ tune }: TuneProps) {
+  // const classes = useStyles();
+  // const avatarClass = useAvatarStyles();
   const avatar = (
-    <div className={classes.avatarContainer}>
+    <Box position="relative">
       <Avatar
-        className={avatarClass.avatar}
+        sx={{ width: ({ spacing }) => spacing(11), height: ({ spacing }) => spacing(11) }}
         variant="square"
-        src={tune?.youtube ? `https://i.ytimg.com/vi/${tune?.youtube}/0.jpg` : undefined}
+        src={tune.youtube ? `https://i.ytimg.com/vi/${tune.youtube}/0.jpg` : undefined}
       >
         <TuneIcon />
       </Avatar>
-      <div className={classes.nationLabel}>
-        <NationLabel nation={tune?.nation ?? ''} />
-      </div>
-    </div>
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+        }}
+      >
+        <NationLabel nation={tune.nation} />
+      </Box>
+    </Box>
   );
   return (
-    <div className={classes.root}>
-      <div className={classes.left}>
-        {tune?.youtube ? (
-          <a href={`https://youtu.be/${tune?.youtube}`} target="_blank" rel="noopener noreferrer">
+    <Box sx={{ display: 'flex', py: 1 }}>
+      <Box sx={{ display: 'flex', px: 1, alignItems: 'center', flexShrink: 0 }}>
+        {tune.youtube ? (
+          <MuiLink href={`https://youtu.be/${tune?.youtube}`} target="_blank" rel="noopener noreferrer">
             {avatar}
-          </a>
+          </MuiLink>
         ) : (
           avatar
         )}
-      </div>
-      <div className={classes.right}>
+      </Box>
+      <Box sx={{ display: 'flex', flexDirection: 'column', px: 1, flexGrow: 1 }}>
         <Typography variant="body2" color="textSecondary">
-          <TextSpan>{`M${tune?.indexInWeek}.`}</TextSpan>
-          <TextSpan>{tune?.corner}</TextSpan>
-          {tune?.selector && tune.selector !== '草野マサムネ' ? <TextSpan>{tune.selector}選曲</TextSpan> : null}
+          <TextSpan label={`M${tune.indexInWeek}.`} />
+          <TextSpan label={tune.corner} />
+          {tune?.selector && tune.selector !== '草野マサムネ' ? <TextSpan label={`${tune.selector}選曲`} /> : null}
         </Typography>
-        <div>
-          <Typography>{tune?.title}</Typography>
+        <Box>
+          <Typography>{tune.title}</Typography>
           <Typography variant="body2">
-            <TextSpan>
-              {tune?.artist?.name !== 'スピッツ' ? (
-                <AppLink to={tune?.artist?.slug ?? '#'} color="inherit">
-                  {tune?.artist?.name}
-                </AppLink>
-              ) : (
-                'スピッツ'
-              )}
-            </TextSpan>
-            <TextSpan color="textSecondary">{`(${tune?.year})`}</TextSpan>
+            <TextSpan
+              label={
+                tune.artist.name !== 'スピッツ' ? (
+                  <AppLink to={tune?.artist?.slug ?? '#'} color="inherit">
+                    {tune?.artist?.name}
+                  </AppLink>
+                ) : (
+                  'スピッツ'
+                )
+              }
+            />
+            <TextSpan color="textSecondary" label={`(${tune?.year})`} />
           </Typography>
-        </div>
-      </div>
-    </div>
+        </Box>
+      </Box>
+    </Box>
   );
 }
 
 export default Tune;
-
+/*
 export function TuneSkeleton(): JSX.Element {
   const classes = useStyles({});
   const avatarClass = useAvatarStyles();
@@ -134,3 +149,4 @@ export function TuneSkeleton(): JSX.Element {
     </div>
   );
 }
+*/

@@ -16,7 +16,7 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
   const resolvers = {
     Query: {
       allTunes: {
-        type: `[Tune]`,
+        type: `AllTunes`,
         args: {
           year: `IntQueryOperatorInput`,
           corner: `StringQueryOperatorInput`,
@@ -51,15 +51,15 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
           const allProgram = Array.from(entries);
           const allTunes = allProgram
             .reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], [])
-            .sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
-
-          return allTunes
+            .sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek)
             .filter((tune) => stringQueryFilter(title)(tune.title))
             .filter((tune) => stringQueryFilter(artist)(tune.artist))
             .filter((tune) => intQueryFilter(year)(tune.year))
             .filter((tune) => stringQueryFilter(corner)(tune.corner ?? ''))
             .filter((tune) => stringQueryFilter(nation)(tune.nation))
             .filter((tune) => stringQueryFilter(selector)(tune.selector));
+
+          return { totalCount: allTunes.length, tunes: allTunes };
         },
       },
     },

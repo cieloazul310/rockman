@@ -1,92 +1,68 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { Theme } from '@mui/material/styles';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
 import Skeleton from '@mui/material/Skeleton';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
-import { Maybe, Artist } from '../../graphql-types';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
+import { MinimumArtist } from '../../types';
 
-interface StylesProps {
-  image?: string | null;
-}
-
-const useStyles = makeStyles<Theme, StylesProps>((theme) =>
-  createStyles({
-    root: {
-      display: 'flex',
-      padding: theme.spacing(1),
-    },
-    item: {
-      display: 'flex',
-      flexGrow: 1,
-      flexDirection: 'column',
-    },
-    imageContainer: {
-      width: '100%',
-      display: 'flex',
-      position: 'relative',
-    },
-    image: {
-      backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 300 : 700],
-      backgroundImage: ({ image }) => (image ? `url(${image})` : undefined),
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      paddingBottom: '100%',
-      width: '100%',
-    },
-    label: {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      color: theme.palette.common.white,
-      backgroundColor: theme.palette.primary.dark,
-      padding: theme.spacing(0, 1),
-    },
-    name: {
-      padding: theme.spacing(1, 0),
-    },
-  })
-);
-
-export interface ArtistItemProps {
-  artist?: Maybe<Pick<Artist, 'name' | 'image' | 'tunesCount' | 'programCount' | 'slug'>>;
-}
+export type ArtistItemProps = {
+  artist: MinimumArtist;
+};
 
 function isolateTouch(event: React.TouchEvent) {
   event.stopPropagation();
 }
 
-function ArtistItem({ artist }: ArtistItemProps): JSX.Element {
-  const classes = useStyles({ image: artist?.image });
+function ArtistItem({ artist }: ArtistItemProps) {
+  const { slug, name, program } = artist;
+  const { image, programsCount, tunesCount } = program;
+
   return (
     <AppLink
-      to={artist?.slug ?? '#'}
+      to={slug}
       color="inherit"
-      className={classes.root}
+      sx={{ display: 'flex', padding: 1 }}
       onTouchMove={isolateTouch}
       onTouchStart={isolateTouch}
       onTouchEnd={isolateTouch}
     >
-      <div className={classes.item}>
-        <div className={classes.imageContainer}>
-          <div className={classes.image} />
-          <div className={classes.label}>
+      <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'column' }}>
+        <Box sx={{ width: '100%', display: 'flex', position: 'relative' }}>
+          <Box
+            sx={{
+              bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 300 : 700],
+              backgroundImage: image ? `url(${image})` : undefined,
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              pb: '100%',
+              width: '100%',
+            }}
+          />
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              color: 'common.white',
+              bgcolor: 'primary.dark',
+              px: 1,
+            }}
+          >
             <Typography variant="caption">
-              {artist?.tunesCount}曲/{artist?.programCount}回
+              {tunesCount}曲/{programsCount}回
             </Typography>
-          </div>
-        </div>
-        <div className={classes.name}>
-          <Typography variant="body2">{artist?.name}</Typography>
-        </div>
-      </div>
+          </Box>
+        </Box>
+        <Box py={1}>
+          <Typography variant="body2">{name}</Typography>
+        </Box>
+      </Box>
     </AppLink>
   );
 }
 
 export default ArtistItem;
-
+/*
 export function ArtistItemSkeleton(): JSX.Element {
   const classes = useStyles({});
   return (
@@ -109,3 +85,4 @@ export function ArtistItemSkeleton(): JSX.Element {
     </AppLink>
   );
 }
+*/

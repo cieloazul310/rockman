@@ -1,11 +1,8 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
-import ListItemLink from './ListItemAppLink';
-import { useAvatarStyles } from '../styles';
-import { Maybe, Program } from '../../graphql-types';
-
+import { ListItemLink } from '@cieloazul310/gatsby-theme-aoi';
+import { ProgramBrowser } from '../../types';
+/*
 const useStyles = makeStyles((theme) =>
   createStyles({
     inset: {
@@ -13,24 +10,27 @@ const useStyles = makeStyles((theme) =>
     },
   })
 );
-
-interface Props {
-  program: Maybe<Pick<Program, 'fields' | 'title' | 'week' | 'date'>>;
+*/
+type ProgramItemProps = {
+  program: Pick<ProgramBrowser, 'title' | 'week' | 'date' | 'slug' | 'image'>;
   last?: boolean;
-}
+};
 
-function ProgramItem({ program, last }: Props): JSX.Element {
-  const classes = useAvatarStyles();
-  const textClasses = useStyles();
+function ProgramItem({ program, last }: ProgramItemProps) {
   return (
     <ListItemLink
-      avatar={<Avatar className={classes.avatar} src={program?.fields?.image ?? undefined} variant="square" />}
-      to={program?.fields?.slug ?? '#'}
-      primaryText={program?.title ?? 'タイトル'}
-      secondaryText={`第${program?.week}回 ${program?.date}`}
+      avatar={
+        <Avatar
+          sx={{ width: ({ spacing }) => spacing(11), height: ({ spacing }) => spacing(11) }}
+          src={program.image ?? undefined}
+          variant="square"
+        />
+      }
+      to={program.slug}
+      primaryText={program.title}
+      secondaryText={`第${program.week}回 ${program.date}`}
       divider={!last}
       inset
-      textClasses={textClasses}
     />
   );
 }

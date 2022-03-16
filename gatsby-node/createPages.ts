@@ -8,6 +8,11 @@ type CreatePagesQueryData = {
       node: Pick<Program, 'week' | 'title' | 'slug' | 'date'>;
     }[];
   };
+  allArtist: {
+    edges: {
+      node: Pick<ArtistBrowser, 'name' | 'slug'>;
+    }[];
+  };
 };
 
 export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
@@ -24,6 +29,14 @@ export default async function createPages({ graphql, actions, reporter }: Create
           }
         }
       }
+      allArtist(sort: { fields: sortName, order: ASC }) {
+        edges {
+          node {
+            name
+            slug
+          }
+        }
+      }
     }
   `);
   if (result.errors) {
@@ -31,15 +44,32 @@ export default async function createPages({ graphql, actions, reporter }: Create
   }
   if (!result.data) throw new Error('There are no posts');
 
-  const { allProgram } = result.data;
+  const { allProgram, allArtist } = result.data;
+
   allProgram.edges.forEach(({ node }, index) => {
-    const previous = index === allProgram.edges.length - 1 ? null : allProgram.edges[index + 1].node;
-    const next = index === 0 ? null : allProgram.edges[index - 1].node;
+    const previous = index === 0 ? null : allProgram.edges[index - 1].node;
+    const next = index === allProgram.edges.length - 1 ? null : allProgram.edges[index + 1].node;
 
     createPage({
       path: node.slug,
       component: path.resolve('./src/templates/program.tsx'),
       context: { previous: previous?.slug, next: next?.slug, slug: node.slug },
+    });
+  });
+
+  allArtist.edges.forEach(({ node }, index) => {
+    const previous = index === 0 ? null : allArtist.edges[index - 1].node;
+    const next = index === allArtist.edges.length - 1 ? null : allArtist.edges[index + 1].node;
+
+    createPage({
+      path: node.slug,
+      component: path.resolve('./src/templates/artist.tsx'),
+      context: {
+        index,
+        previous: previous?.slug,
+        next: next?.slug,
+        slug: node.slug,
+      },
     });
   });
 }

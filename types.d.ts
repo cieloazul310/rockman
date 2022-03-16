@@ -1,4 +1,5 @@
 export type Artist = {
+  id: string;
   name: string;
   kana: string | null;
   sortName: string;
@@ -17,7 +18,12 @@ export type ArtistBrowser = Artist & {
   };
 };
 
+export type MinimumArtist = Pick<ArtistBrowser, 'name' | 'slug' | 'nation'> & {
+  program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+};
+
 export type Program = {
+  id: string;
   week: number;
   year: number;
   date: string;
@@ -52,6 +58,13 @@ export type Tune = {
 export type TuneBrowser = Omit<Tune, 'artist'> & {
   artist: ArtistBrowser;
   program: Program;
+};
+
+export type TuneFields = Pick<
+  TuneBrowser,
+  'id' | 'title' | 'indexInWeek' | 'artist' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'
+> & {
+  artist: MinimumArtist;
 };
 
 export type SpitzAlbum = {

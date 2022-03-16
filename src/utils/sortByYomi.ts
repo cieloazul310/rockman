@@ -18,7 +18,7 @@ export function kanaToHira(str: string): string {
 export function getYomi(artistName: string, kana?: string | null): string {
   const the = artistName.slice(0, 4);
   if (the === 'The ' || the === 'THE ' || the === 'the ') return kanaToHira(artistName.slice(4)).toLowerCase();
-  return kanaToHira(kana ?? artistName).toLowerCase();
+  return kanaToHira(kana || artistName).toLowerCase();
 }
 
 export function sortByYomi(a: ArtistItem, b: ArtistItem): number {
