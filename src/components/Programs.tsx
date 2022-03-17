@@ -7,10 +7,14 @@ import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import ProgramItem from './ProgramItem';
-import { ProgramPageQuery } from '../../graphql-types';
+import { ProgramList } from '../../types';
 
-type ProgramYearsGroup = Pick<ProgramPageQuery['allProgram']['group'][number], 'totalCount' | 'edges'> & {
-  fieldValue: NonNullable<ProgramPageQuery['allProgram']['group'][number]['fieldValue']>;
+type ProgramYearsGroup = {
+  fieldValue: string;
+  totalCount: number;
+  edges: {
+    node: ProgramList;
+  }[];
 };
 
 function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
@@ -46,16 +50,14 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
   );
 }
 
-interface Props {
-  data: ProgramPageQuery['allProgram']['group'];
-}
+type ProgramsProps = {
+  data: ProgramYearsGroup[];
+};
 
-function Programs({ data }: Props): JSX.Element {
-  const items = React.useMemo(() => data.filter((group): group is ProgramYearsGroup => Boolean(group.fieldValue)), [data]);
-
+function Programs({ data }: ProgramsProps) {
   return (
     <List>
-      {items.map((group) => (
+      {data.map((group) => (
         <ProgramsByYear key={group.fieldValue} data={group} />
       ))}
     </List>

@@ -68,6 +68,12 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
       totalCount: Int!
       tunes: [Tune]!
     }
+    type Selector {
+      name: String!
+      programs: [Program]!
+      programsCount: Int!
+      tunesCount: Int!
+    }
   `);
 
   createTypes(
@@ -83,7 +89,7 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
           resolve: (source: Pick<Program, 'playlist'>) => {
             const youtube = source.playlist
               .filter(({ artist }) => artist !== 'スピッツ')
-              .reduce<string | null>((accum, curr) => accum ?? curr.youtube, null);
+              .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
             return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
           },
         },

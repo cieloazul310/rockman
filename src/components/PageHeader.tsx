@@ -54,8 +54,8 @@ export function ProgramPageHeader({
       <Box>
         <Typography variant="body2" color="textSecondary">
           <TextSpan label={`第${program.week}回`} />
-          <TextSpan>{program.date}</TextSpan>
-          <TextSpan>全{program?.playlist.length}曲</TextSpan>
+          <TextSpan label={program.date} />
+          <TextSpan label={`全${program.playlist.length}曲`} />
         </Typography>
         <Typography fontWeight="bold" variant="h6" component="h2" lineHeight={1.2}>
           {program.title}

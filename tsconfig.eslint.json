@@ -8,6 +8,9 @@
     "gatsby-config.ts",
     "gatsby-node.ts",
     "gatsby-ssr.tsx",
-    "plugins/**/*"
+    "jest-preprocess.js",
+    "jest.config.js",
+    "loadershim.js",
+    "__mocks__/**/*"
   ]
 }

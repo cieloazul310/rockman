@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { graphql, navigate, PageProps } from 'gatsby';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import Avatar from '@mui/material/Avatar';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
@@ -9,6 +11,7 @@ import Layout from '../layout';
 import { ArtistPageHeader } from '../components/PageHeader';
 import TunesByProgram from '../components/TunesByProgram';
 import ArtistItemContainer from '../components/ArtistItemContainer';
+import { ArtistIcon } from '../icons';
 import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
 /*
 import Section, { SectionDivider } from '../components/Section';
@@ -61,16 +64,30 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       <Section>
         <PageNavigationContainer>
           <PageNavigationItem to={previous?.slug ?? '#'} disabled={!previous}>
-            <Typography variant="body2">{previous?.name}</Typography>
-            <Typography variant="body2" color="text.secondary">
-              {previous?.program.tunesCount}曲 / {previous?.program.programsCount}回
-            </Typography>
+            <Box display="flex" flexDirection="row" alignItems="center">
+              <Avatar src={previous?.program.image ?? undefined} sx={{ mr: 2 }}>
+                <ArtistIcon />
+              </Avatar>
+              <Box>
+                <Typography variant="body2">{previous?.name}</Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {previous?.program.tunesCount}曲 / {previous?.program.programsCount}回
+                </Typography>
+              </Box>
+            </Box>
           </PageNavigationItem>
           <PageNavigationItem to={next?.slug ?? '#'} next disabled={!next}>
-            <Typography variant="body2">{next?.name}</Typography>
-            <Typography variant="body2" color="text.secondary">
-              {next?.program.tunesCount}曲 / {next?.program.programsCount}回
-            </Typography>
+            <Box display="flex" flexDirection="row-reverse" alignItems="center">
+              <Avatar src={next?.program.image ?? undefined} sx={{ ml: 2 }}>
+                <ArtistIcon />
+              </Avatar>
+              <Box>
+                <Typography variant="body2">{next?.name}</Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {next?.program.tunesCount}曲 / {next?.program.programsCount}回
+                </Typography>
+              </Box>
+            </Box>
           </PageNavigationItem>
         </PageNavigationContainer>
       </Section>

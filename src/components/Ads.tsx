@@ -1,25 +1,9 @@
 /* eslint @typescript-eslint/no-explicit-any: "off" */
 import * as React from 'react';
-import clsx from 'clsx';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
 import { useLocation } from '@reach/router';
 import InView from './InView';
-
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      overflow: 'hidden',
-      padding: theme.spacing(0, 2),
-      minWidth: 120,
-    },
-    inArticle: {
-      minHeight: 120,
-      maxHeight: 160,
-    },
-  })
-);
 
 declare global {
   interface Window {
@@ -27,9 +11,8 @@ declare global {
   }
 }
 
-export function AdBasicInner(): JSX.Element {
+export function AdBasicInner() {
   const { pathname } = useLocation();
-  const classes = useStyles();
   React.useEffect(() => {
     if (window) {
       window.adsbygoogle = window.adsbygoogle || [];
@@ -37,7 +20,7 @@ export function AdBasicInner(): JSX.Element {
     }
   }, [pathname]);
   return (
-    <div key={pathname} className={clsx(classes.root, classes.inArticle)}>
+    <Box key={pathname} sx={{ overflow: 'hidden', px: 2, minWidth: 120, minHeight: 120, maxHeight: 160 }}>
       <Typography variant="caption">[ad]</Typography>
       <ins
         key={pathname}
@@ -48,11 +31,11 @@ export function AdBasicInner(): JSX.Element {
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </div>
+    </Box>
   );
 }
 
-export function AdBasic(): JSX.Element {
+export function AdBasic() {
   return (
     <InView>
       <AdBasicInner />
@@ -60,9 +43,8 @@ export function AdBasic(): JSX.Element {
   );
 }
 
-export function AdInFooter(): JSX.Element {
+export function AdInFooter() {
   const { pathname } = useLocation();
-  const classes = useStyles();
   React.useEffect(() => {
     if (window) {
       window.adsbygoogle = window.adsbygoogle || [];
@@ -70,7 +52,7 @@ export function AdInFooter(): JSX.Element {
     }
   }, [pathname]);
   return (
-    <div className={classes.root} key={pathname}>
+    <Box sx={{ overflow: 'hidden', px: 2, minWidth: 120 }} key={pathname}>
       <Typography variant="caption" component="p" align="left">
         [ad]
       </Typography>
@@ -83,6 +65,6 @@ export function AdInFooter(): JSX.Element {
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </div>
+    </Box>
   );
 }

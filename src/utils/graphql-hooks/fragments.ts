@@ -2,6 +2,14 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 export default function useFragments() {
   useStaticQuery(graphql`
+    fragment programList on Program {
+      id
+      title
+      slug
+      week
+      date(formatString: "YYYY-MM-DD")
+      image
+    }
     fragment tuneFields on Tune {
       id
       indexInWeek

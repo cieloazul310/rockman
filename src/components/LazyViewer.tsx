@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
-import { TuneProps } from './Tune';
-import TunesByProgram, { TunesByProgramSkeleton, TunesByProgramProps } from './TunesByProgram';
+import TunesByProgram from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
+import { ProgramBrowser, TuneFields } from '../../types';
 
-interface DisplayOnScreenProps {
+type DisplayOnScreenProps = {
   children: React.ReactNode;
   margin?: number;
   once?: boolean;
   onSeem?: (() => void) | ((inView: boolean) => void);
-}
+};
 
 function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayOnScreenProps) {
   const [ref, inView] = useInView({
@@ -28,7 +28,10 @@ function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayO
         children
       ) : (
         <div>
+          <p>Loading...</p>
+          {/*
           <TunesByProgramSkeleton />
+          */}
         </div>
       )}
     </div>
@@ -41,25 +44,27 @@ DisplayOnScreen.defaultProps = {
   onSeem: undefined,
 };
 
-interface Props {
-  programs: TunesByProgramProps['program'][];
+type LazyViewerProps = {
+  programs: (Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneFields[];
+  })[];
   divisor?: number;
-  filter?: (tune: TuneProps['tune']) => boolean;
+  filter?: (tune: TuneFields) => boolean;
   onSeem?: (() => void) | ((inView: boolean) => void);
-}
+};
 
-function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: Props): JSX.Element {
+function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: LazyViewerProps) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
     return dividedItems.map((dividedItem, index) =>
       index === 0 ? (
-        <div key={index.toString()}>
+        <div key={dividedItem[0].id}>
           {dividedItem.map((program) => (
             <TunesByProgram program={program} key={program?.id} />
           ))}
         </div>
       ) : (
-        <DisplayOnScreen key={index.toString()} margin={40} onSeem={onSeem}>
+        <DisplayOnScreen key={dividedItem[0].id} margin={40} onSeem={onSeem}>
           {dividedItem.map((program) => (
             <TunesByProgram program={program} key={program?.id} />
           ))}

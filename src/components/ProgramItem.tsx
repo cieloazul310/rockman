@@ -1,18 +1,10 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import { ListItemLink } from '@cieloazul310/gatsby-theme-aoi';
-import { ProgramBrowser } from '../../types';
-/*
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    inset: {
-      paddingLeft: theme.spacing(2),
-    },
-  })
-);
-*/
+import { ProgramList } from '../../types';
+
 type ProgramItemProps = {
-  program: Pick<ProgramBrowser, 'title' | 'week' | 'date' | 'slug' | 'image'>;
+  program: ProgramList;
   last?: boolean;
 };
 

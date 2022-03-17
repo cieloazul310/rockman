@@ -1,34 +1,35 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { Article, SubParagraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import { ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 
 function DrawerFooter() {
   return (
-    <Article>
-      <Typography variant="subtitle2" gutterBottom>
+    <Box p={2}>
+      <Typography variant="subtitle2" gutterBottom color="text.secondary" mb={2}>
         About
       </Typography>
-      <SubParagraph>
+      <Typography variant="body2" paragraph>
         <strong>ロック大陸漫遊記プレイリスト集</strong>は、TOKYO-FM他全国38局で放送されているラジオ番組
         <strong>「SPITZ 草野マサムネのロック大陸漫遊記」</strong>
         でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。
-      </SubParagraph>
-      <SubParagraph>
+      </Typography>
+      <Typography variant="body2" paragraph>
         原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。
-      </SubParagraph>
-      <SubParagraph>
+      </Typography>
+      <Typography variant="body2" paragraph>
         <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
         <br />
         <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
-      </SubParagraph>
-      <SubParagraph>
+      </Typography>
+      <Typography variant="body2" paragraph>
         全国38局放送時間一覧
         <br />
         <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
           https://www.tfm.co.jp/manyuki/index.php?catid=3350
         </ExternalLink>
-      </SubParagraph>
-    </Article>
+      </Typography>
+    </Box>
   );
 }
 export default DrawerFooter;

@@ -38,6 +38,7 @@ export type Program = {
 export type ProgramBrowser = Omit<Program, 'playlist'> & {
   playlist: TuneBrowser[];
 };
+export type ProgramList = Pick<ProgramBrowser, 'id' | 'date' | 'title' | 'slug' | 'image' | 'week'>;
 
 export type Tune = {
   id: string;
@@ -85,4 +86,11 @@ export type SpitzTune = {
 };
 export type SpitzTuneBrowser = SpitzTune & {
   append: ProgramBrowser[];
+};
+
+export type Selector = {
+  name: string;
+  programs: ProgramBrowser;
+  programsCount: number;
+  tunesCount: number;
 };

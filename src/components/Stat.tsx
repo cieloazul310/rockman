@@ -6,44 +6,6 @@ import Typography from '@mui/material/Typography';
 import { useInView } from 'react-intersection-observer';
 import { ProgramIcon, ArtistIcon, TuneIcon } from '../icons';
 import useAnimation from '../utils/useAnimation';
-// import { StatQuery } from '../../graphql-types';
-/*
-export const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    container: {
-      padding: theme.spacing(1),
-    },
-    root: {
-      display: 'flex',
-      padding: theme.spacing(2),
-      alignItems: 'baseline',
-      flexDirection: 'row',
-      [theme.breakpoints.down('sm')]: {
-        flexDirection: 'column',
-        alignItems: 'inherit',
-        padding: theme.spacing(2, 0),
-      },
-    },
-    title: {
-      display: 'flex',
-      alignItems: 'center',
-    },
-    valueField: {
-      display: 'flex',
-      flexGrow: 1,
-      justifyContent: 'flex-end',
-      alignItems: 'baseline',
-    },
-    icon: {
-      display: 'flex',
-      padding: theme.spacing(1, 0.5),
-    },
-    label: {
-      marginLeft: '.5em',
-    },
-  })
-);
-*/
 
 type StatProps = {
   icon: React.ReactNode;
@@ -52,16 +14,25 @@ type StatProps = {
   title: string;
 };
 
-function StatCore({ value }: { value: number }) {
+function StatCore({ value, disableAnimation = false }: { value: number; disableAnimation?: boolean }) {
   const animation = useAnimation('linear', value, 0);
-  return <span>{Math.round(value * animation)}</span>;
+  return <span>{disableAnimation ? value : Math.round(value * animation)}</span>;
 }
 
+StatCore.defaultProps = {
+  disableAnimation: false,
+};
+
 export function Stat({ icon, value, label, title }: StatProps) {
-  // const classes = useStyles();
+  const triggered = window ? window.sessionStorage.getItem(`stat-triggered-${title}`) : null;
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
+  React.useEffect(() => {
+    if (window && inView) {
+      window.sessionStorage.setItem(`stat-triggered-${title}`, 'triggered');
+    }
+  }, [inView]);
   return (
     <Grid item xs={4} ref={ref}>
       <Box display="flex" alignItems="center">
@@ -74,7 +45,7 @@ export function Stat({ icon, value, label, title }: StatProps) {
       </Box>
       <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'flex-end', alignItems: 'baseline' }}>
         <Typography variant="h5" component="em">
-          {inView ? <StatCore value={value} /> : <span>0</span>}
+          {inView ? <StatCore value={value} disableAnimation={Boolean(triggered)} /> : <span>0</span>}
         </Typography>
         <Typography component="span" ml=".5em">
           {label}
@@ -97,25 +68,25 @@ export function StatsFallBack() {
 type StatQueryData = {
   allProgram: {
     totalCount: number;
-    group: {
-      totalCount: number;
-    }[];
   };
   allArtist: {
+    totalCount: number;
+  };
+  allTunes: {
     totalCount: number;
   };
 };
 
 export default function Stats() {
-  const { allProgram, allArtist } = useStaticQuery<StatQueryData>(graphql`
+  const { allProgram, allArtist, allTunes } = useStaticQuery<StatQueryData>(graphql`
     query {
       allProgram {
         totalCount
-        group(field: playlist) {
-          totalCount
-        }
       }
       allArtist {
+        totalCount
+      }
+      allTunes {
         totalCount
       }
     }
@@ -124,7 +95,7 @@ export default function Stats() {
   return (
     <Grid container spacing={{ xs: 1, sm: 2 }}>
       <Stat icon={<ProgramIcon fontSize="inherit" />} value={allProgram.totalCount} title="放送" label="回" />
-      <Stat icon={<TuneIcon fontSize="inherit" />} value={allProgram.group[0].totalCount} title="曲数" label="曲" />
+      <Stat icon={<TuneIcon fontSize="inherit" />} value={allTunes.totalCount} title="曲数" label="曲" />
       <Stat icon={<ArtistIcon fontSize="inherit" />} value={allArtist.totalCount} title="アーティスト" label="組" />
     </Grid>
   );

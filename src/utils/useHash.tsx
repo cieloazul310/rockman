@@ -19,7 +19,6 @@ export function useParseHash<T = null>(titles: string[], stateFunction?: (state?
     const hashedTitle = parseHash(hash);
     const initialTabIndex = titles.indexOf(hashedTitle);
     return initialTabIndex >= 0 ? initialTabIndex : 0;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 }
 
