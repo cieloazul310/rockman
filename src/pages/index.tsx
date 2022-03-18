@@ -8,8 +8,8 @@ import Layout from '../layout';
 import ProgramItem from '../components/ProgramItem';
 import ProgramTop25 from '../components/ProgramTop25';
 import Stats from '../components/Stat';
+import { AdInSectionDivider } from '../components/Ads';
 import { ProgramBrowser } from '../../types';
-// import { AdBasic } from '../components/Ads';
 
 type IndexPageQueryData = {
   allProgram: {
@@ -70,15 +70,10 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
           </List>
         </Article>
       </Section>
-      <SectionDivider />
-      {/*
-      <AdBasic />
-      <SectionDivider />
-      */}
+      <AdInSectionDivider />
       <Section>
         <ProgramTop25 />
       </Section>
-      <SectionDivider />
     </Layout>
   );
 }

@@ -1,103 +1,74 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import makeStyles from '@mui/styles/makeStyles';
-import createStyles from '@mui/styles/createStyles';
-import AppLink from 'gatsby-theme-aoi/src/components/AppLink';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
-import { TakeOffQuery } from '../../graphql-types';
+import { ProgramBrowser, SpitzAlbumBrowser, SpitzTune } from '../../types';
 
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      padding: theme.spacing(1, 0),
-    },
-    tune: {
-      padding: theme.spacing(1),
-    },
-    tuneTitle: {
-      display: 'flex',
-    },
-    titleIndex: {
-      width: '2em',
-      display: 'flex',
-      justifyContent: 'flex-end',
-      paddingRight: '.5em',
-    },
-    appendProgram: {
-      paddingLeft: theme.spacing(4),
-    },
-    albumTitle: {
-      padding: theme.spacing(0, 1),
-    },
-    programTitle: {
-      fontWeight: theme.typography.fontWeightBold,
-    },
-  })
-);
+type TakeOffAlbumProps = {
+  album: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+    tunes: (SpitzTune & {
+      program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+    })[];
+  };
+};
 
-interface Props {
-  album: TakeOffQuery['albums']['edges'][number]['node'];
-}
-
-export function TakeOffAlbumItem({ album }: Props): JSX.Element {
-  const classes = useStyles();
+function TakeOffAlbum({ album }: TakeOffAlbumProps) {
   return (
-    <div>
+    <section>
       {album.tunes.map((tune) => (
-        <div key={tune.id} className={classes.tune}>
-          <div className={classes.tuneTitle}>
-            <Typography className={classes.titleIndex}>{tune.index}.</Typography>
+        <Box key={tune.id} py={1}>
+          <Box display="flex">
+            <Typography sx={{ width: '2em', display: 'flex', justifyContent: 'flex-end', pr: '.5em' }}>{tune.index}.</Typography>
             <Typography>{tune.title}</Typography>
-          </div>
+          </Box>
           <div>
-            {tune.append?.map((program) => (
-              <div className={classes.appendProgram} key={program?.id}>
+            {tune.program.map((program) => (
+              <Box pl={4} key={program.id}>
                 <Typography variant="caption" color="textSecondary">
-                  <TextSpan>第{program?.week}回</TextSpan>
-                  <TextSpan>{program?.date}</TextSpan>
+                  <TextSpan label={`第${program.week}回`} />
+                  <TextSpan label={program.date} />
                 </Typography>
-                <Typography variant="body2" className={classes.programTitle}>
-                  <AppLink to={program?.fields?.slug ?? '#'}>{program?.title}</AppLink>
+                <Typography variant="body2" fontWeight="bold">
+                  <AppLink to={program.slug}>{program.title}</AppLink>
                 </Typography>
-              </div>
+              </Box>
             ))}
           </div>
-        </div>
+        </Box>
       ))}
-    </div>
-  );
-}
-
-function TakeOffAlbum({ album }: Props): JSX.Element {
-  const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <TakeOffAlbumItem album={album} />
-    </div>
+    </section>
   );
 }
 
 export default TakeOffAlbum;
 
-interface TakeOffOthersProps {
-  albums: TakeOffQuery['albums'];
-}
+type TakeOffOthersProps = {
+  albums: {
+    edges: {
+      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+        tunes: (SpitzTune & {
+          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+        })[];
+      };
+    }[];
+  };
+};
 
-export function TakeOffOthers({ albums }: TakeOffOthersProps): JSX.Element {
-  const classes = useStyles();
+export function TakeOffOthers({ albums }: TakeOffOthersProps) {
   return (
-    <div className={classes.root}>
+    <Box py={1}>
       {albums.edges.map(({ node }) => (
-        <div key={node.id} className={classes.root}>
-          <div className={classes.albumTitle}>
+        <Box key={node.id} py={2}>
+          <Box px={1}>
             <Typography variant="body2" color="textSecondary">
               {node.year}
             </Typography>
             <Typography variant="subtitle2">{node.title}</Typography>
-          </div>
-          <TakeOffAlbumItem album={node} />
-        </div>
+          </Box>
+          <TakeOffAlbum album={node} />
+        </Box>
       ))}
-    </div>
+    </Box>
   );
 }

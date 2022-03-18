@@ -2,10 +2,42 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Skeleton from '@mui/material/Skeleton';
 import { AppLink, Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
-import Tune from './Tune';
+import Tune, { TuneSkeleton } from './Tune';
 import TextSpan from './TextSpan';
 import { ProgramBrowser, TuneFields } from '../../types';
+
+type TunesByProgramBareProps = {
+  headerText: React.ReactNode;
+  title: React.ReactNode;
+  footerText?: React.ReactNode | null;
+  children: React.ReactNode;
+};
+
+function TunesByProgramBare({ headerText, title, footerText, children }: TunesByProgramBareProps) {
+  return (
+    <section>
+      <Section>
+        <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
+          <Box p={1}>
+            <Typography variant="body1" color="textSecondary">
+              {headerText}
+            </Typography>
+            <Typography fontWeight="bold">{title}</Typography>
+            {footerText ? <Typography variant="body2">{footerText}</Typography> : null}
+          </Box>
+          <div>{children}</div>
+        </Container>
+      </Section>
+      <SectionDivider />
+    </section>
+  );
+}
+
+TunesByProgramBare.defaultProps = {
+  footerText: undefined,
+};
 
 type TunesByProgramProps = {
   program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
@@ -14,29 +46,22 @@ type TunesByProgramProps = {
 };
 
 function TunesByProgram({ program }: TunesByProgramProps) {
+  const { week, date, slug, title, subtitle, playlist } = program;
   return (
-    <section>
-      <Section>
-        <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
-          <Box p={1}>
-            <Typography variant="body1" color="textSecondary">
-              <TextSpan label={`第${program.week}回`} />
-              <TextSpan label={program.date} />
-            </Typography>
-            <Typography fontWeight="bold">
-              <AppLink to={program.slug}>{program.title}</AppLink>
-            </Typography>
-            {program.subtitle ? <Typography variant="body2">{program.subtitle}</Typography> : null}
-          </Box>
-          <div>
-            {program.playlist.map((tune) => (
-              <Tune key={tune.id} tune={tune} />
-            ))}
-          </div>
-        </Container>
-      </Section>
-      <SectionDivider />
-    </section>
+    <TunesByProgramBare
+      headerText={
+        <>
+          <TextSpan label={`第${week}回`} />
+          <TextSpan label={date} />
+        </>
+      }
+      title={<AppLink to={slug}>{title}</AppLink>}
+      footerText={subtitle}
+    >
+      {playlist.map((tune) => (
+        <Tune key={tune.id} tune={tune} />
+      ))}
+    </TunesByProgramBare>
   );
 }
 
@@ -73,26 +98,13 @@ export function ProgramByTune({ tune }: ProgramByTuneProps) {
   );
 }
 
-/*
-export function TunesByProgramSkeleton(): JSX.Element {
-  const classes = useStyles();
+export function TunesByProgramSkeleton() {
   return (
-    <div className={classes.root}>
-      <div className={classes.header}>
-        <Typography variant="body2" color="textSecondary">
-          <TextSpan>
-            <Skeleton width={40} />
-          </TextSpan>
-          <TextSpan>
-            <Skeleton width={60} />
-          </TextSpan>
-        </Typography>
-        <Typography className={classes.title} variant="body1" color="secondary">
-          <Skeleton width={260} />
-        </Typography>
-      </div>
-      <div>{Array.from({ length: 4 }).map((_, index) => <TuneSkeleton key={index.toString()} />) ?? null}</div>
-    </div>
+    <TunesByProgramBare headerText={<Skeleton width={100} />} title={<Skeleton width={260} />}>
+      {Array.from({ length: 4 }).map((_, index) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <TuneSkeleton key={index.toString()} />
+      ))}
+    </TunesByProgramBare>
   );
 }
-*/

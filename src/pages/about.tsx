@@ -1,29 +1,14 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import {
-  Jumbotron,
-  Section,
-  SectionDivider,
-  Article,
-  ArticleTitle,
-  Paragraph,
-  H3,
-  H4,
-  AppLink,
-  ExternalLink,
-} from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionDivider, Article, ArticleTitle, Paragraph, H3, H4, AppLink, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 
 import Layout from '../layout';
-import { AdBasic } from '../components/Ads';
+import Jumbotron from '../components/Jumbotron';
+import { AdInSectionDivider } from '../components/Ads';
 
 function About() {
   return (
     <Layout title="サイトについて">
-      <Jumbotron disableGradient maxWidth="md">
-        <Typography variant="h5" component="h2" gutterBottom>
-          サイトについて
-        </Typography>
-      </Jumbotron>
+      <Jumbotron title="サイトについて" />
       <SectionDivider />
       <Section>
         <Article maxWidth="md">
@@ -110,9 +95,7 @@ function About() {
           <Paragraph>© 2022 cieloazul310 All rights reserved.</Paragraph>
         </Article>
       </Section>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
+      <AdInSectionDivider />
     </Layout>
   );
 }

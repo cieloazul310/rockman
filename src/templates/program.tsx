@@ -4,38 +4,30 @@ import Typography from '@mui/material/Typography';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
-import { PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
+import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
 import ArtistItemContainer from '../components/ArtistItemContainer';
-import removeMultiple from '../utils/removeMultiple';
-/*
-import Section, { SectionDivider } from '../components/Section';
-import { ProgramPageHeader } from '../components/PageHeader';
-import ArtistItemContainer from '../components/ArtistItemContainer';
-import PageNavigation from '../components/PageNavigation';
-import DrawerNavigation from '../components/DrawerNavigation';
-import NavigationBox from '../components/NavigationBox';
-import { AdBasic } from '../components/Ads';
 import { ProgramTonarinoTab } from '../components/TonarinoTab';
+import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
-import nonNullable from '../utils/nonNullable';
-*/
-// import { ProgramTemplateQuery, SitePageContext } from '../../graphql-types';
-import { ProgramBrowser } from '../../types';
+import { ProgramBrowser, TuneBrowser } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
-/*
-interface Props {
-  data: ProgramTemplateQuery;
-  pageContext: SitePageContext;
-}
-*/
+
 type ProgramTemplateData = {
   program: ProgramBrowser;
-  previous: Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'image'> | null;
-  next: Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'image'> | null;
+  previous:
+    | (Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
+        playlist: Pick<TuneBrowser, 'id'>[];
+      })
+    | null;
+  next:
+    | (Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
+        playlist: Pick<TuneBrowser, 'id'>[];
+      })
+    | null;
 };
 
 type ProgramTemplateContext = {
@@ -46,16 +38,25 @@ type ProgramTemplateContext = {
 
 function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
   const { program, previous, next } = data;
-  // const initialIndex = previous ? 1 : 0;
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && next.slug && index === initialIndex + 1) {
+      navigate(next.slug);
+    }
+    if (previous && previous.slug && index === initialIndex - 1) {
+      navigate(previous.slug);
+    }
+  };
   const artists = program.playlist
     ? removeMultiple(
         program.playlist.map((tune) => tune?.artist),
         (item) => item?.name
       )
     : [];
-
-  return (
-    <Layout title={program.title}>
+  const tabs = [
+    previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
+    <React.Fragment key="main">
       <ProgramPageHeader program={program} />
       <SectionDivider />
       <Section>
@@ -65,7 +66,24 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
           ))}
         </Article>
       </Section>
-      <SectionDivider />
+    </React.Fragment>,
+    next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
+
+  return (
+    <Layout
+      title={program.title}
+      drawerContents={
+        <DrawerPageNavigation
+          previous={previous ? { to: previous.slug, title: previous.title } : undefined}
+          next={next ? { to: next.slug, title: next.title } : undefined}
+        />
+      }
+    >
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
+      <AdInSectionDivider />
       <Section>
         <ArtistItemContainer title="登場アーティスト" artists={artists} />
       </Section>
@@ -168,7 +186,12 @@ export const query = graphql`
       slug
       date(formatString: "YYYY-MM-DD")
       title
+      subtitle
       image
+      categories
+      playlist {
+        id
+      }
     }
     next: program(slug: { eq: $next }) {
       id
@@ -176,7 +199,12 @@ export const query = graphql`
       slug
       date(formatString: "YYYY-MM-DD")
       title
+      subtitle
       image
+      categories
+      playlist {
+        id
+      }
     }
   }
 `;

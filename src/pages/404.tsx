@@ -1,17 +1,13 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
 import { useLocation } from '@reach/router';
-import { Layout, Jumbotron, Section, SectionDivider, Article, Alert } from '@cieloazul310/gatsby-theme-aoi';
+import { Layout, Section, SectionDivider, Article, Alert } from '@cieloazul310/gatsby-theme-aoi';
+import Jumbotron from '../components/Jumbotron';
 
 function NotFoundPage() {
   const location = useLocation();
   return (
     <Layout title="Not Found">
-      <Jumbotron disableGradient maxWidth="md">
-        <Typography variant="h5" component="h2" gutterBottom>
-          Not Found
-        </Typography>
-      </Jumbotron>
+      <Jumbotron title="Not Found" />
       <SectionDivider />
       <Section>
         <Article maxWidth="md">

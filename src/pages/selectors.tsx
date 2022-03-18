@@ -1,21 +1,10 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import Typography from '@mui/material/Typography';
-import Tabs from '@mui/material/Tabs';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Section, SectionDivider, Jumbotron, Article, Paragraph, TabPane } from '@cieloazul310/gatsby-theme-aoi';
-import Layout from '../layout/TabLayout';
-import Tab from '../components/MuiTab';
+import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import TabPageTemplate from '../layout/TabTemplate';
+import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
-import { AdBasic } from '../components/Ads';
-import { useParseHash, useHash } from '../utils/useHash';
 import { Selector, ProgramBrowser, TuneFields } from '../../types';
-
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 type WindowState = {
   selector?: string;
@@ -31,6 +20,43 @@ type SelectorsPageQueryData = {
 
 function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, WindowState>) {
   const { allSelectors } = data;
+  const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
+  const actionCallbacks = ({ updateHeight }: { updateHeight: () => void }) => {
+    setUpdateHeight(() => updateHeight);
+  };
+  const onSeem = React.useCallback(
+    (inView: boolean) => {
+      if (inView && updater) {
+        updater();
+      }
+    },
+    [updater]
+  );
+
+  return (
+    <TabPageTemplate<SelectorsPageQueryData['allSelectors'][number], WindowState>
+      title="選曲者"
+      description="ロック大陸漫遊記に登場したゲストやリクエストによる選曲を分類したページです。"
+      items={allSelectors}
+      getTitle={({ name }) => name}
+      getTabTitle={({ name, tunesCount }) => `${name} ${tunesCount}`}
+      getCounterText={({ tunesCount, programsCount }) => `${tunesCount}曲/${programsCount}回`}
+      stateFunction={(state) => state?.selector}
+      swipeableViewsActions={actionCallbacks}
+    >
+      {allSelectors.map(({ name, tunesCount, programsCount, programs }) => (
+        <React.Fragment key={name}>
+          <Jumbotron title={`${name}の選曲`} footerText={`${tunesCount}曲/${programsCount}回`} />
+          <SectionDivider />
+          <Section>
+            <LazyViewer programs={programs} divisor={15} onSeem={onSeem} />
+          </Section>
+        </React.Fragment>
+      ))}
+    </TabPageTemplate>
+  );
+
+  /*
   const titles = React.useMemo(() => ['', ...allSelectors.map(({ name }) => name)], [allSelectors]);
   const initialTab = useParseHash<WindowState>(titles, (state) => state?.selector ?? undefined);
   const [tab, setTab] = React.useState(initialTab);
@@ -135,6 +161,7 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
       <SectionDivider />
     </Layout>
   );
+  */
 }
 
 export default SelectorsPage;

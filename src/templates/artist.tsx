@@ -6,27 +6,16 @@ import Avatar from '@mui/material/Avatar';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
-import { PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
+import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
 import { ArtistPageHeader } from '../components/PageHeader';
-import TunesByProgram from '../components/TunesByProgram';
-import ArtistItemContainer from '../components/ArtistItemContainer';
-import { ArtistIcon } from '../icons';
-import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
-/*
-import Section, { SectionDivider } from '../components/Section';
-import { ArtistPageHeader } from '../components/PageHeader';
-import TunesByProgram from '../components/TunesByProgram';
-import ArtistItemContainer from '../components/ArtistItemContainer';
-import PageNavigation from '../components/PageNavigation';
-import DrawerNavigation from '../components/DrawerNavigation';
-import NavigationBox from '../components/NavigationBox';
-import { AdBasic } from '../components/Ads';
 import { ArtistTonarinoTab } from '../components/TonarinoTab';
+import TunesByProgram from '../components/TunesByProgram';
+import ArtistItemContainer from '../components/ArtistItemContainer';
+import { AdInSectionDivider } from '../components/Ads';
+import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
-import nonNullable from '../utils/nonNullable';
-import { ArtistTemplateQuery, SitePageContext } from '../../graphql-types';
-*/
+import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -48,18 +37,46 @@ type ArtistTemplateContext = {
 
 function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateContext>) {
   const { artist, previous, next } = data;
-  // const { index } = pageContext;
-
-  return (
-    <Layout title={artist.name}>
+  const sortProgram = useSortProgram();
+  const initialIndex = previous ? 1 : 0;
+  const handleChangeIndex = (index: number) => {
+    if (index === initialIndex) return;
+    if (next && index === initialIndex + 1) {
+      navigate(next.slug);
+    }
+    if (previous && index === initialIndex - 1) {
+      navigate(previous.slug);
+    }
+  };
+  const tabs = [
+    previous ? <ArtistTonarinoTab key={previous.slug} item={previous} /> : null,
+    <React.Fragment key="main">
       <ArtistPageHeader artist={artist} />
       <SectionDivider />
-      {artist.program.programs.map((program) => (
+      {artist.program.programs.sort(sortProgram).map((program) => (
         <TunesByProgram key={program.id} program={program} />
       ))}
+      <AdInSectionDivider />
       <Section>
         <ArtistItemContainer title="同じ回で登場したアーティスト" artists={artist.program.relatedArtists} />
       </Section>
+    </React.Fragment>,
+    next ? <ArtistTonarinoTab key={next.slug} item={next} /> : null,
+  ].filter((element): element is JSX.Element => Boolean(element));
+
+  return (
+    <Layout
+      title={artist.name}
+      drawerContents={
+        <DrawerPageNavigation
+          previous={previous ? { to: previous.slug, title: previous.name } : undefined}
+          next={next ? { to: next.slug, title: next.name } : undefined}
+        />
+      }
+    >
+      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+        {tabs}
+      </BindKeyboardSwipeableViews>
       <SectionDivider />
       <Section>
         <PageNavigationContainer>

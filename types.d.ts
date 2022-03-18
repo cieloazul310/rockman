@@ -85,7 +85,7 @@ export type SpitzTune = {
   title: string;
 };
 export type SpitzTuneBrowser = SpitzTune & {
-  append: ProgramBrowser[];
+  program: ProgramBrowser[];
 };
 
 export type Selector = {

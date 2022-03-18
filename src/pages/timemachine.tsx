@@ -1,25 +1,14 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Tabs from '@mui/material/Tabs';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Jumbotron, Section, SectionDivider, Article, Paragraph, H3, TabPane } from '@cieloazul310/gatsby-theme-aoi';
-import Layout from '../layout/TabLayout';
-import Tab from '../components/MuiTab';
+import { Section, SectionDivider, H3 } from '@cieloazul310/gatsby-theme-aoi';
+import TabPageTemplate from '../layout/TabTemplate';
+import Jumbotron from '../components/Jumbotron';
 import { ProgramByTune } from '../components/TunesByProgram';
-import { AdBasic } from '../components/Ads';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import { useParseHash, useHash } from '../utils/useHash';
 import { ProgramBrowser, TuneFields } from '../../types';
-
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 type TimeMachinePageQueryData = {
   allTunes: {
@@ -33,7 +22,40 @@ type TimeMachinePageQueryData = {
 function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
   const { allTunes } = data;
   const items = getDividedYears(allTunes.tunes, 5, (tune) => tune.year).sort((a, b) => b.value - a.value);
+  const sorter = useSorter();
 
+  return (
+    <TabPageTemplate<typeof items[number]>
+      title="テーマ"
+      description="ロック大陸漫遊記の放送回を「アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。"
+      items={items}
+      getTitle={({ value }) => getFiveYearString(value)}
+      getCounterText={(item) => `${getClusteredLength(item)}曲`}
+    >
+      {items.map((fifth) => (
+        <React.Fragment key={fifth.value.toString()}>
+          <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} />
+          <SectionDivider />
+          {[...fifth.items]
+            .sort((a, b) => sorter(a.value - b.value))
+            .map((annu) => (
+              <div key={annu.value}>
+                <Section>
+                  <Container maxWidth="md" disableGutters>
+                    <H3>{annu.value}年</H3>
+                    <Typography>{annu.items.length}曲</Typography>
+                  </Container>
+                </Section>
+                {annu.items.map((tune) => (
+                  <ProgramByTune key={tune.id} tune={tune} />
+                ))}
+              </div>
+            ))}
+        </React.Fragment>
+      ))}
+    </TabPageTemplate>
+  );
+  /*
   const titles = React.useMemo(() => ['', ...items.map(({ value }) => value.toString())], [items]);
   const initialTab = useParseHash(titles);
   const [tab, setTab] = React.useState(initialTab);
@@ -126,6 +148,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
       <SectionDivider />
     </Layout>
   );
+  */
 }
 
 export default TimeMachinePage;

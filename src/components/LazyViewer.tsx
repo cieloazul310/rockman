@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
-import TunesByProgram from './TunesByProgram';
+import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
 import { ProgramBrowser, TuneFields } from '../../types';
 
@@ -28,10 +28,7 @@ function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayO
         children
       ) : (
         <div>
-          <p>Loading...</p>
-          {/*
           <TunesByProgramSkeleton />
-          */}
         </div>
       )}
     </div>

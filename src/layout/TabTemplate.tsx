@@ -1,32 +1,51 @@
 import * as React from 'react';
+import Typography from '@mui/material/Typography';
 import Tabs from '@mui/material/Tabs';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
+import { Article, Paragraph, Section, SectionDivider, TabPane } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from './TabLayout';
+import Jumbotron from '../components/Jumbotron';
 import Tab from '../components/MuiTab';
-import Section, { SectionDivider } from '../components/Section';
-import NavigationBox from '../components/NavigationBox';
 import { AdBasic } from '../components/Ads';
 import { useParseHash, useHash } from '../utils/useHash';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
-interface Props<T, S = null> {
+type TabPageTemplateProps<T, S = null> = {
+  title: string;
+  description: string;
   items: T[];
   getTitle: (item: T) => string;
-  stateFunction?: (state: S) => string;
-  tabs: JSX.Element[];
+  getTabTitle?: (item: T) => string;
+  getCounterText: (item: T) => string | undefined;
+  getSecondaryText?: (item: T) => string;
+  stateFunction?: (state?: S | null) => string | undefined | null;
   children: JSX.Element[];
-}
+  swipeableViewsActions?: ({ updateHeight }: { updateHeight: () => void }) => void;
+};
 
-function TabTemplate<T, S>({ items, getTitle, stateFunction, tabs, children }: Props<T, S>) {
+function TabPageTemplate<T, S = null>({
+  title,
+  description,
+  items,
+  getTitle,
+  getTabTitle,
+  getCounterText,
+  getSecondaryText,
+  stateFunction,
+  children,
+  swipeableViewsActions,
+}: TabPageTemplateProps<T, S>) {
   const titles = React.useMemo(() => ['', ...items.map(getTitle)], [items, getTitle]);
   const initialTab = useParseHash<S>(titles, stateFunction);
 
   const [tab, setTab] = React.useState(initialTab);
-  const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
 
-  const handleChange = (event: React.ChangeEvent<Record<string, unknown>>, newTab: number) => {
+  const handleChange = (event: React.SyntheticEvent, newTab: number) => {
     setTab(newTab);
   };
   const handleChangeIndex = (index: number) => {
@@ -35,55 +54,75 @@ function TabTemplate<T, S>({ items, getTitle, stateFunction, tabs, children }: P
   const onItemClicked = (index: number) => () => {
     setTab(index);
   };
-  const onSeem = React.useCallback(
-    (inView: boolean) => {
-      if (inView && updater) {
-        updater();
-      }
-    },
-    [updater]
-  );
-  const actionCallbacks = ({ updateHeight }: { updateHeight: () => void }) => {
-    setUpdateHeight(() => updateHeight);
-  };
-
   useHash(tab, titles);
   React.useEffect(() => {
     if (typeof window === 'object') {
       window.scrollTo(0, 0);
     }
   }, [tab]);
-  React.useEffect(() => {
-    const resize = () => {
-      if (updater) updater();
-    };
-    if (typeof window === 'object') {
-      window.addEventListener('resize', resize);
-      return window.removeEventListener('resize', resize);
-    }
-  }, [updater]);
 
   return (
     <Layout
-      title="選曲者"
+      title={title}
+      description={description}
       tabs={
-        <Tabs value={tab} onChange={handleChange} variant="scrollable" scrollButtons="auto" aria-label="scrollable auto tabs example">
+        <Tabs
+          value={tab}
+          onChange={handleChange}
+          textColor="inherit"
+          indicatorColor="secondary"
+          variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+        >
           <Tab label="概要" />
-          {tabs}
+          {items.map((item) => (
+            <Tab key={getTitle(item)} label={getTabTitle ? getTabTitle(item) : getTitle(item)} />
+          ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={actionCallbacks}>
-        {children}
+      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={swipeableViewsActions}>
+        <TabPane currentTab={tab} index={0} renderNeighbor>
+          <Jumbotron title={title} />
+          <SectionDivider />
+          <Section>
+            <Article maxWidth="md">
+              <Paragraph>{description}</Paragraph>
+              <List>
+                {items.map((item, index) => (
+                  <ListItem key={getTitle(item)} button onClick={onItemClicked(index + 1)}>
+                    <ListItemText primary={getTitle(item)} secondary={getSecondaryText ? getSecondaryText(item) : undefined} />
+                    {getCounterText(item) ? (
+                      <Typography variant="button" component="span">
+                        {getCounterText(item)}
+                      </Typography>
+                    ) : null}
+                  </ListItem>
+                ))}
+              </List>
+            </Article>
+          </Section>
+        </TabPane>
+        {children.map((element, index) => (
+          // eslint-disable-next-line react/no-array-index-key
+          <TabPane currentTab={tab} index={index + 1} renderNeighbor key={index.toString()}>
+            {element}
+          </TabPane>
+        ))}
       </BindKeyboardSwipeableViews>
       <SectionDivider />
       <AdBasic />
       <SectionDivider />
-      <Section>
-        <NavigationBox />
-      </Section>
     </Layout>
   );
 }
 
-export default TabTemplate;
+TabPageTemplate.defaultProps = {
+  stateFunction: undefined,
+  getTabTitle: undefined,
+  getSecondaryText: undefined,
+  swipeableViewsActions: undefined,
+};
+
+export default TabPageTemplate;

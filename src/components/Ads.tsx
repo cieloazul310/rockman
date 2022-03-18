@@ -43,6 +43,14 @@ export function AdBasic() {
   );
 }
 
+export function AdInSectionDivider() {
+  return (
+    <Box py={1} bgcolor={({ palette }) => (palette.mode === 'light' ? '#fafafa' : '#000')}>
+      <AdBasic />
+    </Box>
+  );
+}
+
 export function AdInFooter() {
   const { pathname } = useLocation();
   React.useEffect(() => {

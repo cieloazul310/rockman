@@ -1,23 +1,13 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Tabs from '@mui/material/Tabs';
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Section, SectionDivider, Article, Paragraph, Jumbotron, TabPane } from '@cieloazul310/gatsby-theme-aoi';
-import Layout from '../layout/TabLayout';
-import Tab from '../components/MuiTab';
+import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import TabPageTemplate from '../layout/TabTemplate';
+import Jumbotron from '../components/Jumbotron';
 import ProgramItem from '../components/ProgramItem';
-import { AdBasic } from '../components/Ads';
 import { useSortProgramNode } from '../utils/useSorter';
-import { useParseHash, useHash } from '../utils/useHash';
 import { ProgramList } from '../../types';
-
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 type WindowState = {
   category?: string;
@@ -35,6 +25,41 @@ type CategoriesPageQueryData = {
   };
 };
 
+function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, WindowState>) {
+  const categories = React.useMemo(() => {
+    return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount || a.fieldValue.localeCompare(b.fieldValue));
+  }, [data]);
+  const sortProgramNode = useSortProgramNode();
+
+  return (
+    <TabPageTemplate<typeof categories[number], WindowState>
+      title="テーマ"
+      description="ロック大陸漫遊記の放送回を「アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。"
+      items={categories}
+      getTitle={({ fieldValue }) => fieldValue}
+      getTabTitle={({ fieldValue, edges }) => `${fieldValue} ${edges.length}`}
+      getCounterText={({ edges }) => `${edges.length}回`}
+      stateFunction={(state) => state?.category}
+    >
+      {categories.map((category) => (
+        <React.Fragment key={category.fieldValue}>
+          <Jumbotron title={category.fieldValue} footerText={`全${category.edges.length}回`} />
+          <SectionDivider />
+          <Section>
+            <Container maxWidth="md" disableGutters>
+              <List>
+                {category.edges.sort(sortProgramNode).map(({ node }, i) => (
+                  <ProgramItem key={node.id} program={node} last={i === category.edges.length - 1} />
+                ))}
+              </List>
+            </Container>
+          </Section>
+        </React.Fragment>
+      ))}
+    </TabPageTemplate>
+  );
+}
+/*
 function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, WindowState>) {
   const categories = React.useMemo(() => {
     return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount || a.fieldValue.localeCompare(b.fieldValue));
@@ -75,8 +100,8 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
           aria-label="scrollable auto tabs example"
         >
           <Tab label="概要" />
-          {categories.map((d, index) => (
-            <Tab key={d.fieldValue ?? index} label={`${d.fieldValue} ${d.edges.length}`} />
+          {categories.map((d) => (
+            <Tab key={d.fieldValue} label={`${d.fieldValue} ${d.edges.length}`} />
           ))}
         </Tabs>
       }
@@ -96,7 +121,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
               </Paragraph>
               <List>
                 {categories.map((category, index) => (
-                  <ListItem key={category.fieldValue ?? index.toString()} button onClick={onItemClicked(index + 1)}>
+                  <ListItem key={category.fieldValue} button onClick={onItemClicked(index + 1)}>
                     <ListItemText primary={category.fieldValue} />
                     <Typography variant="button" component="span">
                       {category.edges.length}回
@@ -134,6 +159,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
     </Layout>
   );
 }
+*/
 
 export default CategoriesPage;
 

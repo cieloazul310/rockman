@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
+import { useParseNation } from '../utils/graphql-hooks';
 import { ProgramBrowser, ArtistBrowser } from '../../types';
 
 type PageHeaderProps = {
@@ -85,13 +86,14 @@ export function ArtistPageHeader({
     program: Pick<ArtistBrowser['program'], 'image' | 'programsCount' | 'tunesCount'>;
   };
 }) {
+  const { country } = useParseNation(artist.nation);
   return (
     <PageHeader image={artist.program.image} label={<NationLabel nation={artist.nation} />}>
       <Box>
         <Typography fontWeight="bold" lineHeight={1.2} variant="h6" component="h2">
           {artist.name}
         </Typography>
-        <Typography variant="body2">{artist.nation}</Typography>
+        <Typography variant="body2">{country}</Typography>
       </Box>
       <Typography variant="body1">
         {artist.program.tunesCount}曲/{artist.program.programsCount}回
