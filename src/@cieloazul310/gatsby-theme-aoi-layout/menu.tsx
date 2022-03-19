@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { HomeIcon, AboutIcon, ProgramIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon } from '../../icons';
+import { HomeIcon, AboutIcon, ProgramIcon, ArtistIcon, CategoryIcon, SelectorIcon, TakeOffIcon, TimeMachineIcon } from '../../icons';
 
 const menu = [
   {
@@ -11,6 +11,11 @@ const menu = [
     title: '放送回一覧',
     path: '/programs/',
     icon: <ProgramIcon />,
+  },
+  {
+    title: 'アーティスト',
+    path: '/artists/',
+    icon: <ArtistIcon />,
   },
   {
     title: 'テーマ',

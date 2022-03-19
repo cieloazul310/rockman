@@ -1,17 +1,17 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+import Typography, { TypographyProps } from '@mui/material/Typography';
 import useNationColor from '../utils/useNationColor';
 
 type NationLabelProps = {
   nation: string;
-};
+} & Omit<TypographyProps, 'variant' | 'fontWeight' | 'color'>;
 
-function NationLabel({ nation }: NationLabelProps) {
+function NationLabel({ nation, ...typographyProps }: NationLabelProps) {
   const { bgcolor, color } = useNationColor(nation);
   return (
-    <Box sx={{ px: '.2em', py: 0, bgcolor, color }}>
-      <Typography variant="caption" fontWeight="bold">
+    <Box sx={{ py: 0, bgcolor, color }}>
+      <Typography variant="caption" fontWeight="bold" color="inherit" px=".2em" {...typographyProps}>
         {nation}
       </Typography>
     </Box>

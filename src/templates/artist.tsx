@@ -15,6 +15,7 @@ import ArtistItemContainer from '../components/ArtistItemContainer';
 import { AdInSectionDivider } from '../components/Ads';
 import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
+import { useArtistDescriptionString } from '../utils/useDescriptionString';
 import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -38,6 +39,7 @@ type ArtistTemplateContext = {
 function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateContext>) {
   const { artist, previous, next } = data;
   const sortProgram = useSortProgram();
+  const description = useArtistDescriptionString(artist);
   const initialIndex = previous ? 1 : 0;
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
@@ -67,6 +69,7 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
   return (
     <Layout
       title={artist.name}
+      description={description}
       drawerContents={
         <DrawerPageNavigation
           previous={previous ? { to: previous.slug, title: previous.name } : undefined}

@@ -36,15 +36,25 @@ type TakeOffQueryData = {
 
 function TakeOff({ data }: PageProps<TakeOffQueryData>) {
   const { albums, others, notSpitz } = data;
+  /*
   const titles = React.useMemo(() => [...albums.edges.map(({ node }) => node.title), 'その他の楽曲', 'スピッツ以外の楽曲'], [albums]);
+  */
+  const items: { title: string; oaLength?: number; tunesLength?: number }[] = React.useMemo(() => {
+    const albumItem = albums.edges.map(({ node }) => ({
+      title: node.title,
+      oaLength: node.tunes.filter((tune) => tune.program.length).length,
+      tunesLength: node.tunes.length,
+    }));
+    return [...albumItem, { title: 'その他の楽曲' }, { title: 'スピッツ以外の楽曲' }];
+  }, [albums]);
 
   return (
-    <TabPageTemplate<string>
+    <TabPageTemplate
       title="漫遊前の一曲"
       description="漫遊前の一曲は、放送の1曲目にスピッツ（稀にスピッツ以外）の楽曲をオンエアするコーナーです。漫遊前の一曲で流れた楽曲をスピッツのアルバム別に分類したページです。"
-      items={titles}
-      getTitle={(title) => title}
-      getCounterText={() => undefined}
+      items={items}
+      getTitle={({ title }) => title}
+      getCounterText={({ oaLength, tunesLength }) => (oaLength && tunesLength ? `${oaLength}/${tunesLength}曲` : undefined)}
     >
       {[
         ...albums.edges.map(({ node }) => (

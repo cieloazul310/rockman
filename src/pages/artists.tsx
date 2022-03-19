@@ -1,6 +1,16 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
+import { graphql, PageProps } from 'gatsby';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
+import InputBase from '@mui/material/InputBase';
+import IconButton from '@mui/material/IconButton';
+
+import SearchIcon from '@mui/icons-material/Search';
+import CancelIcon from '@mui/icons-material/Cancel';
+import Layout from '../layout';
+/*
+import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Hidden from '@mui/material/Hidden';
 import List from '@mui/material/List';
@@ -11,14 +21,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import Collapse from '@mui/material/Collapse';
 import Radio from '@mui/material/Radio';
 import Checkbox from '@mui/material/Checkbox';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme, Theme } from '@mui/material/styles';
-// import makeStyles from '@mui/styles/makeStyles';
-// import createStyles from '@mui/styles/createStyles';
-import SearchIcon from '@mui/icons-material/Search';
-import CancelIcon from '@mui/icons-material/Cancel';
+
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FlagIcon from '@mui/icons-material/Flag';
@@ -26,13 +31,21 @@ import { AutoSizer } from 'react-virtualized';
 import { Layout } from '@cieloazul310/gatsby-theme-aoi';
 import Artists from '../components/Artists';
 import useFullHeight from '../utils/useFullHeight';
+*/
 // import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
 import { SortType } from '../utils/sortByYomi';
-/*
-interface StylesProps {
-  height: number;
-}
+import { MinimumArtist } from '../../types';
 
+type ArtistsPageQueryData = {
+  allArtist: {
+    totalCount: number;
+    edges: {
+      node: MinimumArtist;
+    }[];
+  };
+};
+
+/*
 const useStyles = makeStyles<Theme, StylesProps>((theme) =>
   createStyles({
     root: {
@@ -79,15 +92,26 @@ const useStyles = makeStyles<Theme, StylesProps>((theme) =>
   })
 );
 */
-interface StoredState {
+type StoredState = {
   sortType: SortType;
   searchText: string;
   appearMultiple: boolean;
   appearOnce: boolean;
   nationFilter: string[];
-}
+};
 
-function ArtistsPage() {
+function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
+  const { allArtist } = data;
+  const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
+  const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
+  const [searchText, setSearchText] = React.useState(initialState.searchText ?? '');
+  const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    event.preventDefault();
+    setSearchText(event.target.value);
+  };
+  const clearSearchText = () => {
+    setSearchText('');
+  };
   /*
   const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
   const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
@@ -294,7 +318,62 @@ function ArtistsPage() {
     </Layout>
   );
   */
-  return <Layout>artist</Layout>;
+  return (
+    <Layout title="アーティスト一覧">
+      <Box
+        display="flex"
+        flexDirection={{ xs: 'column-reverse', sm: 'column' }}
+        height={{ xs: 'calc(100vh - 56px)', sm: 'calc(100vh - 64px)' }}
+      >
+        <Container maxWidth="lg" sx={{ py: 1, flexShrink: 0 }}>
+          <Paper component="form" sx={{ display: 'flex', flexShrink: 1, px: 2 }}>
+            <IconButton disabled edge="start" size="large">
+              <SearchIcon />
+            </IconButton>
+            <InputBase
+              value={searchText}
+              onChange={onChangeSearchText}
+              sx={{ flexGrow: 1 }}
+              placeholder="アーティストを検索"
+              inputProps={{ 'aria-label': 'search artists' }}
+            />
+            {searchText !== '' ? (
+              <IconButton edge="end" onClick={clearSearchText} size="large">
+                <CancelIcon />
+              </IconButton>
+            ) : null}
+          </Paper>
+        </Container>
+        <Container maxWidth="lg" sx={{ flexGrow: 1, overflow: 'hidden' }}>
+          <Box display="flex" height={1}>
+            <Box flex={1}>
+              <p>aaa</p>
+            </Box>
+            <Box flex={2} overflow="auto">
+              <Box>
+                {allArtist.edges.map(({ node }) => (
+                  <p key={node.slug}>{node.name}</p>
+                ))}
+              </Box>
+            </Box>
+          </Box>
+        </Container>
+      </Box>
+    </Layout>
+  );
 }
 
 export default ArtistsPage;
+
+export const query = graphql`
+  query {
+    allArtist(sort: { fields: [program___programsCount, program___tunesCount], order: [DESC, DESC] }) {
+      totalCount
+      edges {
+        node {
+          ...minimumArtist
+        }
+      }
+    }
+  }
+`;

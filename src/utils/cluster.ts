@@ -1,7 +1,7 @@
-interface Cluster<T, K extends string | number> {
+type Cluster<T, K extends string | number> = {
   value: K;
   items: T[];
-}
+};
 
 export function clusterByValue<T, K extends string | number>(arr: T[], getValue: (item: T) => K): Cluster<T, K>[] {
   const set = new Set(arr.map(getValue));

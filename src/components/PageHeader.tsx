@@ -21,7 +21,7 @@ function PageHeader({ image, children, label }: PageHeaderProps) {
         <Box sx={{ width: 1 / 2, maxWidth: 280, px: 1, display: 'flex', flexShrink: 0 }}>
           <Box
             sx={{
-              bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 200 : 700],
+              bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 400 : 700],
               backgroundImage: image ? `url(${image})` : undefined,
               backgroundPosition: 'center',
               backgroundSize: 'cover',
@@ -88,7 +88,7 @@ export function ArtistPageHeader({
 }) {
   const { country } = useParseNation(artist.nation);
   return (
-    <PageHeader image={artist.program.image} label={<NationLabel nation={artist.nation} />}>
+    <PageHeader image={artist.program.image} label={<NationLabel nation={artist.nation} fontSize="large" />}>
       <Box>
         <Typography fontWeight="bold" lineHeight={1.2} variant="h6" component="h2">
           {artist.name}

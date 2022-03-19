@@ -12,6 +12,7 @@ import ArtistItemContainer from '../components/ArtistItemContainer';
 import { ProgramTonarinoTab } from '../components/TonarinoTab';
 import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
+import { useProgramDescriptionString } from '../utils/useDescriptionString';
 import { ProgramBrowser, TuneBrowser } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -38,6 +39,7 @@ type ProgramTemplateContext = {
 
 function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
   const { program, previous, next } = data;
+  const description = useProgramDescriptionString(program);
   const initialIndex = previous ? 1 : 0;
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
@@ -73,6 +75,7 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
   return (
     <Layout
       title={program.title}
+      description={description}
       drawerContents={
         <DrawerPageNavigation
           previous={previous ? { to: previous.slug, title: previous.title } : undefined}
