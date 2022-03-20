@@ -3,57 +3,57 @@ import Typography from '@mui/material/Typography';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
-import ListItemAppLink from 'gatsby-theme-aoi/src/components/ListItemAppLink';
+import { ListItemAppLink } from '@cieloazul310/gatsby-theme-aoi';
 import NationAvatar from './NationAvatar';
-import { useAllArtists, ArtistItem } from '../utils/graphql-hooks';
-import sortArtists, { SortType } from '../utils/sortByYomi';
+import { sortArtists, SortType } from '../utils/sortByYomi';
+import { ArtistListItem } from '../../types';
 
 function renderRow({ index, style, data }: ListChildComponentProps) {
-  const artist: ArtistItem = data[index];
+  const { node }: { node: ArtistListItem } = data[index];
   return (
-    <ListItemAppLink button style={style} key={index} to={artist.node.slug ?? '#'}>
+    <ListItemAppLink button style={style} key={index} to={node.slug}>
       <ListItemAvatar>
-        <NationAvatar nation={artist.node.nation} img={artist.node.image ?? undefined} alt={artist.node.name} />
+        <NationAvatar nation={node.nation} img={node.program.image ?? undefined} alt={node.name} />
       </ListItemAvatar>
-      <ListItemText primary={artist.node.name} secondary={artist.node.kana || null} />
+      <ListItemText primary={node.name} secondary={node.kana || null} />
       <Typography variant="button" component="span">
-        {`${artist.node.tunesCount}曲 / ${artist.node.programCount}回`}
+        {`${node.program.tunesCount}曲 / ${node.program.programsCount}回`}
       </Typography>
     </ListItemAppLink>
   );
 }
 
-interface Props {
+type ArtistListProps = {
+  artists: { node: ArtistListItem }[];
   width?: number;
   height?: number;
   itemSize?: number;
-  filters?: ((artist: ArtistItem) => boolean)[];
+  filters?: ((artist: { node: ArtistListItem }) => boolean)[];
   sortType: SortType;
-}
+};
 
-function Artists({ width = 320, height = 480, itemSize = 60, filters, sortType }: Props): JSX.Element {
-  const allArtists = useAllArtists();
-  const artists = React.useMemo(
+function ArtistList({ artists, width = 320, height = 480, itemSize = 60, filters, sortType }: ArtistListProps) {
+  const sortedArtists = React.useMemo(
     () =>
       sortArtists(
-        allArtists.filter((artist) => (filters?.length ? filters.length === filters.filter((filter) => filter(artist)).length : true)),
+        artists.filter((artist) => (filters?.length ? filters.length === filters.filter((filter) => filter(artist)).length : true)),
         { sortType }
       ),
-    [allArtists, filters, sortType]
+    [artists, filters, sortType]
   );
 
   return (
-    <FixedSizeList width={width} height={height} itemCount={artists.length} itemSize={itemSize} itemData={artists}>
+    <FixedSizeList width={width} height={height} itemCount={artists.length} itemSize={itemSize} itemData={sortedArtists}>
       {renderRow}
     </FixedSizeList>
   );
 }
 
-Artists.defaultProps = {
+ArtistList.defaultProps = {
   width: 320,
   height: 480,
   itemSize: 60,
   filters: [],
 };
 
-export default Artists;
+export default ArtistList;

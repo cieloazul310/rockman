@@ -1,12 +1,11 @@
-// import { ArtistItem } from './graphql-hooks';
-import { Artist } from '../../types';
+import { ArtistListItem } from '../../types';
 
 export type SortType = 'abc' | 'edges' | 'tunes';
 
-interface SortArtistsOptions {
+type SortArtistsOptions = {
   sortType?: SortType;
   sortAsc?: boolean;
-}
+};
 
 export function kanaToHira(str: string): string {
   return str.replace(/[\u30a1-\u30f6]/g, (match) => {
@@ -21,19 +20,25 @@ export function getYomi(artistName: string, kana?: string | null): string {
   return kanaToHira(kana || artistName).toLowerCase();
 }
 
-export function sortByYomi(a: ArtistItem, b: ArtistItem): number {
+export function sortByYomi(a: { node: Pick<ArtistListItem, 'name' | 'kana'> }, b: { node: Pick<ArtistListItem, 'name' | 'kana'> }): number {
   return getYomi(a.node.name, a.node.kana ?? undefined).localeCompare(getYomi(b.node.name, b.node.kana ?? undefined));
 }
 
-export function sortByEdges(a: ArtistItem, b: ArtistItem): number {
-  return -(a.node.programCount - b.node.programCount) || sortByYomi(a, b);
+export function sortByEdges(
+  a: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> },
+  b: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> }
+): number {
+  return -(a.node.program.programsCount - b.node.program.programsCount) || sortByYomi(a, b);
 }
 
-export function sortByTunes(a: ArtistItem, b: ArtistItem): number {
-  return -(a.node.tunesCount - b.node.tunesCount) || sortByYomi(a, b);
+export function sortByTunes(
+  a: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> },
+  b: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> }
+): number {
+  return -(a.node.program.tunesCount - b.node.program.tunesCount) || sortByYomi(a, b);
 }
 
-export default function sortArtists(artists: ArtistItem[], options: SortArtistsOptions = {}): ArtistItem[] {
+export function sortArtists(artists: { node: ArtistListItem }[], options: SortArtistsOptions = {}) {
   const sortType = options.sortType || 'abc';
   if (sortType === 'edges') return [...artists].sort(sortByEdges);
   if (sortType === 'tunes') return [...artists].sort(sortByTunes);

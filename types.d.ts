@@ -22,6 +22,10 @@ export type MinimumArtist = Pick<ArtistBrowser, 'name' | 'slug' | 'nation'> & {
   program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
 };
 
+export type ArtistListItem = Pick<ArtistBrowser, 'name' | 'slug' | 'nation' | 'kana'> & {
+  program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+};
+
 export type Program = {
   id: string;
   week: number;

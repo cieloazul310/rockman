@@ -5,10 +5,14 @@ import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 import SearchIcon from '@mui/icons-material/Search';
 import CancelIcon from '@mui/icons-material/Cancel';
+import { AutoSizer } from 'react-virtualized';
 import Layout from '../layout';
+import ArtistList from '../components/Artists';
 /*
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
@@ -21,26 +25,24 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import Collapse from '@mui/material/Collapse';
 import Radio from '@mui/material/Radio';
 import Checkbox from '@mui/material/Checkbox';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme, Theme } from '@mui/material/styles';
 
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FlagIcon from '@mui/icons-material/Flag';
-import { AutoSizer } from 'react-virtualized';
 import { Layout } from '@cieloazul310/gatsby-theme-aoi';
-import Artists from '../components/Artists';
 import useFullHeight from '../utils/useFullHeight';
 */
 // import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
 import { SortType } from '../utils/sortByYomi';
-import { MinimumArtist } from '../../types';
+import { Artist, ArtistBrowser } from '../../types';
 
 type ArtistsPageQueryData = {
   allArtist: {
     totalCount: number;
     edges: {
-      node: MinimumArtist;
+      node: Artist & {
+        program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+      };
     }[];
   };
 };
@@ -102,6 +104,8 @@ type StoredState = {
 
 function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
   const { allArtist } = data;
+  const { breakpoints } = useTheme();
+  const isMobile = useMediaQuery(breakpoints.only('xs'));
   const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
   const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
   const [searchText, setSearchText] = React.useState(initialState.searchText ?? '');
@@ -346,14 +350,17 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
         </Container>
         <Container maxWidth="lg" sx={{ flexGrow: 1, overflow: 'hidden' }}>
           <Box display="flex" height={1}>
-            <Box flex={1}>
-              <p>aaa</p>
-            </Box>
-            <Box flex={2} overflow="auto">
-              <Box>
-                {allArtist.edges.map(({ node }) => (
-                  <p key={node.slug}>{node.name}</p>
-                ))}
+            {!isMobile ? (
+              <Box flex={1}>
+                <p>aaa</p>
+              </Box>
+            ) : null}
+            <Box flex={2} display="flex" flexDirection="column">
+              <Box>{allArtist.totalCount}</Box>
+              <Box flexGrow={1} p={1}>
+                <AutoSizer defaultHeight={400}>
+                  {({ width, height }) => <ArtistList width={width} height={height} artists={allArtist.edges} sortType="edges" />}
+                </AutoSizer>
               </Box>
             </Box>
           </Box>
@@ -372,6 +379,8 @@ export const query = graphql`
       edges {
         node {
           ...minimumArtist
+          kana
+          sortName
         }
       }
     }
