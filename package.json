@@ -6,7 +6,7 @@
   "author": "cieloazul310 <cieloazul310@gmail.com>",
   "dependencies": {
     "@cieloazul310/gatsby-theme-aoi": "^2.1.2",
-    "@cieloazul310/gatsby-theme-aoi-blog-components": "^2.1.1",
+    "@cieloazul310/gatsby-theme-aoi-blog-components": "^2.1.3",
     "@devexpress/dx-react-chart": "^3.0.2",
     "@devexpress/dx-react-chart-material-ui": "^3.0.2",
     "@devexpress/dx-react-core": "^3.0.2",
