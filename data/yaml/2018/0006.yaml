@@ -4,12 +4,11 @@ year: 2018
 title: そのメロディ、よー作ったな！美メロで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["美メロ"]
 date: 2018-02-11
 playlist:
   - id: "2018000601"
     week: 6
-    name: 魔女旅に出る
     artist: スピッツ
     year: 1991
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000602"
     week: 6
-    name: Honesty
     artist: Billy Joel
     year: 1979
     nation: US
@@ -37,7 +35,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000603"
     week: 6
-    name: Pretty Ballerina
     artist: The Left Banke
     year: 1967
     nation: US
@@ -51,9 +48,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000604"
     week: 6
-    name: Love Me Please Love Me
     artist: Michel Polnareff
-    kana: ""
     year: 1966
     nation: FR
     label: Disc'AZ
@@ -64,11 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000605"
     week: 6
-    name: Leave a Light On
     artist: Belinda Carlisle
     year: 1989
     nation: US
-    label: MCA, Virgin
+    label: MCA, Virgin
     producer:
       - Rick Nowels
     youtube: pmZYE8j2ZNs
@@ -78,7 +72,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000606"
     week: 6
-    name: Love Letter Boxes
     artist: The Posies
     year: 1993
     nation: US
@@ -92,7 +85,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000607"
     week: 6
-    name: YES-YES-YES
     artist: オフコース
     year: 1982
     nation: JPN
@@ -104,7 +96,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000608"
     week: 6
-    name: 積木の汽車
     artist: Sheen
     year: 1995
     nation: JPN
