@@ -1,0 +1,97 @@
+id: "20220220"
+week: 220
+year: 2022
+title: 美メロのナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: ["美メロ"]
+date: 2022-03-20
+playlist:
+  - id: "2022022001"
+    week: 220
+    index: 1819
+    indexInWeek: 1
+    title: チェリー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: Eze6-eHmtJg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022002"
+    week: 220
+    index: 1820
+    indexInWeek: 2
+    title: Over The Horizon (Live 2015)
+    artist: Stackridge
+    year: 2017
+    nation: UK
+    label: Angel Air
+    youtube: oI2XTxlGZxA
+    selector: 草野マサムネ
+  - id: "2022022003"
+    week: 220
+    index: 1821
+    indexInWeek: 3
+    title: Happy Unhappy
+    artist: The Beths
+    year: 2018
+    nation: NZ
+    label: Carpark Records
+    youtube: ct8AwQwlbNA
+    selector: 草野マサムネ
+  - id: "2022022004"
+    week: 220
+    index: 1822
+    indexInWeek: 4
+    title: Face of Yesterday
+    artist: Renaissance
+    year: 1971
+    nation: UK
+    label: Island
+    youtube: wTJSoOVOkTg
+    selector: 草野マサムネ
+  - id: "2022022005"
+    week: 220
+    index: 1823
+    indexInWeek: 5
+    title: A Rose for Emily
+    artist: The Zombies
+    year: 1968
+    nation: UK
+    label: CBS
+    youtube: gs-bVMs1LKU
+    selector: 草野マサムネ
+  - id: "2022022006"
+    week: 220
+    index: 1824
+    indexInWeek: 6
+    title: Name of the Game
+    artist: Badfinger
+    year: 1971
+    nation: UK
+    label: Apple
+    selector: 草野マサムネ
+  - id: "2022022007"
+    week: 220
+    index: 1825
+    indexInWeek: 7
+    title: My Finest Hour
+    artist: The Sundays
+    year: 1990
+    nation: UK
+    label: Rough Trade
+    youtube: 41Ei7IN46Vc
+    selector: 草野マサムネ
+  - id: "2022022008"
+    week: 220
+    index: 1826
+    indexInWeek: 8
+    title: 白いくつ下は似合わない
+    artist: アグネス・チャン
+    year: 1975
+    nation: JPN
+    label: ワーナー・パイオニア
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
