@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { Section, SectionDivider, H3 } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
@@ -42,8 +43,10 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
               <div key={annu.value}>
                 <Section>
                   <Container maxWidth="md" disableGutters>
-                    <H3>{annu.value}年</H3>
-                    <Typography>{annu.items.length}曲</Typography>
+                    <Box display="flex" alignItems="baseline">
+                      <H3>{annu.value}年</H3>
+                      <Typography ml={1}>{annu.items.length}曲</Typography>
+                    </Box>
                   </Container>
                 </Section>
                 {annu.items.map((tune) => (

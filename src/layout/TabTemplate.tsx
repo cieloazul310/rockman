@@ -10,7 +10,7 @@ import { Article, Paragraph, Section, SectionDivider, TabPane } from '@cieloazul
 import Layout from './TabLayout';
 import Jumbotron from '../components/Jumbotron';
 import Tab from '../components/MuiTab';
-import { AdBasic } from '../components/Ads';
+import { AdInSectionDivider } from '../components/Ads';
 import { useParseHash, useHash } from '../utils/useHash';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
@@ -111,9 +111,7 @@ function TabPageTemplate<T, S = null>({
           </TabPane>
         ))}
       </BindKeyboardSwipeableViews>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
+      <AdInSectionDivider />
     </Layout>
   );
 }

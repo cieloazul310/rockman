@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
-import { ListItemLink } from '@cieloazul310/gatsby-theme-aoi';
+import ListItemLink from './ListItemLink';
 import { ProgramList } from '../../types';
 
 type ProgramItemProps = {
@@ -22,7 +22,6 @@ function ProgramItem({ program, last }: ProgramItemProps) {
       primaryText={program.title}
       secondaryText={`第${program.week}回 ${program.date}`}
       divider={!last}
-      inset
     />
   );
 }

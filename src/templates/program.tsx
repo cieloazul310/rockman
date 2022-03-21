@@ -78,8 +78,8 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       description={description}
       drawerContents={
         <DrawerPageNavigation
-          previous={previous ? { to: previous.slug, title: previous.title } : undefined}
-          next={next ? { to: next.slug, title: next.title } : undefined}
+          previous={previous ? { to: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
+          next={next ? { to: next.slug, title: next.title, secondaryText: `第${next.week}回` } : undefined}
         />
       }
     >

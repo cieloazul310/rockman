@@ -1,12 +1,5 @@
 import { ArtistListItem } from '../../types';
 
-export type SortType = 'abc' | 'edges' | 'tunes';
-
-type SortArtistsOptions = {
-  sortType?: SortType;
-  sortAsc?: boolean;
-};
-
 export function kanaToHira(str: string): string {
   return str.replace(/[\u30a1-\u30f6]/g, (match) => {
     const chr = match.charCodeAt(0) - 0x60;
@@ -24,7 +17,7 @@ export function sortByYomi(a: { node: Pick<ArtistListItem, 'name' | 'kana'> }, b
   return getYomi(a.node.name, a.node.kana ?? undefined).localeCompare(getYomi(b.node.name, b.node.kana ?? undefined));
 }
 
-export function sortByEdges(
+export function sortByPrograms(
   a: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> },
   b: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> }
 ): number {
@@ -36,11 +29,4 @@ export function sortByTunes(
   b: { node: Pick<ArtistListItem, 'name' | 'kana' | 'program'> }
 ): number {
   return -(a.node.program.tunesCount - b.node.program.tunesCount) || sortByYomi(a, b);
-}
-
-export function sortArtists(artists: { node: ArtistListItem }[], options: SortArtistsOptions = {}) {
-  const sortType = options.sortType || 'abc';
-  if (sortType === 'edges') return [...artists].sort(sortByEdges);
-  if (sortType === 'tunes') return [...artists].sort(sortByTunes);
-  return [...artists].sort(sortByYomi);
 }

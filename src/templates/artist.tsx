@@ -72,8 +72,20 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       description={description}
       drawerContents={
         <DrawerPageNavigation
-          previous={previous ? { to: previous.slug, title: previous.name } : undefined}
-          next={next ? { to: next.slug, title: next.name } : undefined}
+          previous={
+            previous
+              ? {
+                  to: previous.slug,
+                  title: previous.name,
+                  secondaryText: `${previous.program.tunesCount}曲/${previous.program.programsCount}回`,
+                }
+              : undefined
+          }
+          next={
+            next
+              ? { to: next.slug, title: next.name, secondaryText: `${next.program.tunesCount}曲/${next.program.tunesCount}回` }
+              : undefined
+          }
         />
       }
     >

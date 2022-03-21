@@ -24,7 +24,7 @@ StatCore.defaultProps = {
 };
 
 export function Stat({ icon, value, label, title }: StatProps) {
-  const triggered = window ? window.sessionStorage.getItem(`stat-triggered-${title}`) : null;
+  const triggered = typeof window === 'object' ? window.sessionStorage.getItem(`stat-triggered-${title}`) : null;
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
