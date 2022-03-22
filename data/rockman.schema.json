@@ -82,8 +82,7 @@
             "title",
             "artist",
             "year",
-            "nation",
-            "label"
+            "nation"
           ],
           "properties": {
             "id": {
