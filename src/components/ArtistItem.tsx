@@ -1,11 +1,10 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Skeleton from '@mui/material/Skeleton';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import { MinimumArtist } from '../../types';
 
-export type ArtistItemProps = {
+type ArtistItemProps = {
   artist: MinimumArtist;
 };
 
@@ -62,27 +61,3 @@ function ArtistItem({ artist }: ArtistItemProps) {
 }
 
 export default ArtistItem;
-/*
-export function ArtistItemSkeleton(): JSX.Element {
-  const classes = useStyles({});
-  return (
-    <AppLink to="#" color="inherit" className={classes.root}>
-      <div className={classes.item}>
-        <div className={classes.imageContainer}>
-          <div className={classes.image} />
-          <div className={classes.label}>
-            <Typography variant="caption">
-              <Skeleton width={40} />
-            </Typography>
-          </div>
-        </div>
-        <div className={classes.name}>
-          <Typography variant="body2">
-            <Skeleton />
-          </Typography>
-        </div>
-      </div>
-    </AppLink>
-  );
-}
-*/

@@ -5,8 +5,6 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-// import { Article } from '@cieloazul310/gatsby-theme-aoi';
-// import Skeleton from '@mui/material/Skeleton';
 import ArtistItem from './ArtistItem';
 import { MinimumArtist } from '../../types';
 
@@ -53,28 +51,3 @@ function ArtistItemContainer({ artists, title }: ArtistItemContainerProps) {
 }
 
 export default ArtistItemContainer;
-/*
-export function ArtistItemContainerSkeleton({ length }: { length: number }): JSX.Element {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
-  const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <div className={classes.header}>
-        <Typography>
-          <Skeleton width={100} />
-        </Typography>
-      </div>
-      <div className={classes.wrapper}>
-        <Grid container={!isMobile} className={classes.container}>
-          {Array.from({ length }).map((_, index) => (
-            <Grid className={classes.item} item={!isMobile || undefined} key={index.toString()} sm={!isMobile ? 2 : undefined}>
-              <ArtistItemSkeleton />
-            </Grid>
-          ))}
-        </Grid>
-      </div>
-    </div>
-  );
-}
-*/

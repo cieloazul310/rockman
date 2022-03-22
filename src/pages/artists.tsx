@@ -24,7 +24,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FlagIcon from '@mui/icons-material/Flag';
 import { AutoSizer } from 'react-virtualized';
 import Layout from '../layout';
-import ArtistList from '../components/Artists';
+import ArtistList from '../components/ArtistList';
 import { AdInSectionDivider } from '../components/Ads';
 import { useAllNations } from '../utils/graphql-hooks';
 import useSortedArtists from '../utils/useSortedArtists';
@@ -281,7 +281,6 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
   return (
     <Layout
       title="アーティスト一覧"
-      // componentViewports={{ bottomNav: 'xsDown' }}
       drawerContents={
         isMobile ? (
           <div>
@@ -300,7 +299,7 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
       }
     >
       <Box display="flex" flexDirection="column" height={{ xs: 'calc(100vh - 56px)', sm: 'calc(100vh - 64px)' }}>
-        <Container maxWidth="lg" sx={{ py: 1, flexShrink: 0 }}>
+        <Container maxWidth="lg" sx={{ py: 2, flexShrink: 0 }}>
           <SearchField searchText={searchText} setSearchText={setSearchText} />
         </Container>
         <Container maxWidth="lg" sx={{ flexGrow: 1, overflow: 'hidden' }} disableGutters={isMobile}>

@@ -4,21 +4,65 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import Skeleton from '@mui/material/Skeleton';
 import { AppLink, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import PlayCircleIcon from '@mui/icons-material/PlayCircleOutline';
 import TextSpan from './TextSpan';
 import NationLabel from './NationLabel';
 import { TuneIcon } from '../icons';
+import useIsMobile from '../utils/useIsMobile';
 import { TuneBrowser } from '../../types';
+
+type YouTubeLinkProps = {
+  href: string;
+  title?: string;
+  children: React.ReactNode;
+};
+
+function YouTubeLink({ href, title, children }: YouTubeLinkProps) {
+  const isMobile = useIsMobile();
+  const linkTitle = title ? `YouTubeで${title}を再生する` : `YouTubeで再生する`;
+  return (
+    <ExternalLink href={href} sx={{ position: 'relative' }} title={linkTitle}>
+      {children}
+      <Box
+        sx={{
+          position: 'absolute',
+          width: 1,
+          height: 1,
+          top: 0,
+          left: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          opacity: !isMobile ? 0 : 0.6,
+          color: '#fff',
+          fontSize: 48,
+          transition: ({ transitions }) => transitions.create('opacity'),
+          '&:hover': {
+            opacity: 0.8,
+          },
+        }}
+      >
+        <PlayCircleIcon fontSize="inherit" color="inherit" />
+      </Box>
+    </ExternalLink>
+  );
+}
+
+YouTubeLink.defaultProps = {
+  title: undefined,
+};
 
 type TuneBareProps = {
   image?: string;
   nation?: string;
   href?: string;
+  alt?: string;
   headerText: React.ReactNode;
   title: React.ReactNode;
   footerText: React.ReactNode;
 };
 
-function TuneBare({ image, nation, href, headerText, title, footerText }: TuneBareProps) {
+function TuneBare({ image, nation, href, alt, headerText, title, footerText }: TuneBareProps) {
   const avatar = (
     <Box position="relative">
       <Avatar
@@ -28,6 +72,7 @@ function TuneBare({ image, nation, href, headerText, title, footerText }: TuneBa
         }}
         variant="square"
         src={image}
+        alt={alt}
       >
         <TuneIcon />
       </Avatar>
@@ -45,7 +90,13 @@ function TuneBare({ image, nation, href, headerText, title, footerText }: TuneBa
   return (
     <Box sx={{ display: 'flex', py: 1 }}>
       <Box sx={{ display: 'flex', px: 1, alignItems: 'center', flexShrink: 0 }}>
-        {href ? <ExternalLink href={href}>{avatar}</ExternalLink> : avatar}
+        {href ? (
+          <YouTubeLink href={href} title={alt}>
+            {avatar}
+          </YouTubeLink>
+        ) : (
+          avatar
+        )}
       </Box>
       <Box sx={{ display: 'flex', flexDirection: 'column', px: 1, flexGrow: 1 }}>
         <Typography variant="body2" color="textSecondary">
@@ -63,6 +114,7 @@ function TuneBare({ image, nation, href, headerText, title, footerText }: TuneBa
 TuneBare.defaultProps = {
   image: undefined,
   href: undefined,
+  alt: undefined,
   nation: undefined,
 };
 
@@ -99,7 +151,8 @@ function Tune({ tune }: TuneProps) {
         </>
       }
       image={youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : undefined}
-      href={`https://youtu.be/${youtube}`}
+      href={youtube ? `https://youtu.be/${youtube}` : undefined}
+      alt={`${artist.name} "${title}"`}
       nation={nation}
     />
   );

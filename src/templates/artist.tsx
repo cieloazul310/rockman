@@ -125,62 +125,6 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       </Section>
     </Layout>
   );
-  /*
-  const artist = nonNullable(data.artist);
-  const { previous, next } = pageContext;
-  const sortProgram = useSortProgram();
-  const initialIndex = previous ? 1 : 0;
-  const handleChangeIndex = (index: number) => {
-    if (index === initialIndex) return;
-    if (next && index === initialIndex + 1) {
-      navigate(next.slug ?? '#');
-    }
-    if (previous && index === initialIndex - 1) {
-      navigate(previous.slug ?? '#');
-    }
-  };
-  const programs = artist.program?.map((program) => ({
-    ...program,
-    playlist: artist.tunes?.filter((tune) => tune?.week === program?.week),
-  }));
-  const tabs = [
-    previous ? <ArtistTonarinoTab key={previous?.name} item={previous} /> : null,
-    <div key="main">
-      <ArtistPageHeader artist={artist} />
-      <SectionDivider />
-      <Section>
-        <div>
-          {programs?.sort(sortProgram).map((program) => (
-            <TunesByProgram key={program.week} program={program} />
-          ))}
-        </div>
-      </Section>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
-      <Section>
-        <ArtistItemContainer title="同じ回で登場したアーティスト" artists={nonNullable(artist.relatedArtists)} />
-      </Section>
-      <SectionDivider />
-      <Section>
-        <PageNavigation variant="artist" pageContext={pageContext} />
-      </Section>
-    </div>,
-    next ? <ArtistTonarinoTab key={next.name} item={next} /> : null,
-  ].filter((element): element is JSX.Element => Boolean(element));
-
-  return (
-    <Layout title={artist.name} drawerContents={<DrawerNavigation pageContext={pageContext} variant="artist" />}>
-      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
-        {tabs}
-      </BindKeyboardSwipeableViews>
-      <SectionDivider />
-      <Section>
-        <NavigationBox />
-      </Section>
-    </Layout>
-  );
-*/
 }
 
 export default ArtistTemplate;

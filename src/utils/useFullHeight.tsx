@@ -3,7 +3,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import useWindowSize from './useWindowSize';
 
-function useFullHeight(): number {
+function useFullHeight() {
   const { height } = useWindowSize();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));

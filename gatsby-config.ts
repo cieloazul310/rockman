@@ -27,7 +27,7 @@ const config: GatsbyConfig = {
     ],
     social: [
       { name: 'twitter', url: 'https://twitter.com/cieloazul310' },
-      { name: 'github', url: 'https://github.com/cieloazul310' },
+      { name: 'github', url: 'https://github.com/cieloazul310/rockman' },
     ],
   },
   pathPrefix,

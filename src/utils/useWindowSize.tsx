@@ -1,14 +1,9 @@
 import * as React from 'react';
 
-interface WindowSize {
-  width: number | undefined;
-  height: number | undefined;
-}
-
-export default function useWindowSize(): WindowSize {
+export default function useWindowSize() {
   const isClient = typeof window === 'object';
 
-  function getSize(): WindowSize {
+  function getSize() {
     return {
       width: isClient ? window.innerWidth : undefined,
       height: isClient ? window.innerHeight : undefined,

@@ -83,7 +83,7 @@ function About() {
           <Paragraph>
             <strong>ロック大陸漫遊記プレイリスト集</strong>
             <br />
-            <AppLink to="https://cieloazul310.github.io/rockman/">https://cieloazul310.github.io/rockman/</AppLink>
+            <AppLink to="/">https://cieloazul310.github.io/rockman/</AppLink>
           </Paragraph>
           <Paragraph>
             作者: <ExternalLink href="https://twitter.com/cieloazul310">@cieloazul310</ExternalLink>

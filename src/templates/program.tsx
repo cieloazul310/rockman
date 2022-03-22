@@ -109,60 +109,6 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       </Section>
     </Layout>
   );
-  /*
-  const handleChangeIndex = (index: number) => {
-    if (index === initialIndex) return;
-    if (next && next?.fields?.slug && index === initialIndex + 1) {
-      navigate(next.fields.slug);
-    }
-    if (previous && previous?.fields?.slug && index === initialIndex - 1) {
-      navigate(previous.fields.slug);
-    }
-  };
-  const artists = program.playlist
-    ? removeMultiple(
-        program.playlist.map((tune) => tune?.artist),
-        (item) => item?.name
-      )
-    : [];
-
-  const tabs = [
-    previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
-    <div key="main">
-      <ProgramPageHeader program={program} />
-      <SectionDivider />
-      <Section>
-        <div>
-          {program.playlist?.map((tune) => (
-            <Tune key={tune?.id} tune={tune} />
-          ))}
-        </div>
-      </Section>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
-      <Section>
-        <ArtistItemContainer title="登場アーティスト" artists={artists} />
-      </Section>
-      <SectionDivider />
-      <Section>
-        <PageNavigation variant="program" pageContext={pageContext} />
-      </Section>
-    </div>,
-    next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
-  ].filter((element): element is JSX.Element => Boolean(element));
-  return (
-    <Layout title={program?.title} drawerContents={<DrawerNavigation pageContext={pageContext} variant="program" />}>
-      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
-        {tabs}
-      </BindKeyboardSwipeableViews>
-      <SectionDivider />
-      <Section>
-        <NavigationBox />
-      </Section>
-    </Layout>
-  );
-  */
 }
 
 export default ProgramTemplate;

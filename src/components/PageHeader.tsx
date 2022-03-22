@@ -5,16 +5,18 @@ import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
+import { ProgramIcon, ArtistIcon } from '../icons';
 import { useParseNation } from '../utils/graphql-hooks';
 import { ProgramBrowser, ArtistBrowser } from '../../types';
 
 type PageHeaderProps = {
+  variant: 'program' | 'artist';
   image?: string | null;
   children: React.ReactNode;
   label?: React.ReactNode;
 };
 
-function PageHeader({ image, children, label }: PageHeaderProps) {
+function PageHeader({ variant, image, children, label }: PageHeaderProps) {
   return (
     <Container maxWidth="md" disableGutters>
       <Box sx={{ display: 'flex', height: 240, py: 2, bgcolor: 'background.paper' }}>
@@ -29,6 +31,28 @@ function PageHeader({ image, children, label }: PageHeaderProps) {
               position: 'relative',
             }}
           >
+            {!image ? (
+              <Box
+                sx={{
+                  width: 1,
+                  height: 1,
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  fontSize: 56,
+                  color: 'background.paper',
+                }}
+              >
+                {variant === 'program' ? (
+                  <ProgramIcon fontSize="inherit" color="inherit" />
+                ) : (
+                  <ArtistIcon fontSize="inherit" color="inherit" />
+                )}
+              </Box>
+            ) : null}
             {label ? <Box sx={{ position: 'absolute', top: 0, left: 0 }}>{label}</Box> : null}
           </Box>
         </Box>
@@ -51,7 +75,7 @@ export function ProgramPageHeader({
   };
 }) {
   return (
-    <PageHeader image={program.image}>
+    <PageHeader image={program.image} variant="program">
       <Box>
         <Typography variant="body2" color="textSecondary">
           <TextSpan label={`第${program.week}回`} />
@@ -88,7 +112,7 @@ export function ArtistPageHeader({
 }) {
   const { country } = useParseNation(artist.nation);
   return (
-    <PageHeader image={artist.program.image} label={<NationLabel nation={artist.nation} fontSize="large" />}>
+    <PageHeader variant="artist" image={artist.program.image} label={<NationLabel nation={artist.nation} fontSize="large" />}>
       <Box>
         <Typography fontWeight="bold" lineHeight={1.2} variant="h6" component="h2">
           {artist.name}

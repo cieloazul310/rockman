@@ -1,18 +1,20 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
-// import Socials from 'gatsby-theme-aoi/src/layout/Footer/Socials';
-// import Copyrights from 'gatsby-theme-aoi/src/layout/Footer/Copyrights';
+import { Article } from '@cieloazul310/gatsby-theme-aoi';
+import Socials from './Socials';
+import Copyrights from './Copyrights';
 import { AdInFooter } from '../../../components/Ads';
 import InView from '../../../components/InView';
 
 function Footer() {
   return (
     <footer>
-      <Box px={2} py={4} textAlign="center">
-        <InView>
-          <AdInFooter />
-        </InView>
-      </Box>
+      <InView>
+        <AdInFooter />
+      </InView>
+      <Article maxWidth="md">
+        <Socials />
+        <Copyrights />
+      </Article>
     </footer>
   );
 }
