@@ -48,11 +48,13 @@
     "serve": "gatsby serve -o -H 0.0.0.0 --prefix-paths",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public",
-    "lint": "tsc --noEmit && eslint --ignore-path .gitignore . --ext .ts,.tsx,.js,.jsx --fix",
-    "format": "prettier --parser typescript --trailing-comma es5 --single-quote --write \"src/**/*.ts*\"",
+    "lint": "eslint src/ --fix --ignore-pattern \"**/stories/**/*\" && eslint gatsby-node/ --fix",
+    "format": "prettier \"{src,gatsby-node}/**/*.{js,jsx,ts,tsx}\" --parser typescript --write",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -96,11 +98,23 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-webpack-plugin": "^3.1.1",
     "gh-pages": "^3.2.3",
+    "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
+    "lint-staged": "^12.3.7",
     "prettier": "^2.5.1",
     "react-test-renderer": "^17.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
+  },
+  "lint-staged": {
+    "./src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix --ignore-pattern \"**/stories/**/*\"",
+      "prettier --parser typescript --write"
+    ],
+    "./src/gatsby-node/**/*": [
+      "eslint --fix",
+      "prettier --parser typescript --write"
+    ]
   }
 }
