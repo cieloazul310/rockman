@@ -53,7 +53,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
     createPage({
       path: node.slug,
       component: path.resolve('./src/templates/program.tsx'),
-      context: { previous: previous?.slug, next: next?.slug, slug: node.slug },
+      context: { previous: previous?.slug ?? null, next: next?.slug ?? null, slug: node.slug },
     });
   });
 
@@ -66,8 +66,8 @@ export default async function createPages({ graphql, actions, reporter }: Create
       component: path.resolve('./src/templates/artist.tsx'),
       context: {
         index,
-        previous: previous?.slug,
-        next: next?.slug,
+        previous: previous?.slug ?? null,
+        next: next?.slug ?? null,
         slug: node.slug,
       },
     });

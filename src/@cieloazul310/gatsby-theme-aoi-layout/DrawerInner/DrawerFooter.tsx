@@ -5,7 +5,7 @@ import { ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 
 function DrawerFooter() {
   return (
-    <Box p={2}>
+    <Box p={2} sx={{ wordWrap: 'break-word' }}>
       <Typography variant="subtitle2" gutterBottom color="text.secondary" mb={2}>
         About
       </Typography>
