@@ -9,7 +9,6 @@ date: 2018-02-25
 playlist:
   - id: "2018000801"
     week: 8
-    name: ハイファイ・ローファイ(NEW MIX)
     artist: スピッツ
     year: 2004
     nation: JPN
@@ -21,7 +20,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000802"
     week: 8
-    name: Stand Up & Shout
     artist: Dio
     year: 1983
     nation: UK
@@ -35,7 +33,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018000803"
     week: 8
-    name: The Spirit of Radio
     artist: Rush
     year: 1980
     nation: CAN
@@ -49,7 +46,6 @@ playlist:
     selector: 田村明浩
   - id: "2018000804"
     week: 8
-    name: Loudness
     artist: LOUDNESS
     year: 1981
     nation: JPN
@@ -61,9 +57,7 @@ playlist:
     selector: 崎山龍男
   - id: "2018000805"
     week: 8
-    name: Lonesome in a crowd
     artist: The Groovers
-    kana: ""
     year: 2009
     nation: JPN
     label: BM tunes
@@ -73,7 +67,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018000806"
     week: 8
-    name: Cum On Feel the Noize
     artist: Quiet Riot
     year: 1983
     nation: US
@@ -87,7 +80,6 @@ playlist:
     selector: 田村明浩
   - id: "2018000807"
     week: 8
-    name: ロマンスがありあまる
     artist: ゲスの極み乙女。
     year: 2015
     nation: JPN
@@ -99,7 +91,6 @@ playlist:
     selector: 崎山龍男
   - id: "2018000808"
     week: 8
-    name: LADY REIKO
     artist: BLIZARD
     year: 1984
     nation: JPN

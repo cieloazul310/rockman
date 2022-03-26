@@ -9,9 +9,7 @@ date: 2018-08-12
 playlist:
   - id: "2018003201"
     week: 32
-    name: ナンプラー日和
     artist: スピッツ
-    kana: ""
     year: 2005
     nation: JPN
     label: ユニバーサル
@@ -24,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003202"
     week: 32
-    name: Stay (I Missed You)
     artist: Lisa Loeb and Nine Stories
     year: 1994
     nation: US
@@ -36,7 +33,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003203"
     week: 32
-    name: Luka
     artist: Suzanne Vega
     year: 1987
     nation: US
@@ -50,7 +46,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003204"
     week: 32
-    name: Appointments
     artist: Julien Baker
     year: 2017
     nation: US
@@ -62,7 +57,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003205"
     week: 32
-    name: No Ordinary Love (Live 2011)
     artist: Sade
     year: 2012
     nation: US
@@ -76,7 +70,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003206"
     week: 32
-    name: Beauty
     artist: James Iha
     year: 1997
     nation: US
@@ -89,7 +82,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003207"
     week: 32
-    name: Delaware
     artist: Don Peris
     year: 2006
     nation: US
@@ -101,15 +93,12 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018003208"
     week: 32
-    name: 初めて恋をした日
     artist: 区麗情
     kana: くれいじょう
     year: 1994
     nation: JPN
     label: Sony Records
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 初めて恋をした日
     index: 269
     indexInWeek: 8

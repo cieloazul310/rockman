@@ -9,30 +9,23 @@ date: 2019-08-25
 playlist:
   - id: "2019008601"
     week: 86
-    name: リコリス
     artist: スピッツ
-    kana: ""
     year: 2004
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: リコリス
     index: 707
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008602"
     week: 86
-    name: Witchi-Tai-To
     artist: John Schroeder
-    kana: ""
     year: 1971
     nation: UK
     label: Pye
-    producer: []
-    corner: ""
     youtube: 4bxhkf6dAKc
     title: Witchi-Tai-To
     index: 708
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008603"
     week: 86
-    name: A Horse with No Name
     artist: America
-    kana: ""
     year: 1971
     nation: UK
     label: Warner Bros.
     producer:
       - Ian Samwell
-    corner: ""
     youtube: mSZXWdKSQNM
     title: A Horse with No Name
     index: 709
@@ -56,14 +46,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008604"
     week: 86
-    name: マシマロ
     artist: 奥田民生
     kana: おくだたみお
     year: 2000
     nation: JPN
     label: ソニーレコード
-    producer: []
-    corner: ""
     youtube: vx61fYz-8WI
     title: マシマロ
     index: 710
@@ -71,14 +58,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008605"
     week: 86
-    name: Half a Person
     artist: The Smiths
-    kana: ""
     year: 1987
     nation: UK
     label: Rough Trade
-    producer: []
-    corner: ""
     youtube: sLX5Nym9fcs
     title: Half a Person
     index: 711
@@ -86,29 +69,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008606"
     week: 86
-    name: 二人だけの国
     artist: あいみょん
-    kana: ""
     year: 2019
     nation: JPN
     label: unBORDE
-    producer: []
-    corner: ""
-    youtube: ""
     title: 二人だけの国
     index: 712
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019008607"
     week: 86
-    name: Blogging
     artist: Wire
-    kana: ""
     year: 2015
     nation: UK
     label: Pink Flag
-    producer: []
-    corner: ""
     youtube: UxBGGp9t6WA
     title: Blogging
     index: 713
@@ -116,15 +90,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008608"
     week: 86
-    name: いきるもの
     artist: 100s
     kana: ひゃくしき
     year: 2005
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: いきるもの
     index: 714
     indexInWeek: 8

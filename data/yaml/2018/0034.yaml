@@ -9,30 +9,23 @@ date: 2018-08-26
 playlist:
   - id: "2018003401"
     week: 34
-    name: ミカンズのテーマ
     artist: スピッツ
-    kana: ""
     year: 2002
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ミカンズのテーマ
     index: 277
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018003402"
     week: 34
-    name: あなたに
     artist: MONGOL800
-    kana: ""
     year: 2001
     nation: JPN
     label: HIGH WAVE
-    producer: []
-    corner: ""
     youtube: 0jFIrBvuuQ0
     title: あなたに
     index: 278
@@ -40,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003403"
     week: 34
-    name: Heart Breaker
     artist: Condition Green
     year: 1977
     nation: JPN
@@ -52,7 +44,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003404"
     week: 34
-    name: 五穀豊穣
     artist: パーシャクラブ
     year: 1996
     nation: JPN
@@ -63,7 +54,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003405"
     week: 34
-    name: 上海ハニー
     artist: ORANGE RANGE
     year: 2003
     nation: JPN
@@ -76,7 +66,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003406"
     week: 34
-    name: さよなら
     artist: かりゆし58
     year: 2009
     nation: JPN
@@ -88,7 +77,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003407"
     week: 34
-    name: Parametric E.Q
     artist: caino
     year: 2015
     nation: JPN
@@ -100,15 +88,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003408"
     week: 34
-    name: バリバリHOT
     artist: ホイフェスタ
-    kana: ""
     year: 2005
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: バリバリHOT
     index: 284
     indexInWeek: 8

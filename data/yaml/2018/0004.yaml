@@ -9,7 +9,6 @@ date: 2018-01-28
 playlist:
   - id: "2018000401"
     week: 4
-    name: インディゴ地平線
     artist: スピッツ
     year: 1996
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000402"
     week: 4
-    name: はじまりの国
     artist: People In The Box
     year: 2007
     nation: JPN
@@ -36,7 +34,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000403"
     week: 4
-    name: 初期衝動
     artist: BRAHMAN
     year: 2013
     nation: JPN
@@ -48,7 +45,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000404"
     week: 4
-    name: GOLD
     artist: Awesome City Club
     year: 2015
     nation: JPN
@@ -60,7 +56,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000405"
     week: 4
-    name: Amazing Parade
     artist: Czecho No Republic
     year: 2014
     nation: JPN
@@ -72,7 +67,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000406"
     week: 4
-    name: 血清
     artist: パノラマメロウ
     year: 2017
     nation: JPN
@@ -83,7 +77,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000407"
     week: 4
-    name: Merry Go Round In Rainy Days
     artist: NYAI
     year: 2016
     nation: JPN
@@ -95,14 +88,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000408"
     week: 4
-    name: 新しい風
     artist: 陣内大蔵
     kana: じんないだいぞう
     year: 1992
     nation: JPN
     label: ファンハウス
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 新しい風
     index: 32
     indexInWeek: 8

@@ -9,31 +9,25 @@ date: 2018-05-27
 playlist:
   - id: "2018002101"
     week: 21
-    name: 正しい街
-    artist: the ウラシマ’S
-    kana: ""
+    artist: the ウラシマ'S
     year: 2017
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: 正しい街
     index: 168
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018002102"
     week: 21
-    name: Any Way You Want It
     artist: Journey
-    kana: ""
     year: 1980
     nation: US
     label: Columbia
     producer:
       - Geoff Workman
-    corner: ""
     youtube: atxUuldUcfI
     title: Any Way You Want It
     index: 169
@@ -41,15 +35,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002103"
     week: 21
-    name: Heat of the Moment
     artist: Asia
-    kana: ""
     year: 1982
     nation: UK
     label: Geffen
     producer:
       - Mike Stone
-    corner: ""
     youtube: 81qZLpu8FY4
     title: Heat of the Moment
     index: 170
@@ -57,15 +48,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002104"
     week: 21
-    name: Working for the Weekend
     artist: Loverboy
-    kana: ""
     year: 1981
     nation: CAN
     label: Columbia
     producer:
       - Bruce Fairbairn
-    corner: ""
     youtube: zL8G5pBZ5CI
     title: Working for the Weekend
     index: 171
@@ -73,15 +61,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002105"
     week: 21
-    name: In Your Letter
     artist: REO Speedwagon
-    kana: ""
     year: 1980
     nation: US
     label: Epic
     producer:
       - Kevin Beamish
-    corner: ""
     youtube: zpOULjyy-n8
     title: In Your Letter
     index: 172
@@ -89,14 +74,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002106"
     week: 21
-    name: People of the South Wind
     artist: Kansas
-    kana: ""
     year: 1979
     nation: US
     label: Kirshner
-    producer: []
-    corner: ""
     youtube: FtXwopQ0GYo
     title: People of the South Wind
     index: 173
@@ -104,14 +85,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002107"
     week: 21
-    name: "99"
     artist: Toto
-    kana: ""
     year: 1979
     nation: US
     label: Columbia
-    producer: []
-    corner: ""
     youtube: qhw-XlTMB5I
     title: "99"
     index: 174
@@ -119,16 +96,13 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002108"
     week: 21
-    name: Y・M・J・S
     artist: Sepa
-    kana: ""
     year: 2001
     nation: JPN
     label: 徳間ジャパン
     producer:
       - 森純太
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Y・M・J・S
     index: 175
     indexInWeek: 8

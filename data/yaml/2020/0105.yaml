@@ -9,44 +9,31 @@ date: 2020-01-05
 playlist:
   - id: "2020010501"
     week: 105
-    name: どんどどん
     artist: スピッツ
-    kana: ""
     year: 2010
     nation: JPN
     label: ユニバーサル
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: どんどどん
     index: 869
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020010502"
     week: 105
-    name: 夢の中でしか (Live)
     artist: The Groovers
-    kana: ""
     year: 2007
     nation: JPN
     label: ポリドール
-    producer: []
-    corner: ""
-    youtube: ""
     title: 夢の中でしか (Live)
     index: 870
     indexInWeek: 2
     selector: 三輪テツヤ
   - id: "2020010503"
     week: 105
-    name: Highway Star (Live 1972)
     artist: Deep Purple
-    kana: ""
     year: 1972
     nation: UK
     label: Purple
-    producer: []
-    corner: ""
     youtube: DyCyhaa5mck
     title: Highway Star (Live 1972)
     index: 871
@@ -54,15 +41,12 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010504"
     week: 105
-    name: Only You Can Rock Me (Live 1978)
     artist: UFO
-    kana: ""
     year: 1979
     nation: UK
     label: Chrysalis
     producer:
       - Ron Nevison
-    corner: ""
     youtube: bWCenuPMZ_Y
     title: Only You Can Rock Me (Live 1978)
     index: 872
@@ -70,15 +54,12 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010505"
     week: 105
-    name: Deuce (Live 1975)
     artist: Kiss
-    kana: ""
     year: 1975
     nation: US
     label: Casablanca
     producer:
       - Eddie Kramer
-    corner: ""
     youtube: Ux0J7H9JdrE
     title: Deuce (Live 1975)
     index: 873
@@ -86,16 +67,13 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010506"
     week: 105
-    name: ヴァージニティー
     artist: レベッカ
-    kana: ""
     year: 1984
     nation: JPN
     label: CBS・ソニー
     producer:
       - 後藤次利
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: ヴァージニティー
     index: 874
     indexInWeek: 6

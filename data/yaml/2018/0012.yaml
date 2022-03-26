@@ -9,9 +9,7 @@ date: 2018-03-25
 playlist:
   - id: "2018001201"
     week: 12
-    name: ヒバリのこころ
     artist: スピッツ
-    kana: ""
     year: 1991
     nation: JPN
     label: ポリドール
@@ -25,15 +23,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001202"
     week: 12
-    name: ふな ふな ふなっしー♪
     artist: ふなっしー
-    kana: ""
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 高見沢俊彦
-    corner: ""
     youtube: EyRgTBwQ_d8
     title: ふな ふな ふなっしー♪
     index: 92
@@ -41,30 +36,23 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001203"
     week: 12
-    name: 半斤八両
     artist: 許冠傑
     kana: さみゅえるほい
     year: 1976
     nation: HKG
     label: PolyGram
-    producer: []
-    corner: ""
-    youtube: ""
     title: 半斤八両
     index: 93
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2018001204"
     week: 12
-    name: Yamasuki
     artist: Yamasuki Singers
-    kana: ""
     year: 1971
     nation: FR
     label: Biram
     producer:
       - Jean Kluger
-    corner: ""
     youtube: BXCrpFRK_n0
     title: Yamasuki
     index: 94
@@ -72,73 +60,54 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001205"
     week: 12
-    name: O・TO・GA・MEはーと
     artist: 激しぶBOYS
     kana: げきしぶぼういず
     year: 2004
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
-    youtube: ""
     title: O・TO・GA・MEはーと
     index: 95
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018001206"
     week: 12
-    name: どこへ行くの
     artist: 川崎幸子・敏子
     kana: かわさきゆきことしこ
     year: 1970
     nation: JPN
     label: 日本コロムビア
-    producer: []
-    corner: ""
-    youtube: ""
     title: どこへ行くの
     index: 96
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2018001207"
     week: 12
-    name: 目をつむってモンキーダンス
     artist: 平尾昌晃
     kana: ひらおまさあき
     year: 1960
     nation: JPN
     label: キングレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: 目をつむってモンキーダンス
     index: 97
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2018001208"
     week: 12
-    name: 値上げ
     artist: 高田渡
     kana: たかだわたる
     year: 1971
     nation: JPN
     label: キングレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: 値上げ
     index: 98
     indexInWeek: 8
     selector: 草野マサムネ
   - id: "2018001209"
     week: 12
-    name: New Morning
     artist: カーネーション
-    kana: ""
     year: 1997
     nation: JPN
     label: 日本コロムビア
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: TbK6mkKb5hg
     title: New Morning

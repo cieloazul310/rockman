@@ -9,9 +9,7 @@ date: 2020-02-16
 playlist:
   - id: "2020011101"
     week: 111
-    name: さらさら
     artist: スピッツ
-    kana: ""
     year: 2010
     nation: JPN
     label: ユニバーサル
@@ -25,15 +23,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011102"
     week: 111
-    name: Uncle Jack
     artist: Spirit
-    kana: ""
     year: 1968
     nation: US
     label: Ode
     producer:
       - Lou Adler
-    corner: ""
     youtube: 6S8sgvPnUkE
     title: Uncle Jack
     index: 917
@@ -41,30 +36,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011103"
     week: 111
-    name: Get The Message
     artist: Cyrus Erie
-    kana: ""
     year: 1968
     nation: US
     label: Epic
-    producer: []
-    corner: ""
-    youtube: ""
     title: Get The Message
     index: 918
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2020011104"
     week: 111
-    name: Hurry Sundown
     artist: Bubble Puppy
-    kana: ""
     year: 1969
     nation: US
     label: International Artists
     producer:
       - Ray Rush
-    corner: ""
     youtube: yqUTV_8aRs4
     title: Hurry Sundown
     index: 919
@@ -72,15 +59,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011105"
     week: 111
-    name: Peace By Peace
     artist: Crabby Appleton
-    kana: ""
     year: 1970
     nation: US
     label: Elektra
     producer:
       - Don Gallucci
-    corner: ""
     youtube: 1KwYmy1dDV4
     title: Peace By Peace
     index: 920
@@ -88,14 +72,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011106"
     week: 111
-    name: Black Betty
     artist: Ram Jam
-    kana: ""
     year: 1977
     nation: US
     label: Epic
-    producer: []
-    corner: ""
     youtube: I_2D8Eo15wE
     title: Black Betty
     index: 921
@@ -103,14 +83,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011107"
     week: 111
-    name: No Rest For The Wicked (Live 1976)
     artist: Truth And Janey
-    kana: ""
     year: 1991
     nation: US
     label: Rock 'N' Bach
-    producer: []
-    corner: ""
     youtube: dAMisaAdrso
     title: No Rest For The Wicked (Live 1976)
     index: 922
@@ -118,15 +94,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011108"
     week: 111
-    name: 黄悪徳
     artist: シルバー・スターズ
-    kana: ""
     year: 1979
     nation: JPN
     label: Trash
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 黄悪徳
     index: 923
     indexInWeek: 8
