@@ -11,7 +11,6 @@ playlist:
     week: 116
     title: 春の歌
     artist: スピッツ
-    
     year: 2005
     nation: JPN
     label: ユニバーサル
@@ -29,7 +28,6 @@ playlist:
     year: 1981
     nation: JPN
     label: JAPAN RECORD
-    
     youtube: hhNi01ByA5Q
     index: 960
     indexInWeek: 2
@@ -38,11 +36,9 @@ playlist:
     week: 116
     title: ハル
     artist: ザ・クロマニヨンズ
-    
     year: 2012
     nation: JPN
     label: HAPPYSONG RECORDS
-    
     youtube: 
     index: 961
     indexInWeek: 3
@@ -51,7 +47,6 @@ playlist:
     week: 116
     title: Snow Brigade
     artist: Mew
-    
     year: 2003
     nation: DNK
     label: Sony
@@ -65,11 +60,9 @@ playlist:
     week: 116
     title: はるのうた
     artist: D.W.ニコルズ
-    
     year: 2018
     nation: JPN
     label: haleiwa records
-    
     youtube: j0J_04HGupU
     index: 963
     indexInWeek: 5
@@ -78,11 +71,9 @@ playlist:
     week: 116
     title: 春の香りに包まれて
     artist: The Songbards
-    
     year: 2019
     nation: JPN
     label: Getting Better
-    
     youtube: j1hzX9GGEb8
     index: 964
     indexInWeek: 6
@@ -91,7 +82,6 @@ playlist:
     week: 116
     title: You've Got a Friend
     artist: Carole King
-    
     year: 1971
     nation: UK
     label: Warner Bros.
@@ -113,5 +103,3 @@ playlist:
     year: 1972
     nation: JPN
     label: Odyssey
-    
-    youtube: 
