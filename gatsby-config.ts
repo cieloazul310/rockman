@@ -2,7 +2,6 @@ import { GatsbyConfig } from 'gatsby';
 
 const baseUrl = 'https://cieloazul310.github.io';
 const pathPrefix = '/rockman';
-// const siteUrl = path.join(baseUrl, pathPrefix);
 const contentDir = `./data`;
 
 const config: GatsbyConfig = {
