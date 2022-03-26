@@ -9,25 +9,20 @@ date: 2019-02-03
 playlist:
   - id: "2019005701"
     week: 57
-    name: SUGINAMI MELODY
     artist: スピッツ
-    
     year: 2002
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: SUGINAMI MELODY
     index: 469
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019005702"
     week: 57
-    name: カロン
     artist: ねごと
-    
     year: 2011
     nation: JPN
     label: Ki/oon Records
@@ -40,27 +35,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005703"
     week: 57
-    name: オゾンのダンス
     artist: たま
-    
     year: 1990
     nation: JPN
     label: 日本クラウン
-    
-    
     title: オゾンのダンス
     index: 471
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019005704"
     week: 57
-    name: ディスコ
     artist: ミツメ
-    
     year: 2012
     nation: JPN
     label: mitsume
-    
     youtube: CDVfHCHTbKI
     title: ディスコ
     index: 472
@@ -68,41 +56,32 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005705"
     week: 57
-    name: 風の仕業
     artist: 森は生きている
     kana: もりはいきている
     year: 2014
     nation: JPN
     label: P-VINE
-    
-    
     title: 風の仕業
     index: 473
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2019005706"
     week: 57
-    name: 解
     artist: あぶらだこ
-    
     year: 1989
     nation: JPN
     label: Wax Records
-    
-    
     title: 解
     index: 474
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019005707"
     week: 57
-    name: メロディ
     artist: 踊ってばかりの国
     kana: おどってばかりのくに
     year: 2018
     nation: JPN
     label: ツクモガミ
-    
     youtube: IbOb_dB83iw
     title: メロディ
     index: 475
@@ -110,13 +89,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005708"
     week: 57
-    name: 少年
     artist: 黒夢
     kana: くろゆめ
     year: 1997
     nation: JPN
     label: 東芝EMI
-    
     youtube: aoWddavMgB8
     title: 少年
     index: 476
@@ -124,13 +101,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005709"
     week: 57
-    name: HIMITSUスパーク
     artist: カラスは真っ白
-    
     year: 2015
     nation: JPN
     label: SPACE SHOWER MUSIC
-    
     corner: ちょっぴりタイムマシン
     youtube: h_26_gR7Vs8
     title: HIMITSUスパーク

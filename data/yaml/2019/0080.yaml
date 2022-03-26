@@ -9,24 +9,18 @@ date: 2019-07-14
 playlist:
   - id: "2019008001"
     week: 80
-    name: シュラフ
     artist: スピッツ
-    
     year: 1992
     nation: JPN
     label: ポリドール
-    
     corner: 漫遊前の一曲
-    
     title: シュラフ
     index: 657
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008002"
     week: 80
-    name: The Witch's Promise
     artist: Jethro Tull
-    
     year: 1970
     nation: UK
     label: Chrysalis
@@ -39,9 +33,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008003"
     week: 80
-    name: My Sunday Feeling
     artist: Jethro Tull
-    
     year: 1968
     nation: UK
     label: Island
@@ -54,9 +46,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008004"
     week: 80
-    name: Aqualung
     artist: Jethro Tull
-    
     year: 1971
     nation: UK
     label: Chrysalis
@@ -69,13 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008005"
     week: 80
-    name: Lick Your Fingers Clean
     artist: Jethro Tull
-    
     year: 1988
     nation: UK
     label: Chrysalis
-    
     youtube: HvnNNgJXyts
     title: Lick Your Fingers Clean
     index: 661
@@ -83,13 +70,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008006"
     week: 80
-    name: Mayhem, Maybe
     artist: Jethro Tull
-    
     year: 1988
     nation: UK
     label: Chrysalis
-    
     youtube: FHl0tWfHj2Y
     title: Mayhem, Maybe
     index: 662
@@ -97,13 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008007"
     week: 80
-    name: Mother Goose
     artist: Jethro Tull
-    
     year: 1971
     nation: UK
     label: Chrysalis
-    
     youtube: KBAN1thF0-4
     title: Mother Goose
     index: 663
@@ -111,15 +92,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008008"
     week: 80
-    name: 公園通り
     artist: 五島良子
     kana: ごしまよしこ
     year: 1993
     nation: JPN
     label: ソニー・ミュージックアソシエイテッドレコーズ
-    
     corner: ちょっぴりタイムマシン
-    
     title: 公園通り
     index: 664
     indexInWeek: 8

@@ -9,29 +9,23 @@ date: 2019-10-06
 playlist:
   - id: "2019009201"
     week: 92
-    name: 見っけ
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: 見っけ
     index: 757
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009202"
     week: 92
-    name: Am I Evil?
     artist: Diamond Head
-    
     year: 1980
     nation: UK
     label: Happy Face
-    
     youtube: bdKY4Id-q08
     title: Am I Evil?
     index: 758
@@ -39,9 +33,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009203"
     week: 92
-    name: Beck's Bolero
     artist: Jeff Beck
-    
     year: 1967
     nation: UK
     label: Columbia
@@ -54,9 +46,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009204"
     week: 92
-    name: The Ides of March
     artist: Iron Maiden
-    
     year: 1981
     nation: UK
     label: EMI
@@ -69,9 +59,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009205"
     week: 92
-    name: Lady
     artist: Styx
-    
     year: 1973
     nation: US
     label: Wooden Nickel Records
@@ -84,27 +72,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009206"
     week: 92
-    name: 銀の指環
     artist: チューリップ
-    
     year: 1974
     nation: JPN
     label: 東芝EMI
-    
-    
     title: 銀の指環
     index: 762
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019009207"
     week: 92
-    name: Child In Time
     artist: Deep Purple
-    
     year: 1970
     nation: UK
     label: Harvest
-    
     youtube: OorZcOzNcgE
     title: Child In Time
     index: 763
@@ -112,13 +93,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009208"
     week: 92
-    name: The Importance of Being Idle
     artist: Oasis
-    
     year: 2005
     nation: UK
     label: Big Brother
-    
     youtube: jySfU10IQu4
     title: The Importance of Being Idle
     index: 764
@@ -126,9 +104,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009209"
     week: 92
-    name: ハミングがきこえる
     artist: カヒミ・カリィ
-    
     year: 1996
     nation: JPN
     label: ポリスター

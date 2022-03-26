@@ -9,13 +9,10 @@ date: 2019-05-26
 playlist:
   - id: "2019007301"
     week: 73
-    name: 優しいあの子
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
-    
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
     title: 優しいあの子
@@ -24,13 +21,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007302"
     week: 73
-    name: Woman
     artist: John Lennon
-    
     year: 1981
     nation: UK
     label: Geffen
-    
     youtube: ZhfWiU8wGCc
     title: Woman
     index: 602
@@ -38,13 +32,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007303"
     week: 73
-    name: Sweet Lorraine
     artist: Uriah Heep
-    
     year: 1972
     nation: UK
     label: Bronze
-    
     youtube: haUiygv5QQg
     title: Sweet Lorraine
     index: 603
@@ -52,23 +43,18 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007304"
     week: 73
-    name: モニカ
     artist: 吉川晃司
     kana: きっかわこうじ
     year: 1984
     nation: JPN
     label: SMS Records
-    
-    
     title: モニカ
     index: 604
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2019007305"
     week: 73
-    name: Pinball Wizard
     artist: The Who
-    
     year: 1969
     nation: UK
     label: Decca Records
@@ -81,13 +67,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007306"
     week: 73
-    name: Venus
     artist: Shocking Blue
-    
     year: 1969
     nation: NED
     label: Pink Elephant
-    
     youtube: Dg-UiOSjJeM
     title: Venus
     index: 606
@@ -95,13 +78,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007307"
     week: 73
-    name: RADIO MAGIC
     artist: EARTHSHAKER
-    
     year: 1984
     nation: JPN
     label: NEXUS
-    
     youtube: n9syF5d_pyQ
     title: RADIO MAGIC
     index: 607
@@ -109,13 +89,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007308"
     week: 73
-    name: クライマクス
     artist: TAMTAM
-    
     year: 2014
     nation: JPN
     label: SPEEDSTAR RECORDS
-    
     corner: ちょっぴりタイムマシン
     youtube: LAqVYrPqOM8
     title: クライマクス

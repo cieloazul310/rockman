@@ -9,7 +9,6 @@ date: 2018-06-03
 playlist:
   - id: "2018002201"
     week: 22
-    name: ロビンソン
     artist: スピッツ
     year: 1995
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002202"
     week: 22
-    name: 僕はコレクター
     artist: THE COLLECTORS
     year: 1987
     nation: JPN
@@ -36,7 +34,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002203"
     week: 22
-    name: 虹色サーカス団
     artist: THE COLLECTORS
     year: 1988
     nation: JPN
@@ -47,7 +44,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002204"
     week: 22
-    name: 太陽が昇るまえに
     artist: THE COLLECTORS
     year: 1989
     nation: JPN
@@ -58,7 +54,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002205"
     week: 22
-    name: LUNA
     artist: THE COLLECTORS
     year: 2001
     nation: JPN
@@ -72,7 +67,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002206"
     week: 22
-    name: 東京虫バグズ
     artist: THE COLLECTORS
     year: 2007
     nation: JPN
@@ -85,7 +79,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002207"
     week: 22
-    name: ロマンチック・プラネット
     artist: THE COLLECTORS
     year: 2016
     nation: JPN
@@ -96,7 +89,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002208"
     week: 22
-    name: タイマー
     artist: フーバーオーバー
     year: 2008
     nation: JPN

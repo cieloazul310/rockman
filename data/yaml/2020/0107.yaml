@@ -9,7 +9,6 @@ date: 2020-01-19
 playlist:
   - id: "2020010701"
     week: 107
-    name: ハチミツ
     artist: スピッツ
     year: 1995
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 田村明浩
   - id: "2020010702"
     week: 107
-    name: Back on the Streets
     artist: Gary Moore
     year: 1978
     nation: UK
@@ -38,7 +36,6 @@ playlist:
     selector: 田村明浩
   - id: "2020010703"
     week: 107
-    name: Love Song
     artist: The Damned
     year: 1979
     nation: UK
@@ -50,12 +47,10 @@ playlist:
     selector: 田村明浩
   - id: "2020010704"
     week: 107
-    name: Ace of Spades
     artist: Motörhead
     year: 1980
     nation: UK
     label: Bronze
-    
     youtube: J-QAKCP8ong
     title: Ace of Spades
     index: 885
@@ -63,9 +58,7 @@ playlist:
     selector: 田村明浩
   - id: "2020010705"
     week: 107
-    name: Light Flight
     artist: Pentangle
-    
     year: 1969
     nation: UK
     label: Transatlantic Records
@@ -78,9 +71,7 @@ playlist:
     selector: 田村明浩
   - id: "2020010706"
     week: 107
-    name: Let It Roll
     artist: UFO
-    
     year: 1975
     nation: UK
     label: Chrysalis
@@ -93,9 +84,7 @@ playlist:
     selector: 田村明浩
   - id: "2020010707"
     week: 107
-    name: "Opening: I Can't Turn You Loose (Live)"
     artist: The Blues Brothers
-    
     year: 1978
     nation: US
     label: Atlantic
@@ -108,15 +97,11 @@ playlist:
     selector: 田村明浩
   - id: "2020010708"
     week: 107
-    name: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     artist: ブリッジ
-    
     year: 1994
     nation: JPN
     label: トラットリア
-    
     corner: ちょっぴりタイムマシン
-    
     title: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     index: 889
     indexInWeek: 8

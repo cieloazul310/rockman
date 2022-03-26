@@ -9,29 +9,23 @@ date: 2019-11-10
 playlist:
   - id: "2019009701"
     week: 97
-    name: ヤマブキ
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: ヤマブキ
     index: 800
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009702"
     week: 97
-    name: Saying Goodbye
     artist: The Muffs
-    
     year: 1993
     nation: US
     label: Warner Bros.
-    
     youtube: 7SiHQtkrPwE
     title: Saying Goodbye
     index: 801
@@ -39,13 +33,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009703"
     week: 97
-    name: Everywhere I Go
     artist: The Muffs
-    
     year: 1993
     nation: US
     label: Warner Bros.
-    
     youtube: CB7tezt8GnY
     title: Everywhere I Go
     index: 802
@@ -53,13 +44,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009704"
     week: 97
-    name: Baby Go Round
     artist: The Muffs
-    
     year: 1993
     nation: US
     label: Warner Bros.
-    
     youtube: pBWZCJMG-fs
     title: Baby Go Round
     index: 803
@@ -67,9 +55,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009705"
     week: 97
-    name: Oh Nina
     artist: The Muffs
-    
     year: 1995
     nation: US
     label: Reprise Records
@@ -82,9 +68,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009706"
     week: 97
-    name: Sad Tomorrow
     artist: The Muffs
-    
     year: 1995
     nation: US
     label: Reprise Records
@@ -97,13 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009707"
     week: 97
-    name: Honeymoon
     artist: The Muffs
-    
     year: 1997
     nation: US
     label: Reprise Records
-    
     youtube: His66Z63Z3E
     title: Honeymoon
     index: 806
@@ -111,13 +92,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009708"
     week: 97
-    name: Guilty
     artist: The Muffs
-    
     year: 2000
     nation: US
     label: Sympathy for the Record Industry
-    
     youtube: Chz3nMHBkCk
     title: Guilty
     index: 807
@@ -125,13 +103,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009709"
     week: 97
-    name: To That Funny Place
     artist: The Muffs
-    
     year: 2019
     nation: US
     label: Omnivore Recordings
-    
     youtube: muQJnAyvix8
     title: To That Funny Place
     index: 808
@@ -139,15 +114,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009710"
     week: 97
-    name: Allegro Cantabile
     artist: SUEMITSU & THE SUEMITH
-    
     year: 2007
     nation: JPN
     label: キューンレコード
-    
     corner: ちょっぴりタイムマシン
-    
     title: Allegro Cantabile
     index: 809
     indexInWeek: 10

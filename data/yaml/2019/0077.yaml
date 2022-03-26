@@ -9,13 +9,10 @@ date: 2019-06-23
 playlist:
   - id: "2019007701"
     week: 77
-    name: 優しいあの子
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
-    
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
     title: 優しいあの子
@@ -24,9 +21,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007702"
     week: 77
-    name: Kill the King
     artist: Rainbow
-    
     year: 1978
     nation: UK
     label: Polydor
@@ -39,13 +34,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007703"
     week: 77
-    name: Love Pains
     artist: Ronnie Dio & The Prophets
-    
     year: 1962
     nation: UK
     label: Atlantic
-    
     youtube: ObasKE0PLTA
     title: Love Pains
     index: 635
@@ -53,28 +45,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007704"
     week: 77
-    name: Good Time Music
     artist: Elf
-    
     year: 1975
     nation: UK
     label: MGM
     producer:
       - Roger Glover
-    
     title: Good Time Music
     index: 636
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2019007705"
     week: 77
-    name: Man on the Silver Mountain
     artist: Rainbow
-    
     year: 1975
     nation: UK
     label: Oyster
-    
     youtube: ORnvO1VyYMk
     title: Man on the Silver Mountain
     index: 637
@@ -82,9 +68,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007706"
     week: 77
-    name: Neon Knights
     artist: Black Sabbath
-    
     year: 1980
     nation: UK
     label: Vertigo
@@ -97,13 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007707"
     week: 77
-    name: Caught In The Middle
     artist: Dio
-    
     year: 1983
     nation: UK
     label: Warner Bros.
-    
     youtube: qsskD9g_grg
     title: Caught In The Middle
     index: 639
@@ -111,15 +92,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007708"
     week: 77
-    name: 愛をちょうだい
     artist: VANILLA
-    
     year: 1995
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    
     corner: ちょっぴりタイムマシン
-    
     title: 愛をちょうだい
     index: 640
     indexInWeek: 8

@@ -9,39 +9,30 @@ date: 2020-01-26
 playlist:
   - id: "2020010801"
     week: 108
-    name: ヤマブキ
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: ヤマブキ
     index: 890
     indexInWeek: 1
     selector: クジヒロコ
   - id: "2020010802"
     week: 108
-    name: Favourite Shirts (Boy Meets Girl)
     artist: Haircut One Hundred
-    
     year: 1981
     nation: UK
     label: Arista
-    
-    
     title: Favourite Shirts (Boy Meets Girl)
     index: 891
     indexInWeek: 2
     selector: クジヒロコ
   - id: "2020010803"
     week: 108
-    name: She Does It Right
     artist: Dr. Feelgood
-    
     year: 1975
     nation: UK
     label: United Artists
@@ -54,9 +45,7 @@ playlist:
     selector: クジヒロコ
   - id: "2020010804"
     week: 108
-    name: The Cutter
     artist: Echo & the Bunnymen
-    
     year: 1983
     nation: UK
     label: Korova
@@ -69,9 +58,7 @@ playlist:
     selector: クジヒロコ
   - id: "2020010805"
     week: 108
-    name: Creep
     artist: Radiohead
-    
     year: 1992
     nation: UK
     label: Parlophone
@@ -84,27 +71,20 @@ playlist:
     selector: クジヒロコ
   - id: "2020010806"
     week: 108
-    name: SLUDGE
     artist: dip
-    
     year: 1995
     nation: JPN
     label: Karasu
-    
-    
     title: SLUDGE
     index: 895
     indexInWeek: 6
     selector: クジヒロコ
   - id: "2020010807"
     week: 108
-    name: Foxhole
     artist: Television
-    
     year: 1978
     nation: US
     label: Elektra
-    
     youtube: 2IQCUc4rNN8
     title: Foxhole
     index: 896
@@ -112,13 +92,10 @@ playlist:
     selector: クジヒロコ
   - id: "2020010808"
     week: 108
-    name: 悪の華
     artist: BUCK-TICK
-    
     year: 1990
     nation: JPN
     label: ビクターインビテーション
-    
     corner: ちょっぴりタイムマシン
     youtube: F-Oax86SCuo
     title: 悪の華

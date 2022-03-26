@@ -9,7 +9,6 @@ date: 2018-10-21
 playlist:
   - id: "2018004201"
     week: 42
-    name: 僕の天使マリ
     artist: スピッツ
     year: 1992
     nation: JPN
@@ -21,7 +20,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004202"
     week: 42
-    name: Fiesta
     artist: The Pogues
     year: 1988
     nation: UK
@@ -35,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004203"
     week: 42
-    name: 大迷惑
     artist: UNICORN
     year: 1989
     nation: JPN
@@ -49,9 +46,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004204"
     week: 42
-    name: ざまぁカンカン娘
     artist: GO-BANG'S
-    
     year: 1988
     nation: JPN
     label: ポニーキャニオン
@@ -61,7 +56,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004205"
     week: 42
-    name: Needles
     artist: System of a Down
     year: 2001
     nation: US
@@ -72,7 +66,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004206"
     week: 42
-    name: 憧れてきたんだ
     artist: あいみょん
     year: 2017
     nation: JPN
@@ -84,7 +77,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004207"
     week: 42
-    name: 車輪の唄
     artist: BUMP OF CHICKEN
     year: 2004
     nation: JPN
@@ -96,7 +88,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004208"
     week: 42
-    name: A Well Respected Man
     artist: The Kinks
     year: 1965
     nation: UK
@@ -110,7 +101,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004209"
     week: 42
-    name: チョイスで会おうぜ
     artist: ニューロティカ
     year: 1989
     nation: JPN

@@ -9,7 +9,6 @@ date: 2018-08-26
 playlist:
   - id: "2018003401"
     week: 34
-    name: ミカンズのテーマ
     artist: スピッツ
     year: 2002
     nation: JPN
@@ -17,7 +16,6 @@ playlist:
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: ミカンズのテーマ
     index: 277
     indexInWeek: 1
@@ -90,7 +88,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003408"
     week: 34
-    name: バリバリHOT
     artist: ホイフェスタ
     year: 2005
     nation: JPN

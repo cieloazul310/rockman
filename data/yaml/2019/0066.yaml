@@ -9,114 +9,89 @@ date: 2019-04-07
 playlist:
   - id: "2019006601"
     week: 66
-    name: トゲトゲの木
     artist: スピッツ
-    
     year: 1990
     nation: JPN
     label: ミストラル
-    
     corner: 漫遊前の一曲
-    
     title: トゲトゲの木
     index: 545
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019006602"
     week: 66
-    name: 遺憾に存じます
     artist: 植木等
     kana: うえきひとし
     year: 1965
     nation: JPN
     label: 東芝レコード
-    
-    
     title: 遺憾に存じます
     index: 546
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2019006603"
     week: 66
-    name: 青森ロック大臣
     artist: 人間椅子
     kana: にんげんいす
     year: 1993
     nation: JPN
     label: メルダック
-    
-    
     title: 青森ロック大臣
     index: 547
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019006604"
     week: 66
-    name: So Said Kayo
     artist: The Hit Parade
-    
     year: 1992
     nation: UK
     label: ポリスター
     producer:
       - Raymond Watts
-    
     title: So Said Kayo
     index: 548
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2019006605"
     week: 66
-    name: ふやけた■■
     artist: ヒカシュー
-    
     year: 1980
     nation: JPN
     label: イーストワールド
     producer:
       - 近田春夫
-    
     title: ふやけた■■
     index: 549
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2019006606"
     week: 66
-    name: スナッキーで踊ろう
     artist: 海道はじめ
     kana: かいどうはじめ
     year: 1968
     nation: JPN
     label: コロムビア
-    
-    
     title: スナッキーで踊ろう
     index: 550
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019006607"
     week: 66
-    name: デタラメ・マザコン・チェリーボーイ 〜for the movie〜
     artist: 金玉ガールズ
     kana: きんたまがーるす
     year: 2008
     nation: JPN
     label: デスレコーズ
-    
-    
     title: デタラメ・マザコン・チェリーボーイ 〜for the movie〜
     index: 551
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2019006608"
     week: 66
-    name: ナントカナルシング
     artist: ふなっしー
-    
     year: 2016
     nation: JPN
     label: ユニバーサル
-    
     youtube: K7lW2MCYUc4
     title: ナントカナルシング
     index: 552
@@ -124,15 +99,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006609"
     week: 66
-    name: レッドdeハッスル
     artist: 大西ユカリと新世界
     kana: おおにしゆかりとしんせかい
     year: 2003
     nation: JPN
     label: SUBSTANCE RECORDS
-    
     corner: ちょっぴりタイムマシン
-    
     title: レッドdeハッスル
     index: 553
     indexInWeek: 9

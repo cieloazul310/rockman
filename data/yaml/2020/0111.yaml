@@ -9,9 +9,7 @@ date: 2020-02-16
 playlist:
   - id: "2020011101"
     week: 111
-    name: さらさら
     artist: スピッツ
-    
     year: 2010
     nation: JPN
     label: ユニバーサル
@@ -25,9 +23,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011102"
     week: 111
-    name: Uncle Jack
     artist: Spirit
-    
     year: 1968
     nation: US
     label: Ode
@@ -40,23 +36,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011103"
     week: 111
-    name: Get The Message
     artist: Cyrus Erie
-    
     year: 1968
     nation: US
     label: Epic
-    
-    
     title: Get The Message
     index: 918
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2020011104"
     week: 111
-    name: Hurry Sundown
     artist: Bubble Puppy
-    
     year: 1969
     nation: US
     label: International Artists
@@ -69,9 +59,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011105"
     week: 111
-    name: Peace By Peace
     artist: Crabby Appleton
-    
     year: 1970
     nation: US
     label: Elektra
@@ -84,13 +72,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011106"
     week: 111
-    name: Black Betty
     artist: Ram Jam
-    
     year: 1977
     nation: US
     label: Epic
-    
     youtube: I_2D8Eo15wE
     title: Black Betty
     index: 921
@@ -98,13 +83,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011107"
     week: 111
-    name: No Rest For The Wicked (Live 1976)
     artist: Truth And Janey
-    
     year: 1991
     nation: US
     label: Rock 'N' Bach
-    
     youtube: dAMisaAdrso
     title: No Rest For The Wicked (Live 1976)
     index: 922
@@ -112,15 +94,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011108"
     week: 111
-    name: 黄悪徳
     artist: シルバー・スターズ
-    
     year: 1979
     nation: JPN
     label: Trash
-    
     corner: ちょっぴりタイムマシン
-    
     title: 黄悪徳
     index: 923
     indexInWeek: 8

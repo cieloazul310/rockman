@@ -9,29 +9,23 @@ date: 2020-03-01
 playlist:
   - id: "2020011301"
     week: 113
-    name: さらばユニヴァース
     artist: スピッツ
-    
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    
     title: さらばユニヴァース
     index: 932
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020011302"
     week: 113
-    name: Highway Tune
     artist: Greta Van Fleet
-    
     year: 2017
     nation: US
     label: Republic
-    
     youtube: aJg4OJxp-co
     title: Highway Tune
     index: 933
@@ -39,28 +33,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011303"
     week: 113
-    name: Easy Livin'
     artist: Fastway
-    
     year: 1983
     nation: UK
     label: CBS
     producer:
       - Eddie Kramer
-    
     title: Easy Livin'
     index: 934
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2020011304"
     week: 113
-    name: Get It On
     artist: Kingdom Come
-    
     year: 1988
     nation: US
     label: Polydor
-    
     youtube: k1OdgfEhzgM
     title: Get It On
     index: 935
@@ -68,13 +56,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011305"
     week: 113
-    name: Hold Her Tight
     artist: The Osmonds
-    
     year: 1972
     nation: US
     label: MGM
-    
     youtube: 6z9D2PJmz_k
     title: Hold Her Tight
     index: 936
@@ -82,28 +67,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011306"
     week: 113
-    name: Queen Of My Dreams
     artist: The Edgar Winter Group
-    
     year: 1974
     nation: US
     label: Epic
     producer:
       - Rick Derringer
-    
     title: Queen Of My Dreams
     index: 937
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2020011307"
     week: 113
-    name: Rock and Roll Is Dead
     artist: Lenny Kravitz
-    
     year: 1995
     nation: US
     label: Virgin
-    
     youtube: yw8_5OYKQNA
     title: Rock and Roll Is Dead
     index: 938
@@ -111,9 +90,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011308"
     week: 113
-    name: Tautud
     artist: Spirit
-    
     year: 1968
     nation: US
     label: Epic
@@ -126,15 +103,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011309"
     week: 113
-    name: 青い地球はてのひら
     artist: かの香織
-    
     year: 1994
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    
     corner: ちょっぴりタイムマシン
-    
     title: 青い地球はてのひら
     index: 940
     indexInWeek: 9

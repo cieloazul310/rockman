@@ -9,22 +9,17 @@ date: 2018-11-18
 playlist:
   - id: "2018004601"
     week: 46
-    name: テレビ
     artist: スピッツ
-    
     year: 1991
     nation: JPN
     label: ポリドール
-    
     corner: 漫遊前の一曲
-    
     title: テレビ
     index: 377
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018004602"
     week: 46
-    name: Debaser
     artist: Pixies
     year: 1989
     nation: US
@@ -38,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004603"
     week: 46
-    name: Bone Machine
     artist: Pixies
     year: 1988
     nation: US
@@ -52,7 +46,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004604"
     week: 46
-    name: Here Comes Your Man
     artist: Pixies
     year: 1989
     nation: US
@@ -66,9 +59,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004605"
     week: 46
-    name: Something Against You
     artist: Pixies
-    
     year: 1988
     nation: US
     label: 4AD
@@ -81,7 +72,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004606"
     week: 46
-    name: Velouria
     artist: Pixies
     year: 1990
     nation: US
@@ -95,7 +85,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004607"
     week: 46
-    name: Bel Esprit
     artist: Pixies
     year: 2016
     nation: US
@@ -109,7 +98,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004608"
     week: 46
-    name: Broken Face
     artist: Pixies
     year: 1988
     nation: US
@@ -123,7 +111,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004609"
     week: 46
-    name: Allison
     artist: Pixies
     year: 1990
     nation: US
@@ -137,7 +124,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004610"
     week: 46
-    name: できない
     artist: ふくろうず
     year: 2010
     nation: JPN

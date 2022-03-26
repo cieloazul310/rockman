@@ -9,9 +9,7 @@ date: 2018-11-11
 playlist:
   - id: "2018004501"
     week: 45
-    name: ハチミツ
     artist: スピッツ
-    
     year: 1995
     nation: JPN
     label: ポリドール
@@ -25,9 +23,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004502"
     week: 45
-    name: Surrender
     artist: Cheap Trick
-    
     year: 1978
     nation: US
     label: Epic
@@ -40,9 +36,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004503"
     week: 45
-    name: Go All the Way
     artist: Raspberries
-    
     year: 1972
     nation: US
     label: Capitol Records
@@ -55,13 +49,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004504"
     week: 45
-    name: Down About It
     artist: The Lemonheads
-    
     year: 1993
     nation: US
     label: Atlantic
-    
     youtube: pCEDp1jxZAk
     title: Down About It
     index: 371
@@ -69,23 +60,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004505"
     week: 45
-    name: Mr. Tomorrow
     artist: Gigolo Aunts
-    
     year: 2002
     nation: US
     label: Bittersweet
-    
-    
     title: Mr. Tomorrow
     index: 372
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018004506"
     week: 45
-    name: Writing to Reach You
     artist: Travis
-    
     year: 1999
     nation: UK
     label: Independiente
@@ -98,23 +83,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004507"
     week: 45
-    name: If This Ain't Really Love
     artist: The Szuters
-    
     year: 1998
     nation: US
     label: Victor
-    
-    
     title: If This Ain't Really Love
     index: 374
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2018004508"
     week: 45
-    name: In the Street
     artist: Big Star
-    
     year: 1972
     nation: US
     label: Ardent
@@ -127,16 +106,13 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004509"
     week: 45
-    name: 地球はメリー・ゴーランド
     artist: ガロ
-    
     year: 1971
     nation: JPN
     label: マッシュルーム
     producer:
       - ミッキー・カーチス
     corner: ちょっぴりタイムマシン
-    
     title: 地球はメリー・ゴーランド
     index: 376
     indexInWeek: 9

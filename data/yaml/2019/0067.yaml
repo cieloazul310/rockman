@@ -9,25 +9,20 @@ date: 2019-04-14
 playlist:
   - id: "2019006701"
     week: 67
-    name: 花の写真
     artist: スピッツ
-    
     year: 2010
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: 花の写真
     index: 554
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019006702"
     week: 67
-    name: Blowin' Free
     artist: Wishbone Ash
-    
     year: 1972
     nation: UK
     label: Decca/MCA
@@ -40,9 +35,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006703"
     week: 67
-    name: Throw Down the Sword
     artist: Wishbone Ash
-    
     year: 1972
     nation: UK
     label: Decca/MCA
@@ -55,9 +48,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006704"
     week: 67
-    name: Blind Eye
     artist: Wishbone Ash
-    
     year: 1971
     nation: UK
     label: Decca/MCA
@@ -70,9 +61,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006705"
     week: 67
-    name: Silver Shoes
     artist: Wishbone Ash
-    
     year: 1974
     nation: UK
     label: MCA
@@ -85,13 +74,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006706"
     week: 67
-    name: Reason to Believe
     artist: Wishbone Ash
-    
     year: 2011
     nation: UK
     label: ZYX
-    
     youtube: 7tr5sddw-bs
     title: Reason to Believe
     index: 559
@@ -99,15 +85,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006707"
     week: 67
-    name: 機械じかけのラム
     artist: 四人囃子
     kana: よにんばやし
     year: 1978
     nation: JPN
     label: SEE-SAW
-    
     corner: ちょっぴりタイムマシン
-    
     title: 機械じかけのラム
     index: 560
     indexInWeek: 7

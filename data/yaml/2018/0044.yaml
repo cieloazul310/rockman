@@ -9,28 +9,21 @@ date: 2018-11-04
 playlist:
   - id: "2018004401"
     week: 44
-    name: ハイファイ・ローファイ
     artist: スピッツ
-    
     year: 1999
     nation: JPN
     label: ポリドール
-    
     corner: 漫遊前の一曲
-    
     title: ハイファイ・ローファイ
     index: 360
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018004402"
     week: 44
-    name: While You See a Chance
     artist: Steve Winwood
-    
     year: 1980
     nation: UK
     label: Island
-    
     youtube: 0j6g_uUhH2c
     title: While You See a Chance
     index: 361
@@ -38,9 +31,7 @@ playlist:
     selector: クジヒロコ
   - id: "2018004403"
     week: 44
-    name: Pump It Up
     artist: Elvis Costello
-    
     year: 1978
     nation: UK
     label: Radar
@@ -53,9 +44,7 @@ playlist:
     selector: クジヒロコ
   - id: "2018004404"
     week: 44
-    name: Revue
     artist: Squeeze
-    
     year: 1978
     nation: UK
     label: A&M
@@ -68,13 +57,10 @@ playlist:
     selector: クジヒロコ
   - id: "2018004405"
     week: 44
-    name: In Between Days
     artist: The Cure
-    
     year: 1985
     nation: UK
     label: Fiction
-    
     youtube: scif2vfg1ug
     title: In Between Days
     index: 364
@@ -82,13 +68,10 @@ playlist:
     selector: クジヒロコ
   - id: "2018004406"
     week: 44
-    name: A Beautiful Sea
     artist: Sing Street
-    
     year: 2016
     nation: IRE
     label: Decca Records
-    
     youtube: CiFQxM3isl8
     title: A Beautiful Sea
     index: 365
@@ -96,13 +79,10 @@ playlist:
     selector: クジヒロコ
   - id: "2018004407"
     week: 44
-    name: Little Jの嘆き
     artist: GREAT3
-    
     year: 1996
     nation: JPN
     label: 東芝EMI
-    
     youtube: wbfFgR3tc4I
     title: Little Jの嘆き
     index: 366
@@ -110,15 +90,11 @@ playlist:
     selector: クジヒロコ
   - id: "2018004408"
     week: 44
-    name: EVERY PLANETS SON
     artist: ヴィーナス・ペーター
-    
     year: 1992
     nation: JPN
     label: WONDER RELEASE RECORDS
-    
     corner: ちょっぴりタイムマシン
-    
     title: EVERY PLANETS SON
     index: 367
     indexInWeek: 8

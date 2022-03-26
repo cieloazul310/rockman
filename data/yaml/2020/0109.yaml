@@ -9,9 +9,7 @@ date: 2020-02-02
 playlist:
   - id: "2020010901"
     week: 109
-    name: さわって・変わって
     artist: スピッツ
-    
     year: 2001
     nation: JPN
     label: ポリドール
@@ -25,13 +23,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2020010902"
     week: 109
-    name: キングスネークブルース
     artist: サンハウス
-    
     year: 1975
     nation: JPN
     label: ブラック
-    
     youtube: fxW9UBoHOb4
     title: キングスネークブルース
     index: 899
@@ -39,100 +34,74 @@ playlist:
     selector: 草野マサムネ
   - id: "2020010903"
     week: 109
-    name: 裏切りの街角
     artist: 甲斐バンド
     kana: かいばんど
     year: 1975
     nation: JPN
     label: 東芝EMI
-    
-    
     title: 裏切りの街角
     index: 900
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2020010904"
     week: 109
-    name: You May Dream
     artist: シーナ&ザ・ロケッツ
-    
     year: 1979
     nation: JPN
     label: アルファレコード
     producer:
       - 細野晴臣
-    
     title: You May Dream
     index: 901
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2020010905"
     week: 109
-    name: 恋をしようよ
     artist: ザ・ルースターズ
-    
     year: 1980
     nation: JPN
     label: 日本コロムビア
-    
-    
     title: 恋をしようよ
     index: 902
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2020010906"
     week: 109
-    name: セル ナンバー 8(第8病棟)
     artist: バトル・ロッカーズ
-    
     year: 1982
     nation: JPN
     label: SEE-SAW
-    
-    
     title: セル ナンバー 8(第8病棟)
     index: 903
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2020010907"
     week: 109
-    name: 激しい雨が
     artist: THE MODS
-    
     year: 1983
     nation: JPN
     label: EPIC SONY
-    
-    
     title: 激しい雨が
     index: 904
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2020010908"
     week: 109
-    name: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     artist: アンジー
-    
     year: 1988
     nation: JPN
     label: メルダック
-    
-    
     title: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     index: 905
     indexInWeek: 8
     selector: 草野マサムネ
   - id: "2020010909"
     week: 109
-    name: 野良犬
     artist: ARB
-    
     year: 1978
     nation: JPN
     label: ビクターインビテーション
-    
     corner: ちょっぴりタイムマシン
-    
     title: 野良犬
     index: 906
     indexInWeek: 9

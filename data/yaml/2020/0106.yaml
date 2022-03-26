@@ -9,29 +9,23 @@ date: 2020-01-12
 playlist:
   - id: "2020010601"
     week: 106
-    name: メモリーズ・カスタム
     artist: スピッツ
-    
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    
     title: メモリーズ・カスタム
     index: 875
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020010602"
     week: 106
-    name: Catholic Girls
     artist: Frank Zappa
-    
     year: 1979
     nation: US
     label: Zappa
-    
     youtube: KVVhsOIhnMg
     title: Catholic Girls
     index: 876
@@ -39,13 +33,10 @@ playlist:
     selector: 崎山龍男
   - id: "2020010603"
     week: 106
-    name: Seven Days
     artist: Sting
-    
     year: 1992
     nation: UK
     label: A&M
-    
     youtube: pG7_gceIFL4
     title: Seven Days
     index: 877
@@ -53,13 +44,10 @@ playlist:
     selector: 崎山龍男
   - id: "2020010604"
     week: 106
-    name: There's No Other Me
     artist: Jeff Beck
-    
     year: 2010
     nation: UK
     label: Atco
-    
     youtube: h153PvH4cXg
     title: There's No Other Me
     index: 878
@@ -67,13 +55,10 @@ playlist:
     selector: 崎山龍男
   - id: "2020010605"
     week: 106
-    name: Blackmail the Universe
     artist: Megadeth
-    
     year: 2004
     nation: US
     label: Sanctuary
-    
     youtube: uiEkq1fBK_s
     title: Blackmail the Universe
     index: 879
@@ -81,7 +66,6 @@ playlist:
     selector: 崎山龍男
   - id: "2020010606"
     week: 106
-    name: ダンスのように抱き寄せたい
     artist: 松任谷由実
     kana: まつとうやゆみ
     year: 2010
@@ -96,15 +80,11 @@ playlist:
     selector: 崎山龍男
   - id: "2020010607"
     week: 106
-    name: ふられ気分でRock'n' Roll
     artist: TOM★CAT
-    
     year: 1984
     nation: JPN
     label: AARD-VARK
-    
     corner: ちょっぴりタイムマシン
-    
     title: ふられ気分でRock'n' Roll
     index: 881
     indexInWeek: 7

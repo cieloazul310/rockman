@@ -9,25 +9,20 @@ date: 2019-01-06
 playlist:
   - id: "2019005301"
     week: 53
-    name: コメット
     artist: スピッツ
-    
     year: 2016
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: コメット
     index: 436
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019005302"
     week: 53
-    name: Sad Am I
     artist: Capability Brown
-    
     year: 1973
     nation: UK
     label: Charisma
@@ -40,9 +35,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005303"
     week: 53
-    name: Real Love Guaranteed
     artist: The Gods
-    
     year: 1969
     nation: UK
     label: Columbia
@@ -55,13 +48,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005304"
     week: 53
-    name: Around The World In Eighty Days
     artist: Stray
-    
     year: 1970
     nation: UK
     label: Transatlantic Records
-    
     youtube: FZjJYw-RI98
     title: Around The World In Eighty Days
     index: 439
@@ -69,13 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005305"
     week: 53
-    name: Magician
     artist: Amazing Friendly Apple
-    
     year: 1969
     nation: UK
     label: Decca Records
-    
     youtube: BLsZZQzN-m8
     title: Magician
     index: 440
@@ -83,9 +70,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005306"
     week: 53
-    name: Flying in and Out of Stardom
     artist: Baker Gurvitz Army
-    
     year: 1976
     nation: UK
     label: Vertigo
@@ -98,13 +83,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005307"
     week: 53
-    name: It's What You've Got
     artist: Pete Dello And Friends
-    
     year: 1971
     nation: UK
     label: See For Miles Records
-    
     youtube: d-Ld5Cd1N7Q
     title: It's What You've Got
     index: 442
@@ -112,9 +94,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005308"
     week: 53
-    name: My White Bicycle
     artist: Tomorrow
-    
     year: 1967
     nation: UK
     label: Parlophone
@@ -127,13 +107,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005309"
     week: 53
-    name: Automatic Pilot
     artist: ウォッカ・コリンズ
-    
     year: 1972
     nation: JPN
     label: 東芝EMI
-    
     corner: ちょっぴりタイムマシン
     youtube: LDmEgb2PjeA
     title: Automatic Pilot

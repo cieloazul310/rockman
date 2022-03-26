@@ -9,42 +9,31 @@ date: 2019-06-30
 playlist:
   - id: "2019007801"
     week: 78
-    name: トンビ飛べなかった
     artist: スピッツ
-    
     year: 1991
     nation: JPN
     label: ポリドール
-    
     corner: 漫遊前の一曲
-    
     title: トンビ飛べなかった
     index: 641
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019007802"
     week: 78
-    name: 東京少年
     artist: GOING STEADY
-    
     year: 2001
     nation: JPN
     label: Libra
-    
-    
     title: 東京少年
     index: 642
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2019007803"
     week: 78
-    name: The Golden Age of Rock 'n' Roll
     artist: Mott the Hoople
-    
     year: 1974
     nation: UK
     label: CBS
-    
     youtube: yTAKizVFonE
     title: The Golden Age of Rock 'n' Roll
     index: 643
@@ -52,9 +41,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007804"
     week: 78
-    name: Down on the Street
     artist: The Stooges
-    
     year: 1970
     nation: US
     label: Elektra
@@ -67,13 +54,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007805"
     week: 78
-    name: ロックンロールは鳴り止まないっ
     artist: 神聖かまってちゃん
     kana: しんせいかまってちゃん
     year: 2010
     nation: JPN
     label: PERFECT MUSIC
-    
     youtube: NXT9rz8BErk
     title: ロックンロールは鳴り止まないっ
     index: 645
@@ -81,13 +66,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007806"
     week: 78
-    name: Big Green Country
     artist: Neil Young
-    
     year: 1995
     nation: US
     label: Reprise Records
-    
     youtube: MUpuXlkOo7o
     title: Big Green Country
     index: 646
@@ -95,13 +77,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007807"
     week: 78
-    name: Cast Away Your Chains
     artist: Electric Sun
-    
     year: 1981
     nation: GER
     label: BRAIN-Metronome
-    
     youtube: K0y09nzj8Cc
     title: Cast Away Your Chains
     index: 647
@@ -109,15 +88,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007808"
     week: 78
-    name: WINTER SUN（明日になれば僕等はきっと生まれ変わる）
     artist: ヒートウェイヴ
-    
     year: 1994
     nation: JPN
     label: Epic
-    
     corner: ちょっぴりタイムマシン
-    
     title: WINTER SUN（明日になれば僕等はきっと生まれ変わる）
     index: 648
     indexInWeek: 8

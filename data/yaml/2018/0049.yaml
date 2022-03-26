@@ -9,7 +9,6 @@ date: 2018-12-09
 playlist:
   - id: "2018004901"
     week: 49
-    name: エスカルゴ
     artist: スピッツ
     year: 2002
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004902"
     week: 49
-    name: Angel from the Coast
     artist: Thin Lizzy
     year: 1976
     nation: IRE
@@ -35,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004903"
     week: 49
-    name: Look What the Wind Blew In
     artist: Thin Lizzy
     year: 1971
     nation: IRE
@@ -49,7 +46,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004904"
     week: 49
-    name: The Rocker
     artist: Thin Lizzy
     year: 1973
     nation: IRE
@@ -63,7 +59,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004905"
     week: 49
-    name: King's Vengeance
     artist: Thin Lizzy
     year: 1975
     nation: IRE
@@ -77,7 +72,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004906"
     week: 49
-    name: S & M
     artist: Thin Lizzy
     year: 1979
     nation: IRE
@@ -91,7 +85,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004907"
     week: 49
-    name: Cowboy Song (Live 1978)
     artist: Thin Lizzy
     year: 1978
     nation: IRE
@@ -105,7 +98,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004908"
     week: 49
-    name: 捨てちまえ
     artist: THEATRE BROOK
     year: 1997
     nation: JPN

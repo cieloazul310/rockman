@@ -9,52 +9,41 @@ date: 2019-08-04
 playlist:
   - id: "2019008301"
     week: 83
-    name: 野生のポルカ
     artist: スピッツ
-    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: 野生のポルカ
     index: 681
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008302"
     week: 83
-    name: ロマンチスト
     artist: The STALIN
-    
     year: 1982
     nation: JPN
     label: クライマックスレコード
-    
-    
     title: ロマンチスト
     index: 682
     indexInWeek: 2
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008303"
     week: 83
-    name: EARTHSHAKER
     artist: EARTHSHAKER
-    
     year: 1983
     nation: JPN
     label: キングレコード
     producer:
       - 伊藤政則
-    
     title: EARTHSHAKER
     index: 683
     indexInWeek: 3
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008304"
     week: 83
-    name: 香り
     artist: 外道
     kana: げどう
     year: 1974
@@ -69,27 +58,21 @@ playlist:
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008305"
     week: 83
-    name: どうしようかな
     artist: 村八分
     kana: むらはちぶ
     year: 1971
     nation: JPN
     label: Gator Wobble Records
-    
-    
     title: どうしようかな
     index: 685
     indexInWeek: 5
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008306"
     week: 83
-    name: DIE OR JUMP
     artist: フラワーカンパニーズ
-    
     year: 2019
     nation: JPN
     label: チキン・スキン・レコード
-    
     youtube: xhv5XRYGMmM
     title: DIE OR JUMP
     index: 686
@@ -97,45 +80,35 @@ playlist:
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008307"
     week: 83
-    name: メシ喰うな!
     artist: INU
-    
     year: 1981
     nation: JPN
     label: ジャパンレコーズ
     producer:
       - 鳥井ガク
-    
     title: メシ喰うな!
     index: 687
     indexInWeek: 7
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008308"
     week: 83
-    name: 米ニスト
     artist: あぶらだこ
-    
     year: 1983
     nation: JPN
     label: ジャパンレコーズ
-    
-    
     title: 米ニスト
     index: 688
     indexInWeek: 8
     selector: 鈴木圭介(フラワーカンパニーズ)
   - id: "2019008309"
     week: 83
-    name: 新宿の片隅から
     artist: SION
-    
     year: 1986
     nation: JPN
     label: CONTINENTAL
     producer:
       - 麻田浩
     corner: ちょっぴりタイムマシン
-    
     title: 新宿の片隅から
     index: 689
     indexInWeek: 9

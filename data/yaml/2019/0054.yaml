@@ -9,25 +9,20 @@ date: 2019-01-13
 playlist:
   - id: "2019005401"
     week: 54
-    name: タイムトラベル
     artist: スピッツ
-    
     year: 2012
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: タイムトラベル
     index: 445
     indexInWeek: 1
     selector: 三輪テツヤ
   - id: "2019005402"
     week: 54
-    name: Jump
     artist: Aztec Camera
-    
     year: 1985
     nation: UK
     label: Sire
@@ -40,9 +35,7 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005403"
     week: 54
-    name: Iron Man
     artist: The Cardigans
-    
     year: 1996
     nation: SWE
     label: Stockholm Mercury
@@ -55,13 +48,10 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005404"
     week: 54
-    name: Video Killed The Radio Star
     artist: The Presidents Of The United States Of America
-    
     year: 1998
     nation: US
     label: Warner Bros.
-    
     youtube: wAiGd9nTGmM
     title: Video Killed The Radio Star
     index: 448
@@ -69,9 +59,7 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005405"
     week: 54
-    name: Live and Let Die
     artist: Guns N' Roses
-    
     year: 1991
     nation: US
     label: Geffen
@@ -84,13 +72,10 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005406"
     week: 54
-    name: Superstar
     artist: Sonic Youth
-    
     year: 1994
     nation: US
     label: A&M
-    
     youtube: Y21VecIIdBI
     title: Superstar
     index: 450
@@ -98,9 +83,7 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005407"
     week: 54
-    name: Mother
     artist: Christina Aguilera
-    
     year: 2007
     nation: US
     label: Warner Bros.
@@ -113,15 +96,12 @@ playlist:
     selector: 三輪テツヤ
   - id: "2019005408"
     week: 54
-    name: 夏の魔物
     artist: 小島麻由美
     kana: こじままゆみ
     year: 2002
     nation: JPN
     label: Dreamusic
-    
     corner: ちょっぴりタイムマシン
-    
     title: 夏の魔物
     index: 452
     indexInWeek: 8

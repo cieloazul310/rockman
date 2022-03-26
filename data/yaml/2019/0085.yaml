@@ -9,43 +9,33 @@ date: 2019-08-18
 playlist:
   - id: "2019008501"
     week: 85
-    name: エンドロールには早すぎる
     artist: スピッツ
-    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: エンドロールには早すぎる
     index: 698
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008502"
     week: 85
-    name: Aikea-Guinea
     artist: Cocteau Twins
-    
     year: 1985
     nation: UK
     label: 4AD
-    
-    
     title: Aikea-Guinea
     index: 699
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2019008503"
     week: 85
-    name: Lorelei
     artist: Cocteau Twins
-    
     year: 1984
     nation: UK
     label: 4AD
-    
     youtube: ydaOrM0ib2Y
     title: Lorelei
     index: 700
@@ -53,27 +43,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008504"
     week: 85
-    name: The Spangle Maker
     artist: Cocteau Twins
-    
     year: 1984
     nation: UK
     label: 4AD
-    
-    
     title: The Spangle Maker
     index: 701
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2019008505"
     week: 85
-    name: Pearly-Dewdrops' Drops
     artist: Cocteau Twins
-    
     year: 1984
     nation: UK
     label: 4AD
-    
     youtube: s-5Xgw6d3h0
     title: Pearly-Dewdrops' Drops
     index: 702
@@ -81,13 +64,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008506"
     week: 85
-    name: Cherry-Coloured Funk
     artist: Cocteau Twins
-    
     year: 1990
     nation: UK
     label: 4AD
-    
     youtube: PbbUeLkZt74
     title: Cherry-Coloured Funk
     index: 703
@@ -95,13 +75,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008507"
     week: 85
-    name: Bluebeard
     artist: Cocteau Twins
-    
     year: 1993
     nation: UK
     label: Fontana Records
-    
     youtube: MD67KRum-Cs
     title: Bluebeard
     index: 704
@@ -109,13 +86,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008508"
     week: 85
-    name: Rilkean Heart
     artist: Cocteau Twins
-    
     year: 1996
     nation: UK
     label: Fontana Records
-    
     youtube: xEYvb7RlGss
     title: Rilkean Heart
     index: 705
@@ -123,13 +97,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008509"
     week: 85
-    name: PROMiSE
     artist: MiChi
-    
     year: 2008
     nation: JPN
     label: ソニー・ミュージックアソシエイテッドレコーズ
-    
     corner: ちょっぴりタイムマシン
     youtube: HjQeQfZYsfM
     title: PROMiSE

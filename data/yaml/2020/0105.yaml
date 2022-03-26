@@ -9,42 +9,31 @@ date: 2020-01-05
 playlist:
   - id: "2020010501"
     week: 105
-    name: どんどどん
     artist: スピッツ
-    
     year: 2010
     nation: JPN
     label: ユニバーサル
-    
     corner: 漫遊前の一曲
-    
     title: どんどどん
     index: 869
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020010502"
     week: 105
-    name: 夢の中でしか (Live)
     artist: The Groovers
-    
     year: 2007
     nation: JPN
     label: ポリドール
-    
-    
     title: 夢の中でしか (Live)
     index: 870
     indexInWeek: 2
     selector: 三輪テツヤ
   - id: "2020010503"
     week: 105
-    name: Highway Star (Live 1972)
     artist: Deep Purple
-    
     year: 1972
     nation: UK
     label: Purple
-    
     youtube: DyCyhaa5mck
     title: Highway Star (Live 1972)
     index: 871
@@ -52,9 +41,7 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010504"
     week: 105
-    name: Only You Can Rock Me (Live 1978)
     artist: UFO
-    
     year: 1979
     nation: UK
     label: Chrysalis
@@ -67,9 +54,7 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010505"
     week: 105
-    name: Deuce (Live 1975)
     artist: Kiss
-    
     year: 1975
     nation: US
     label: Casablanca
@@ -82,16 +67,13 @@ playlist:
     selector: 三輪テツヤ
   - id: "2020010506"
     week: 105
-    name: ヴァージニティー
     artist: レベッカ
-    
     year: 1984
     nation: JPN
     label: CBS・ソニー
     producer:
       - 後藤次利
     corner: ちょっぴりタイムマシン
-    
     title: ヴァージニティー
     index: 874
     indexInWeek: 6

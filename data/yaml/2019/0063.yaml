@@ -70,7 +70,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006306"
     week: 63
-    name: Lady Starlight
     artist: Sweet
     year: 1974
     nation: UK
@@ -82,13 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006307"
     week: 63
-    name: Love Is Like Oxygen
     artist: Sweet
-    
     year: 1977
     nation: UK
     label: Polydor
-    
     youtube: tXJ4TZSXtzc
     title: Love Is Like Oxygen
     index: 526
@@ -96,15 +92,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006308"
     week: 63
-    name: 恋のマジックポーション
     artist: すかんち
-    
     year: 1991
     nation: JPN
     label: Sony Records
-    
     corner: ちょっぴりタイムマシン
-    
     title: 恋のマジックポーション
     index: 527
     indexInWeek: 8

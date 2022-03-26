@@ -9,9 +9,7 @@ date: 2018-12-02
 playlist:
   - id: "2018004801"
     week: 48
-    name: ヘビーメロウ
     artist: スピッツ
-    
     year: 2017
     nation: JPN
     label: ユニバーサル
@@ -25,9 +23,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004802"
     week: 48
-    name: Back in Black
     artist: AC/DC
-    
     year: 1980
     nation: AUS
     label: Albert
@@ -40,9 +36,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004803"
     week: 48
-    name: Are You Gonna Be My Girl
     artist: Jet
-    
     year: 2003
     nation: AUS
     label: Elektra
@@ -55,9 +49,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004804"
     week: 48
-    name: What You Need
     artist: INXS
-    
     year: 1985
     nation: AUS
     label: Atlantic
@@ -70,9 +62,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004805"
     week: 48
-    name: Hey, St. Peter
     artist: Flash & the Pan
-    
     year: 1978
     nation: AUS
     label: Albert
@@ -85,9 +75,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004806"
     week: 48
-    name: Lonesome Loser
     artist: Little River Band
-    
     year: 1979
     nation: AUS
     label: Capitol Records
@@ -100,13 +88,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004807"
     week: 48
-    name: The Less I Know The Better
     artist: Tame Impala
-    
     year: 2015
     nation: AUS
     label: Modular
-    
     youtube: sBzrzS1Ag_g
     title: The Less I Know The Better
     index: 400
@@ -114,15 +99,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004808"
     week: 48
-    name: Butch & The Sundance Kid
     artist: Psysalia Psysalis Psyche
-    
     year: 2008
     nation: JPN
     label: Acid Rain
-    
     corner: ちょっぴりタイムマシン
-    
     title: Butch & The Sundance Kid
     index: 401
     indexInWeek: 8

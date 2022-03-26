@@ -9,29 +9,23 @@ date: 2019-05-05
 playlist:
   - id: "2019007001"
     week: 70
-    name: 野生のポルカ
     artist: スピッツ
-    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: 野生のポルカ
     index: 575
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019007002"
     week: 70
-    name: It's Time to Party
     artist: Andrew W.K.
-    
     year: 2001
     nation: US
     label: Island
-    
     youtube: xemLz_fR1Ac
     title: It's Time to Party
     index: 576
@@ -39,9 +33,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019007003"
     week: 70
-    name: Cum On Feel the Noize
     artist: Quiet Riot
-    
     year: 1983
     nation: US
     label: Pasha
@@ -54,9 +46,7 @@ playlist:
     selector: リクエスト
   - id: "2019007004"
     week: 70
-    name: Semi-Charmed Life
     artist: Third Eye Blind
-    
     year: 1997
     nation: US
     label: Elektra
@@ -69,9 +59,7 @@ playlist:
     selector: リクエスト
   - id: "2019007005"
     week: 70
-    name: In Love with a Camera
     artist: The Struts
-    
     year: 2018
     nation: UK
     label: Interscope Records
@@ -84,13 +72,10 @@ playlist:
     selector: リクエスト
   - id: "2019007006"
     week: 70
-    name: Parchman Farm
     artist: Cactus
-    
     year: 1970
     nation: US
     label: Atco
-    
     youtube: mC_cvsR8wPg
     title: Parchman Farm
     index: 580
@@ -98,9 +83,7 @@ playlist:
     selector: リクエスト
   - id: "2019007007"
     week: 70
-    name: Still Waiting
     artist: SUM41
-    
     year: 2002
     nation: CAN
     label: Aquarius
@@ -113,9 +96,7 @@ playlist:
     selector: リクエスト
   - id: "2019007008"
     week: 70
-    name: The Art of Losing
     artist: American Hi-Fi
-    
     year: 2003
     nation: US
     label: Island
@@ -128,16 +109,13 @@ playlist:
     selector: リクエスト
   - id: "2019007009"
     week: 70
-    name: 太陽のラ
     artist: PoPoyans
-    
     year: 2008
     nation: JPN
     label: Good Records
     producer:
       - 鈴木惣一朗
     corner: ちょっぴりタイムマシン
-    
     title: 太陽のラ
     index: 583
     indexInWeek: 9

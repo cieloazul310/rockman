@@ -9,9 +9,7 @@ date: 2019-09-08
 playlist:
   - id: "2019008801"
     week: 88
-    name: ありがとさん
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
@@ -25,9 +23,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008802"
     week: 88
-    name: I Surrender
     artist: Rainbow
-    
     year: 1981
     nation: UK
     label: Polydor
@@ -40,9 +36,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008803"
     week: 88
-    name: Fool for Your Loving
     artist: Whitesnake
-    
     year: 1980
     nation: UK
     label: Mirage
@@ -55,13 +49,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008804"
     week: 88
-    name: Dancing Madly Backwards (on a Sea of Air)
     artist: Captain Beyond
-    
     year: 1972
     nation: US
     label: Capricorn
-    
     youtube: FQVHqXh2Ga0
     title: Dancing Madly Backwards (on a Sea of Air)
     index: 726
@@ -69,13 +60,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008805"
     week: 88
-    name: Future Shock
     artist: Gillan
-    
     year: 1981
     nation: UK
     label: Virgin
-    
     youtube: C2mvWIByJ2A
     title: Future Shock
     index: 727
@@ -83,13 +71,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008806"
     week: 88
-    name: Destiny
     artist: Glenn Hughes
-    
     year: 1977
     nation: UK
     label: RPM
-    
     youtube: Zkv55tp07UQ
     title: Destiny
     index: 728
@@ -97,13 +82,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008807"
     week: 88
-    name: The Grind
     artist: Tommy Bolin
-    
     year: 1975
     nation: US
     label: Nemperor
-    
     youtube: TOGtESM7YLo
     title: The Grind
     index: 729
@@ -111,15 +93,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008808"
     week: 88
-    name: 深紫伝説
     artist: 王様
     kana: おうさま
     year: 1995
     nation: JPN
     label: ファンハウス
-    
     corner: ちょっぴりタイムマシン
-    
     title: 深紫伝説
     index: 730
     indexInWeek: 8

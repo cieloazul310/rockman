@@ -9,9 +9,7 @@ date: 2019-03-31
 playlist:
   - id: "2019006501"
     week: 65
-    name: 雪風
     artist: スピッツ
-    
     year: 2015
     nation: JPN
     label: ユニバーサル
@@ -25,13 +23,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006502"
     week: 65
-    name: 新宝島
     artist: サカナクション
-    
     year: 2015
     nation: JPN
     label: NF Records
-    
     youtube: LIlZCmETvsY
     title: 新宝島
     index: 538
@@ -39,23 +34,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006503"
     week: 65
-    name: HONEY DANCE II
     artist: KENZI
-    
     year: 1986
     nation: JPN
     label: Trip Roll Records
-    
-    
     title: HONEY DANCE II
     index: 539
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019006504"
     week: 65
-    name: グロリアス
     artist: GLAY
-    
     year: 1996
     nation: JPN
     label: プラチナム・レコード
@@ -68,27 +57,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006505"
     week: 65
-    name: 2月/February
     artist: bloodthirsty butchers
-    
     year: 1996
     nation: JPN
     label: ベルウッド
-    
-    
     title: 2月/February
     index: 541
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2019006506"
     week: 65
-    name: バナナフィッシュの浜辺と黒い虹 with Aimer
     artist: Galileo Galilei
-    
     year: 2014
     nation: JPN
     label: SME
-    
     youtube: iubApGbf04I
     title: バナナフィッシュの浜辺と黒い虹 with Aimer
     index: 542
@@ -96,13 +78,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006507"
     week: 65
-    name: アニー
     artist: ズーカラデル
-    
     year: 2017
     nation: JPN
     label: ズーカラデル
-    
     youtube: zSPEdE651y0
     title: アニー
     index: 543
@@ -110,13 +89,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006508"
     week: 65
-    name: メロディ
     artist: sleepy.ab
-    
     year: 2006
     nation: JPN
     label: WESS RECORDS
-    
     corner: ちょっぴりタイムマシン
     youtube: _zrGfQjA830
     title: メロディ

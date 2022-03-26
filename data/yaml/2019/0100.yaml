@@ -9,25 +9,20 @@ date: 2019-12-01
 playlist:
   - id: "2019010001"
     week: 100
-    name: 虹を越えて
     artist: スピッツ
-    
     year: 1996
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    
     title: 虹を越えて
     index: 827
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019010002"
     week: 100
-    name: Sugar Baby Love
     artist: The Rubettes
-    
     year: 1974
     nation: UK
     label: Polydor
@@ -40,24 +35,19 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010003"
     week: 100
-    name: I'm Gonna Knock On Your Door
     artist: The Pete Best Four
-    
     year: 1964
     nation: UK
     label: Decca Records
     producer:
       - Mike Smith
-    
     title: I'm Gonna Knock On Your Door
     index: 829
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019010004"
     week: 100
-    name: Nothing But a Heartache
     artist: The Flirtations
-    
     year: 1968
     nation: US
     label: Deram
@@ -70,9 +60,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010005"
     week: 100
-    name: What's Good About Goodbye My Love
     artist: The Flirtations
-    
     year: 1969
     nation: US
     label: Deram
@@ -85,22 +73,18 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010006"
     week: 100
-    name: I'm Just Dreaming
     artist: The Rubettes
-    
     year: 1975
     nation: UK
     label: State
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    
     title: I'm Just Dreaming
     index: 832
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019010007"
     week: 100
-    name: CANDY
     artist: 沢田研二
     kana: さわだけんじ
     year: 1974
@@ -108,16 +92,13 @@ playlist:
     label: ポリドール
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    
     title: CANDY
     index: 833
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2019010008"
     week: 100
-    name: Sugar Candy Kisses
     artist: Mac & Katie Kissoon
-    
     year: 1975
     nation: UK
     label: State
@@ -130,15 +111,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019010009"
     week: 100
-    name: すいみん不足
     artist: CHICKS
-    
     year: 1990
     nation: JPN
     label: 日本コロムビア
-    
     corner: ちょっぴりタイムマシン
-    
     title: すいみん不足
     index: 835
     indexInWeek: 9

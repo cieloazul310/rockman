@@ -9,25 +9,20 @@ date: 2019-11-17
 playlist:
   - id: "2019009801"
     week: 98
-    name: 花と虫
     artist: スピッツ
-    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    
     title: 花と虫
     index: 810
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009802"
     week: 98
-    name: The World Has Turned and Left Me Here
     artist: Weezer
-    
     year: 1994
     nation: US
     label: DGC
@@ -40,9 +35,7 @@ playlist:
     selector: リクエスト
   - id: "2019009803"
     week: 98
-    name: "39"
     artist: Queen
-    
     year: 1975
     nation: UK
     label: EMI
@@ -55,9 +48,7 @@ playlist:
     selector: リクエスト
   - id: "2019009804"
     week: 98
-    name: Lollipop
     artist: Mika
-    
     year: 2007
     nation: UK
     label: Island
@@ -70,9 +61,7 @@ playlist:
     selector: リクエスト
   - id: "2019009805"
     week: 98
-    name: She Loves You
     artist: The Beatles
-    
     year: 1963
     nation: UK
     label: Parlophone
@@ -85,13 +74,10 @@ playlist:
     selector: リクエスト
   - id: "2019009806"
     week: 98
-    name: Talking in Your Sleep
     artist: The Romantics
-    
     year: 1983
     nation: US
     label: Nemperor
-    
     youtube: JmGMzyajA2U
     title: Talking in Your Sleep
     index: 815
@@ -99,23 +85,17 @@ playlist:
     selector: リクエスト
   - id: "2019009807"
     week: 98
-    name: Allelujah
     artist: Fairground Attraction
-    
     year: 1988
     nation: UK
     label: RCA
-    
-    
     title: Allelujah
     index: 816
     indexInWeek: 7
     selector: リクエスト
   - id: "2019009808"
     week: 98
-    name: Alone
     artist: Heart
-    
     year: 1987
     nation: US
     label: Capitol Records
@@ -128,15 +108,11 @@ playlist:
     selector: リクエスト
   - id: "2019009809"
     week: 98
-    name: 俺のあいつ
     artist: ローズマリー
-    
     year: 1973
     nation: JPN
     label: トリオ・レコード
-    
     corner: ちょっぴりタイムマシン
-    
     title: 俺のあいつ
     index: 818
     indexInWeek: 9
