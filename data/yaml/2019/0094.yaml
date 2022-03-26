@@ -9,30 +9,23 @@ date: 2019-10-20
 playlist:
   - id: "2019009401"
     week: 94
-    name: ラジオデイズ
     artist: スピッツ
-    kana: ""
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ラジオデイズ
     index: 775
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009402"
     week: 94
-    name: Moments of Thunder
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2018
     nation: SWE
     label: Nuclear Blast
-    producer: []
-    corner: ""
     youtube: OyE74MoWB08
     title: Moments of Thunder
     index: 776
@@ -40,14 +33,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009403"
     week: 94
-    name: Glowing City Madness
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2012
     nation: SWE
     label: Coroner Records
-    producer: []
-    corner: ""
     youtube: y1QbccF377c
     title: Glowing City Madness
     index: 777
@@ -55,14 +44,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009404"
     week: 94
-    name: All the Ladies
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2015
     nation: SWE
     label: Coroner Records
-    producer: []
-    corner: ""
     youtube: kwn-vFXf7BI
     title: All the Ladies
     index: 778
@@ -70,14 +55,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009405"
     week: 94
-    name: Josephine
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2017
     nation: SWE
     label: Nuclear Blast
-    producer: []
-    corner: ""
     youtube: NBFUboOu2VE
     title: Josephine
     index: 779
@@ -85,14 +66,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009406"
     week: 94
-    name: Paralyzed
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2018
     nation: SWE
     label: Nuclear Blast
-    producer: []
-    corner: ""
     youtube: XT0YoCDT3xw
     title: Paralyzed
     index: 780
@@ -100,14 +77,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009407"
     week: 94
-    name: Satellite
     artist: The Night Flight Orchestra
-    kana: ""
     year: 2019
     nation: SWE
     label: Nuclear Blast
-    producer: []
-    corner: ""
     youtube: BLmo5gbZI0A
     title: Satellite
     index: 781
@@ -115,15 +88,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019009408"
     week: 94
-    name: ボクハヨワクナイ
     artist: ザ・タートルズ
-    kana: ""
     year: 1999
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: ボクハヨワクナイ
     index: 782
     indexInWeek: 8

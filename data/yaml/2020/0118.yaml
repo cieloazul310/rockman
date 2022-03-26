@@ -13,7 +13,6 @@ playlist:
     indexInWeek: 1
     title: 群青
     artist: スピッツ
-    kana: ""
     year: 2007
     nation: JPN
     label: ユニバーサル
@@ -30,7 +29,6 @@ playlist:
     year: 1966
     nation: US
     label: Capitol
-    producer: []
     youtube: apBWI6xrbLY
     selector: 草野マサムネ
   - id: "2020011803"

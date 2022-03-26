@@ -9,30 +9,23 @@ date: 2019-04-28
 playlist:
   - id: "2019006901"
     week: 69
-    name: 俺の赤い星
     artist: スピッツ
-    kana: ""
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    youtube: ""
     title: 俺の赤い星
     index: 568
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019006902"
     week: 69
-    name: いい女
     artist: ウルフルズ
-    kana: ""
     year: 1992
     nation: JPN
     label: 東芝EMI
-    producer: []
-    corner: ""
     youtube: zBLqikQOeho
     title: いい女
     index: 569
@@ -40,29 +33,20 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006903"
     week: 69
-    name: 君のため
     artist: THE BLUE HEARTS
-    kana: ""
     year: 1987
     nation: JPN
     label: メルダック
-    producer: []
-    corner: ""
-    youtube: ""
     title: 君のため
     index: 570
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2019006904"
     week: 69
-    name: Funny Face
     artist: The Muffs
-    kana: ""
     year: 1995
     nation: US
     label: Reprise Records
-    producer: []
-    corner: ""
     youtube: r0IQDTxQACI
     title: Funny Face
     index: 571
@@ -70,14 +54,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006905"
     week: 69
-    name: 青すぎる空
     artist: eastern youth
-    kana: ""
     year: 1997
     nation: JPN
     label: トイズファクトリー
-    producer: []
-    corner: ""
     youtube: aEe-trWWIMY
     title: 青すぎる空
     index: 572
@@ -85,14 +65,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006906"
     week: 69
-    name: Let Me Roll It
     artist: Paul McCartney & Wings
-    kana: ""
     year: 1974
     nation: UK
     label: Apple
-    producer: []
-    corner: ""
     youtube: ly_G9QBX_f0
     title: Let Me Roll It
     index: 573
@@ -100,15 +76,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006907"
     week: 69
-    name: あなた
     artist: 小坂明子
     kana: こさかあきこ
     year: 1973
     nation: JPN
     label: Elektra
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: あなた
     index: 574
     indexInWeek: 7

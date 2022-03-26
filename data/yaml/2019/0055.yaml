@@ -9,47 +9,38 @@ date: 2019-01-20
 playlist:
   - id: "2019005501"
     week: 55
-    name: クリスピー
     artist: スピッツ
-    kana: ""
     year: 1993
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: クリスピー
     index: 453
     indexInWeek: 1
     selector: 崎山龍男
   - id: "2019005502"
     week: 55
-    name: We’re an American Band
     artist: Grand Funk Railroad
-    kana: ""
     year: 1973
     nation: US
     label: Capitol Records
     producer:
       - Todd Rundgren
-    corner: ""
     youtube: QxNXFNCTr2I
-    title: We’re an American Band
+    title: We're an American Band
     index: 454
     indexInWeek: 2
     selector: 崎山龍男
   - id: "2019005503"
     week: 55
-    name: Smokin' in the Boys Room
     artist: Mötley Crüe
-    kana: ""
     year: 1985
     nation: US
     label: Elektra
     producer:
       - Tom Werman
-    corner: ""
     youtube: 9Hp1Bxko8M8
     title: Smokin' in the Boys Room
     index: 455
@@ -57,30 +48,22 @@ playlist:
     selector: 崎山龍男
   - id: "2019005504"
     week: 55
-    name: Some Skunk Funk (Live 1978)
     artist: Brecker Brothers
-    kana: ""
     year: 1978
     nation: US
     label: Arista
     producer:
       - Randy Brecker
-    corner: ""
-    youtube: ""
     title: Some Skunk Funk (Live 1978)
     index: 456
     indexInWeek: 4
     selector: 崎山龍男
   - id: "2019005505"
     week: 55
-    name: Good Times Bad Times
     artist: Led Zeppelin
-    kana: ""
     year: 1969
     nation: UK
     label: Atlantic
-    producer: []
-    corner: ""
     youtube: lsZG7n7ries
     title: Good Times Bad Times
     index: 457
@@ -88,15 +71,12 @@ playlist:
     selector: 崎山龍男
   - id: "2019005506"
     week: 55
-    name: Armed and Ready
     artist: Michael Schenker Group
-    kana: ""
     year: 1980
     nation: GER
     label: Chrysalis
     producer:
       - Roger Glover
-    corner: ""
     youtube: zZ9VzWEQnIY
     title: Armed and Ready
     index: 458
@@ -104,15 +84,12 @@ playlist:
     selector: 崎山龍男
   - id: "2019005507"
     week: 55
-    name: Walking on the Moon
     artist: The Police
-    kana: ""
     year: 1979
     nation: UK
     label: A&M
     producer:
       - Nigel Gray
-    corner: ""
     youtube: zPwMdZOlPo8
     title: Walking on the Moon
     index: 459
@@ -120,16 +97,13 @@ playlist:
     selector: 崎山龍男
   - id: "2019005508"
     week: 55
-    name: Heaven
     artist: The Groovers
-    kana: ""
     year: 1989
     nation: JPN
     label: アルファレコード
     producer:
       - 平沢進
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Heaven
     index: 460
     indexInWeek: 8

@@ -9,31 +9,25 @@ date: 2019-01-06
 playlist:
   - id: "2019005301"
     week: 53
-    name: コメット
     artist: スピッツ
-    kana: ""
     year: 2016
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: コメット
     index: 436
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019005302"
     week: 53
-    name: Sad Am I
     artist: Capability Brown
-    kana: ""
     year: 1973
     nation: UK
     label: Charisma
     producer:
       - John Mills
-    corner: ""
     youtube: W1AmxqNrLww
     title: Sad Am I
     index: 437
@@ -41,15 +35,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005303"
     week: 53
-    name: Real Love Guaranteed
     artist: The Gods
-    kana: ""
     year: 1969
     nation: UK
     label: Columbia
     producer:
       - David Paramor
-    corner: ""
     youtube: SyQOj0EiZIo
     title: Real Love Guaranteed
     index: 438
@@ -57,14 +48,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005304"
     week: 53
-    name: Around The World In Eighty Days
     artist: Stray
-    kana: ""
     year: 1970
     nation: UK
     label: Transatlantic Records
-    producer: []
-    corner: ""
     youtube: FZjJYw-RI98
     title: Around The World In Eighty Days
     index: 439
@@ -72,14 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005305"
     week: 53
-    name: Magician
     artist: Amazing Friendly Apple
-    kana: ""
     year: 1969
     nation: UK
     label: Decca Records
-    producer: []
-    corner: ""
     youtube: BLsZZQzN-m8
     title: Magician
     index: 440
@@ -87,15 +70,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005306"
     week: 53
-    name: Flying in and Out of Stardom
     artist: Baker Gurvitz Army
-    kana: ""
     year: 1976
     nation: UK
     label: Vertigo
     producer:
       - Eddy Offord
-    corner: ""
     youtube: LSICBa7vs9Y
     title: Flying in and Out of Stardom
     index: 441
@@ -103,14 +83,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005307"
     week: 53
-    name: It's What You've Got
     artist: Pete Dello And Friends
-    kana: ""
     year: 1971
     nation: UK
     label: See For Miles Records
-    producer: []
-    corner: ""
     youtube: d-Ld5Cd1N7Q
     title: It's What You've Got
     index: 442
@@ -118,15 +94,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005308"
     week: 53
-    name: My White Bicycle
     artist: Tomorrow
-    kana: ""
     year: 1967
     nation: UK
     label: Parlophone
     producer:
       - Mark Wirtz
-    corner: ""
     youtube: nzULAq6PJ-4
     title: My White Bicycle
     index: 443
@@ -134,13 +107,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005309"
     week: 53
-    name: Automatic Pilot
     artist: ウォッカ・コリンズ
-    kana: ""
     year: 1972
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: LDmEgb2PjeA
     title: Automatic Pilot

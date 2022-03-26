@@ -9,7 +9,6 @@ date: 2018-12-16
 playlist:
   - id: "2018005001"
     week: 50
-    name: ウサギのバイク
     artist: スピッツ
     year: 1991
     nation: JPN
@@ -21,7 +20,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005002"
     week: 50
-    name: This Is the Sound
     artist: The Juliana Hatfield Three
     year: 1993
     nation: US
@@ -35,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005003"
     week: 50
-    name: 美しい棘
     artist: GLIM SPANKY
     year: 2017
     nation: JPN
@@ -47,7 +44,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005004"
     week: 50
-    name: Motorcrash
     artist: The Sugarcubes
     year: 1988
     nation: ISL
@@ -59,7 +55,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005005"
     week: 50
-    name: チューチュー ラブリー ムニムニ ムラムラ プリンプリン ボロン ヌルル　レロレロ
     artist: マキシマム ザ ホルモン
     year: 2007
     nation: JPN
@@ -70,7 +65,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005006"
     week: 50
-    name: Beautiful Dream
     artist: Suddenly, Tammy!
     year: 1995
     nation: US
@@ -82,7 +76,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005007"
     week: 50
-    name: タマシイレボリューション
     artist: Superfly
     year: 2010
     nation: JPN
@@ -94,13 +87,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005008"
     week: 50
-    name: Water Tracks
     artist: トルネード竜巻
     year: 2003
     nation: JPN
     label: colla disc
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Water Tracks
     index: 417
     indexInWeek: 8

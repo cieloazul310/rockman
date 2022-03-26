@@ -9,7 +9,6 @@ date: 2018-12-30
 playlist:
   - id: "2018005201"
     week: 52
-    name: まもるさん
     artist: スピッツ
     year: 2008
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018005202"
     week: 52
-    name: そんなヒロシに騙されて
     artist: サザンオールスターズ
     year: 1983
     nation: JPN
@@ -34,7 +32,6 @@ playlist:
     selector: リクエスト
   - id: "2018005203"
     week: 52
-    name: Buddy Holly
     artist: Weezer
     year: 1994
     nation: US
@@ -48,7 +45,6 @@ playlist:
     selector: リクエスト
   - id: "2018005204"
     week: 52
-    name: Jeremy
     artist: Pearl Jam
     year: 1992
     nation: US
@@ -62,7 +58,6 @@ playlist:
     selector: リクエスト
   - id: "2018005205"
     week: 52
-    name: TOSHI-LOWさん
     artist: キュウソネコカミ
     year: 2017
     nation: JPN
@@ -74,7 +69,6 @@ playlist:
     selector: リクエスト
   - id: "2018005206"
     week: 52
-    name: Jimmy
     artist: The Living End
     year: 2003
     nation: AUS
@@ -88,7 +82,6 @@ playlist:
     selector: リクエスト
   - id: "2018005207"
     week: 52
-    name: Paul
     artist: Big Thief
     year: 2016
     nation: US
@@ -100,7 +93,6 @@ playlist:
     selector: リクエスト
   - id: "2018005208"
     week: 52
-    name: Hey Joe
     artist: The Jimi Hendrix Experience
     year: 1966
     nation: US
@@ -114,13 +106,12 @@ playlist:
     selector: リクエスト
   - id: "2018005209"
     week: 52
-    name: Devil’s own
     artist: WINO
     year: 1998
     nation: JPN
     label: SPEEDSTAR RECORDS
     corner: ちょっぴりタイムマシン
-    title: Devil’s own
+    title: Devil's own
     index: 435
     indexInWeek: 9
     selector: 草野マサムネ

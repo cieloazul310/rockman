@@ -9,31 +9,25 @@ date: 2019-11-17
 playlist:
   - id: "2019009801"
     week: 98
-    name: 花と虫
     artist: スピッツ
-    kana: ""
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: 花と虫
     index: 810
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019009802"
     week: 98
-    name: The World Has Turned and Left Me Here
     artist: Weezer
-    kana: ""
     year: 1994
     nation: US
     label: DGC
     producer:
       - Ric Ocasek
-    corner: ""
     youtube: sRfu94lOEPo
     title: The World Has Turned and Left Me Here
     index: 811
@@ -41,15 +35,12 @@ playlist:
     selector: リクエスト
   - id: "2019009803"
     week: 98
-    name: "39"
     artist: Queen
-    kana: ""
     year: 1975
     nation: UK
     label: EMI
     producer:
       - Roy Thomas Baker
-    corner: ""
     youtube: kE8kGMfXaFU
     title: "39"
     index: 812
@@ -57,15 +48,12 @@ playlist:
     selector: リクエスト
   - id: "2019009804"
     week: 98
-    name: Lollipop
     artist: Mika
-    kana: ""
     year: 2007
     nation: UK
     label: Island
     producer:
       - Greg Wells
-    corner: ""
     youtube: 6md5RSnVUuo
     title: Lollipop
     index: 813
@@ -73,15 +61,12 @@ playlist:
     selector: リクエスト
   - id: "2019009805"
     week: 98
-    name: She Loves You
     artist: The Beatles
-    kana: ""
     year: 1963
     nation: UK
     label: Parlophone
     producer:
       - George Martin
-    corner: ""
     youtube: oVCwDl-S09A
     title: She Loves You
     index: 814
@@ -89,14 +74,10 @@ playlist:
     selector: リクエスト
   - id: "2019009806"
     week: 98
-    name: Talking in Your Sleep
     artist: The Romantics
-    kana: ""
     year: 1983
     nation: US
     label: Nemperor
-    producer: []
-    corner: ""
     youtube: JmGMzyajA2U
     title: Talking in Your Sleep
     index: 815
@@ -104,30 +85,22 @@ playlist:
     selector: リクエスト
   - id: "2019009807"
     week: 98
-    name: Allelujah
     artist: Fairground Attraction
-    kana: ""
     year: 1988
     nation: UK
     label: RCA
-    producer: []
-    corner: ""
-    youtube: ""
     title: Allelujah
     index: 816
     indexInWeek: 7
     selector: リクエスト
   - id: "2019009808"
     week: 98
-    name: Alone
     artist: Heart
-    kana: ""
     year: 1987
     nation: US
     label: Capitol Records
     producer:
       - Ron Nevison
-    corner: ""
     youtube: 1Cw1ng75KP0
     title: Alone
     index: 817
@@ -135,15 +108,11 @@ playlist:
     selector: リクエスト
   - id: "2019009809"
     week: 98
-    name: 俺のあいつ
     artist: ローズマリー
-    kana: ""
     year: 1973
     nation: JPN
     label: トリオ・レコード
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 俺のあいつ
     index: 818
     indexInWeek: 9

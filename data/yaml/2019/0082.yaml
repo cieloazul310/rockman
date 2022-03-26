@@ -9,30 +9,23 @@ date: 2019-07-28
 playlist:
   - id: "2019008201"
     week: 82
-    name: 鳥になって
     artist: スピッツ
-    kana: ""
     year: 1991
     nation: JPN
     label: ポリドール
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: 鳥になって
     index: 673
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008202"
     week: 82
-    name: In a Big Country
     artist: Big Country
-    kana: ""
     year: 1983
     nation: UK
     label: Mercury Records
     producer:
       - Steve Lillywhite
-    corner: ""
     youtube: 657TZDHZqj4
     title: In a Big Country
     index: 674
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008203"
     week: 82
-    name: Killers
     artist: Iron Maiden
-    kana: ""
     year: 1981
     nation: UK
     label: EMI
     producer:
       - Martin Birch
-    corner: ""
     youtube: w1Fw71X4uiM
     title: Killers
     index: 675
@@ -56,29 +46,21 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008204"
     week: 82
-    name: さらばシベリア鉄道
     artist: 大滝詠一
     kana: おおたきえいいち
     year: 1981
     nation: JPN
     label: NIAGARA
-    producer: []
-    corner: ""
-    youtube: ""
     title: さらばシベリア鉄道
     index: 676
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2019008205"
     week: 82
-    name: Run Runaway
     artist: Slade
-    kana: ""
     year: 1984
     nation: UK
     label: RCA
-    producer: []
-    corner: ""
     youtube: wLUkvPwiHvs
     title: Run Runaway
     index: 677
@@ -86,30 +68,22 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008206"
     week: 82
-    name: Children of This Time
     artist: Europe
-    kana: ""
     year: 1983
     nation: SWE
     label: Hot
-    producer: []
-    corner: ""
-    youtube: ""
     title: Children of This Time
     index: 678
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2019008207"
     week: 82
-    name: Nous ne sommes pas des anges
     artist: France Gall
-    kana: ""
     year: 1965
     nation: FR
     label: Philips
     producer:
       - Denis Bourgeois
-    corner: ""
     youtube: HIa3a_3p7DA
     title: Nous ne sommes pas des anges
     index: 679
@@ -117,15 +91,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008208"
     week: 82
-    name: だれかが風の中で
     artist: 上條恒彦
     kana: かみじょうつねひこ
     year: 1972
     nation: JPN
     label: キングレコード
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: だれかが風の中で
     index: 680
     indexInWeek: 8

@@ -9,30 +9,23 @@ date: 2019-07-14
 playlist:
   - id: "2019008001"
     week: 80
-    name: シュラフ
     artist: スピッツ
-    kana: ""
     year: 1992
     nation: JPN
     label: ポリドール
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: シュラフ
     index: 657
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008002"
     week: 80
-    name: The Witch's Promise
     artist: Jethro Tull
-    kana: ""
     year: 1970
     nation: UK
     label: Chrysalis
     producer:
       - Terry Ellis
-    corner: ""
     youtube: 304WfksyWg0
     title: The Witch's Promise
     index: 658
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008003"
     week: 80
-    name: My Sunday Feeling
     artist: Jethro Tull
-    kana: ""
     year: 1968
     nation: UK
     label: Island
     producer:
       - Terry Ellis
-    corner: ""
     youtube: nzjp-cFkNoE
     title: My Sunday Feeling
     index: 659
@@ -56,15 +46,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008004"
     week: 80
-    name: Aqualung
     artist: Jethro Tull
-    kana: ""
     year: 1971
     nation: UK
     label: Chrysalis
     producer:
       - Terry Ellis
-    corner: ""
     youtube: 0Idy43XYwLo
     title: Aqualung
     index: 660
@@ -72,14 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008005"
     week: 80
-    name: Lick Your Fingers Clean
     artist: Jethro Tull
-    kana: ""
     year: 1988
     nation: UK
     label: Chrysalis
-    producer: []
-    corner: ""
     youtube: HvnNNgJXyts
     title: Lick Your Fingers Clean
     index: 661
@@ -87,14 +70,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008006"
     week: 80
-    name: Mayhem, Maybe
     artist: Jethro Tull
-    kana: ""
     year: 1988
     nation: UK
     label: Chrysalis
-    producer: []
-    corner: ""
     youtube: FHl0tWfHj2Y
     title: Mayhem, Maybe
     index: 662
@@ -102,14 +81,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008007"
     week: 80
-    name: Mother Goose
     artist: Jethro Tull
-    kana: ""
     year: 1971
     nation: UK
     label: Chrysalis
-    producer: []
-    corner: ""
     youtube: KBAN1thF0-4
     title: Mother Goose
     index: 663
@@ -117,15 +92,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008008"
     week: 80
-    name: 公園通り
     artist: 五島良子
     kana: ごしまよしこ
     year: 1993
     nation: JPN
     label: ソニー・ミュージックアソシエイテッドレコーズ
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 公園通り
     index: 664
     indexInWeek: 8

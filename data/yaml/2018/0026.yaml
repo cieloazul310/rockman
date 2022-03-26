@@ -9,7 +9,6 @@ date: 2018-07-01
 playlist:
   - id: "2018002601"
     week: 26
-    name: 青い車
     artist: スピッツ
     year: 1994
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002602"
     week: 26
-    name: Black Shuck
     artist: The Darkness
     year: 2003
     nation: UK
@@ -38,7 +36,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002603"
     week: 26
-    name: Wuthering Heights
     artist: Kate Bush
     year: 1978
     nation: UK
@@ -52,7 +49,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002604"
     week: 26
-    name: Hocus Pocus
     artist: Focus
     year: 1971
     nation: NED
@@ -66,7 +62,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002605"
     week: 26
-    name: Stayin’ Alive
     artist: Bee Gees
     year: 1977
     nation: US
@@ -74,13 +69,12 @@ playlist:
     producer:
       - Albhy Galuten
     youtube: I_izvAbhExY
-    title: Stayin’ Alive
+    title: Stayin' Alive
     index: 215
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018002606"
     week: 26
-    name: Anthem
     artist: Rush
     year: 1975
     nation: CAN
@@ -94,13 +88,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002607"
     week: 26
-    name: ワタリドリ
     artist: "[ALEXANDROS]"
     kana: Alexandros
     year: 2015
     nation: JPN
     label: ユニバーサル
-    producer: []
     youtube: O_DLtVuiqhI
     title: ワタリドリ
     index: 217
@@ -108,7 +100,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002608"
     week: 26
-    name: Lovin’ You
     artist: Minnie Riperton
     year: 1975
     nation: US
@@ -116,19 +107,17 @@ playlist:
     producer:
       - Stevie Wonder
     youtube: REe_U1MxIKM
-    title: Lovin’ You
+    title: Lovin' You
     index: 218
     indexInWeek: 8
     selector: 草野マサムネ
   - id: "2018002609"
     week: 26
-    name: 終電マスター
     artist: FREENOTE
     year: 2003
     nation: JPN
     label: DESERT AIR RECORDS
     corner: ちょっぴりタイムマシン
-    youtube: xrUrKSbYVgE
     title: 終電マスター
     index: 219
     indexInWeek: 9

@@ -9,7 +9,6 @@ date: 2018-07-08
 playlist:
   - id: "2018002701"
     week: 27
-    name: 小さな生き物
     artist: スピッツ
     year: 2013
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002702"
     week: 27
-    name: The Concept
     artist: Teenage Fanclub
     year: 1991
     nation: UK
@@ -36,7 +34,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002703"
     week: 27
-    name: Like a Virgin
     artist: Teenage Fanclub
     year: 1991
     nation: UK
@@ -48,7 +45,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002704"
     week: 27
-    name: The Cabbage
     artist: Teenage Fanclub
     year: 1993
     nation: UK
@@ -60,7 +56,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002705"
     week: 27
-    name: Sparky's Dream
     artist: Teenage Fanclub
     year: 1995
     nation: UK
@@ -72,7 +67,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002706"
     week: 27
-    name: Ain't That Enough
     artist: Teenage Fanclub
     year: 1997
     nation: UK
@@ -84,19 +78,16 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002707"
     week: 27
-    name: I Don't Want Control of You
     artist: Teenage Fanclub
     year: 1997
     nation: UK
     label: Creation
-    youtube: ""
     title: I Don't Want Control of You
     index: 226
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2018002708"
     week: 27
-    name: I'm In Love
     artist: Teenage Fanclub
     year: 2016
     nation: UK
@@ -108,7 +99,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002709"
     week: 27
-    name: Fall in Love Once Again
     artist: SPORTS
     year: 2006
     nation: JPN

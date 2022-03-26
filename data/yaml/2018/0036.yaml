@@ -9,7 +9,6 @@ date: 2018-09-09
 playlist:
   - id: "2018003601"
     week: 36
-    name: ルナルナ
     artist: スピッツ
     year: 1995
     nation: JPN
@@ -23,8 +22,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003602"
     week: 36
-    name: Exotic Lollipop (and other red roses) -奇妙なロリポップ-
-    artist: Flipper’s Guitar
+    artist: Flipper's Guitar
     year: 1989
     nation: JPN
     label: ポリスター
@@ -34,7 +32,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003603"
     week: 36
-    name: Oblivious
     artist: Aztec Camera
     year: 1983
     nation: UK
@@ -46,7 +43,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003604"
     week: 36
-    name: BODY FRESHER
     artist: ORIGINAL LOVE
     year: 1991
     nation: JPN
@@ -58,7 +54,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003605"
     week: 36
-    name: Carnival
     artist: The Cardigans
     year: 1995
     nation: SWE
@@ -72,7 +67,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003606"
     week: 36
-    name: ラ・ブーム〜だってMY BOOM IS ME〜
     artist: カジヒデキ
     year: 1997
     nation: JPN
@@ -84,7 +78,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003607"
     week: 36
-    name: DUMBO
     artist: Suchmos
     year: 2017
     nation: JPN
@@ -97,7 +90,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003608"
     week: 36
-    name: Knock Away
     artist: Attractions
     year: 2017
     nation: JPN
@@ -109,7 +101,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003609"
     week: 36
-    name: An apple a day
     artist: bice
     year: 2001
     nation: JPN

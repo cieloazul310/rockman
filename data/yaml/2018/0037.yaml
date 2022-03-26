@@ -9,31 +9,25 @@ date: 2018-09-16
 playlist:
   - id: "2018003701"
     week: 37
-    name: 旅人
     artist: スピッツ
-    kana: ""
     year: 1996
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: 旅人
     index: 302
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018003702"
     week: 37
-    name: Cemburu
     artist: Dewa
-    kana: ""
     year: 2000
     nation: IDN
     label: Aquarius Musikindo
     producer:
       - Dhani Ahmad
-    corner: ""
     youtube: BW9sCb1_Lyo
     title: Cemburu
     index: 303
@@ -41,14 +35,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003703"
     week: 37
-    name: 新幹線
     artist: 旺福
     kana: わんふー
     year: 2003
     nation: TWN
     label: 角頭音樂
-    producer: []
-    corner: ""
     youtube: r6MNehCIxmo
     title: 新幹線
     index: 304
@@ -56,14 +47,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003704"
     week: 37
-    name: Banda Ng Bayan
     artist: Rivermaya
-    kana: ""
     year: 2007
     nation: PHL
     label: Warner Music Philippines
-    producer: []
-    corner: ""
     youtube: KqSC7t-tNsA
     title: Banda Ng Bayan
     index: 305
@@ -71,14 +58,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003705"
     week: 37
-    name: Long-D
     artist: Neon Bunny
-    kana: ""
     year: 2011
     nation: KOR
     label: Mirrorball Music
-    producer: []
-    corner: ""
     youtube: ISrAo89aCZ0
     title: Long-D
     index: 306
@@ -86,14 +69,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003706"
     week: 37
-    name: แสงสุดท้าย
     artist: Bodyslam
-    kana: ""
     year: 2012
     nation: THA
     label: genie records
-    producer: []
-    corner: ""
     youtube: JtvTnTppIik
     title: แสงสุดท้าย
     index: 307
@@ -101,14 +80,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003707"
     week: 37
-    name: Blue Day Dreaming 白日梦蓝
     artist: Hedgehog
-    kana: ""
     year: 2009
     nation: CHN
     label: Modern Sky
-    producer: []
-    corner: ""
     youtube: FsrTwBlNUjk
     title: Blue Day Dreaming 白日梦蓝
     index: 308
@@ -116,16 +91,13 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003708"
     week: 37
-    name: ハートにOK!
     artist: ザ・ファントムギフト
-    kana: ""
     year: 1987
     nation: JPN
     label: MIDI
     producer:
       - 小西康陽
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: ハートにOK!
     index: 309
     indexInWeek: 8

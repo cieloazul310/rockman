@@ -9,29 +9,21 @@ date: 2019-02-10
 playlist:
   - id: "2019005801"
     week: 58
-    name: プール
     artist: スピッツ
-    kana: ""
     year: 1991
     nation: JPN
     label: ポリドール
-    producer: []
     corner: 漫遊前の一曲
-    youtube: ""
     title: プール
     index: 478
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019005802"
     week: 58
-    name: Like a Daydream
     artist: Ride
-    kana: ""
     year: 1990
     nation: UK
     label: Creation
-    producer: []
-    corner: ""
     youtube: 8zzo25t_eC8
     title: Like a Daydream
     index: 479
@@ -39,14 +31,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005803"
     week: 58
-    name: Never Understand
     artist: The Jesus and Mary Chain
-    kana: ""
     year: 1985
     nation: UK
     label: Blanco y Negro
-    producer: []
-    corner: ""
     youtube: b2bzrCCKDwc
     title: Never Understand
     index: 480
@@ -54,15 +42,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005804"
     week: 58
-    name: Taste
     artist: Ride
-    kana: ""
     year: 1990
     nation: UK
     label: Creation
     producer:
       - Marc Waterman
-    corner: ""
     youtube: APqGzOD0fUk
     title: Taste
     index: 481
@@ -70,15 +55,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005805"
     week: 58
-    name: Paralysed
     artist: Ride
-    kana: ""
     year: 1990
     nation: UK
     label: Creation
     producer:
       - Marc Waterman
-    corner: ""
     youtube: weQjUYxRv4A
     title: Paralysed
     index: 482
@@ -86,15 +68,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005806"
     week: 58
-    name: Cool Your Boots
     artist: Ride
-    kana: ""
     year: 1992
     nation: UK
     label: Creation
     producer:
       - Alan Moulder
-    corner: ""
     youtube: 3aFh4oTmIio
     title: Cool Your Boots
     index: 483
@@ -102,15 +81,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005807"
     week: 58
-    name: Charm Assault
     artist: Ride
-    kana: ""
     year: 2017
     nation: UK
     label: Wichita Recordings
     producer:
       - Erol Alkan
-    corner: ""
     youtube: nW_lRP2RqX8
     title: Charm Assault
     index: 484
@@ -118,13 +94,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2019005808"
     week: 58
-    name: UNDER the U.K.
     artist: 横道坊主
     kana: おうどうぼうず
     year: 1989
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: 1XdcLU9N5AE
     title: UNDER the U.K.
