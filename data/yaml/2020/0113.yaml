@@ -11,14 +11,14 @@ playlist:
     week: 113
     name: さらばユニヴァース
     artist: スピッツ
-    kana: ""
+    
     year: 2000
     nation: JPN
     label: ポリドール
     producer:
       - 石田小吉
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: さらばユニヴァース
     index: 932
     indexInWeek: 1
@@ -27,12 +27,11 @@ playlist:
     week: 113
     name: Highway Tune
     artist: Greta Van Fleet
-    kana: ""
+    
     year: 2017
     nation: US
     label: Republic
-    producer: []
-    corner: ""
+    
     youtube: aJg4OJxp-co
     title: Highway Tune
     index: 933
@@ -42,14 +41,13 @@ playlist:
     week: 113
     name: Easy Livin'
     artist: Fastway
-    kana: ""
+    
     year: 1983
     nation: UK
     label: CBS
     producer:
       - Eddie Kramer
-    corner: ""
-    youtube: ""
+    
     title: Easy Livin'
     index: 934
     indexInWeek: 3
@@ -58,12 +56,11 @@ playlist:
     week: 113
     name: Get It On
     artist: Kingdom Come
-    kana: ""
+    
     year: 1988
     nation: US
     label: Polydor
-    producer: []
-    corner: ""
+    
     youtube: k1OdgfEhzgM
     title: Get It On
     index: 935
@@ -73,12 +70,11 @@ playlist:
     week: 113
     name: Hold Her Tight
     artist: The Osmonds
-    kana: ""
+    
     year: 1972
     nation: US
     label: MGM
-    producer: []
-    corner: ""
+    
     youtube: 6z9D2PJmz_k
     title: Hold Her Tight
     index: 936
@@ -88,14 +84,13 @@ playlist:
     week: 113
     name: Queen Of My Dreams
     artist: The Edgar Winter Group
-    kana: ""
+    
     year: 1974
     nation: US
     label: Epic
     producer:
       - Rick Derringer
-    corner: ""
-    youtube: ""
+    
     title: Queen Of My Dreams
     index: 937
     indexInWeek: 6
@@ -104,12 +99,11 @@ playlist:
     week: 113
     name: Rock and Roll Is Dead
     artist: Lenny Kravitz
-    kana: ""
+    
     year: 1995
     nation: US
     label: Virgin
-    producer: []
-    corner: ""
+    
     youtube: yw8_5OYKQNA
     title: Rock and Roll Is Dead
     index: 938
@@ -119,13 +113,12 @@ playlist:
     week: 113
     name: Tautud
     artist: Spirit
-    kana: ""
+    
     year: 1968
     nation: US
     label: Epic
     producer:
       - Lou Adler
-    corner: ""
     youtube: ZPYWxc28Mh4
     title: Tautud
     index: 939
@@ -135,13 +128,13 @@ playlist:
     week: 113
     name: 青い地球はてのひら
     artist: かの香織
-    kana: ""
+    
     year: 1994
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 青い地球はてのひら
     index: 940
     indexInWeek: 9

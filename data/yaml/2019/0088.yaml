@@ -11,7 +11,7 @@ playlist:
     week: 88
     name: ありがとさん
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
@@ -27,13 +27,12 @@ playlist:
     week: 88
     name: I Surrender
     artist: Rainbow
-    kana: ""
+    
     year: 1981
     nation: UK
     label: Polydor
     producer:
       - Roger Glover
-    corner: ""
     youtube: iMmMqfQZkxA
     title: I Surrender
     index: 724
@@ -43,13 +42,12 @@ playlist:
     week: 88
     name: Fool for Your Loving
     artist: Whitesnake
-    kana: ""
+    
     year: 1980
     nation: UK
     label: Mirage
     producer:
       - Martin Birch
-    corner: ""
     youtube: 8Tp0K9YiTPE
     title: Fool for Your Loving
     index: 725
@@ -59,12 +57,11 @@ playlist:
     week: 88
     name: Dancing Madly Backwards (on a Sea of Air)
     artist: Captain Beyond
-    kana: ""
+    
     year: 1972
     nation: US
     label: Capricorn
-    producer: []
-    corner: ""
+    
     youtube: FQVHqXh2Ga0
     title: Dancing Madly Backwards (on a Sea of Air)
     index: 726
@@ -74,12 +71,11 @@ playlist:
     week: 88
     name: Future Shock
     artist: Gillan
-    kana: ""
+    
     year: 1981
     nation: UK
     label: Virgin
-    producer: []
-    corner: ""
+    
     youtube: C2mvWIByJ2A
     title: Future Shock
     index: 727
@@ -89,12 +85,11 @@ playlist:
     week: 88
     name: Destiny
     artist: Glenn Hughes
-    kana: ""
+    
     year: 1977
     nation: UK
     label: RPM
-    producer: []
-    corner: ""
+    
     youtube: Zkv55tp07UQ
     title: Destiny
     index: 728
@@ -104,12 +99,11 @@ playlist:
     week: 88
     name: The Grind
     artist: Tommy Bolin
-    kana: ""
+    
     year: 1975
     nation: US
     label: Nemperor
-    producer: []
-    corner: ""
+    
     youtube: TOGtESM7YLo
     title: The Grind
     index: 729
@@ -123,9 +117,9 @@ playlist:
     year: 1995
     nation: JPN
     label: ファンハウス
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 深紫伝説
     index: 730
     indexInWeek: 8

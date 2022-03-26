@@ -11,7 +11,7 @@ playlist:
     week: 109
     name: さわって・変わって
     artist: スピッツ
-    kana: ""
+    
     year: 2001
     nation: JPN
     label: ポリドール
@@ -27,12 +27,11 @@ playlist:
     week: 109
     name: キングスネークブルース
     artist: サンハウス
-    kana: ""
+    
     year: 1975
     nation: JPN
     label: ブラック
-    producer: []
-    corner: ""
+    
     youtube: fxW9UBoHOb4
     title: キングスネークブルース
     index: 899
@@ -46,9 +45,8 @@ playlist:
     year: 1975
     nation: JPN
     label: 東芝EMI
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 裏切りの街角
     index: 900
     indexInWeek: 3
@@ -57,14 +55,13 @@ playlist:
     week: 109
     name: You May Dream
     artist: シーナ&ザ・ロケッツ
-    kana: ""
+    
     year: 1979
     nation: JPN
     label: アルファレコード
     producer:
       - 細野晴臣
-    corner: ""
-    youtube: ""
+    
     title: You May Dream
     index: 901
     indexInWeek: 4
@@ -73,13 +70,12 @@ playlist:
     week: 109
     name: 恋をしようよ
     artist: ザ・ルースターズ
-    kana: ""
+    
     year: 1980
     nation: JPN
     label: 日本コロムビア
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 恋をしようよ
     index: 902
     indexInWeek: 5
@@ -88,13 +84,12 @@ playlist:
     week: 109
     name: セル ナンバー 8(第8病棟)
     artist: バトル・ロッカーズ
-    kana: ""
+    
     year: 1982
     nation: JPN
     label: SEE-SAW
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: セル ナンバー 8(第8病棟)
     index: 903
     indexInWeek: 6
@@ -103,13 +98,12 @@ playlist:
     week: 109
     name: 激しい雨が
     artist: THE MODS
-    kana: ""
+    
     year: 1983
     nation: JPN
     label: EPIC SONY
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 激しい雨が
     index: 904
     indexInWeek: 7
@@ -118,13 +112,12 @@ playlist:
     week: 109
     name: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     artist: アンジー
-    kana: ""
+    
     year: 1988
     nation: JPN
     label: メルダック
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
     index: 905
     indexInWeek: 8
@@ -133,13 +126,13 @@ playlist:
     week: 109
     name: 野良犬
     artist: ARB
-    kana: ""
+    
     year: 1978
     nation: JPN
     label: ビクターインビテーション
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 野良犬
     index: 906
     indexInWeek: 9

@@ -11,14 +11,14 @@ playlist:
     week: 85
     name: エンドロールには早すぎる
     artist: スピッツ
-    kana: ""
+    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: エンドロールには早すぎる
     index: 698
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 85
     name: Aikea-Guinea
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1985
     nation: UK
     label: 4AD
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: Aikea-Guinea
     index: 699
     indexInWeek: 2
@@ -42,12 +41,11 @@ playlist:
     week: 85
     name: Lorelei
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1984
     nation: UK
     label: 4AD
-    producer: []
-    corner: ""
+    
     youtube: ydaOrM0ib2Y
     title: Lorelei
     index: 700
@@ -57,13 +55,12 @@ playlist:
     week: 85
     name: The Spangle Maker
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1984
     nation: UK
     label: 4AD
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: The Spangle Maker
     index: 701
     indexInWeek: 4
@@ -72,12 +69,11 @@ playlist:
     week: 85
     name: Pearly-Dewdrops' Drops
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1984
     nation: UK
     label: 4AD
-    producer: []
-    corner: ""
+    
     youtube: s-5Xgw6d3h0
     title: Pearly-Dewdrops' Drops
     index: 702
@@ -87,12 +83,11 @@ playlist:
     week: 85
     name: Cherry-Coloured Funk
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1990
     nation: UK
     label: 4AD
-    producer: []
-    corner: ""
+    
     youtube: PbbUeLkZt74
     title: Cherry-Coloured Funk
     index: 703
@@ -102,12 +97,11 @@ playlist:
     week: 85
     name: Bluebeard
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1993
     nation: UK
     label: Fontana Records
-    producer: []
-    corner: ""
+    
     youtube: MD67KRum-Cs
     title: Bluebeard
     index: 704
@@ -117,12 +111,11 @@ playlist:
     week: 85
     name: Rilkean Heart
     artist: Cocteau Twins
-    kana: ""
+    
     year: 1996
     nation: UK
     label: Fontana Records
-    producer: []
-    corner: ""
+    
     youtube: xEYvb7RlGss
     title: Rilkean Heart
     index: 705
@@ -132,11 +125,11 @@ playlist:
     week: 85
     name: PROMiSE
     artist: MiChi
-    kana: ""
+    
     year: 2008
     nation: JPN
     label: ソニー・ミュージックアソシエイテッドレコーズ
-    producer: []
+    
     corner: ちょっぴりタイムマシン
     youtube: HjQeQfZYsfM
     title: PROMiSE

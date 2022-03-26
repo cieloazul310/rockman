@@ -84,12 +84,11 @@ playlist:
     week: 63
     name: Love Is Like Oxygen
     artist: Sweet
-    kana: ""
+    
     year: 1977
     nation: UK
     label: Polydor
-    producer: []
-    corner: ""
+    
     youtube: tXJ4TZSXtzc
     title: Love Is Like Oxygen
     index: 526
@@ -99,13 +98,13 @@ playlist:
     week: 63
     name: 恋のマジックポーション
     artist: すかんち
-    kana: ""
+    
     year: 1991
     nation: JPN
     label: Sony Records
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 恋のマジックポーション
     index: 527
     indexInWeek: 8

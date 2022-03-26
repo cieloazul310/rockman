@@ -38,13 +38,9 @@ playlist:
     week: 22
     name: 虹色サーカス団
     artist: THE COLLECTORS
-    kana: ""
     year: 1988
     nation: JPN
     label: BAIDIS
-    producer: []
-    corner: ""
-    youtube: ""
     title: 虹色サーカス団
     index: 178
     indexInWeek: 3
@@ -53,13 +49,9 @@ playlist:
     week: 22
     name: 太陽が昇るまえに
     artist: THE COLLECTORS
-    kana: ""
     year: 1989
     nation: JPN
     label: BAIDIS
-    producer: []
-    corner: ""
-    youtube: ""
     title: 太陽が昇るまえに
     index: 179
     indexInWeek: 4
@@ -68,13 +60,11 @@ playlist:
     week: 22
     name: LUNA
     artist: THE COLLECTORS
-    kana: ""
     year: 2001
     nation: JPN
     label: TRIAD
     producer:
       - 吉田仁
-    corner: ""
     youtube: c-l7ozIHx4I
     title: LUNA
     index: 180
@@ -84,14 +74,11 @@ playlist:
     week: 22
     name: 東京虫バグズ
     artist: THE COLLECTORS
-    kana: ""
     year: 2007
     nation: JPN
     label: TRIAD
     producer:
       - 吉田仁
-    corner: ""
-    youtube: ""
     title: 東京虫バグズ
     index: 181
     indexInWeek: 6
@@ -100,13 +87,9 @@ playlist:
     week: 22
     name: ロマンチック・プラネット
     artist: THE COLLECTORS
-    kana: ""
     year: 2016
     nation: JPN
     label: TRIAD
-    producer: []
-    corner: ""
-    youtube: ""
     title: ロマンチック・プラネット
     index: 182
     indexInWeek: 7
@@ -115,13 +98,10 @@ playlist:
     week: 22
     name: タイマー
     artist: フーバーオーバー
-    kana: ""
     year: 2008
     nation: JPN
     label: PLUS MAGIC
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: タイマー
     index: 183
     indexInWeek: 8

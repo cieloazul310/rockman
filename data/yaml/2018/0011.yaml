@@ -9,7 +9,6 @@ date: 2018-03-18
 playlist:
   - id: "2018001101"
     week: 11
-    name: Holiday
     artist: スピッツ
     year: 2000
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001102"
     week: 11
-    name: キルミー
     artist: SUNNY CAR WASH
     year: 2017
     nation: JPN
@@ -35,7 +33,6 @@ playlist:
     selector: リクエスト
   - id: "2018001103"
     week: 11
-    name: ベイビーイッツオールライト
     artist: Layne
     year: 2017
     nation: JPN
@@ -47,7 +44,6 @@ playlist:
     selector: リクエスト
   - id: "2018001104"
     week: 11
-    name: Lies,Lies,Lies/あの娘は嘘つき
     artist: SHOTGUN RUNNERS
     year: 2011
     nation: JPN
@@ -59,7 +55,6 @@ playlist:
     selector: リクエスト
   - id: "2018001105"
     week: 11
-    name: きみの春になれたら
     artist: プププランド
     year: 2017
     nation: JPN
@@ -71,7 +66,6 @@ playlist:
     selector: リクエスト
   - id: "2018001106"
     week: 11
-    name: Ghana
     artist: D.A.N
     year: 2016
     nation: JPN
@@ -83,7 +77,6 @@ playlist:
     selector: リクエスト
   - id: "2018001107"
     week: 11
-    name: 檸檬
     artist: BURNOUT SYNDROMES
     year: 2016
     nation: JPN
@@ -94,7 +87,6 @@ playlist:
     selector: リクエスト
   - id: "2018001108"
     week: 11
-    name: いってみよう
     artist: 馬喰町バンド
     kana: ばくろちょうばんど
     year: 2017
@@ -107,13 +99,12 @@ playlist:
     selector: リクエスト
   - id: "2018001109"
     week: 11
-    name: 欲しいのはおまえだけ
     artist: BOW WOW
     year: 1980
     nation: JPN
     label: SMS Records
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 欲しいのはおまえだけ
     index: 90
     indexInWeek: 9

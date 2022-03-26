@@ -11,14 +11,14 @@ playlist:
     week: 92
     name: 見っけ
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: 見っけ
     index: 757
     indexInWeek: 1
@@ -27,12 +27,11 @@ playlist:
     week: 92
     name: Am I Evil?
     artist: Diamond Head
-    kana: ""
+    
     year: 1980
     nation: UK
     label: Happy Face
-    producer: []
-    corner: ""
+    
     youtube: bdKY4Id-q08
     title: Am I Evil?
     index: 758
@@ -42,13 +41,12 @@ playlist:
     week: 92
     name: Beck's Bolero
     artist: Jeff Beck
-    kana: ""
+    
     year: 1967
     nation: UK
     label: Columbia
     producer:
       - Mickie Most
-    corner: ""
     youtube: Q8y-066wr4c
     title: Beck's Bolero
     index: 759
@@ -58,13 +56,12 @@ playlist:
     week: 92
     name: The Ides of March
     artist: Iron Maiden
-    kana: ""
+    
     year: 1981
     nation: UK
     label: EMI
     producer:
       - Martin Birch
-    corner: ""
     youtube: rGJnjSATu50
     title: The Ides of March
     index: 760
@@ -74,13 +71,12 @@ playlist:
     week: 92
     name: Lady
     artist: Styx
-    kana: ""
+    
     year: 1973
     nation: US
     label: Wooden Nickel Records
     producer:
       - John Ryan
-    corner: ""
     youtube: rOGpyV-hHtw
     title: Lady
     index: 761
@@ -90,13 +86,12 @@ playlist:
     week: 92
     name: 銀の指環
     artist: チューリップ
-    kana: ""
+    
     year: 1974
     nation: JPN
     label: 東芝EMI
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 銀の指環
     index: 762
     indexInWeek: 6
@@ -105,12 +100,11 @@ playlist:
     week: 92
     name: Child In Time
     artist: Deep Purple
-    kana: ""
+    
     year: 1970
     nation: UK
     label: Harvest
-    producer: []
-    corner: ""
+    
     youtube: OorZcOzNcgE
     title: Child In Time
     index: 763
@@ -120,12 +114,11 @@ playlist:
     week: 92
     name: The Importance of Being Idle
     artist: Oasis
-    kana: ""
+    
     year: 2005
     nation: UK
     label: Big Brother
-    producer: []
-    corner: ""
+    
     youtube: jySfU10IQu4
     title: The Importance of Being Idle
     index: 764
@@ -135,7 +128,7 @@ playlist:
     week: 92
     name: ハミングがきこえる
     artist: カヒミ・カリィ
-    kana: ""
+    
     year: 1996
     nation: JPN
     label: ポリスター

@@ -9,7 +9,6 @@ date: 2018-02-18
 playlist:
   - id: "2018000701"
     week: 7
-    name: スカーレット
     artist: スピッツ
     year: 1998
     nation: JPN
@@ -24,9 +23,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000702"
     week: 7
-    name: The Hellion / Electric Eye
     artist: Judas Priest
-    kana: ""
     year: 1982
     nation: UK
     label: Columbia
@@ -39,7 +36,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018000703"
     week: 7
-    name: Purgatory
     artist: Iron Maiden
     year: 1981
     nation: UK
@@ -53,19 +49,17 @@ playlist:
     selector: 田村明浩
   - id: "2018000704"
     week: 7
-    name: あせかきベソかきRock’n Roll run
     artist: 横浜銀蝿
     kana: よこはまぎんばえ
     year: 1982
     nation: JPN
     label: キングレコード
-    title: あせかきベソかきRock’n Roll run
+    title: あせかきベソかきRock'n Roll run
     index: 52
     indexInWeek: 4
     selector: 崎山龍男
   - id: "2018000705"
     week: 7
-    name: ふっかつのじゅもん
     artist: sumika
     year: 2014
     nation: JPN
@@ -77,7 +71,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000706"
     week: 7
-    name: You
     artist: Nuno
     year: 1997
     nation: US
@@ -90,7 +83,6 @@ playlist:
     selector: 三輪テツヤ
   - id: "2018000707"
     week: 7
-    name: NO YOUNG
     artist: フラワーカンパニーズ
     year: 2017
     nation: JPN
@@ -101,7 +93,6 @@ playlist:
     selector: 田村明浩
   - id: "2018000708"
     week: 7
-    name: alone
     artist: BAND-MAID
     year: 2016
     nation: JPN
@@ -113,7 +104,6 @@ playlist:
     selector: 崎山龍男
   - id: "2018000709"
     week: 7
-    name: Honey Dripper
     artist: アン・ルイス
     year: 1986
     nation: JPN

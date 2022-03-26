@@ -11,11 +11,11 @@ playlist:
     week: 77
     name: 優しいあの子
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
-    producer: []
+    
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
     title: 優しいあの子
@@ -26,13 +26,12 @@ playlist:
     week: 77
     name: Kill the King
     artist: Rainbow
-    kana: ""
+    
     year: 1978
     nation: UK
     label: Polydor
     producer:
       - Martin Birch
-    corner: ""
     youtube: zEaxow3PoO0
     title: Kill the King
     index: 634
@@ -42,12 +41,11 @@ playlist:
     week: 77
     name: Love Pains
     artist: Ronnie Dio & The Prophets
-    kana: ""
+    
     year: 1962
     nation: UK
     label: Atlantic
-    producer: []
-    corner: ""
+    
     youtube: ObasKE0PLTA
     title: Love Pains
     index: 635
@@ -57,14 +55,13 @@ playlist:
     week: 77
     name: Good Time Music
     artist: Elf
-    kana: ""
+    
     year: 1975
     nation: UK
     label: MGM
     producer:
       - Roger Glover
-    corner: ""
-    youtube: ""
+    
     title: Good Time Music
     index: 636
     indexInWeek: 4
@@ -73,12 +70,11 @@ playlist:
     week: 77
     name: Man on the Silver Mountain
     artist: Rainbow
-    kana: ""
+    
     year: 1975
     nation: UK
     label: Oyster
-    producer: []
-    corner: ""
+    
     youtube: ORnvO1VyYMk
     title: Man on the Silver Mountain
     index: 637
@@ -88,13 +84,12 @@ playlist:
     week: 77
     name: Neon Knights
     artist: Black Sabbath
-    kana: ""
+    
     year: 1980
     nation: UK
     label: Vertigo
     producer:
       - Martin Birch
-    corner: ""
     youtube: LJOvZ2AyDnA
     title: Neon Knights
     index: 638
@@ -104,12 +99,11 @@ playlist:
     week: 77
     name: Caught In The Middle
     artist: Dio
-    kana: ""
+    
     year: 1983
     nation: UK
     label: Warner Bros.
-    producer: []
-    corner: ""
+    
     youtube: qsskD9g_grg
     title: Caught In The Middle
     index: 639
@@ -119,13 +113,13 @@ playlist:
     week: 77
     name: 愛をちょうだい
     artist: VANILLA
-    kana: ""
+    
     year: 1995
     nation: JPN
     label: ソニー・ミュージックレコーズ
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 愛をちょうだい
     index: 640
     indexInWeek: 8

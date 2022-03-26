@@ -11,7 +11,7 @@ playlist:
     week: 65
     name: 雪風
     artist: スピッツ
-    kana: ""
+    
     year: 2015
     nation: JPN
     label: ユニバーサル
@@ -27,12 +27,11 @@ playlist:
     week: 65
     name: 新宝島
     artist: サカナクション
-    kana: ""
+    
     year: 2015
     nation: JPN
     label: NF Records
-    producer: []
-    corner: ""
+    
     youtube: LIlZCmETvsY
     title: 新宝島
     index: 538
@@ -42,13 +41,12 @@ playlist:
     week: 65
     name: HONEY DANCE II
     artist: KENZI
-    kana: ""
+    
     year: 1986
     nation: JPN
     label: Trip Roll Records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: HONEY DANCE II
     index: 539
     indexInWeek: 3
@@ -57,13 +55,12 @@ playlist:
     week: 65
     name: グロリアス
     artist: GLAY
-    kana: ""
+    
     year: 1996
     nation: JPN
     label: プラチナム・レコード
     producer:
       - 佐久間正英
-    corner: ""
     youtube: 6ewGwJ63Nr4
     title: グロリアス
     index: 540
@@ -73,13 +70,12 @@ playlist:
     week: 65
     name: 2月/February
     artist: bloodthirsty butchers
-    kana: ""
+    
     year: 1996
     nation: JPN
     label: ベルウッド
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 2月/February
     index: 541
     indexInWeek: 5
@@ -88,12 +84,11 @@ playlist:
     week: 65
     name: バナナフィッシュの浜辺と黒い虹 with Aimer
     artist: Galileo Galilei
-    kana: ""
+    
     year: 2014
     nation: JPN
     label: SME
-    producer: []
-    corner: ""
+    
     youtube: iubApGbf04I
     title: バナナフィッシュの浜辺と黒い虹 with Aimer
     index: 542
@@ -103,12 +98,11 @@ playlist:
     week: 65
     name: アニー
     artist: ズーカラデル
-    kana: ""
+    
     year: 2017
     nation: JPN
     label: ズーカラデル
-    producer: []
-    corner: ""
+    
     youtube: zSPEdE651y0
     title: アニー
     index: 543
@@ -118,11 +112,11 @@ playlist:
     week: 65
     name: メロディ
     artist: sleepy.ab
-    kana: ""
+    
     year: 2006
     nation: JPN
     label: WESS RECORDS
-    producer: []
+    
     corner: ちょっぴりタイムマシン
     youtube: _zrGfQjA830
     title: メロディ

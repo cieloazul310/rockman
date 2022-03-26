@@ -11,7 +11,7 @@ playlist:
     week: 45
     name: ハチミツ
     artist: スピッツ
-    kana: ""
+    
     year: 1995
     nation: JPN
     label: ポリドール
@@ -27,13 +27,12 @@ playlist:
     week: 45
     name: Surrender
     artist: Cheap Trick
-    kana: ""
+    
     year: 1978
     nation: US
     label: Epic
     producer:
       - Tom Werman
-    corner: ""
     youtube: ZbkypX1OhZ0
     title: Surrender
     index: 369
@@ -43,13 +42,12 @@ playlist:
     week: 45
     name: Go All the Way
     artist: Raspberries
-    kana: ""
+    
     year: 1972
     nation: US
     label: Capitol Records
     producer:
       - Jimmy Ienner
-    corner: ""
     youtube: R5u25XGGo-E
     title: Go All the Way
     index: 370
@@ -59,12 +57,11 @@ playlist:
     week: 45
     name: Down About It
     artist: The Lemonheads
-    kana: ""
+    
     year: 1993
     nation: US
     label: Atlantic
-    producer: []
-    corner: ""
+    
     youtube: pCEDp1jxZAk
     title: Down About It
     index: 371
@@ -74,13 +71,12 @@ playlist:
     week: 45
     name: Mr. Tomorrow
     artist: Gigolo Aunts
-    kana: ""
+    
     year: 2002
     nation: US
     label: Bittersweet
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: Mr. Tomorrow
     index: 372
     indexInWeek: 5
@@ -89,13 +85,12 @@ playlist:
     week: 45
     name: Writing to Reach You
     artist: Travis
-    kana: ""
+    
     year: 1999
     nation: UK
     label: Independiente
     producer:
       - Nigel Godrich
-    corner: ""
     youtube: UeCcuH-EsuM
     title: Writing to Reach You
     index: 373
@@ -105,13 +100,12 @@ playlist:
     week: 45
     name: If This Ain't Really Love
     artist: The Szuters
-    kana: ""
+    
     year: 1998
     nation: US
     label: Victor
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: If This Ain't Really Love
     index: 374
     indexInWeek: 7
@@ -120,13 +114,12 @@ playlist:
     week: 45
     name: In the Street
     artist: Big Star
-    kana: ""
+    
     year: 1972
     nation: US
     label: Ardent
     producer:
       - John Fry
-    corner: ""
     youtube: RODxsYyXkys
     title: In the Street
     index: 375
@@ -136,14 +129,14 @@ playlist:
     week: 45
     name: 地球はメリー・ゴーランド
     artist: ガロ
-    kana: ""
+    
     year: 1971
     nation: JPN
     label: マッシュルーム
     producer:
       - ミッキー・カーチス
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 地球はメリー・ゴーランド
     index: 376
     indexInWeek: 9

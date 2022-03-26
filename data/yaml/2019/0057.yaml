@@ -11,14 +11,14 @@ playlist:
     week: 57
     name: SUGINAMI MELODY
     artist: スピッツ
-    kana: ""
+    
     year: 2002
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: SUGINAMI MELODY
     index: 469
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 57
     name: カロン
     artist: ねごと
-    kana: ""
+    
     year: 2011
     nation: JPN
     label: Ki/oon Records
     producer:
       - いしわたり淳治
-    corner: ""
     youtube: 9UBvB8joUeE
     title: カロン
     index: 470
@@ -43,13 +42,12 @@ playlist:
     week: 57
     name: オゾンのダンス
     artist: たま
-    kana: ""
+    
     year: 1990
     nation: JPN
     label: 日本クラウン
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: オゾンのダンス
     index: 471
     indexInWeek: 3
@@ -58,12 +56,11 @@ playlist:
     week: 57
     name: ディスコ
     artist: ミツメ
-    kana: ""
+    
     year: 2012
     nation: JPN
     label: mitsume
-    producer: []
-    corner: ""
+    
     youtube: CDVfHCHTbKI
     title: ディスコ
     index: 472
@@ -77,9 +74,8 @@ playlist:
     year: 2014
     nation: JPN
     label: P-VINE
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 風の仕業
     index: 473
     indexInWeek: 5
@@ -88,13 +84,12 @@ playlist:
     week: 57
     name: 解
     artist: あぶらだこ
-    kana: ""
+    
     year: 1989
     nation: JPN
     label: Wax Records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 解
     index: 474
     indexInWeek: 6
@@ -107,8 +102,7 @@ playlist:
     year: 2018
     nation: JPN
     label: ツクモガミ
-    producer: []
-    corner: ""
+    
     youtube: IbOb_dB83iw
     title: メロディ
     index: 475
@@ -122,8 +116,7 @@ playlist:
     year: 1997
     nation: JPN
     label: 東芝EMI
-    producer: []
-    corner: ""
+    
     youtube: aoWddavMgB8
     title: 少年
     index: 476
@@ -133,11 +126,11 @@ playlist:
     week: 57
     name: HIMITSUスパーク
     artist: カラスは真っ白
-    kana: ""
+    
     year: 2015
     nation: JPN
     label: SPACE SHOWER MUSIC
-    producer: []
+    
     corner: ちょっぴりタイムマシン
     youtube: h_26_gR7Vs8
     title: HIMITSUスパーク

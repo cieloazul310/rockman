@@ -11,7 +11,7 @@ playlist:
     week: 48
     name: ヘビーメロウ
     artist: スピッツ
-    kana: ""
+    
     year: 2017
     nation: JPN
     label: ユニバーサル
@@ -27,13 +27,12 @@ playlist:
     week: 48
     name: Back in Black
     artist: AC/DC
-    kana: ""
+    
     year: 1980
     nation: AUS
     label: Albert
     producer:
       - Robert John “Mutt” Lange
-    corner: ""
     youtube: pAgnJDJN4VA
     title: Back in Black
     index: 395
@@ -43,13 +42,12 @@ playlist:
     week: 48
     name: Are You Gonna Be My Girl
     artist: Jet
-    kana: ""
+    
     year: 2003
     nation: AUS
     label: Elektra
     producer:
       - Dave Sardy
-    corner: ""
     youtube: tuK6n2Lkza0
     title: Are You Gonna Be My Girl
     index: 396
@@ -59,13 +57,12 @@ playlist:
     week: 48
     name: What You Need
     artist: INXS
-    kana: ""
+    
     year: 1985
     nation: AUS
     label: Atlantic
     producer:
       - Chris Thomas
-    corner: ""
     youtube: FoEPrbdfmT4
     title: What You Need
     index: 397
@@ -75,13 +72,12 @@ playlist:
     week: 48
     name: Hey, St. Peter
     artist: Flash & the Pan
-    kana: ""
+    
     year: 1978
     nation: AUS
     label: Albert
     producer:
       - Harry Vanda
-    corner: ""
     youtube: ffNImKTmiws
     title: Hey, St. Peter
     index: 398
@@ -91,13 +87,12 @@ playlist:
     week: 48
     name: Lonesome Loser
     artist: Little River Band
-    kana: ""
+    
     year: 1979
     nation: AUS
     label: Capitol Records
     producer:
       - John Boylan
-    corner: ""
     youtube: ay1FBKsF2Nk
     title: Lonesome Loser
     index: 399
@@ -107,12 +102,11 @@ playlist:
     week: 48
     name: The Less I Know The Better
     artist: Tame Impala
-    kana: ""
+    
     year: 2015
     nation: AUS
     label: Modular
-    producer: []
-    corner: ""
+    
     youtube: sBzrzS1Ag_g
     title: The Less I Know The Better
     index: 400
@@ -122,13 +116,13 @@ playlist:
     week: 48
     name: Butch & The Sundance Kid
     artist: Psysalia Psysalis Psyche
-    kana: ""
+    
     year: 2008
     nation: JPN
     label: Acid Rain
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: Butch & The Sundance Kid
     index: 401
     indexInWeek: 8

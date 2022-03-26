@@ -11,14 +11,14 @@ playlist:
     week: 97
     name: ヤマブキ
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: ヤマブキ
     index: 800
     indexInWeek: 1
@@ -27,12 +27,11 @@ playlist:
     week: 97
     name: Saying Goodbye
     artist: The Muffs
-    kana: ""
+    
     year: 1993
     nation: US
     label: Warner Bros.
-    producer: []
-    corner: ""
+    
     youtube: 7SiHQtkrPwE
     title: Saying Goodbye
     index: 801
@@ -42,12 +41,11 @@ playlist:
     week: 97
     name: Everywhere I Go
     artist: The Muffs
-    kana: ""
+    
     year: 1993
     nation: US
     label: Warner Bros.
-    producer: []
-    corner: ""
+    
     youtube: CB7tezt8GnY
     title: Everywhere I Go
     index: 802
@@ -57,12 +55,11 @@ playlist:
     week: 97
     name: Baby Go Round
     artist: The Muffs
-    kana: ""
+    
     year: 1993
     nation: US
     label: Warner Bros.
-    producer: []
-    corner: ""
+    
     youtube: pBWZCJMG-fs
     title: Baby Go Round
     index: 803
@@ -72,13 +69,12 @@ playlist:
     week: 97
     name: Oh Nina
     artist: The Muffs
-    kana: ""
+    
     year: 1995
     nation: US
     label: Reprise Records
     producer:
       - Rob Cavallo
-    corner: ""
     youtube: esL3A7es_Uw
     title: Oh Nina
     index: 804
@@ -88,13 +84,12 @@ playlist:
     week: 97
     name: Sad Tomorrow
     artist: The Muffs
-    kana: ""
+    
     year: 1995
     nation: US
     label: Reprise Records
     producer:
       - Rob Cavallo
-    corner: ""
     youtube: vsxyaZhdW1s
     title: Sad Tomorrow
     index: 805
@@ -104,12 +99,11 @@ playlist:
     week: 97
     name: Honeymoon
     artist: The Muffs
-    kana: ""
+    
     year: 1997
     nation: US
     label: Reprise Records
-    producer: []
-    corner: ""
+    
     youtube: His66Z63Z3E
     title: Honeymoon
     index: 806
@@ -119,12 +113,11 @@ playlist:
     week: 97
     name: Guilty
     artist: The Muffs
-    kana: ""
+    
     year: 2000
     nation: US
     label: Sympathy for the Record Industry
-    producer: []
-    corner: ""
+    
     youtube: Chz3nMHBkCk
     title: Guilty
     index: 807
@@ -134,12 +127,11 @@ playlist:
     week: 97
     name: To That Funny Place
     artist: The Muffs
-    kana: ""
+    
     year: 2019
     nation: US
     label: Omnivore Recordings
-    producer: []
-    corner: ""
+    
     youtube: muQJnAyvix8
     title: To That Funny Place
     index: 808
@@ -149,13 +141,13 @@ playlist:
     week: 97
     name: Allegro Cantabile
     artist: SUEMITSU & THE SUEMITH
-    kana: ""
+    
     year: 2007
     nation: JPN
     label: キューンレコード
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: Allegro Cantabile
     index: 809
     indexInWeek: 10

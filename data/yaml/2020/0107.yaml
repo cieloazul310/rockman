@@ -55,7 +55,7 @@ playlist:
     year: 1980
     nation: UK
     label: Bronze
-    producer: []
+    
     youtube: J-QAKCP8ong
     title: Ace of Spades
     index: 885
@@ -65,13 +65,12 @@ playlist:
     week: 107
     name: Light Flight
     artist: Pentangle
-    kana: ""
+    
     year: 1969
     nation: UK
     label: Transatlantic Records
     producer:
       - Shel Talmy
-    corner: ""
     youtube: VVpS44LGqTk
     title: Light Flight
     index: 886
@@ -81,13 +80,12 @@ playlist:
     week: 107
     name: Let It Roll
     artist: UFO
-    kana: ""
+    
     year: 1975
     nation: UK
     label: Chrysalis
     producer:
       - Leo Lyons
-    corner: ""
     youtube: _OKd-GA_6X8
     title: Let It Roll
     index: 887
@@ -97,13 +95,12 @@ playlist:
     week: 107
     name: "Opening: I Can't Turn You Loose (Live)"
     artist: The Blues Brothers
-    kana: ""
+    
     year: 1978
     nation: US
     label: Atlantic
     producer:
       - Bob Tischler
-    corner: ""
     youtube: utU2123GIMo
     title: "Opening: I Can't Turn You Loose (Live)"
     index: 888
@@ -113,13 +110,13 @@ playlist:
     week: 107
     name: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     artist: ブリッジ
-    kana: ""
+    
     year: 1994
     nation: JPN
     label: トラットリア
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: SOFT CREAM WHISTLE 女の子はみんなヴァレリに憧れる
     index: 889
     indexInWeek: 8

@@ -9,7 +9,6 @@ date: 2018-06-24
 playlist:
   - id: "2018002501"
     week: 25
-    name: 猫になりたい
     artist: スピッツ
     year: 1994
     nation: JPN
@@ -23,7 +22,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002502"
     week: 25
-    name: Daydream Believer
     artist: The Monkees
     year: 1967
     nation: US
@@ -37,7 +35,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002503"
     week: 25
-    name: Looking for the Man
     artist: Rabbitt
     year: 1975
     nation: ZAF
@@ -48,7 +45,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002504"
     week: 25
-    name: Heartache Tonight
     artist: Eagles
     year: 1979
     nation: US
@@ -62,7 +58,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002505"
     week: 25
-    name: I Don't Like It
     artist: Zebra
     year: 1984
     nation: US
@@ -76,7 +71,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002506"
     week: 25
-    name: Prepare Your Coffin
     artist: Tortoise
     year: 2009
     nation: US
@@ -88,7 +82,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002507"
     week: 25
-    name: Come Unwound
     artist: The Bulls
     year: 2014
     nation: US
@@ -100,7 +93,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002508"
     week: 25
-    name: You're in Love
     artist: Ratt
     year: 1985
     nation: US
@@ -114,14 +106,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002509"
     week: 25
-    name: コペルニクス
     artist: SKAFUNK
     year: 1989
     nation: JPN
     label: Wonder Force
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: コペルニクス
     index: 210
     indexInWeek: 9

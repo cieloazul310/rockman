@@ -11,7 +11,7 @@ playlist:
     week: 91
     name: 青い車
     artist: スピッツ
-    kana: ""
+    
     year: 1994
     nation: JPN
     label: ポリドール
@@ -31,9 +31,8 @@ playlist:
     year: 2001
     nation: JPN
     label: Sony Records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: And I Love Car
     index: 749
     indexInWeek: 2
@@ -42,13 +41,12 @@ playlist:
     week: 91
     name: Driver
     artist: Official髭男dism
-    kana: ""
+    
     year: 2017
     nation: JPN
     label: ラストラム・ミュージックエンタテイメント
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: Driver
     index: 750
     indexInWeek: 3
@@ -61,9 +59,8 @@ playlist:
     year: 1976
     nation: JPN
     label: CBS・ソニー
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: トラベリン・バス
     index: 751
     indexInWeek: 4
@@ -72,13 +69,12 @@ playlist:
     week: 91
     name: I Fought the Law
     artist: The Clash
-    kana: ""
+    
     year: 1979
     nation: UK
     label: CBS
     producer:
       - Bill Price
-    corner: ""
     youtube: AL8chWFuM-s
     title: I Fought the Law
     index: 752
@@ -88,12 +84,11 @@ playlist:
     week: 91
     name: BIG CAR
     artist: シャムキャッツ
-    kana: ""
+    
     year: 2018
     nation: JPN
     label: TETRA RECORDS
-    producer: []
-    corner: ""
+    
     youtube: 4PgBEtXD-ww
     title: BIG CAR
     index: 753
@@ -103,12 +98,11 @@ playlist:
     week: 91
     name: マイウェイ ハイウェイ
     artist: トータス松本
-    kana: ""
+    
     year: 2010
     nation: JPN
     label: ワーナーミュージック・ジャパン
-    producer: []
-    corner: ""
+    
     youtube: _P-sdCiFRtA
     title: マイウェイ ハイウェイ
     index: 754
@@ -122,9 +116,8 @@ playlist:
     year: 2007
     nation: JPN
     label: BMG
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 夜をぶっとばせ
     index: 755
     indexInWeek: 8
@@ -133,14 +126,14 @@ playlist:
     week: 91
     name: ケンとメリー〜愛と風のように〜
     artist: BUZZ
-    kana: ""
+    
     year: 1972
     nation: JPN
     label: ロンドン・レコード
     producer:
       - 高橋信之
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: ケンとメリー〜愛と風のように〜
     index: 756
     indexInWeek: 9

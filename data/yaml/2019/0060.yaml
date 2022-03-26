@@ -11,11 +11,11 @@ playlist:
     week: 60
     name: Stratagem
     artist: Eric Johnson
-    kana: ""
+    
     year: 2017
     nation: US
     label: Vortexan Music
-    producer: []
+    
     corner: 漫遊前の一曲
     youtube: 4S4grLL10UM
     title: Stratagem
@@ -26,13 +26,12 @@ playlist:
     week: 60
     name: Beat It
     artist: Michael Jackson
-    kana: ""
+    
     year: 1983
     nation: US
     label: Epic
     producer:
       - Quincy Jones
-    corner: ""
     youtube: oRdxUFDoQe0
     title: Beat It
     index: 496
@@ -42,13 +41,12 @@ playlist:
     week: 60
     name: Dreaming
     artist: Blondie
-    kana: ""
+    
     year: 1979
     nation: US
     label: Chrysalis
     producer:
       - Mike Chapman
-    corner: ""
     youtube: TU3-lS_Gryk
     title: Dreaming
     index: 497
@@ -58,12 +56,11 @@ playlist:
     week: 60
     name: A Man I'll Never Be
     artist: Boston
-    kana: ""
+    
     year: 1978
     nation: US
     label: Epic
-    producer: []
-    corner: ""
+    
     youtube: gZxP3bMn0as
     title: A Man I'll Never Be
     index: 498
@@ -73,13 +70,12 @@ playlist:
     week: 60
     name: One Night Love Affair
     artist: Bryan Adams
-    kana: ""
+    
     year: 1985
     nation: CAN
     label: A&M
     producer:
       - Bob Clearmountain
-    corner: ""
     youtube: W3SwEZ2WoUA
     title: One Night Love Affair
     index: 499
@@ -89,13 +85,12 @@ playlist:
     week: 60
     name: I Don't Like Mondays
     artist: The Boomtown Rats
-    kana: ""
+    
     year: 1979
     nation: IRE
     label: Ensign
     producer:
       - Phil Wainman
-    corner: ""
     youtube: -Kobdb37Cwc
     title: I Don't Like Mondays
     index: 500
@@ -105,12 +100,11 @@ playlist:
     week: 60
     name: Air Guitar
     artist: McBusted
-    kana: ""
+    
     year: 2014
     nation: UK
     label: Island
-    producer: []
-    corner: ""
+    
     youtube: 6mLKQgP8pdM
     title: Air Guitar
     index: 501
@@ -120,13 +114,13 @@ playlist:
     week: 60
     name: LET'S GET TOGETHER
     artist: THE RYDERS
-    kana: ""
+    
     year: 1991
     nation: JPN
     label: トイズファクトリー
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: LET'S GET TOGETHER
     index: 502
     indexInWeek: 8

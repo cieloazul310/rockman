@@ -11,14 +11,14 @@ playlist:
     week: 101
     name: 快速
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: 快速
     index: 836
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 101
     name: Do They Know It's Christmas?
     artist: Band Aid
-    kana: ""
+    
     year: 1984
     nation: UK
     label: Phonogram
     producer:
       - Midge Ure
-    corner: ""
     youtube: Zdqf-8ToaD4
     title: Do They Know It's Christmas?
     index: 837
@@ -43,12 +42,11 @@ playlist:
     week: 101
     name: Requiem
     artist: Slik
-    kana: ""
+    
     year: 1976
     nation: UK
     label: Bell Records
-    producer: []
-    corner: ""
+    
     youtube: 8xnc2JuchUc
     title: Requiem
     index: 838
@@ -58,13 +56,12 @@ playlist:
     week: 101
     name: Young Girls
     artist: Rich Kids
-    kana: ""
+    
     year: 1978
     nation: UK
     label: EMI
     producer:
       - Mick Ronson
-    corner: ""
     youtube: wMN7MMW5c04
     title: Young Girls
     index: 839
@@ -74,13 +71,12 @@ playlist:
     week: 101
     name: New Europeans
     artist: Ultravox
-    kana: ""
+    
     year: 1980
     nation: UK
     label: Chrysalis
     producer:
       - Conny Plank
-    corner: ""
     youtube: VJK4TaO8u4Q
     title: New Europeans
     index: 840
@@ -90,13 +86,12 @@ playlist:
     week: 101
     name: Hymn
     artist: Ultravox
-    kana: ""
+    
     year: 1982
     nation: UK
     label: Chrysalis
     producer:
       - George Martin
-    corner: ""
     youtube: RXLkpwFs8Fs
     title: Hymn
     index: 841
@@ -106,12 +101,11 @@ playlist:
     week: 101
     name: If I Was
     artist: Midge Ure
-    kana: ""
+    
     year: 1985
     nation: UK
     label: Chrysalis
-    producer: []
-    corner: ""
+    
     youtube: VNeiRGzQTDU
     title: If I Was
     index: 842
@@ -121,13 +115,13 @@ playlist:
     week: 101
     name: 帰っておいで
     artist: JITTERIN'JINN
-    kana: ""
+    
     year: 1991
     nation: JPN
     label: 日本コロムビア
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 帰っておいで
     index: 843
     indexInWeek: 8

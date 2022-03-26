@@ -11,14 +11,14 @@ playlist:
     week: 100
     name: 虹を越えて
     artist: スピッツ
-    kana: ""
+    
     year: 1996
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: 虹を越えて
     index: 827
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 100
     name: Sugar Baby Love
     artist: The Rubettes
-    kana: ""
+    
     year: 1974
     nation: UK
     label: Polydor
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
     youtube: x6PRG-E4nYo
     title: Sugar Baby Love
     index: 828
@@ -43,14 +42,13 @@ playlist:
     week: 100
     name: I'm Gonna Knock On Your Door
     artist: The Pete Best Four
-    kana: ""
+    
     year: 1964
     nation: UK
     label: Decca Records
     producer:
       - Mike Smith
-    corner: ""
-    youtube: ""
+    
     title: I'm Gonna Knock On Your Door
     index: 829
     indexInWeek: 3
@@ -59,13 +57,12 @@ playlist:
     week: 100
     name: Nothing But a Heartache
     artist: The Flirtations
-    kana: ""
+    
     year: 1968
     nation: US
     label: Deram
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
     youtube: PBrNklk1aUI
     title: Nothing But a Heartache
     index: 830
@@ -75,13 +72,12 @@ playlist:
     week: 100
     name: What's Good About Goodbye My Love
     artist: The Flirtations
-    kana: ""
+    
     year: 1969
     nation: US
     label: Deram
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
     youtube: vo-gVBQbYx8
     title: What's Good About Goodbye My Love
     index: 831
@@ -91,14 +87,13 @@ playlist:
     week: 100
     name: I'm Just Dreaming
     artist: The Rubettes
-    kana: ""
+    
     year: 1975
     nation: UK
     label: State
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
-    youtube: ""
+    
     title: I'm Just Dreaming
     index: 832
     indexInWeek: 6
@@ -113,8 +108,7 @@ playlist:
     label: ポリドール
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
-    youtube: ""
+    
     title: CANDY
     index: 833
     indexInWeek: 7
@@ -123,13 +117,12 @@ playlist:
     week: 100
     name: Sugar Candy Kisses
     artist: Mac & Katie Kissoon
-    kana: ""
+    
     year: 1975
     nation: UK
     label: State
     producer:
       - Wayne Bickerton and Tony Wadding-ton
-    corner: ""
     youtube: 1j1T1GVSyUY
     title: Sugar Candy Kisses
     index: 834
@@ -139,13 +132,13 @@ playlist:
     week: 100
     name: すいみん不足
     artist: CHICKS
-    kana: ""
+    
     year: 1990
     nation: JPN
     label: 日本コロムビア
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: すいみん不足
     index: 835
     indexInWeek: 9

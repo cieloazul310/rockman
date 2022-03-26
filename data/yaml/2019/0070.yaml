@@ -11,14 +11,14 @@ playlist:
     week: 70
     name: 野生のポルカ
     artist: スピッツ
-    kana: ""
+    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: 野生のポルカ
     index: 575
     indexInWeek: 1
@@ -27,12 +27,11 @@ playlist:
     week: 70
     name: It's Time to Party
     artist: Andrew W.K.
-    kana: ""
+    
     year: 2001
     nation: US
     label: Island
-    producer: []
-    corner: ""
+    
     youtube: xemLz_fR1Ac
     title: It's Time to Party
     index: 576
@@ -42,13 +41,12 @@ playlist:
     week: 70
     name: Cum On Feel the Noize
     artist: Quiet Riot
-    kana: ""
+    
     year: 1983
     nation: US
     label: Pasha
     producer:
       - Spencer Proffer
-    corner: ""
     youtube: ZxgMGk9JPVA
     title: Cum On Feel the Noize
     index: 577
@@ -58,13 +56,12 @@ playlist:
     week: 70
     name: Semi-Charmed Life
     artist: Third Eye Blind
-    kana: ""
+    
     year: 1997
     nation: US
     label: Elektra
     producer:
       - Eric Valentine
-    corner: ""
     youtube: beINamVRGy4
     title: Semi-Charmed Life
     index: 578
@@ -74,13 +71,12 @@ playlist:
     week: 70
     name: In Love with a Camera
     artist: The Struts
-    kana: ""
+    
     year: 2018
     nation: UK
     label: Interscope Records
     producer:
       - Butch Walker
-    corner: ""
     youtube: Jp41GPXCQ8k
     title: In Love with a Camera
     index: 579
@@ -90,12 +86,11 @@ playlist:
     week: 70
     name: Parchman Farm
     artist: Cactus
-    kana: ""
+    
     year: 1970
     nation: US
     label: Atco
-    producer: []
-    corner: ""
+    
     youtube: mC_cvsR8wPg
     title: Parchman Farm
     index: 580
@@ -105,13 +100,12 @@ playlist:
     week: 70
     name: Still Waiting
     artist: SUM41
-    kana: ""
+    
     year: 2002
     nation: CAN
     label: Aquarius
     producer:
       - Greig Nori
-    corner: ""
     youtube: qO-mSLxih-c
     title: Still Waiting
     index: 581
@@ -121,13 +115,12 @@ playlist:
     week: 70
     name: The Art of Losing
     artist: American Hi-Fi
-    kana: ""
+    
     year: 2003
     nation: US
     label: Island
     producer:
       - Nick Launay
-    corner: ""
     youtube: JGZODoQq2Xg
     title: The Art of Losing
     index: 582
@@ -137,14 +130,14 @@ playlist:
     week: 70
     name: 太陽のラ
     artist: PoPoyans
-    kana: ""
+    
     year: 2008
     nation: JPN
     label: Good Records
     producer:
       - 鈴木惣一朗
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 太陽のラ
     index: 583
     indexInWeek: 9

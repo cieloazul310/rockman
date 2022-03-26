@@ -11,13 +11,13 @@ playlist:
     week: 78
     name: トンビ飛べなかった
     artist: スピッツ
-    kana: ""
+    
     year: 1991
     nation: JPN
     label: ポリドール
-    producer: []
+    
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: トンビ飛べなかった
     index: 641
     indexInWeek: 1
@@ -26,13 +26,12 @@ playlist:
     week: 78
     name: 東京少年
     artist: GOING STEADY
-    kana: ""
+    
     year: 2001
     nation: JPN
     label: Libra
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 東京少年
     index: 642
     indexInWeek: 2
@@ -41,12 +40,11 @@ playlist:
     week: 78
     name: The Golden Age of Rock 'n' Roll
     artist: Mott the Hoople
-    kana: ""
+    
     year: 1974
     nation: UK
     label: CBS
-    producer: []
-    corner: ""
+    
     youtube: yTAKizVFonE
     title: The Golden Age of Rock 'n' Roll
     index: 643
@@ -56,13 +54,12 @@ playlist:
     week: 78
     name: Down on the Street
     artist: The Stooges
-    kana: ""
+    
     year: 1970
     nation: US
     label: Elektra
     producer:
       - Don Gallucci
-    corner: ""
     youtube: fkC2lauXCKU
     title: Down on the Street
     index: 644
@@ -76,8 +73,7 @@ playlist:
     year: 2010
     nation: JPN
     label: PERFECT MUSIC
-    producer: []
-    corner: ""
+    
     youtube: NXT9rz8BErk
     title: ロックンロールは鳴り止まないっ
     index: 645
@@ -87,12 +83,11 @@ playlist:
     week: 78
     name: Big Green Country
     artist: Neil Young
-    kana: ""
+    
     year: 1995
     nation: US
     label: Reprise Records
-    producer: []
-    corner: ""
+    
     youtube: MUpuXlkOo7o
     title: Big Green Country
     index: 646
@@ -102,12 +97,11 @@ playlist:
     week: 78
     name: Cast Away Your Chains
     artist: Electric Sun
-    kana: ""
+    
     year: 1981
     nation: GER
     label: BRAIN-Metronome
-    producer: []
-    corner: ""
+    
     youtube: K0y09nzj8Cc
     title: Cast Away Your Chains
     index: 647
@@ -117,13 +111,13 @@ playlist:
     week: 78
     name: WINTER SUN（明日になれば僕等はきっと生まれ変わる）
     artist: ヒートウェイヴ
-    kana: ""
+    
     year: 1994
     nation: JPN
     label: Epic
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: WINTER SUN（明日になれば僕等はきっと生まれ変わる）
     index: 648
     indexInWeek: 8

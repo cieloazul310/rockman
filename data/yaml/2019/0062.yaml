@@ -11,14 +11,14 @@ playlist:
     week: 62
     name: ヒビスクス
     artist: スピッツ
-    kana: ""
+    
     year: 2016
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: ヒビスクス
     index: 512
     indexInWeek: 1
@@ -27,12 +27,11 @@ playlist:
     week: 62
     name: マリーゴールド
     artist: あいみょん
-    kana: ""
+    
     year: 2018
     nation: JPN
     label: unBORDE
-    producer: []
-    corner: ""
+    
     youtube: 0xSiBpUdW4E
     title: マリーゴールド
     index: 513
@@ -42,13 +41,12 @@ playlist:
     week: 62
     name: New Rose
     artist: The Damned
-    kana: ""
+    
     year: 1976
     nation: UK
     label: Stiff
     producer:
       - Nick Lowe
-    corner: ""
     youtube: cHvSDCLLFpc
     title: New Rose
     index: 514
@@ -58,13 +56,12 @@ playlist:
     week: 62
     name: カトレア
     artist: ヨルシカ
-    kana: ""
+    
     year: 2017
     nation: JPN
     label: U&R records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: カトレア
     index: 515
     indexInWeek: 4
@@ -73,13 +70,12 @@ playlist:
     week: 62
     name: Fresh As A Daisy
     artist: Emitt Rhodes
-    kana: ""
+    
     year: 1970
     nation: US
     label: Dunhill
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: Fresh As A Daisy
     index: 516
     indexInWeek: 5
@@ -88,12 +84,11 @@ playlist:
     week: 62
     name: Sunflower
     artist: Paul Weller
-    kana: ""
+    
     year: 1993
     nation: UK
     label: Go! Discs
-    producer: []
-    corner: ""
+    
     youtube: BeiB9x5XT_0
     title: Sunflower
     index: 517
@@ -103,14 +98,13 @@ playlist:
     week: 62
     name: ハイビスカスは冬に咲く
     artist: チャットモンチー
-    kana: ""
+    
     year: 2009
     nation: JPN
     label: Ki/oon Records
     producer:
       - 亀田誠治
-    corner: ""
-    youtube: ""
+    
     title: ハイビスカスは冬に咲く
     index: 518
     indexInWeek: 7
@@ -123,9 +117,9 @@ playlist:
     year: 1993
     nation: JPN
     label: フォーライフ
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: Jasmine
     index: 519
     indexInWeek: 8

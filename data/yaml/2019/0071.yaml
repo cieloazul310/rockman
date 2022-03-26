@@ -9,30 +9,23 @@ date: 2019-05-12
 playlist:
   - id: "2019007101"
     week: 71
-    name: みそか
     artist: スピッツ
-    kana: ""
     year: 2005
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: みそか
     index: 584
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019007102"
     week: 71
-    name: MONSTER DANCE
     artist: KEYTALK
-    kana: ""
     year: 2015
     nation: JPN
     label: Getting Better
-    producer: []
-    corner: ""
     youtube: N39glrfql0I
     title: MONSTER DANCE
     index: 585
@@ -40,14 +33,10 @@ playlist:
     selector: リクエスト
   - id: "2019007103"
     week: 71
-    name: A A U U O O O
     artist: the telephones
-    kana: ""
     year: 2011
     nation: JPN
     label: ユニバーサル
-    producer: []
-    corner: ""
     youtube: utqODi4MDbA
     title: A A U U O O O
     index: 586
@@ -55,14 +44,11 @@ playlist:
     selector: リクエスト
   - id: "2019007104"
     week: 71
-    name: オトナノススメ
     artist: 怒髪天
     kana: どはつてん
     year: 2009
     nation: JPN
     label: インペリアル
-    producer: []
-    corner: ""
     youtube: m8ZIW_01zdo
     title: オトナノススメ
     index: 587
@@ -70,14 +56,10 @@ playlist:
     selector: リクエスト
   - id: "2019007105"
     week: 71
-    name: あつまれ!パーティーピーポー
     artist: ヤバイTシャツ屋さん
-    kana: ""
     year: 2016
     nation: JPN
     label: ユニバーサルシグマ
-    producer: []
-    corner: ""
     youtube: J5oytYDMWHA
     title: あつまれ!パーティーピーポー
     index: 588
@@ -85,45 +67,32 @@ playlist:
     selector: リクエスト
   - id: "2019007106"
     week: 71
-    name: Run Run Run
-    artist: OKAMOTO’S
-    kana: ""
+    artist: OKAMOTO'S
     year: 2010
     nation: JPN
     label: アリオラジャパン
-    producer: []
-    corner: ""
-    youtube: ""
     title: Run Run Run
     index: 589
     indexInWeek: 6
     selector: リクエスト
   - id: "2019007107"
     week: 71
-    name: C.M.C.
     artist: THE ROOSTERS
-    kana: ""
     year: 1983
     nation: JPN
     label: 日本コロムビア
-    producer: []
-    corner: ""
-    youtube: ""
     title: C.M.C.
     index: 590
     indexInWeek: 7
     selector: リクエスト
   - id: "2019007108"
     week: 71
-    name: Deadend Street GIRL
     artist: 堀ちえみ
     kana: ほりちえみ
     year: 1985
     nation: JPN
     label: キャニオンレコード
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: Deadend Street GIRL
     index: 591
     indexInWeek: 8

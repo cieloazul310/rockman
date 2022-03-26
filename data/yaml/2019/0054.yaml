@@ -11,14 +11,14 @@ playlist:
     week: 54
     name: タイムトラベル
     artist: スピッツ
-    kana: ""
+    
     year: 2012
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: タイムトラベル
     index: 445
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 54
     name: Jump
     artist: Aztec Camera
-    kana: ""
+    
     year: 1985
     nation: UK
     label: Sire
     producer:
       - Mark Knopfler
-    corner: ""
     youtube: 4kHbCneNLWE
     title: Jump
     index: 446
@@ -43,13 +42,12 @@ playlist:
     week: 54
     name: Iron Man
     artist: The Cardigans
-    kana: ""
+    
     year: 1996
     nation: SWE
     label: Stockholm Mercury
     producer:
       - Tore Johansson
-    corner: ""
     youtube: U8JHP1wo-R4
     title: Iron Man
     index: 447
@@ -59,12 +57,11 @@ playlist:
     week: 54
     name: Video Killed The Radio Star
     artist: The Presidents Of The United States Of America
-    kana: ""
+    
     year: 1998
     nation: US
     label: Warner Bros.
-    producer: []
-    corner: ""
+    
     youtube: wAiGd9nTGmM
     title: Video Killed The Radio Star
     index: 448
@@ -74,13 +71,12 @@ playlist:
     week: 54
     name: Live and Let Die
     artist: Guns N' Roses
-    kana: ""
+    
     year: 1991
     nation: US
     label: Geffen
     producer:
       - Mike Clink
-    corner: ""
     youtube: 6D9vAItORgE
     title: Live and Let Die
     index: 449
@@ -90,12 +86,11 @@ playlist:
     week: 54
     name: Superstar
     artist: Sonic Youth
-    kana: ""
+    
     year: 1994
     nation: US
     label: A&M
-    producer: []
-    corner: ""
+    
     youtube: Y21VecIIdBI
     title: Superstar
     index: 450
@@ -105,13 +100,12 @@ playlist:
     week: 54
     name: Mother
     artist: Christina Aguilera
-    kana: ""
+    
     year: 2007
     nation: US
     label: Warner Bros.
     producer:
       - Linda Perry
-    corner: ""
     youtube: KUtqtCCR0cs
     title: Mother
     index: 451
@@ -125,9 +119,9 @@ playlist:
     year: 2002
     nation: JPN
     label: Dreamusic
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 夏の魔物
     index: 452
     indexInWeek: 8

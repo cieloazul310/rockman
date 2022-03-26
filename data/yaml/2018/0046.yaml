@@ -11,13 +11,13 @@ playlist:
     week: 46
     name: テレビ
     artist: スピッツ
-    kana: ""
+    
     year: 1991
     nation: JPN
     label: ポリドール
-    producer: []
+    
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: テレビ
     index: 377
     indexInWeek: 1
@@ -68,13 +68,12 @@ playlist:
     week: 46
     name: Something Against You
     artist: Pixies
-    kana: ""
+    
     year: 1988
     nation: US
     label: 4AD
     producer:
       - Steve Albini
-    corner: ""
     youtube: ApUZ5DEyBHM
     title: Something Against You
     index: 381

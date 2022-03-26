@@ -9,23 +9,19 @@ date: 2019-09-01
 playlist:
   - id: "2019008701"
     week: 87
-    name: 夏が終わる
     artist: スピッツ
-    kana: ""
     year: 1993
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: 夏が終わる
     index: 715
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019008702"
     week: 87
-    name: オンリー ロンリー グローリー
     artist: BUMP OF CHICKEN
     year: 2004
     nation: JPN
@@ -37,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008703"
     week: 87
-    name: グングニル
     artist: BUMP OF CHICKEN
     year: 2000
     nation: JPN
@@ -48,7 +43,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008704"
     week: 87
-    name: ハルジオン
     artist: BUMP OF CHICKEN
     year: 2001
     nation: JPN
@@ -60,7 +54,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008705"
     week: 87
-    name: 才悩人応援歌
     artist: BUMP OF CHICKEN
     year: 2007
     nation: JPN
@@ -71,7 +64,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008706"
     week: 87
-    name: HAPPY
     artist: BUMP OF CHICKEN
     year: 2010
     nation: JPN
@@ -83,7 +75,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008707"
     week: 87
-    name: Aurora
     artist: BUMP OF CHICKEN
     year: 2019
     nation: JPN
@@ -95,12 +86,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019008708"
     week: 87
-    name: Akatsuki
-    artist: PE’Z
+    artist: PE'Z
     year: 2002
     nation: JPN
     label: 東芝EMI
-    producer: []
     corner: ちょっぴりタイムマシン
     youtube: gET09aOXZXI
     title: Akatsuki

@@ -9,7 +9,6 @@ date: 2018-10-07
 playlist:
   - id: "2018004001"
     week: 40
-    name: 楓
     artist: スピッツ
     year: 1998
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004002"
     week: 40
-    name: Fire and Water
     artist: Free
     year: 1970
     nation: UK
@@ -38,7 +36,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004003"
     week: 40
-    name: Wishing Well
     artist: Free
     year: 1973
     nation: UK
@@ -52,19 +49,17 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004004"
     week: 40
-    name: Can’t Get Enough
     artist: Bad Company
     year: 1974
     nation: UK
     label: Island
     youtube: 7p9mzYB--uI
-    title: Can’t Get Enough
+    title: Can't Get Enough
     index: 329
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2018004005"
     week: 40
-    name: Painted Face
     artist: Bad Company
     year: 1982
     nation: UK
@@ -76,7 +71,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004006"
     week: 40
-    name: We Are the Champion
     artist: Queen + Paul Rodgers
     year: 2005
     nation: UK
@@ -90,7 +84,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004007"
     week: 40
-    name: Guardian of the Universe
     artist: Free
     year: 1972
     nation: UK
@@ -102,7 +95,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004008"
     week: 40
-    name: おもちゃの血
     artist: ローザ・ルクセンブルグ
     year: 1986
     nation: JPN

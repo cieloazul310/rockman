@@ -11,11 +11,11 @@ playlist:
     week: 73
     name: 優しいあの子
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
-    producer: []
+    
     corner: 漫遊前の一曲
     youtube: RkIOd78C82I
     title: 優しいあの子
@@ -26,12 +26,11 @@ playlist:
     week: 73
     name: Woman
     artist: John Lennon
-    kana: ""
+    
     year: 1981
     nation: UK
     label: Geffen
-    producer: []
-    corner: ""
+    
     youtube: ZhfWiU8wGCc
     title: Woman
     index: 602
@@ -41,12 +40,11 @@ playlist:
     week: 73
     name: Sweet Lorraine
     artist: Uriah Heep
-    kana: ""
+    
     year: 1972
     nation: UK
     label: Bronze
-    producer: []
-    corner: ""
+    
     youtube: haUiygv5QQg
     title: Sweet Lorraine
     index: 603
@@ -60,9 +58,8 @@ playlist:
     year: 1984
     nation: JPN
     label: SMS Records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: モニカ
     index: 604
     indexInWeek: 4
@@ -71,13 +68,12 @@ playlist:
     week: 73
     name: Pinball Wizard
     artist: The Who
-    kana: ""
+    
     year: 1969
     nation: UK
     label: Decca Records
     producer:
       - Kit Lambert
-    corner: ""
     youtube: -J03yCE15rg
     title: Pinball Wizard
     index: 605
@@ -87,12 +83,11 @@ playlist:
     week: 73
     name: Venus
     artist: Shocking Blue
-    kana: ""
+    
     year: 1969
     nation: NED
     label: Pink Elephant
-    producer: []
-    corner: ""
+    
     youtube: Dg-UiOSjJeM
     title: Venus
     index: 606
@@ -102,12 +97,11 @@ playlist:
     week: 73
     name: RADIO MAGIC
     artist: EARTHSHAKER
-    kana: ""
+    
     year: 1984
     nation: JPN
     label: NEXUS
-    producer: []
-    corner: ""
+    
     youtube: n9syF5d_pyQ
     title: RADIO MAGIC
     index: 607
@@ -117,11 +111,11 @@ playlist:
     week: 73
     name: クライマクス
     artist: TAMTAM
-    kana: ""
+    
     year: 2014
     nation: JPN
     label: SPEEDSTAR RECORDS
-    producer: []
+    
     corner: ちょっぴりタイムマシン
     youtube: LAqVYrPqOM8
     title: クライマクス

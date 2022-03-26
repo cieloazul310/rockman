@@ -25,7 +25,7 @@ playlist:
     nation: US
     label: Epic
     youtube: 2HuiH-0R6a0
-    title: Don’t Look Back
+    title: Don't Look Back
     index: 2
     indexInWeek: 2
     selector: 草野マサムネ
@@ -53,7 +53,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018000105"
     week: 1
-    name: Message in a Bottle
     artist: The Police
     year: 1979
     nation: UK
@@ -80,7 +79,7 @@ playlist:
     nation: US
     label: Casablanca
     youtube: SzhdSKxrymY
-    title: Strutter ’78
+    title: Strutter '78
     index: 7
     indexInWeek: 7
     selector: 草野マサムネ

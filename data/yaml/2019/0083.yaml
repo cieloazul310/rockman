@@ -11,14 +11,14 @@ playlist:
     week: 83
     name: 野生のポルカ
     artist: スピッツ
-    kana: ""
+    
     year: 2013
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
+    
     title: 野生のポルカ
     index: 681
     indexInWeek: 1
@@ -27,13 +27,12 @@ playlist:
     week: 83
     name: ロマンチスト
     artist: The STALIN
-    kana: ""
+    
     year: 1982
     nation: JPN
     label: クライマックスレコード
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: ロマンチスト
     index: 682
     indexInWeek: 2
@@ -42,14 +41,13 @@ playlist:
     week: 83
     name: EARTHSHAKER
     artist: EARTHSHAKER
-    kana: ""
+    
     year: 1983
     nation: JPN
     label: キングレコード
     producer:
       - 伊藤政則
-    corner: ""
-    youtube: ""
+    
     title: EARTHSHAKER
     index: 683
     indexInWeek: 3
@@ -64,7 +62,6 @@ playlist:
     label: ショーボートレコード
     producer:
       - ミッキー・カーチス
-    corner: ""
     youtube: UINL13_XHLg
     title: 香り
     index: 684
@@ -78,9 +75,8 @@ playlist:
     year: 1971
     nation: JPN
     label: Gator Wobble Records
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: どうしようかな
     index: 685
     indexInWeek: 5
@@ -89,12 +85,11 @@ playlist:
     week: 83
     name: DIE OR JUMP
     artist: フラワーカンパニーズ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: チキン・スキン・レコード
-    producer: []
-    corner: ""
+    
     youtube: xhv5XRYGMmM
     title: DIE OR JUMP
     index: 686
@@ -104,14 +99,13 @@ playlist:
     week: 83
     name: メシ喰うな!
     artist: INU
-    kana: ""
+    
     year: 1981
     nation: JPN
     label: ジャパンレコーズ
     producer:
       - 鳥井ガク
-    corner: ""
-    youtube: ""
+    
     title: メシ喰うな!
     index: 687
     indexInWeek: 7
@@ -120,13 +114,12 @@ playlist:
     week: 83
     name: 米ニスト
     artist: あぶらだこ
-    kana: ""
+    
     year: 1983
     nation: JPN
     label: ジャパンレコーズ
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: 米ニスト
     index: 688
     indexInWeek: 8
@@ -135,14 +128,14 @@ playlist:
     week: 83
     name: 新宿の片隅から
     artist: SION
-    kana: ""
+    
     year: 1986
     nation: JPN
     label: CONTINENTAL
     producer:
       - 麻田浩
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 新宿の片隅から
     index: 689
     indexInWeek: 9

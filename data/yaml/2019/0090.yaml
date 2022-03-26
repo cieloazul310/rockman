@@ -11,7 +11,7 @@ playlist:
     week: 90
     name: ありがとさん
     artist: スピッツ
-    kana: ""
+    
     year: 2019
     nation: JPN
     label: ユニバーサル
@@ -27,13 +27,12 @@ playlist:
     week: 90
     name: Sunday Morning
     artist: The Velvet Underground
-    kana: ""
+    
     year: 1966
     nation: US
     label: Verce
     producer:
       - Tom Wilson
-    corner: ""
     youtube: Xhbyj8pqUao
     title: Sunday Morning
     index: 740
@@ -43,13 +42,12 @@ playlist:
     week: 90
     name: Epitaph
     artist: Judas Priest
-    kana: ""
+    
     year: 1976
     nation: UK
     label: Gull
-    producer: []
-    corner: ""
-    youtube: ""
+    
+    
     title: Epitaph
     index: 741
     indexInWeek: 3
@@ -58,13 +56,12 @@ playlist:
     week: 90
     name: Rain
     artist: Uriah Heep
-    kana: ""
+    
     year: 1972
     nation: UK
     label: Bronze
     producer:
       - Gerry Bron
-    corner: ""
     youtube: 0-o-cAwKFnc
     title: Rain
     index: 742
@@ -74,12 +71,11 @@ playlist:
     week: 90
     name: Baby Baby
     artist: The Vibrators
-    kana: ""
+    
     year: 1977
     nation: UK
     label: Epic
-    producer: []
-    corner: ""
+    
     youtube: rwxxkq6k1x4
     title: Baby Baby
     index: 743
@@ -89,14 +85,13 @@ playlist:
     week: 90
     name: Home Tonight
     artist: Aerosmith
-    kana: ""
+    
     year: 1976
     nation: US
     label: Columbia
     producer:
       - Jack Douglas
-    corner: ""
-    youtube: ""
+    
     title: Home Tonight
     index: 744
     indexInWeek: 6
@@ -105,13 +100,12 @@ playlist:
     week: 90
     name: Good Riddance (Time of Your Life)
     artist: Green Day
-    kana: ""
+    
     year: 1997
     nation: US
     label: Reprise Records
     producer:
       - Rob Cavallo
-    corner: ""
     youtube: CnQ8N1KacJc
     title: Good Riddance (Time of Your Life)
     index: 745
@@ -121,14 +115,13 @@ playlist:
     week: 90
     name: Rainbow River
     artist: Vashti Bunyan
-    kana: ""
+    
     year: 1970
     nation: UK
     label: Philips
     producer:
       - Joe Boyd
-    corner: ""
-    youtube: ""
+    
     title: Rainbow River
     index: 746
     indexInWeek: 8
@@ -141,9 +134,9 @@ playlist:
     year: 1977
     nation: JPN
     label: Bourbon Records
-    producer: []
+    
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    
     title: 過ぎ去りし日々
     index: 747
     indexInWeek: 9
