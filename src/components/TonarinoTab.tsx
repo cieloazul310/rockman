@@ -1,58 +1,50 @@
 import * as React from 'react';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
 import { ProgramPageHeader, ArtistPageHeader } from './PageHeader';
-import Section, { SectionDivider } from './Section';
 import { TuneSkeleton } from './Tune';
 import { TunesByProgramSkeleton } from './TunesByProgram';
-import { SitePageContextNext, SitePageContextPrevious } from '../../graphql-types';
+import { ProgramBrowser, ArtistBrowser } from '../../types';
 
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    tabs: {
-      padding: theme.spacing(3, 0),
-    },
-  })
-);
+type ProgramTonarinoTabProps = {
+  item: Pick<ProgramBrowser, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
+    playlist: unknown[];
+  };
+};
 
-function TabsDummy() {
-  const classes = useStyles();
-  return <div className={classes.tabs} />;
-}
-
-interface ProgramTonarinoTabProps {
-  item: Pick<NonNullable<SitePageContextNext> | NonNullable<SitePageContextPrevious>, 'fields' | 'week' | 'title' | 'date'>;
-}
-
-export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps): JSX.Element {
+export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps) {
   return (
     <div>
       <ProgramPageHeader program={item} />
       <SectionDivider />
       <Section>
-        <TabsDummy />
-        <TuneSkeleton />
-        <TuneSkeleton />
-        <TuneSkeleton />
-        <TuneSkeleton />
-        <TuneSkeleton />
-        <TuneSkeleton />
+        <Article maxWidth="md" disableGutters>
+          <TuneSkeleton />
+          <TuneSkeleton />
+          <TuneSkeleton />
+          <TuneSkeleton />
+          <TuneSkeleton />
+          <TuneSkeleton />
+        </Article>
       </Section>
     </div>
   );
 }
 
-interface ArtistTonarinoTabProps {
-  item: Pick<NonNullable<SitePageContextNext> | NonNullable<SitePageContextPrevious>, 'name' | 'image' | 'programCount' | 'tunesCount'>;
-}
+type ArtistTonarinoTabProps = {
+  item: Pick<ArtistBrowser, 'name' | 'nation'> & {
+    program: Pick<ArtistBrowser['program'], 'image' | 'programsCount' | 'tunesCount'>;
+  };
+};
 
-export function ArtistTonarinoTab({ item }: ArtistTonarinoTabProps): JSX.Element {
+export function ArtistTonarinoTab({ item }: ArtistTonarinoTabProps) {
   return (
     <div>
       <ArtistPageHeader artist={item} />
       <SectionDivider />
       <Section>
-        <TabsDummy />
-        <TunesByProgramSkeleton />
+        <Article maxWidth="md" disableGutters>
+          <TunesByProgramSkeleton />
+        </Article>
       </Section>
     </div>
   );

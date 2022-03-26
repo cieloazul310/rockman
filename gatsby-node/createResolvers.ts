@@ -1,52 +1,22 @@
 import { CreateResolversArgs, Node } from 'gatsby';
-import { GraphQLFieldResolver } from 'gatsby/graphql';
-import { PureProgram, PurePlaylist } from './types';
-import { intQueryFilter, stringQueryFilter } from './utils';
+import { intQueryFilter, stringQueryFilter, IntQueryOperatorInput, StringQueryOperatorInput } from './utils';
+import { GatsbyGraphQLContext } from './graphql';
+import { Program, Tune } from '../types';
 
-interface GatsbyNodeModel {
-  getAllNodes: <T extends Node>(args: { type: string }) => T[];
-  runQuery: <T>(args: { type: string; query: { [key: string]: unknown } }) => Promise<T[]>;
-}
-interface GatsbyGraphQLContext {
-  nodeModel: GatsbyNodeModel;
-}
-interface GatsbyResolver {
-  type?: string | string[];
-  args?: Record<string, unknown>;
-  resolve: GraphQLFieldResolver<Record<string, unknown>, GatsbyGraphQLContext, Record<string, unknown>>;
-}
-
-type GatsbyResolverMap = {
-  [typeName: string]: {
-    [fieldName: string]: GatsbyResolver;
-  };
+type AllTunesQueryArgs = {
+  year: IntQueryOperatorInput;
+  corner: StringQueryOperatorInput;
+  nation: StringQueryOperatorInput;
+  artist: StringQueryOperatorInput;
+  title: StringQueryOperatorInput;
+  selector: StringQueryOperatorInput;
 };
 
-export default function onCreateResolvers({ createResolvers }: CreateResolversArgs): void {
-  const resolvers: GatsbyResolverMap = {
-    spitzTunes: {
-      append: {
-        type: [`program`],
-        resolve: (source, args, context) => {
-          const data = context.nodeModel.getAllNodes<PureProgram>({
-            type: 'program',
-          });
-          return (
-            data
-              .filter(({ playlist }) =>
-                playlist
-                  .filter(({ artist }) => artist === 'スピッツ')
-                  .map(({ title }) => title)
-                  .includes(source.title as string)
-              )
-              .sort((a, b) => a.week - b.week) ?? []
-          );
-        },
-      },
-    },
+export default async function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
+  const resolvers = {
     Query: {
       allTunes: {
-        type: [`programPlaylist`],
+        type: `AllTunes`,
         args: {
           year: `IntQueryOperatorInput`,
           corner: `StringQueryOperatorInput`,
@@ -55,20 +25,73 @@ export default function onCreateResolvers({ createResolvers }: CreateResolversAr
           title: `StringQueryOperatorInput`,
           selector: `StringQueryOperatorInput`,
         },
-        resolve: (source, args, context) => {
-          const { year, corner, nation, artist, title, selector } = args;
-          const allProgram = context.nodeModel.getAllNodes<PureProgram>({ type: `program` });
-          const allTunes = allProgram
-            .reduce<PurePlaylist[]>((accum, curr) => [...accum, ...curr.playlist], [])
-            .sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek);
+        resolve: async (source: unknown, { artist, ...otherArgs }: AllTunesQueryArgs, context: GatsbyGraphQLContext) => {
+          const { year, corner, nation, title, selector } = otherArgs;
+          const artistFilter = artist
+            ? {
+                artist: {
+                  name: artist,
+                },
+              }
+            : {};
+          const { entries } = await context.nodeModel.findAll<Program & Node>({
+            type: `Program`,
+            query: {
+              filter: {
+                playlist: {
+                  elemMatch: {
+                    ...otherArgs,
+                    ...artistFilter,
+                  },
+                },
+              },
+            },
+          });
 
-          return allTunes
+          const allProgram = Array.from(entries);
+          const allTunes = allProgram
+            .reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], [])
+            .sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek)
             .filter((tune) => stringQueryFilter(title)(tune.title))
             .filter((tune) => stringQueryFilter(artist)(tune.artist))
             .filter((tune) => intQueryFilter(year)(tune.year))
             .filter((tune) => stringQueryFilter(corner)(tune.corner ?? ''))
             .filter((tune) => stringQueryFilter(nation)(tune.nation))
             .filter((tune) => stringQueryFilter(selector)(tune.selector));
+
+          return { totalCount: allTunes.length, tunes: allTunes };
+        },
+      },
+      allSelectors: {
+        type: `[Selector]`,
+        resolve: async (source: unknown, args: unknown, context: GatsbyGraphQLContext) => {
+          const { entries } = await context.nodeModel.findAll<Program & Node>({
+            type: `Program`,
+            query: {
+              filter: { playlist: { elemMatch: { selector: { regex: '/^(?!.*草野マサムネ).*$/' } } } },
+            },
+          });
+          const allPrograms = Array.from(entries).sort((a, b) => a.week - b.week);
+          const allSelectorNames = new Set(
+            allPrograms.reduce<string[]>((accum, curr) => [...accum, ...curr.playlist.map(({ selector }) => selector)], [])
+          );
+          allSelectorNames.delete('草野マサムネ');
+          const allSelectors = Array.from(allSelectorNames, (name) => {
+            const programs = allPrograms
+              .filter(({ playlist }) => playlist.map(({ selector }) => selector).includes(name))
+              .map<Program & Node>(({ playlist, ...program }) => ({
+                ...program,
+                playlist: playlist.filter(({ selector }) => selector === name),
+              }));
+
+            return {
+              name,
+              programs,
+              programsCount: programs.length,
+              tunesCount: programs.reduce((accum, curr) => accum + curr.playlist.length, 0),
+            };
+          });
+          return allSelectors.sort((a, b) => b.tunesCount - a.tunesCount);
         },
       },
     },

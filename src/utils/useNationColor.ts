@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { useTheme } from '@material-ui/core/styles';
-import { blue, orange, green, red, purple, lime, grey } from '@material-ui/core/colors';
+import { useTheme } from '@mui/material/styles';
+import { blue, orange, green, red, purple, lime, grey } from '@mui/material/colors';
 
 const colorScheme = {
   JPN: blue,
@@ -18,14 +18,17 @@ export function isSchemeNations(nation: string): nation is SchemeNations {
 }
 
 // returns [nation color, contrast text color]
-export default function useNationColor(nation: string): string[] {
+export default function useNationColor(nation: string) {
   const { palette } = useTheme();
   return React.useMemo(() => {
-    const isDark = palette.type === 'dark';
+    const isDark = palette.mode === 'dark';
     if (isSchemeNations(nation)) {
       const nationColor = isDark ? colorScheme[nation][300] : colorScheme[nation][600];
-      return [nationColor, palette.getContrastText(nationColor)];
+      return {
+        bgcolor: nationColor,
+        color: palette.getContrastText(nationColor),
+      };
     }
-    return [grey[600], palette.getContrastText(grey[600])];
+    return { bgcolor: grey[600], color: palette.getContrastText(grey[600]) };
   }, [palette, nation]);
 }

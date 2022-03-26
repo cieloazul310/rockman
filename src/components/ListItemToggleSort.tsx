@@ -1,13 +1,13 @@
 import * as React from 'react';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
-import Switch from '@material-ui/core/Switch';
-import SortIcon from '@material-ui/icons/Sort';
-import { useAppState, useDispatch } from '../gatsby-theme-aoi-top-layout/utils/AppStateContext';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemSecondaryAction from '@mui/material/ListItemSecondaryAction';
+import Switch from '@mui/material/Switch';
+import SortIcon from '@mui/icons-material/Sort';
+import { useAppState, useDispatch } from '../@cieloazul310/gatsby-theme-aoi-top-layout/utils/AppStateContext';
 
-function ListItemToggleSort(): JSX.Element {
+function ListItemToggleSort() {
   const { sort } = useAppState();
   const dispatch = useDispatch();
   const toggleSort = () => {
@@ -20,7 +20,13 @@ function ListItemToggleSort(): JSX.Element {
       </ListItemIcon>
       <ListItemText primary="新しい順" />
       <ListItemSecondaryAction>
-        <Switch edge="end" onChange={toggleSort} checked={sort === 'newer'} inputProps={{ 'aria-labelledby': 'switch-list-toggle-sort' }} />
+        <Switch
+          edge="end"
+          onChange={toggleSort}
+          checked={sort === 'newer'}
+          inputProps={{ 'aria-labelledby': 'switch-list-toggle-sort' }}
+          color="secondary"
+        />
       </ListItemSecondaryAction>
     </ListItem>
   );

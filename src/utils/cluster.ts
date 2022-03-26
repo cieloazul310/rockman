@@ -1,7 +1,7 @@
-interface Cluster<T, K extends string | number> {
+type Cluster<T, K extends string | number> = {
   value: K;
   items: T[];
-}
+};
 
 export function clusterByValue<T, K extends string | number>(arr: T[], getValue: (item: T) => K): Cluster<T, K>[] {
   const set = new Set(arr.map(getValue));
@@ -18,7 +18,7 @@ export function getDividedYears<T>(arr: T[], divYear: number, getYear: (item: T)
 
 export function getFiveYearString(year: number): string {
   const str = year.toString();
-  const char = str.slice(-1) === '0' ? '前半' : '後半';
+  const char = str.slice(-1) === '0' ? '前期' : '後期';
   return `${str.slice(0, -1)}0s${char}`;
 }
 

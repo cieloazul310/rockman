@@ -1,74 +1,31 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Typography from '@mui/material/Typography';
+import { useTheme } from '@mui/material/styles';
+import { Jumbotron as AoiJumbotron, JumbotronProps as AoiJumbotronProps } from '@cieloazul310/gatsby-theme-aoi';
 
-interface StyleProps {
-  image?: string;
-}
-const height = 240;
-
-const useStyles = makeStyles<Theme, StyleProps>((theme: Theme) =>
-  createStyles({
-    root: {
-      height,
-      overflow: 'hidden',
-      position: 'relative',
-    },
-    jumbotronBg: ({ image }) => ({
-      height: '100%',
-      backgroundColor: !image && theme.palette.type === 'light' ? theme.palette.secondary.light : theme.palette.grey[700],
-      backgroundImage: image ? `url(${image})` : undefined,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      filter: image ? 'blur(6px) brightness(0.8)' : undefined,
-      transform: image ? 'scale(1.1)' : undefined,
-    }),
-    jumbotronText: {
-      height,
-      color: 'white',
-      position: 'absolute',
-      transform: 'translate(0, -100%)',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      zIndex: 2,
-      padding: theme.spacing(2, 4),
-      [theme.breakpoints.down('xs')]: {
-        padding: theme.spacing(2),
-      },
-    },
-    jumbotronTitle: {
-      fontWeight: 'bold',
-    },
-  })
-);
-
-interface Props {
-  header?: React.ReactNode;
+type JumbotronProps = Omit<AoiJumbotronProps, 'title' | 'disableGradient' | 'maxWidth'> & {
+  headerText?: React.ReactNode;
   title: React.ReactNode;
-  footer?: React.ReactNode;
+  footerText?: React.ReactNode;
   image?: string;
-}
+};
 
-function Jumbotron({ header, footer, title, image }: Props): JSX.Element {
-  const classes = useStyles({ image });
+function Jumbotron({ headerText, footerText, title, image, ...props }: JumbotronProps) {
+  const { palette } = useTheme();
   return (
-    <div className={classes.root}>
-      <div className={classes.jumbotronBg} />
-      <div className={classes.jumbotronText}>
-        {header ? <Typography variant="subtitle2">{header}</Typography> : null}
-        <Typography variant="h5" component="h2" className={classes.jumbotronTitle} gutterBottom>
-          {title}
-        </Typography>
-        {footer ? <Typography variant="subtitle2">{footer}</Typography> : null}
-      </div>
-    </div>
+    <AoiJumbotron maxWidth="md" disableGradient={palette.mode === 'light'} bgImage={image} {...props}>
+      {headerText ? <Typography>{headerText}</Typography> : null}
+      <Typography variant="h5" component="h2" gutterBottom>
+        {title}
+      </Typography>
+      {footerText ? <Typography>{footerText}</Typography> : null}
+    </AoiJumbotron>
   );
 }
 
 Jumbotron.defaultProps = {
-  header: undefined,
-  footer: undefined,
+  headerText: undefined,
+  footerText: undefined,
   image: undefined,
 };
 

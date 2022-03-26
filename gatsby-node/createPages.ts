@@ -1,59 +1,39 @@
 import * as path from 'path';
 import { CreatePagesArgs } from 'gatsby';
-import { Program, Artist } from './types';
+import { Program, ArtistBrowser } from '../types';
 
-type ProgramPrevNext = Pick<Program, 'title' | 'date' | 'fields' | 'week'>;
-
-interface CreateProgramPagesQueryData {
+type CreatePagesQueryData = {
   allProgram: {
     edges: {
-      node: Pick<Program, 'fields'>;
-      next: ProgramPrevNext;
-      previous: ProgramPrevNext;
+      node: Pick<Program, 'week' | 'title' | 'slug' | 'date'>;
     }[];
   };
-}
-
-type ArtistPrevNext = Pick<Artist, 'name' | 'image' | 'programCount' | 'tunesCount' | 'nation'>;
-
-interface CreateArtistPagesQueryData {
   allArtist: {
     edges: {
-      node: Pick<Artist, 'name' | 'slug'>;
-      next: ArtistPrevNext;
-      previous: ArtistPrevNext;
+      node: Pick<ArtistBrowser, 'name' | 'slug'>;
     }[];
   };
-}
+};
 
-export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs): Promise<void> {
+export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
   const { createPage } = actions;
-  const result = await graphql<CreateProgramPagesQueryData>(`
-    query CreateProgramPages {
+  const result = await graphql<CreatePagesQueryData>(`
+    query {
       allProgram(sort: { fields: week, order: ASC }) {
         edges {
           node {
-            fields {
-              slug
-            }
-          }
-          next {
-            title
-            date(formatString: "YYYY-MM-DD")
-            fields {
-              slug
-              image
-            }
             week
-          }
-          previous {
             title
+            slug
             date(formatString: "YYYY-MM-DD")
-            fields {
-              slug
-              image
-            }
-            week
+          }
+        }
+      }
+      allArtist(sort: { fields: sortName, order: ASC }) {
+        edges {
+          node {
+            name
+            slug
           }
         }
       }
@@ -62,65 +42,33 @@ export default async function createPages({ graphql, actions, reporter }: Create
   if (result.errors) {
     reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
   }
-  // create Each Program Pages
-  result.data?.allProgram.edges.forEach(({ node, next, previous }, index) => {
-    if (node.fields?.slug) {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve('./src/templates/program.tsx'),
-        context: {
-          previous,
-          next,
-          index,
-          current: node,
-          slug: node.fields?.slug,
-        },
-      });
-    }
+  if (!result.data) throw new Error('There are no posts');
+
+  const { allProgram, allArtist } = result.data;
+
+  allProgram.edges.forEach(({ node }, index) => {
+    const previous = index === 0 ? null : allProgram.edges[index - 1].node;
+    const next = index === allProgram.edges.length - 1 ? null : allProgram.edges[index + 1].node;
+
+    createPage({
+      path: node.slug,
+      component: path.resolve('./src/templates/program.tsx'),
+      context: { previous: previous?.slug ?? null, next: next?.slug ?? null, slug: node.slug },
+    });
   });
 
-  // create Artists Pages
-  const artistResult = await graphql<CreateArtistPagesQueryData>(`
-    query CreateArtistPages {
-      allArtist(sort: { fields: sortName, order: ASC }, filter: { name: { ne: "スピッツ" } }) {
-        edges {
-          node {
-            name
-            slug
-          }
-          next {
-            name
-            image
-            tunesCount
-            programCount
-            nation
-            slug
-          }
-          previous {
-            name
-            image
-            tunesCount
-            programCount
-            nation
-            slug
-          }
-        }
-      }
-    }
-  `);
-  if (artistResult.errors) {
-    reporter.panicOnBuild('🚨  ERROR: Loading "createPages" query');
-  }
+  allArtist.edges.forEach(({ node }, index) => {
+    const previous = index === 0 ? null : allArtist.edges[index - 1].node;
+    const next = index === allArtist.edges.length - 1 ? null : allArtist.edges[index + 1].node;
 
-  artistResult.data?.allArtist.edges.forEach(({ node, next, previous }, index) => {
     createPage({
       path: node.slug,
       component: path.resolve('./src/templates/artist.tsx'),
       context: {
         index,
-        previous,
-        next,
-        name: node.name,
+        previous: previous?.slug ?? null,
+        next: next?.slug ?? null,
+        slug: node.slug,
       },
     });
   });

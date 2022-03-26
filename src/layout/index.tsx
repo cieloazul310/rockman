@@ -1,11 +1,10 @@
 import * as React from 'react';
-import Layout, { LayoutProps } from 'gatsby-theme-aoi/src/layout';
-import useUpdateOnClient from 'gatsby-theme-aoi/src/utils/useUpdateOnClient';
+import { Layout, LayoutProps } from '@cieloazul310/gatsby-theme-aoi';
+import ogImage from '../assets/ogImage.png';
 
-function MainLayout({ children, ...props }: Omit<LayoutProps, 'disableGutters' | 'disablePaddingTop' | 'componentViewports'>): JSX.Element {
-  const isClient = useUpdateOnClient();
+function MainLayout({ children, ...props }: LayoutProps) {
   return (
-    <Layout disableGutters disablePaddingTop componentViewports={{ BottomNav: false }} {...props} key={isClient}>
+    <Layout componentViewports={{ bottomNav: false }} {...props} image={ogImage}>
       {children}
     </Layout>
   );

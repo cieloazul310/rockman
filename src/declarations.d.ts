@@ -1,4 +1,5 @@
 import { SwipeableViewsProps as OriginalSwipeableViewsProps } from 'react-swipeable-views';
+
 declare const graphql: (query: TemplateStringsArray) => void;
 
 declare module 'react-swipeable-views' {

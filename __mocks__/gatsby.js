@@ -1,5 +1,5 @@
-/* eslint-disable-next-line import/newline-after-import */
 const React = require('react');
+
 const gatsby = jest.requireActual('gatsby');
 
 module.exports = {

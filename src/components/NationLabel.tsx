@@ -1,39 +1,20 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Box from '@mui/material/Box';
+import Typography, { TypographyProps } from '@mui/material/Typography';
 import useNationColor from '../utils/useNationColor';
 
-interface StylesProps {
-  background: string;
-  color: string;
-}
-
-const useStyles = makeStyles<Theme, StylesProps>((theme) =>
-  createStyles({
-    nationLabel: {
-      padding: '0 .2em',
-      background: ({ background }) => background,
-      color: ({ color }) => color,
-    },
-    label: {
-      fontWeight: theme.typography.fontWeightBold,
-    },
-  })
-);
-
-interface Props {
+type NationLabelProps = {
   nation: string;
-}
+} & Omit<TypographyProps, 'variant' | 'fontWeight' | 'color'>;
 
-function NationLabel({ nation }: Props): JSX.Element {
-  const [background, color] = useNationColor(nation);
-  const classes = useStyles({ background, color });
+function NationLabel({ nation, ...typographyProps }: NationLabelProps) {
+  const { bgcolor, color } = useNationColor(nation);
   return (
-    <div className={classes.nationLabel}>
-      <Typography className={classes.label} variant="caption">
+    <Box sx={{ py: 0, bgcolor, color }}>
+      <Typography variant="caption" fontWeight="bold" color="inherit" px=".2em" {...typographyProps}>
         {nation}
       </Typography>
-    </div>
+    </Box>
   );
 }
 
