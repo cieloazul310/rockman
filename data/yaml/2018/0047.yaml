@@ -9,7 +9,6 @@ date: 2018-11-25
 playlist:
   - id: "2018004701"
     week: 47
-    name: 涙がキラリ☆
     artist: スピッツ
     year: 1995
     nation: JPN
@@ -24,7 +23,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004702"
     week: 47
-    name: ミサイルマン
     artist: THE HIGH-LOWS
     year: 1995
     nation: JPN
@@ -35,7 +33,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004703"
     week: 47
-    name: Garden
     artist: Spiral Life
     year: 1995
     nation: JPN
@@ -47,7 +44,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004704"
     week: 47
-    name: とまどいの時を越えて
     artist: FLYING KIDS
     year: 1995
     nation: JPN
@@ -58,7 +54,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004705"
     week: 47
-    name: Heavy Metal Thunder
     artist: Cornelius
     year: 1995
     nation: JPN
@@ -69,7 +64,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004706"
     week: 47
-    name: レミレミ
     artist: 神森徹也
     kana: かみもりてつや
     year: 1995
@@ -82,14 +76,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018004707"
     week: 47
-    name: ノーコメント
     artist: TRANSISTOR GLAMOUR
     year: 1995
     nation: JPN
     label: 日本コロムビア
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: aaQ8vWsHJOQ
     title: ノーコメント
     index: 393
     indexInWeek: 7

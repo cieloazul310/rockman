@@ -4,7 +4,7 @@ year: 2018
 title: 歌が始まっても鳴り止まないギターリフで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["ギター"]
 date: 2018-07-22
 playlist:
   - id: "2018002901"
@@ -87,7 +87,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002907"
     week: 29
-    name: ユー・エフ・オー
     artist: 吉田ヨウヘイgroup
     kana: よしだようへいぐるーぷ
     year: 2015
@@ -100,7 +99,6 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002908"
     week: 29
-    name: 星のリンダ
     artist: JET KELLY
     year: 2004
     nation: JPN

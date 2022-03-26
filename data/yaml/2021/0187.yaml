@@ -1,0 +1,98 @@
+id: "20210187"
+week: 187
+year: 2021
+title: オバケのロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-08-01
+playlist:
+  - id: "2021018701"
+    week: 187
+    index: 1545
+    indexInWeek: 1
+    title: 死神の岬へ
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018702"
+    week: 187
+    index: 1546
+    indexInWeek: 2
+    title: Black Sabbath
+    artist: Black Sabbath
+    year: 1970
+    nation: UK
+    label: Vertigo
+    youtube: 0lVdMbUx1_k
+    selector: 草野マサムネ
+  - id: "2021018703"
+    week: 187
+    index: 1547
+    indexInWeek: 3
+    title: ゴーゴー幽霊船
+    artist: 米津玄師
+    kana: よねづけんし
+    year: 2012
+    nation: JPN
+    label: BALLOOM
+    youtube: 2PqxOytUjz0
+    selector: 草野マサムネ
+  - id: "2021018704"
+    week: 187
+    index: 1548
+    indexInWeek: 4
+    title: 稲荷
+    artist: ばちかぶり
+    year: 1985
+    nation: JPN
+    label: ナゴムレコード
+    selector: 草野マサムネ
+  - id: "2021018705"
+    week: 187
+    index: 1549
+    indexInWeek: 5
+    title: Gorgon
+    artist: Angel Witch
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: ZgyVjc88vhA
+    selector: 草野マサムネ
+  - id: "2021018706"
+    week: 187
+    index: 1550
+    indexInWeek: 6
+    title: 妖怪エンジン
+    artist: ミノタウロス
+    year: 2020
+    nation: JPN
+    label: SUPERNORMAL
+    youtube: -jQCMpGQ358
+    selector: 草野マサムネ
+  - id: "2021018707"
+    week: 187
+    index: 1551
+    indexInWeek: 7
+    title: Wuthering Heights
+    artist: Kate Bush
+    year: 1978
+    nation: UK
+    label: EMI
+    youtube: -1pMMIe4hb4
+    selector: 草野マサムネ
+  - id: "2021018708"
+    week: 187
+    index: 1552
+    indexInWeek: 8
+    title: お化けのロック
+    artist: 郷ひろみ・樹木希林
+    kana: ごうひろみきききりん
+    year: 1977
+    nation: JPN
+    label: CBSソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

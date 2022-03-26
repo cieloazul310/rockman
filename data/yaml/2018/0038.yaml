@@ -9,31 +9,25 @@ date: 2018-09-23
 playlist:
   - id: "2018003801"
     week: 38
-    name: ネズミの進化
     artist: スピッツ
-    kana: ""
     year: 2007
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: ネズミの進化
     index: 310
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018003802"
     week: 38
-    name: Saturday Night
     artist: Bay City Rollers
-    kana: ""
     year: 1975
     nation: UK
     label: Arista
     producer:
       - Bill Martin
-    corner: ""
     youtube: 7BKKaKT_dtM
     title: Saturday Night
     index: 311
@@ -41,31 +35,24 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003803"
     week: 38
-    name: Anyway You Want It
     artist: Angel
-    kana: ""
     year: 1976
     nation: US
     label: Casablanca
     producer:
       - Derek Lawrence
-    corner: ""
-    youtube: ""
     title: Anyway You Want It
     index: 312
     indexInWeek: 3
     selector: 草野マサムネ
   - id: "2018003804"
     week: 38
-    name: Sick as a Dog
     artist: Aerosmith
-    kana: ""
     year: 1976
     nation: US
     label: Columbia
     producer:
       - Jack Douglas
-    corner: ""
     youtube: iItP6hXZOlU
     title: Sick as a Dog
     index: 313
@@ -73,14 +60,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003805"
     week: 38
-    name: Roots, Rock, Reggae
     artist: Bob Marley and the Wailers
-    kana: ""
     year: 1976
     nation: JAM
     label: Island
-    producer: []
-    corner: ""
     youtube: 2jN1bqGr3ZY
     title: Roots, Rock, Reggae
     index: 314
@@ -88,15 +71,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003806"
     week: 38
-    name: Dark Cloud
     artist: Natural Gas
-    kana: ""
     year: 1976
     nation: US
     label: Private Stock
     producer:
       - Felix Pappalardi
-    corner: ""
     youtube: x-K2jFkM0NM
     title: Dark Cloud
     index: 315
@@ -104,32 +84,27 @@ playlist:
     selector: 草野マサムネ
   - id: "2018003807"
     week: 38
-    name: Round & Round
     artist: The Edgar Winter Group
-    kana: ""
     year: 1972
     nation: US
     label: Epic
     producer:
       - Rick Derringer
-    corner: ""
-    youtube: ""
+    youtube: xcvDGQ2o8Og
     title: Round & Round
     index: 316
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2018003808"
     week: 38
-    name: おしゃべり！おしゃべり！
     artist: 小島麻由美
     kana: こじままゆみ
     year: 1995
     nation: JPN
     label: ポニーキャニオン
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: おしゃべり！おしゃべり！
     index: 317
     indexInWeek: 8
+    youtube: kd9ZMsOUvUA
     selector: 草野マサムネ

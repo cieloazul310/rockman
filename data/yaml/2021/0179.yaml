@@ -1,0 +1,98 @@
+id: "20210179"
+week: 179
+year: 2021
+title: 日本語に聴こえる洋楽フレーズで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-06-06
+playlist:
+  - id: "2021017901"
+    week: 179
+    index: 1482
+    indexInWeek: 1
+    title: クリスピー
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    producer:
+      - 笹路正徳
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017902"
+    week: 179
+    index: 1483
+    indexInWeek: 2
+    title: Uptown Girl
+    artist: Billy Joel
+    year: 1983
+    nation: US
+    label: Columbia
+    youtube: hCuMWrfXG4E
+    selector: 草野マサムネ
+  - id: "2021017903"
+    week: 179
+    index: 1484
+    indexInWeek: 3
+    title: Bark at the Moon
+    artist: Ozzy Osbourne
+    year: 1983
+    nation: UK
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2021017904"
+    week: 179
+    index: 1485
+    indexInWeek: 4
+    title: The Tide Is High
+    artist: Blondie
+    year: 1980
+    nation: US
+    label: RCA
+    youtube: -0skjm-uJSs
+    selector: 草野マサムネ
+  - id: "2021017905"
+    week: 179
+    index: 1486
+    indexInWeek: 5
+    title: I Think We're Alone Now
+    artist: Tiffany
+    year: 1987
+    nation: US
+    label: MCA
+    youtube: w6Q3mHyzn78
+    selector: 草野マサムネ
+  - id: "2021017906"
+    week: 179
+    index: 1487
+    indexInWeek: 6
+    title: Lose Your Heart
+    artist: Bob Welch
+    year: 1977
+    nation: UK
+    label: Capitol
+    youtube: rOjjDGyhalk
+    selector: 草野マサムネ
+  - id: "2021017907"
+    week: 179
+    index: 1488
+    indexInWeek: 7
+    title: Southern Girls
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    youtube: VT59QuzFTfI
+    selector: 草野マサムネ
+  - id: "2021017908"
+    week: 179
+    index: 1489
+    indexInWeek: 8
+    title: HAI HAI HAI
+    artist: サンディー
+    year: 1994
+    nation: JPN
+    label: エピック・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

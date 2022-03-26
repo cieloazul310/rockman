@@ -1,18 +1,8 @@
 import * as React from 'react';
-import Tab, { TabProps } from '@material-ui/core/Tab';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Tab, { TabProps } from '@mui/material/Tab';
 
-const useStyles = makeStyles(() =>
-  createStyles({
-    root: {
-      textTransform: 'none',
-    },
-  })
-);
-
-function MuiTab(props: TabProps): JSX.Element {
-  const classes = useStyles();
-  return <Tab classes={classes} {...props} />;
+function MuiTab(props: TabProps) {
+  return <Tab sx={{ textTransform: 'none' }} {...props} />;
 }
 
 export default MuiTab;

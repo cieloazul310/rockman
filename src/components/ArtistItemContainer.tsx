@@ -1,96 +1,53 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { makeStyles, createStyles, useTheme } from '@material-ui/core/styles';
-import Skeleton from '@material-ui/lab/Skeleton';
-import ArtistItem, { ArtistItemSkeleton, ArtistItemProps } from './ArtistItem';
-
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      width: '100%',
-      padding: theme.spacing(1, 0),
-    },
-    header: {
-      padding: theme.spacing(1),
-    },
-    wrapper: {
-      [theme.breakpoints.only('xs')]: {
-        overflowX: 'auto',
-        WebkitOverflowScrolling: 'touch',
-      },
-    },
-    container: {
-      [theme.breakpoints.only('xs')]: {
-        display: 'flex',
-        width: 'max-content',
-      },
-    },
-    item: {
-      [theme.breakpoints.only('xs')]: {
-        width: '33vw',
-      },
-    },
-  })
-);
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
+import ArtistItem from './ArtistItem';
+import { MinimumArtist } from '../../types';
 
 function isolateTouch(event: React.TouchEvent) {
   event.stopPropagation();
 }
 
-interface Props {
+type ArtistItemContainerProps = {
   title: string;
-  artists: ArtistItemProps['artist'][];
-}
+  artists: MinimumArtist[];
+};
 
-function ArtistItemContainer({ artists, title }: Props): JSX.Element {
+function ArtistItemContainer({ artists, title }: ArtistItemContainerProps) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <div className={classes.header}>
+    <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
+      <Box p={1}>
         <Typography>{title}</Typography>
-      </div>
-      <div className={classes.wrapper} onTouchMove={isolateTouch} onTouchStart={isolateTouch} onTouchEnd={isolateTouch}>
-        <Grid container={!isMobile} className={classes.container}>
+      </Box>
+      <Box
+        sx={{ overflowX: { xs: 'auto', sm: 'unset' }, WebkitOverflowScrolling: { xs: 'touch', sm: 'unset' } }}
+        onTouchMove={isolateTouch}
+        onTouchStart={isolateTouch}
+        onTouchEnd={isolateTouch}
+      >
+        <Grid container={!isMobile} sx={{ display: { xs: 'flex', sm: undefined }, width: { xs: 'max-content', sm: 1 } }}>
           {artists
-            .filter((artist) => artist?.name !== 'スピッツ')
+            .filter((artist) => artist.name !== 'スピッツ')
             .map((artist) => (
-              <Grid className={classes.item} item={!isMobile || undefined} key={artist?.name} sm={!isMobile ? 2 : undefined}>
+              <Grid
+                sx={{ width: { xs: '33vw', sm: 'unset' } }}
+                item={!isMobile || undefined}
+                key={artist?.name}
+                sm={!isMobile ? 2 : undefined}
+              >
                 <ArtistItem artist={artist} />
               </Grid>
             ))}
         </Grid>
-      </div>
-    </div>
+      </Box>
+    </Container>
   );
 }
 
 export default ArtistItemContainer;
-
-export function ArtistItemContainerSkeleton({ length }: { length: number }): JSX.Element {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
-  const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <div className={classes.header}>
-        <Typography>
-          <Skeleton width={100} />
-        </Typography>
-      </div>
-      <div className={classes.wrapper}>
-        <Grid container={!isMobile} className={classes.container}>
-          {Array.from({ length }).map((_, index) => (
-            <Grid className={classes.item} item={!isMobile || undefined} key={index.toString()} sm={!isMobile ? 2 : undefined}>
-              <ArtistItemSkeleton />
-            </Grid>
-          ))}
-        </Grid>
-      </div>
-    </div>
-  );
-}

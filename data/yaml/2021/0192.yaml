@@ -1,0 +1,100 @@
+id: "20210192"
+week: 192
+year: 2021
+title: ストラト使いで漫遊記
+subtitle: ""
+guests: []
+categories: ["ギター"]
+date: 2021-09-05
+playlist:
+  - id: "2021019201"
+    week: 192
+    index: 1585
+    indexInWeek: 1
+    title: 恋する凡人
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021019202"
+    week: 192
+    index: 1586
+    indexInWeek: 2
+    title: Peggy Sue
+    artist: Buddy Holly
+    year: 1957
+    nation: US
+    label: Coral
+    youtube: _qQzuvfvBdE
+    selector: 草野マサムネ
+  - id: "2021019203"
+    week: 192
+    index: 1587
+    indexInWeek: 3
+    title: Bold as Love
+    artist: The Jimi Hendrix Experience
+    year: 1967
+    nation: US
+    label: Track
+    youtube: Po2N4az9-rs
+    selector: 草野マサムネ
+  - id: "2021019204"
+    week: 192
+    index: 1588
+    indexInWeek: 4
+    title: Black Night
+    artist: Deep Purple
+    year: 1970
+    nation: UK
+    label: Harvest
+    youtube: 1TPrgNtGQEQ
+    selector: 草野マサムネ
+  - id: "2021019205"
+    week: 192
+    index: 1589
+    indexInWeek: 5
+    title: Moonchild
+    artist: Rory Gallagher
+    year: 1976
+    nation: IRE
+    label: Chrysalis
+    youtube: -DVbP8pun0I
+    selector: 草野マサムネ
+  - id: "2021019206"
+    week: 192
+    index: 1590
+    indexInWeek: 6
+    title: Jet to Jet
+    artist: Alcatrazz
+    year: 1983
+    nation: US
+    label: Rocshire
+    youtube: 48PSsH6UA8E
+    selector: 草野マサムネ
+  - id: "2021019207"
+    week: 192
+    index: 1591
+    indexInWeek: 7
+    title: Under the Bridge
+    artist: Red Hot Chili Peppers
+    year: 1992
+    nation: US
+    label: Warner Bros.
+    youtube: GLvohMXgcBo
+    selector: 草野マサムネ
+  - id: "2021019208"
+    week: 192
+    index: 1592
+    indexInWeek: 8
+    title: 目抜き通り
+    artist: MAMALAID RAG
+    year: 2002
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    youtube: KbE7Yj1ttoc
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

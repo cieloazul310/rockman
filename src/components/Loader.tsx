@@ -1,33 +1,16 @@
 import * as React from 'react';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Box from '@mui/material/Box';
+import CircularProgress from '@mui/material/CircularProgress';
 
-interface StylesProps {
-  height: number;
-}
-
-const useStyles = makeStyles<Theme, StylesProps>(() =>
-  createStyles({
-    root: {
-      display: 'flex',
-      flexGrow: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: ({ height }) => height,
-    },
-  })
-);
-
-interface Props {
+type LoaderProps = {
   height?: number;
-}
+};
 
-function Loader({ height = 120 }: Props): JSX.Element {
-  const classes = useStyles({ height });
+function Loader({ height = 120 }: LoaderProps) {
   return (
-    <div className={classes.root}>
+    <Box sx={{ height, display: 'flex', flexGrow: 1, justifyContent: 'center', alignItems: 'center' }}>
       <CircularProgress color="secondary" />
-    </div>
+    </Box>
   );
 }
 

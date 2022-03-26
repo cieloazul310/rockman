@@ -1,0 +1,87 @@
+id: "20220216"
+week: 216
+year: 2022
+title: スティーブ ・ハウで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-02-20
+playlist:
+  - id: "2022021601"
+    week: 216
+    index: 1784
+    indexInWeek: 1
+    title: 魔法のコトバ
+    artist: スピッツ
+    year: 2006
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: gPTFyx2R46w
+    selector: 草野マサムネ
+  - id: "2022021602"
+    week: 216
+    index: 1785
+    indexInWeek: 2
+    title: Hallucinations
+    artist: Tomorrow
+    year: 1968
+    nation: UK
+    label: Parlophone
+    youtube: q0i7DsOxJBg
+    selector: 草野マサムネ
+  - id: "2022021603"
+    week: 216
+    index: 1786
+    indexInWeek: 3
+    title: Tired Towers
+    artist: Bodast
+    year: 1981
+    nation: UK
+    label: Cherry Red
+    youtube: 30AiEYmCPME
+    selector: 草野マサムネ
+  - id: "2022021604"
+    week: 216
+    index: 1787
+    indexInWeek: 4
+    title: Roundabout
+    artist: "Yes"
+    year: 1971
+    nation: UK
+    label: Atlantic
+    youtube: kmZoQFYYx8U
+    selector: 草野マサムネ
+  - id: "2022021605"
+    week: 216
+    index: 1788
+    indexInWeek: 5
+    title: Don't Cry
+    artist: Asia
+    year: 1983
+    nation: UK
+    label: Geffen
+    youtube: -BozgPL1huc
+    selector: 草野マサムネ
+  - id: "2022021606"
+    week: 216
+    index: 1789
+    indexInWeek: 6
+    title: See Me Through
+    artist: Steve Howe
+    year: 2020
+    nation: UK
+    label: BMG
+    youtube: ymJhR8jCgd4
+    selector: 草野マサムネ
+  - id: "2022021607"
+    week: 216
+    index: 1790
+    indexInWeek: 7
+    title: 深呼吸
+    artist: SUPER BEAVER
+    year: 2009
+    nation: JPN
+    label: Epic
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

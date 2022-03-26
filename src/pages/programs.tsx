@@ -1,27 +1,36 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
+import Container from '@mui/material/Container';
+import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
-import Section, { SectionDivider } from '../components/Section';
 import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
-import NavigationBox from '../components/NavigationBox';
-import { AdBasic } from '../components/Ads';
-import { ProgramPageQuery } from '../../graphql-types';
+import { AdInSectionDivider } from '../components/Ads';
+import { ProgramList } from '../../types';
 
-function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
+type ProgramsPageQueryData = {
+  allProgram: {
+    group: {
+      fieldValue: string;
+      totalCount: number;
+      edges: {
+        node: ProgramList;
+      }[];
+    }[];
+  };
+};
+
+function ProgramsPage({ data }: PageProps<ProgramsPageQueryData>) {
   return (
     <Layout title="放送回">
       <Jumbotron title="放送回一覧" />
       <SectionDivider />
       <Section>
-        <Programs data={data.allProgram.group} />
+        <Container maxWidth="md" disableGutters>
+          <Programs data={data.allProgram.group} />
+        </Container>
       </Section>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
-      <Section>
-        <NavigationBox />
-      </Section>
+      <AdInSectionDivider />
     </Layout>
   );
 }
@@ -29,7 +38,7 @@ function ProgramsPage({ data }: PageProps<ProgramPageQuery>): JSX.Element {
 export default ProgramsPage;
 
 export const query = graphql`
-  query ProgramPage {
+  query {
     allProgram(sort: { fields: week, order: ASC }) {
       group(field: year) {
         fieldValue
@@ -38,12 +47,10 @@ export const query = graphql`
           node {
             id
             title
+            slug
             week
             date(formatString: "YYYY-MM-DD")
-            fields {
-              slug
-              image
-            }
+            image
           }
         }
       }

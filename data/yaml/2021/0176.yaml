@@ -1,0 +1,96 @@
+id: "20210176"
+week: 176
+year: 2021
+title: デンマークのロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2021-05-16
+playlist:
+  - id: "2021017601"
+    week: 176
+    index: 1458
+    indexInWeek: 1
+    title: マーメイド
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017602"
+    week: 176
+    index: 1459
+    indexInWeek: 2
+    title: Die to Live (featuring Neil Fallon)
+    artist: Volbeat
+    year: 2019
+    nation: DNK
+    label: Vertigo
+    selector: 草野マサムネ
+  - id: "2021017603"
+    week: 176
+    index: 1460
+    indexInWeek: 3
+    title: Rabalderstræde
+    artist: Gasolin'
+    year: 1975
+    nation: DNK
+    label: CBS
+    selector: 草野マサムネ
+  - id: "2021017604"
+    week: 176
+    index: 1461
+    indexInWeek: 4
+    title: Glory
+    artist: Dizzy Mizz Lizzy
+    year: 1994
+    nation: DNK
+    label: EMI-Medley
+    youtube: LazAE3catLM
+    selector: 草野マサムネ
+  - id: "2021017605"
+    week: 176
+    index: 1462
+    indexInWeek: 5
+    title: Am I Wry? No
+    artist: Mew
+    year: 2000
+    nation: DNK
+    label: Evil Office
+    youtube: Z7Zfd_mVHDY
+    selector: 草野マサムネ
+  - id: "2021017606"
+    week: 176
+    index: 1463
+    indexInWeek: 6
+    title: Face the World
+    artist: Pretty Maids
+    year: 2016
+    nation: DNK
+    label: Frontiers
+    youtube: gR6hWoRgBDQ
+    selector: 草野マサムネ
+  - id: "2021017607"
+    week: 176
+    index: 1464
+    indexInWeek: 7
+    title: Modern Drift
+    artist: Efterklang
+    year: 2010
+    nation: DNK
+    label: 4AD
+    youtube: vVj3rTWfVVw
+    selector: 草野マサムネ
+  - id: "2021017608"
+    week: 176
+    index: 1465
+    indexInWeek: 8
+    title: あいえとう
+    artist: Super Junky Monkey
+    year: 1995
+    nation: JPN
+    label: ソニーレコード
+    youtube: SsRJzOOKTP4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

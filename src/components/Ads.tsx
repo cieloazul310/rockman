@@ -1,24 +1,9 @@
 /* eslint @typescript-eslint/no-explicit-any: "off" */
 import * as React from 'react';
-import clsx from 'clsx';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, createStyles } from '@material-ui/core/styles';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 import { useLocation } from '@reach/router';
 import InView from './InView';
-
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
-      overflow: 'hidden',
-      padding: theme.spacing(0, 2),
-      minWidth: 120,
-    },
-    inArticle: {
-      minHeight: 120,
-      maxHeight: 160,
-    },
-  })
-);
 
 declare global {
   interface Window {
@@ -26,9 +11,8 @@ declare global {
   }
 }
 
-export function AdBasicInner(): JSX.Element {
+export function AdBasicInner() {
   const { pathname } = useLocation();
-  const classes = useStyles();
   React.useEffect(() => {
     if (window) {
       window.adsbygoogle = window.adsbygoogle || [];
@@ -36,22 +20,22 @@ export function AdBasicInner(): JSX.Element {
     }
   }, [pathname]);
   return (
-    <div key={pathname} className={clsx(classes.root, classes.inArticle)}>
+    <Box key={pathname} sx={{ overflow: 'hidden', px: 2, minWidth: 120, minHeight: 120, maxHeight: 160 }}>
       <Typography variant="caption">[ad]</Typography>
       <ins
         key={pathname}
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-7323207940463794"
-        data-ad-slot="2525174843"
+        data-ad-slot="3976266583"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </div>
+    </Box>
   );
 }
 
-export function AdBasic(): JSX.Element {
+export function AdBasic() {
   return (
     <InView>
       <AdBasicInner />
@@ -59,38 +43,16 @@ export function AdBasic(): JSX.Element {
   );
 }
 
-export function AdInArticle(): JSX.Element {
-  const { pathname } = useLocation();
-  const classes = useStyles();
-  React.useEffect(() => {
-    if (window) {
-      window.onload = () => {
-        window.adsbygoogle = window.adsbygoogle || [];
-        window.adsbygoogle.push({});
-      };
-    }
-  }, [pathname]);
+export function AdInSectionDivider() {
   return (
-    <div className={clsx(classes.root, classes.inArticle)} key={pathname}>
-      <Typography variant="caption" component="p" align="left">
-        [ad]
-      </Typography>
-      <ins
-        key={pathname}
-        className="adsbygoogle"
-        style={{ display: 'block', textAlign: 'center' }}
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-7323207940463794"
-        data-ad-slot="9174058264"
-      />
-    </div>
+    <Box py={1} bgcolor={({ palette }) => (palette.mode === 'light' ? '#fafafa' : '#000')}>
+      <AdBasic />
+    </Box>
   );
 }
 
-export function AdInFooter(): JSX.Element {
+export function AdInFooter() {
   const { pathname } = useLocation();
-  const classes = useStyles();
   React.useEffect(() => {
     if (window) {
       window.adsbygoogle = window.adsbygoogle || [];
@@ -98,7 +60,7 @@ export function AdInFooter(): JSX.Element {
     }
   }, [pathname]);
   return (
-    <div className={classes.root} key={pathname}>
+    <Box sx={{ overflow: 'hidden', px: 2, minWidth: 120 }} key={pathname}>
       <Typography variant="caption" component="p" align="left">
         [ad]
       </Typography>
@@ -107,10 +69,10 @@ export function AdInFooter(): JSX.Element {
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-7323207940463794"
-        data-ad-slot="3332658358"
+        data-ad-slot="5664752779"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
-    </div>
+    </Box>
   );
 }

@@ -9,91 +9,68 @@ date: 2018-06-17
 playlist:
   - id: "2018002401"
     week: 24
-    name: あじさい通り
     artist: スピッツ
-    kana: ""
     year: 1995
     nation: JPN
     label: ポリドール
     producer:
       - 笹路正徳
     corner: 漫遊前の一曲
-    youtube: ""
     title: あじさい通り
     index: 193
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2018002402"
     week: 24
-    name: 昆虫軍
     artist: 戸川純
     kana: とがわじゅん
     year: 1984
     nation: JPN
     label: アルファレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: 昆虫軍
     index: 194
     indexInWeek: 2
     selector: 草野マサムネ
   - id: "2018002403"
     week: 24
-    name: べにくじら
     artist: 有頂天
     kana: うちょうてん
     year: 1986
     nation: JPN
     label: キャニオンレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: べにくじら
     index: 195
     indexInWeek: 3
+    youtube: gQLkyg5iKuY
     selector: 草野マサムネ
   - id: "2018002404"
     week: 24
-    name: GERONIMO
     artist: GASTUNK
-    kana: ""
     year: 1986
     nation: JPN
     label: クラウンミュージック
-    producer: []
-    corner: ""
-    youtube: ""
     title: GERONIMO
     index: 196
     indexInWeek: 4
     selector: 草野マサムネ
   - id: "2018002405"
     week: 24
-    name: うめたて
     artist: ZELDA
-    kana: ""
     year: 1983
     nation: JPN
     label: 日本フォノグラム
     producer:
       - 白井良明
-    corner: ""
-    youtube: ""
     title: うめたて
     index: 197
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018002406"
     week: 24
-    name: BROKEN GENERATION
     artist: LAUGHIN' NOSE
-    kana: ""
     year: 1985
     nation: JPN
     label: VAP
-    producer: []
-    corner: ""
     youtube: foIbzhIPFJQ
     title: BROKEN GENERATION
     index: 198
@@ -101,45 +78,31 @@ playlist:
     selector: 草野マサムネ
   - id: "2018002407"
     week: 24
-    name: I Am Bitch, Or Not
     artist: キャ→
-    kana: ""
     year: 1986
     nation: JPN
     label: Spankids Record
-    producer: []
-    corner: ""
-    youtube: ""
     title: I Am Bitch, Or Not
     index: 199
     indexInWeek: 7
     selector: 草野マサムネ
   - id: "2018002408"
     week: 24
-    name: only you(唯一人)
     artist: ばちかぶり
-    kana: ""
     year: 1985
     nation: JPN
     label: ナゴムレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: only you(唯一人)
     index: 200
     indexInWeek: 8
     selector: 草野マサムネ
   - id: "2018002409"
     week: 24
-    name: 痛み
     artist: クレヨン社
-    kana: ""
     year: 1988
     nation: JPN
     label: NECアベニュー
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: 痛み
     index: 201
     indexInWeek: 9

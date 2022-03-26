@@ -1,0 +1,110 @@
+id: "20220217"
+week: 217
+year: 2022
+title: グレッチ使いのギタリストで漫遊記
+subtitle: ""
+guests: []
+categories: ["ギター"]
+date: 2022-02-27
+playlist:
+  - id: "2022021701"
+    week: 217
+    index: 1791
+    indexInWeek: 1
+    title: みなと
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: GiuxvmiULhI
+    selector: 草野マサムネ
+  - id: "2022021702"
+    week: 217
+    index: 1792
+    indexInWeek: 2
+    title: Somethin' Else
+    artist: Eddie Cochran
+    year: 1959
+    nation: US
+    label: Liberty
+    youtube: Hi36ukbbTbw
+    selector: 草野マサムネ
+  - id: "2022021703"
+    week: 217
+    index: 1793
+    indexInWeek: 3
+    title: Please Please Me
+    artist: The Beatles
+    year: 1963
+    nation: UK
+    label: Parlophone
+    youtube: czw8eqepir8
+    selector: 草野マサムネ
+  - id: "2022021704"
+    week: 217
+    index: 1794
+    indexInWeek: 4
+    title: Mr. Soul
+    artist: Buffalo Springfield
+    year: 1967
+    nation: US
+    label: Atco
+    youtube: jyc0JSd5q7U
+    selector: 草野マサムネ
+  - id: "2022021705"
+    week: 217
+    index: 1795
+    indexInWeek: 5
+    title: Bo Diddley
+    artist: Bo Diddley
+    year: 1958
+    nation: US
+    label: Chess
+    youtube: dLcYuuljrD4
+    selector: 草野マサムネ
+  - id: "2022021706"
+    week: 217
+    index: 1796
+    indexInWeek: 6
+    title: Rock This Town
+    artist: Stray Cats
+    year: 1981
+    nation: US
+    label: Arista
+    youtube: pbYwxmr7tfM
+    selector: 草野マサムネ
+  - id: "2022021707"
+    week: 217
+    index: 1797
+    indexInWeek: 7
+    title: Dog Eat Dog
+    artist: AC/DC
+    year: 1977
+    nation: AUS
+    label: Albert
+    youtube: h8xNn4td37k
+    selector: 草野マサムネ
+  - id: "2022021708"
+    week: 217
+    index: 1798
+    indexInWeek: 8
+    title: One Said to the Other
+    artist: The Living End
+    year: 2003
+    nation: AUS
+    label: EMI
+    youtube: WI_LZuyJgOg
+    selector: 草野マサムネ
+  - id: "2022021709"
+    week: 217
+    index: 1799
+    indexInWeek: 9
+    title: I LOVE YOU
+    artist: a flood of circle
+    year: 2011
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    youtube: nIyPkHbib3U
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

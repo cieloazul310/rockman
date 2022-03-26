@@ -9,9 +9,7 @@ date: 2018-04-22
 playlist:
   - id: "2018001601"
     week: 16
-    name: シロクマ
     artist: スピッツ
-    kana: ""
     year: 2010
     nation: JPN
     label: ユニバーサル
@@ -25,15 +23,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001602"
     week: 16
-    name: Baba O'Riley
     artist: The Who
-    kana: ""
     year: 1971
     nation: UK
     label: Polydor
     producer:
       - Glyn Johns
-    corner: ""
     youtube: LDknRxdHNog
     title: Baba O'Riley
     index: 125
@@ -41,14 +36,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001603"
     week: 16
-    name: Applaud The Winner
     artist: Tantrum
-    kana: ""
     year: 1979
     nation: US
     label: Ovation Records
-    producer: []
-    corner: ""
     youtube: nI6dkvEsdoE
     title: Applaud The Winner
     index: 126
@@ -56,15 +47,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001604"
     week: 16
-    name: Push
     artist: The Cure
-    kana: ""
     year: 1985
     nation: UK
     label: Fiction
     producer:
       - David M. Allen
-    corner: ""
     youtube: i6T7xjBFPWA
     title: Push
     index: 127
@@ -72,44 +60,31 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001605"
     week: 16
-    name: JOLLY ROGERS
     artist: THE WILLARD
-    kana: ""
     year: 1985
     nation: JPN
     label: キャプテンレコード
-    producer: []
-    corner: ""
-    youtube: ""
     title: JOLLY ROGERS
     index: 128
     indexInWeek: 5
     selector: 草野マサムネ
   - id: "2018001606"
     week: 16
-    name: The Ballroom Blitz
     artist: Sweet
-    kana: ""
     year: 1973
     nation: UK
     label: RCA
-    producer: []
-    corner: ""
-    youtube: ewFBuYHldeY
+    youtube: r8pYpii2Atg
     title: The Ballroom Blitz
     index: 129
     indexInWeek: 6
     selector: 草野マサムネ
   - id: "2018001607"
     week: 16
-    name: This Magnificent Bird Will Rise
     artist: Deerhoof
-    kana: ""
     year: 2002
     nation: US
     label: Kill Rock Stars
-    producer: []
-    corner: ""
     youtube: hjAMDEfdluY
     title: This Magnificent Bird Will Rise
     index: 130
@@ -117,15 +92,11 @@ playlist:
     selector: 草野マサムネ
   - id: "2018001608"
     week: 16
-    name: S.O.S
     artist: ハイハニDX
-    kana: ""
     year: 2000
     nation: JPN
     label: Knockers Records
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
     title: S.O.S
     index: 131
     indexInWeek: 8

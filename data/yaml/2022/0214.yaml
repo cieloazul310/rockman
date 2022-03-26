@@ -1,0 +1,97 @@
+id: "20220214"
+week: 214
+year: 2022
+title: 韓国のロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2022-02-06
+playlist:
+  - id: "2022021401"
+    week: 214
+    index: 1768
+    indexInWeek: 1
+    title: Na・de・Na・de ボーイ
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022021402"
+    week: 214
+    index: 1769
+    indexInWeek: 2
+    title: Love Girl
+    artist: CNBLUE
+    year: 2011
+    nation: KOR
+    label: FNC Entertainment
+    youtube: YmyCA91xJ5Y
+    selector: 草野マサムネ
+  - id: "2022021403"
+    week: 214
+    index: 1770
+    indexInWeek: 3
+    title: Loveholic
+    artist: Loveholic
+    year: 2003
+    nation: KOR
+    label: Fluxus Music
+    youtube: CkB2ikXNooA
+    selector: 草野マサムネ
+  - id: "2022021404"
+    week: 214
+    index: 1771
+    indexInWeek: 4
+    title: 착한아이 (Good Kid)
+    artist: Crying Nut
+    year: 2009
+    nation: KOR
+    label: Drug Records
+    youtube: zoybGKhcO54
+    selector: 草野マサムネ
+  - id: "2022021405"
+    week: 214
+    index: 1772
+    indexInWeek: 5
+    title: Tomboy
+    artist: HYUKOH
+    year: 2017
+    nation: KOR
+    label: HIGHGRND
+    youtube: pC6tPEaAiYU
+    selector: 草野マサムネ
+  - id: "2022021406"
+    week: 214
+    index: 1773
+    indexInWeek: 6
+    title: My Problem
+    artist: Say Sue Me
+    year: 2015
+    nation: KOR
+    label: Electric Muse
+    youtube: OwSqv2vfPtw
+    selector: 草野マサムネ
+  - id: "2022021407"
+    week: 214
+    index: 1774
+    indexInWeek: 7
+    title: Dry Flower
+    artist: SURL
+    year: 2020
+    nation: KOR
+    label: Happy Robot Records
+    youtube: gnm7VTl96MM
+    selector: 草野マサムネ
+  - id: "2022021408"
+    week: 214
+    index: 1775
+    indexInWeek: 8
+    title: 悲しみをやさしさに
+    artist: little by little
+    year: 2003
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

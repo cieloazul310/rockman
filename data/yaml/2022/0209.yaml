@@ -1,0 +1,98 @@
+id: "20220209"
+week: 209
+year: 2022
+title: 70年代UK・ジャンル分けしにくいバンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-01-02
+playlist:
+  - id: "2022020901"
+    week: 209
+    index: 1729
+    indexInWeek: 1
+    title: けもの道
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022020902"
+    week: 209
+    index: 1730
+    indexInWeek: 2
+    title: Sky High
+    artist: Jigsaw
+    year: 1975
+    nation: UK
+    label: Splash
+    youtube: GwLQ9M8sBXs
+    selector: 草野マサムネ
+  - id: "2022020903"
+    week: 209
+    index: 1731
+    indexInWeek: 3
+    title: Maid in Heaven
+    artist: Be-Bop Deluxe
+    year: 1975
+    nation: UK
+    label: Harvest
+    youtube: m7LJOQT8da4
+    selector: 草野マサムネ
+  - id: "2022020904"
+    week: 209
+    index: 1732
+    indexInWeek: 4
+    title: Psychomodo
+    artist: Cockney Rebel
+    year: 1974
+    nation: UK
+    label: EMI
+    youtube: VZ7kQwa6X7g
+    selector: 草野マサムネ
+  - id: "2022020905"
+    week: 209
+    index: 1733
+    indexInWeek: 5
+    title: Magic
+    artist: Pilot
+    year: 1974
+    nation: UK
+    label: EMI
+    youtube: ASGgn8bNQuA
+    selector: 草野マサムネ
+  - id: "2022020906"
+    week: 209
+    index: 1734
+    indexInWeek: 6
+    title: Dear Jean (I'm Nervous)
+    artist: City Boy
+    year: 1977
+    nation: UK
+    label: Vertigo
+    youtube: M-avekxPvVg
+    selector: 草野マサムネ
+  - id: "2022020907"
+    week: 209
+    index: 1735
+    indexInWeek: 7
+    title: Without You
+    artist: Badfinger
+    year: 1970
+    nation: UK
+    label: Apple
+    youtube: 8Xp-5qVQYWc
+    selector: 草野マサムネ
+  - id: "2022020908"
+    week: 209
+    index: 1736
+    indexInWeek: 8
+    title: 青空
+    artist: 織田哲郎
+    kana: おだてつろう
+    year: 1998
+    nation: JPN
+    label: ZOOTREC
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,8 +1,11 @@
 /* eslint no-param-reassign: ["error", { "props": true, "ignorePropertyModificationsFor": ["bar"] }] */
-
+import { Node, CreateNodeArgs } from 'gatsby';
+import { getYomi } from '../src/utils/sortByYomi';
 import { PureArtist } from './types';
+import { Tune, Program, Artist } from '../types';
+import { GatsbyGraphQLContext } from './graphql';
 
-interface IntQueryOperatorInput {
+export type IntQueryOperatorInput = {
   eq?: number | null;
   ne?: number | null;
   gt?: number | null;
@@ -11,7 +14,7 @@ interface IntQueryOperatorInput {
   lte?: number | null;
   in?: number[] | null;
   nin?: number[] | null;
-}
+};
 
 function argIsIntQueryOperatorInput(arg: unknown | IntQueryOperatorInput): arg is IntQueryOperatorInput {
   return true;
@@ -35,14 +38,14 @@ export function intQueryFilter(arg: unknown | IntQueryOperatorInput): (input: nu
     (!nin || !nin.includes(input));
 }
 
-interface StringQueryOperatorInput {
+export type StringQueryOperatorInput = {
   eq?: string | null;
   ne?: string | null;
   in?: string[] | null;
   nin?: string[] | null;
   regex?: string | null;
   glob?: string | null;
-}
+};
 
 function argIsStringQueryOperatorInput(arg: unknown | StringQueryOperatorInput): arg is StringQueryOperatorInput {
   return true;
@@ -77,4 +80,87 @@ export function getRelatedArtists(artist: PureArtist): string[] {
   return Object.entries(obj)
     .sort((a, b) => b[1] - a[1])
     .map(([name]) => name);
+}
+
+export function createArtistNode(
+  {
+    actions,
+    createNodeId,
+    createContentDigest,
+    getNode,
+  }: Pick<CreateNodeArgs, 'actions' | 'createNodeId' | 'createContentDigest' | 'getNode'>,
+  parentNode: Program & Node
+) {
+  const { createNode, createParentChildLink } = actions;
+
+  return async ({ artist, ...data }: Pick<Tune, 'artist' | 'kana' | 'nation'>) => {
+    const sortName = getYomi(artist, data.kana);
+    const nodeId = createNodeId(`artist-${sortName}`);
+    const nodeContent = JSON.stringify({ ...data, name: artist, sortName });
+    const nodeMeta = {
+      id: nodeId,
+      parent: parentNode.id,
+      children: [],
+      internal: {
+        type: 'Artist',
+        content: nodeContent,
+        contentDigest: createContentDigest(data),
+      },
+    };
+    await createNode({ ...data, name: artist, sortName, ...nodeMeta });
+
+    const artistNode = getNode(nodeId);
+    if (artistNode) {
+      createParentChildLink({ parent: parentNode, child: artistNode });
+    }
+  };
+}
+
+export async function createArtistNodeByProgram(
+  {
+    actions,
+    createNodeId,
+    createContentDigest,
+    getNode,
+  }: Pick<CreateNodeArgs, 'actions' | 'createNodeId' | 'createContentDigest' | 'getNode'>,
+  parentNode: Program & Node
+) {
+  const createEachArtistNode = createArtistNode({ actions, createNodeId, createContentDigest, getNode }, parentNode);
+
+  const programArtists = parentNode.playlist
+    .filter(({ artist }) => artist !== 'スピッツ')
+    .reduce<Tune[]>((accum, curr) => (accum.map(({ artist }) => artist).includes(curr.artist) ? accum : [...accum, curr]), [])
+    .map(({ artist, kana, nation }) => ({ artist, kana, nation }));
+
+  await Promise.all(
+    programArtists.map(async (data) => {
+      await createEachArtistNode(data);
+    })
+  );
+}
+
+export function createSlug(str: string) {
+  return str.replace('&', 'and').replace(/[&/\\#,+()$~%.'":*?<>{}]/g, '');
+}
+
+export function createArtistImage(tunes: Tune[]) {
+  const youtube = tunes.reduce<string | null>((accum, curr) => {
+    return curr.youtube || accum;
+  }, null);
+  return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
+}
+
+export async function createRelatedArtists(name: string, playlist: Tune[], context: GatsbyGraphQLContext) {
+  const artists = playlist.filter(({ artist }) => artist !== 'スピッツ' && artist !== name).map(({ artist }) => artist);
+  const input = Array.from(new Set(artists));
+
+  const { entries } = await context.nodeModel.findAll<Artist & Node>({
+    type: `Artist`,
+    query: {
+      filter: {
+        name: { in: input },
+      },
+    },
+  });
+  return Array.from(entries).sort((a, b) => a.sortName.localeCompare(b.sortName));
 }

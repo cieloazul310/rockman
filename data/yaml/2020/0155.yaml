@@ -3,7 +3,7 @@ week: 155
 year: 2020
 title: 2020 気になった曲で漫遊記
 guests: []
-categories: []
+categories: ["今年気になった曲"]
 date: 2020-12-20
 playlist:
   - id: "2020015501"
@@ -93,5 +93,6 @@ playlist:
     year: 1997
     nation: JPN
     label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
     selector: 草野マサムネ
     corner: ちょっぴりタイムマシン

@@ -1,23 +1,21 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
 import { useLocation } from '@reach/router';
-import Layout from 'gatsby-theme-aoi/src/layout';
-import ContentBasis from '../components/ContentBasis';
-import NavigationBox from '../components/NavigationBox';
+import { Layout, Section, SectionDivider, Article, Alert } from '@cieloazul310/gatsby-theme-aoi';
+import Jumbotron from '../components/Jumbotron';
 
-function NotFoundPage(): JSX.Element {
+function NotFoundPage() {
   const location = useLocation();
   return (
-    <Layout title="Not Found" maxWidth="md">
-      <Typography variant="h2" gutterBottom>
-        NOT FOUND
-      </Typography>
-      <Typography variant="h5" gutterBottom>
-        <code>{location.pathname}</code> doesn&#39;t exist.
-      </Typography>
-      <ContentBasis>
-        <NavigationBox />
-      </ContentBasis>
+    <Layout title="Not Found">
+      <Jumbotron title="Not Found" />
+      <SectionDivider />
+      <Section>
+        <Article maxWidth="md">
+          <Alert severity="warning">
+            <code>{location.pathname}</code> doesn&#39;t exist.
+          </Alert>
+        </Article>
+      </Section>
     </Layout>
   );
 }

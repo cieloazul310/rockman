@@ -9,31 +9,25 @@ date: 2020-02-09
 playlist:
   - id: "2020011001"
     week: 110
-    name: 砂漠の花
     artist: スピッツ
-    kana: ""
     year: 2007
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: 砂漠の花
     index: 907
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2020011002"
     week: 110
-    name: One Hundred Punks
     artist: Generation X
-    kana: ""
     year: 1978
     nation: UK
     label: Chrysalis
     producer:
       - Martin Rushent
-    corner: ""
     youtube: rn46wWn00bo
     title: One Hundred Punks
     index: 908
@@ -41,15 +35,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011003"
     week: 110
-    name: Rebel Yell
     artist: Billy Idol
-    kana: ""
     year: 1983
     nation: UK
     label: Chrysalis
     producer:
       - Keith Forsey
-    corner: ""
     youtube: VdphvuyaV_I
     title: Rebel Yell
     index: 909
@@ -57,15 +48,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011004"
     week: 110
-    name: From the Heart
     artist: Generation X
-    kana: ""
     year: 1978
     nation: UK
     label: Chrysalis
     producer:
       - Martin Rushent
-    corner: ""
     youtube: 9cn_5dEugYs
     title: From the Heart
     index: 910
@@ -73,15 +61,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011005"
     week: 110
-    name: Ready Steady Go
     artist: Generation X
-    kana: ""
     year: 1978
     nation: UK
     label: Chrysalis
     producer:
       - Martin Rushent
-    corner: ""
     youtube: 5dkbnjzHrWE
     title: Ready Steady Go
     index: 911
@@ -89,15 +74,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011006"
     week: 110
-    name: King Rocker
     artist: Generation X
-    kana: ""
     year: 1979
     nation: UK
     label: Chrysalis
     producer:
       - Ian Hunter
-    corner: ""
     youtube: L8HQGsT5mzg
     title: King Rocker
     index: 912
@@ -105,15 +87,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011007"
     week: 110
-    name: Dancing with Myself
     artist: Generation X
-    kana: ""
     year: 1981
     nation: UK
     label: Chrysalis
     producer:
       - Keith Forsey
-    corner: ""
     youtube: LMdOhFwuUFc
     title: Dancing with Myself
     index: 913
@@ -121,15 +100,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011008"
     week: 110
-    name: Kleenex
     artist: Generation X
-    kana: ""
     year: 1978
     nation: UK
     label: Chrysalis
     producer:
       - Martin Rushent
-    corner: ""
     youtube: XyHOehmk8SY
     title: Kleenex
     index: 914
@@ -137,15 +113,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2020011009"
     week: 110
-    name: キミのカオ
     artist: ホフディラン
-    kana: ""
     year: 1997
     nation: JPN
     label: ポニーキャニオン
-    producer: []
     corner: ちょっぴりタイムマシン
-    youtube: ""
+    youtube: UEa6gnB25A0
     title: キミのカオ
     index: 915
     indexInWeek: 9

@@ -1,106 +1,232 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import Hidden from '@material-ui/core/Hidden';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import Collapse from '@material-ui/core/Collapse';
-import Radio from '@material-ui/core/Radio';
-import Checkbox from '@material-ui/core/Checkbox';
-import InputBase from '@material-ui/core/InputBase';
-import IconButton from '@material-ui/core/IconButton';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { makeStyles, createStyles, useTheme, Theme } from '@material-ui/core/styles';
-import SearchIcon from '@material-ui/icons/Search';
-import CancelIcon from '@material-ui/icons/Cancel';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import FlagIcon from '@material-ui/icons/Flag';
-import { AutoSizer } from 'react-virtualized';
-import Layout from 'gatsby-theme-aoi/src/layout';
-import Artists from '../components/Artists';
-import useFullHeight from '../utils/useFullHeight';
-import { ArtistItem, useAllNations } from '../utils/graphql-hooks';
-import { SortType } from '../utils/sortByYomi';
+import { graphql, PageProps } from 'gatsby';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Paper from '@mui/material/Paper';
+import List from '@mui/material/List';
+import ListSubheader from '@mui/material/ListSubheader';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import Radio from '@mui/material/Radio';
+import Checkbox from '@mui/material/Checkbox';
+import Collapse from '@mui/material/Collapse';
+import InputBase from '@mui/material/InputBase';
+import IconButton from '@mui/material/IconButton';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
-interface StylesProps {
-  height: number;
+import SearchIcon from '@mui/icons-material/Search';
+import CancelIcon from '@mui/icons-material/Cancel';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FlagIcon from '@mui/icons-material/Flag';
+import { AutoSizer } from 'react-virtualized';
+import Layout from '../layout';
+import ArtistList from '../components/ArtistList';
+import { AdInSectionDivider } from '../components/Ads';
+import { useAllNations } from '../utils/graphql-hooks';
+import useSortedArtists from '../utils/useSortedArtists';
+import { kanaToHira } from '../utils/sortByYomi';
+import { Artist, ArtistBrowser, ArtistListItem } from '../../types';
+
+type SortListProps = {
+  handleSortType: (sortType: 'abc' | 'programs' | 'tunes') => () => void;
+  sortType: 'abc' | 'programs' | 'tunes';
+};
+
+function SortList({ sortType, handleSortType }: SortListProps) {
+  return (
+    <List subheader={<ListSubheader>並び順</ListSubheader>}>
+      <ListItem dense button onClick={handleSortType('abc')}>
+        <ListItemIcon>
+          <Radio edge="start" checked={sortType === 'abc'} color="secondary" />
+        </ListItemIcon>
+        <ListItemText primary="abc" />
+      </ListItem>
+      <ListItem dense button onClick={handleSortType('programs')}>
+        <ListItemIcon>
+          <Radio edge="start" checked={sortType === 'programs'} color="secondary" />
+        </ListItemIcon>
+        <ListItemText primary="登場回数" />
+      </ListItem>
+      <ListItem dense button onClick={handleSortType('tunes')}>
+        <ListItemIcon>
+          <Radio edge="start" checked={sortType === 'tunes'} color="secondary" />
+        </ListItemIcon>
+        <ListItemText primary="曲数" />
+      </ListItem>
+    </List>
+  );
 }
 
-const useStyles = makeStyles<Theme, StylesProps>((theme) =>
-  createStyles({
-    root: {
-      display: 'flex',
-      flexDirection: 'column',
-      height: ({ height }) => height,
-    },
-    searcher: {
-      display: 'flex',
-      flex: 'none',
-      flexDirection: 'column',
-      padding: theme.spacing(2, 0),
-      maxHeight: '40vh',
-    },
-    searchBox: {
-      display: 'flex',
-      flexShrink: 1,
-      padding: theme.spacing(0, 2),
-    },
-    searchText: {
-      flexGrow: 1,
-    },
-    mobileFilters: {
-      flexGrow: 1,
-      overflow: 'auto',
-      borderBottom: `1px solid ${theme.palette.divider}`,
-    },
-    main: {
-      display: 'flex',
-      flexGrow: 1,
-      overflow: 'hidden',
-    },
-    gridContainer: {
-      flexGrow: 1,
-    },
-    desktopGrid: {
-      height: '100%',
-      overflow: 'auto',
-      webkitOverflowScrolling: 'touch',
-    },
-    nested: {
-      paddingLeft: theme.spacing(4),
-    },
-  })
-);
+type FilterListProps = {
+  appearMultiple: boolean;
+  setAppearMultiple: React.Dispatch<React.SetStateAction<boolean>>;
+  appearOnce: boolean;
+  setAppearOnce: React.Dispatch<React.SetStateAction<boolean>>;
+  nations: {
+    country: string;
+    alpha2: string;
+    alpha3: string;
+    numeric: string;
+    fieldValue: string;
+    totalCount: number;
+  }[];
+  nationFilter: string[];
+  setNationFilter: React.Dispatch<React.SetStateAction<string[]>>;
+};
 
-interface StoredState {
-  sortType: SortType;
+function FilterList({
+  appearMultiple,
+  setAppearMultiple,
+  appearOnce,
+  setAppearOnce,
+  nations,
+  nationFilter,
+  setNationFilter,
+}: FilterListProps) {
+  const [nationFilterOpen, setNationFilterOpen] = React.useState(false);
+  const toggleNationFilterOpen = () => {
+    setNationFilterOpen(!nationFilterOpen);
+  };
+  const toggleAppearMultiple = () => {
+    setAppearMultiple(!appearMultiple);
+  };
+  const toggleAppearOnce = () => {
+    setAppearOnce(!appearOnce);
+  };
+  const toggleNationFilter = (newNation: string) => () => {
+    if (nationFilter.includes(newNation)) {
+      setNationFilter(nationFilter.filter((nation) => nation !== newNation));
+    } else {
+      setNationFilter([...nationFilter, newNation]);
+    }
+  };
+  const clearNationFilter = () => {
+    setNationFilter([]);
+  };
+  const resetNationFilter = () => {
+    setNationFilter(nations.map(({ fieldValue }) => fieldValue));
+  };
+
+  return (
+    <List subheader={<ListSubheader>フィルタ</ListSubheader>}>
+      <ListItem dense button onClick={toggleAppearMultiple}>
+        <ListItemIcon>
+          <Checkbox edge="start" checked={appearMultiple} color="secondary" />
+        </ListItemIcon>
+        <ListItemText primary="複数回登場" />
+      </ListItem>
+      <ListItem dense button onClick={toggleAppearOnce}>
+        <ListItemIcon>
+          <Checkbox edge="start" checked={appearOnce} color="secondary" />
+        </ListItemIcon>
+        <ListItemText primary="1回のみ登場" />
+      </ListItem>
+      <ListItem button dense onClick={toggleNationFilterOpen}>
+        <ListItemIcon>
+          <FlagIcon />
+        </ListItemIcon>
+        <ListItemText primary="地域別" />
+        {nationFilterOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+      </ListItem>
+      <Collapse in={nationFilterOpen} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItem sx={{ pl: 4 }} button dense onClick={resetNationFilter}>
+            <ListItemText primary="すべてのチェックをつける" />
+          </ListItem>
+          <ListItem sx={{ pl: 4 }} button dense onClick={clearNationFilter}>
+            <ListItemText primary="すべてのチェックを外す" />
+          </ListItem>
+          {nations.map(({ fieldValue, totalCount, country }) => (
+            <ListItem sx={{ pl: 4 }} key={fieldValue} dense button onClick={toggleNationFilter(fieldValue)}>
+              <ListItemIcon>
+                <Checkbox edge="start" checked={nationFilter.includes(fieldValue)} color="secondary" />
+              </ListItemIcon>
+              <ListItemText primary={country} />
+              <Typography variant="button" component="span">
+                {totalCount}
+              </Typography>
+            </ListItem>
+          ))}
+        </List>
+      </Collapse>
+    </List>
+  );
+}
+
+type SearchFieldProps = {
+  searchText: string;
+  setSearchText: React.Dispatch<React.SetStateAction<string>>;
+};
+
+function SearchField({ searchText, setSearchText }: SearchFieldProps) {
+  const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    event.preventDefault();
+    setSearchText(event.target.value);
+  };
+  const clearSearchText = () => {
+    setSearchText('');
+  };
+  const onSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+  };
+
+  return (
+    <Paper component="form" sx={{ display: 'flex', flexShrink: 1, px: 2 }} onSubmit={onSubmit}>
+      <IconButton disabled edge="start" size="large">
+        <SearchIcon />
+      </IconButton>
+      <InputBase
+        value={searchText}
+        onChange={onChangeSearchText}
+        sx={{ flexGrow: 1, fontSize: { xs: '16px', sm: '16px' } }}
+        placeholder="アーティストを検索"
+        inputProps={{ 'aria-label': 'search artists' }}
+      />
+      {searchText !== '' ? (
+        <IconButton edge="end" onClick={clearSearchText} size="large">
+          <CancelIcon />
+        </IconButton>
+      ) : null}
+    </Paper>
+  );
+}
+
+type ArtistsPageQueryData = {
+  allArtist: {
+    totalCount: number;
+    edges: {
+      node: Artist & {
+        program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+      };
+    }[];
+  };
+};
+
+type StoredState = {
+  sortType: 'programs' | 'tunes' | 'abc';
   searchText: string;
   appearMultiple: boolean;
   appearOnce: boolean;
   nationFilter: string[];
-}
+};
 
-function ArtistsPage(): JSX.Element {
-  const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
-  const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
-
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('xs'));
-  const contentHeight = useFullHeight();
-  const classes = useStyles({ height: contentHeight });
+function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
+  const { allArtist } = data;
+  const { breakpoints } = useTheme();
+  const isMobile = useMediaQuery(breakpoints.only('xs'));
   const nations = useAllNations();
 
-  const [sortType, setSortType] = React.useState<SortType>(initialState.sortType ?? 'edges');
-  const [searchText, setSearchText] = React.useState(initialState.searchText ?? '');
+  const stored = typeof window === 'object' ? sessionStorage.getItem('artistFilters') : null;
+  const initialState: Partial<StoredState> = stored ? JSON.parse(stored) : {};
+  const [sortType, setSortType] = React.useState<'programs' | 'tunes' | 'abc'>(initialState.sortType ?? 'programs');
   const [appearMultiple, setAppearMultiple] = React.useState(initialState.appearMultiple ?? true);
   const [appearOnce, setAppearOnce] = React.useState(initialState.appearOnce ?? true);
   const [nationFilter, setNationFilter] = React.useState(initialState.nationFilter ?? nations.map(({ fieldValue }) => fieldValue));
-  const [nationFilterOpen, setNationFilterOpen] = React.useState(false);
+  const [searchText, setSearchText] = React.useState(initialState.searchText ?? '');
 
   React.useEffect(() => {
     if (window && typeof window === 'object') {
@@ -117,179 +243,114 @@ function ArtistsPage(): JSX.Element {
     }
   }, [sortType, searchText, appearMultiple, appearOnce, nationFilter]);
 
-  const searchFilter = React.useMemo(() => {
-    if (searchText === '') {
-      return () => true;
-    }
-    const regex = RegExp(searchText.replace(/([.^$|*+?()[\]{}\\-])/g, '\\$1'), 'i');
-    return (artist: ArtistItem) => regex.test(artist.node.name) || (artist.node.kana ? regex.test(artist.node.kana) : false);
-  }, [searchText]);
-  const onChangeSearchText = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    event.preventDefault();
-    setSearchText(event.target.value);
-  };
-  const clearSearchText = () => {
-    setSearchText('');
-  };
-  const handleSortType = (newSortType: SortType) => () => {
+  const handleSortType = (newSortType: 'abc' | 'programs' | 'tunes') => () => {
     setSortType(newSortType);
   };
-  const toggleAppearMultiple = () => {
-    setAppearMultiple(!appearMultiple);
-  };
-  const toggleAppearOnce = () => {
-    setAppearOnce(!appearOnce);
-  };
-  const toggleNationFilterOpen = () => {
-    setNationFilterOpen(!nationFilterOpen);
-  };
-  const toggleNationFilter = (newNation: string) => () => {
-    if (nationFilter.includes(newNation)) {
-      setNationFilter(nationFilter.filter((nation) => nation !== newNation));
-    } else {
-      setNationFilter([...nationFilter, newNation]);
-    }
-  };
-  const clearNationFilter = () => {
-    setNationFilter([]);
-  };
-  const resetNationFilter = () => {
-    setNationFilter(nations.map(({ fieldValue }) => fieldValue));
-  };
-  const appearFilters = React.useMemo(
-    () => (artist: ArtistItem) => {
+  const searchFilter = React.useCallback(
+    (artist: { node: ArtistListItem }) => {
+      if (searchText === '') return true;
+      const regex = RegExp(searchText.replace(/([.^$|*+?()[\]{}\\-])/g, '\\$1'), 'i');
+      const { node } = artist;
+      const { name, kana } = node;
+      if (regex.test(name)) return true;
+      if (regex.test(name.replace(/([^a-zA-z0-9]+)/g, () => ''))) return true;
+      if (regex.test(kanaToHira(name))) return true;
+      if (kana && regex.test(kana)) return true;
+      return false;
+    },
+    [searchText]
+  );
+  const appearFilters = React.useCallback(
+    (artist: { node: ArtistListItem }) => {
       if (appearMultiple && appearOnce) return true;
-      if (appearMultiple) return artist.node.programCount > 1;
-      if (appearOnce) return artist.node.programCount === 1;
+      if (appearMultiple) return artist.node.program.programsCount > 1;
+      if (appearOnce) return artist.node.program.programsCount === 1;
       return false;
     },
     [appearMultiple, appearOnce]
   );
-  const nationFilters = React.useMemo(() => (artist: ArtistItem) => nationFilter.includes(artist.node.nation), [nationFilter]);
-  const filters = React.useMemo(() => [searchFilter, appearFilters, nationFilters], [searchFilter, appearFilters, nationFilters]);
-
-  const SortList = () => (
-    <List subheader={<ListSubheader>並び順</ListSubheader>}>
-      <ListItem dense button onClick={handleSortType('abc')}>
-        <ListItemIcon>
-          <Radio edge="start" checked={sortType === 'abc'} />
-        </ListItemIcon>
-        <ListItemText primary="abc" />
-      </ListItem>
-      <ListItem dense button onClick={handleSortType('edges')}>
-        <ListItemIcon>
-          <Radio edge="start" checked={sortType === 'edges'} />
-        </ListItemIcon>
-        <ListItemText primary="登場回数" />
-      </ListItem>
-      <ListItem dense button onClick={handleSortType('tunes')}>
-        <ListItemIcon>
-          <Radio edge="start" checked={sortType === 'tunes'} />
-        </ListItemIcon>
-        <ListItemText primary="曲数" />
-      </ListItem>
-    </List>
+  const nationFilters = React.useCallback((artist: { node: ArtistListItem }) => nationFilter.includes(artist.node.nation), [nationFilter]);
+  const filters = React.useCallback(
+    (artist: { node: ArtistListItem }) => [searchFilter, nationFilters, appearFilters].every((filter) => filter(artist)),
+    [searchFilter, nationFilters, appearFilters]
   );
 
-  const FilterList = () => (
-    <List subheader={<ListSubheader>フィルタ</ListSubheader>}>
-      <ListItem dense button onClick={toggleAppearMultiple}>
-        <ListItemIcon>
-          <Checkbox edge="start" checked={appearMultiple} />
-        </ListItemIcon>
-        <ListItemText primary="複数回登場" />
-      </ListItem>
-      <ListItem dense button onClick={toggleAppearOnce}>
-        <ListItemIcon>
-          <Checkbox edge="start" checked={appearOnce} />
-        </ListItemIcon>
-        <ListItemText primary="1回のみ登場" />
-      </ListItem>
-      <ListItem button dense onClick={toggleNationFilterOpen}>
-        <ListItemIcon>
-          <FlagIcon />
-        </ListItemIcon>
-        <ListItemText primary="地域別" />
-        {nationFilterOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-      </ListItem>
-      <Collapse in={nationFilterOpen} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem className={classes.nested} button dense onClick={resetNationFilter}>
-            <ListItemText primary="すべてのチェックをつける" />
-          </ListItem>
-          <ListItem className={classes.nested} button dense onClick={clearNationFilter}>
-            <ListItemText primary="すべてのチェックを外す" />
-          </ListItem>
-          {nations.map((nation) => (
-            <ListItem className={classes.nested} key={nation.fieldValue} dense button onClick={toggleNationFilter(nation.fieldValue)}>
-              <ListItemIcon>
-                <Checkbox edge="start" checked={nationFilter.includes(nation.fieldValue)} />
-              </ListItemIcon>
-              <ListItemText primary={nation.fieldValue} />
-              <Typography variant="button" component="span">
-                {nation.totalCount}
-              </Typography>
-            </ListItem>
-          ))}
-        </List>
-      </Collapse>
-    </List>
-  );
+  const filteredArtists = React.useMemo(() => allArtist.edges.filter(filters), [allArtist, filters]);
+  const renderArtists = useSortedArtists(filteredArtists, sortType);
 
   return (
     <Layout
       title="アーティスト一覧"
-      disablePaddingTop
-      componentViewports={{ BottomNav: false }}
       drawerContents={
         isMobile ? (
           <div>
-            <SortList />
-            <FilterList />
+            <SortList sortType={sortType} handleSortType={handleSortType} />
+            <FilterList
+              appearMultiple={appearMultiple}
+              setAppearMultiple={setAppearMultiple}
+              appearOnce={appearOnce}
+              setAppearOnce={setAppearOnce}
+              nations={nations}
+              nationFilter={nationFilter}
+              setNationFilter={setNationFilter}
+            />
           </div>
         ) : undefined
       }
     >
-      <div className={classes.root}>
-        <div className={classes.searcher}>
-          <div>
-            <Paper component="form" className={classes.searchBox}>
-              <IconButton disabled edge="start">
-                <SearchIcon />
-              </IconButton>
-              <InputBase
-                value={searchText}
-                onChange={onChangeSearchText}
-                className={classes.searchText}
-                placeholder="アーティストを検索"
-                inputProps={{ 'aria-label': 'search artists' }}
-              />
-              {searchText !== '' ? (
-                <IconButton edge="end" onClick={clearSearchText}>
-                  <CancelIcon />
-                </IconButton>
-              ) : null}
-            </Paper>
-          </div>
-        </div>
-        <div className={classes.main}>
-          <Grid container className={classes.gridContainer}>
-            <Hidden xsDown>
-              <Grid item sm={4} className={classes.desktopGrid}>
-                <SortList />
-                <FilterList />
-              </Grid>
-            </Hidden>
-            <Grid item xs={12} sm={8} className={classes.desktopGrid}>
-              <AutoSizer defaultHeight={contentHeight}>
-                {({ width, height }) => <Artists width={width} height={height} filters={filters} sortType={sortType} />}
-              </AutoSizer>
-            </Grid>
-          </Grid>
-        </div>
-      </div>
+      <Box display="flex" flexDirection="column" height={{ xs: 'calc(100vh - 56px)', sm: 'calc(100vh - 64px)' }}>
+        <Container maxWidth="lg" sx={{ py: 2, flexShrink: 0 }}>
+          <SearchField searchText={searchText} setSearchText={setSearchText} />
+        </Container>
+        <Container maxWidth="lg" sx={{ flexGrow: 1, overflow: 'hidden' }} disableGutters={isMobile}>
+          <Box display="flex" height={1}>
+            {!isMobile ? (
+              <Box flex={1} height={1} overflow="auto">
+                <SortList sortType={sortType} handleSortType={handleSortType} />
+                <FilterList
+                  appearMultiple={appearMultiple}
+                  setAppearMultiple={setAppearMultiple}
+                  appearOnce={appearOnce}
+                  setAppearOnce={setAppearOnce}
+                  nations={nations}
+                  nationFilter={nationFilter}
+                  setNationFilter={setNationFilter}
+                />
+              </Box>
+            ) : null}
+            <Box flex={2} display="flex" flexDirection="column">
+              <Box display="flex" px={2} pt={1} justifyContent="flex-end" alignItems="baseline">
+                <Typography variant="body2">
+                  {filteredArtists.length}組 / 全{allArtist.totalCount}組
+                </Typography>
+              </Box>
+              <Box flexGrow={1} p={1}>
+                <AutoSizer defaultHeight={400}>
+                  {({ width, height }) => <ArtistList width={width} height={height} artists={renderArtists} />}
+                </AutoSizer>
+              </Box>
+            </Box>
+          </Box>
+        </Container>
+      </Box>
+      <AdInSectionDivider />
     </Layout>
   );
 }
 
 export default ArtistsPage;
+
+export const query = graphql`
+  query {
+    allArtist(sort: { fields: [program___programsCount, program___tunesCount, sortName], order: [DESC, DESC, ASC] }) {
+      totalCount
+      edges {
+        node {
+          ...minimumArtist
+          kana
+          sortName
+        }
+      }
+    }
+  }
+`;

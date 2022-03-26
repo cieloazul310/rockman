@@ -1,9 +1,13 @@
 import * as React from 'react';
 import { TuneProps } from '../components/Tune';
-import { TunesByProgramProps } from '../components/TunesByProgram';
 import { useSortProgram } from './useSorter';
+import { ProgramBrowser, TuneFields } from '../../types';
 
-function getPlaylistLength<T extends TunesByProgramProps['program']>(programs: T[]): number {
+function getPlaylistLength<
+  T extends Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneFields[];
+  }
+>(programs: T[]): number {
   return programs.reduce((accum, curr) => (curr?.playlist ? accum + curr.playlist.length : accum), 0);
 }
 
@@ -20,11 +24,11 @@ export default function useDividedArray<T>(items: T[], divisor: number): T[][] {
   }, [items, divisor]);
 }
 
-export function useDividedPrograms<T extends TunesByProgramProps['program']>(
-  programs: T[],
-  divisor: number,
-  filter: (tune: TuneProps['tune']) => boolean = () => true
-): T[][] {
+export function useDividedPrograms<
+  T extends Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneFields[];
+  }
+>(programs: T[], divisor: number, filter: (tune: TuneProps['tune']) => boolean = () => true): T[][] {
   const sortProgram = useSortProgram();
   return React.useMemo(() => {
     return programs.sort(sortProgram).reduce<T[][]>((accum, curr, index) => {

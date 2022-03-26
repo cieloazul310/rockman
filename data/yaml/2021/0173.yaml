@@ -1,0 +1,105 @@
+id: "20210173"
+week: 173
+year: 2021
+title: 自らスピッツ曲を選んで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-04-25
+playlist:
+  - id: "2021017301"
+    week: 173
+    index: 1429
+    indexInWeek: 1
+    title: 渚
+    artist: コトリンゴ
+    year: 2010
+    nation: JPN
+    label: commmons
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017302"
+    week: 173
+    index: 1430
+    indexInWeek: 2
+    title: ハヤテ
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 笹路正徳
+    selector: 草野マサムネ
+  - id: "2021017303"
+    week: 173
+    index: 1431
+    indexInWeek: 3
+    title: ナサケモノ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021017304"
+    week: 173
+    index: 1432
+    indexInWeek: 4
+    title: オケラ
+    artist: スピッツ
+    year: 2009
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2021017305"
+    week: 173
+    index: 1433
+    indexInWeek: 5
+    title: ハチミツ
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    producer: 
+      - 笹路正徳
+    youtube: 6J1sPwGCH5w
+    selector: 草野マサムネ
+  - id: "2021017306"
+    week: 173
+    index: 1434
+    indexInWeek: 6
+    title: えにし
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    selector: 草野マサムネ
+  - id: "2021017307"
+    week: 173
+    index: 1435
+    indexInWeek: 7
+    title: 小さな生き物
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: tU5mPtGk1Eg
+    selector: 草野マサムネ
+  - id: "2021017308"
+    week: 173
+    index: 1436
+    indexInWeek: 8
+    title: 旅人(為自己作証)
+    artist: 陳慧琳
+    kana: けりーちゃん
+    year: 1996
+    nation: HKG
+    label: Go East Entertainment
+    youtube: AF2fGqXhDfI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,111 @@
+id: "20210206"
+week: 206
+year: 2021
+title: ほんわかクリームで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-12-12
+playlist:
+  - id: "2021020601"
+    week: 206
+    index: 1703
+    indexInWeek: 1
+    title: シロクマ
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    producer:
+      - 亀田誠治
+    youtube: UiYl1r5m5a0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020602"
+    week: 206
+    index: 1704
+    indexInWeek: 2
+    title: World of Pain
+    artist: Cream
+    year: 1967
+    nation: UK
+    label: Reaction
+    youtube: etVp0TsouQA
+    selector: 草野マサムネ
+  - id: "2021020603"
+    week: 206
+    index: 1705
+    indexInWeek: 3
+    title: N.S.U.
+    artist: Cream
+    year: 1966
+    nation: UK
+    label: Reaction
+    youtube: tsrmxWcodd0
+    selector: 草野マサムネ
+  - id: "2021020604"
+    week: 206
+    index: 1706
+    indexInWeek: 4
+    title: Pressed Rat and Warthog
+    artist: Cream
+    year: 1968
+    nation: UK
+    label: Polydor
+    youtube: 7YrNgwRqfy8
+    selector: 草野マサムネ
+  - id: "2021020605"
+    week: 206
+    index: 1707
+    indexInWeek: 5
+    title: Those Were the Days
+    artist: Cream
+    year: 1968
+    nation: UK
+    label: Polydor
+    youtube: EbNj1quCcsQ
+    selector: 草野マサムネ
+  - id: "2021020606"
+    week: 206
+    index: 1708
+    indexInWeek: 6
+    title: Passing the Time
+    artist: Cream
+    year: 1968
+    nation: UK
+    label: Polydor
+    youtube: Y5dLItPRekU
+    selector: 草野マサムネ
+  - id: "2021020607"
+    week: 206
+    index: 1709
+    indexInWeek: 7
+    title: Badge
+    artist: Cream
+    year: 1969
+    nation: UK
+    label: Polydor
+    youtube: 5TH32ercNP0
+    selector: 草野マサムネ
+  - id: "2021020608"
+    week: 206
+    index: 1710
+    indexInWeek: 8
+    title: Dreaming
+    artist: Cream
+    year: 1966
+    nation: UK
+    label: Reaction
+    youtube: N_SMfa96TM8
+    selector: 草野マサムネ
+  - id: "2021020609"
+    week: 206
+    index: 1711
+    indexInWeek: 9
+    title: Bogys Boogieがきこえる
+    artist: Double Bogys
+    year: 2005
+    nation: JPN
+    label: Ultra-Vybe
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

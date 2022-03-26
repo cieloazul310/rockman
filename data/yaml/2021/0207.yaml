@@ -1,0 +1,113 @@
+id: "20210207"
+week: 207
+year: 2021
+title: 2021年気になった曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["今年気になった曲"]
+date: 2021-12-19
+playlist:
+  - id: "2021020701"
+    week: 207
+    index: 1712
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021020702"
+    week: 207
+    index: 1713
+    indexInWeek: 2
+    title: Paprika
+    artist: Japanese Breakfast
+    year: 2021
+    nation: US
+    label: Dead Oceans
+    youtube: aA5l2qsX_O8
+    selector: 草野マサムネ
+  - id: "2021020703"
+    week: 207
+    index: 1714
+    indexInWeek: 3
+    title: 旅路
+    artist: 藤井風
+    kana: ふじいかぜ
+    year: 2021
+    nation: JPN
+    label: Yaffle
+    youtube: 29p8FvT_puU
+    selector: 草野マサムネ
+  - id: "2021020704"
+    week: 207
+    index: 1715
+    indexInWeek: 4
+    title: 恋するリボルバー
+    artist: 伊藤蘭
+    kana: いとうらん
+    year: 2020
+    nation: JPN
+    label: ソニー・ミュージックダイレクト
+    youtube: d2R7Vtw2__Q
+    selector: 草野マサムネ
+  - id: "2021020705"
+    week: 207
+    index: 1716
+    indexInWeek: 5
+    title: Juniper
+    artist: Katy Kirby
+    year: 2018
+    nation: US
+    label: Keeled Scales
+    youtube: c9yWADml_dU
+    selector: 草野マサムネ
+  - id: "2021020706"
+    week: 207
+    index: 1717
+    indexInWeek: 6
+    title: Easy To Love
+    artist: Sam Evian
+    year: 2021
+    nation: US
+    label: Fat Possum Records
+    youtube: qvrS3T-f6lM
+    selector: 草野マサムネ
+  - id: "2021020707"
+    week: 207
+    index: 1718
+    indexInWeek: 7
+    title: Treasure Chest
+    artist: Nawather
+    year: 2021
+    nation: TUN
+    label: M & O Music
+    youtube: epdl5CU3IS4
+    selector: 草野マサムネ
+  - id: "2021020708"
+    week: 207
+    index: 1719
+    indexInWeek: 8
+    title: 金木犀
+    artist: アイナ・ジ・エンド
+    year: 2021
+    nation: JPN
+    label: avex trax
+    youtube: ampmDPg4QrM
+    selector: 草野マサムネ
+  - id: "2021020709"
+    week: 207
+    index: 1720
+    indexInWeek: 9
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

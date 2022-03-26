@@ -4,7 +4,7 @@ year: 2018
 title: フランス語ソングで漫遊記
 subtitle: ""
 guests: []
-categories: []
+categories: ["地域特集"]
 date: 2018-06-10
 playlist:
   - id: "2018002301"
@@ -105,6 +105,7 @@ playlist:
     year: 1995
     nation: JPN
     label: ソニー・ミュージックレコーズ
+    youtube: uRkisWegyM8
     corner: ちょっぴりタイムマシン
     title: 明日の行方
     index: 192

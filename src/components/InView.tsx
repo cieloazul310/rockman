@@ -1,13 +1,12 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
-// import FallBack from './FallBack';
 import Loader from './Loader';
 
-interface Props {
+type InViewProps = {
   children: React.ReactNode;
-}
+};
 
-function InView({ children }: Props): JSX.Element {
+function InView({ children }: InViewProps) {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });

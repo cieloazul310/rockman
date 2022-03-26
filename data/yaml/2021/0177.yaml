@@ -1,0 +1,99 @@
+id: "20210177"
+week: 177
+year: 2021
+title: フォークな曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2021-05-23
+playlist:
+  - id: "2021017701"
+    week: 177
+    index: 1466
+    indexInWeek: 1
+    title: 海を見に行こう
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサルポリドール
+    producer:
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021017702"
+    week: 177
+    index: 1467
+    indexInWeek: 2
+    title: I Ain't Marching Any More
+    artist: Phil Ochs
+    year: 1965
+    nation: US
+    label: Elektra
+    youtube: 1rVTBCtYjoY
+    selector: 草野マサムネ
+  - id: "2021017703"
+    week: 177
+    index: 1468
+    indexInWeek: 3
+    title: Colours
+    artist: Donovan
+    year: 1966
+    nation: UK
+    label: CBS
+    youtube: Nt1vnA2OHi0
+    selector: 草野マサムネ
+  - id: "2021017704"
+    week: 177
+    index: 1469
+    indexInWeek: 4
+    title: Crazy Man Michae
+    artist: Fairport Convention
+    year: 1969
+    nation: UK
+    label: Island
+    youtube: H5s3bm8Sq5M
+    selector: 草野マサムネ
+  - id: "2021017705"
+    week: 177
+    index: 1470
+    indexInWeek: 5
+    title: The Archetypal Man
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum Records
+    youtube: TShtWiAp4DI
+    selector: 草野マサムネ
+  - id: "2021017706"
+    week: 177
+    index: 1471
+    indexInWeek: 6
+    title: Cannock Chase
+    artist: Labi Siffre
+    year: 1972
+    nation: UK
+    label: Pye International
+    youtube: gb_zQXF3_WM
+    selector: 草野マサムネ
+  - id: "2021017707"
+    week: 177
+    index: 1472
+    indexInWeek: 7
+    title: Annie's Song
+    artist: John Denver
+    year: 1974
+    nation: US
+    label: RCA
+    youtube: RNOTF-znQyw
+    selector: 草野マサムネ
+  - id: "2021017708"
+    week: 177
+    index: 1473
+    indexInWeek: 8
+    title: 赤ちょうちん
+    artist: かぐや姫
+    year: 1974
+    nation: JPN
+    label: 日本クラウン
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

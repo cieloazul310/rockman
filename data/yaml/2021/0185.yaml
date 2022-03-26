@@ -1,0 +1,99 @@
+id: "20210185"
+week: 185
+year: 2021
+title: ザ・ナックで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2021-07-18
+playlist:
+  - id: "2021018501"
+    week: 185
+    index: 1529
+    indexInWeek: 1
+    title: ハチの針
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    producer: 
+      - 亀田誠治
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2021018502"
+    week: 185
+    index: 1530
+    indexInWeek: 2
+    title: My Sharona
+    artist: The Knack
+    year: 1979
+    nation: US
+    label: Capitol
+    youtube: bbr60I0u2Ng
+    selector: 草野マサムネ
+  - id: "2021018503"
+    week: 185
+    index: 1531
+    indexInWeek: 3
+    title: Baby Talks Dirty
+    artist: The Knack
+    year: 1980
+    nation: US
+    label: Capitol
+    youtube: 5M6x8YMg7ps
+    selector: 草野マサムネ
+  - id: "2021018504"
+    week: 185
+    index: 1532
+    indexInWeek: 4
+    title: Just Wait and See
+    artist: The Knack
+    year: 1981
+    nation: US
+    label: Capitol
+    youtube: HbGNNLCnnDY
+    selector: 草野マサムネ
+  - id: "2021018505"
+    week: 185
+    index: 1533
+    indexInWeek: 5
+    title: Rocket O' Love
+    artist: The Knack
+    year: 1991
+    nation: US
+    label: Charisma
+    youtube: htNUu6Y48_A
+    selector: 草野マサムネ
+  - id: "2021018506"
+    week: 185
+    index: 1534
+    indexInWeek: 6
+    title: Pop Is Dead
+    artist: The Knack
+    year: 1998
+    nation: US
+    label: Rhino
+    youtube: PxxYC7a68WM
+    selector: 草野マサムネ
+  - id: "2021018507"
+    week: 185
+    index: 1535
+    indexInWeek: 7
+    title: It's Not Me
+    artist: The Knack
+    year: 2001
+    nation: US
+    label: Smile Records
+    youtube: N6A3iBQzAak
+    selector: 草野マサムネ
+  - id: "2021018508"
+    week: 185
+    index: 1536
+    indexInWeek: 8
+    title: Waterhole（joint2）
+    artist: Leyona
+    year: 2003
+    nation: JPN
+    label: エピック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

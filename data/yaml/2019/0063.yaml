@@ -9,30 +9,23 @@ date: 2019-03-17
 playlist:
   - id: "2019006301"
     week: 63
-    name: 幻のドラゴン
     artist: スピッツ
-    kana: ""
     year: 2010
     nation: JPN
     label: ユニバーサル
     producer:
       - 亀田誠治
     corner: 漫遊前の一曲
-    youtube: ""
     title: 幻のドラゴン
     index: 520
     indexInWeek: 1
     selector: 草野マサムネ
   - id: "2019006302"
     week: 63
-    name: Fox on the Run
     artist: Sweet
-    kana: ""
     year: 1974
     nation: UK
     label: RCA Victor
-    producer: []
-    corner: ""
     youtube: qBdFA6sI6-8
     title: Fox on the Run
     index: 521
@@ -40,15 +33,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006303"
     week: 63
-    name: Little Willy
     artist: Sweet
-    kana: ""
     year: 1972
     nation: UK
     label: RCA
     producer:
       - Phil Wainman
-    corner: ""
     youtube: NM6I-pmV0RA
     title: Little Willy
     index: 522
@@ -56,15 +46,12 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006304"
     week: 63
-    name: Block Buster!
     artist: Sweet
-    kana: ""
     year: 1973
     nation: UK
     label: RCA
     producer:
       - Phil Wainman
-    corner: ""
     youtube: Y64211sjSko
     title: Block Buster!
     index: 523
@@ -72,14 +59,10 @@ playlist:
     selector: 草野マサムネ
   - id: "2019006305"
     week: 63
-    name: Action
     artist: Sweet
-    kana: ""
     year: 1975
     nation: UK
     label: RCA
-    producer: []
-    corner: ""
     youtube: TcQDi6u28VQ
     title: Action
     index: 524
@@ -89,13 +72,10 @@ playlist:
     week: 63
     name: Lady Starlight
     artist: Sweet
-    kana: ""
     year: 1974
     nation: UK
     label: RCA
-    producer: []
-    corner: ""
-    youtube: FS4wK0V4OQM
+    youtube: Zh7j7jiIsOU
     title: Lady Starlight
     index: 525
     indexInWeek: 6

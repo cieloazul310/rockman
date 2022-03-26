@@ -1,72 +1,78 @@
 import * as React from 'react';
 import { graphql, PageProps } from 'gatsby';
-import List from '@material-ui/core/List';
-import ListSubheader from '@material-ui/core/ListSubheader';
+import Typography from '@mui/material/Typography';
+import List from '@mui/material/List';
+import ListSubheader from '@mui/material/ListSubheader';
+import { Jumbotron, Section, SectionDivider, Article, Paragraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
-import Jumbotron from '../components/Jumbotron';
-import NavigationBox from '../components/NavigationBox';
 import ProgramItem from '../components/ProgramItem';
-// import ArtistItemContainer from '../components/ArtistItemContainer';
 import ProgramTop25 from '../components/ProgramTop25';
-import Section, { SectionDivider } from '../components/Section';
-import Article, { Paragraph, Link } from '../components/Article';
 import Stats from '../components/Stat';
-import { AdBasic } from '../components/Ads';
-// import { useProgramTop25 } from '../utils/graphql-hooks';
-import { IndexQuery } from '../../graphql-types';
+import { AdInSectionDivider } from '../components/Ads';
+import { ProgramBrowser } from '../../types';
 
-function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
-  // const top25 = useProgramTop25();
-  const images = data.allProgram.edges
-    .map(({ node }) => node.fields?.image ?? undefined)
-    .filter((image): image is string => Boolean(image));
+type IndexPageQueryData = {
+  allProgram: {
+    edges: {
+      node: Pick<ProgramBrowser, 'id' | 'title' | 'week' | 'date' | 'slug' | 'image'>;
+    }[];
+  };
+};
+
+function IndexPage({ data }: PageProps<IndexPageQueryData>) {
+  const image = data.allProgram.edges.reduce<string | null>((accum, curr) => accum ?? curr.node.image, null);
 
   return (
     <Layout>
-      <Jumbotron title="ロック大陸漫遊記 プレイリスト集" footer="since 2018" image={images.length ? images[0] : undefined} />
+      <Jumbotron bgImage={image ?? undefined} maxWidth="md">
+        <Typography variant="h5" component="h2" gutterBottom fontWeight="bold">
+          ロック大陸漫遊記 プレイリスト集
+        </Typography>
+        <Typography variant="body1">since 2018</Typography>
+      </Jumbotron>
       <SectionDivider />
       <Section>
-        <Stats />
-        <Article maxWidth="lg">
+        <Article maxWidth="md">
+          <Stats />
+        </Article>
+      </Section>
+      <SectionDivider />
+      <Section>
+        <Article maxWidth="md">
           <Paragraph>
             <strong>ロック大陸漫遊記プレイリスト集</strong>は、TOKYO-FM他全国38局で放送されているラジオ番組
             <strong>「SPITZ 草野マサムネのロック大陸漫遊記」</strong>
             でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。
-          </Paragraph>
-          <Paragraph>
+            <br />
             原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。
           </Paragraph>
           <Paragraph>
             <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
             <br />
-            <Link href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</Link>
+            <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
           </Paragraph>
           <Paragraph>
             全国38局放送時間一覧
             <br />
-            <Link href="https://www.tfm.co.jp/manyuki/index.php?catid=3350" rel="noopener noreferrer">
+            <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
               https://www.tfm.co.jp/manyuki/index.php?catid=3350
-            </Link>
+            </ExternalLink>
           </Paragraph>
         </Article>
       </Section>
       <SectionDivider />
       <Section>
-        <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
-          {data.allProgram.edges.map(({ node }, index, arr) => (
-            <ProgramItem key={node.week} program={node} last={index === arr.length - 1} />
-          ))}
-        </List>
+        <Article maxWidth="md" disableGutters>
+          <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
+            {data.allProgram.edges.map(({ node }, index, arr) => (
+              <ProgramItem key={node.week} program={node} last={index === arr.length - 1} />
+            ))}
+          </List>
+        </Article>
       </Section>
-      <SectionDivider />
-      <AdBasic />
-      <SectionDivider />
+      <AdInSectionDivider />
       <Section>
         <ProgramTop25 />
-      </Section>
-      <SectionDivider />
-      <Section>
-        <NavigationBox />
       </Section>
     </Layout>
   );
@@ -75,7 +81,7 @@ function IndexPage({ data }: PageProps<IndexQuery>): JSX.Element {
 export default IndexPage;
 
 export const query = graphql`
-  query Index {
+  query {
     allProgram(sort: { fields: week, order: DESC }, limit: 8) {
       edges {
         node {
@@ -83,10 +89,8 @@ export const query = graphql`
           title
           week
           date(formatString: "YYYY-MM-DD")
-          fields {
-            slug
-            image
-          }
+          slug
+          image
         }
       }
     }

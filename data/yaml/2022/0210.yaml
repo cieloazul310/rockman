@@ -1,0 +1,97 @@
+id: "20220210"
+week: 210
+year: 2022
+title: 新春スペシャル・スピッツメンバーで漫遊記2022・三輪テツヤ編
+subtitle: 寅年で漫遊記
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
+date: 2022-01-09
+playlist:
+  - id: "2022021001"
+    week: 210
+    index: 1737
+    indexInWeek: 1
+    title: TRABANT
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 三輪テツヤ
+  - id: "2022021002"
+    week: 210
+    index: 1738
+    indexInWeek: 2
+    title: 君だけに愛を
+    artist: ザ・タイガース
+    year: 1968
+    nation: JPN
+    label: 日本グラモフォン
+    selector: 三輪テツヤ
+  - id: "2022021003"
+    week: 210
+    index: 1739
+    indexInWeek: 3
+    title: Tyger Bay
+    artist: Tygers of Pan Tang
+    year: 1981
+    nation: UK
+    label: MCA
+    youtube: beuH6hypqZg
+    selector: 三輪テツヤ
+  - id: "2022021004"
+    week: 210
+    index: 1740
+    indexInWeek: 4
+    title: Eye of the Tiger
+    artist: Survivor
+    year: 1982
+    nation: US
+    label: EMI
+    youtube: btPJPFnesV4
+    selector: 三輪テツヤ
+  - id: "2022021005"
+    week: 210
+    index: 1741
+    indexInWeek: 5
+    title: Tiger
+    artist: ABBA
+    year: 1976
+    nation: SWE
+    label: Polar
+    youtube: htziQt0pCAQ
+    selector: 三輪テツヤ
+  - id: "2022021006"
+    week: 210
+    index: 1742
+    indexInWeek: 6
+    title: Box of Hearts
+    artist: Tiger
+    year: 2020
+    nation: SWE
+    label: Roth-händle
+    youtube: X4ex-FOBu1g
+    selector: 三輪テツヤ
+  - id: "2022021007"
+    week: 210
+    index: 1743
+    indexInWeek: 7
+    title: Kamane Tarhanine
+    artist: Mdou Moctar
+    year: 2019
+    nation: NER
+    label: Third Man Records
+    youtube: E9m6TcSPKH4
+    selector: 三輪テツヤ
+  - id: "2022021008"
+    week: 210
+    index: 1744
+    indexInWeek: 8
+    title: TORA TORA TORA
+    artist: MAX
+    year: 1996
+    nation: JPN
+    label: avex trax
+    youtube: UF2O3o_1YGY
+    selector: 三輪テツヤ
+    corner: ちょっぴりタイムマシン
