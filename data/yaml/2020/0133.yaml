@@ -44,19 +44,20 @@ playlist:
     label: CBS Ireland
     producer:
       - Steve Lillywhite
-    youtube: B1PdPQA6P-Y
+    youtube: jeYCyCaK_5k
     selector: 草野マサムネ
   - id: "2020013304"
     week: 133
     index: 1109
     indexInWeek: 4
-    title: Fresh-Garbage
+    title: Thoughtforms (Second version)
     artist: Lush
-    year: 1989
+    year: 1990
     nation: UK
     label: 4AD
     producer:
       - John Fryer
+    youtube: zzoy9xLQYE0
     selector: 草野マサムネ
   - id: "2020013305"
     week: 133
@@ -69,7 +70,7 @@ playlist:
     label: Statik Records
     producer:
       - Colin Richardson
-    youtube: EFihJB6G_78
+    youtube: 3dydwMzXUeM
     selector: 草野マサムネ
   - id: "2020013306"
     week: 133
@@ -106,7 +107,7 @@ playlist:
     year: 1987
     nation: UK
     label: Fontana
-    youtube: QMTTXjja68Y
+    youtube: rxUv79hejRU
     selector: 草野マサムネ
   - id: "2020013309"
     week: 133
