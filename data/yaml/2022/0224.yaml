@@ -50,6 +50,7 @@ playlist:
     year: 1994
     nation: JPN
     label: ポリドール
+    corner: ※Album Versionをかける予定だった
     selector: リクエスト
   - id: "2022022405"
     week: 224
