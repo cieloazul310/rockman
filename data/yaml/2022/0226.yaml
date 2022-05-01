@@ -1,0 +1,97 @@
+id: "20220226"
+week: 226
+year: 2022
+title: スウェーデンのロックバンドで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2022-05-01
+playlist:
+  - id: "2022022601"
+    week: 226
+    index: 1868
+    indexInWeek: 1
+    title: Holiday
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022602"
+    week: 226
+    index: 1869
+    indexInWeek: 2
+    title: Lovefool
+    artist: The Cardigans
+    year: 1996
+    nation: SWE
+    label: Stockholm
+    youtube: NI6aOFI7hms
+    selector: 草野マサムネ
+  - id: "2022022603"
+    week: 226
+    index: 1870
+    indexInWeek: 3
+    title: "1789"
+    artist: Silver Mountain
+    year: 1983
+    nation: SWE
+    label: Roadrunner Records
+    youtube: BEMaOp8qdg8
+    selector: 草野マサムネ
+  - id: "2022022604"
+    week: 226
+    index: 1871
+    indexInWeek: 4
+    title: Repetition
+    artist: STARMARKET
+    year: 1997
+    nation: SWE
+    label: Dolores Recordings
+    selector: 草野マサムネ
+  - id: "2022022605"
+    week: 226
+    index: 1872
+    indexInWeek: 5
+    title: Die, All Right!
+    artist: The Hives
+    year: 2000
+    nation: SWE
+    label: Burning Heart
+    youtube: QI8NccqlygQ
+    selector: 草野マサムネ
+  - id: "2022022606"
+    week: 226
+    index: 1873
+    indexInWeek: 6
+    title: Panicburgh City
+    artist: Atomic Swing
+    year: 1993
+    nation: SWE
+    label: Universal Music AB
+    youtube: 0Iyora-3x7Q
+    selector: 草野マサムネ
+  - id: "2022022607"
+    week: 226
+    index: 1874
+    indexInWeek: 7
+    title: Run Run
+    artist: Those Dancing Days
+    year: 2008
+    nation: SWE
+    label: Wichita
+    youtube: m_W-DXRS5io
+    selector: 草野マサムネ
+  - id: "2022022608"
+    week: 226
+    index: 1875
+    indexInWeek: 8
+    title: 春景色
+    artist: レミオロメン
+    year: 2005
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    youtube: FP6L-auWiZM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
