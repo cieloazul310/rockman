@@ -1,0 +1,109 @@
+id: "20220227"
+week: 227
+year: 2022
+title: レミーで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-05-08
+playlist:
+  - id: "2022022701"
+    week: 227
+    index: 1876
+    indexInWeek: 1
+    title: ランプ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022702"
+    week: 227
+    index: 1877
+    indexInWeek: 2
+    title: Ace of Spades
+    artist: Motörhead
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: 3mbvWn1EY6g
+    selector: 草野マサムネ
+  - id: "2022022703"
+    week: 227
+    index: 1878
+    indexInWeek: 3
+    title: Midsummer Night's Dream
+    artist: Sam Gopal
+    year: 1969
+    nation: UK
+    label: Stable Records
+    youtube: 6XEkls5lGDw
+    selector: 草野マサムネ
+  - id: "2022022704"
+    week: 227
+    index: 1879
+    indexInWeek: 4
+    title: Motorhead
+    artist: Hawkwind
+    year: 1975
+    nation: UK
+    label: United Artists
+    youtube: v-5DzgiQ2lg
+    selector: 草野マサムネ
+  - id: "2022022705"
+    week: 227
+    index: 1880
+    indexInWeek: 5
+    title: Iron Fist
+    artist: Motörhead
+    year: 1982
+    nation: UK
+    label: Bronze
+    youtube: 2m3s3ahr9NI
+    selector: 草野マサムネ
+  - id: "2022022706"
+    week: 227
+    index: 1881
+    indexInWeek: 6
+    title: I Got Mine
+    artist: Motörhead
+    year: 1983
+    nation: UK
+    label: Bronze
+    youtube: mvunO056b4M
+    selector: 草野マサムネ
+  - id: "2022022707"
+    week: 227
+    index: 1882
+    indexInWeek: 7
+    title: On Your Feet or on Your Knees
+    artist: Motörhead
+    year: 1993
+    nation: UK
+    label: ZYX Music
+    youtube: bSdU5x2RGeo
+    selector: 草野マサムネ
+  - id: "2022022708"
+    week: 227
+    index: 1883
+    indexInWeek: 8
+    title: God Save the Queen
+    artist: Motörhead
+    year: 2000
+    nation: UK
+    label: SPV/Steamhammer
+    youtube: Qa1wdUkeuvE
+    selector: 草野マサムネ
+  - id: "2022022709"
+    week: 227
+    index: 1884
+    indexInWeek: 9
+    title: サヨナラ
+    artist: GAO
+    year: 1992
+    nation: JPN
+    label: VAP
+    youtube: H8a2k0cGmew
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
