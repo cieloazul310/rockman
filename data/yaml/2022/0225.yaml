@@ -1,0 +1,94 @@
+id: "20220225"
+week: 225
+year: 2022
+title: スピッツ曲リクエスト／思い出エピソード添えで漫遊記パート②
+subtitle: ""
+guests: []
+categories: ["スピッツ曲", "リクエスト特集"]
+date: 2022-04-24
+playlist:
+  - id: "2022022501"
+    week: 225
+    index: 1860
+    indexInWeek: 1
+    title: 歩き出せ、クローバー
+    artist: NICO Touches the Walls
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022502"
+    week: 225
+    index: 1861
+    indexInWeek: 2
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    selector: リクエスト
+  - id: "2022022503"
+    week: 225
+    index: 1862
+    indexInWeek: 3
+    title: 青い車
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: 5K8ZuLYG0yo
+    selector: リクエスト
+  - id: "2022022504"
+    week: 225
+    index: 1863
+    indexInWeek: 4
+    title: 夜を駆ける
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    selector: リクエスト
+  - id: "2022022505"
+    week: 225
+    index: 1864
+    indexInWeek: 5
+    title: チェリー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: Eze6-eHmtJg
+    selector: リクエスト
+  - id: "2022022506"
+    week: 225
+    index: 1865
+    indexInWeek: 6
+    title: 甘ったれクリーチャー
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    selector: リクエスト
+  - id: "2022022507"
+    week: 225
+    index: 1866
+    indexInWeek: 7
+    title: ナナへの気持ち
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    selector: リクエスト
+  - id: "2022022508"
+    week: 225
+    index: 1867
+    indexInWeek: 8
+    title: 正夢
+    artist: スピッツ
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    youtube: algaC2jhu8s
+    selector: リクエスト

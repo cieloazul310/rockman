@@ -1,0 +1,100 @@
+id: "20220223"
+week: 223
+year: 2022
+title: サイモン・フィリップスで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-04-10
+playlist:
+  - id: "2022022301"
+    week: 223
+    index: 1843
+    indexInWeek: 1
+    title: 若葉
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    youtube: 2RM2YEzN010
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022302"
+    week: 223
+    index: 1844
+    indexInWeek: 2
+    title: Into the Arena
+    artist: The Michael Schenker Group
+    year: 1980
+    nation: GER
+    label: Chrysalis
+    youtube: -f3_odnbDig
+    selector: 草野マサムネ
+  - id: "2022022303"
+    week: 223
+    index: 1845
+    indexInWeek: 3
+    title: Starbreaker
+    artist: Judas Priest
+    year: 1977
+    nation: UK
+    label: Columbia
+    youtube: YmD4qZj0lNY
+    selector: 草野マサムネ
+  - id: "2022022304"
+    week: 223
+    index: 1846
+    indexInWeek: 4
+    title: Here We Go Again
+    artist: Bernie Marsden
+    year: 1979
+    nation: UK
+    label: Parlophone
+    youtube: uTE9EY-_Q2o
+    selector: 草野マサムネ
+  - id: "2022022305"
+    week: 223
+    index: 1847
+    indexInWeek: 5
+    title: Castaways
+    artist: Toyah
+    year: 1982
+    nation: UK
+    label: Safari
+    youtube: BPu9jxgEHUs
+    selector: 草野マサムネ
+  - id: "2022022306"
+    week: 223
+    index: 1848
+    indexInWeek: 6
+    title: Taint Your World
+    artist: Toto
+    year: 2006
+    nation: US
+    label: Frontiers
+    youtube: wvujXqPnNUk
+    selector: 草野マサムネ
+  - id: "2022022307"
+    week: 223
+    index: 1849
+    indexInWeek: 7
+    title: "Suite Escapism: Reality"
+    artist: 上原ひろみ ザ・トリオ・プロジェクト
+    kana: うえはらひろみざとりおぷろじぇくと
+    year: 2012
+    nation: JPN
+    label: Telarc Digital
+    youtube: QssXe5sANK4
+    selector: 草野マサムネ
+  - id: "2022022308"
+    week: 223
+    index: 1850
+    indexInWeek: 8
+    title: 花のCMガール
+    artist: 藤本房子
+    kana: ふじもとふさこ
+    year: 1977
+    nation: JPN
+    label: クラウンレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

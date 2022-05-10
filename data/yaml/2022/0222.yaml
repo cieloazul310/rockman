@@ -1,0 +1,96 @@
+id: "20220222"
+week: 222
+year: 2022
+title: ラケンローなナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-04-03
+playlist:
+  - id: "2022022201"
+    week: 222
+    index: 1835
+    indexInWeek: 1
+    title: 旅人
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022202"
+    week: 222
+    index: 1836
+    indexInWeek: 2
+    title: California Man
+    artist: Cheap Trick
+    year: 1978
+    nation: US
+    label: Epic
+    youtube: lPOSJEJ_lmM
+    selector: 草野マサムネ
+  - id: "2022022203"
+    week: 222
+    index: 1837
+    indexInWeek: 3
+    title: I'll Get You Rockin'
+    artist: The Godz
+    year: 1985
+    nation: US
+    label: Heavy Metal America
+    selector: 草野マサムネ
+  - id: "2022022204"
+    week: 222
+    index: 1838
+    indexInWeek: 4
+    title: You Didn't Know Any Better
+    artist: John Du Cann
+    year: 1999
+    nation: UK
+    label: Angel Air Records
+    youtube: epfDuJwzKqE
+    selector: 草野マサムネ
+  - id: "2022022205"
+    week: 222
+    index: 1839
+    indexInWeek: 5
+    title: Rockin With The Music
+    artist: Teaze
+    year: 1976
+    nation: CAN
+    label: Force One Records
+    youtube: rdPGprMDkfU
+    selector: 草野マサムネ
+  - id: "2022022206"
+    week: 222
+    index: 1840
+    indexInWeek: 6
+    title: Over the Edge
+    artist: Status Quo
+    year: 1980
+    nation: UK
+    label: Vertigo
+    youtube: qi-0XitWYrI
+    selector: 草野マサムネ
+  - id: "2022022207"
+    week: 222
+    index: 1841
+    indexInWeek: 7
+    title: Guitar Train
+    artist: Brownsville Station
+    year: 1970
+    nation: US
+    label: Palladium Records
+    youtube: MI3eZPkkL6M
+    selector: 草野マサムネ
+  - id: "2022022208"
+    week: 222
+    index: 1842
+    indexInWeek: 8
+    title: 完全無欠のロックンローラー
+    artist: アラジン
+    year: 1981
+    nation: JPN
+    label: AARD-VARK
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
