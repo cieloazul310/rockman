@@ -1,0 +1,97 @@
+id: "20220221"
+week: 221
+year: 2022
+title: カントリーロック(イメージ）で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-03-27
+playlist:
+  - id: "2022022101"
+    week: 221
+    index: 1827
+    indexInWeek: 1
+    title: 花の写真
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022102"
+    week: 221
+    index: 1828
+    indexInWeek: 2
+    title: Rocky Mountain Breakdown
+    artist: Poco
+    year: 1974
+    nation: US
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2022022103"
+    week: 221
+    index: 1829
+    indexInWeek: 3
+    title: One Hundred Years from Now
+    artist: The Byrds
+    year: 1968
+    nation: US
+    label: Columbia
+    youtube: ulNNsJlnqh8
+    selector: 草野マサムネ
+  - id: "2022022104"
+    week: 221
+    index: 1830
+    indexInWeek: 4
+    title: The Farmer
+    artist: Unicorn (UK)
+    year: 1974
+    nation: UK
+    label: Charisma
+    youtube: byT6g1wiFSA
+    selector: 草野マサムネ
+  - id: "2022022105"
+    week: 221
+    index: 1831
+    indexInWeek: 5
+    title: Country Boy
+    artist: Heads Hands & Feet
+    year: 1971
+    nation: UK
+    label: Capitol
+    youtube: EA8VIQhG_QE
+    selector: 草野マサムネ
+  - id: "2022022106"
+    week: 221
+    index: 1832
+    indexInWeek: 6
+    title: Montezuma
+    artist: Fleet Foxes
+    year: 1971
+    nation: US
+    label: Sub Pop
+    youtube: 1fwcmqt48b8
+    selector: 草野マサムネ
+  - id: "2022022107"
+    week: 221
+    index: 1833
+    indexInWeek: 7
+    title: Father Mountain
+    artist: Calexico and Iron & Wine
+    year: 2019
+    nation: US
+    label: Sub Pop
+    youtube: ypj9iN73ONY
+    selector: 草野マサムネ
+  - id: "2022022108"
+    week: 221
+    index: 1834
+    indexInWeek: 8
+    title: ひとりぼっちの部屋
+    artist: 高木麻早
+    kana: たかぎまさ
+    year: 1973
+    nation: JPN
+    label: AARD-VARK
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

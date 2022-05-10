@@ -1,0 +1,108 @@
+id: "20220224"
+week: 224
+year: 2022
+title: スピッツ曲リクエスト／思い出エピソード添えで漫遊記パート①
+subtitle: ""
+guests: []
+categories: ["スピッツ曲", "リクエスト特集"]
+date: 2022-04-17
+playlist:
+  - id: "2022022401"
+    week: 224
+    index: 1851
+    indexInWeek: 1
+    title: 楓
+    artist: adieu
+    year: 2020
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    youtube: pGgRMwJWs6M
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022402"
+    week: 224
+    index: 1852
+    indexInWeek: 2
+    title: さらさら
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    youtube: wfUYfj9t7QI
+    selector: リクエスト
+  - id: "2022022403"
+    week: 224
+    index: 1853
+    indexInWeek: 3
+    title: 春の歌
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: 94uxNQqmknk
+    selector: リクエスト
+  - id: "2022022404"
+    week: 224
+    index: 1854
+    indexInWeek: 4
+    title: ベビーフェイス
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: ※Album Versionをかける予定だった
+    selector: リクエスト
+  - id: "2022022405"
+    week: 224
+    index: 1855
+    indexInWeek: 5
+    title: 愛のことば
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    youtube: adI0F9wWZ_8
+    selector: リクエスト
+  - id: "2022022406"
+    week: 224
+    index: 1856
+    indexInWeek: 6
+    title: 恋のはじまり
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    selector: リクエスト
+  - id: "2022022407"
+    week: 224
+    index: 1857
+    indexInWeek: 7
+    title: 冷たい頬
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    youtube: QzJ_QUc-ygk
+    selector: リクエスト
+  - id: "2022022408"
+    week: 224
+    index: 1858
+    indexInWeek: 8
+    title: 遥か
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ポリドール
+    youtube: QLJxdkl5wJI
+    selector: リクエスト
+  - id: "2022022409"
+    week: 224
+    index: 1859
+    indexInWeek: 9
+    title: 夢追い虫
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ユニバーサルポリドール
+    youtube: KrCsRH9I5qQ
+    selector: リクエスト

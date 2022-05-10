@@ -90,7 +90,12 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
             const youtube = source.playlist
               .filter(({ artist }) => artist !== 'スピッツ')
               .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
-            return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
+            if (youtube) return `https://i.ytimg.com/vi/${youtube}/0.jpg`;
+
+            const youtubeSpitz = source.playlist
+              .filter(({ artist }) => artist === 'スピッツ')
+              .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
+            return youtubeSpitz ? `https://i.ytimg.com/vi/${youtubeSpitz}/0.jpg` : null;
           },
         },
       },
