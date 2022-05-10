@@ -27,13 +27,14 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
         },
         resolve: async (source: unknown, { artist, ...otherArgs }: AllTunesQueryArgs, context: GatsbyGraphQLContext) => {
           const { year, corner, nation, title, selector } = otherArgs;
-          const artistFilter = artist
-            ? {
-                artist: {
-                  name: artist,
-                },
-              }
-            : {};
+          const artistFilter =
+            artist && !(artist.ne || artist.nin)
+              ? {
+                  artist: {
+                    name: artist,
+                  },
+                }
+              : {};
           const { entries } = await context.nodeModel.findAll<Program & Node>({
             type: `Program`,
             query: {
