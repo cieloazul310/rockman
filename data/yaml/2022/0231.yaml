@@ -1,0 +1,109 @@
+id: "20220231"
+week: 231
+year: 2022
+title: 福岡のバンド(90年代以降)で漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2022-06-05
+playlist:
+  - id: "2022023101"
+    week: 231
+    index: 1910
+    indexInWeek: 1
+    title: 潮騒ちゃん
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023102"
+    week: 231
+    index: 1911
+    indexInWeek: 2
+    title: ZEGEN VS UNDERCOVER
+    artist: NUMBER GIRL
+    year: 2000
+    nation: JPN
+    label: 東芝EMI
+    youtube: DyWS2HgeuRk
+    selector: 草野マサムネ
+  - id: "2022023103"
+    week: 231
+    index: 1912
+    indexInWeek: 3
+    title: ロッキンルーラ
+    artist: MO'SOME TONEBENDER
+    year: 2005
+    nation: JPN
+    label: 日本コロムビア
+    youtube: 3dRwTNlfZn4
+    selector: 草野マサムネ
+  - id: "2022023104"
+    week: 231
+    index: 1913
+    indexInWeek: 4
+    title: ペーパートリップ
+    artist: People In The Box
+    year: 2007
+    nation: JPN
+    label: 残響record
+    youtube: V_ngDyXVvEU
+    selector: 草野マサムネ
+  - id: "2022023105"
+    week: 231
+    index: 1914
+    indexInWeek: 5
+    title: テレキャスター・ストライプ（全知全能 Ver.）
+    artist: ポルカドットスティングレイ
+    year: 2017
+    nation: JPN
+    label: ユニバーサルシグマ
+    youtube: 3ad4NsEy1tg
+    selector: 草野マサムネ
+  - id: "2022023106"
+    week: 231
+    index: 1915
+    indexInWeek: 6
+    title: 帰り道
+    artist: めぞんド山口
+    year: 2019
+    nation: JPN
+    label: 自主制作
+    youtube: njtf07qcdrw
+    selector: 草野マサムネ
+  - id: "2022023107"
+    week: 231
+    index: 1916
+    indexInWeek: 7
+    title: 釣った魚にエサやれ
+    artist: MOSHIMO
+    year: 2019
+    nation: JPN
+    label: Lastrum
+    youtube: 5iUq5dlh1mE
+    selector: 草野マサムネ
+  - id: "2022023108"
+    week: 231
+    index: 1917
+    indexInWeek: 8
+    title: なだらかな日
+    artist: YOUND
+    year: 2022
+    nation: JPN
+    label: DOLO
+    youtube: BbzR5c8v0bU
+    selector: 草野マサムネ
+  - id: "2022023109"
+    week: 231
+    index: 1918
+    indexInWeek: 9
+    title: ある日・出逢い
+    artist: ペドロ&カプリシャス
+    year: 1973
+    nation: JPN
+    label: ワーナー・パイオニア
+    youtube: 5Uue-D4ysTw
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
