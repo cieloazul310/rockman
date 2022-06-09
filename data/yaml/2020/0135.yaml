@@ -39,6 +39,7 @@ playlist:
     year: 2000
     nation: JPN
     label: キティ
+    youtube: OUUR9x_KqmI
     selector: リクエスト
   - id: "2020013504"
     week: 135
@@ -50,6 +51,7 @@ playlist:
     year: 2009
     nation: JPN
     label: みらいrecords
+    youtube: SdKyKjTfkQw
     selector: リクエスト
   - id: "2020013505"
     week: 135
@@ -81,6 +83,7 @@ playlist:
     year: 2018
     nation: JPN
     label: 日本コロムビア
+    youtube: lQOAj0IonZw
     selector: リクエスト
   - id: "2020013508"
     week: 135
