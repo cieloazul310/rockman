@@ -1,0 +1,102 @@
+id: "20220233"
+week: 233
+year: 2022
+title: スピッツの激し目曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["スピッツ曲"]
+date: 2022-06-19
+playlist:
+  - id: "2022023301"
+    week: 233
+    index: 1927
+    indexInWeek: 1
+    title: ヘビーメロウ
+    artist: BENI
+    year: 2017
+    nation: JPN
+    label: ユニバーサルシグマ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023302"
+    week: 233
+    index: 1928
+    indexInWeek: 2
+    title: みそか
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2022023303"
+    week: 233
+    index: 1929
+    indexInWeek: 3
+    title: けもの道
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2022023304"
+    week: 233
+    index: 1930
+    indexInWeek: 4
+    title: どんどどん
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2022023305"
+    week: 233
+    index: 1931
+    indexInWeek: 5
+    title: 悪役
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2022023306"
+    week: 233
+    index: 1932
+    indexInWeek: 6
+    title: 1987→
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    youtube: SalC2mBb1QQ
+    selector: 草野マサムネ
+  - id: "2022023307"
+    week: 233
+    index: 1933
+    indexInWeek: 7
+    title: 春夏ロケット
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2022023308"
+    week: 233
+    index: 1934
+    indexInWeek: 8
+    title: トビウオ
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2022023309"
+    week: 233
+    index: 1935
+    indexInWeek: 9
+    title: 僕を呼んでおくれ
+    artist: MAO
+    year: 1972
+    nation: JPN
+    label: 東芝
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
