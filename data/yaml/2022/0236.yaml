@@ -1,0 +1,109 @@
+id: "20220236"
+week: 236
+year: 2022
+title: 90年代オルタナ系女性ロッカーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-07-10
+playlist:
+  - id: "2022023601"
+    week: 236
+    index: 1954
+    indexInWeek: 1
+    title: ヒビスクス
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023602"
+    week: 236
+    index: 1955
+    indexInWeek: 2
+    title: Rebel Girl
+    artist: Bikini Kill
+    year: 1993
+    nation: US
+    label: Kill Rock Stars
+    youtube: L0oeqAQ1qE8
+    selector: 草野マサムネ
+  - id: "2022023603"
+    week: 236
+    index: 1956
+    indexInWeek: 3
+    title: 50ft Queenie
+    artist: PJ Harvey
+    year: 1993
+    nation: UK
+    label: Island
+    youtube: jKLiU7Hq93w
+    selector: 草野マサムネ
+  - id: "2022023604"
+    week: 236
+    index: 1957
+    indexInWeek: 4
+    title: Supernova (Album Version)
+    artist: Liz Phair
+    year: 1994
+    nation: US
+    label: Matador
+    youtube: tM60GAPIXTY
+    selector: 草野マサムネ
+  - id: "2022023605"
+    week: 236
+    index: 1958
+    indexInWeek: 5
+    title: Drop Dead
+    artist: Lunachicks
+    year: 1995
+    nation: US
+    label: Go-Kart
+    youtube: 2e5Q8OSPp-M
+    selector: 草野マサムネ
+  - id: "2022023606"
+    week: 236
+    index: 1959
+    indexInWeek: 6
+    title: Seether
+    artist: Veruca Salt
+    year: 1994
+    nation: US
+    label: Minty Fresh
+    youtube: 4YrK1Rq7AKk
+    selector: 草野マサムネ
+  - id: "2022023607"
+    week: 236
+    index: 1960
+    indexInWeek: 7
+    title: Cannonball
+    artist: The Breeders
+    year: 1993
+    nation: US
+    label: 4AD
+    youtube: fxvkI9MTQw4
+    selector: 草野マサムネ
+  - id: "2022023608"
+    week: 236
+    index: 1961
+    indexInWeek: 8
+    title: Celebrity Skin
+    artist: Hole
+    year: 1998
+    nation: US
+    label: DGC
+    youtube: O3dWBLoU--E
+    selector: 草野マサムネ
+  - id: "2022023609"
+    week: 236
+    index: 1962
+    indexInWeek: 9
+    title: Tell me oh mama
+    artist: 具島直子
+    kana: ぐしまなおこ
+    year: 1997
+    nation: JPN
+    label: 東芝EMI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
