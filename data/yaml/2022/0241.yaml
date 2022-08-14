@@ -1,0 +1,99 @@
+id: "20220241"
+week: 241
+year: 2022
+title: ムーディ・ブルースで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-08-14
+playlist:
+  - id: "2022024101"
+    week: 241
+    index: 1998
+    indexInWeek: 1
+    title: 水色の街
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: o4aDZ2zv9as
+    selector: 草野マサムネ
+  - id: "2022024102"
+    week: 241
+    index: 1999
+    indexInWeek: 2
+    title: Go Now
+    artist: The Moody Blues
+    year: 1964
+    nation: UK
+    label: Tiger
+    youtube: mclNm9Igl1o
+    selector: 草野マサムネ
+  - id: "2022024103"
+    week: 241
+    index: 2000
+    indexInWeek: 3
+    title: Nights in White Satin
+    artist: The Moody Blues
+    year: 1967
+    nation: UK
+    label: 	Deram
+    youtube: p6xMOTjLIaY
+    selector: 草野マサムネ
+  - id: "2022024104"
+    week: 241
+    index: 2001
+    indexInWeek: 4
+    title: Ride My See-Saw
+    artist: The Moody Blues
+    year: 1968
+    nation: UK
+    label: Deram
+    youtube: U2Fh930MbEE
+    selector: 草野マサムネ
+  - id: "2022024105"
+    week: 241
+    index: 2002
+    indexInWeek: 5
+    title: The Story in Your Eyes
+    artist: The Moody Blues
+    year: 1971
+    nation: UK
+    label: Threshold
+    youtube: ZM8KProoCys
+    selector: 草野マサムネ
+  - id: "2022024106"
+    week: 241
+    index: 2003
+    indexInWeek: 6
+    title: Country Girl
+    artist: Justin Hayward
+    year: 1977
+    nation: UK
+    label: Deram
+    youtube: MpYyEzL2C1U
+    selector: 草野マサムネ
+  - id: "2022024107"
+    week: 241
+    index: 2004
+    indexInWeek: 7
+    title: Gemini Dream
+    artist: The Moody Blues
+    year: 1981
+    nation: UK
+    label: Threshold
+    youtube: fy4ZosLPG2Q
+    selector: 草野マサムネ
+  - id: "2022024108"
+    week: 241
+    index: 2005
+    indexInWeek: 8
+    title: 悩み多き者よ
+    artist: 斉藤哲夫
+    kana: さいとうてつお
+    year: 1970
+    nation: JPN
+    label: URCレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
