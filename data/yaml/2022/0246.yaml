@@ -1,0 +1,96 @@
+id: "20220246"
+week: 246
+year: 2022
+title: ザ・クラッシュで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-09-18
+playlist:
+  - id: "2022024601"
+    week: 246
+    index: 2030
+    indexInWeek: 1
+    title: 未来コオロギ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024602"
+    week: 246
+    index: 2031
+    indexInWeek: 2
+    title: Janie Jones
+    artist: The Clash
+    year: 1977
+    nation: UK
+    label: CBS
+    youtube: GsVjWd1mh4w
+    selector: 草野マサムネ
+  - id: "2022024603"
+    week: 246
+    index: 2032
+    indexInWeek: 3
+    title: White Riot
+    artist: The Clash
+    year: 1977
+    nation: UK
+    label: CBS
+    youtube: IvG3is7Bm1w
+    selector: 草野マサムネ
+  - id: "2022024604"
+    week: 246
+    index: 2033
+    indexInWeek: 4
+    title: Some Like It Hot
+    artist: The Clash
+    year: 1985
+    nation: UK
+    label: Parlophone
+    youtube: Hw1t7OCESUw
+    selector: 草野マサムネ
+  - id: "2022024605"
+    week: 246
+    index: 2034
+    indexInWeek: 5
+    title: SEXY BODY
+    artist: The Clash
+    year: 2013
+    nation: UK
+    label: アリオラジャパン
+    youtube: dWXuh8znva0
+    selector: 草野マサムネ
+  - id: "2022024606"
+    week: 246
+    index: 2035
+    indexInWeek: 6
+    title: Stay with Me (Live 1973)
+    artist: The Clash
+    year: 1974
+    nation: UK
+    label: Mercury
+    selector: 草野マサムネ
+  - id: "2022024607"
+    week: 246
+    index: 2036
+    indexInWeek: 7
+    title: higher
+    artist: The Clash
+    year: 2005
+    nation: UK
+    label: asian gothic label
+    youtube: HkyvX9Saj9k
+    selector: 草野マサムネ
+  - id: "2022024608"
+    week: 246
+    index: 2037
+    indexInWeek: 8
+    title: 腕の中でしか眠れない猫のように
+    artist: カネコアヤノ
+    year: 2020
+    nation: JPN
+    label: "1994"
+    youtube: Zn_lPMlJKw0
+    selector: リクエスト
