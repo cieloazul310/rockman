@@ -9,7 +9,7 @@ date: 2022-09-18
 playlist:
   - id: "2022024601"
     week: 246
-    index: 2030
+    index: 2038
     indexInWeek: 1
     title: 未来コオロギ
     artist: スピッツ
@@ -20,7 +20,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2022024602"
     week: 246
-    index: 2031
+    index: 2039
     indexInWeek: 2
     title: Janie Jones
     artist: The Clash
@@ -31,7 +31,7 @@ playlist:
     selector: 草野マサムネ
   - id: "2022024603"
     week: 246
-    index: 2032
+    index: 2040
     indexInWeek: 3
     title: White Riot
     artist: The Clash
@@ -42,55 +42,68 @@ playlist:
     selector: 草野マサムネ
   - id: "2022024604"
     week: 246
-    index: 2033
+    index: 2041
     indexInWeek: 4
-    title: Some Like It Hot
+    title: Tommy Gun
     artist: The Clash
-    year: 1985
+    year: 1978
     nation: UK
-    label: Parlophone
-    youtube: Hw1t7OCESUw
+    label: CBS
+    youtube: bFHEuKkTa5k
     selector: 草野マサムネ
   - id: "2022024605"
     week: 246
-    index: 2034
+    index: 2042
     indexInWeek: 5
-    title: SEXY BODY
+    title: London Calling
     artist: The Clash
-    year: 2013
+    year: 1979
     nation: UK
-    label: アリオラジャパン
-    youtube: dWXuh8znva0
+    label: CBS
+    youtube: EfK-WX2pa8c
     selector: 草野マサムネ
   - id: "2022024606"
     week: 246
-    index: 2035
+    index: 2043
     indexInWeek: 6
-    title: Stay with Me (Live 1973)
+    title: Let's Go Crazy
     artist: The Clash
-    year: 1974
+    year: 1980
     nation: UK
-    label: Mercury
+    label: CBS
+    youtube: _m7_nPzG0E4
     selector: 草野マサムネ
   - id: "2022024607"
     week: 246
-    index: 2036
+    index: 2044
     indexInWeek: 7
-    title: higher
+    title: Should I Stay or Should I Go
     artist: The Clash
-    year: 2005
+    year: 1982
     nation: UK
-    label: asian gothic label
-    youtube: HkyvX9Saj9k
+    label: CBS
+    youtube: xMaE6toi4mk
     selector: 草野マサムネ
   - id: "2022024608"
     week: 246
-    index: 2037
+    index: 2045
     indexInWeek: 8
-    title: 腕の中でしか眠れない猫のように
-    artist: カネコアヤノ
-    year: 2020
+    title: Rock the Casbah
+    artist: The Clash
+    year: 1982
+    nation: UK
+    label: CBS
+    youtube: bJ9r8LMU9bQ
+    selector: 草野マサムネ
+  - id: "2022024609"
+    week: 246
+    index: 2046
+    indexInWeek: 9
+    title: PIED PIPER
+    artist: the pillows
+    year: 2008
     nation: JPN
-    label: "1994"
-    youtube: Zn_lPMlJKw0
-    selector: リクエスト
+    label: avex trax
+    youtube: OmQMCKQFVl4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
