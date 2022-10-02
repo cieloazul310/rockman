@@ -1,0 +1,120 @@
+id: "20220248"
+week: 248
+year: 2022
+title: ミュージックライフ 1966年11月号で漫遊記
+subtitle: ""
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2022-10-02
+playlist:
+  - id: "2022024801"
+    week: 248
+    index: 2055
+    indexInWeek: 1
+    title: 稲穂
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ユニバーサルポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024802"
+    week: 248
+    index: 2056
+    indexInWeek: 2
+    title: (Theme From) The Monkees
+    artist: The Monkees
+    year: 1966
+    nation: US
+    label: Colgems Records
+    youtube: MADRPuAcKFA
+    selector: 草野マサムネ
+  - id: "2022024803"
+    week: 248
+    index: 2057
+    indexInWeek: 3
+    title: Wooly Bully
+    artist: Sam the Sham and the Pharaohs
+    year: 1965
+    nation: US
+    label: MGM
+    youtube: 3UttAR8DnFY
+    selector: 草野マサムネ
+  - id: "2022024804"
+    week: 248
+    index: 2058
+    indexInWeek: 4
+    title: These Boots Are Made for Walkin'
+    artist: Nancy Sinatra
+    year: 1965
+    nation: US
+    label: Reprise
+    youtube: sbAM2HGGCVY
+    selector: 草野マサムネ
+  - id: "2022024805"
+    week: 248
+    index: 2059
+    indexInWeek: 5
+    title: Summer in the City
+    artist: The Lovin' Spoonful
+    year: 1966
+    nation: US
+    label: Columbia
+    youtube: 5YgevxRGXIU
+    selector: 草野マサムネ
+  - id: "2022024806"
+    week: 248
+    index: 2060
+    indexInWeek: 6
+    title: A Lover's Concerto
+    artist: Cilla Black
+    year: 1966
+    nation: UK
+    label: Parlophone
+    youtube: _FoOU-6q3SM
+    selector: 草野マサムネ
+  - id: "2022024807"
+    week: 248
+    index: 2061
+    indexInWeek: 7
+    title: Substitute
+    artist: The Who
+    year: 1966
+    nation: UK
+    label: Reaction
+    youtube: eswQl-hcvU0
+    selector: 草野マサムネ
+  - id: "2022024808"
+    week: 248
+    index: 2062
+    indexInWeek: 8
+    title: The House of the Rising Sun
+    artist: The Animals
+    year: 1964
+    nation: UK
+    label: Columbia
+    youtube: yxrz00XSOAo
+    selector: 草野マサムネ
+  - id: "2022024809"
+    week: 248
+    index: 2063
+    indexInWeek: 9
+    title: And Your Bird Can Sing
+    artist: The Beatles
+    year: 1966
+    nation: UK
+    label: Parlophone
+    youtube: Uq0aeEYLkIE
+    selector: 草野マサムネ
+  - id: "2022024810"
+    week: 248
+    index: 2064
+    indexInWeek: 10
+    title: 恋の散歩道
+    artist: ザ・サベージ
+    year: 1966
+    nation: JPN
+    label: フィリップス
+    youtube: A5vS8bjo8EE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
