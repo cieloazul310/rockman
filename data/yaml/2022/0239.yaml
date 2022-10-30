@@ -1,0 +1,119 @@
+id: "20220239"
+week: 239
+year: 2022
+title: 60年代日本のロックで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-07-31
+playlist:
+  - id: "2022023901"
+    week: 239
+    index: 1980
+    indexInWeek: 1
+    title: シロクマ
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: UiYl1r5m5a0
+    selector: 草野マサムネ
+  - id: "2022023902"
+    week: 239
+    index: 1981
+    indexInWeek: 2
+    title: フリ・フリ'66
+    artist: ザ・スパイダース
+    year: 1966
+    nation: JPN
+    label: フィリップス・レコード
+    selector: 草野マサムネ
+  - id: "2022023903"
+    week: 239
+    index: 1982
+    indexInWeek: 3
+    title: 今日の涙は明日の虹さ
+    artist: 山下敬二郎
+    kana: やましたけいじろう
+    year: 1961
+    nation: JPN
+    label: 東芝レコード
+    selector: 草野マサムネ
+  - id: "2022023904"
+    week: 239
+    index: 1983
+    indexInWeek: 4
+    title: ブラック・サンド・ビーチ
+    artist: 加山雄三とザ・ランチャーズ
+    kana: かやまゆうぞうとざらんちゃーず
+    year: 1965
+    nation: JPN
+    label: 東芝レコード
+    selector: 草野マサムネ
+  - id: "2022023905"
+    week: 239
+    index: 1984
+    indexInWeek: 5
+    title: 真赤な太陽
+    artist: 美空ひばり
+    kana: みそらひばり
+    year: 1967
+    nation: JPN
+    label: 日本コロムビア
+    youtube: IKSJvsvO6Yg
+    selector: 草野マサムネ
+  - id: "2022023906"
+    week: 239
+    index: 1985
+    indexInWeek: 6
+    title: トンネル天国
+    artist: ザ・ダイナマイツ
+    year: 1967
+    nation: JPN
+    label: ビクターレコード
+    youtube: WopOeuStjMU
+    selector: 草野マサムネ
+  - id: "2022023907"
+    week: 239
+    index: 1986
+    indexInWeek: 7
+    title: クールな恋
+    artist: ザ・ゴールデン・カップス
+    year: 1968
+    nation: JPN
+    label: 東芝音楽工業
+    selector: 草野マサムネ
+  - id: "2022023908"
+    week: 239
+    index: 1987
+    indexInWeek: 8
+    title: マリアンヌ
+    artist: ジャックス
+    year: 1968
+    nation: JPN
+    label: タクト
+    selector: 草野マサムネ
+  - id: "2022023909"
+    week: 239
+    index: 1988
+    indexInWeek: 9
+    title: Steppin' Out
+    artist: ブルース・クリエイション
+    year: 1969
+    nation: JPN
+    label: ポリドール
+    youtube: NvqL6BRiRMg
+    selector: 草野マサムネ
+  - id: "2022023910"
+    week: 239
+    index: 1989
+    indexInWeek: 10
+    title: さよならのかけら
+    artist: 小松未歩
+    kana: こまつみほ
+    year: 1999
+    nation: JPN
+    label: Amemura O-town Record/Spoonful
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

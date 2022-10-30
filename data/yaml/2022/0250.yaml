@@ -1,0 +1,108 @@
+id: "20220250"
+week: 250
+year: 2022
+title: 最初聴いた時から盛り上がった曲で漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-10-16
+playlist:
+  - id: "2022025001"
+    week: 250
+    index: 2073
+    indexInWeek: 1
+    title: 初恋クレイジー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025002"
+    week: 250
+    index: 2074
+    indexInWeek: 2
+    title: Buddy Holly
+    artist: Weezer
+    year: 1994
+    nation: US
+    label: DGC
+    youtube: kemivUKb4f4
+    selector: 草野マサムネ
+  - id: "2022025003"
+    week: 250
+    index: 2075
+    indexInWeek: 3
+    title: Save Me
+    artist: Queen
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: Iw3izcZd9zU
+    selector: 草野マサムネ
+  - id: "2022025004"
+    week: 250
+    index: 2076
+    indexInWeek: 4
+    title: Live Wire
+    artist: Mötley Crüe
+    year: 1981
+    nation: US
+    label: Leathür
+    youtube: Ahq4blDfU5s
+    selector: 草野マサムネ
+  - id: "2022025005"
+    week: 250
+    index: 2077
+    indexInWeek: 5
+    title: Holidays
+    artist: Michel Polnareff
+    year: 1972
+    nation: FR
+    label: Disc'Az
+    selector: 草野マサムネ
+  - id: "2022025006"
+    week: 250
+    index: 2078
+    indexInWeek: 6
+    title: Breaking the Law
+    artist: Judas Priest
+    year: 1980
+    nation: UK
+    label: Columbia
+    youtube: L397TWLwrUU
+    selector: 草野マサムネ
+  - id: "2022025007"
+    week: 250
+    index: 2079
+    indexInWeek: 7
+    title: Chinese Rocks
+    artist: Johnny Thunders & The Heartbreakers
+    year: 1977
+    nation: US
+    label: Track
+    youtube: tXBChDAfaqI
+    selector: 草野マサムネ
+  - id: "2022025008"
+    week: 250
+    index: 2080
+    indexInWeek: 8
+    title: Let It Slide
+    artist: Mudhoney
+    year: 1991
+    nation: US
+    label: Sub Pop
+    youtube: z9iswny-8Vw
+    selector: 草野マサムネ
+  - id: "2022025009"
+    week: 250
+    index: 2081
+    indexInWeek: 9
+    title: 夏の日の思い出
+    artist: 原由子
+    kana: はらゆうこ
+    year: 2002
+    nation: JPN
+    label: タイシタレーベル
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

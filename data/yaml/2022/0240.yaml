@@ -1,0 +1,99 @@
+id: "20220240"
+week: 240
+year: 2022
+title: AORで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-08-07
+playlist:
+  - id: "2022024001"
+    week: 240
+    index: 1990
+    indexInWeek: 1
+    title: ヘビーメロウ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: BASmTe-x-Ok
+    selector: 草野マサムネ
+  - id: "2022024002"
+    week: 240
+    index: 1991
+    indexInWeek: 2
+    title: Lowdown
+    artist: Boz Scaggs
+    year: 1976
+    nation: US
+    label: Columbia
+    youtube: HCBVwdS1Mt0
+    selector: 草野マサムネ
+  - id: "2022024003"
+    week: 240
+    index: 1992
+    indexInWeek: 3
+    title: What You Won't Do for Love
+    artist: Bobby Caldwell
+    year: 1978
+    nation: US
+    label: Clouds
+    youtube: oJXvYFt8538
+    selector: 草野マサムネ
+  - id: "2022024004"
+    week: 240
+    index: 1993
+    indexInWeek: 4
+    title: Peg
+    artist: Steely Dan
+    year: 1977
+    nation: US
+    label: ABC
+    youtube: u_pt3khMRFs
+    selector: 草野マサムネ
+  - id: "2022024005"
+    week: 240
+    index: 1994
+    indexInWeek: 5
+    title: Lotta Love
+    artist: Nicolette Larson
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: vpFfjWdhROU
+    selector: 草野マサムネ
+  - id: "2022024006"
+    week: 240
+    index: 1995
+    indexInWeek: 6
+    title: Sailing
+    artist: Christopher Cross
+    year: 1980
+    nation: US
+    label: Warner Bros.
+    youtube: MEO6gYCFbr0
+    selector: 草野マサムネ
+  - id: "2022024007"
+    week: 240
+    index: 1996
+    indexInWeek: 7
+    title: Him
+    artist: Rupert Holmes
+    year: 1979
+    nation: UK
+    label: MCA
+    youtube: KKfZ_OO0oYw
+    selector: 草野マサムネ
+  - id: "2022024008"
+    week: 240
+    index: 1997
+    indexInWeek: 8
+    title: STAR TOURS
+    artist: GREAT3
+    year: 1996
+    nation: JPN
+    label: 東芝EMI
+    youtube: R-D6JX1OsK8
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

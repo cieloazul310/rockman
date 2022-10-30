@@ -1,0 +1,99 @@
+id: "20220243"
+week: 243
+year: 2022
+title: ロック大陸でまだオンエアしてない重要バンドで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-08-28
+playlist:
+  - id: "2022024301"
+    week: 243
+    index: 2014
+    indexInWeek: 1
+    title: オパビニア
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024302"
+    week: 243
+    index: 2015
+    indexInWeek: 2
+    title: Smells Like Teen Spirit
+    artist: Nirvana
+    year: 1991
+    nation: US
+    label: DGC
+    youtube: hTWKbfoikeg
+    selector: 草野マサムネ
+  - id: "2022024303"
+    week: 243
+    index: 2016
+    indexInWeek: 3
+    title: Long Train Runnin'
+    artist: The Doobie Brothers
+    year: 1973
+    nation: US
+    label: Warner Bros.
+    youtube: 9SRRyD61ZhI
+    selector: 草野マサムネ
+  - id: "2022024304"
+    week: 243
+    index: 2017
+    indexInWeek: 4
+    title: Generals and Majors
+    artist: XTC
+    year: 1980
+    nation: UK
+    label: Virgin
+    youtube: p-JeQduJ0f8
+    selector: 草野マサムネ
+  - id: "2022024305"
+    week: 243
+    index: 2018
+    indexInWeek: 5
+    title: Enter Sandman
+    artist: Metallica
+    year: 1991
+    nation: US
+    label: Elektra
+    youtube: CD-E-LDc384
+    selector: 草野マサムネ
+  - id: "2022024306"
+    week: 243
+    index: 2019
+    indexInWeek: 6
+    title: Love Is the Drug
+    artist: Roxy Music
+    year: 1975
+    nation: UK
+    label: Island
+    youtube: 0n3OepDn5GU
+    selector: 草野マサムネ
+  - id: "2022024307"
+    week: 243
+    index: 2020
+    indexInWeek: 7
+    title: Only Shallow
+    artist: My Bloody Valentine
+    year: 1991
+    nation: IRE
+    label: Creation
+    youtube: nwfCoKNI5hs
+    selector: 草野マサムネ
+  - id: "2022024308"
+    week: 243
+    index: 2021
+    indexInWeek: 8
+    title: ハネムーンへ
+    artist: 吉田拓郎
+    kana: よしだたくろう
+    year: 1980
+    nation: JPN
+    label: フォーライフ
+    youtube: rGcKe0V82yE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,116 @@
+id: "20220234"
+week: 234
+year: 2022
+title: スコットランドのギターポップで漫遊記
+subtitle: ""
+guests: []
+categories: ["地域特集"]
+date: 2022-06-26
+playlist:
+  - id: "2022023401"
+    week: 234
+    index: 1936
+    indexInWeek: 1
+    title: 胸に咲いた黄色い花
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023402"
+    week: 234
+    index: 1937
+    indexInWeek: 2
+    title: Start Again
+    artist: Teenage Fanclub
+    year: 1997
+    nation: UK
+    label: Creation
+    selector: 草野マサムネ
+  - id: "2022023403"
+    week: 234
+    index: 1938
+    indexInWeek: 3
+    title: Comin' Through
+    artist: The Pastels
+    year: 1987
+    nation: UK
+    label: Glass
+    youtube: LRDTHKdlfEI
+    selector: 草野マサムネ
+  - id: "2022023404"
+    week: 234
+    index: 1939
+    indexInWeek: 4
+    title: Molly's Lips
+    artist: The Vaselines
+    year: 1988
+    nation: UK
+    label: Sub Pop
+    youtube: a4kov4p64Ss
+    selector: 草野マサムネ
+  - id: "2022023405"
+    week: 234
+    index: 1940
+    indexInWeek: 5
+    title: Hello Again
+    artist: BMX Bandits
+    year: 1995
+    nation: UK
+    label: Creation
+    selector: 草野マサムネ
+  - id: "2022023406"
+    week: 234
+    index: 1941
+    indexInWeek: 6
+    title: Obscurity Knocks
+    artist: Trashcan Sinatras
+    year: 1990
+    nation: UK
+    label: Go! Discs
+    youtube: tBR2ZDy7Ddk
+    selector: 草野マサムネ
+  - id: "2022023407"
+    week: 234
+    index: 1942
+    indexInWeek: 7
+    title: Sweet Pretty Thing
+    artist: Primal Scream
+    year: 1989
+    nation: UK
+    label: Creation
+    selector: 草野マサムネ
+  - id: "2022023408"
+    week: 234
+    index: 1943
+    indexInWeek: 8
+    title: Speedboat
+    artist: Speedboat
+    year: 1999
+    nation: UK
+    label: Shoeshine Records
+    selector: 草野マサムネ
+  - id: "2022023409"
+    week: 234
+    index: 1944
+    indexInWeek: 9
+    title: She's Losing It
+    artist: Belle and Sebastian
+    year: 1996
+    nation: UK
+    label: Electric Honey
+    youtube: UP_sPBdiqjE
+    selector: 草野マサムネ
+  - id: "2022023410"
+    week: 234
+    index: 1945
+    indexInWeek: 10
+    title: ひとりの部屋
+    artist: 朝倉理恵
+    kana: あさくらりえ
+    year: 1973
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

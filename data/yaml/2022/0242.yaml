@@ -1,0 +1,97 @@
+id: "20220242"
+week: 242
+year: 2022
+title: レゲエ風味のロックナンバーで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-08-21
+playlist:
+  - id: "2022024201"
+    week: 242
+    index: 2006
+    indexInWeek: 1
+    title: 自転車
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024202"
+    week: 242
+    index: 2007
+    indexInWeek: 2
+    title: So Lonely
+    artist: The Police
+    year: 1978
+    nation: UK
+    label: A&M
+    youtube: MX6MvV8cbh8
+    selector: 草野マサムネ
+  - id: "2022024203"
+    week: 242
+    index: 2008
+    indexInWeek: 3
+    title: I Shot the Sheriff
+    artist: Eric Clapton
+    year: 1974
+    nation: UK
+    label: RSO
+    youtube: APWhx97QvxE
+    selector: 草野マサムネ
+  - id: "2022024204"
+    week: 242
+    index: 2009
+    indexInWeek: 4
+    title: Watching the Detectives
+    artist: Elvis Costello
+    year: 1977
+    nation: UK
+    label: Stiff
+    youtube: snPDoXl9ZPs
+    selector: 草野マサムネ
+  - id: "2022024205"
+    week: 242
+    index: 2010
+    indexInWeek: 5
+    title: Is There Anybody There?
+    artist: Scorpions
+    year: 1979
+    nation: GER
+    label: Harvest
+    youtube: sku1ppVICzo
+    selector: 草野マサムネ
+  - id: "2022024206"
+    week: 242
+    index: 2011
+    indexInWeek: 6
+    title: Do Nothing
+    artist: Snuff
+    year: 1990
+    nation: UK
+    label: Workers Playtime
+    selector: 草野マサムネ
+  - id: "2022024207"
+    week: 242
+    index: 2012
+    indexInWeek: 7
+    title: Spiderwebs
+    artist: No Doubt
+    year: 1995
+    nation: US
+    label: Trauma
+    youtube: 6ZktNItwexo
+    selector: 草野マサムネ
+  - id: "2022024208"
+    week: 242
+    index: 2013
+    indexInWeek: 8
+    title: 地球の一番はげた場所
+    artist: 真島昌利
+    kana: ましままさとし
+    year: 1989
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

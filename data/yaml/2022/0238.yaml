@@ -1,0 +1,110 @@
+id: "20220238"
+week: 238
+year: 2022
+title: フルーツなバンド名で漫遊記
+subtitle: ""
+guests: []
+categories: ["バンド名"]
+date: 2022-07-24
+playlist:
+  - id: "2022023801"
+    week: 238
+    index: 1971
+    indexInWeek: 1
+    title: 桃
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023802"
+    week: 238
+    index: 1972
+    indexInWeek: 2
+    title: Elevator
+    artist: Grapefruit
+    year: 1968
+    nation: UK
+    label: RCA Victor
+    youtube: ugFvMV_HFWk
+    selector: 草野マサムネ
+  - id: "2022023803"
+    week: 238
+    index: 1973
+    indexInWeek: 3
+    title: Psychic Magic
+    artist: G.I. Orange
+    year: 1985
+    nation: UK
+    label: CBS/Sony
+    youtube: W54OHvpOkTY
+    selector: 草野マサムネ
+  - id: "2022023804"
+    week: 238
+    index: 1974
+    indexInWeek: 4
+    title: Since Yesterday
+    artist: Strawberry Switchblade
+    year: 1985
+    nation: UK
+    label: Korova / WEA
+    youtube: S7ZNn8VrnBI
+    selector: 草野マサムネ
+  - id: "2022023805"
+    week: 238
+    index: 1975
+    indexInWeek: 5
+    title: All That You've Got
+    artist: The Pineapple Thief
+    year: 2018
+    nation: UK
+    label: Kscope
+    youtube: QKngV4KdqKg
+    selector: 草野マサムネ
+  - id: "2022023806"
+    week: 238
+    index: 1976
+    indexInWeek: 6
+    title: Tonight
+    artist: Raspberries
+    year: 1973
+    nation: US
+    label: Capitol
+    youtube: dS444bxZ2v4
+    selector: 草野マサムネ
+  - id: "2022023807"
+    week: 238
+    index: 1977
+    indexInWeek: 7
+    title: Mariposa
+    artist: Peach Tree Rascals
+    year: 2019
+    nation: US
+    label: Homemade Projects
+    youtube: U3RjdVmny6A
+    selector: 草野マサムネ
+  - id: "2022023808"
+    week: 238
+    index: 1978
+    indexInWeek: 8
+    title: インフェルノ
+    artist: Mrs. GREEN APPLE
+    year: 2019
+    nation: JPN
+    label: EMI Records
+    youtube: wfCcs0vLysk
+    selector: 草野マサムネ
+  - id: "2022023809"
+    week: 238
+    index: 1979
+    indexInWeek: 9
+    title: 生まれかわるように
+    artist: 柿原朱美
+    kana: かきはらあけみ
+    year: 1992
+    nation: JPN
+    label: ポリスター
+    youtube: QErW3_2hPhk
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

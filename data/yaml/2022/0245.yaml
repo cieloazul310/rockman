@@ -1,0 +1,97 @@
+id: "20220245"
+week: 245
+year: 2022
+title: 好きなベーシスト・リクエストで漫遊記PART②
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2022-09-11
+playlist:
+  - id: "2022024501"
+    week: 245
+    index: 2030
+    indexInWeek: 1
+    title: 優しいあの子
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    youtube: RkIOd78C82I
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024502"
+    week: 245
+    index: 2031
+    indexInWeek: 2
+    title: NO YOUNG
+    artist: フラワーカンパニーズ
+    year: 2017
+    nation: JPN
+    label: チキン・スキン・レコード
+    selector: リクエスト
+  - id: "2022024503"
+    week: 245
+    index: 2032
+    indexInWeek: 3
+    title: 秘密
+    artist: 東京事変
+    kana: とうきょうじへん
+    year: 2006
+    nation: JPN
+    label: 東芝EMI
+    youtube: WA__AAuRbyE
+    selector: リクエスト
+  - id: "2022024504"
+    week: 245
+    index: 2033
+    indexInWeek: 4
+    title: Some Like It Hot
+    artist: The Power Station
+    year: 1985
+    nation: UK
+    label: Parlophone
+    youtube: Hw1t7OCESUw
+    selector: リクエスト
+  - id: "2022024505"
+    week: 245
+    index: 2034
+    indexInWeek: 5
+    title: SEXY BODY
+    artist: OKAMOTO'S
+    year: 2013
+    nation: JPN
+    label: アリオラジャパン
+    youtube: dWXuh8znva0
+    selector: リクエスト
+  - id: "2022024506"
+    week: 245
+    index: 2035
+    indexInWeek: 6
+    title: Stay with Me (Live 1973)
+    artist: Rod Stewart/Faces
+    year: 1974
+    nation: UK
+    label: Mercury
+    selector: リクエスト
+  - id: "2022024507"
+    week: 245
+    index: 2036
+    indexInWeek: 7
+    title: higher
+    artist: the band apart
+    year: 2005
+    nation: JPN
+    label: asian gothic label
+    youtube: HkyvX9Saj9k
+    selector: リクエスト
+  - id: "2022024508"
+    week: 245
+    index: 2037
+    indexInWeek: 8
+    title: 腕の中でしか眠れない猫のように
+    artist: カネコアヤノ
+    year: 2020
+    nation: JPN
+    label: "1994"
+    youtube: Zn_lPMlJKw0
+    selector: リクエスト

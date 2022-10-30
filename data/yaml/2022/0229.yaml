@@ -1,0 +1,101 @@
+id: "20220229"
+week: 229
+year: 2022
+title: 読み方ムズいバンドで漫遊記
+subtitle: ""
+guests: []
+categories: ["バンド名"]
+date: 2022-05-22
+playlist:
+  - id: "2022022901"
+    week: 229
+    index: 1894
+    indexInWeek: 1
+    title: YM71D
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022022902"
+    week: 229
+    index: 1895
+    indexInWeek: 2
+    title: Do Rite With Me Tonite
+    artist: Babaganoüj
+    year: 2016
+    nation: AUS
+    label: 2670records
+    youtube: 2_wiTr82N-Y
+    selector: 草野マサムネ
+  - id: "2022022903"
+    week: 229
+    index: 1896
+    indexInWeek: 3
+    title: GOLDEN KING
+    artist: □□□
+    kana: くちろろ
+    year: 2007
+    nation: JPN
+    label: commmons
+    youtube: wybFxxQlNnY
+    selector: 草野マサムネ
+  - id: "2022022904"
+    week: 229
+    index: 1897
+    indexInWeek: 4
+    title: Serbia Drums
+    artist: "!!!"
+    kana: Chk Chk Chk
+    year: 2019
+    nation: US
+    label: Warp
+    youtube: zAkSBdKDwuc
+    selector: 草野マサムネ
+  - id: "2022022905"
+    week: 229
+    index: 1898
+    indexInWeek: 5
+    title: Rolling
+    artist: 8otto
+    year: 2017
+    nation: JPN
+    label: only in dreams
+    selector: 草野マサムネ
+  - id: "2022022906"
+    week: 229
+    index: 1899
+    indexInWeek: 6
+    title: A
+    artist: 100s
+    kana: ひゃくしき
+    year: 2004
+    nation: JPN
+    label: 東芝EMI
+    youtube: cyir6oNuQNU
+    selector: 草野マサムネ
+  - id: "2022022907"
+    week: 229
+    index: 1900
+    indexInWeek: 7
+    title: シンデレラボーイ
+    artist: Saucy Dog
+    year: 2019
+    nation: JPN
+    label: A-Sketch
+    youtube: IVbY5edMfCA
+    selector: 草野マサムネ
+  - id: "2022022908"
+    week: 229
+    index: 1901
+    indexInWeek: 8
+    title: DIVE
+    artist: 一十三十一
+    kana: ひとみとい
+    year: 2012
+    nation: JPN
+    label: Billboard Records
+    youtube: WWpGX7hY9rY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

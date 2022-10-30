@@ -1,0 +1,97 @@
+id: "20220230"
+week: 230
+year: 2022
+title: チン＆チャップマン（チニチャップ）で漫遊記
+subtitle: ""
+guests: []
+categories: ["プロデューサー特集"]
+date: 2022-05-29
+playlist:
+  - id: "2022023001"
+    week: 230
+    index: 1902
+    indexInWeek: 1
+    title: ハニーハニー
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023002"
+    week: 230
+    index: 1903
+    indexInWeek: 2
+    title: Hell Raiser
+    artist: Sweet
+    year: 1973
+    nation: UK
+    label: Bell
+    youtube: 7yYifj6IsUQ
+    selector: 草野マサムネ
+  - id: "2022023003"
+    week: 230
+    index: 1904
+    indexInWeek: 3
+    title: Devil Gate Drive
+    artist: Suzi Quatro
+    year: 1974
+    nation: US
+    label: RAK Records
+    youtube: 4lld1XEf-oQ
+    selector: 草野マサムネ
+  - id: "2022023004"
+    week: 230
+    index: 1905
+    indexInWeek: 4
+    title: Tiger Feet
+    artist: Mud
+    year: 1974
+    nation: UK
+    label: RAK Records
+    youtube: 2rrtXCFyMII
+    selector: 草野マサムネ
+  - id: "2022023005"
+    week: 230
+    index: 1906
+    indexInWeek: 5
+    title: Touch Too Much
+    artist: Arrows
+    year: 1974
+    nation: UK
+    label: RAK Records
+    selector: 草野マサムネ
+  - id: "2022023006"
+    week: 230
+    index: 1907
+    indexInWeek: 6
+    title: Mickey
+    artist: Toni Basil
+    year: 1982
+    nation: US
+    label: Chrysalis
+    youtube: 5QzVEQ8dz2M
+    selector: 草野マサムネ
+  - id: "2022023007"
+    week: 230
+    index: 1908
+    indexInWeek: 7
+    title: Heart and Soul
+    artist: Huey Lewis and the News
+    year: 1983
+    nation: US
+    label: Chrysalis
+    youtube: 8TdaXhpjHws
+    selector: 草野マサムネ
+  - id: "2022023008"
+    week: 230
+    index: 1909
+    indexInWeek: 8
+    title: パッシュ
+    artist: THE MINKS
+    year: 1989
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: 9AzVeEUwy_o
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
