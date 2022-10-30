@@ -24,7 +24,7 @@ playlist:
     index: 1028
     indexInWeek: 2
     title: Another Sunny Day
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 2006
     nation: UK
     label: Rough Trade
@@ -37,19 +37,20 @@ playlist:
     index: 1029
     indexInWeek: 3
     title: Sleep the Clock Around
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 1998
     nation: UK
     label: Jeepster
     producer: 
       - Tony Doogan
+    youtube: Xs7bjvySG80
     selector: 草野マサムネ
   - id: "2020012404"
     week: 124
     index: 1030
     indexInWeek: 4
     title: Seeing Other People
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 1996
     nation: UK
     label: Jeepster
@@ -62,43 +63,46 @@ playlist:
     index: 1031
     indexInWeek: 5
     title: The Model
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 2000
     nation: UK
     label: Jeepster
     producer:
       - Tony Doogan
+    youtube: yTrH0nQQZ84
     selector: 草野マサムネ
   - id: "2020012406"
     week: 124
     index: 1032
     indexInWeek: 6
     title: Dear Catastrophe Waitress
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 2003
     nation: UK
     label: Rough Trade
     producer: 
       - Trevor Horn
+    youtube: EMizPy8EZ2w
     selector: 草野マサムネ
   - id: "2020012407"
     week: 124
     index: 1033
     indexInWeek: 7
     title: Write About Love
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 2010
     nation: UK
     label: Rough Trade
     producer:
       - Tony Hoffer
+    youtube: xrM1kbT-ExU
     selector: 草野マサムネ
   - id: "2020012408"
     week: 124
     index: 1034
     indexInWeek: 8
     title: Sister Buddha
-    artist: Belle And Sebastian
+    artist: Belle and Sebastian
     year: 2019
     nation: UK
     label: Matador

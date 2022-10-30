@@ -1,0 +1,95 @@
+id: "20220237"
+week: 237
+year: 2022
+title: モット・ザ・フープルで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-07-17
+playlist:
+  - id: "2022023701"
+    week: 237
+    index: 1963
+    indexInWeek: 1
+    title: さらさら
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: wfUYfj9t7QI
+    selector: 草野マサムネ
+  - id: "2022023702"
+    week: 237
+    index: 1964
+    indexInWeek: 2
+    title: Roll Away the Stone
+    artist: Mott the Hoople
+    year: 1973
+    nation: UK
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2022023703"
+    week: 237
+    index: 1965
+    indexInWeek: 3
+    title: Rock and Roll Queen
+    artist: Mott the Hoople
+    year: 1969
+    nation: UK
+    label: Island
+    selector: 草野マサムネ
+  - id: "2022023704"
+    week: 237
+    index: 1966
+    indexInWeek: 4
+    title: All the Young Dudes
+    artist: Mott the Hoople
+    year: 1972
+    nation: UK
+    label: CBS
+    youtube: yNHdPPJGowY
+    selector: 草野マサムネ
+  - id: "2022023705"
+    week: 237
+    index: 1967
+    indexInWeek: 5
+    title: Honaloochie Boogie
+    artist: Mott the Hoople
+    year: 1973
+    nation: UK
+    label: CBS
+    selector: 草野マサムネ
+  - id: "2022023706"
+    week: 237
+    index: 1968
+    indexInWeek: 6
+    title: All the Way from Memphis
+    artist: Mott the Hoople
+    year: 1973
+    nation: UK
+    label: CBS
+    youtube: PuMOWrRZ0HA
+    selector: 草野マサムネ
+  - id: "2022023707"
+    week: 237
+    index: 1969
+    indexInWeek: 7
+    title: Shouting and Pointing
+    artist: Mott
+    year: 1976
+    nation: UK
+    label: CBS
+    selector: 草野マサムネ
+  - id: "2022023708"
+    week: 237
+    index: 1970
+    indexInWeek: 8
+    title: LION SEVENTEEN
+    artist: cune
+    year: 2003
+    nation: JPN
+    label: ユニバーサル
+    youtube: 720le1RC3ns
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

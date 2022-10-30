@@ -1,0 +1,97 @@
+id: "20220249"
+week: 249
+year: 2022
+title: 70年代のジューダス・プリーストで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-10-09
+playlist:
+  - id: "2022024901"
+    week: 249
+    index: 2065
+    indexInWeek: 1
+    title: 夢じゃない 〜remix〜
+    artist: スピッツ
+    year: 1997
+    nation: JPN
+    label: ポリドール
+    youtube: DIWRNAR-Od0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024902"
+    week: 249
+    index: 2066
+    indexInWeek: 2
+    title: The Ripper
+    artist: Judas Priest
+    year: 1976
+    nation: UK
+    label: Gull
+    youtube: lriWlHZAy8A
+    selector: 草野マサムネ
+  - id: "2022024903"
+    week: 249
+    index: 2067
+    indexInWeek: 3
+    title: Sinner
+    artist: Judas Priest
+    year: 1977
+    nation: UK
+    label: Columbia
+    youtube: W5Opvi_UHLY
+    selector: 草野マサムネ
+  - id: "2022024904"
+    week: 249
+    index: 2068
+    indexInWeek: 4
+    title: Savage
+    artist: Judas Priest
+    year: 1978
+    nation: UK
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2022024905"
+    week: 249
+    index: 2069
+    indexInWeek: 5
+    title: Hell Bent for Leather
+    artist: Judas Priest
+    year: 1978
+    nation: UK
+    label: Columbia
+    youtube: ylYhBBhyojI
+    selector: 草野マサムネ
+  - id: "2022024906"
+    week: 249
+    index: 2070
+    indexInWeek: 6
+    title: Exciter (Live 1979 from "Unleashed in the East")
+    artist: Judas Priest
+    year: 1979
+    nation: UK
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2022024907"
+    week: 249
+    index: 2071
+    indexInWeek: 7
+    title: Epitaph
+    artist: Judas Priest
+    year: 1976
+    nation: UK
+    label: Gull
+    selector: 草野マサムネ
+  - id: "2022024908"
+    week: 249
+    index: 2072
+    indexInWeek: 8
+    title: ジャスト フィーリング
+    artist: 金井夕子
+    kana: かないゆうこ
+    year: 1978
+    nation: JPN
+    label: キャニオン・レコード
+    youtube: YsvJAC9B-l0
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

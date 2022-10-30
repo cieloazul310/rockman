@@ -1,0 +1,100 @@
+id: "20220252"
+week: 252
+year: 2022
+title: みんなで叫ぼう アルファベットで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-10-30
+playlist:
+  - id: "2022025201"
+    week: 252
+    index: 2090
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025202"
+    week: 252
+    index: 2091
+    indexInWeek: 2
+    title: Saturday Night
+    artist: Bay City Rollers
+    year: 1973
+    nation: UK
+    label: Arista
+    youtube: csXFpFoRkEk
+    selector: 草野マサムネ
+  - id: "2022025203"
+    week: 252
+    index: 2092
+    indexInWeek: 3
+    title: ウルフルズA・A・Pのテーマ
+    artist: ウルフルズ
+    year: 1997
+    nation: JPN
+    label: 東芝EMI
+    youtube: GN0Cl-DArag
+    selector: 草野マサムネ
+  - id: "2022025204"
+    week: 252
+    index: 2093
+    indexInWeek: 4
+    title: YOUNG MAN (Y.M.C.A.)
+    artist: 西城秀樹
+    kana: さいじょうひでき
+    year: 1979
+    nation: JPN
+    label: 	RCA
+    selector: 草野マサムネ
+  - id: "2022025205"
+    week: 252
+    index: 2094
+    indexInWeek: 5
+    title: Mayday
+    artist: The Go! Team
+    year: 2018
+    nation: UK
+    label: Memphis Industries
+    youtube: evwkrcL8P6g
+    selector: 草野マサムネ
+  - id: "2022025206"
+    week: 252
+    index: 2095
+    indexInWeek: 6
+    title: CRAZY NIGHTS
+    artist: LOUDNESS
+    year: 1985
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+  - id: "2022025207"
+    week: 252
+    index: 2096
+    indexInWeek: 7
+    title: 鋼鉄の段ボーラーまさゆき
+    artist: 四星球
+    kana: すーしんちゅう
+    year: 2019
+    nation: JPN
+    label: Getting Better
+    youtube: r7xHsjX-qMg
+    selector: 草野マサムネ
+  - id: "2022025208"
+    week: 252
+    index: 2097
+    indexInWeek: 8
+    title: JODAN JODAN
+    artist: 海援隊
+    kana: かいえんたい
+    year: 1979
+    nation: JPN
+    label: ポリドール
+    youtube: mjZWgxxs83U
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

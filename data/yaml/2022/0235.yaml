@@ -1,0 +1,95 @@
+id: "20220235"
+week: 235
+year: 2022
+title: イカしたギターリフで漫遊記
+subtitle: ""
+guests: []
+categories: ["ギター"]
+date: 2022-07-03
+playlist:
+  - id: "2022023501"
+    week: 235
+    index: 1946
+    indexInWeek: 1
+    title: スーパーノヴァ
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022023502"
+    week: 235
+    index: 1947
+    indexInWeek: 2
+    title: Have Love Will Travel
+    artist: The Sonics
+    year: 1965
+    nation: US
+    label: Etiquette
+    selector: 草野マサムネ
+  - id: "2022023503"
+    week: 235
+    index: 1948
+    indexInWeek: 3
+    title: Shake Appeal
+    artist: The Stooges
+    year: 1973
+    nation: US
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2022023504"
+    week: 235
+    index: 1949
+    indexInWeek: 4
+    title: She's So High (Edited version)
+    artist: Blur
+    year: 1991
+    nation: UK
+    label: Food
+    youtube: zxFOaoJuP5E
+    selector: 草野マサムネ
+  - id: "2022023505"
+    week: 235
+    index: 1950
+    indexInWeek: 5
+    title: The Drug
+    artist: Warrior Soul
+    year: 1994
+    nation: US
+    label: Music For Nations
+    youtube: HpPIZ2tzBrM
+    selector: 草野マサムネ
+  - id: "2022023506"
+    week: 235
+    index: 1951
+    indexInWeek: 6
+    title: School Love
+    artist: Anvil
+    year: 1981
+    nation: CAN
+    label: Attic
+    youtube: l-nqq0tHZCQ
+    selector: 草野マサムネ
+  - id: "2022023507"
+    week: 235
+    index: 1952
+    indexInWeek: 7
+    title: Tell Your Story Walkin
+    artist: Stevie Salas
+    year: 1994
+    nation: US
+    label: Pavement Music
+    youtube: ww_9jIae4ks
+    selector: 草野マサムネ
+  - id: "2022023508"
+    week: 235
+    index: 1953
+    indexInWeek: 8
+    title: パタパタママ
+    artist: のこいのこ
+    year: 1976
+    nation: JPN
+    label: キャニオンレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

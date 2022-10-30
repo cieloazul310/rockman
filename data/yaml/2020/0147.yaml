@@ -74,7 +74,7 @@ playlist:
     year: 1996
     nation: JPN
     label: ポニーキャニオン
-    youtube: f4mcJX-_MOQ
+    youtube: H_hbF2EIWMw
     producer:
       - 土方隆行
     selector: リクエスト
@@ -88,6 +88,7 @@ playlist:
     year: 1995
     nation: JPN
     label: UK.PROJECT
+    youtube: m1V5Eo6Gasc
     selector: リクエスト
   - id: "2020014708"
     week: 147
@@ -98,7 +99,7 @@ playlist:
     year: 2017
     nation: JPN
     label: PIZZA OF DEATH RECORDS
-    youtube: Z23EegTiXAw
+    youtube: wdbW5Oqen44
     selector: リクエスト
   - id: "2020014709"
     week: 147

@@ -1,0 +1,96 @@
+id: "20220244"
+week: 244
+year: 2022
+title: 好きなベーシスト・リクエストで漫遊記PART①
+subtitle: ""
+guests: []
+categories: ["リクエスト特集"]
+date: 2022-09-04
+playlist:
+  - id: "2022024401"
+    week: 244
+    index: 2022
+    indexInWeek: 1
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022024402"
+    week: 244
+    index: 2023
+    indexInWeek: 2
+    title: 忘れられないの
+    artist: サカナクション
+    year: 2019
+    nation: JPN
+    label: NF Records
+    youtube: BxqYUbNR-c0
+    selector: リクエスト
+  - id: "2022024403"
+    week: 244
+    index: 2024
+    indexInWeek: 3
+    title: すべるバー
+    artist: ゆらゆら帝国
+    year: 1999
+    nation: JPN
+    label: ミディ
+    youtube: mRoXfqY7tuA
+    selector: リクエスト
+  - id: "2022024404"
+    week: 244
+    index: 2025
+    indexInWeek: 4
+    title: Every Breath You Take
+    artist: The Police
+    year: 1983
+    nation: UK
+    label: A&M
+    youtube: OMOGaugKpzs
+    selector: リクエスト
+  - id: "2022024405"
+    week: 244
+    index: 2026
+    indexInWeek: 5
+    title: グレーマンのせいにする
+    artist: クリープハイプ
+    year: 2011
+    nation: JPN
+    label: primitive
+    selector: リクエスト
+  - id: "2022024406"
+    week: 244
+    index: 2027
+    indexInWeek: 6
+    title: ダンシング・セブンティーン
+    artist: オックス
+    year: 1968
+    nation: JPN
+    label: ビクターレコード
+    youtube: df3RXBcg4oQ
+    selector: リクエスト
+  - id: "2022024407"
+    week: 244
+    index: 2028
+    indexInWeek: 7
+    title: I Got Your Number
+    artist: Hughes/Thrall
+    year: 1982
+    nation: UK
+    label: Boulevard Records
+    selector: リクエスト
+  - id: "2022024408"
+    week: 244
+    index: 2029
+    indexInWeek: 8
+    title: なつのうた
+    artist: 打首獄門同好会
+    kana: うちくびごくもんどうこうかい
+    year: 2019
+    nation: JPN
+    label: LD&K Records
+    youtube: LJwR4iHxKV0
+    selector: リクエスト
