@@ -1,9 +1,9 @@
 /* eslint no-param-reassign: ["error", { "props": true, "ignorePropertyModificationsFor": ["bar"] }] */
-import { Node, CreateNodeArgs } from 'gatsby';
-import { getYomi } from '../src/utils/sortByYomi';
-import { PureArtist } from './types';
-import { Tune, Program, Artist } from '../types';
-import { GatsbyGraphQLContext } from './graphql';
+import type { Node, CreateNodeArgs } from 'gatsby';
+import { getYomi } from '../../src/utils/sortByYomi';
+import type { PureArtist } from './types';
+import type { Tune, Program, Artist } from '../../types';
+import type { GatsbyGraphQLContext } from './graphql';
 
 export type IntQueryOperatorInput = {
   eq?: number | null;

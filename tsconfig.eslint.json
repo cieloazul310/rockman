@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "include": [
     "src/**/*",
-    "gatsby-node/**/*",
+    "gatsby/**/*",
     "types.d.ts",
     ".eslintrc.js",
     "gatsby-config.ts",

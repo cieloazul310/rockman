@@ -1,6 +1,6 @@
 import * as path from 'path';
-import { CreatePagesArgs } from 'gatsby';
-import { Program, ArtistBrowser } from '../types';
+import type { CreatePagesArgs } from 'gatsby';
+import type { Program, ArtistBrowser } from '../../types';
 
 type CreatePagesQueryData = {
   allProgram: {
