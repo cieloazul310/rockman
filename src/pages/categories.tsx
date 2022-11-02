@@ -1,13 +1,14 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Container from '@mui/material/Container';
 import List from '@mui/material/List';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import ProgramItem from '../components/ProgramItem';
 import { useSortProgramNode } from '../utils/useSorter';
-import { ProgramList } from '../../types';
+import type { ProgramList } from '../../types';
 
 type WindowState = {
   category?: string;
@@ -61,6 +62,10 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
 }
 
 export default CategoriesPage;
+
+export function Head() {
+  return <Seo title="テーマ" />;
+}
 
 export const query = graphql`
   query {

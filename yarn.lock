@@ -1836,9 +1836,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-blog-components@npm:^3.0.0-alpha.1":
-  version: 3.0.0-alpha.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-blog-components@npm:3.0.0-alpha.1"
+"@cieloazul310/gatsby-theme-aoi-blog-components@npm:^3.0.0-alpha.2":
+  version: 3.0.0-alpha.2
+  resolution: "@cieloazul310/gatsby-theme-aoi-blog-components@npm:3.0.0-alpha.2"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-components": ^2.7.0 || ^3.0.0 || ^3.0.0-alpha.0
     "@emotion/react": ^11.0.0
@@ -1847,13 +1847,13 @@ __metadata:
     "@mui/material": ^5.0.0
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 9af51555fff5a85364e8dcb57ac4cbd09fb6ecd5069deab4735871a899db14cfdf96f1381029fa7c138d3b9fdc43095f8d143af0cca488638fa5e544e53d46d1
+  checksum: 3d7ed150aba477a4b436f43460143216473f4feb0544004c46e8c7ab62cd8ff6cddbef8544024525247841450a3b936310e1efef3f9227303aaa4efbb190f83a
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-components@npm:^3.0.0-alpha.1":
-  version: 3.0.0-alpha.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-components@npm:3.0.0-alpha.1"
+"@cieloazul310/gatsby-theme-aoi-components@npm:^3.0.0-alpha.2":
+  version: 3.0.0-alpha.2
+  resolution: "@cieloazul310/gatsby-theme-aoi-components@npm:3.0.0-alpha.2"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^2.7.0 || ^3.0.0 || ^3.0.0-alpha.0
     "@cieloazul310/gatsby-theme-aoi-utils": ^2.7.0 || ^3.0.0 || ^3.0.0-alpha.0
@@ -1865,7 +1865,7 @@ __metadata:
     clsx: ^1.1.1
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 43bb920d25b937ceeae26fa4344bd36164c0ce028433b06087becfe2f73b0a3e41119c2f3dc3becc00fa01e0c3e5817d16ffed6cf1a0cb05dbea021c6bb85370
+  checksum: b5aa069e698c5c67e8c4f98d7e55f4fd4a44c6d1526821f22671377ebe4119df3af3d1e1fb0a12688f0178b739a14b57ee0ec471c1992c29ffa2210131c1024a
   languageName: node
   linkType: hard
 
@@ -1914,11 +1914,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi@npm:^3.0.0-alpha.1":
-  version: 3.0.0-alpha.1
-  resolution: "@cieloazul310/gatsby-theme-aoi@npm:3.0.0-alpha.1"
+"@cieloazul310/gatsby-theme-aoi@npm:^3.0.0-alpha.2":
+  version: 3.0.0-alpha.2
+  resolution: "@cieloazul310/gatsby-theme-aoi@npm:3.0.0-alpha.2"
   dependencies:
-    "@cieloazul310/gatsby-theme-aoi-components": ^3.0.0-alpha.1
+    "@cieloazul310/gatsby-theme-aoi-components": ^3.0.0-alpha.2
     "@cieloazul310/gatsby-theme-aoi-layout": ^3.0.0-alpha.1
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^3.0.0-alpha.1
     "@cieloazul310/gatsby-theme-aoi-utils": ^3.0.0-alpha.1
@@ -1929,7 +1929,7 @@ __metadata:
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 998641b857d8d195c96030bac9be6f384d29e5b314bf9b862806fe28b26c17ea1598b5087a494041f9d5a2454bbd9579e1ce7220f6da8d191a7728e6a2cac0be
+  checksum: c3c52f6f7e96e3cef7bae5c1e154a24c95598400a05355d1a5efc8b8aacb5476985f6ed6eafd04049b3bea90335cb5a3e25b409e99219f58167ddc033bb6449f
   languageName: node
   linkType: hard
 
@@ -15109,8 +15109,8 @@ __metadata:
   dependencies:
     "@babel/core": ^7.19.6
     "@babel/preset-typescript": ^7.18.6
-    "@cieloazul310/gatsby-theme-aoi": ^3.0.0-alpha.1
-    "@cieloazul310/gatsby-theme-aoi-blog-components": ^3.0.0-alpha.1
+    "@cieloazul310/gatsby-theme-aoi": ^3.0.0-alpha.2
+    "@cieloazul310/gatsby-theme-aoi-blog-components": ^3.0.0-alpha.2
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@mui/icons-material": ^5.10.9

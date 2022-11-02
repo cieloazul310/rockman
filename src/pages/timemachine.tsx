@@ -1,15 +1,16 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { Section, SectionDivider, H3 } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import { ProgramByTune } from '../components/TunesByProgram';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import { ProgramBrowser, TuneFields } from '../../types';
+import type { ProgramBrowser, TuneFields } from '../../types';
 
 type TimeMachinePageQueryData = {
   allTunes: {
@@ -61,6 +62,10 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
 }
 
 export default TimeMachinePage;
+
+export function Head() {
+  return <Seo title="ちょっぴりタイムマシン" />;
+}
 
 export const query = graphql`
   query {

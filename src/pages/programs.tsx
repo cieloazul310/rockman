@@ -1,12 +1,13 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Container from '@mui/material/Container';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
 import { AdInSectionDivider } from '../components/Ads';
-import { ProgramList } from '../../types';
+import type { ProgramList } from '../../types';
 
 type ProgramsPageQueryData = {
   allProgram: {
@@ -36,6 +37,10 @@ function ProgramsPage({ data }: PageProps<ProgramsPageQueryData>) {
 }
 
 export default ProgramsPage;
+
+export function Head() {
+  return <Seo title="放送回一覧" />;
+}
 
 export const query = graphql`
   query {

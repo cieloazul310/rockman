@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "author": "cieloazul310 <cieloazul310@gmail.com>",
   "dependencies": {
-    "@cieloazul310/gatsby-theme-aoi": "^3.0.0-alpha.1",
-    "@cieloazul310/gatsby-theme-aoi-blog-components": "^3.0.0-alpha.1",
+    "@cieloazul310/gatsby-theme-aoi": "^3.0.0-alpha.2",
+    "@cieloazul310/gatsby-theme-aoi-blog-components": "^3.0.0-alpha.2",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
