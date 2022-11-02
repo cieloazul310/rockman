@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Layout, LayoutProps } from '@cieloazul310/gatsby-theme-aoi';
+import { Layout, type LayoutProps } from '@cieloazul310/gatsby-theme-aoi';
 
 function TabLayout({
   children,

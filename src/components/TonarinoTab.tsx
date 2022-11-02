@@ -3,7 +3,7 @@ import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi
 import { ProgramPageHeader, ArtistPageHeader } from './PageHeader';
 import { TuneSkeleton } from './Tune';
 import { TunesByProgramSkeleton } from './TunesByProgram';
-import { ProgramBrowser, ArtistBrowser } from '../../types';
+import type { ProgramBrowser, ArtistBrowser } from '../../types';
 
 type ProgramTonarinoTabProps = {
   item: Pick<ProgramBrowser, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {

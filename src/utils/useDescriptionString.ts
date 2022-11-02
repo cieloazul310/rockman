@@ -1,4 +1,4 @@
-import { ProgramBrowser, MinimumArtist } from '../../types';
+import type { ProgramBrowser, MinimumArtist } from '../../types';
 
 export function useProgramDescriptionString({
   week,
