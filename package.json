@@ -42,8 +42,8 @@
     "serve": "gatsby serve -o -H 0.0.0.0 --prefix-paths",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public",
-    "lint": "eslint src/ --fix --ignore-pattern \"**/stories/**/*\" && eslint gatsby-node/ --fix",
-    "format": "prettier \"{src,gatsby-node}/**/*.{js,jsx,ts,tsx}\" --parser typescript --write",
+    "lint": "eslint src/ --fix --ignore-pattern \"**/stories/**/*\" && eslint gatsby/ --fix",
+    "format": "prettier \"{src,gatsby}/**/*.{js,jsx,ts,tsx}\" --parser typescript --write",
     "test": "jest",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
