@@ -1,0 +1,88 @@
+id: "20220253"
+week: 253
+year: 2022
+title: TYK・70年代前半UK隠れた名曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["T・Y・K(当初やりたかった感じ)"]
+date: 2022-11-06
+playlist:
+  - id: "2022025301"
+    week: 253
+    index: 2098
+    indexInWeek: 1
+    title: 田舎の生活
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025302"
+    week: 253
+    index: 2099
+    indexInWeek: 2
+    title: The Spring Of '69
+    artist: Blackfoot Sue
+    year: 1973
+    nation: UK
+    label: JAM
+    youtube: NWzYPWiDCFY
+    selector: 草野マサムネ
+  - id: "2022025303"
+    week: 253
+    index: 2100
+    indexInWeek: 3
+    title: Drowning Man
+    artist: Greenslade
+    year: 1973
+    nation: UK
+    label: Warner Bros.
+    youtube: 6CMLxfseglI
+    selector: 草野マサムネ
+  - id: "2022025304"
+    week: 253
+    index: 2101
+    indexInWeek: 4
+    title: Big Jim Salter
+    artist: Stone the Crows
+    year: 1971
+    nation: UK
+    label: Polydor
+    youtube: KWDwj5kDPh4
+    selector: 草野マサムネ
+  - id: "2022025305"
+    week: 253
+    index: 2102
+    indexInWeek: 5
+    title: Hold Me Back
+    artist: Patto
+    year: 1970
+    nation: UK
+    label: Vertigo
+    youtube: Wt0wjrF523s
+    selector: 草野マサムネ
+  - id: "2022025306"
+    week: 253
+    index: 2103
+    indexInWeek: 6
+    title: See My Baby Jive
+    artist: Wizzard
+    year: 1973
+    nation: UK
+    label: Harvest
+    youtube: ePTzV4CQJ8I
+    selector: 草野マサムネ
+  - id: "2022025307"
+    week: 253
+    index: 2104
+    indexInWeek: 7
+    title: おでこに生えたビワの性格が悪い
+    artist: 家の裏でマンボウが死んでるP
+    kana: いえのうらでまんぼうがしんでるぴー
+    year: 2012
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    youtube: BdpXfWZx52w
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
