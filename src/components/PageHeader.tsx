@@ -7,7 +7,7 @@ import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
 import { ProgramIcon, ArtistIcon } from '../icons';
 import { useParseNation } from '../utils/graphql-hooks';
-import { ProgramBrowser, ArtistBrowser } from '../../types';
+import type { ProgramBrowser, ArtistBrowser } from '../../types';
 
 type PageHeaderProps = {
   variant: 'program' | 'artist';

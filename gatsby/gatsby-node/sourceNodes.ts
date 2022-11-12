@@ -1,8 +1,8 @@
-import { SourceNodesArgs } from 'gatsby';
+import type { SourceNodesArgs } from 'gatsby';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as yaml from 'yaml';
-import { SpitzAlbum } from '../types';
+import type { SpitzAlbum } from '../../types';
 
 export default async function sourceNodes({ actions, createNodeId, createContentDigest }: SourceNodesArgs) {
   const { createNode } = actions;

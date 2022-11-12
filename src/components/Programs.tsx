@@ -7,7 +7,7 @@ import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import ProgramItem from './ProgramItem';
-import { ProgramList } from '../../types';
+import type { ProgramList } from '../../types';
 
 type ProgramYearsGroup = {
   fieldValue: string;

@@ -9,7 +9,7 @@ import TextSpan from './TextSpan';
 import NationLabel from './NationLabel';
 import { TuneIcon } from '../icons';
 import useIsMobile from '../utils/useIsMobile';
-import { TuneBrowser } from '../../types';
+import type { TuneBrowser } from '../../types';
 
 type YouTubeLinkProps = {
   href: string;

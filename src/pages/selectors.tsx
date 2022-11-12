@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
-import { Selector, ProgramBrowser, TuneFields } from '../../types';
+import type { Selector, ProgramBrowser, TuneFields } from '../../types';
 
 type WindowState = {
   selector?: string;
@@ -58,6 +59,10 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
 }
 
 export default SelectorsPage;
+
+export function Head() {
+  return <Seo title="選曲者一覧" />;
+}
 
 export const query = graphql`
   query {

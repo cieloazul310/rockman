@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { TuneProps } from '../components/Tune';
+import type { TuneProps } from '../components/Tune';
 import { useSortProgram } from './useSorter';
-import { ProgramBrowser, TuneFields } from '../../types';
+import type { ProgramBrowser, TuneFields } from '../../types';
 
 function getPlaylistLength<
   T extends Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {

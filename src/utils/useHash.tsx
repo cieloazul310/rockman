@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useLocation, WindowLocation } from '@reach/router';
+import { useLocation, type WindowLocation } from '@reach/router';
 
 export function withHash(title: string) {
   return title !== '' ? `#${title}` : '';

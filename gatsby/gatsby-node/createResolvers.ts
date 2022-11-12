@@ -1,7 +1,7 @@
-import { CreateResolversArgs, Node } from 'gatsby';
-import { intQueryFilter, stringQueryFilter, IntQueryOperatorInput, StringQueryOperatorInput } from './utils';
-import { GatsbyGraphQLContext } from './graphql';
-import { Program, Tune } from '../types';
+import type { CreateResolversArgs, Node } from 'gatsby';
+import { intQueryFilter, stringQueryFilter, type IntQueryOperatorInput, type StringQueryOperatorInput } from './utils';
+import type { GatsbyGraphQLContext } from './graphql';
+import type { Program, Tune } from '../../types';
 
 type AllTunesQueryArgs = {
   year: IntQueryOperatorInput;

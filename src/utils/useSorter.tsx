@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useAppState } from '../@cieloazul310/gatsby-theme-aoi-top-layout/utils/AppStateContext';
-import { ProgramBrowser, TuneBrowser } from '../../types';
+import type { ProgramBrowser, TuneBrowser } from '../../types';
 
 /** usage
  * const sorter = useSorter();

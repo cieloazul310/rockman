@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Section, SectionDivider, Article, ArticleTitle, Paragraph, H3, H4, AppLink, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionDivider, Article, Paragraph, H3, H4, AppLink, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import { AdInSectionDivider } from '../components/Ads';
 
@@ -12,7 +13,6 @@ function About() {
       <SectionDivider />
       <Section>
         <Article maxWidth="md">
-          <ArticleTitle>ロック大陸漫遊記プレイリスト集</ArticleTitle>
           <Paragraph>
             <strong>ロック大陸漫遊記プレイリスト集</strong>は、TOKYO-FM他全国38局で放送されているラジオ番組
             <strong>「SPITZ 草野マサムネのロック大陸漫遊記」</strong>
@@ -101,3 +101,7 @@ function About() {
 }
 
 export default About;
+
+export function Head() {
+  return <Seo title="サイトについて" />;
+}

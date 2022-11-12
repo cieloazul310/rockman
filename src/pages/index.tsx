@@ -1,15 +1,16 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
 import { Jumbotron, Section, SectionDivider, Article, Paragraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import ProgramItem from '../components/ProgramItem';
 import ProgramTop25 from '../components/ProgramTop25';
 import Stats from '../components/Stat';
 import { AdInSectionDivider } from '../components/Ads';
-import { ProgramBrowser } from '../../types';
+import type { ProgramBrowser } from '../../types';
 
 type IndexPageQueryData = {
   allProgram: {
@@ -79,6 +80,10 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
 }
 
 export default IndexPage;
+
+export function Head() {
+  return <Seo />;
+}
 
 export const query = graphql`
   query {
