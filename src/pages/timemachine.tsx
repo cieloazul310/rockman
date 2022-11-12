@@ -1,15 +1,16 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Section, SectionDivider, H3 } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import { ProgramByTune } from '../components/TunesByProgram';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import { ProgramBrowser, TuneFields } from '../../types';
+import type { ProgramBrowser, TuneFields } from '../../types';
 
 type TimeMachinePageQueryData = {
   allTunes: {
@@ -43,15 +44,17 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
               <div key={annu.value}>
                 <Section>
                   <Container maxWidth="md" disableGutters>
-                    <Box display="flex" alignItems="baseline">
-                      <H3>{annu.value}年</H3>
+                    <Box display="flex" alignItems="baseline" borderBottom={1} borderColor="secondary.dark" px={1} my={2}>
+                      <Typography variant="h5" component="h3">
+                        {annu.value}年
+                      </Typography>
                       <Typography ml={1}>{annu.items.length}曲</Typography>
                     </Box>
                   </Container>
+                  {annu.items.map((tune) => (
+                    <ProgramByTune key={tune.id} tune={tune} />
+                  ))}
                 </Section>
-                {annu.items.map((tune) => (
-                  <ProgramByTune key={tune.id} tune={tune} />
-                ))}
               </div>
             ))}
         </React.Fragment>
@@ -61,6 +64,10 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
 }
 
 export default TimeMachinePage;
+
+export function Head() {
+  return <Seo title="ちょっぴりタイムマシン" />;
+}
 
 export const query = graphql`
   query {

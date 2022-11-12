@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
+import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { ProgramByTune } from '../components/TunesByProgram';
-import { ProgramBrowser, SpitzAlbumBrowser, SpitzTune, TuneFields } from '../../types';
+import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune, TuneFields } from '../../types';
 
 type TakeOffQueryData = {
   albums: {
@@ -91,6 +92,10 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
 }
 
 export default TakeOff;
+
+export function Head() {
+  return <Seo title="漫遊前の一曲" />;
+}
 
 export const query = graphql`
   query TakeOff {

@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { graphql, navigate, PageProps } from 'gatsby';
+import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import { ProgramPageHeader } from '../components/PageHeader';
 import Tune from '../components/Tune';
 import ArtistItemContainer from '../components/ArtistItemContainer';
@@ -13,7 +14,7 @@ import { ProgramTonarinoTab } from '../components/TonarinoTab';
 import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
 import { useProgramDescriptionString } from '../utils/useDescriptionString';
-import { ProgramBrowser, TuneBrowser } from '../../types';
+import type { ProgramBrowser, TuneBrowser } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -39,7 +40,6 @@ type ProgramTemplateContext = {
 
 function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
   const { program, previous, next } = data;
-  const description = useProgramDescriptionString(program);
   const initialIndex = previous ? 1 : 0;
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
@@ -75,7 +75,6 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
   return (
     <Layout
       title={program.title}
-      description={description}
       drawerContents={
         <DrawerPageNavigation
           previous={previous ? { to: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
@@ -112,6 +111,14 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
 }
 
 export default ProgramTemplate;
+
+export function Head({ data }: HeadProps<ProgramTemplateData, ProgramTemplateContext>) {
+  const { program } = data;
+  const { title, week, date } = program;
+  const headTitle = `第${week}回 ${title} (${date})`;
+  const description = useProgramDescriptionString(program);
+  return <Seo title={headTitle} description={description} />;
+}
 
 export const query = graphql`
   query ProgramTemplate($slug: String!, $previous: String, $next: String) {

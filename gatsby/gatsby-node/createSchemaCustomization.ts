@@ -1,7 +1,7 @@
-import { Node, CreateSchemaCustomizationArgs } from 'gatsby';
-import { GatsbyGraphQLContext } from './graphql';
+import type { Node, CreateSchemaCustomizationArgs } from 'gatsby';
+import type { GatsbyGraphQLContext } from './graphql';
 import { createSlug, createArtistImage, createRelatedArtists } from './utils';
-import { Artist, Program, Tune, SpitzTune } from '../types';
+import type { Artist, Program, Tune, SpitzTune } from '../../types';
 
 export default async function createSchemaCustomization({ actions, schema }: CreateSchemaCustomizationArgs) {
   const { createTypes } = actions;

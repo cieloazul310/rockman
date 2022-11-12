@@ -6,7 +6,7 @@ import Skeleton from '@mui/material/Skeleton';
 import { AppLink, Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import Tune, { TuneSkeleton } from './Tune';
 import TextSpan from './TextSpan';
-import { ProgramBrowser, TuneFields } from '../../types';
+import type { ProgramBrowser, TuneFields } from '../../types';
 
 type TunesByProgramBareProps = {
   headerText: React.ReactNode;

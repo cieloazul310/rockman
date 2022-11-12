@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { graphql, navigate, PageProps } from 'gatsby';
+import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
@@ -8,6 +8,7 @@ import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import { ArtistPageHeader } from '../components/PageHeader';
 import { ArtistTonarinoTab } from '../components/TonarinoTab';
 import TunesByProgram from '../components/TunesByProgram';
@@ -16,7 +17,7 @@ import { AdInSectionDivider } from '../components/Ads';
 import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
 import { useArtistDescriptionString } from '../utils/useDescriptionString';
-import { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
+import type { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -39,7 +40,6 @@ type ArtistTemplateContext = {
 function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateContext>) {
   const { artist, previous, next } = data;
   const sortProgram = useSortProgram();
-  const description = useArtistDescriptionString(artist);
   const initialIndex = previous ? 1 : 0;
   const handleChangeIndex = (index: number) => {
     if (index === initialIndex) return;
@@ -69,7 +69,6 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
   return (
     <Layout
       title={artist.name}
-      description={description}
       drawerContents={
         <DrawerPageNavigation
           previous={
@@ -128,6 +127,12 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
 }
 
 export default ArtistTemplate;
+
+export function Head({ data }: HeadProps<ArtistTemplateData, ArtistTemplateContext>) {
+  const { artist } = data;
+  const description = useArtistDescriptionString(artist);
+  return <Seo title={`${artist.name}のオンエア楽曲一覧`} description={description} />;
+}
 
 export const query = graphql`
   query ArtistTemplate($slug: String!, $previous: String, $next: String) {

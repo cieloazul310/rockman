@@ -1,4 +1,4 @@
-import { ArtistListItem } from '../../types';
+import type { ArtistListItem } from '../../types';
 
 export function kanaToHira(str: string): string {
   return str.replace(/[\u30a1-\u30f6]/g, (match) => {

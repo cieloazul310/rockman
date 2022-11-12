@@ -5,7 +5,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import { ListItemAppLink } from '@cieloazul310/gatsby-theme-aoi';
 import NationAvatar from './NationAvatar';
-import { ArtistListItem } from '../../types';
+import type { ArtistListItem } from '../../types';
 
 function renderRow({ index, style, data }: ListChildComponentProps) {
   const { node }: { node: ArtistListItem } = data[index];

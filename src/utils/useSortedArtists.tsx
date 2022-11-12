@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { sortByYomi, sortByPrograms, sortByTunes } from './sortByYomi';
-import { ArtistListItem } from '../../types';
+import type { ArtistListItem } from '../../types';
 
 export default function useSortedArtists(artists: { node: ArtistListItem }[], sortType: 'abc' | 'programs' | 'tunes' = 'abc') {
   return React.useMemo(() => {

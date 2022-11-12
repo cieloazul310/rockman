@@ -64,7 +64,6 @@ function TabPageTemplate<T, S = null>({
   return (
     <Layout
       title={title}
-      description={description}
       tabs={
         <Tabs
           value={tab}
