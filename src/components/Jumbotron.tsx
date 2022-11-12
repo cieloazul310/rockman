@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
-import { Jumbotron as AoiJumbotron, JumbotronProps as AoiJumbotronProps } from '@cieloazul310/gatsby-theme-aoi';
+import { Jumbotron as AoiJumbotron, type JumbotronProps as AoiJumbotronProps } from '@cieloazul310/gatsby-theme-aoi';
 
 type JumbotronProps = Omit<AoiJumbotronProps, 'title' | 'disableGradient' | 'maxWidth'> & {
   headerText?: React.ReactNode;

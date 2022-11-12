@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Typography, { TypographyProps } from '@mui/material/Typography';
+import Typography, { type TypographyProps } from '@mui/material/Typography';
 
 type TextSpanProps = {
   label?: React.ReactNode | null;

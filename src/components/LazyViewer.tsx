@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
 import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
-import { ProgramBrowser, TuneFields } from '../../types';
+import type { ProgramBrowser, TuneFields } from '../../types';
 
 type DisplayOnScreenProps = {
   children: React.ReactNode;

@@ -1,1 +1,1 @@
-export { createSchemaCustomization, sourceNodes, onCreateNode, createResolvers, createPages } from './gatsby-node/index';
+export { createSchemaCustomization, sourceNodes, onCreateNode, createResolvers, createPages } from './gatsby/gatsby-node';

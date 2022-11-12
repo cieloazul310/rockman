@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { graphql, PageProps } from 'gatsby';
+import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -24,12 +24,13 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import FlagIcon from '@mui/icons-material/Flag';
 import { AutoSizer } from 'react-virtualized';
 import Layout from '../layout';
+import Seo from '../components/Seo';
 import ArtistList from '../components/ArtistList';
 import { AdInSectionDivider } from '../components/Ads';
 import { useAllNations } from '../utils/graphql-hooks';
 import useSortedArtists from '../utils/useSortedArtists';
 import { kanaToHira } from '../utils/sortByYomi';
-import { Artist, ArtistBrowser, ArtistListItem } from '../../types';
+import type { Artist, ArtistBrowser, ArtistListItem } from '../../types';
 
 type SortListProps = {
   handleSortType: (sortType: 'abc' | 'programs' | 'tunes') => () => void;
@@ -339,6 +340,10 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
 }
 
 export default ArtistsPage;
+
+export function Head() {
+  return <Seo title="オンエアアーティスト一覧" />;
+}
 
 export const query = graphql`
   query {

@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
-import { ProgramBrowser, SpitzAlbumBrowser, SpitzTune } from '../../types';
+import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune } from '../../types';
 
 type TakeOffAlbumProps = {
   album: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {

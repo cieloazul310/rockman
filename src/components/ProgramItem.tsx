@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import ListItemLink from './ListItemLink';
-import { ProgramList } from '../../types';
+import type { ProgramList } from '../../types';
 
 type ProgramItemProps = {
   program: ProgramList;
