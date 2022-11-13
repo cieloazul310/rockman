@@ -1,0 +1,109 @@
+id: "20220254"
+week: 254
+year: 2022
+title: ギブソンSG使いで漫遊記
+subtitle: ""
+guests: []
+categories: ["ギター"]
+date: 2022-11-13
+playlist:
+  - id: "2022025401"
+    week: 254
+    index: 2105
+    indexInWeek: 1
+    title: 不思議
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025402"
+    week: 254
+    index: 2106
+    indexInWeek: 2
+    title: Moneytalks
+    artist: AC/DC
+    year: 1990
+    nation: AUS
+    label: ATCO
+    youtube: 2lqdErI9uss
+    selector: 草野マサムネ
+  - id: "2022025403"
+    week: 254
+    index: 2107
+    indexInWeek: 3
+    title: Supernaut
+    artist: Black Sabbath
+    year: 1972
+    nation: UK
+    label: Vertigo
+    youtube: qEjmvrBebdc
+    selector: 草野マサムネ
+  - id: "2022025404"
+    week: 254
+    index: 2108
+    indexInWeek: 4
+    title: I Can't Explain (Live 1970 from "Live at Leeds")
+    artist: The Who
+    year: 1970
+    nation: UK
+    label: Decca
+    youtube: O7DlSJY9ZQU
+    selector: 草野マサムネ
+  - id: "2022025405"
+    week: 254
+    index: 2109
+    indexInWeek: 5
+    title: Sunshine of Your Love
+    artist: Cream
+    year: 1967
+    nation: UK
+    label: Reaction
+    youtube: C9k6aa4QvJ4
+    selector: 草野マサムネ
+  - id: "2022025406"
+    week: 254
+    index: 2110
+    indexInWeek: 6
+    title: Break On Through (To the Other Side)
+    artist: The Doors
+    year: 1967
+    nation: US
+    label: Elektra
+    youtube: YCohm_CilUY
+    selector: 草野マサムネ
+  - id: "2022025407"
+    week: 254
+    index: 2111
+    indexInWeek: 7
+    title: Peacock Suit
+    artist: Paul Weller
+    year: 1997
+    nation: UK
+    label: Go! Discs
+    youtube: qOYrioF-hB8
+    selector: 草野マサムネ
+  - id: "2022025408"
+    week: 254
+    index: 2112
+    indexInWeek: 8
+    title: Little of Your Love
+    artist: HAIM
+    year: 2017
+    nation: US
+    label: Columbia
+    youtube: 4NJYWgb6dQM
+    selector: 草野マサムネ
+  - id: "2022025409"
+    week: 254
+    index: 2113
+    indexInWeek: 9
+    title: GET CRAZY!
+    artist: プリンセス プリンセス
+    year: 1988
+    nation: JPN
+    label: CBS・ソニー
+    youtube: 3DAsd8AaUgM
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
