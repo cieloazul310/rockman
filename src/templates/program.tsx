@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
+import { type Swiper, Keyboard } from 'swiper';
+import { Swiper as SwiperContainer, SwiperSlide } from 'swiper/react';
 import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
@@ -15,8 +15,7 @@ import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
 import { useProgramDescriptionString } from '../utils/useDescriptionString';
 import type { ProgramBrowser, TuneBrowser } from '../../types';
-
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+import 'swiper/css';
 
 type ProgramTemplateData = {
   program: ProgramBrowser;
@@ -41,12 +40,12 @@ type ProgramTemplateContext = {
 function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplateContext>) {
   const { program, previous, next } = data;
   const initialIndex = previous ? 1 : 0;
-  const handleChangeIndex = (index: number) => {
-    if (index === initialIndex) return;
-    if (next && next.slug && index === initialIndex + 1) {
+  const onSlideChange = ({ activeIndex }: Swiper) => {
+    if (activeIndex === initialIndex) return;
+    if (next && next.slug && activeIndex === initialIndex + 1) {
       navigate(next.slug);
     }
-    if (previous && previous.slug && index === initialIndex - 1) {
+    if (previous && previous.slug && activeIndex === initialIndex - 1) {
       navigate(previous.slug);
     }
   };
@@ -57,8 +56,12 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       )
     : [];
   const tabs = [
-    previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
-    <React.Fragment key="main">
+    previous ? (
+      <SwiperSlide key={previous.title}>
+        <ProgramTonarinoTab item={previous} />
+      </SwiperSlide>
+    ) : null,
+    <SwiperSlide key="main">
       <ProgramPageHeader program={program} />
       <SectionDivider />
       <Section>
@@ -68,8 +71,12 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
           ))}
         </Article>
       </Section>
-    </React.Fragment>,
-    next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
+    </SwiperSlide>,
+    next ? (
+      <SwiperSlide key={next.title}>
+        <ProgramTonarinoTab item={next} />
+      </SwiperSlide>
+    ) : null,
   ].filter((element): element is JSX.Element => Boolean(element));
 
   return (
@@ -82,9 +89,17 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
         />
       }
     >
-      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+      <SwiperContainer
+        modules={[Keyboard]}
+        keyboard={{
+          enabled: true,
+        }}
+        initialSlide={initialIndex}
+        onSlideChange={onSlideChange}
+        simulateTouch={false}
+      >
         {tabs}
-      </BindKeyboardSwipeableViews>
+      </SwiperContainer>
       <AdInSectionDivider />
       <Section>
         <ArtistItemContainer title="登場アーティスト" artists={artists} />

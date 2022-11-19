@@ -3,8 +3,8 @@ import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
+import { type Swiper, Keyboard } from 'swiper';
+import { Swiper as SwiperContainer, SwiperSlide } from 'swiper/react';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
@@ -18,8 +18,7 @@ import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
 import { useArtistDescriptionString } from '../utils/useDescriptionString';
 import type { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
-
-const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
+import 'swiper/css';
 
 type ArtistTemplateData = {
   artist: Pick<ArtistBrowser, 'name' | 'kana' | 'nation'> & {
@@ -41,18 +40,22 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
   const { artist, previous, next } = data;
   const sortProgram = useSortProgram();
   const initialIndex = previous ? 1 : 0;
-  const handleChangeIndex = (index: number) => {
-    if (index === initialIndex) return;
-    if (next && index === initialIndex + 1) {
+  const onSlideChange = ({ activeIndex }: Swiper) => {
+    if (activeIndex === initialIndex) return;
+    if (next && activeIndex === initialIndex + 1) {
       navigate(next.slug);
     }
-    if (previous && index === initialIndex - 1) {
+    if (previous && activeIndex === initialIndex - 1) {
       navigate(previous.slug);
     }
   };
   const tabs = [
-    previous ? <ArtistTonarinoTab key={previous.slug} item={previous} /> : null,
-    <React.Fragment key="main">
+    previous ? (
+      <SwiperSlide key={previous.slug}>
+        <ArtistTonarinoTab item={previous} />
+      </SwiperSlide>
+    ) : null,
+    <SwiperSlide key="main">
       <ArtistPageHeader artist={artist} />
       <SectionDivider />
       {artist.program.programs.sort(sortProgram).map((program) => (
@@ -62,8 +65,12 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       <Section>
         <ArtistItemContainer title="同じ回で登場したアーティスト" artists={artist.program.relatedArtists} />
       </Section>
-    </React.Fragment>,
-    next ? <ArtistTonarinoTab key={next.slug} item={next} /> : null,
+    </SwiperSlide>,
+    next ? (
+      <SwiperSlide key={next.slug}>
+        <ArtistTonarinoTab item={next} />
+      </SwiperSlide>
+    ) : null,
   ].filter((element): element is JSX.Element => Boolean(element));
 
   return (
@@ -88,9 +95,17 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
         />
       }
     >
-      <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
+      <SwiperContainer
+        modules={[Keyboard]}
+        keyboard={{
+          enabled: true,
+        }}
+        initialSlide={initialIndex}
+        onSlideChange={onSlideChange}
+        simulateTouch={false}
+      >
         {tabs}
-      </BindKeyboardSwipeableViews>
+      </SwiperContainer>
       <SectionDivider />
       <Section>
         <PageNavigationContainer>
