@@ -1869,9 +1869,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-layout@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@cieloazul310/gatsby-theme-aoi-layout@npm:2.9.0"
+"@cieloazul310/gatsby-theme-aoi-layout@npm:^2.9.2":
+  version: 2.9.2
+  resolution: "@cieloazul310/gatsby-theme-aoi-layout@npm:2.9.2"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-components": ^2.7.0 || ^3.0.0 || ^3.0.0-alpha.6
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^2.7.0 || ^3.0.0 || ^3.0.0-alpha.6
@@ -1883,7 +1883,7 @@ __metadata:
     clsx: ^1.1.1
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 72d8ae130b3b288ceee5841699c5a916e16b9f595ef67c1c106aec389987686722967de17dfe0f75fa2638d4b65e9f3a72363d58c4196728569851651a6fa1ac
+  checksum: f82aa6f80417e19eb047b17b2ac9bde5ec90fb4a0a5b944b7ef4e2fe762a95342900fb7a66c3595f49772a0f6d8787d9ade1b2674dbba7f4b1e0b28598973fa3
   languageName: node
   linkType: hard
 
@@ -1900,9 +1900,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-utils@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "@cieloazul310/gatsby-theme-aoi-utils@npm:2.9.0"
+"@cieloazul310/gatsby-theme-aoi-utils@npm:^2.9.2":
+  version: 2.9.2
+  resolution: "@cieloazul310/gatsby-theme-aoi-utils@npm:2.9.2"
   dependencies:
     url-join: ^5.0.0
   peerDependencies:
@@ -1910,18 +1910,18 @@ __metadata:
     "@mui/system": ^5.0.0
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 3b329552f3a63751781e6a7fa880a13209acf207bded75db9d284983353341d4dfc7fd1e15e8dbd9efafd10c3e6f1aea10d5df89ab32a5fe38e55b5ccfff4e53
+  checksum: 5602d67d5a48a6233972307bbcd4b1ff35c79b8f50041659ba5da92c8b6a522be10402cc3c25c095349db6755851a77e5279ec6dfb5f0b8142446dd948b578cd
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi@npm:^2.9.1":
-  version: 2.9.1
-  resolution: "@cieloazul310/gatsby-theme-aoi@npm:2.9.1"
+"@cieloazul310/gatsby-theme-aoi@npm:^2.9.2":
+  version: 2.9.2
+  resolution: "@cieloazul310/gatsby-theme-aoi@npm:2.9.2"
   dependencies:
     "@cieloazul310/gatsby-theme-aoi-components": ^2.9.1
-    "@cieloazul310/gatsby-theme-aoi-layout": ^2.9.0
+    "@cieloazul310/gatsby-theme-aoi-layout": ^2.9.2
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^2.9.0
-    "@cieloazul310/gatsby-theme-aoi-utils": ^2.9.0
+    "@cieloazul310/gatsby-theme-aoi-utils": ^2.9.2
     gatsby-plugin-emotion: ^7.24.0
   peerDependencies:
     "@mui/icons-material": ^5.0.0
@@ -1929,7 +1929,7 @@ __metadata:
     gatsby: ^4.19.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 793df04bee504fc9bd58ffcef14821e1bbfe07095307819fbf6351921e710f3f0feb55cec68caed198a14fe4031e2cad54bb7f768964b06bc65830e2eaf821be
+  checksum: 7aa174903d5a711a6d39822780383141e5538662aa1df26dd52f7a5b5b5db8efd08fa7b564adddd35b7ea9f564cf3b9cbd365d16caf221a0a02e03697608363d
   languageName: node
   linkType: hard
 
@@ -7394,6 +7394,15 @@ __metadata:
     domhandler: ^4.2.0
     entities: ^2.0.0
   checksum: fbb0b01f87a8a2d18e6e5a388ad0f7ec4a5c05c06d219377da1abc7bb0f674d804f4a8a94e3f71ff15f6cb7dcfc75704a54b261db672b9b3ab03da6b758b0b22
+  languageName: node
+  linkType: hard
+
+"dom7@npm:^4.0.4":
+  version: 4.0.4
+  resolution: "dom7@npm:4.0.4"
+  dependencies:
+    ssr-window: ^4.0.0
+  checksum: b38604f74e915b4d05b6634f9ff239a708c468180f498a28ff67f2a61233697d9bd7192703b788a24541c3591e7f1a6e83a2cbf70bc871a85e033f82e19abc31
   languageName: node
   linkType: hard
 
@@ -15109,7 +15118,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.19.6
     "@babel/preset-typescript": ^7.18.6
-    "@cieloazul310/gatsby-theme-aoi": ^2.9.1
+    "@cieloazul310/gatsby-theme-aoi": ^2.9.2
     "@cieloazul310/gatsby-theme-aoi-blog-components": ^2.9.1
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
@@ -15166,6 +15175,7 @@ __metadata:
     react-test-renderer: ^18.2.0
     react-virtualized: ^9.22.3
     react-window: ^1.8.8
+    swiper: ^8.4.4
     typescript: ^4.8.4
     yaml: ^2.1.3
   languageName: unknown
@@ -15797,6 +15807,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ssr-window@npm:^4.0.0, ssr-window@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "ssr-window@npm:4.0.2"
+  checksum: df182600927f4f3225224cf8c02338ea637c9750519505bbfb9a9236741a2a7ec088386fb948bca7b447b8303d9109e7dc7672e3de041c79ac2a0e03665af7d2
+  languageName: node
+  linkType: hard
+
 "ssri@npm:^9.0.0":
   version: 9.0.0
   resolution: "ssri@npm:9.0.0"
@@ -16211,6 +16228,16 @@ __metadata:
   dependencies:
     tslib: ^2.0.3
   checksum: 6e21c9e1b3cd5735eb2af679a99ec3efc78a14e3d4d5e3fd594e254b91cfd37185b3d1c6e41b22f53a2cdf5d1b963ce30c0fe8b78337e3fd43d0137084670a5f
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^8.4.4":
+  version: 8.4.4
+  resolution: "swiper@npm:8.4.4"
+  dependencies:
+    dom7: ^4.0.4
+    ssr-window: ^4.0.2
+  checksum: 1b016e2be22573f764d00963c919dc3338a47e261bce3d5b50d6e2abb5e1760c606441739b789c96a777675457e85595d76d851a80c3d34417e0c78c9886cb93
   languageName: node
   linkType: hard
 

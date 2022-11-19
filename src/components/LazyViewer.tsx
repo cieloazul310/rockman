@@ -52,6 +52,7 @@ type LazyViewerProps = {
 
 function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: LazyViewerProps) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
+
   const renderItems = React.useMemo(() => {
     return dividedItems.map((dividedItem, index) =>
       index === 0 ? (

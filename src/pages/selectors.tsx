@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
 import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import type { Swiper } from 'swiper';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
@@ -21,17 +22,14 @@ type SelectorsPageQueryData = {
 
 function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, WindowState>) {
   const { allSelectors } = data;
-  const [updater, setUpdateHeight] = React.useState<null | (() => void)>(null);
-  const actionCallbacks = ({ updateHeight }: { updateHeight: () => void }) => {
-    setUpdateHeight(() => updateHeight);
-  };
+  const [swiper, setSwiper] = React.useState<Swiper | null>(null);
   const onSeem = React.useCallback(
     (inView: boolean) => {
-      if (inView && updater) {
-        updater();
+      if (inView) {
+        swiper?.updateAutoHeight();
       }
     },
-    [updater]
+    [swiper]
   );
 
   return (
@@ -43,7 +41,7 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
       getTabTitle={({ name, tunesCount }) => `${name} ${tunesCount}`}
       getCounterText={({ tunesCount, programsCount }) => `${tunesCount}曲/${programsCount}回`}
       stateFunction={(state) => state?.selector}
-      swipeableViewsActions={actionCallbacks}
+      parentSetSwiper={setSwiper}
     >
       {allSelectors.map(({ name, tunesCount, programsCount, programs }) => (
         <React.Fragment key={name}>
