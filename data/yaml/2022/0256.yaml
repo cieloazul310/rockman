@@ -1,0 +1,107 @@
+id: "20220256"
+week: 256
+year: 2022
+title: 70年代USパンクで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-11-27
+playlist:
+  - id: "2022025601"
+    week: 256
+    index: 2123
+    indexInWeek: 1
+    title: ローテク・ロマンティカ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025602"
+    week: 256
+    index: 2124
+    indexInWeek: 2
+    title: Blitzkrieg Bop
+    artist: Ramones
+    year: 1976
+    nation: US
+    label: Sire
+    youtube: 268C3N2dDYk
+    selector: 草野マサムネ
+  - id: "2022025603"
+    week: 256
+    index: 2125
+    indexInWeek: 3
+    title: Faster and Louder
+    artist: The Dictators
+    year: 1978
+    nation: US
+    label: Asylum
+    youtube: -q8Mb0cz258
+    selector: 草野マサムネ
+  - id: "2022025604"
+    week: 256
+    index: 2126
+    indexInWeek: 4
+    title: Because the Night
+    artist: Patti Smith Group
+    year: 1978
+    nation: US
+    label: Arista
+    youtube: c_BcivBprM0
+    selector: 草野マサムネ
+  - id: "2022025605"
+    week: 256
+    index: 2127
+    indexInWeek: 5
+    title: See No Evil
+    artist: Television
+    year: 1977
+    nation: US
+    label: Elektra
+    youtube: puIM6LkKLpI
+    selector: 草野マサムネ
+  - id: "2022025606"
+    week: 256
+    index: 2128
+    indexInWeek: 6
+    title: Blank Generation
+    artist: Richard Hell & the Voidoids
+    year: 1977
+    nation: US
+    label: Sire
+    youtube: v9FkQLjOSZ8
+    selector: 草野マサムネ
+  - id: "2022025607"
+    week: 256
+    index: 2129
+    indexInWeek: 7
+    title: Freakin Out
+    artist: Death
+    year: 2009
+    nation: US
+    label: Drag City
+    youtube: FcevVxpdPcY
+    selector: 草野マサムネ
+  - id: "2022025608"
+    week: 256
+    index: 2130
+    indexInWeek: 8
+    title: Fan Mail
+    artist: The Dickies
+    year: 1979
+    nation: US
+    label: A&M
+    selector: 草野マサムネ
+  - id: "2022025609"
+    week: 256
+    index: 2131
+    indexInWeek: 9
+    title: 燃える秋
+    artist: ハイ・ファイ・セット
+    year: 1978
+    nation: JPN
+    label: EXPRESS
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
