@@ -1,0 +1,109 @@
+id: "20220257"
+week: 257
+year: 2022
+title: いい感じの洋楽シンガーソングライターで漫遊記
+subtitle: ""
+guests: []
+categories: []
+date: 2022-12-04
+playlist:
+  - id: "2022025701"
+    week: 257
+    index: 2132
+    indexInWeek: 1
+    title: ムーンライト
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025702"
+    week: 257
+    index: 2133
+    indexInWeek: 2
+    title: Thunder Island
+    artist: Jay Ferguson
+    year: 1977
+    nation: US
+    label: Asylum
+    youtube: Ny8aOB9iP3A
+    selector: 草野マサムネ
+  - id: "2022025703"
+    week: 257
+    index: 2134
+    indexInWeek: 3
+    title: Baby I Love You
+    artist: Terry Reid
+    year: 1978
+    nation: UK
+    label: Capitol
+    youtube: oqTo1xL-Foc
+    selector: 草野マサムネ
+  - id: "2022025704"
+    week: 257
+    index: 2135
+    indexInWeek: 4
+    title: Trouble Again
+    artist: Karla Bonoff
+    year: 1979
+    nation: US
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2022025705"
+    week: 257
+    index: 2136
+    indexInWeek: 5
+    title: Lonely Boy
+    artist: Andrew Gold
+    year: 1977
+    nation: US
+    label: Asylum
+    youtube: iq2TxnlWunw
+    selector: 草野マサムネ
+  - id: "2022025706"
+    week: 257
+    index: 2137
+    indexInWeek: 6
+    title: My Soul
+    artist: Lesley Duncan
+    year: 1977
+    nation: UK
+    label: GM Records
+    youtube: iX1cckfLdaI
+    selector: 草野マサムネ
+  - id: "2022025707"
+    week: 257
+    index: 2138
+    indexInWeek: 7
+    title: Still Not Free
+    artist: Clifford T. Ward
+    year: 1983
+    nation: UK
+    label: Phillips
+    youtube: BKrjiRRYCc4
+    selector: 草野マサムネ
+  - id: "2022025708"
+    week: 257
+    index: 2139
+    indexInWeek: 8
+    title: Good As It Can Be
+    artist: Eric Kaz
+    year: 1974
+    nation: US
+    label: Atlantic
+    youtube: eOMysC21PTM
+    selector: 草野マサムネ
+  - id: "2022025709"
+    week: 257
+    index: 2140
+    indexInWeek: 9
+    title: そばにいたい
+    artist: 藤生ゆかり
+    kana: ふじうゆかり
+    year: 1996
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: A7HHHQWa5og
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
