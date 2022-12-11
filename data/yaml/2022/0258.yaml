@@ -1,0 +1,98 @@
+id: "20220258"
+week: 258
+year: 2022
+title: パット・ベネターで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-12-11
+playlist:
+  - id: "2022025801"
+    week: 258
+    index: 2141
+    indexInWeek: 1
+    title: テクテク
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: Z3_dPG7SQOU
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025802"
+    week: 258
+    index: 2142
+    indexInWeek: 2
+    title: Heartbreaker
+    artist: Pat Benatar
+    year: 1979
+    nation: US
+    label: Chrysalis
+    youtube: fd_7jIC9180
+    selector: 草野マサムネ
+  - id: "2022025803"
+    week: 258
+    index: 2143
+    indexInWeek: 3
+    title: Hit Me with Your Best Shot
+    artist: Pat Benatar
+    year: 1980
+    nation: US
+    label: Chrysalis
+    youtube: 0JRgHol94Xc
+    selector: 草野マサムネ
+  - id: "2022025804"
+    week: 258
+    index: 2144
+    indexInWeek: 4
+    title: Treat Me Right
+    artist: Pat Benatar
+    year: 1980
+    nation: US
+    label: Chrysalis
+    youtube: mjqbKmt0CTk
+    selector: 草野マサムネ
+  - id: "2022025805"
+    week: 258
+    index: 2145
+    indexInWeek: 5
+    title: Ooh Ooh Song
+    artist: Pat Benatar
+    year: 1984
+    nation: US
+    label: Chrysalis
+    youtube: y6Zv3x6lwG4
+    selector: 草野マサムネ
+  - id: "2022025806"
+    week: 258
+    index: 2146
+    indexInWeek: 6
+    title: Sex as a Weapon
+    artist: Pat Benatar
+    year: 1985
+    nation: US
+    label: Chrysalis
+    youtube: Icq0LlvtEy0
+    selector: 草野マサムネ
+  - id: "2022025807"
+    week: 258
+    index: 2147
+    indexInWeek: 7
+    title: Everybody Lay Down
+    artist: Pat Benatar
+    year: 1993
+    nation: US
+    label: Chrysalis
+    youtube: CmmqWVmUgWU
+    selector: 草野マサムネ
+  - id: "2022025808"
+    week: 258
+    index: 2148
+    indexInWeek: 8
+    title: La La Sunday
+    artist: SAYAKA
+    year: 2005
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
