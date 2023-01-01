@@ -9301,18 +9301,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-google-analytics@npm:^4.24.0":
-  version: 4.24.0
-  resolution: "gatsby-plugin-google-analytics@npm:4.24.0"
+"gatsby-plugin-google-gtag@npm:4.25.0":
+  version: 4.25.0
+  resolution: "gatsby-plugin-google-gtag@npm:4.25.0"
   dependencies:
     "@babel/runtime": ^7.15.4
-    minimatch: 3.0.4
-    web-vitals: ^1.1.2
+    minimatch: ^3.1.2
   peerDependencies:
     gatsby: ^4.0.0-next
     react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^0.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^0.0.0
-  checksum: 390fe9d54a2241d208953472f3e58f6e6273b71872104c1fc757dd2a37fa74c52e06876d8f5de0e6fd150d8cfecbf1f21ffd4ed559bfe1b295587ae626e2741d
+  checksum: 61801a1c576fbf6a4a8226658154330121366c182b34c5c7eb95fcaee7d49261ea77ff5d11ae0611614a3a5518f04bc29a6f7a93c1dcc0dd171041e0fe2b1c95
   languageName: node
   linkType: hard
 
@@ -15146,7 +15145,7 @@ __metadata:
     gatsby: ^4.24.6
     gatsby-plugin-canonical-urls: ^4.24.0
     gatsby-plugin-eslint: ^4.0.2
-    gatsby-plugin-google-analytics: ^4.24.0
+    gatsby-plugin-google-gtag: 4.25.0
     gatsby-plugin-manifest: ^4.24.0
     gatsby-plugin-sitemap: ^5.24.0
     gatsby-source-filesystem: ^4.24.0
@@ -16957,13 +16956,6 @@ __metadata:
   version: 1.2.2
   resolution: "weak-lru-cache@npm:1.2.2"
   checksum: 0fbe16839d193ed82ddb4fe331ca8cfaee2ecbd42596aa02366c708956cf41f7258f2d5411c3bc9aa099c26058dc47afbd2593d449718a18e4ef4d870c5ace18
-  languageName: node
-  linkType: hard
-
-"web-vitals@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "web-vitals@npm:1.1.2"
-  checksum: 92071029089277166e11141b735831d9011e85737d32c1360034676db898ab0ca95f19041ee01904f2189ad6e711b9da6b17567e4831290a429a586c98bc573f
   languageName: node
   linkType: hard
 
