@@ -1,0 +1,103 @@
+id: "20220255"
+week: 255
+year: 2022
+title: アンジーで漫遊記
+subtitle: ""
+guests: []
+categories: ["アーティスト特集"]
+date: 2022-11-20
+playlist:
+  - id: "2022025501"
+    week: 255
+    index: 2114
+    indexInWeek: 1
+    title: 魔法のコトバ
+    artist: スピッツ
+    year: 2006
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    youtube: gPTFyx2R46w
+    selector: 草野マサムネ
+  - id: "2022025502"
+    week: 255
+    index: 2115
+    indexInWeek: 2
+    title: 腹々時計
+    artist: アンジー
+    year: 1986
+    nation: JPN
+    label: Juke Records
+    selector: 草野マサムネ
+  - id: "2022025503"
+    week: 255
+    index: 2116
+    indexInWeek: 3
+    title: 幸運〈ラッキー〉
+    artist: アンジー
+    year: 1986
+    nation: JPN
+    label: Juke Records
+    selector: 草野マサムネ
+  - id: "2022025504"
+    week: 255
+    index: 2117
+    indexInWeek: 4
+    title: ミミズ
+    artist: アンジー
+    year: 1986
+    nation: JPN
+    label: Juke Records
+    selector: 草野マサムネ
+  - id: "2022025505"
+    week: 255
+    index: 2118
+    indexInWeek: 5
+    title: おやすみ
+    artist: アンジー
+    year: 1988
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+  - id: "2022025506"
+    week: 255
+    index: 2119
+    indexInWeek: 6
+    title: 掃き溜めの街で歌い始めたチンピラ達の新しいメルヘン
+    artist: アンジー
+    year: 1988
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+  - id: "2022025507"
+    week: 255
+    index: 2120
+    indexInWeek: 7
+    title: マグマの人よ
+    artist: アンジー
+    year: 1990
+    nation: JPN
+    label: メルダック
+    selector: 草野マサムネ
+  - id: "2022025508"
+    week: 255
+    index: 2121
+    indexInWeek: 8
+    title: 庄屋の倉
+    artist: アンジー
+    year: 1986
+    nation: JPN
+    label: Juke Records
+    selector: 草野マサムネ
+  - id: "2022025509"
+    week: 255
+    index: 2122
+    indexInWeek: 9
+    title: 交差点に立つ
+    artist: 少年B
+    kana: しょうねんびー
+    year: 1987
+    nation: JPN
+    label: King's World Records
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

@@ -1,0 +1,100 @@
+id: "20220259"
+week: 259
+year: 2022
+title: 2022年・漫遊から漏れた曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["漏れた曲"]
+date: 2022-12-18
+playlist:
+  - id: "2022025901"
+    week: 259
+    index: 2149
+    indexInWeek: 1
+    title: スピカ
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    youtube: skTm1_kwR8w
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022025902"
+    week: 259
+    index: 2150
+    indexInWeek: 2
+    title: きどったあの娘
+    artist: ザ・テンプターズ
+    year: 1969
+    nation: JPN
+    label: フィリップスレコード
+    youtube: 0Ia7hcjKyKA
+    selector: 草野マサムネ
+  - id: "2022025903"
+    week: 259
+    index: 2151
+    indexInWeek: 3
+    title: Traffic Jam
+    artist: Sailor
+    year: 1974
+    nation: UK
+    label: Epic
+    youtube: JbGEHA_eS90
+    selector: 草野マサムネ
+  - id: "2022025904"
+    week: 259
+    index: 2152
+    indexInWeek: 4
+    title: Fantasy
+    artist: NELL
+    year: 2014
+    nation: KOR
+    label: Woollim Entertainment
+    youtube: UB8AcfWrz9E
+    selector: 草野マサムネ
+  - id: "2022025905"
+    week: 259
+    index: 2153
+    indexInWeek: 5
+    title: SHINE ON MY WAY
+    artist: ベッド・イン
+    year: 2022
+    nation: JPN
+    label: SWEET SPOT
+    youtube: pKxeXfL5Skw
+    selector: 草野マサムネ
+  - id: "2022025906"
+    week: 259
+    index: 2154
+    indexInWeek: 6
+    title: Routine
+    artist: The Byron Band
+    year: 1981
+    nation: UK
+    label: Creole Records
+    youtube: mp2P7ValrBs
+    selector: 草野マサムネ
+  - id: "2022025907"
+    week: 259
+    index: 2155
+    indexInWeek: 7
+    title: Mickey
+    artist: Toni Basil
+    year: 1982
+    nation: US
+    label: Chrysalis
+    youtube: 0aqLwHP4y6Q
+    selector: 草野マサムネ
+  - id: "2022025908"
+    week: 259
+    index: 2156
+    indexInWeek: 8
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

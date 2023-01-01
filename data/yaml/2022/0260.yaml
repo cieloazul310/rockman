@@ -1,0 +1,98 @@
+id: "20220260"
+week: 260
+year: 2022
+title: 2022年・気になった曲で漫遊記
+subtitle: ""
+guests: []
+categories: ["今年気になった曲"]
+date: 2022-12-25
+playlist:
+  - id: "2022026001"
+    week: 260
+    index: 2157
+    indexInWeek: 1
+    title: サンシャイン
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2022026002"
+    week: 260
+    index: 2158
+    indexInWeek: 2
+    title: 30/90 (feat.  Vanessa Hudgens & Joshua Henry)
+    artist: Andrew Garfield
+    year: 2021
+    nation: US
+    label: Maisie Music Publishing, LLC
+    youtube: eh6-ZfWdnLQ
+    selector: 草野マサムネ
+  - id: "2022026003"
+    week: 260
+    index: 2159
+    indexInWeek: 3
+    title: 熱海
+    artist: Kroi
+    year: 2022
+    nation: JPN
+    label: IRORI Records
+    youtube: ZBTgZ2lwRD8
+    selector: 草野マサムネ
+  - id: "2022026004"
+    week: 260
+    index: 2160
+    indexInWeek: 4
+    title: Oh!
+    artist: The Linda Lindas
+    year: 2022
+    nation: US
+    label: Epitaph
+    youtube: wF-1IIs9_5U
+    selector: 草野マサムネ
+  - id: "2022026005"
+    week: 260
+    index: 2161
+    indexInWeek: 5
+    title: Give It Hell
+    artist: Yumi Zouma
+    year: 2022
+    nation: NZ
+    label: Polyvinyl
+    youtube: QFhZodS9-oo
+    selector: 草野マサムネ
+  - id: "2022026006"
+    week: 260
+    index: 2162
+    indexInWeek: 6
+    title: Be Unbarred, O Ye Gates of Hell
+    artist: Deerhoof
+    year: 2021
+    nation: US
+    label: Joyful Noise Recordings
+    youtube: 9d3T_A5jD0c
+    selector: 草野マサムネ
+  - id: "2022026007"
+    week: 260
+    index: 2163
+    indexInWeek: 7
+    title: yet
+    artist: Ryu Matsuyama
+    year: 2022
+    nation: JPN
+    label: VAP
+    youtube: Kwg4J9FciWg
+    selector: 草野マサムネ
+  - id: "2022026008"
+    week: 260
+    index: 2164
+    indexInWeek: 8
+    title: 賣物ブギ
+    artist: ダウン・タウン・ブギウギ・バンド
+    year: 1975
+    nation: JPN
+    label: Express
+    youtube: Y3kjZEOnbaE
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
