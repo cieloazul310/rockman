@@ -1,0 +1,99 @@
+id: "20230262"
+week: 262
+year: 2023
+title: 新春恒例・スピッツメンバーと漫遊記・三輪テツヤ編
+subtitle: 卯年で漫遊記
+guests: ["三輪テツヤ"]
+categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
+date: 2023-01-08
+playlist:
+  - id: "2023026201"
+    week: 262
+    index: 2173
+    indexInWeek: 1
+    title: 歌ウサギ
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    youtube: 7KKn4C9786k
+    corner: 漫遊前の一曲
+    selector: 三輪テツヤ
+  - id: "2023026202"
+    week: 262
+    index: 2174
+    indexInWeek: 2
+    title: White Rabbit
+    artist: Jefferson Airplane
+    year: 1967
+    nation: US
+    label: RCA Victor
+    youtube: TKZVUtvjBdM
+    selector: 三輪テツヤ
+  - id: "2023026203"
+    week: 262
+    index: 2175
+    indexInWeek: 3
+    title: ギターウサギ
+    artist: 菅田将暉
+    kana: すだまさき
+    year: 2021
+    nation: JPN
+    label: エピックレコードジャパン
+    youtube: DSzwD4KWsXg
+    selector: 三輪テツヤ
+  - id: "2023026204"
+    week: 262
+    index: 2176
+    indexInWeek: 4
+    title: ピーターラビットとわたし
+    artist: 大貫妙子
+    kana: おおぬきたえこ
+    year: 1982
+    nation: JPN
+    label: RCA/RVC
+    selector: 三輪テツヤ
+  - id: "2023026205"
+    week: 262
+    index: 2177
+    indexInWeek: 5
+    title: ダスト・バニー・ライド・オン
+    artist: thee michelle gun elephant
+    year: 2000
+    nation: JPN
+    label: TRIAD
+    youtube: Wmj_UqIkiEs
+    selector: 三輪テツヤ
+  - id: "2023026206"
+    week: 262
+    index: 2178
+    indexInWeek: 6
+    title: うさぎ
+    artist: 16TONS
+    year: 1990
+    nation: JPN
+    label: E.R.C.
+    selector: 三輪テツヤ
+  - id: "2023026207"
+    week: 262
+    index: 2179
+    indexInWeek: 7
+    title: 路地裏のうさぎ
+    artist: ASIAN KUNG-FU GENERATION
+    year: 2006
+    nation: JPN
+    label: Ki/oon Records
+    selector: 三輪テツヤ
+  - id: "2023026208"
+    week: 262
+    index: 2180
+    indexInWeek: 8
+    title: 碧いうさぎ
+    artist: 酒井法子
+    kana: さかいのりこ
+    year: 1995
+    nation: JPN
+    label: ビクターエンタテインメント
+    youtube: LH3op7GECSk
+    corner: ちょっぴりタイムマシン
+    selector: 三輪テツヤ
