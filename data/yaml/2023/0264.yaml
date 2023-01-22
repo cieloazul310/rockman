@@ -1,9 +1,9 @@
 id: "20230264"
 week: 264
 year: 2023
-title: 新春恒例・スピッツメンバーと漫遊記・田村昭浩編
+title: 新春恒例・スピッツメンバーと漫遊記・田村明浩編
 subtitle: リッケンバッカーベースで漫遊記
-guests: ["田村昭浩"]
+guests: ["田村明浩"]
 categories: ["スピッツメンバーと漫遊記", "ゲスト回"]
 date: 2023-01-15
 playlist:
@@ -18,7 +18,7 @@ playlist:
     label: ポリドール
     youtube: gV-F23mqKhU
     corner: 漫遊前の一曲
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026402"
     week: 264
     index: 2190
@@ -29,7 +29,7 @@ playlist:
     nation: UK
     label: Apple
     youtube: cK5G8fPmWeA
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026403"
     week: 264
     index: 2191
@@ -40,7 +40,7 @@ playlist:
     nation: UK
     label: Atlantic
     youtube: mhGXySiqT7Q
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026404"
     week: 264
     index: 2192
@@ -51,7 +51,7 @@ playlist:
     nation: UK
     label: Polydor
     youtube: AE1ct5yEuVY
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026405"
     week: 264
     index: 2193
@@ -62,7 +62,7 @@ playlist:
     nation: CAN
     label: Mercury
     youtube: 6QsXhH93QAs
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026406"
     week: 264
     index: 2194
@@ -73,7 +73,7 @@ playlist:
     nation: UK
     label: Bronze
     youtube: bgigLRewMsc
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026407"
     week: 264
     index: 2195
@@ -84,7 +84,7 @@ playlist:
     nation: UK
     label: Silvertone
     youtube: wD6Pq0bSMPo
-    selector: 田村昭浩
+    selector: 田村明浩
   - id: "2023026408"
     week: 264
     index: 2196
@@ -96,4 +96,4 @@ playlist:
     label: ビクターエンタテインメント
     youtube: g_rziJ12M6I
     corner: ちょっぴりタイムマシン
-    selector: 田村昭浩
+    selector: 田村明浩
