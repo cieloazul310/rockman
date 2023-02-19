@@ -1,0 +1,91 @@
+id: "20230268"
+week: 268
+year: 2023
+title: JUDY AND MARYで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-02-19
+playlist:
+  - id: "2023026801"
+    week: 268
+    index: 2222
+    indexInWeek: 1
+    title: 雪風 <Single Version>
+    artist: スピッツ
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    youtube: KqJBpisB7lE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023026802"
+    week: 268
+    index: 2223
+    indexInWeek: 2
+    title: DAYDREAM
+    artist: JUDY AND MARY
+    year: 1994
+    nation: JPN
+    label: Epic Sony Records
+    selector: 草野マサムネ
+  - id: "2023026803"
+    week: 268
+    index: 2224
+    indexInWeek: 3
+    title: RADIO
+    artist: JUDY AND MARY
+    year: 1994
+    nation: JPN
+    label: Epic Records
+    selector: 草野マサムネ
+  - id: "2023026804"
+    week: 268
+    index: 2225
+    indexInWeek: 4
+    title: 自転車
+    artist: JUDY AND MARY
+    year: 1995
+    nation: JPN
+    label: Epic Records
+    selector: 草野マサムネ
+  - id: "2023026805"
+    week: 268
+    index: 2226
+    indexInWeek: 5
+    title: Over Drive
+    artist: JUDY AND MARY
+    year: 1995
+    nation: JPN
+    label: Epic Records
+    selector: 草野マサムネ
+  - id: "2023026806"
+    week: 268
+    index: 2227
+    indexInWeek: 6
+    title: KYOTO
+    artist: JUDY AND MARY
+    year: 1995
+    nation: JPN
+    label: Epic Sony Records
+    selector: 草野マサムネ
+  - id: "2023026807"
+    week: 268
+    index: 2228
+    indexInWeek: 7
+    title: ミュージック ファイター
+    artist: JUDY AND MARY
+    year: 1998
+    nation: JPN
+    label: Epic Records
+    selector: 草野マサムネ
+  - id: "2023026808"
+    week: 268
+    index: 2229
+    indexInWeek: 8
+    title: 始まる、もしくは そこで終わる
+    artist: b-flower
+    year: 1993
+    nation: JPN
+    label: Suite¡ Supuesto!
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
