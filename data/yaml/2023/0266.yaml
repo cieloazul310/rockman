@@ -1,0 +1,98 @@
+id: "20230266"
+week: 266
+year: 2023
+title: スタジオ・ボイス1993年11月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2023-02-05
+playlist:
+  - id: "2023026601"
+    week: 266
+    index: 2205
+    indexInWeek: 1
+    title: 夢じゃない
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    youtube: DIWRNAR-Od0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023026602"
+    week: 266
+    index: 2206
+    indexInWeek: 2
+    title: Human Behaviour
+    artist: Björk
+    year: 1993
+    nation: ISL
+    label: One Little Indian
+    youtube: p0mRIhK9seg
+    selector: 草野マサムネ
+  - id: "2023026603"
+    week: 266
+    index: 2207
+    indexInWeek: 3
+    title: Louie Louie
+    artist: Iggy Pop
+    year: 1993
+    nation: US
+    label: Virgin
+    youtube: 2PAwKy2L9Mk
+    selector: 草野マサムネ
+  - id: "2023026604"
+    week: 266
+    index: 2208
+    indexInWeek: 4
+    title: Lamban
+    artist: Ami Koïta
+    year: 1993
+    nation: MLI
+    label: Stern's Africa
+    youtube: a7UvZ772LzQ
+    selector: 草野マサムネ
+  - id: "2023026605"
+    week: 266
+    index: 2209
+    indexInWeek: 5
+    title: Cath Carroll
+    artist: Unrest
+    year: 1993
+    nation: US
+    label: 4AD
+    youtube: ZOSZwjrDpIk
+    selector: 草野マサムネ
+  - id: "2023026606"
+    week: 266
+    index: 2210
+    indexInWeek: 6
+    title: Maria Lisboa
+    artist: Amália Rodrigues
+    year: 1970
+    nation: PRT
+    label: EMI
+    youtube: vuv0ZR6j4xY
+    selector: 草野マサムネ
+  - id: "2023026607"
+    week: 266
+    index: 2211
+    indexInWeek: 7
+    title: Chains
+    artist: His Boy Elroy
+    year: 1993
+    nation: US
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2023026608"
+    week: 266
+    index: 2212
+    indexInWeek: 8
+    title: Lovin' You
+    artist: 横山輝一
+    kana: よこやまきいち
+    year: 1993
+    nation: JPN
+    label: ポリスター
+    youtube: rU6Ubb9sh5g
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

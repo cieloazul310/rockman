@@ -1,0 +1,97 @@
+id: "20230265"
+week: 265
+year: 2023
+title: ロッドエバンスで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-01-29
+playlist:
+  - id: "2023026501"
+    week: 265
+    index: 2197
+    indexInWeek: 1
+    title: スターゲイザー
+    artist: スピッツ
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    youtube: SC6fWmtzGf0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023026502"
+    week: 265
+    index: 2198
+    indexInWeek: 2
+    title: Only Time Will Tell
+    artist: M.I. Five
+    year: 1966
+    nation: UK
+    label: Parlophone
+    selector: 草野マサムネ
+  - id: "2023026503"
+    week: 265
+    index: 2199
+    indexInWeek: 3
+    title: Hush
+    artist: Deep Purple
+    year: 1968
+    nation: UK
+    label: Parlophone
+    youtube: _4QBhC1uCP4
+    selector: 草野マサムネ
+  - id: "2023026504"
+    week: 265
+    index: 2200
+    indexInWeek: 4
+    title: Listen, Learn, Read On
+    artist: Deep Purple
+    year: 1968
+    nation: UK
+    label: Harvest
+    youtube: uWFUQCs0vrA
+    selector: 草野マサムネ
+  - id: "2023026505"
+    week: 265
+    index: 2201
+    indexInWeek: 5
+    title: Anthem
+    artist: Deep Purple
+    year: 1968
+    nation: UK
+    label: Harvest
+    youtube: bRLhpn4TLvo
+    selector: 草野マサムネ
+  - id: "2023026506"
+    week: 265
+    index: 2202
+    indexInWeek: 6
+    title: Raging River of Fear
+    artist: Captain Beyond
+    year: 1972
+    nation: UK
+    label: Capricorn
+    selector: 草野マサムネ
+  - id: "2023026507"
+    week: 265
+    index: 2203
+    indexInWeek: 7
+    title: Drifting in Space
+    artist: Captain Beyond
+    year: 1973
+    nation: UK
+    label: Capricorn
+    youtube: VCHtnBup-iA
+    selector: 草野マサムネ
+  - id: "2023026508"
+    week: 265
+    index: 2204
+    indexInWeek: 8
+    title: どっかいっちゃった
+    artist: 東京少年
+    kana: とうきょうしょうねん
+    year: 1989
+    nation: JPN
+    label: Invitation
+    youtube: fv8ajVbzmtY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
