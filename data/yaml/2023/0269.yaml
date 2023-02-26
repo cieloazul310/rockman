@@ -1,0 +1,98 @@
+id: "20230269"
+week: 269
+year: 2023
+title: 虫のロックバンドで漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2023-02-26
+playlist:
+  - id: "2023026901"
+    week: 269
+    index: 2230
+    indexInWeek: 1
+    title: 花と虫
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023026902"
+    week: 269
+    index: 2231
+    indexInWeek: 2
+    title: Lucy in the Sky with Diamonds
+    artist: The Beatles
+    year: 1967
+    nation: UK
+    label: Parlophone
+    youtube: naoknj1ebqI
+    selector: 草野マサムネ
+  - id: "2023026903"
+    week: 269
+    index: 2232
+    indexInWeek: 3
+    title: デスコ
+    artist: 女王蜂
+    kana: じょおうばち
+    year: 2011
+    nation: JPN
+    label: Sony Music Associated Records
+    youtube: VRH6qX26y_4
+    selector: 草野マサムネ
+  - id: "2023026904"
+    week: 269
+    index: 2233
+    indexInWeek: 4
+    title: Cheated
+    artist: Praying Mantis
+    year: 1981
+    nation: UK
+    label: Arista
+    youtube: vE8rSItxJ9k
+    selector: 草野マサムネ
+  - id: "2023026905"
+    week: 269
+    index: 2234
+    indexInWeek: 5
+    title: Soul Experience
+    artist: Iron Butterfly
+    year: 1969
+    nation: US
+    label: Atco
+    youtube: TKvoMiuLxgU
+    selector: 草野マサムネ
+  - id: "2023026906"
+    week: 269
+    index: 2235
+    indexInWeek: 6
+    title: Red Eyes
+    artist: Spiders From Mars
+    year: 1976
+    nation: UK
+    label: Pye Records
+    youtube: UbwuPCD2cMw
+    selector: 草野マサムネ
+  - id: "2023026907"
+    week: 269
+    index: 2236
+    indexInWeek: 7
+    title: シルエット
+    artist: KANA-BOON
+    year: 2014
+    nation: JPN
+    label: Ki/oon Music
+    youtube: ZFoJYI7Q4iA
+    selector: 草野マサムネ
+  - id: "2023026908"
+    week: 269
+    index: 2237
+    indexInWeek: 8
+    title: 冬越え間近
+    artist: とんぼ
+    year: 1978
+    nation: JPN
+    label: キャニオン
+    youtube: vJmoouCVr8U
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
