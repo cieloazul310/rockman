@@ -1,0 +1,95 @@
+id: "20230270"
+week: 270
+year: 2023
+title: スライドギターのロックナンバーで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2023-03-05
+playlist:
+  - id: "2023027001"
+    week: 270
+    index: 2238
+    indexInWeek: 1
+    title: ハヤテ
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027002"
+    week: 270
+    index: 2239
+    indexInWeek: 2
+    title: Tears in My Eyes
+    artist: Uriah Heep
+    year: 1971
+    nation: UK
+    label: Bronze and Island
+    youtube: of4mIK-xVIw
+    selector: 草野マサムネ
+  - id: "2023027003"
+    week: 270
+    index: 2240
+    indexInWeek: 3
+    title: El Becko
+    artist: Jeff Beck
+    year: 1980
+    nation: UK
+    label: Epic
+    selector: 草野マサムネ
+  - id: "2023027004"
+    week: 270
+    index: 2241
+    indexInWeek: 4
+    title: My Sweet Lord
+    artist: George Harrison
+    year: 1970
+    nation: UK
+    label: Apple
+    youtube: SP9wms6oEMo
+    selector: 草野マサムネ
+  - id: "2023027005"
+    week: 270
+    index: 2242
+    indexInWeek: 5
+    title: Bad Bad Boy
+    artist: Nazareth
+    year: 1973
+    nation: UK
+    label: Mooncrest
+    youtube: XDEWlYbRUvE
+    selector: 草野マサムネ
+  - id: "2023027006"
+    week: 270
+    index: 2243
+    indexInWeek: 6
+    title: Kickin' My Heart Around
+    artist: The Black Crowes
+    year: 1999
+    nation: US
+    label: Columbia
+    youtube: aGtZ9AxDWHE
+    selector: 草野マサムネ
+  - id: "2023027007"
+    week: 270
+    index: 2244
+    indexInWeek: 7
+    title: The Dark End of the Street
+    artist: Ry Cooder
+    year: 1972
+    nation: US
+    label: Reprise
+    youtube: pOpYmPO-vVA
+    selector: 草野マサムネ
+  - id: "2023027008"
+    week: 270
+    index: 2245
+    indexInWeek: 8
+    title: 冬の稲妻
+    artist: アリス
+    year: 1977
+    nation: JPN
+    label: EXPRESS
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
