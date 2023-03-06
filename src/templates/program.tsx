@@ -77,8 +77,8 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       title={program.title}
       drawerContents={
         <DrawerPageNavigation
-          previous={previous ? { to: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
-          next={next ? { to: next.slug, title: next.title, secondaryText: `第${next.week}回` } : undefined}
+          left={previous ? { href: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
+          right={next ? { href: next.slug, title: next.title, secondaryText: `第${next.week}回` } : undefined}
         />
       }
     >
@@ -92,13 +92,13 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       <SectionDivider />
       <Section>
         <PageNavigationContainer>
-          <PageNavigationItem to={previous?.slug ?? '#'} disabled={!previous}>
+          <PageNavigationItem href={previous?.slug ?? '#'} disabled={!previous}>
             <Typography variant="body2">{previous?.title}</Typography>
             <Typography variant="body2" color="text.secondary">
               {previous?.date}
             </Typography>
           </PageNavigationItem>
-          <PageNavigationItem to={next?.slug ?? '#'} next disabled={!next}>
+          <PageNavigationItem href={next?.slug ?? '#'} right disabled={!next}>
             <Typography variant="body2">{next?.title}</Typography>
             <Typography variant="body2" color="text.secondary">
               {next?.date}

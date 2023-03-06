@@ -55,7 +55,7 @@ function TunesByProgram({ program }: TunesByProgramProps) {
           <TextSpan label={date} />
         </>
       }
-      title={<AppLink to={slug}>{title}</AppLink>}
+      title={<AppLink href={slug}>{title}</AppLink>}
       footerText={subtitle}
     >
       {playlist.map((tune) => (
@@ -84,7 +84,7 @@ export function ProgramByTune({ tune }: ProgramByTuneProps) {
               <TextSpan label={tune.program.date} />
             </Typography>
             <Typography fontWeight="bold">
-              <AppLink to={tune.program.slug}>{tune.program.title}</AppLink>
+              <AppLink href={tune.program.slug}>{tune.program.title}</AppLink>
             </Typography>
             {tune.program.subtitle ? <Typography variant="body2">{tune.program.subtitle}</Typography> : null}
           </Box>

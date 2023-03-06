@@ -1,4 +1,4 @@
-import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 
 import { teal, orange } from '@mui/material/colors';
 
@@ -22,4 +22,4 @@ theme.typography.body2 = {
   },
 };
 
-export default responsiveFontSizes(theme);
+export default theme;

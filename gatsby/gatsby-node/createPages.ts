@@ -18,8 +18,8 @@ type CreatePagesQueryData = {
 export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
   const { createPage } = actions;
   const result = await graphql<CreatePagesQueryData>(`
-    query {
-      allProgram(sort: { fields: week, order: ASC }) {
+    {
+      allProgram(sort: { week: ASC }) {
         edges {
           node {
             week
@@ -29,7 +29,7 @@ export default async function createPages({ graphql, actions, reporter }: Create
           }
         }
       }
-      allArtist(sort: { fields: sortName, order: ASC }) {
+      allArtist(sort: { sortName: ASC }) {
         edges {
           node {
             name

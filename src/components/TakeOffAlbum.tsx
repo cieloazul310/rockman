@@ -30,7 +30,7 @@ function TakeOffAlbum({ album }: TakeOffAlbumProps) {
                   <TextSpan label={program.date} />
                 </Typography>
                 <Typography variant="body2" fontWeight="bold">
-                  <AppLink to={program.slug}>{program.title}</AppLink>
+                  <AppLink href={program.slug}>{program.title}</AppLink>
                 </Typography>
               </Box>
             ))}

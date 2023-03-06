@@ -92,7 +92,7 @@ export function ProgramPageHeader({
           <TextSpan
             key={category}
             label={
-              <AppLink to="/categories/" state={{ category }}>
+              <AppLink href="/categories/" state={{ category }}>
                 {category}
               </AppLink>
             }

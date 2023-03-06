@@ -43,9 +43,9 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allProgram(sort: { fields: week, order: ASC }) {
-      group(field: year) {
+  {
+    allProgram(sort: { week: ASC }) {
+      group(field: { year: SELECT }) {
         fieldValue
         totalCount
         edges {

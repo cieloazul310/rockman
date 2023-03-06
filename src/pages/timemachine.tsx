@@ -27,7 +27,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
   const sorter = useSorter();
 
   return (
-    <TabPageTemplate<typeof items[number]>
+    <TabPageTemplate<(typeof items)[number]>
       title="ちょっぴりタイムマシン"
       description="ちょっぴりタイムマシンは、放送の最後にオンエアされる「最近ラジオでかかってない少し前の日本の楽曲を掘り起こそう」というコーナーです。ちょっぴりタイムマシンで放送された楽曲を年代別に分類したページです。"
       items={items}

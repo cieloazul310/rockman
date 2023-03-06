@@ -13,7 +13,7 @@ type UseProgramTop25QueryData = {
 export default function useProgramTop25() {
   const { allArtist } = useStaticQuery<UseProgramTop25QueryData>(graphql`
     query ProgramCount {
-      allArtist(sort: { fields: [program___programsCount, program___tunesCount, sortName], order: [DESC, DESC, ASC] }, limit: 25) {
+      allArtist(sort: [{ program: { programsCount: DESC } }, { program: { tunesCount: DESC } }, { sortName: ASC }], limit: 25) {
         edges {
           node {
             ...minimumArtist

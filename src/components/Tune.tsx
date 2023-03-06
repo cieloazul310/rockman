@@ -2,8 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
+import MuiLink from '@mui/material/Link';
 import Skeleton from '@mui/material/Skeleton';
-import { AppLink, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import PlayCircleIcon from '@mui/icons-material/PlayCircleOutline';
 import TextSpan from './TextSpan';
 import NationLabel from './NationLabel';
@@ -21,7 +22,7 @@ function YouTubeLink({ href, title, children }: YouTubeLinkProps) {
   const isMobile = useIsMobile();
   const linkTitle = title ? `YouTubeで${title}を再生する` : `YouTubeで再生する`;
   return (
-    <ExternalLink href={href} sx={{ position: 'relative' }} title={linkTitle}>
+    <MuiLink href={href} sx={{ position: 'relative' }} title={linkTitle} target="_blank" rel="noopener noreferrer">
       {children}
       <Box
         sx={{
@@ -44,7 +45,7 @@ function YouTubeLink({ href, title, children }: YouTubeLinkProps) {
       >
         <PlayCircleIcon fontSize="inherit" color="inherit" />
       </Box>
-    </ExternalLink>
+    </MuiLink>
   );
 }
 
@@ -139,7 +140,7 @@ function Tune({ tune }: TuneProps) {
           <TextSpan
             label={
               artist.name !== 'スピッツ' ? (
-                <AppLink to={artist.slug} color="inherit">
+                <AppLink href={artist.slug} color="inherit">
                   {artist.name}
                 </AppLink>
               ) : (

@@ -71,18 +71,18 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       title={artist.name}
       drawerContents={
         <DrawerPageNavigation
-          previous={
+          left={
             previous
               ? {
-                  to: previous.slug,
+                  href: previous.slug,
                   title: previous.name,
                   secondaryText: `${previous.program.tunesCount}曲/${previous.program.programsCount}回`,
                 }
               : undefined
           }
-          next={
+          right={
             next
-              ? { to: next.slug, title: next.name, secondaryText: `${next.program.tunesCount}曲/${next.program.tunesCount}回` }
+              ? { href: next.slug, title: next.name, secondaryText: `${next.program.tunesCount}曲/${next.program.tunesCount}回` }
               : undefined
           }
         />
@@ -94,7 +94,7 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       <SectionDivider />
       <Section>
         <PageNavigationContainer>
-          <PageNavigationItem to={previous?.slug ?? '#'} disabled={!previous}>
+          <PageNavigationItem href={previous?.slug ?? '#'} disabled={!previous}>
             <Box display="flex" flexDirection="row" alignItems="center">
               <Avatar src={previous?.program.image ?? undefined} sx={{ mr: 2 }}>
                 <ArtistIcon />
@@ -107,7 +107,7 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
               </Box>
             </Box>
           </PageNavigationItem>
-          <PageNavigationItem to={next?.slug ?? '#'} next disabled={!next}>
+          <PageNavigationItem href={next?.slug ?? '#'} right disabled={!next}>
             <Box display="flex" flexDirection="row-reverse" alignItems="center">
               <Avatar src={next?.program.image ?? undefined} sx={{ ml: 2 }}>
                 <ArtistIcon />

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import { Jumbotron as AoiJumbotron, type JumbotronProps as AoiJumbotronProps } from '@cieloazul310/gatsby-theme-aoi';
 
 type JumbotronProps = Omit<AoiJumbotronProps, 'title' | 'disableGradient' | 'maxWidth'> & {
@@ -11,7 +11,17 @@ type JumbotronProps = Omit<AoiJumbotronProps, 'title' | 'disableGradient' | 'max
 };
 
 function Jumbotron({ headerText, footerText, title, image, ...props }: JumbotronProps) {
-  const { palette } = useTheme();
+  // const { palette } = useTheme();
+  return (
+    <AoiJumbotron maxWidth="md" {...props}>
+      {headerText ? <Typography>{headerText}</Typography> : null}
+      <Typography variant="h5" component="h2" gutterBottom>
+        {title}
+      </Typography>
+      {footerText ? <Typography>{footerText}</Typography> : null}
+    </AoiJumbotron>
+  );
+  /*
   return (
     <AoiJumbotron maxWidth="md" disableGradient={palette.mode === 'light'} bgImage={image} {...props}>
       {headerText ? <Typography>{headerText}</Typography> : null}
@@ -21,6 +31,7 @@ function Jumbotron({ headerText, footerText, title, image, ...props }: Jumbotron
       {footerText ? <Typography>{footerText}</Typography> : null}
     </AoiJumbotron>
   );
+  */
 }
 
 Jumbotron.defaultProps = {

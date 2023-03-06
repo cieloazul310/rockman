@@ -33,7 +33,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
   const sortProgramNode = useSortProgramNode();
 
   return (
-    <TabPageTemplate<typeof categories[number], WindowState>
+    <TabPageTemplate<(typeof categories)[number], WindowState>
       title="テーマ"
       description="ロック大陸漫遊記の放送回を「アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。"
       items={categories}
@@ -68,9 +68,9 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allProgram(sort: { fields: week, order: ASC }, filter: { categories: { ne: "" } }) {
-      group(field: categories) {
+  {
+    allProgram(sort: { week: ASC }, filter: { categories: { ne: "" } }) {
+      group(field: { categories: SELECT }) {
         totalCount
         fieldValue
         edges {

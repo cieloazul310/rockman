@@ -47,7 +47,7 @@ function ListItemLink({
       <ListItemText
         inset={inset}
         primary={
-          <AppLink to={to} color={color}>
+          <AppLink href={to} color={color}>
             {primaryText}
           </AppLink>
         }

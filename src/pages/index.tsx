@@ -3,7 +3,7 @@ import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
-import { Jumbotron, Section, SectionDivider, Article, Paragraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import { Jumbotron, Section, SectionDivider, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
 import Seo from '../components/Seo';
 import ProgramItem from '../components/ProgramItem';
@@ -21,11 +21,11 @@ type IndexPageQueryData = {
 };
 
 function IndexPage({ data }: PageProps<IndexPageQueryData>) {
-  const image = data.allProgram.edges.reduce<string | null>((accum, curr) => accum ?? curr.node.image, null);
+  // const image = data.allProgram.edges.reduce<string | null>((accum, curr) => accum ?? curr.node.image, null);
 
   return (
     <Layout>
-      <Jumbotron bgImage={image ?? undefined} maxWidth="md">
+      <Jumbotron maxWidth="md">
         <Typography variant="h5" component="h2" gutterBottom fontWeight="bold">
           ロック大陸漫遊記 プレイリスト集
         </Typography>
@@ -50,14 +50,12 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
           <Paragraph>
             <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
             <br />
-            <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
+            <AppLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</AppLink>
           </Paragraph>
           <Paragraph>
             全国38局放送時間一覧
             <br />
-            <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
-              https://www.tfm.co.jp/manyuki/index.php?catid=3350
-            </ExternalLink>
+            <AppLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">https://www.tfm.co.jp/manyuki/index.php?catid=3350</AppLink>
           </Paragraph>
         </Article>
       </Section>
@@ -86,8 +84,8 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allProgram(sort: { fields: week, order: DESC }, limit: 8) {
+  {
+    allProgram(sort: { week: DESC }, limit: 8) {
       edges {
         node {
           id

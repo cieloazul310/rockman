@@ -346,8 +346,8 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allArtist(sort: { fields: [program___programsCount, program___tunesCount, sortName], order: [DESC, DESC, ASC] }) {
+  {
+    allArtist(sort: [{ program: { programsCount: DESC } }, { program: { tunesCount: DESC } }, { sortName: ASC }]) {
       totalCount
       edges {
         node {

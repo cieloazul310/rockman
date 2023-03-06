@@ -18,7 +18,7 @@ function ArtistItem({ artist }: ArtistItemProps) {
 
   return (
     <AppLink
-      to={slug}
+      href={slug}
       color="inherit"
       sx={{ display: 'flex', padding: 1 }}
       onTouchMove={isolateTouch}
