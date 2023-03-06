@@ -8,9 +8,9 @@ import NationAvatar from './NationAvatar';
 import type { ArtistListItem } from '../../types';
 
 function renderRow({ index, style, data }: ListChildComponentProps) {
-  const { node }: { node: ArtistListItem } = data[index];
+  const node: ArtistListItem = data[index];
   return (
-    <ListItemAppLink button style={style} key={index} to={node.slug}>
+    <ListItemAppLink style={style} key={index} href={node.slug}>
       <ListItemAvatar>
         <NationAvatar nation={node.nation} img={node.program.image ?? undefined} alt={node.name} />
       </ListItemAvatar>
@@ -23,7 +23,7 @@ function renderRow({ index, style, data }: ListChildComponentProps) {
 }
 
 type ArtistListProps = {
-  artists: { node: ArtistListItem }[];
+  artists: ArtistListItem[];
   width?: number;
   height?: number;
   itemSize?: number;

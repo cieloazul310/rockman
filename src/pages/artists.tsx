@@ -7,6 +7,7 @@ import Paper from '@mui/material/Paper';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
 import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Radio from '@mui/material/Radio';
@@ -30,7 +31,7 @@ import { AdInSectionDivider } from '../components/Ads';
 import { useAllNations } from '../utils/graphql-hooks';
 import useSortedArtists from '../utils/useSortedArtists';
 import { kanaToHira } from '../utils/sortByYomi';
-import type { Artist, ArtistBrowser, ArtistListItem } from '../../types';
+import type { ArtistListItem } from '../../types';
 
 type SortListProps = {
   handleSortType: (sortType: 'abc' | 'programs' | 'tunes') => () => void;
@@ -114,42 +115,54 @@ function FilterList({
 
   return (
     <List subheader={<ListSubheader>フィルタ</ListSubheader>}>
-      <ListItem dense button onClick={toggleAppearMultiple}>
-        <ListItemIcon>
-          <Checkbox edge="start" checked={appearMultiple} color="secondary" />
-        </ListItemIcon>
-        <ListItemText primary="複数回登場" />
+      <ListItem dense>
+        <ListItemButton onClick={toggleAppearMultiple}>
+          <ListItemIcon>
+            <Checkbox edge="start" checked={appearMultiple} color="secondary" />
+          </ListItemIcon>
+          <ListItemText primary="複数回登場" />
+        </ListItemButton>
       </ListItem>
-      <ListItem dense button onClick={toggleAppearOnce}>
-        <ListItemIcon>
-          <Checkbox edge="start" checked={appearOnce} color="secondary" />
-        </ListItemIcon>
-        <ListItemText primary="1回のみ登場" />
+      <ListItem dense>
+        <ListItemButton onClick={toggleAppearOnce}>
+          <ListItemIcon>
+            <Checkbox edge="start" checked={appearOnce} color="secondary" />
+          </ListItemIcon>
+          <ListItemText primary="1回のみ登場" />
+        </ListItemButton>
       </ListItem>
-      <ListItem button dense onClick={toggleNationFilterOpen}>
-        <ListItemIcon>
-          <FlagIcon />
-        </ListItemIcon>
-        <ListItemText primary="地域別" />
-        {nationFilterOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+      <ListItem dense>
+        <ListItemButton onClick={toggleNationFilterOpen}>
+          <ListItemIcon>
+            <FlagIcon />
+          </ListItemIcon>
+          <ListItemText primary="地域別" />
+          {nationFilterOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+        </ListItemButton>
       </ListItem>
       <Collapse in={nationFilterOpen} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <ListItem sx={{ pl: 4 }} button dense onClick={resetNationFilter}>
-            <ListItemText primary="すべてのチェックをつける" />
+          <ListItem sx={{ pl: 4 }} dense>
+            <ListItemButton onClick={resetNationFilter}>
+              <ListItemText primary="すべてのチェックをつける" />
+            </ListItemButton>
           </ListItem>
-          <ListItem sx={{ pl: 4 }} button dense onClick={clearNationFilter}>
-            <ListItemText primary="すべてのチェックを外す" />
+          <ListItem sx={{ pl: 4 }} dense>
+            <ListItemButton onClick={clearNationFilter}>
+              <ListItemText primary="すべてのチェックを外す" />
+            </ListItemButton>
           </ListItem>
           {nations.map(({ fieldValue, totalCount, country }) => (
-            <ListItem sx={{ pl: 4 }} key={fieldValue} dense button onClick={toggleNationFilter(fieldValue)}>
-              <ListItemIcon>
-                <Checkbox edge="start" checked={nationFilter.includes(fieldValue)} color="secondary" />
-              </ListItemIcon>
-              <ListItemText primary={country} />
-              <Typography variant="button" component="span">
-                {totalCount}
-              </Typography>
+            <ListItem sx={{ pl: 4 }} key={fieldValue} dense>
+              <ListItemButton onClick={toggleNationFilter(fieldValue)}>
+                <ListItemIcon>
+                  <Checkbox edge="start" checked={nationFilter.includes(fieldValue)} color="secondary" />
+                </ListItemIcon>
+                <ListItemText primary={country} />
+                <Typography variant="button" component="span">
+                  {totalCount}
+                </Typography>
+              </ListItemButton>
             </ListItem>
           ))}
         </List>
@@ -199,11 +212,12 @@ function SearchField({ searchText, setSearchText }: SearchFieldProps) {
 type ArtistsPageQueryData = {
   allArtist: {
     totalCount: number;
-    edges: {
-      node: Artist & {
-        program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
-      };
-    }[];
+    nodes: ArtistListItem[];
+    /*
+    nodes: (Omit<Artist, 'program'> & {
+      program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
+    })[];
+    */
   };
 };
 
@@ -248,11 +262,10 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
     setSortType(newSortType);
   };
   const searchFilter = React.useCallback(
-    (artist: { node: ArtistListItem }) => {
+    (artist: ArtistListItem) => {
       if (searchText === '') return true;
       const regex = RegExp(searchText.replace(/([.^$|*+?()[\]{}\\-])/g, '\\$1'), 'i');
-      const { node } = artist;
-      const { name, kana } = node;
+      const { name, kana } = artist;
       if (regex.test(name)) return true;
       if (regex.test(name.replace(/([^a-zA-z0-9]+)/g, () => ''))) return true;
       if (regex.test(kanaToHira(name))) return true;
@@ -262,21 +275,21 @@ function ArtistsPage({ data }: PageProps<ArtistsPageQueryData>) {
     [searchText]
   );
   const appearFilters = React.useCallback(
-    (artist: { node: ArtistListItem }) => {
+    (artist: ArtistListItem) => {
       if (appearMultiple && appearOnce) return true;
-      if (appearMultiple) return artist.node.program.programsCount > 1;
-      if (appearOnce) return artist.node.program.programsCount === 1;
+      if (appearMultiple) return artist.program.programsCount > 1;
+      if (appearOnce) return artist.program.programsCount === 1;
       return false;
     },
     [appearMultiple, appearOnce]
   );
-  const nationFilters = React.useCallback((artist: { node: ArtistListItem }) => nationFilter.includes(artist.node.nation), [nationFilter]);
+  const nationFilters = React.useCallback((artist: ArtistListItem) => nationFilter.includes(artist.nation), [nationFilter]);
   const filters = React.useCallback(
-    (artist: { node: ArtistListItem }) => [searchFilter, nationFilters, appearFilters].every((filter) => filter(artist)),
+    (artist: ArtistListItem) => [searchFilter, nationFilters, appearFilters].every((filter) => filter(artist)),
     [searchFilter, nationFilters, appearFilters]
   );
 
-  const filteredArtists = React.useMemo(() => allArtist.edges.filter(filters), [allArtist, filters]);
+  const filteredArtists = React.useMemo(() => allArtist.nodes.filter(filters), [allArtist, filters]);
   const renderArtists = useSortedArtists(filteredArtists, sortType);
 
   return (
@@ -349,12 +362,10 @@ export const query = graphql`
   {
     allArtist(sort: [{ program: { programsCount: DESC } }, { program: { tunesCount: DESC } }, { sortName: ASC }]) {
       totalCount
-      edges {
-        node {
-          ...minimumArtist
-          kana
-          sortName
-        }
+      nodes {
+        ...minimumArtist
+        kana
+        sortName
       }
     }
   }

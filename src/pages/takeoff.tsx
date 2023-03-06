@@ -6,31 +6,27 @@ import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { ProgramByTune } from '../components/TunesByProgram';
-import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune, TuneFields } from '../../types';
+import type { Program, SpitzAlbum, SpitzTune, TuneFields } from '../../types';
 
 type TakeOffQueryData = {
   albums: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
   others: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
   notSpitz: {
     totalCount: number;
     tunes: (TuneFields & {
-      program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>;
+      program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>;
     })[];
   };
 };
@@ -38,7 +34,7 @@ type TakeOffQueryData = {
 function TakeOff({ data }: PageProps<TakeOffQueryData>) {
   const { albums, others, notSpitz } = data;
   const items: { title: string; oaLength?: number; tunesLength?: number }[] = React.useMemo(() => {
-    const albumItem = albums.edges.map(({ node }) => ({
+    const albumItem = albums.nodes.map((node) => ({
       title: node.title,
       oaLength: node.tunes.filter((tune) => tune.program.length).length,
       tunesLength: node.tunes.length,
@@ -55,7 +51,7 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
       getCounterText={({ oaLength, tunesLength }) => (oaLength && tunesLength ? `${oaLength}/${tunesLength}曲` : undefined)}
     >
       {[
-        ...albums.edges.map(({ node }) => (
+        ...albums.nodes.map((node) => (
           <React.Fragment key={node.id}>
             <Jumbotron
               title={node.title}
@@ -100,17 +96,13 @@ export function Head() {
 export const query = graphql`
   query TakeOff {
     albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }) {
-      edges {
-        node {
-          ...albumItem
-        }
+      nodes {
+        ...albumItem
       }
     }
     others: allSpitzAlbum(filter: { albumIdNum: { gte: 100 } }) {
-      edges {
-        node {
-          ...albumItem
-        }
+      nodes {
+        ...albumItem
       }
     }
     notSpitz: allTunes(corner: { eq: "漫遊前の一曲" }, artist: { ne: "スピッツ" }) {

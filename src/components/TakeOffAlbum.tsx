@@ -3,12 +3,12 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
-import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune } from '../../types';
+import type { Program, SpitzAlbumBrowser, SpitzTune } from '../../types';
 
 type TakeOffAlbumProps = {
   album: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
     tunes: (SpitzTune & {
-      program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
     })[];
   };
 };
@@ -45,20 +45,18 @@ export default TakeOffAlbum;
 
 type TakeOffOthersProps = {
   albums: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
 };
 
 export function TakeOffOthers({ albums }: TakeOffOthersProps) {
   return (
     <Box py={1}>
-      {albums.edges.map(({ node }) => (
+      {albums.nodes.map((node) => (
         <Box key={node.id} py={2}>
           <Box px={1}>
             <Typography variant="body2" color="textSecondary">

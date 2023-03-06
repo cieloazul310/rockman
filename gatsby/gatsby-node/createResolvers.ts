@@ -1,4 +1,4 @@
-import type { CreateResolversArgs, Node } from 'gatsby';
+import type { CreateResolversArgs } from 'gatsby';
 import { intQueryFilter, stringQueryFilter, type IntQueryOperatorInput, type StringQueryOperatorInput } from './utils';
 import type { GatsbyGraphQLContext } from './graphql';
 import type { Program, Tune } from '../../types';
@@ -12,6 +12,13 @@ type AllTunesQueryArgs = {
   selector: StringQueryOperatorInput;
 };
 
+/**
+ * createResolvers で何をするか
+ *
+ * 1. allTunes クエリを作成
+ * 2. allSelectors クエリを作成
+ * 3.
+ */
 export default async function onCreateResolvers({ createResolvers }: CreateResolversArgs) {
   const resolvers = {
     Query: {
@@ -35,7 +42,7 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
                   },
                 }
               : {};
-          const { entries } = await context.nodeModel.findAll<Program & Node>({
+          const { entries } = await context.nodeModel.findAll<Program<'node'>>({
             type: `Program`,
             query: {
               filter: {
@@ -51,7 +58,7 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
 
           const allProgram = Array.from(entries);
           const allTunes = allProgram
-            .reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], [])
+            .reduce<Tune<'node'>[]>((accum, curr) => [...accum, ...curr.playlist], [])
             .sort((a, b) => a.week - b.week || a.indexInWeek - b.indexInWeek)
             .filter((tune) => stringQueryFilter(title)(tune.title))
             .filter((tune) => stringQueryFilter(artist)(tune.artist))
@@ -66,7 +73,7 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
       allSelectors: {
         type: `[Selector]`,
         resolve: async (source: unknown, args: unknown, context: GatsbyGraphQLContext) => {
-          const { entries } = await context.nodeModel.findAll<Program & Node>({
+          const { entries } = await context.nodeModel.findAll<Program<'node'>>({
             type: `Program`,
             query: {
               filter: { playlist: { elemMatch: { selector: { regex: '/^(?!.*草野マサムネ).*$/' } } } },
@@ -80,7 +87,7 @@ export default async function onCreateResolvers({ createResolvers }: CreateResol
           const allSelectors = Array.from(allSelectorNames, (name) => {
             const programs = allPrograms
               .filter(({ playlist }) => playlist.map(({ selector }) => selector).includes(name))
-              .map<Program & Node>(({ playlist, ...program }) => ({
+              .map<Program<'node'>>(({ playlist, ...program }) => ({
                 ...program,
                 playlist: playlist.filter(({ selector }) => selector === name),
               }));

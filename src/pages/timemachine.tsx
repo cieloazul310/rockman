@@ -10,13 +10,13 @@ import Jumbotron from '../components/Jumbotron';
 import { ProgramByTune } from '../components/TunesByProgram';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import type { ProgramBrowser, TuneFields } from '../../types';
+import type { Program, TuneFields } from '../../types';
 
 type TimeMachinePageQueryData = {
   allTunes: {
     totalCount: number;
     tunes: (TuneFields & {
-      program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+      program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
     })[];
   };
 };

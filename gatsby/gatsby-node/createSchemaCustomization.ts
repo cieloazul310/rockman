@@ -1,4 +1,4 @@
-import type { Node, CreateSchemaCustomizationArgs } from 'gatsby';
+import type { CreateSchemaCustomizationArgs } from 'gatsby';
 import type { GatsbyGraphQLContext } from './graphql';
 import { createSlug, createArtistImage, createRelatedArtists } from './utils';
 import type { Artist, Program, Tune, SpitzTune } from '../../types';
@@ -82,11 +82,11 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
       fields: {
         slug: {
           type: `String!`,
-          resolve: (source: Pick<Program, 'week' | 'year'>) => `/program/${source.year}${source.week.toString().padStart(4, '0')}/`,
+          resolve: (source: Pick<Program<'node'>, 'week' | 'year'>) => `/program/${source.year}${source.week.toString().padStart(4, '0')}/`,
         },
         image: {
           type: `String`,
-          resolve: (source: Pick<Program, 'playlist'>) => {
+          resolve: (source: Pick<Program<'node'>, 'playlist'>) => {
             const youtube = source.playlist
               .filter(({ artist }) => artist !== 'スピッツ')
               .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
@@ -108,7 +108,7 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
       fields: {
         artist: {
           type: `Artist!`,
-          resolve: async (source: Pick<Tune, 'artist'>, args: unknown, context: GatsbyGraphQLContext) => {
+          resolve: async (source: Pick<Tune<'node'>, 'artist'>, args: unknown, context: GatsbyGraphQLContext) => {
             if (source.artist === 'スピッツ') {
               return {
                 name: 'スピッツ',
@@ -150,14 +150,14 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
         program: {
           type: `ArtistProgram!`,
           resolve: async (source: Pick<Artist, 'name'>, args: unknown, context: GatsbyGraphQLContext) => {
-            const { entries, totalCount } = await context.nodeModel.findAll<Program & Node>({
+            const { entries, totalCount } = await context.nodeModel.findAll<Program<'node'>>({
               type: 'Program',
               query: {
                 filter: { playlist: { elemMatch: { artist: { name: { eq: source.name } } } } },
               },
             });
             const programs = Array.from(entries).sort((a, b) => a.week - b.week);
-            const programTunes = programs.reduce<Tune[]>((accum, curr) => [...accum, ...curr.playlist], []);
+            const programTunes = programs.reduce<Tune<'node'>[]>((accum, curr) => [...accum, ...curr.playlist], []);
             const tunes = programTunes.filter(({ artist }) => artist === source.name);
 
             return {
@@ -184,7 +184,7 @@ export default async function createSchemaCustomization({ actions, schema }: Cre
         program: {
           type: `[Program]!`,
           resolve: async (source: SpitzTune, args: unknown, context: GatsbyGraphQLContext) => {
-            const { entries } = await context.nodeModel.findAll<Program & Node>({
+            const { entries } = await context.nodeModel.findAll<Program<'node'>>({
               type: 'Program',
               query: {
                 filter: { playlist: { elemMatch: { title: { eq: source.title } } } },

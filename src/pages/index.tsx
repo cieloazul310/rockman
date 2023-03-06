@@ -10,18 +10,16 @@ import ProgramItem from '../components/ProgramItem';
 import ProgramTop25 from '../components/ProgramTop25';
 import Stats from '../components/Stat';
 import { AdInSectionDivider } from '../components/Ads';
-import type { ProgramBrowser } from '../../types';
+import type { Program } from '../../types';
 
 type IndexPageQueryData = {
   allProgram: {
-    edges: {
-      node: Pick<ProgramBrowser, 'id' | 'title' | 'week' | 'date' | 'slug' | 'image'>;
-    }[];
+    nodes: Pick<Program, 'id' | 'title' | 'week' | 'date' | 'slug' | 'image'>[];
   };
 };
 
 function IndexPage({ data }: PageProps<IndexPageQueryData>) {
-  // const image = data.allProgram.edges.reduce<string | null>((accum, curr) => accum ?? curr.node.image, null);
+  // const image = data.allProgram.nodes.reduce<string | null>((accum, curr) => accum ?? curr.image, null);
 
   return (
     <Layout>
@@ -63,7 +61,7 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
       <Section>
         <Article maxWidth="md" disableGutters>
           <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
-            {data.allProgram.edges.map(({ node }, index, arr) => (
+            {data.allProgram.nodes.map((node, index, arr) => (
               <ProgramItem key={node.week} program={node} last={index === arr.length - 1} />
             ))}
           </List>
@@ -86,15 +84,13 @@ export function Head() {
 export const query = graphql`
   {
     allProgram(sort: { week: DESC }, limit: 8) {
-      edges {
-        node {
-          id
-          title
-          week
-          date(formatString: "YYYY-MM-DD")
-          slug
-          image
-        }
+      nodes {
+        id
+        title
+        week
+        date(formatString: "YYYY-MM-DD")
+        slug
+        image
       }
     }
   }

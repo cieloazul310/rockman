@@ -17,14 +17,14 @@ import { AdInSectionDivider } from '../components/Ads';
 import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
 import { useArtistDescriptionString } from '../utils/useDescriptionString';
-import type { ArtistBrowser, ProgramBrowser, MinimumArtist, TuneFields } from '../../types';
+import type { Artist, Program, MinimumArtist, TuneFields } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 type ArtistTemplateData = {
-  artist: Pick<ArtistBrowser, 'name' | 'kana' | 'nation'> & {
-    program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'> & {
-      programs: (Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+  artist: Pick<Artist, 'name' | 'kana' | 'nation'> & {
+    program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'> & {
+      programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
         playlist: TuneFields[];
       })[];
       relatedArtists: MinimumArtist[];

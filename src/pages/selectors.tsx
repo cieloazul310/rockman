@@ -5,7 +5,7 @@ import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
-import type { Selector, ProgramBrowser, TuneFields } from '../../types';
+import type { Selector, Program, TuneFields } from '../../types';
 
 type WindowState = {
   selector?: string;
@@ -13,7 +13,7 @@ type WindowState = {
 
 type SelectorsPageQueryData = {
   allSelectors: (Omit<Selector, 'programs'> & {
-    programs: (Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
       playlist: TuneFields[];
     })[];
   })[];

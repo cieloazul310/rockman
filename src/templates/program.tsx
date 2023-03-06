@@ -14,20 +14,20 @@ import { ProgramTonarinoTab } from '../components/TonarinoTab';
 import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
 import { useProgramDescriptionString } from '../utils/useDescriptionString';
-import type { ProgramBrowser, TuneBrowser } from '../../types';
+import type { Program, Tune as TuneType } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 type ProgramTemplateData = {
-  program: ProgramBrowser;
+  program: Program;
   previous:
-    | (Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
-        playlist: Pick<TuneBrowser, 'id'>[];
+    | (Pick<Program, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
+        playlist: Pick<TuneType, 'id'>[];
       })
     | null;
   next:
-    | (Pick<ProgramBrowser, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
-        playlist: Pick<TuneBrowser, 'id'>[];
+    | (Pick<Program, 'slug' | 'week' | 'date' | 'title' | 'subtitle' | 'image' | 'categories'> & {
+        playlist: Pick<TuneType, 'id'>[];
       })
     | null;
 };

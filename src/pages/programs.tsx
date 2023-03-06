@@ -14,9 +14,7 @@ type ProgramsPageQueryData = {
     group: {
       fieldValue: string;
       totalCount: number;
-      edges: {
-        node: ProgramList;
-      }[];
+      nodes: ProgramList[];
     }[];
   };
 };
@@ -48,15 +46,13 @@ export const query = graphql`
       group(field: { year: SELECT }) {
         fieldValue
         totalCount
-        edges {
-          node {
-            id
-            title
-            slug
-            week
-            date(formatString: "YYYY-MM-DD")
-            image
-          }
+        nodes {
+          id
+          title
+          slug
+          week
+          date(formatString: "YYYY-MM-DD")
+          image
         }
       }
     }

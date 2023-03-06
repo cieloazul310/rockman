@@ -12,13 +12,11 @@ import type { ProgramList } from '../../types';
 type ProgramYearsGroup = {
   fieldValue: string;
   totalCount: number;
-  edges: {
-    node: ProgramList;
-  }[];
+  nodes: ProgramList[];
 };
 
 function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
-  const { fieldValue, totalCount, edges } = data;
+  const { fieldValue, totalCount, nodes } = data;
   const initialOpen = typeof window === 'object' ? sessionStorage.getItem(`${fieldValue}open`) : null;
   const [open, setOpen] = React.useState<boolean>(initialOpen ? Boolean(JSON.parse(initialOpen)) : false);
   const handleClick = () => {
@@ -41,7 +39,7 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {edges.map(({ node }) => (
+          {nodes.map((node) => (
             <ProgramItem key={node.id} program={node} />
           ))}
         </List>
