@@ -5,7 +5,7 @@ import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import LazyViewer from '../components/LazyViewer';
-import type { Selector, Program, TuneFields } from '../../types';
+import type { Selector, Program, TuneItemFragment } from '../../types';
 
 type WindowState = {
   selector?: string;
@@ -14,7 +14,7 @@ type WindowState = {
 type SelectorsPageQueryData = {
   allSelectors: (Omit<Selector, 'programs'> & {
     programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-      playlist: TuneFields[];
+      playlist: TuneItemFragment[];
     })[];
   })[];
 };
@@ -76,7 +76,7 @@ export const query = graphql`
         date(formatString: "YYYY-MM-DD")
         subtitle
         playlist {
-          ...tuneFields
+          ...tuneItem
         }
       }
       programsCount

@@ -18,12 +18,12 @@ export type Artist<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
     : never;
 };
 
-export type MinimumArtist = Pick<ArtistBrowser, 'name' | 'slug' | 'nation'> & {
-  program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+export type MinimumArtist = Pick<Artist, 'name' | 'slug' | 'nation'> & {
+  program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
 };
 
-export type ArtistListItem = Pick<ArtistBrowser, 'name' | 'slug' | 'nation' | 'kana'> & {
-  program: Pick<ArtistBrowser['program'], 'programsCount' | 'tunesCount' | 'image'>;
+export type ArtistListItem = Pick<Artist, 'name' | 'slug' | 'nation' | 'kana'> & {
+  program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
 };
 
 export type Program<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
@@ -40,7 +40,7 @@ export type Program<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & 
   playlist: Tune<T>[];
 };
 
-export type ProgramList = Pick<ProgramBrowser, 'id' | 'date' | 'title' | 'slug' | 'image' | 'week'>;
+export type ProgramListFragment = Pick<Program, 'id' | 'date' | 'title' | 'slug' | 'image' | 'week'>;
 
 export type Tune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
   id: string;
@@ -59,8 +59,8 @@ export type Tune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
   program: T extends 'browser' ? Program : null;
 };
 
-export type TuneFields = Pick<
-  TuneBrowser,
+export type TuneItemFragment = Pick<
+  Tune,
   'id' | 'title' | 'indexInWeek' | 'artist' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'
 > & {
   artist: MinimumArtist;
@@ -83,7 +83,7 @@ export type SpitzTune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
 
 export type Selector = {
   name: string;
-  programs: ProgramBrowser;
+  programs: Program;
   programsCount: number;
   tunesCount: number;
 };

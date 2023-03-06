@@ -7,14 +7,14 @@ import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import Programs from '../components/Programs';
 import { AdInSectionDivider } from '../components/Ads';
-import type { ProgramList } from '../../types';
+import type { ProgramListFragment } from '../../types';
 
 type ProgramsPageQueryData = {
   allProgram: {
     group: {
       fieldValue: string;
       totalCount: number;
-      nodes: ProgramList[];
+      nodes: ProgramListFragment[];
     }[];
   };
 };
@@ -47,12 +47,7 @@ export const query = graphql`
         fieldValue
         totalCount
         nodes {
-          id
-          title
-          slug
-          week
-          date(formatString: "YYYY-MM-DD")
-          image
+          ...programList
         }
       }
     }

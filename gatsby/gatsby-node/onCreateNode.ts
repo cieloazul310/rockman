@@ -20,6 +20,8 @@ export function createArtistNode(
   return async ({ artist, ...data }: Pick<Tune<'bare'>, 'artist' | 'kana' | 'nation'>) => {
     const sortName = getYomi(artist, data.kana);
     const nodeId = createNodeId(`artist-${sortName}`);
+    if (getNode(nodeId)) return;
+
     const nodeContent = JSON.stringify({ ...data, name: artist, sortName });
     const nodeMeta = {
       id: nodeId,

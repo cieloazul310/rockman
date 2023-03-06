@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
 import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
 import { useDividedPrograms } from '../utils/useDividedArray';
-import type { ProgramBrowser, TuneFields } from '../../types';
+import type { Program, TuneItemFragment } from '../../types';
 
 type DisplayOnScreenProps = {
   children: React.ReactNode;
@@ -42,11 +42,11 @@ DisplayOnScreen.defaultProps = {
 };
 
 type LazyViewerProps = {
-  programs: (Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-    playlist: TuneFields[];
+  programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneItemFragment[];
   })[];
   divisor?: number;
-  filter?: (tune: TuneFields) => boolean;
+  filter?: (tune: TuneItemFragment) => boolean;
   onSeem?: (() => void) | ((inView: boolean) => void);
 };
 

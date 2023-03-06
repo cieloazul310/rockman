@@ -133,7 +133,7 @@ export const query = graphql`
       guests
       categories
       playlist {
-        ...tuneFields
+        ...tuneItem
       }
     }
     previous: program(slug: { eq: $previous }) {

@@ -17,7 +17,7 @@ import { AdInSectionDivider } from '../components/Ads';
 import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
 import { useArtistDescriptionString } from '../utils/useDescriptionString';
-import type { Artist, Program, MinimumArtist, TuneFields } from '../../types';
+import type { Artist, Program, MinimumArtist, TuneItemFragment } from '../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -25,7 +25,7 @@ type ArtistTemplateData = {
   artist: Pick<Artist, 'name' | 'kana' | 'nation'> & {
     program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'> & {
       programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-        playlist: TuneFields[];
+        playlist: TuneItemFragment[];
       })[];
       relatedArtists: MinimumArtist[];
     };
@@ -149,7 +149,7 @@ export const query = graphql`
           date(formatString: "YYYY-MM-DD")
           subtitle
           playlist {
-            ...tuneFields
+            ...tuneItem
           }
         }
         programsCount

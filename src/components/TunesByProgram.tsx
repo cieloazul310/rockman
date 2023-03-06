@@ -6,7 +6,7 @@ import Skeleton from '@mui/material/Skeleton';
 import { AppLink, Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
 import Tune, { TuneSkeleton } from './Tune';
 import TextSpan from './TextSpan';
-import type { ProgramBrowser, TuneFields } from '../../types';
+import type { Program, TuneItemFragment } from '../../types';
 
 type TunesByProgramBareProps = {
   headerText: React.ReactNode;
@@ -40,8 +40,8 @@ TunesByProgramBare.defaultProps = {
 };
 
 type TunesByProgramProps = {
-  program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-    playlist: TuneFields[];
+  program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneItemFragment[];
   };
 };
 
@@ -68,8 +68,8 @@ function TunesByProgram({ program }: TunesByProgramProps) {
 export default TunesByProgram;
 
 type ProgramByTuneProps = {
-  tune: TuneFields & {
-    program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+  tune: TuneItemFragment & {
+    program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
   };
 };
 

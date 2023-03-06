@@ -1,4 +1,4 @@
-import type { ProgramBrowser, MinimumArtist } from '../../types';
+import type { Program, MinimumArtist } from '../../types';
 
 export function useProgramDescriptionString({
   week,
@@ -6,7 +6,7 @@ export function useProgramDescriptionString({
   date,
   subtitle,
   guests,
-}: Pick<ProgramBrowser, 'week' | 'title' | 'date' | 'subtitle' | 'guests'>): string {
+}: Pick<Program, 'week' | 'title' | 'date' | 'subtitle' | 'guests'>): string {
   const dt = new Date(date);
   const year = dt.getFullYear();
   const month = dt.getMonth() + 1;

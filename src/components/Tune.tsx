@@ -10,7 +10,7 @@ import TextSpan from './TextSpan';
 import NationLabel from './NationLabel';
 import { TuneIcon } from '../icons';
 import useIsMobile from '../utils/useIsMobile';
-import type { TuneBrowser } from '../../types';
+import type { TuneItemFragment } from '../../types';
 
 type YouTubeLinkProps = {
   href: string;
@@ -120,7 +120,7 @@ TuneBare.defaultProps = {
 };
 
 export type TuneProps = {
-  tune: Pick<TuneBrowser, 'id' | 'title' | 'indexInWeek' | 'artist' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'>;
+  tune: TuneItemFragment;
 };
 
 function Tune({ tune }: TuneProps) {

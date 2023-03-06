@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
-import type { Program, SpitzAlbumBrowser, SpitzTune } from '../../types';
+import type { Program, SpitzAlbum, SpitzTune } from '../../types';
 
 type TakeOffAlbumProps = {
-  album: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+  album: Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
     tunes: (SpitzTune & {
       program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
     })[];
@@ -45,7 +45,7 @@ export default TakeOffAlbum;
 
 type TakeOffOthersProps = {
   albums: {
-    nodes: (Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
       tunes: (SpitzTune & {
         program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
       })[];

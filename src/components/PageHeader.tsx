@@ -7,7 +7,7 @@ import NationLabel from './NationLabel';
 import TextSpan from './TextSpan';
 import { ProgramIcon, ArtistIcon } from '../icons';
 import { useParseNation } from '../utils/graphql-hooks';
-import type { ProgramBrowser, ArtistBrowser } from '../../types';
+import type { Program, Artist } from '../../types';
 
 type PageHeaderProps = {
   variant: 'program' | 'artist';
@@ -70,7 +70,7 @@ PageHeader.defaultProps = {
 export function ProgramPageHeader({
   program,
 }: {
-  program: Pick<ProgramBrowser, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
+  program: Pick<Program, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
     playlist: unknown[];
   };
 }) {
@@ -106,8 +106,8 @@ export function ProgramPageHeader({
 export function ArtistPageHeader({
   artist,
 }: {
-  artist: Pick<ArtistBrowser, 'name' | 'nation'> & {
-    program: Pick<ArtistBrowser['program'], 'image' | 'programsCount' | 'tunesCount'>;
+  artist: Pick<Artist, 'name' | 'nation'> & {
+    program: Pick<Artist['program'], 'image' | 'programsCount' | 'tunesCount'>;
   };
 }) {
   const { country } = useParseNation(artist.nation);

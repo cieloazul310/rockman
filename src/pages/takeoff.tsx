@@ -6,7 +6,7 @@ import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
 import { ProgramByTune } from '../components/TunesByProgram';
-import type { Program, SpitzAlbum, SpitzTune, TuneFields } from '../../types';
+import type { Program, SpitzAlbum, SpitzTune, TuneItemFragment } from '../../types';
 
 type TakeOffQueryData = {
   albums: {
@@ -25,7 +25,7 @@ type TakeOffQueryData = {
   };
   notSpitz: {
     totalCount: number;
-    tunes: (TuneFields & {
+    tunes: (TuneItemFragment & {
       program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>;
     })[];
   };
@@ -108,7 +108,7 @@ export const query = graphql`
     notSpitz: allTunes(corner: { eq: "漫遊前の一曲" }, artist: { ne: "スピッツ" }) {
       totalCount
       tunes {
-        ...tuneFields
+        ...tuneItem
         program {
           id
           week

@@ -3,10 +3,10 @@ import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi
 import { ProgramPageHeader, ArtistPageHeader } from './PageHeader';
 import { TuneSkeleton } from './Tune';
 import { TunesByProgramSkeleton } from './TunesByProgram';
-import type { ProgramBrowser, ArtistBrowser } from '../../types';
+import type { Program, Artist } from '../../types';
 
 type ProgramTonarinoTabProps = {
-  item: Pick<ProgramBrowser, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
+  item: Pick<Program, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
     playlist: unknown[];
   };
 };
@@ -31,8 +31,8 @@ export function ProgramTonarinoTab({ item }: ProgramTonarinoTabProps) {
 }
 
 type ArtistTonarinoTabProps = {
-  item: Pick<ArtistBrowser, 'name' | 'nation'> & {
-    program: Pick<ArtistBrowser['program'], 'image' | 'programsCount' | 'tunesCount'>;
+  item: Pick<Artist, 'name' | 'nation'> & {
+    program: Pick<Artist['program'], 'image' | 'programsCount' | 'tunesCount'>;
   };
 };
 

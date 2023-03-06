@@ -8,7 +8,7 @@ import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import ProgramItem from '../components/ProgramItem';
 import { useSortProgram } from '../utils/useSorter';
-import type { ProgramList } from '../../types';
+import type { ProgramListFragment } from '../../types';
 
 type WindowState = {
   category?: string;
@@ -19,7 +19,7 @@ type CategoriesPageQueryData = {
     group: {
       fieldValue: string;
       totalCount: number;
-      nodes: ProgramList[];
+      nodes: ProgramListFragment[];
     }[];
   };
 };

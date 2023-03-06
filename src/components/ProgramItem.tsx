@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import ListItemLink from './ListItemLink';
-import type { ProgramList } from '../../types';
+import type { ProgramListFragment } from '../../types';
 
 type ProgramItemProps = {
-  program: ProgramList;
+  program: ProgramListFragment;
   last?: boolean;
 };
 

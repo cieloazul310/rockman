@@ -10,12 +10,12 @@ import Jumbotron from '../components/Jumbotron';
 import { ProgramByTune } from '../components/TunesByProgram';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import type { Program, TuneFields } from '../../types';
+import type { Program, TuneItemFragment } from '../../types';
 
 type TimeMachinePageQueryData = {
   allTunes: {
     totalCount: number;
-    tunes: (TuneFields & {
+    tunes: (TuneItemFragment & {
       program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
     })[];
   };
@@ -74,7 +74,7 @@ export const query = graphql`
     allTunes(corner: { eq: "ちょっぴりタイムマシン" }) {
       totalCount
       tunes {
-        ...tuneFields
+        ...tuneItem
         program {
           id
           title
