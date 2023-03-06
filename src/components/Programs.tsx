@@ -2,6 +2,7 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
@@ -30,12 +31,14 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
 
   return (
     <>
-      <ListItem button onClick={handleClick}>
-        <ListItemText primary={`${fieldValue}年`} />
-        <Typography variant="button" component="span">
-          {totalCount}回
-        </Typography>
-        {open ? <ExpandLess /> : <ExpandMore />}
+      <ListItem>
+        <ListItemButton onClick={handleClick}>
+          <ListItemText primary={`${fieldValue}年`} />
+          <Typography variant="button" component="span">
+            {totalCount}回
+          </Typography>
+          {open ? <ExpandLess /> : <ExpandMore />}
+        </ListItemButton>
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>

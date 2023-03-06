@@ -4,13 +4,26 @@ import createArtistSchemaCustomization from './artist';
 import createProgramSchemaCustomization from './program';
 import type { Program, SpitzTune } from '../../../types';
 
+/**
+ * createSchemaCustomization で何をするか
+ *
+ * 1. Artist のノードを作成する
+ * 2. Program のノードを拡張する
+ * 3. SpitzAlbum のノードを拡張する
+ * 4. CreateResolver で作成するクエリに対応するスキーマを定義する
+ */
 export default async function createSchemaCustomization(schemaCustomizationArgs: CreateSchemaCustomizationArgs) {
   const { actions, schema } = schemaCustomizationArgs;
   const { createTypes } = actions;
 
+  // 1. Artist のノードを作成する
   await createArtistSchemaCustomization(schemaCustomizationArgs);
+
+  // 2. Program のノードを拡張する
   await createProgramSchemaCustomization(schemaCustomizationArgs);
 
+  // 3. SpitzAlbum のノードを拡張する
+  // 4. CreateResolver で作成するクエリに対応するスキーマを定義する
   createTypes(`
     type SpitzAlbum implements Node @dontInfer {
       albumIdNum: Int!
@@ -42,8 +55,8 @@ export default async function createSchemaCustomization(schemaCustomizationArgs:
       fields: {
         program: {
           type: `[Program]!`,
-          resolve: async (source: SpitzTune, args: unknown, context: GatsbyGraphQLContext) => {
-            const { entries } = await context.nodeModel.findAll<Program<'node'>>({
+          resolve: async (source: SpitzTune, args: unknown, { nodeModel }: GatsbyGraphQLContext) => {
+            const { entries } = await nodeModel.findAll<Program<'node'>>({
               type: 'Program',
               query: {
                 filter: { playlist: { elemMatch: { title: { eq: source.title } } } },

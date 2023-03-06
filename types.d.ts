@@ -6,6 +6,7 @@ export type Artist<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
   sortName: T extends 'bare' ? never : string;
   nation: string;
   slug: string;
+  image: T extends 'browser' ? string | null : never;
   program: T extends 'browser'
     ? {
         programs: Program[];

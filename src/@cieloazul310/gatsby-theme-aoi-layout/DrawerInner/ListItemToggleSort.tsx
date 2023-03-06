@@ -5,7 +5,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemSecondaryAction from '@mui/material/ListItemSecondaryAction';
 import Switch from '@mui/material/Switch';
 import SortIcon from '@mui/icons-material/Sort';
-import { useAppState, useDispatch } from '../@cieloazul310/gatsby-theme-aoi-top-layout/utils/AppStateContext';
+import { useAppState, useDispatch } from '../../gatsby-theme-aoi-top-layout/utils/AppStateContext';
 
 function ListItemToggleSort() {
   const { sort } = useAppState();

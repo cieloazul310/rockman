@@ -53,7 +53,9 @@ function ArtistItem({ artist }: ArtistItemProps) {
           </Box>
         </Box>
         <Box py={1}>
-          <Typography variant="body2">{name}</Typography>
+          <Typography variant="body2" component="span" lineHeight={1}>
+            {name}
+          </Typography>
         </Box>
       </Box>
     </AppLink>

@@ -56,6 +56,12 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
         (item) => item?.name
       )
     : [];
+  const drawerContents = (
+    <DrawerPageNavigation
+      left={previous ? { href: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
+      right={next ? { href: next.slug, title: next.title, secondaryText: `第${next.week}回` } : undefined}
+    />
+  );
   const tabs = [
     previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
     <React.Fragment key="main">
@@ -73,15 +79,7 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
   ].filter((element): element is JSX.Element => Boolean(element));
 
   return (
-    <Layout
-      title={program.title}
-      drawerContents={
-        <DrawerPageNavigation
-          left={previous ? { href: previous.slug, title: previous.title, secondaryText: `第${previous.week}回` } : undefined}
-          right={next ? { href: next.slug, title: next.title, secondaryText: `第${next.week}回` } : undefined}
-        />
-      }
-    >
+    <Layout title={program.title} drawerContents={drawerContents}>
       <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>

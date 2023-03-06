@@ -14,11 +14,11 @@ export function createArtistImage(tunes: Tune<'node'>[]) {
   return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
 }
 
-export async function createRelatedArtists(name: string, playlist: Tune<'node'>[], context: GatsbyGraphQLContext) {
+export async function createRelatedArtists(name: string, playlist: Tune<'node'>[], { nodeModel }: GatsbyGraphQLContext) {
   const artists = playlist.filter(({ artist }) => artist !== 'スピッツ' && artist !== name).map(({ artist }) => artist);
   const input = Array.from(new Set(artists));
 
-  const { entries } = await context.nodeModel.findAll<Artist<'node'>>({
+  const { entries } = await nodeModel.findAll<Artist<'node'>>({
     type: `Artist`,
     query: {
       filter: {
@@ -40,6 +40,7 @@ export default async function createArtistSchemaCustomization({ actions, schema 
       nation: String!
       slug: String!
       program: ArtistProgram!
+      image: String
     }
     type ArtistProgram {
       programs: [Program]!
@@ -66,6 +67,7 @@ export default async function createArtistSchemaCustomization({ actions, schema 
               type: 'Program',
               query: {
                 filter: { playlist: { elemMatch: { artist: { name: { eq: source.name } } } } },
+                sort: { week: 'ASC' },
               },
             });
             const programs = Array.from(entries).sort((a, b) => a.week - b.week);
@@ -83,6 +85,24 @@ export default async function createArtistSchemaCustomization({ actions, schema 
               image: createArtistImage(tunes),
               relatedArtists: await createRelatedArtists(source.name, programTunes, context),
             };
+          },
+        },
+        image: {
+          type: `String`,
+          resolve: async (source: Pick<Artist<'node'>, 'name'>, args: unknown, context: GatsbyGraphQLContext) => {
+            const { entries, totalCount } = await context.nodeModel.findAll<Program<'node'>>({
+              type: 'Program',
+              query: {
+                filter: { playlist: { elemMatch: { artist: { name: { eq: source.name } } } } },
+                sort: { week: 'DESC' },
+              },
+            });
+            if ((await totalCount()) === 0) return null;
+            const tunes = Array.from(entries, ({ playlist }) =>
+              playlist.filter(({ artist, youtube }) => youtube && artist === source.name)
+            ).reduce((accum, curr) => [...accum, ...curr], []);
+            if (!tunes.length) return null;
+            return `https://i.ytimg.com/vi/${tunes[0].youtube}/0.jpg`;
           },
         },
       },
