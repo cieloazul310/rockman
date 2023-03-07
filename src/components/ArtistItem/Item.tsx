@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import { MinimumArtist } from '../../types';
+import { MinimumArtist } from '../../../types';
 
 type ArtistItemProps = {
   artist: MinimumArtist;
@@ -20,13 +20,13 @@ function ArtistItem({ artist }: ArtistItemProps) {
     <AppLink
       href={slug}
       color="inherit"
-      sx={{ display: 'flex', padding: 1 }}
+      sx={{ display: 'flex' }}
       onTouchMove={isolateTouch}
       onTouchStart={isolateTouch}
       onTouchEnd={isolateTouch}
     >
       <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'column' }}>
-        <Box sx={{ width: '100%', display: 'flex', position: 'relative' }}>
+        <Box sx={{ width: '100%', display: 'flex', position: 'relative', borderRadius: 2, overflow: 'hidden' }}>
           <Box
             sx={{
               bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 300 : 700],
@@ -52,7 +52,7 @@ function ArtistItem({ artist }: ArtistItemProps) {
             </Typography>
           </Box>
         </Box>
-        <Box py={1}>
+        <Box minHeight="2em" lineHeight="initial">
           <Typography variant="body2" component="span" lineHeight={1}>
             {name}
           </Typography>

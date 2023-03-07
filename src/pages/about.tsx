@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Section, SectionDivider, Article, Paragraph, H2, H3, AppLink } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, Article, Paragraph, H2, H3, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 
 import Layout from '../layout';
 import Seo from '../components/Seo';
@@ -10,7 +10,6 @@ function About() {
   return (
     <Layout title="サイトについて">
       <Jumbotron title="サイトについて" />
-      <SectionDivider />
       <Section>
         <Article maxWidth="md">
           <Paragraph>

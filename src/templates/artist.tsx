@@ -1,18 +1,19 @@
 import * as React from 'react';
 import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
 import Box from '@mui/material/Box';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
 import Seo from '../components/Seo';
-import { ArtistPageHeader } from '../components/PageHeader';
-import { ArtistTonarinoTab } from '../components/TonarinoTab';
-import TunesByProgram from '../components/TunesByProgram';
-import ArtistItemContainer from '../components/ArtistItemContainer';
+import { ArtistPageHeader } from './components/PageHeader';
+import { ArtistTonarinoTab } from './components/TonarinoTab';
+import TunesByProgram from '../components/Tunes/Container';
+import ArtistItemContainer from '../components/ArtistItem/Container';
 import { AdInSectionDivider } from '../components/Ads';
 import { ArtistIcon } from '../icons';
 import { useSortProgram } from '../utils/useSorter';
@@ -52,17 +53,18 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
   };
   const tabs = [
     previous ? <ArtistTonarinoTab key={previous.slug} item={previous} /> : null,
-    <React.Fragment key="main">
+    <Stack spacing={2} key="main">
       <ArtistPageHeader artist={artist} />
-      <SectionDivider />
-      {artist.program.programs.sort(sortProgram).map((program) => (
-        <TunesByProgram key={program.id} program={program} />
-      ))}
+      <Stack spacing={1}>
+        {artist.program.programs.sort(sortProgram).map((program) => (
+          <TunesByProgram key={program.id} program={program} />
+        ))}
+      </Stack>
       <AdInSectionDivider />
       <Section>
         <ArtistItemContainer title="同じ回で登場したアーティスト" artists={artist.program.relatedArtists} />
       </Section>
-    </React.Fragment>,
+    </Stack>,
     next ? <ArtistTonarinoTab key={next.slug} item={next} /> : null,
   ].filter((element): element is JSX.Element => Boolean(element));
 
@@ -91,7 +93,6 @@ function ArtistTemplate({ data }: PageProps<ArtistTemplateData, ArtistTemplateCo
       <BindKeyboardSwipeableViews index={initialIndex} onChangeIndex={handleChangeIndex} resistance>
         {tabs}
       </BindKeyboardSwipeableViews>
-      <SectionDivider />
       <Section>
         <PageNavigationContainer>
           <PageNavigationItem href={previous?.slug ?? '#'} disabled={!previous}>

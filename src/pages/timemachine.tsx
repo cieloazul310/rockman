@@ -3,11 +3,11 @@ import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import { ProgramByTune } from '../components/TunesByProgram';
+import { ProgramByTune } from '../components/Tunes/Container';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
 import type { Program, TuneItemFragment } from '../../types';
@@ -37,7 +37,6 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
       {items.map((fifth) => (
         <React.Fragment key={fifth.value.toString()}>
           <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} />
-          <SectionDivider />
           {[...fifth.items]
             .sort((a, b) => sorter(a.value - b.value))
             .map((annu) => (

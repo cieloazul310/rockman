@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
-import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
-import { useDividedPrograms } from '../utils/useDividedArray';
-import type { Program, TuneItemFragment } from '../../types';
+import TunesByProgram, { TunesByProgramSkeleton } from './Container';
+import { useDividedPrograms } from '../../utils/useDividedArray';
+import type { Program, TuneItemFragment } from '../../../types';
 
 type DisplayOnScreenProps = {
   children: React.ReactNode;

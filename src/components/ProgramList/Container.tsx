@@ -7,8 +7,8 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import ProgramItem from './ProgramItem';
-import type { ProgramListFragment } from '../../types';
+import ProgramListItem from './Item';
+import type { ProgramListFragment } from '../../../types';
 
 type ProgramYearsGroup = {
   fieldValue: string;
@@ -31,7 +31,7 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
 
   return (
     <>
-      <ListItem>
+      <ListItem disablePadding>
         <ListItemButton onClick={handleClick}>
           <ListItemText primary={`${fieldValue}年`} />
           <Typography variant="button" component="span">
@@ -43,7 +43,7 @@ function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {nodes.map((node) => (
-            <ProgramItem key={node.id} program={node} />
+            <ProgramListItem key={node.id} program={node} />
           ))}
         </List>
       </Collapse>

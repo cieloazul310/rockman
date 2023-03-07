@@ -5,8 +5,8 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import ArtistItem from './ArtistItem';
-import { MinimumArtist } from '../../types';
+import ArtistItem from './Item';
+import { MinimumArtist } from '../../../types';
 
 function isolateTouch(event: React.TouchEvent) {
   event.stopPropagation();
@@ -22,16 +22,17 @@ function ArtistItemContainer({ artists, title }: ArtistItemContainerProps) {
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
   return (
     <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
-      <Box p={1}>
+      <Box py={1}>
         <Typography>{title}</Typography>
       </Box>
       <Box
+        component="nav"
         sx={{ overflowX: { xs: 'auto', sm: 'unset' }, WebkitOverflowScrolling: { xs: 'touch', sm: 'unset' } }}
         onTouchMove={isolateTouch}
         onTouchStart={isolateTouch}
         onTouchEnd={isolateTouch}
       >
-        <Grid container={!isMobile} sx={{ display: { xs: 'flex', sm: undefined }, width: { xs: 'max-content', sm: 1 } }}>
+        <Grid container={!isMobile} sx={{ display: { xs: 'flex', sm: undefined }, width: { xs: 'max-content', sm: 1 } }} gap={1}>
           {artists
             .filter((artist) => artist.name !== 'スピッツ')
             .map((artist) => (

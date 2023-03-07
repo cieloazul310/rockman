@@ -1,16 +1,17 @@
 import * as React from 'react';
 import { graphql, navigate, type PageProps, type HeadProps } from 'gatsby';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, Article } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
 import Layout from '../layout';
 import Seo from '../components/Seo';
-import { ProgramPageHeader } from '../components/PageHeader';
-import Tune from '../components/Tune';
-import ArtistItemContainer from '../components/ArtistItemContainer';
-import { ProgramTonarinoTab } from '../components/TonarinoTab';
+import { ProgramPageHeader } from './components/PageHeader';
+import Tune from '../components/Tunes/Item';
+import ArtistItemContainer from '../components/ArtistItem/Container';
+import { ProgramTonarinoTab } from './components/TonarinoTab';
 import { AdInSectionDivider } from '../components/Ads';
 import removeMultiple from '../utils/removeMultiple';
 import { useProgramDescriptionString } from '../utils/useDescriptionString';
@@ -64,17 +65,18 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
   );
   const tabs = [
     previous ? <ProgramTonarinoTab key={previous.title} item={previous} /> : null,
-    <React.Fragment key="main">
+    <Stack spacing={2} key="main">
       <ProgramPageHeader program={program} />
-      <SectionDivider />
       <Section>
         <Article maxWidth="md" disableGutters>
-          {program.playlist.map((tune) => (
-            <Tune key={tune.id} tune={tune} />
-          ))}
+          <Stack spacing={1} px={{ xs: 1, sm: 2 }}>
+            {program.playlist.map((tune) => (
+              <Tune key={tune.id} tune={tune} />
+            ))}
+          </Stack>
         </Article>
       </Section>
-    </React.Fragment>,
+    </Stack>,
     next ? <ProgramTonarinoTab key={next.title} item={next} /> : null,
   ].filter((element): element is JSX.Element => Boolean(element));
 
@@ -87,7 +89,6 @@ function ProgramTemplate({ data }: PageProps<ProgramTemplateData, ProgramTemplat
       <Section>
         <ArtistItemContainer title="登場アーティスト" artists={artists} />
       </Section>
-      <SectionDivider />
       <Section>
         <PageNavigationContainer>
           <PageNavigationItem href={previous?.slug ?? '#'} disabled={!previous}>

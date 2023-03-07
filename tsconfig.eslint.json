@@ -11,6 +11,7 @@
     "jest-preprocess.js",
     "jest.config.js",
     "loadershim.js",
+    ".storybook/**/*",
     "__mocks__/**/*"
   ]
 }

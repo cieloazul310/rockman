@@ -91,7 +91,7 @@ function TabPageTemplate<T, S = null>({
               <Paragraph>{description}</Paragraph>
               <List>
                 {items.map((item, index) => (
-                  <ListItem key={getTitle(item)}>
+                  <ListItem key={getTitle(item)} disablePadding>
                     <ListItemButton onClick={onItemClicked(index + 1)}>
                       <ListItemText primary={getTitle(item)} secondary={getSecondaryText ? getSecondaryText(item) : undefined} />
                       {getCounterText(item) ? (
