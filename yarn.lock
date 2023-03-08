@@ -2979,9 +2979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-blog-components@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-blog-components@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi-blog-components@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi-blog-components@npm:3.1.0"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-components": ^3.0.1
     "@emotion/react": ^11.0.0
@@ -2990,13 +2990,13 @@ __metadata:
     "@mui/material": ^5.0.0
     gatsby: ^5.0.0
     react: ^18.0.0
-  checksum: 196ad3f2801afea0a547d33796a9fef2cfc9a52ec52e181a6e5c8f5e27a65a763d03a694c09b7f04f659b96e9bba77c6c95569e24f575c30756475ebd8de4410
+  checksum: 1f9a38bd64a19ce5a189201627b221e7a7189514dd0f8901b64dc1a8f1a7b367bd5c3d9dc784a1e767f3db2addec16fc3aea8400464611da94da16afe5ec4ccb
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-components@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-components@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi-components@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi-components@npm:3.1.0"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^3.0.0
     "@cieloazul310/gatsby-theme-aoi-utils": ^3.0.0
@@ -3009,13 +3009,13 @@ __metadata:
     clsx: ^1.1.0
     gatsby: ^5.0.0
     react: ^18.0.0
-  checksum: 1b26804441a00ab61eead274574c40267aa59941177cc85f80d1733ecc9a5c1d126d5cf18e138398841081b957d9e95faadff7a48d9d0db2ab09266a28ca89a3
+  checksum: d81f43b4c2c8083636754a1b8ebada248599ed6a4f1f1aad1790f9a13c384ddb3b3ee2b07a92c87386a20dd66e853038cc4b31127f769e64717171eed8066aa9
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-layout@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-layout@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi-layout@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi-layout@npm:3.1.0"
   peerDependencies:
     "@cieloazul310/gatsby-theme-aoi-components": ^3.0.1
     "@cieloazul310/gatsby-theme-aoi-top-layout": ^3.0.0
@@ -3028,44 +3028,44 @@ __metadata:
     clsx: ^1.1.0
     gatsby: ^5.0.0
     react: ^18.0.0
-  checksum: b67ee96249263d9e5695616b1bdab226a1807aede2ff5c68f03a8d0f16277683593c55b2f27e7c05ae87789b0b757c36486524982d66c0a956652b313587252e
+  checksum: dfd8c6838eb1c7be386b3b78e52c75dcd67a4bb64c661847d16aafef8e4c88dbdaa57fe2e51c7caabafa9d5968e42d8aa0dca42fdb78d851f098e3c2d6db2539
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-top-layout@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-top-layout@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi-top-layout@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi-top-layout@npm:3.1.0"
   dependencies:
     gatsby-plugin-webfonts: ^2.3.2
   peerDependencies:
     "@mui/material": ^5.0.0
     gatsby: ^5.0.0
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 66c74ead362b5469e1d1760f8a0af0bfe76cc26448a22e71e579f4fb049fadf2d720a0dbf3235d83e600c35d70c00db606eb1aa148627bfa1b458fb79e557643
+  checksum: 1e892168917b2c67ddbfdee9830eeea7a48c7022641cb76af71ac03f8d56d19d85b11fbfa7d85a9f1ee73cd3e025b0bbef8f6da008f10e300bb31d59ee59dcc1
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi-utils@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi-utils@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi-utils@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi-utils@npm:3.1.0"
   peerDependencies:
     "@gatsbyjs/reach-router": ^2.0.0
     "@mui/material": ^5.0.0
     "@mui/system": ^5.0.0
     gatsby: ^5.0.0
     react: ^18.0.0
-  checksum: 8fbe2f7b76af912831cae72cc7e61d6b242eb0a48f7ad4862e877dac4af46b3d380c9720f454e9c517bb3f9d36a33903efb5709adf8f24cbf9855d42f22dfabd
+  checksum: 522b9ed48c0aad9aead25f66d0cf57645b3be10298d16d4d89f6f2ec1b54f5d8652c55e1861416f08a4b7281a1ba3661e6844b1ef430097cb0dd642188c7fee3
   languageName: node
   linkType: hard
 
-"@cieloazul310/gatsby-theme-aoi@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@cieloazul310/gatsby-theme-aoi@npm:3.0.1"
+"@cieloazul310/gatsby-theme-aoi@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@cieloazul310/gatsby-theme-aoi@npm:3.1.0"
   dependencies:
-    "@cieloazul310/gatsby-theme-aoi-components": ^3.0.1
-    "@cieloazul310/gatsby-theme-aoi-layout": ^3.0.1
-    "@cieloazul310/gatsby-theme-aoi-top-layout": ^3.0.1
-    "@cieloazul310/gatsby-theme-aoi-utils": ^3.0.1
+    "@cieloazul310/gatsby-theme-aoi-components": ^3.1.0
+    "@cieloazul310/gatsby-theme-aoi-layout": ^3.1.0
+    "@cieloazul310/gatsby-theme-aoi-top-layout": ^3.1.0
+    "@cieloazul310/gatsby-theme-aoi-utils": ^3.1.0
     gatsby-plugin-emotion: ^8.7.0
   peerDependencies:
     "@emotion/react": ^11.0.0
@@ -3075,7 +3075,7 @@ __metadata:
     gatsby: ^5.0.0
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 412dffc29178c60a3ed00d1f6ef8dac09b150ac70d73b1162fdc793a7437bbbb6e737f9d17a779f6cbd073d37870283945c8e15ab1c3b9f5b435051c5ac1fc04
+  checksum: 7c2e72051858e93880a3e518a6ce05634e6e3f0e87103f85a1ce0d2b2d2b271087d97c4b3c705c1929c86254efbfbbe17b237e4b3abe7da94a7050bbc7c4dbd7
   languageName: node
   linkType: hard
 
@@ -22294,8 +22294,8 @@ __metadata:
   dependencies:
     "@babel/core": ^7.21.0
     "@babel/preset-typescript": ^7.21.0
-    "@cieloazul310/gatsby-theme-aoi": ^3.0.1
-    "@cieloazul310/gatsby-theme-aoi-blog-components": ^3.0.1
+    "@cieloazul310/gatsby-theme-aoi": ^3.1.0
+    "@cieloazul310/gatsby-theme-aoi-blog-components": ^3.1.0
     "@emotion/react": ^11.10.6
     "@emotion/styled": ^11.10.6
     "@mui/icons-material": ^5.11.11
