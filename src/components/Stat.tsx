@@ -35,21 +35,23 @@ export function Stat({ icon, value, label, title }: StatProps) {
   }, [inView]);
   return (
     <Grid item xs={4} ref={ref}>
-      <Box display="flex" alignItems="center">
-        <Typography display="flex" py={1} px={0.5} variant="h5" component="div">
-          {icon}
-        </Typography>
-        <Typography variant="body2" component="span">
-          {title}
-        </Typography>
-      </Box>
-      <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'flex-end', alignItems: 'baseline' }}>
-        <Typography variant="h5" component="em">
-          {inView ? <StatCore value={value} disableAnimation={Boolean(triggered)} /> : <span>0</span>}
-        </Typography>
-        <Typography component="span" ml=".5em">
-          {label}
-        </Typography>
+      <Box px={{ xs: 0, sm: 4, md: 8 }}>
+        <Box display="flex" alignItems="center">
+          <Typography display="flex" pr={0.5} variant="h5" component="span">
+            {icon}
+          </Typography>
+          <Typography variant="body2" component="span">
+            {title}
+          </Typography>
+        </Box>
+        <Box sx={{ display: 'flex', flexGrow: 1, justifyContent: 'flex-end', alignItems: 'baseline' }}>
+          <Typography component="em" fontSize={{ xs: 'h5.fontSize', sm: 'h5.fontSize', md: 'h4.fontSize' }}>
+            {inView ? <StatCore value={value} disableAnimation={Boolean(triggered)} /> : <span>0</span>}
+          </Typography>
+          <Typography component="span" ml=".5em">
+            {label}
+          </Typography>
+        </Box>
       </Box>
     </Grid>
   );

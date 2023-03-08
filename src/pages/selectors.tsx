@@ -41,13 +41,13 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
       items={allSelectors}
       getTitle={({ name }) => name}
       getTabTitle={({ name, tunesCount }) => `${name} ${tunesCount}`}
-      getCounterText={({ tunesCount, programsCount }) => `${tunesCount}曲/${programsCount}回`}
+      getCounterText={({ tunesCount, programsCount }) => `${tunesCount}曲 / ${programsCount}回`}
       stateFunction={(state) => state?.selector}
       swipeableViewsActions={actionCallbacks}
     >
       {allSelectors.map(({ name, tunesCount, programsCount, programs }) => (
         <SectionWrapper component="article" key={name}>
-          <Jumbotron component="header" title={`${name}の選曲`} footerText={`${tunesCount}曲/${programsCount}回`} />
+          <Jumbotron component="header" title={`${name}の選曲`} footerText={`${tunesCount}曲 / ${programsCount}回`} />
           <Section component="main">
             <LazyViewer programs={programs} divisor={15} onSeem={onSeem} />
           </Section>

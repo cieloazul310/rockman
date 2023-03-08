@@ -57,7 +57,7 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
               component="header"
               title={node.title}
               headerText={node.year}
-              footerText={`${node.tunes.filter((tune) => tune.program.length).length}/${node.tunes.length}曲`}
+              footerText={`${node.tunes.filter((tune) => tune.program.length).length} / ${node.tunes.length}曲`}
             />
             <Section component="main">
               <Article maxWidth="md">
@@ -93,12 +93,12 @@ export function Head() {
 
 export const query = graphql`
   query TakeOff {
-    albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }) {
+    albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }, sort: { albumIdNum: ASC }) {
       nodes {
         ...albumItem
       }
     }
-    others: allSpitzAlbum(filter: { albumIdNum: { gte: 100 } }) {
+    others: allSpitzAlbum(filter: { albumIdNum: { gte: 100 } }, sort: { albumIdNum: ASC }) {
       nodes {
         ...albumItem
       }
