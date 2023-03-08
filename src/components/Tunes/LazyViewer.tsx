@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
+import { SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
 import { useDividedPrograms } from '../../utils/useDividedArray';
 import type { Program, TuneItemFragment } from '../../../types';
@@ -53,23 +54,27 @@ type LazyViewerProps = {
 function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: LazyViewerProps) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
-    return dividedItems.map((dividedItem, index) =>
-      index === 0 ? (
-        <div key={dividedItem[0].id}>
-          {dividedItem.map((program) => (
-            <TunesByProgram program={program} key={program?.id} />
-          ))}
-        </div>
-      ) : (
+    return dividedItems.map((dividedItem, index) => {
+      if (index === 0)
+        return (
+          <SectionWrapper spacing={1} key={dividedItem[0].id}>
+            {dividedItem.map((program) => (
+              <TunesByProgram program={program} key={program?.id} />
+            ))}
+          </SectionWrapper>
+        );
+      return (
         <DisplayOnScreen key={dividedItem[0].id} margin={40} onSeem={onSeem}>
-          {dividedItem.map((program) => (
-            <TunesByProgram program={program} key={program?.id} />
-          ))}
+          <SectionWrapper spacing={1}>
+            {dividedItem.map((program) => (
+              <TunesByProgram program={program} key={program?.id} />
+            ))}
+          </SectionWrapper>
         </DisplayOnScreen>
-      )
-    );
+      );
+    });
   }, [dividedItems, onSeem]);
-  return <div>{renderItems}</div>;
+  return <SectionWrapper spacing={1}>{renderItems}</SectionWrapper>;
 }
 
 LazyViewer.defaultProps = {

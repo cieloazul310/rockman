@@ -865,6 +865,51 @@
       index: 13
       title: ブランケット
 
+- id: al17
+  albumIdNum: 22
+  year: 2023
+  title: ひみつスタジオ
+  tunes:
+    - id: "002201"
+      index: 1
+      title: i-O（修理のうた）
+    - id: "002202"
+      index: 2
+      title: 跳べ
+    - id: "002203"
+      index: 3
+      title: 大好物
+    - id: "002204"
+      index: 4
+      title: 美しい鰭
+    - id: "002205"
+      index: 5
+      title: さびしくなかった
+    - id: "002206"
+      index: 6
+      title: オバケのロックバンド
+    - id: "002207"
+      index: 7
+      title: 手鞠
+    - id: "002208"
+      index: 8
+      title: 未来未来
+    - id: "002209"
+      index: 9
+      title: 紫の夜を越えて
+    - id: "002210"
+      index: 10
+      title: Sandie
+    - id: "002211"
+      index: 11
+      title: ときめきpart1
+    - id: "002212"
+      index: 12
+      title: 讃歌
+    - id: "002213"
+      index: 13
+      title: めぐりめぐって
+
 - id: sc01
   albumIdNum: 101
   year: 2006
@@ -879,6 +924,7 @@
     - id: "010115"
       index: 15
       title: スカーレット
+
 - id: sc02
   albumIdNum: 102
   year: 2006
@@ -893,6 +939,7 @@
     - id: "010208"
       index: 8
       title: 遥か
+
 - id: sc03
   albumIdNum: 103
   year: 2017
@@ -913,6 +960,7 @@
     - id: "010315"
       index: 15
       title: 1987→
+
 - id: sp0100
   albumIdNum: 151
   year: 2021
@@ -930,6 +978,7 @@
     - id: "015117"
       index: 17
       title: 死にもの狂いのカゲロウを見ていた
+
 - id: sg08
   albumIdNum: 208
   year: 1994
@@ -938,6 +987,7 @@
     - id: "020802"
       index: 2
       title: ベビーフェイス
+
 - id: sg15
   albumIdNum: 215
   year: 1997
@@ -946,6 +996,7 @@
     - id: "021502"
       index: 2
       title: うめぼし(Live Version)
+
 - id: sg20
   albumIdNum: 220
   year: 1999
@@ -957,6 +1008,7 @@
     - id: "022003"
       index: 3
       title: 愛のしるし（LIVE'98 version）
+
 - id: sg22
   albumIdNum: 222
   year: 2000
@@ -965,6 +1017,7 @@
     - id: "022202"
       index: 2
       title: 放浪カモメはどこまでも
+
 - id: sg25
   albumIdNum: 225
   year: 2001
@@ -976,6 +1029,7 @@
     - id: "022504"
       index: 4
       title: 稲穂
+
 - id: sg36
   albumIdNum: 236
   year: 2010
@@ -987,6 +1041,7 @@
     - id: "023704"
       index: 4
       title: つぐみ(Live from SPITZ JAMBOREE TOUR 2010)
+
 - id: sg37
   albumIdNum: 237
   year: 2010
@@ -998,6 +1053,7 @@
     - id: "023704"
       index: 4
       title: シロクマ (Live from SPITZ JAMBOREE TOUR 2010)
+
 - id: sg42
   albumIdNum: 242
   year: 2019
@@ -1006,6 +1062,7 @@
     - id: "024202"
       index: 2
       title: 悪役
+
 - id: sg43
   albumIdNum: 243
   year: 2020
@@ -1014,22 +1071,37 @@
     - id: "024301"
       index: 1
       title: 猫ちぐら
-- id: sg44
-  albumIdNum: 244
-  year: 2021
-  title: 紫の夜を越えて
+
+#- id: sg44
+#  albumIdNum: 244
+#  year: 2021
+#  title: 紫の夜を越えて
+#  tunes:
+#    - id: "024401"
+#      index: 1
+#      title: 紫の夜を越えて
+
+#- id: sg45
+#  albumIdNum: 245
+#  year: 2021
+#  title: 大好物
+#  tunes:
+#    - id: "024501"
+#      index: 1
+#      title: 大好物
+
+- id: sg46
+  albumIdNum: 246
+  year: 2023
+  title: 美しい鰭
   tunes:
-    - id: "024401"
-      index: 1
-      title: 紫の夜を越えて
-- id: sg45
-  albumIdNum: 245
-  year: 2021
-  title: 大好物
-  tunes:
-    - id: "024501"
-      index: 1
-      title: 大好物
+    - id: "024602"
+      index: 2
+      title: 祈りはきっと
+    - id: "024603"
+      index: 3
+      title: アケホノ
+
 - id: tr200212
   albumIdNum: 3002
   year: 2002
@@ -1038,6 +1110,7 @@
     - id: "300202"
       index: 2
       title: 14番目の月
+
 - id: tr200904
   albumIdNum: 3009
   year: 2009
@@ -1046,6 +1119,7 @@
     - id: "300910"
       index: 10
       title: 14番目の月 200Qmix
+
 - id: tr201608
   albumIdNum: 3016
   year: 2016

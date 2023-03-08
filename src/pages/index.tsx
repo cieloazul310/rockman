@@ -2,6 +2,7 @@ import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
+import Container from '@mui/material/Container';
 import { Section, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
 import Jumbotron from '../components/Jumbotron';
@@ -22,10 +23,10 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
   return (
     <Layout>
       <Jumbotron component="header" maxWidth="md" title="ロック大陸漫遊記 プレイリスト集" />
-      <Section>
-        <Article maxWidth="md">
+      <Section py={2}>
+        <Container maxWidth="md">
           <Stats />
-        </Article>
+        </Container>
       </Section>
       <Section>
         <Article maxWidth="md">
