@@ -1,43 +1,33 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
-import { Jumbotron, Section, SectionDivider, Article, Paragraph, ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import Container from '@mui/material/Container';
+import { Section, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
+import Jumbotron from '../components/Jumbotron';
 import Seo from '../components/Seo';
-import ProgramItem from '../components/ProgramItem';
-import ProgramTop25 from '../components/ProgramTop25';
+import ProgramItem from '../components/ProgramList/Item';
+import ProgramTop25 from '../components/ArtistItem/Top25';
 import Stats from '../components/Stat';
 import { AdInSectionDivider } from '../components/Ads';
-import type { ProgramBrowser } from '../../types';
+import type { Program } from '../../types';
 
 type IndexPageQueryData = {
   allProgram: {
-    edges: {
-      node: Pick<ProgramBrowser, 'id' | 'title' | 'week' | 'date' | 'slug' | 'image'>;
-    }[];
+    nodes: Pick<Program, 'id' | 'title' | 'week' | 'date' | 'slug' | 'image'>[];
   };
 };
 
 function IndexPage({ data }: PageProps<IndexPageQueryData>) {
-  const image = data.allProgram.edges.reduce<string | null>((accum, curr) => accum ?? curr.node.image, null);
-
   return (
     <Layout>
-      <Jumbotron bgImage={image ?? undefined} maxWidth="md">
-        <Typography variant="h5" component="h2" gutterBottom fontWeight="bold">
-          ロック大陸漫遊記 プレイリスト集
-        </Typography>
-        <Typography variant="body1">since 2018</Typography>
-      </Jumbotron>
-      <SectionDivider />
-      <Section>
-        <Article maxWidth="md">
+      <Jumbotron component="header" maxWidth="md" title="ロック大陸漫遊記 プレイリスト集" />
+      <Section py={2}>
+        <Container maxWidth="md">
           <Stats />
-        </Article>
+        </Container>
       </Section>
-      <SectionDivider />
       <Section>
         <Article maxWidth="md">
           <Paragraph>
@@ -50,22 +40,19 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
           <Paragraph>
             <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
             <br />
-            <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
+            <AppLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</AppLink>
           </Paragraph>
           <Paragraph>
             全国38局放送時間一覧
             <br />
-            <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
-              https://www.tfm.co.jp/manyuki/index.php?catid=3350
-            </ExternalLink>
+            <AppLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">https://www.tfm.co.jp/manyuki/index.php?catid=3350</AppLink>
           </Paragraph>
         </Article>
       </Section>
-      <SectionDivider />
       <Section>
         <Article maxWidth="md" disableGutters>
           <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>
-            {data.allProgram.edges.map(({ node }, index, arr) => (
+            {data.allProgram.nodes.map((node, index, arr) => (
               <ProgramItem key={node.week} program={node} last={index === arr.length - 1} />
             ))}
           </List>
@@ -86,17 +73,15 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allProgram(sort: { fields: week, order: DESC }, limit: 8) {
-      edges {
-        node {
-          id
-          title
-          week
-          date(formatString: "YYYY-MM-DD")
-          slug
-          image
-        }
+  {
+    allProgram(sort: { week: DESC }, limit: 8) {
+      nodes {
+        id
+        title
+        week
+        date(formatString: "YYYY-MM-DD")
+        slug
+        image
       }
     }
   }

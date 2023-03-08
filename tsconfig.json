@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "lib": ["dom", "es2017"],
     "allowJs": true,
     "checkJs": true,
     "jsx": "react",
@@ -16,5 +13,15 @@
     "emitDecoratorMetadata": true,
     "noEmit": true,
     "skipLibCheck": true
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "CommonJS",
+      "baseUrl": ".",
+      "paths": {
+        "@reach/router": ["node_modules/@gatsbyjs/reach-router"]
+      }
+    }
   }
 }

@@ -3,12 +3,12 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import TextSpan from './TextSpan';
-import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune } from '../../types';
+import type { Program, SpitzAlbum, SpitzTune } from '../../types';
 
 type TakeOffAlbumProps = {
-  album: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+  album: Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
     tunes: (SpitzTune & {
-      program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
     })[];
   };
 };
@@ -30,7 +30,7 @@ function TakeOffAlbum({ album }: TakeOffAlbumProps) {
                   <TextSpan label={program.date} />
                 </Typography>
                 <Typography variant="body2" fontWeight="bold">
-                  <AppLink to={program.slug}>{program.title}</AppLink>
+                  <AppLink href={program.slug}>{program.title}</AppLink>
                 </Typography>
               </Box>
             ))}
@@ -45,20 +45,18 @@ export default TakeOffAlbum;
 
 type TakeOffOthersProps = {
   albums: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
 };
 
 export function TakeOffOthers({ albums }: TakeOffOthersProps) {
   return (
     <Box py={1}>
-      {albums.edges.map(({ node }) => (
+      {albums.nodes.map((node) => (
         <Box key={node.id} py={2}>
           <Box px={1}>
             <Typography variant="body2" color="textSecondary">

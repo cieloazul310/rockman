@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useAppState } from '../@cieloazul310/gatsby-theme-aoi-top-layout/utils/AppStateContext';
-import type { ProgramBrowser, TuneBrowser } from '../../types';
+import type { Program, Tune } from '../../types';
 
 /** usage
  * const sorter = useSorter();
@@ -11,21 +11,21 @@ export default function useSorter(): (value: number) => number {
   return React.useCallback((value: number) => (sort === 'older' ? value : -value), [sort]);
 }
 
-export function useSortProgram(): (a: Pick<ProgramBrowser, 'week'>, b: Pick<ProgramBrowser, 'week'>) => number {
+export function useSortProgram(): (a: Pick<Program, 'week'>, b: Pick<Program, 'week'>) => number {
   const sorter = useSorter();
-  return (a: Pick<ProgramBrowser, 'week'>, b: Pick<ProgramBrowser, 'week'>) => sorter(a.week - b.week);
+  return (a: Pick<Program, 'week'>, b: Pick<Program, 'week'>) => sorter(a.week - b.week);
 }
 
-export function useSortProgramNode(): (a: { node: Pick<ProgramBrowser, 'week'> }, b: { node: Pick<ProgramBrowser, 'week'> }) => number {
+export function useSortProgramNode(): (a: Pick<Program, 'week'>, b: Pick<Program, 'week'>) => number {
   const sorter = useSorter();
-  return (a: { node: Pick<ProgramBrowser, 'week'> }, b: { node: Pick<ProgramBrowser, 'week'> }) => sorter(a.node.week - b.node.week);
+  return (a: Pick<Program, 'week'>, b: Pick<Program, 'week'>) => sorter(a.week - b.week);
 }
 
 export function useSortPlaylist(): (
-  a: Pick<TuneBrowser, 'week' | 'indexInWeek'> | undefined,
-  b: Pick<TuneBrowser, 'week' | 'indexInWeek'> | undefined
+  a: Pick<Tune, 'week' | 'indexInWeek'> | undefined,
+  b: Pick<Tune, 'week' | 'indexInWeek'> | undefined
 ) => number {
   const sorter = useSorter();
-  return (a: Pick<TuneBrowser, 'week' | 'indexInWeek'> | undefined, b: Pick<TuneBrowser, 'week' | 'indexInWeek'> | undefined) =>
+  return (a: Pick<Tune, 'week' | 'indexInWeek'> | undefined, b: Pick<Tune, 'week' | 'indexInWeek'> | undefined) =>
     sorter((a?.week ?? 0) - (b?.week ?? 0) || (a?.indexInWeek ?? 0) - (b?.indexInWeek ?? 0));
 }

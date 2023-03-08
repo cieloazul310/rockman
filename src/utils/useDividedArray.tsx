@@ -1,11 +1,11 @@
 import * as React from 'react';
 import type { TuneProps } from '../components/Tune';
 import { useSortProgram } from './useSorter';
-import type { ProgramBrowser, TuneFields } from '../../types';
+import type { Program, TuneItemFragment } from '../../types';
 
 function getPlaylistLength<
-  T extends Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-    playlist: TuneFields[];
+  T extends Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneItemFragment[];
   }
 >(programs: T[]): number {
   return programs.reduce((accum, curr) => (curr?.playlist ? accum + curr.playlist.length : accum), 0);
@@ -25,8 +25,8 @@ export default function useDividedArray<T>(items: T[], divisor: number): T[][] {
 }
 
 export function useDividedPrograms<
-  T extends Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
-    playlist: TuneFields[];
+  T extends Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+    playlist: TuneItemFragment[];
   }
 >(programs: T[], divisor: number, filter: (tune: TuneProps['tune']) => boolean = () => true): T[][] {
   const sortProgram = useSortProgram();

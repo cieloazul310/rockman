@@ -10,7 +10,7 @@ export default function useFragments() {
       date(formatString: "YYYY-MM-DD")
       image
     }
-    fragment tuneFields on Tune {
+    fragment tuneItem on Tune {
       id
       indexInWeek
       week

@@ -37,7 +37,7 @@ export function useAllNations() {
   const { allArtist } = useStaticQuery<AllNationQueryData>(graphql`
     query AllNations {
       allArtist(filter: { name: { ne: "スピッツ" } }) {
-        group(field: nation) {
+        group(field: { nation: SELECT }) {
           fieldValue
           totalCount
         }

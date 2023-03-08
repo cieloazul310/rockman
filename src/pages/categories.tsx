@@ -2,13 +2,13 @@ import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
 import Container from '@mui/material/Container';
 import List from '@mui/material/List';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import ProgramItem from '../components/ProgramItem';
-import { useSortProgramNode } from '../utils/useSorter';
-import type { ProgramList } from '../../types';
+import ProgramItem from '../components/ProgramList/Item';
+import { useSortProgram } from '../utils/useSorter';
+import type { ProgramListFragment } from '../../types';
 
 type WindowState = {
   category?: string;
@@ -19,9 +19,7 @@ type CategoriesPageQueryData = {
     group: {
       fieldValue: string;
       totalCount: number;
-      edges: {
-        node: ProgramList;
-      }[];
+      nodes: ProgramListFragment[];
     }[];
   };
 };
@@ -30,32 +28,31 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
   const categories = React.useMemo(() => {
     return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount || a.fieldValue.localeCompare(b.fieldValue));
   }, [data]);
-  const sortProgramNode = useSortProgramNode();
+  const sortProgram = useSortProgram();
 
   return (
-    <TabPageTemplate<typeof categories[number], WindowState>
+    <TabPageTemplate<(typeof categories)[number], WindowState>
       title="テーマ"
       description="ロック大陸漫遊記の放送回を「アーティスト特集」「スピッツメンバーと漫遊記」など特定のテーマで分類したページです。"
       items={categories}
       getTitle={({ fieldValue }) => fieldValue}
-      getTabTitle={({ fieldValue, edges }) => `${fieldValue} ${edges.length}`}
-      getCounterText={({ edges }) => `${edges.length}回`}
+      getTabTitle={({ fieldValue, nodes }) => `${fieldValue} ${nodes.length}`}
+      getCounterText={({ nodes }) => `${nodes.length}回`}
       stateFunction={(state) => state?.category}
     >
       {categories.map((category) => (
-        <React.Fragment key={category.fieldValue}>
-          <Jumbotron title={category.fieldValue} footerText={`全${category.edges.length}回`} />
-          <SectionDivider />
-          <Section>
+        <SectionWrapper key={category.fieldValue} component="article">
+          <Jumbotron title={category.fieldValue} footerText={`全${category.nodes.length}回`} component="header" />
+          <Section component="main">
             <Container maxWidth="md" disableGutters>
               <List>
-                {category.edges.sort(sortProgramNode).map(({ node }, i) => (
-                  <ProgramItem key={node.id} program={node} last={i === category.edges.length - 1} />
+                {category.nodes.sort(sortProgram).map((node, i) => (
+                  <ProgramItem key={node.id} program={node} last={i === category.nodes.length - 1} />
                 ))}
               </List>
             </Container>
           </Section>
-        </React.Fragment>
+        </SectionWrapper>
       ))}
     </TabPageTemplate>
   );
@@ -68,15 +65,13 @@ export function Head() {
 }
 
 export const query = graphql`
-  query {
-    allProgram(sort: { fields: week, order: ASC }, filter: { categories: { ne: "" } }) {
-      group(field: categories) {
+  {
+    allProgram(sort: { week: ASC }, filter: { categories: { ne: "" } }) {
+      group(field: { categories: SELECT }) {
         totalCount
         fieldValue
-        edges {
-          node {
-            ...programList
-          }
+        nodes {
+          ...programList
         }
       }
     }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { ExternalLink } from '@cieloazul310/gatsby-theme-aoi';
+import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 
 function DrawerFooter() {
   return (
@@ -20,14 +20,12 @@ function DrawerFooter() {
       <Typography variant="body2" paragraph>
         <strong>SPITZ 草野マサムネのロック大陸漫遊記</strong>
         <br />
-        <ExternalLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</ExternalLink>
+        <AppLink href="https://www.tfm.co.jp/manyuki/">https://www.tfm.co.jp/manyuki/</AppLink>
       </Typography>
       <Typography variant="body2" paragraph>
         全国38局放送時間一覧
         <br />
-        <ExternalLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
-          https://www.tfm.co.jp/manyuki/index.php?catid=3350
-        </ExternalLink>
+        <AppLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">https://www.tfm.co.jp/manyuki/index.php?catid=3350</AppLink>
       </Typography>
     </Box>
   );

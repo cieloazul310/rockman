@@ -3,20 +3,20 @@ import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import { ProgramByTune } from '../components/TunesByProgram';
+import ProgramByTune from '../components/Tunes/ProgramByTune';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
-import type { ProgramBrowser, TuneFields } from '../../types';
+import type { Program, TuneItemFragment } from '../../types';
 
 type TimeMachinePageQueryData = {
   allTunes: {
     totalCount: number;
-    tunes: (TuneFields & {
-      program: Pick<ProgramBrowser, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+    tunes: (TuneItemFragment & {
+      program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
     })[];
   };
 };
@@ -27,7 +27,7 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
   const sorter = useSorter();
 
   return (
-    <TabPageTemplate<typeof items[number]>
+    <TabPageTemplate<(typeof items)[number]>
       title="ちょっぴりタイムマシン"
       description="ちょっぴりタイムマシンは、放送の最後にオンエアされる「最近ラジオでかかってない少し前の日本の楽曲を掘り起こそう」というコーナーです。ちょっぴりタイムマシンで放送された楽曲を年代別に分類したページです。"
       items={items}
@@ -35,16 +35,15 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
       getCounterText={(item) => `${getClusteredLength(item)}曲`}
     >
       {items.map((fifth) => (
-        <React.Fragment key={fifth.value.toString()}>
-          <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} />
-          <SectionDivider />
-          {[...fifth.items]
-            .sort((a, b) => sorter(a.value - b.value))
-            .map((annu) => (
-              <div key={annu.value}>
-                <Section>
-                  <Container maxWidth="md" disableGutters>
-                    <Box display="flex" alignItems="baseline" borderBottom={1} borderColor="secondary.dark" px={1} my={2}>
+        <SectionWrapper key={fifth.value.toString()} component="article">
+          <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} component="header" />
+          <SectionWrapper spacing={1} component="main">
+            {[...fifth.items]
+              .sort((a, b) => sorter(a.value - b.value))
+              .map((annu) => (
+                <Section key={annu.value} component="article" py={2}>
+                  <Container maxWidth="md">
+                    <Box display="flex" alignItems="baseline" borderBottom={1} borderColor="secondary.dark">
                       <Typography variant="h5" component="h3">
                         {annu.value}年
                       </Typography>
@@ -55,9 +54,9 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
                     <ProgramByTune key={tune.id} tune={tune} />
                   ))}
                 </Section>
-              </div>
-            ))}
-        </React.Fragment>
+              ))}
+          </SectionWrapper>
+        </SectionWrapper>
       ))}
     </TabPageTemplate>
   );
@@ -74,7 +73,7 @@ export const query = graphql`
     allTunes(corner: { eq: "ちょっぴりタイムマシン" }) {
       totalCount
       tunes {
-        ...tuneFields
+        ...tuneItem
         program {
           id
           title

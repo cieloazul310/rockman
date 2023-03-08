@@ -1,40 +1,38 @@
 import * as path from 'path';
 import type { CreatePagesArgs } from 'gatsby';
-import type { Program, ArtistBrowser } from '../../types';
+import type { Program, Artist } from '../../types';
 
 type CreatePagesQueryData = {
   allProgram: {
-    edges: {
-      node: Pick<Program, 'week' | 'title' | 'slug' | 'date'>;
-    }[];
+    nodes: Pick<Program, 'week' | 'title' | 'slug' | 'date'>[];
   };
   allArtist: {
-    edges: {
-      node: Pick<ArtistBrowser, 'name' | 'slug'>;
-    }[];
+    nodes: Pick<Artist, 'name' | 'slug'>[];
   };
 };
 
+/**
+ * createPages で何をするか
+ *
+ * 1. 放送回ごとのページを作成
+ * 2. アーティストごとのページを作成
+ */
 export default async function createPages({ graphql, actions, reporter }: CreatePagesArgs) {
   const { createPage } = actions;
   const result = await graphql<CreatePagesQueryData>(`
-    query {
-      allProgram(sort: { fields: week, order: ASC }) {
-        edges {
-          node {
-            week
-            title
-            slug
-            date(formatString: "YYYY-MM-DD")
-          }
+    {
+      allProgram(sort: { week: ASC }) {
+        nodes {
+          week
+          title
+          slug
+          date(formatString: "YYYY-MM-DD")
         }
       }
-      allArtist(sort: { fields: sortName, order: ASC }) {
-        edges {
-          node {
-            name
-            slug
-          }
+      allArtist(sort: { sortName: ASC }) {
+        nodes {
+          name
+          slug
         }
       }
     }
@@ -46,24 +44,24 @@ export default async function createPages({ graphql, actions, reporter }: Create
 
   const { allProgram, allArtist } = result.data;
 
-  allProgram.edges.forEach(({ node }, index) => {
-    const previous = index === 0 ? null : allProgram.edges[index - 1].node;
-    const next = index === allProgram.edges.length - 1 ? null : allProgram.edges[index + 1].node;
+  allProgram.nodes.forEach((node, index) => {
+    const previous = index === 0 ? null : allProgram.nodes[index - 1];
+    const next = index === allProgram.nodes.length - 1 ? null : allProgram.nodes[index + 1];
 
     createPage({
       path: node.slug,
-      component: path.resolve('./src/templates/program.tsx'),
+      component: path.resolve('./src/templates/program/index.tsx'),
       context: { previous: previous?.slug ?? null, next: next?.slug ?? null, slug: node.slug },
     });
   });
 
-  allArtist.edges.forEach(({ node }, index) => {
-    const previous = index === 0 ? null : allArtist.edges[index - 1].node;
-    const next = index === allArtist.edges.length - 1 ? null : allArtist.edges[index + 1].node;
+  allArtist.nodes.forEach((node, index) => {
+    const previous = index === 0 ? null : allArtist.nodes[index - 1];
+    const next = index === allArtist.nodes.length - 1 ? null : allArtist.nodes[index + 1];
 
     createPage({
       path: node.slug,
-      component: path.resolve('./src/templates/artist.tsx'),
+      component: path.resolve('./src/templates/artist/index.tsx'),
       context: {
         index,
         previous: previous?.slug ?? null,

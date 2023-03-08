@@ -3,10 +3,11 @@ import Typography from '@mui/material/Typography';
 import Tabs from '@mui/material/Tabs';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Article, Paragraph, Section, SectionDivider, TabPane } from '@cieloazul310/gatsby-theme-aoi';
+import { Article, Paragraph, Section, SectionWrapper, TabPane } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from './TabLayout';
 import Jumbotron from '../components/Jumbotron';
 import Tab from '../components/MuiTab';
@@ -83,25 +84,28 @@ function TabPageTemplate<T, S = null>({
     >
       <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={swipeableViewsActions}>
         <TabPane currentTab={tab} index={0} renderNeighbor>
-          <Jumbotron title={title} />
-          <SectionDivider />
-          <Section>
-            <Article maxWidth="md">
-              <Paragraph>{description}</Paragraph>
-              <List>
-                {items.map((item, index) => (
-                  <ListItem key={getTitle(item)} button onClick={onItemClicked(index + 1)}>
-                    <ListItemText primary={getTitle(item)} secondary={getSecondaryText ? getSecondaryText(item) : undefined} />
-                    {getCounterText(item) ? (
-                      <Typography variant="button" component="span">
-                        {getCounterText(item)}
-                      </Typography>
-                    ) : null}
-                  </ListItem>
-                ))}
-              </List>
-            </Article>
-          </Section>
+          <SectionWrapper component="article">
+            <Jumbotron component="header" title={title} />
+            <Section component="main">
+              <Article maxWidth="md">
+                <Paragraph>{description}</Paragraph>
+                <List>
+                  {items.map((item, index) => (
+                    <ListItem key={getTitle(item)} disablePadding>
+                      <ListItemButton onClick={onItemClicked(index + 1)}>
+                        <ListItemText primary={getTitle(item)} secondary={getSecondaryText ? getSecondaryText(item) : undefined} />
+                        {getCounterText(item) ? (
+                          <Typography variant="button" component="span">
+                            {getCounterText(item)}
+                          </Typography>
+                        ) : null}
+                      </ListItemButton>
+                    </ListItem>
+                  ))}
+                </List>
+              </Article>
+            </Section>
+          </SectionWrapper>
         </TabPane>
         {children.map((element, index) => (
           // eslint-disable-next-line react/no-array-index-key

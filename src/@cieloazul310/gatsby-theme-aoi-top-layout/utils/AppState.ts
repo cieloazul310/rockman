@@ -9,7 +9,7 @@ export const initialAppState: AppState = {
 };
 
 export function useInitialAppState() {
-  return initialAppState;
+  // noop
 }
 
 export type Action = { type: 'TOGGLE_SORT' };

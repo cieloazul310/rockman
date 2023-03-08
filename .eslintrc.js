@@ -3,15 +3,8 @@ module.exports = {
     __PATH_PREFIX__: true,
   },
   parser: '@typescript-eslint/parser',
-  extends: [
-    'airbnb',
-    'airbnb-typescript',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
-    'prettier',
-    'plugin:prettier/recommended',
-  ],
-  plugins: ['react', '@typescript-eslint', 'jest'],
+  extends: ['airbnb', 'airbnb-typescript', 'plugin:jest/recommended', 'prettier', 'plugin:prettier/recommended'],
+  plugins: ['jest'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

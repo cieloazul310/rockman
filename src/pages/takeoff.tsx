@@ -1,36 +1,32 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper, Article } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
-import { ProgramByTune } from '../components/TunesByProgram';
-import type { ProgramBrowser, SpitzAlbumBrowser, SpitzTune, TuneFields } from '../../types';
+import ProgramByTune from '../components/Tunes/ProgramByTune';
+import type { Program, SpitzAlbum, SpitzTune, TuneItemFragment } from '../../types';
 
 type TakeOffQueryData = {
   albums: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
   others: {
-    edges: {
-      node: Pick<SpitzAlbumBrowser, 'id' | 'albumIdNum' | 'title' | 'year'> & {
-        tunes: (SpitzTune & {
-          program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
-        })[];
-      };
-    }[];
+    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+      tunes: (SpitzTune & {
+        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      })[];
+    })[];
   };
   notSpitz: {
     totalCount: number;
-    tunes: (TuneFields & {
-      program: Pick<ProgramBrowser, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>;
+    tunes: (TuneItemFragment & {
+      program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>;
     })[];
   };
 };
@@ -38,7 +34,7 @@ type TakeOffQueryData = {
 function TakeOff({ data }: PageProps<TakeOffQueryData>) {
   const { albums, others, notSpitz } = data;
   const items: { title: string; oaLength?: number; tunesLength?: number }[] = React.useMemo(() => {
-    const albumItem = albums.edges.map(({ node }) => ({
+    const albumItem = albums.nodes.map((node) => ({
       title: node.title,
       oaLength: node.tunes.filter((tune) => tune.program.length).length,
       tunesLength: node.tunes.length,
@@ -55,37 +51,35 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
       getCounterText={({ oaLength, tunesLength }) => (oaLength && tunesLength ? `${oaLength}/${tunesLength}曲` : undefined)}
     >
       {[
-        ...albums.edges.map(({ node }) => (
-          <React.Fragment key={node.id}>
+        ...albums.nodes.map((node) => (
+          <SectionWrapper component="article" key={node.id}>
             <Jumbotron
+              component="header"
               title={node.title}
               headerText={node.year}
-              footerText={`${node.tunes.filter((tune) => tune.program.length).length}/${node.tunes.length}曲`}
+              footerText={`${node.tunes.filter((tune) => tune.program.length).length} / ${node.tunes.length}曲`}
             />
-            <SectionDivider />
-            <Section>
+            <Section component="main">
               <Article maxWidth="md">
                 <TakeOffAlbum album={node} />
               </Article>
             </Section>
-          </React.Fragment>
+          </SectionWrapper>
         )),
-        <React.Fragment key="others">
-          <Jumbotron title="その他の楽曲" />
-          <SectionDivider />
-          <Section>
+        <SectionWrapper key="others" component="article">
+          <Jumbotron title="その他の楽曲" component="header" />
+          <Section component="main">
             <Article maxWidth="md">
               <TakeOffOthers albums={others} />
             </Article>
           </Section>
-        </React.Fragment>,
-        <React.Fragment key="notSpitz">
-          <Jumbotron title="スピッツ以外の楽曲" />
-          <SectionDivider />
+        </SectionWrapper>,
+        <SectionWrapper key="notSpitz" component="article">
+          <Jumbotron title="スピッツ以外の楽曲" component="header" />
           {notSpitz.tunes.map((tune) => (
             <ProgramByTune key={tune.id} tune={tune} />
           ))}
-        </React.Fragment>,
+        </SectionWrapper>,
       ]}
     </TabPageTemplate>
   );
@@ -99,24 +93,20 @@ export function Head() {
 
 export const query = graphql`
   query TakeOff {
-    albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }) {
-      edges {
-        node {
-          ...albumItem
-        }
+    albums: allSpitzAlbum(filter: { albumIdNum: { lte: 100 } }, sort: { albumIdNum: ASC }) {
+      nodes {
+        ...albumItem
       }
     }
-    others: allSpitzAlbum(filter: { albumIdNum: { gte: 100 } }) {
-      edges {
-        node {
-          ...albumItem
-        }
+    others: allSpitzAlbum(filter: { albumIdNum: { gte: 100 } }, sort: { albumIdNum: ASC }) {
+      nodes {
+        ...albumItem
       }
     }
     notSpitz: allTunes(corner: { eq: "漫遊前の一曲" }, artist: { ne: "スピッツ" }) {
       totalCount
       tunes {
-        ...tuneFields
+        ...tuneItem
         program {
           id
           week
