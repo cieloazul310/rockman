@@ -76,8 +76,10 @@ export function TuneBare({
     <Box position="relative">
       <Avatar
         sx={{
-          width: ({ spacing }) => ({ xs: spacing(13), sm: spacing(15) }),
-          height: ({ spacing }) => ({ xs: spacing(13), sm: spacing(15) }),
+          width: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13), md: spacing(15) }),
+          height: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13), md: spacing(15) }),
+          borderRadius: 2,
+          overflow: 'hidden',
         }}
         variant="square"
         src={image}

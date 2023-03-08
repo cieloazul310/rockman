@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import { Section } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
@@ -46,12 +46,12 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
       swipeableViewsActions={actionCallbacks}
     >
       {allSelectors.map(({ name, tunesCount, programsCount, programs }) => (
-        <React.Fragment key={name}>
-          <Jumbotron title={`${name}の選曲`} footerText={`${tunesCount}曲/${programsCount}回`} />
-          <Section>
+        <SectionWrapper component="article" key={name}>
+          <Jumbotron component="header" title={`${name}の選曲`} footerText={`${tunesCount}曲/${programsCount}回`} />
+          <Section component="main">
             <LazyViewer programs={programs} divisor={15} onSeem={onSeem} />
           </Section>
-        </React.Fragment>
+        </SectionWrapper>
       ))}
     </TabPageTemplate>
   );

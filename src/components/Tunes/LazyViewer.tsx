@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useInView } from 'react-intersection-observer';
-import TunesByProgram, { TunesByProgramSkeleton } from './Container';
+import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
 import { useDividedPrograms } from '../../utils/useDividedArray';
 import type { Program, TuneItemFragment } from '../../../types';
 

@@ -1,10 +1,9 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import Skeleton from '@mui/material/Skeleton';
 import { AppLink, Section } from '@cieloazul310/gatsby-theme-aoi';
+import { ProgramTitleBare } from './ProgramTitle';
 import Tune, { TuneBare } from './Item';
 import TextSpan from '../TextSpan';
 import type { Program, TuneItemFragment } from '../../../types';
@@ -23,14 +22,12 @@ function TunesByProgramBare({
   children,
 }: TunesByProgramBareProps) {
   return (
-    <Section>
-      <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
-        <Box py={1}>
-          <Typography color="textSecondary">{headerText}</Typography>
-          <Typography fontWeight="bold">{title}</Typography>
-          {footerText ? <Typography variant="body2">{footerText}</Typography> : null}
-        </Box>
-        {children}
+    <Section py={2}>
+      <Container maxWidth="md">
+        <ProgramTitleBare headerText={headerText} title={title} footerText={footerText} />
+        <Stack spacing={1} component="main">
+          {children}
+        </Stack>
       </Container>
     </Section>
   );
@@ -61,11 +58,9 @@ function TunesByProgram({ program }: TunesByProgramProps) {
       title={<AppLink href={slug}>{title}</AppLink>}
       footerText={subtitle}
     >
-      <Stack spacing={1}>
-        {playlist.map((tune) => (
-          <Tune key={tune.id} tune={tune} />
-        ))}
-      </Stack>
+      {playlist.map((tune) => (
+        <Tune key={tune.id} tune={tune} />
+      ))}
     </TunesByProgramBare>
   );
 }

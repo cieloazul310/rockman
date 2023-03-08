@@ -8,17 +8,17 @@ import SwipeableViews from 'react-swipeable-views';
 import { bindKeyboard } from 'react-swipeable-views-utils';
 import { Section } from '@cieloazul310/gatsby-theme-aoi';
 import { DrawerPageNavigation, PageNavigationContainer, PageNavigationItem } from '@cieloazul310/gatsby-theme-aoi-blog-components';
-import Layout from '../layout';
-import Seo from '../components/Seo';
-import { ArtistPageHeader } from './components/PageHeader';
-import { ArtistTonarinoTab } from './components/TonarinoTab';
-import TunesByProgram from '../components/Tunes/Container';
-import ArtistItemContainer from '../components/ArtistItem/Container';
-import { AdInSectionDivider } from '../components/Ads';
-import { ArtistIcon } from '../icons';
-import { useSortProgram } from '../utils/useSorter';
-import { useArtistDescriptionString } from '../utils/useDescriptionString';
-import type { Artist, Program, MinimumArtist, TuneItemFragment } from '../../types';
+import Layout from '../../layout';
+import Seo from '../../components/Seo';
+import ArtistPageHeader from './PageHeader';
+import ArtistTonarinoTab from './TonarinoTab';
+import TunesByProgram from '../../components/Tunes/TunesByProgram';
+import ArtistItemContainer from '../../components/ArtistItem/Container';
+import { AdInSectionDivider } from '../../components/Ads';
+import { ArtistIcon } from '../../icons';
+import { useSortProgram } from '../../utils/useSorter';
+import { useArtistDescriptionString } from '../../utils/useDescriptionString';
+import type { Artist, Program, MinimumArtist, TuneItemFragment } from '../../../types';
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 

@@ -11,27 +11,21 @@ type JumbotronProps = Omit<AoiJumbotronProps, 'title' | 'disableGradient' | 'max
 };
 
 function Jumbotron({ headerText, footerText, title, image, ...props }: JumbotronProps) {
-  // const { palette } = useTheme();
   return (
     <AoiJumbotron maxWidth="md" {...props}>
       {headerText ? <Typography>{headerText}</Typography> : null}
-      <Typography variant="h5" component="h2" gutterBottom>
+      <Typography
+        variant="h5"
+        component="h2"
+        fontWeight="bold"
+        fontSize={{ xs: 'h5.fontSize', sm: 'h4.fontSize', md: 'h3.fontSize' }}
+        gutterBottom
+      >
         {title}
       </Typography>
       {footerText ? <Typography>{footerText}</Typography> : null}
     </AoiJumbotron>
   );
-  /*
-  return (
-    <AoiJumbotron maxWidth="md" disableGradient={palette.mode === 'light'} bgImage={image} {...props}>
-      {headerText ? <Typography>{headerText}</Typography> : null}
-      <Typography variant="h5" component="h2" gutterBottom>
-        {title}
-      </Typography>
-      {footerText ? <Typography>{footerText}</Typography> : null}
-    </AoiJumbotron>
-  );
-  */
 }
 
 Jumbotron.defaultProps = {
