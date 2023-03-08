@@ -1,14 +1,18 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
+import Container from '@mui/material/Container';
 import type { ComponentMeta } from '@storybook/react';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import Tune, { TuneBare } from '../components/Tunes/Item';
-import TunesByProgram from '../components/Tunes/Container';
+import TunesByProgram from '../components/Tunes/TunesByProgram';
+import ProgramByTune from '../components/Tunes/ProgramByTune';
 import program from './data/program';
+import tunes from './data/tunes';
 
 export default {
   title: 'Tune',
   component: Tune,
-  subcomponents: { TuneBare, TunesByProgram },
+  subcomponents: { TuneBare, TunesByProgram, ProgramByTune },
 } as ComponentMeta<typeof Tune>;
 
 export function Basic() {
@@ -28,20 +32,34 @@ export function Basic() {
 
 export function Program() {
   return (
-    <Stack spacing={1}>
-      {program.playlist.map((tune) => (
-        <Tune key={tune.id} tune={tune} />
-      ))}
-    </Stack>
+    <Section>
+      <Container maxWidth="md">
+        <Stack spacing={1}>
+          {program.playlist.map((tune) => (
+            <Tune key={tune.id} tune={tune} />
+          ))}
+        </Stack>
+      </Container>
+    </Section>
   );
 }
 
 export function ByProgram() {
   return (
-    <Stack spacing={1}>
+    <SectionWrapper spacing={1}>
       <TunesByProgram program={program} />
       <TunesByProgram program={program} />
       <TunesByProgram program={program} />
-    </Stack>
+    </SectionWrapper>
+  );
+}
+
+export function ByTune() {
+  return (
+    <SectionWrapper spacing={2}>
+      {tunes.map((tune) => (
+        <ProgramByTune key={tune.id} tune={tune} />
+      ))}
+    </SectionWrapper>
   );
 }

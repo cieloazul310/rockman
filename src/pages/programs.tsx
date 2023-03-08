@@ -22,8 +22,8 @@ type ProgramsPageQueryData = {
 function ProgramsPage({ data }: PageProps<ProgramsPageQueryData>) {
   return (
     <Layout title="放送回">
-      <Jumbotron title="放送回一覧" />
-      <Section>
+      <Jumbotron component="header" title="放送回一覧" />
+      <Section component="main">
         <Container maxWidth="md" disableGutters>
           <Programs data={data.allProgram.group} />
         </Container>

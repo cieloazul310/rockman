@@ -3,11 +3,11 @@ import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Section } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import { ProgramByTune } from '../components/Tunes/Container';
+import ProgramByTune from '../components/Tunes/ProgramByTune';
 import useSorter from '../utils/useSorter';
 import { getDividedYears, getFiveYearString, getClusteredLength } from '../utils/cluster';
 import type { Program, TuneItemFragment } from '../../types';
@@ -35,15 +35,15 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
       getCounterText={(item) => `${getClusteredLength(item)}曲`}
     >
       {items.map((fifth) => (
-        <React.Fragment key={fifth.value.toString()}>
-          <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} />
-          {[...fifth.items]
-            .sort((a, b) => sorter(a.value - b.value))
-            .map((annu) => (
-              <div key={annu.value}>
-                <Section>
-                  <Container maxWidth="md" disableGutters>
-                    <Box display="flex" alignItems="baseline" borderBottom={1} borderColor="secondary.dark" px={1} my={2}>
+        <SectionWrapper key={fifth.value.toString()} component="article">
+          <Jumbotron title={getFiveYearString(fifth.value)} footerText={`全${getClusteredLength(fifth)}曲`} component="header" />
+          <SectionWrapper spacing={1} component="main">
+            {[...fifth.items]
+              .sort((a, b) => sorter(a.value - b.value))
+              .map((annu) => (
+                <Section key={annu.value} component="article" py={2}>
+                  <Container maxWidth="md">
+                    <Box display="flex" alignItems="baseline" borderBottom={1} borderColor="secondary.dark">
                       <Typography variant="h5" component="h3">
                         {annu.value}年
                       </Typography>
@@ -54,9 +54,9 @@ function TimeMachinePage({ data }: PageProps<TimeMachinePageQueryData>) {
                     <ProgramByTune key={tune.id} tune={tune} />
                   ))}
                 </Section>
-              </div>
-            ))}
-        </React.Fragment>
+              ))}
+          </SectionWrapper>
+        </SectionWrapper>
       ))}
     </TabPageTemplate>
   );

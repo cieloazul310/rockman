@@ -21,7 +21,7 @@ function ArtistItemContainer({ artists, title }: ArtistItemContainerProps) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.only('xs'));
   return (
-    <Container maxWidth="md" disableGutters sx={{ py: 1 }}>
+    <Container maxWidth="md" sx={{ py: 1 }}>
       <Box py={1}>
         <Typography>{title}</Typography>
       </Box>
@@ -32,15 +32,20 @@ function ArtistItemContainer({ artists, title }: ArtistItemContainerProps) {
         onTouchStart={isolateTouch}
         onTouchEnd={isolateTouch}
       >
-        <Grid container={!isMobile} sx={{ display: { xs: 'flex', sm: undefined }, width: { xs: 'max-content', sm: 1 } }} gap={1}>
+        <Grid
+          container={!isMobile}
+          sx={{ display: { xs: 'flex', sm: undefined }, width: { xs: 'max-content', sm: 1 } }}
+          spacing={!isMobile ? 2 : undefined}
+        >
           {artists
             .filter((artist) => artist.name !== 'スピッツ')
             .map((artist) => (
               <Grid
-                sx={{ width: { xs: '33vw', sm: 'unset' } }}
+                sx={{ width: { xs: '25vw', sm: 'unset' } }}
                 item={!isMobile || undefined}
                 key={artist?.name}
                 sm={!isMobile ? 2 : undefined}
+                mr={!isMobile ? undefined : 1}
               >
                 <ArtistItem artist={artist} />
               </Grid>

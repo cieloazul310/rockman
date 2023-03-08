@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
-import { Jumbotron, Section, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
+import Jumbotron from '../components/Jumbotron';
 import Seo from '../components/Seo';
 import ProgramItem from '../components/ProgramList/Item';
 import ProgramTop25 from '../components/ArtistItem/Top25';
@@ -19,15 +19,9 @@ type IndexPageQueryData = {
 };
 
 function IndexPage({ data }: PageProps<IndexPageQueryData>) {
-  // const image = data.allProgram.nodes.reduce<string | null>((accum, curr) => accum ?? curr.image, null);
-
   return (
     <Layout>
-      <Jumbotron maxWidth="md">
-        <Typography variant="h5" component="h2" gutterBottom>
-          ロック大陸漫遊記 プレイリスト集
-        </Typography>
-      </Jumbotron>
+      <Jumbotron component="header" maxWidth="md" title="ロック大陸漫遊記 プレイリスト集" />
       <Section>
         <Article maxWidth="md">
           <Stats />

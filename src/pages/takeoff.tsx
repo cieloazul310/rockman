@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import { Section, Article } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper, Article } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
-import { ProgramByTune } from '../components/Tunes/Container';
+import ProgramByTune from '../components/Tunes/ProgramByTune';
 import type { Program, SpitzAlbum, SpitzTune, TuneItemFragment } from '../../types';
 
 type TakeOffQueryData = {
@@ -52,33 +52,34 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
     >
       {[
         ...albums.nodes.map((node) => (
-          <React.Fragment key={node.id}>
+          <SectionWrapper component="article" key={node.id}>
             <Jumbotron
+              component="header"
               title={node.title}
               headerText={node.year}
               footerText={`${node.tunes.filter((tune) => tune.program.length).length}/${node.tunes.length}曲`}
             />
-            <Section>
+            <Section component="main">
               <Article maxWidth="md">
                 <TakeOffAlbum album={node} />
               </Article>
             </Section>
-          </React.Fragment>
+          </SectionWrapper>
         )),
-        <React.Fragment key="others">
-          <Jumbotron title="その他の楽曲" />
-          <Section>
+        <SectionWrapper key="others" component="article">
+          <Jumbotron title="その他の楽曲" component="header" />
+          <Section component="main">
             <Article maxWidth="md">
               <TakeOffOthers albums={others} />
             </Article>
           </Section>
-        </React.Fragment>,
-        <React.Fragment key="notSpitz">
-          <Jumbotron title="スピッツ以外の楽曲" />
+        </SectionWrapper>,
+        <SectionWrapper key="notSpitz" component="article">
+          <Jumbotron title="スピッツ以外の楽曲" component="header" />
           {notSpitz.tunes.map((tune) => (
             <ProgramByTune key={tune.id} tune={tune} />
           ))}
-        </React.Fragment>,
+        </SectionWrapper>,
       ]}
     </TabPageTemplate>
   );

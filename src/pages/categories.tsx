@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
 import Container from '@mui/material/Container';
 import List from '@mui/material/List';
-import { Section } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
@@ -41,9 +41,9 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
       stateFunction={(state) => state?.category}
     >
       {categories.map((category) => (
-        <React.Fragment key={category.fieldValue}>
-          <Jumbotron title={category.fieldValue} footerText={`全${category.nodes.length}回`} />
-          <Section>
+        <SectionWrapper key={category.fieldValue} component="article">
+          <Jumbotron title={category.fieldValue} footerText={`全${category.nodes.length}回`} component="header" />
+          <Section component="main">
             <Container maxWidth="md" disableGutters>
               <List>
                 {category.nodes.sort(sortProgram).map((node, i) => (
@@ -52,7 +52,7 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
               </List>
             </Container>
           </Section>
-        </React.Fragment>
+        </SectionWrapper>
       ))}
     </TabPageTemplate>
   );
