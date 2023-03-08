@@ -26,7 +26,7 @@ import FlagIcon from '@mui/icons-material/Flag';
 import { AutoSizer } from 'react-virtualized';
 import Layout from '../layout';
 import Seo from '../components/Seo';
-import ArtistList from '../components/ArtistList';
+import ArtistList from '../components/ArtistList/Container';
 import { AdInSectionDivider } from '../components/Ads';
 import { useAllNations } from '../utils/graphql-hooks';
 import useSortedArtists from '../utils/useSortedArtists';

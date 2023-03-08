@@ -3,11 +3,11 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import NationLabel from './NationLabel';
-import TextSpan from './TextSpan';
-import { ProgramIcon, ArtistIcon } from '../icons';
-import { useParseNation } from '../utils/graphql-hooks';
-import type { Program, Artist } from '../../types';
+import NationLabel from '../../components/NationLabel';
+import TextSpan from '../../components/TextSpan';
+import { ProgramIcon, ArtistIcon } from '../../icons';
+import { useParseNation } from '../../utils/graphql-hooks';
+import type { Program, Artist } from '../../../types';
 
 type PageHeaderProps = {
   variant: 'program' | 'artist';
@@ -18,47 +18,49 @@ type PageHeaderProps = {
 
 function PageHeader({ variant, image, children, label }: PageHeaderProps) {
   return (
-    <Container maxWidth="md" disableGutters>
-      <Box sx={{ display: 'flex', height: 240, py: 2, bgcolor: 'background.paper' }}>
-        <Box sx={{ width: 1 / 2, maxWidth: 280, px: 1, display: 'flex', flexShrink: 0 }}>
-          <Box
-            sx={{
-              bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 400 : 700],
-              backgroundImage: image ? `url(${image})` : undefined,
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              flexGrow: 1,
-              position: 'relative',
-            }}
-          >
-            {!image ? (
-              <Box
-                sx={{
-                  width: 1,
-                  height: 1,
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  fontSize: 56,
-                  color: 'background.paper',
-                }}
-              >
-                {variant === 'program' ? (
-                  <ProgramIcon fontSize="inherit" color="inherit" />
-                ) : (
-                  <ArtistIcon fontSize="inherit" color="inherit" />
-                )}
-              </Box>
-            ) : null}
-            {label ? <Box sx={{ position: 'absolute', top: 0, left: 0 }}>{label}</Box> : null}
+    <Box component="header" bgcolor="background.paper">
+      <Container maxWidth="md" disableGutters>
+        <Box sx={{ display: 'flex', height: 240, py: 2 }}>
+          <Box sx={{ width: 1 / 2, maxWidth: 280, px: 1, display: 'flex', flexShrink: 0 }}>
+            <Box
+              sx={{
+                bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 400 : 700],
+                backgroundImage: image ? `url(${image})` : undefined,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                flexGrow: 1,
+                position: 'relative',
+              }}
+            >
+              {!image ? (
+                <Box
+                  sx={{
+                    width: 1,
+                    height: 1,
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    fontSize: 56,
+                    color: 'background.paper',
+                  }}
+                >
+                  {variant === 'program' ? (
+                    <ProgramIcon fontSize="inherit" color="inherit" />
+                  ) : (
+                    <ArtistIcon fontSize="inherit" color="inherit" />
+                  )}
+                </Box>
+              ) : null}
+              {label ? <Box sx={{ position: 'absolute', top: 0, left: 0 }}>{label}</Box> : null}
+            </Box>
           </Box>
+          <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', px: 1, justifyContent: 'space-between' }}>{children}</Box>
         </Box>
-        <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', px: 1, justifyContent: 'space-between' }}>{children}</Box>
-      </Box>
-    </Container>
+      </Container>
+    </Box>
   );
 }
 

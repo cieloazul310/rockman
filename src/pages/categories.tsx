@@ -2,11 +2,11 @@ import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
 import Container from '@mui/material/Container';
 import List from '@mui/material/List';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import ProgramItem from '../components/ProgramItem';
+import ProgramItem from '../components/ProgramList/Item';
 import { useSortProgram } from '../utils/useSorter';
 import type { ProgramListFragment } from '../../types';
 
@@ -43,7 +43,6 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
       {categories.map((category) => (
         <React.Fragment key={category.fieldValue}>
           <Jumbotron title={category.fieldValue} footerText={`全${category.nodes.length}回`} />
-          <SectionDivider />
           <Section>
             <Container maxWidth="md" disableGutters>
               <List>

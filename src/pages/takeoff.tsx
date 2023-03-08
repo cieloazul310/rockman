@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import { Section, SectionDivider, Article } from '@cieloazul310/gatsby-theme-aoi';
+import { Section, Article } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
 import TakeOffAlbum, { TakeOffOthers } from '../components/TakeOffAlbum';
-import { ProgramByTune } from '../components/TunesByProgram';
+import { ProgramByTune } from '../components/Tunes/Container';
 import type { Program, SpitzAlbum, SpitzTune, TuneItemFragment } from '../../types';
 
 type TakeOffQueryData = {
@@ -58,7 +58,6 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
               headerText={node.year}
               footerText={`${node.tunes.filter((tune) => tune.program.length).length}/${node.tunes.length}曲`}
             />
-            <SectionDivider />
             <Section>
               <Article maxWidth="md">
                 <TakeOffAlbum album={node} />
@@ -68,7 +67,6 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
         )),
         <React.Fragment key="others">
           <Jumbotron title="その他の楽曲" />
-          <SectionDivider />
           <Section>
             <Article maxWidth="md">
               <TakeOffOthers albums={others} />
@@ -77,7 +75,6 @@ function TakeOff({ data }: PageProps<TakeOffQueryData>) {
         </React.Fragment>,
         <React.Fragment key="notSpitz">
           <Jumbotron title="スピッツ以外の楽曲" />
-          <SectionDivider />
           {notSpitz.tunes.map((tune) => (
             <ProgramByTune key={tune.id} tune={tune} />
           ))}

@@ -23,9 +23,7 @@ export type MinimumArtist = Pick<Artist, 'name' | 'slug' | 'nation'> & {
   program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
 };
 
-export type ArtistListItem = Pick<Artist, 'name' | 'slug' | 'nation' | 'kana'> & {
-  program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
-};
+export type ArtistListItem = MinimumArtist & Pick<Artist, 'kana' | 'sortName'>;
 
 export type Program<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
   id: string;
@@ -62,7 +60,7 @@ export type Tune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
 
 export type TuneItemFragment = Pick<
   Tune,
-  'id' | 'title' | 'indexInWeek' | 'artist' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'
+  'id' | 'title' | 'week' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'
 > & {
   artist: MinimumArtist;
 };

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { graphql, type PageProps } from 'gatsby';
-import { Section, SectionDivider } from '@cieloazul310/gatsby-theme-aoi';
+import { Section } from '@cieloazul310/gatsby-theme-aoi';
 import TabPageTemplate from '../layout/TabTemplate';
 import Seo from '../components/Seo';
 import Jumbotron from '../components/Jumbotron';
-import LazyViewer from '../components/LazyViewer';
+import LazyViewer from '../components/Tunes/LazyViewer';
 import type { Selector, Program, TuneItemFragment } from '../../types';
 
 type WindowState = {
@@ -48,7 +48,6 @@ function SelectorsPage({ data }: PageProps<SelectorsPageQueryData, unknown, Wind
       {allSelectors.map(({ name, tunesCount, programsCount, programs }) => (
         <React.Fragment key={name}>
           <Jumbotron title={`${name}の選曲`} footerText={`${tunesCount}曲/${programsCount}回`} />
-          <SectionDivider />
           <Section>
             <LazyViewer programs={programs} divisor={15} onSeem={onSeem} />
           </Section>

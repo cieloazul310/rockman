@@ -1,19 +1,19 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import ListItemLink from './ListItemLink';
-import type { ProgramListFragment } from '../../types';
+import type { ProgramListFragment } from '../../../types';
 
-type ProgramItemProps = {
+type ProgramListItemProps = {
   program: ProgramListFragment;
   last?: boolean;
 };
 
-function ProgramItem({ program, last }: ProgramItemProps) {
+function ProgramListItem({ program, last = false }: ProgramListItemProps) {
   return (
     <ListItemLink
       avatar={
         <Avatar
-          sx={{ width: ({ spacing }) => spacing(11), height: ({ spacing }) => spacing(11) }}
+          sx={{ width: ({ spacing }) => spacing(11), height: ({ spacing }) => spacing(11), borderRadius: 2, overflow: 'hidden' }}
           src={program.image ?? undefined}
           variant="square"
         />
@@ -26,8 +26,8 @@ function ProgramItem({ program, last }: ProgramItemProps) {
   );
 }
 
-ProgramItem.defaultProps = {
+ProgramListItem.defaultProps = {
   last: false,
 };
 
-export default ProgramItem;
+export default ProgramListItem;

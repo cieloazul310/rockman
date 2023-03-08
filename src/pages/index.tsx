@@ -3,11 +3,11 @@ import { graphql, type PageProps } from 'gatsby';
 import Typography from '@mui/material/Typography';
 import List from '@mui/material/List';
 import ListSubheader from '@mui/material/ListSubheader';
-import { Jumbotron, Section, SectionDivider, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
+import { Jumbotron, Section, Article, Paragraph, AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import Layout from '../layout';
 import Seo from '../components/Seo';
-import ProgramItem from '../components/ProgramItem';
-import ProgramTop25 from '../components/ProgramTop25';
+import ProgramItem from '../components/ProgramList/Item';
+import ProgramTop25 from '../components/ArtistItem/Top25';
 import Stats from '../components/Stat';
 import { AdInSectionDivider } from '../components/Ads';
 import type { Program } from '../../types';
@@ -24,18 +24,15 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
   return (
     <Layout>
       <Jumbotron maxWidth="md">
-        <Typography variant="h5" component="h2" gutterBottom fontWeight="bold">
+        <Typography variant="h5" component="h2" gutterBottom>
           ロック大陸漫遊記 プレイリスト集
         </Typography>
-        <Typography variant="body1">since 2018</Typography>
       </Jumbotron>
-      <SectionDivider />
       <Section>
         <Article maxWidth="md">
           <Stats />
         </Article>
       </Section>
-      <SectionDivider />
       <Section>
         <Article maxWidth="md">
           <Paragraph>
@@ -57,7 +54,6 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
           </Paragraph>
         </Article>
       </Section>
-      <SectionDivider />
       <Section>
         <Article maxWidth="md" disableGutters>
           <List subheader={<ListSubheader>過去2か月の放送</ListSubheader>}>

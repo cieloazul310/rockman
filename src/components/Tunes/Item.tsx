@@ -6,11 +6,11 @@ import MuiLink from '@mui/material/Link';
 import Skeleton from '@mui/material/Skeleton';
 import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
 import PlayCircleIcon from '@mui/icons-material/PlayCircleOutline';
-import TextSpan from './TextSpan';
-import NationLabel from './NationLabel';
-import { TuneIcon } from '../icons';
-import useIsMobile from '../utils/useIsMobile';
-import type { TuneItemFragment } from '../../types';
+import TextSpan from '../TextSpan';
+import NationLabel from '../NationLabel';
+import { TuneIcon } from '../../icons';
+import useIsMobile from '../../utils/useIsMobile';
+import type { TuneItemFragment } from '../../../types';
 
 type YouTubeLinkProps = {
   href: string;
@@ -34,7 +34,7 @@ function YouTubeLink({ href, title, children }: YouTubeLinkProps) {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          opacity: !isMobile ? 0 : 0.6,
+          opacity: !isMobile ? 0 : 0.4,
           color: '#fff',
           fontSize: 48,
           transition: ({ transitions }) => transitions.create('opacity'),
@@ -58,18 +58,26 @@ type TuneBareProps = {
   nation?: string;
   href?: string;
   alt?: string;
-  headerText: React.ReactNode;
-  title: React.ReactNode;
-  footerText: React.ReactNode;
+  headerText?: React.ReactNode;
+  title?: React.ReactNode;
+  footerText?: React.ReactNode;
 };
 
-function TuneBare({ image, nation, href, alt, headerText, title, footerText }: TuneBareProps) {
+export function TuneBare({
+  image,
+  nation,
+  href,
+  alt,
+  headerText = <Skeleton width={100} />,
+  title = <Skeleton width={160} />,
+  footerText = <Skeleton width={100} />,
+}: TuneBareProps) {
   const avatar = (
     <Box position="relative">
       <Avatar
         sx={{
-          width: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13) }),
-          height: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13) }),
+          width: ({ spacing }) => ({ xs: spacing(13), sm: spacing(15) }),
+          height: ({ spacing }) => ({ xs: spacing(13), sm: spacing(15) }),
         }}
         variant="square"
         src={image}
@@ -89,8 +97,8 @@ function TuneBare({ image, nation, href, alt, headerText, title, footerText }: T
     </Box>
   );
   return (
-    <Box sx={{ display: 'flex', py: 1 }}>
-      <Box sx={{ display: 'flex', px: 1, alignItems: 'center', flexShrink: 0 }}>
+    <Box sx={{ display: 'flex', borderRadius: 2, overflow: 'hidden', bgcolor: 'background.paper' }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', flexShrink: 0, borderRadius: 2, overflow: 'hidden' }}>
         {href ? (
           <YouTubeLink href={href} title={alt}>
             {avatar}
@@ -99,13 +107,17 @@ function TuneBare({ image, nation, href, alt, headerText, title, footerText }: T
           avatar
         )}
       </Box>
-      <Box sx={{ display: 'flex', flexDirection: 'column', px: 1, flexGrow: 1 }}>
-        <Typography variant="body2" color="textSecondary">
+      <Box sx={{ display: 'flex', flexDirection: 'column', px: 2, py: 1, flexGrow: 1 }}>
+        <Typography component="div" variant="body2" color="textSecondary" fontSize={{ md: 'body1.fontSize' }}>
           {headerText}
         </Typography>
         <Box pt={{ xs: 0, sm: 1 }}>
-          <Typography fontSize={{ xs: 'body1.fontSize', sm: 'h6.fontSize' }}>{title}</Typography>
-          <Typography fontSize={{ xs: 'body2.fontSize', sm: 'body1.fontSize' }}>{footerText}</Typography>
+          <Typography component="div" fontSize={{ xs: 'body1.fontSize', sm: 'h6.fontSize', md: 'h5.fontSize' }}>
+            {title}
+          </Typography>
+          <Typography component="div" fontSize={{ xs: 'body2.fontSize', sm: 'body1.fontSize' }}>
+            {footerText}
+          </Typography>
         </Box>
       </Box>
     </Box>
@@ -117,6 +129,9 @@ TuneBare.defaultProps = {
   href: undefined,
   alt: undefined,
   nation: undefined,
+  title: <Skeleton width={160} />,
+  headerText: <Skeleton width={100} />,
+  footerText: <Skeleton width={100} />,
 };
 
 export type TuneProps = {
