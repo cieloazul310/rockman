@@ -1,0 +1,98 @@
+id: "20230275"
+week: 275
+year: 2023
+title: アースシェイカーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-04-09
+playlist:
+  - id: "2023027501"
+    week: 275
+    index: 2280
+    indexInWeek: 1
+    title: 春の歌
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: 94uxNQqmknk
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027502"
+    week: 275
+    index: 2281
+    indexInWeek: 2
+    title: 記憶の中
+    artist: EARTHSHAKER
+    year: 1984
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: aD5ovXjj-2E
+    selector: 草野マサムネ
+  - id: "2023027503"
+    week: 275
+    index: 2282
+    indexInWeek: 3
+    title: "412"
+    artist: EARTHSHAKER
+    year: 1983
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: gk4eQQdSF3k
+    selector: 草野マサムネ
+  - id: "2023027504"
+    week: 275
+    index: 2283
+    indexInWeek: 4
+    title: MARIONETTE
+    artist: EARTHSHAKER
+    year: 1983
+    nation: JPN
+    label: NEXUS / キングレコード
+    selector: 草野マサムネ
+  - id: "2023027505"
+    week: 275
+    index: 2284
+    indexInWeek: 5
+    title: MORE
+    artist: EARTHSHAKER
+    year: 1984
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: GaUFrs_Y-KM
+    selector: 草野マサムネ
+  - id: "2023027506"
+    week: 275
+    index: 2285
+    indexInWeek: 6
+    title: SHINY DAY
+    artist: EARTHSHAKER
+    year: 1984
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: 2IkMJ2xhS8Q
+    selector: 草野マサムネ
+  - id: "2023027507"
+    week: 275
+    index: 2286
+    indexInWeek: 7
+    title: RADIO MAGIC
+    artist: EARTHSHAKER
+    year: 1984
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: n9syF5d_pyQ
+    selector: 草野マサムネ
+  - id: "2023027508"
+    week: 275
+    index: 2287
+    indexInWeek: 8
+    title: ロ・ロ・ロ・ロシアン・ルーレット
+    artist: 中原めいこ
+    kana: なかはらめいこ
+    year: 1985
+    nation: JPN
+    label: 東芝EMI
+    youtube: bQFi1AgtqTA
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

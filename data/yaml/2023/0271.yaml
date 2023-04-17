@@ -1,0 +1,106 @@
+id: "20230271"
+week: 271
+year: 2023
+title: Sham 69で漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-03-12
+playlist:
+  - id: "2023027101"
+    week: 271
+    index: 2246
+    indexInWeek: 1
+    title: スワン
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027102"
+    week: 271
+    index: 2247
+    indexInWeek: 2
+    title: Hersham Boys
+    artist: Sham 69
+    year: 1979
+    nation: UK
+    label: Polydor
+    youtube: f-1ByJPIhMM
+    selector: 草野マサムネ
+  - id: "2023027103"
+    week: 271
+    index: 2248
+    indexInWeek: 3
+    title: Angels with Dirty Faces
+    artist: Sham 69
+    year: 1978
+    nation: UK
+    label: Polydor
+    selector: 草野マサムネ
+  - id: "2023027104"
+    week: 271
+    index: 2249
+    indexInWeek: 4
+    title: Borstal Breakout
+    artist: Sham 69
+    year: 1978
+    nation: UK
+    label: Polydor
+    youtube: lo7vhBeLg5w
+    selector: 草野マサムネ
+  - id: "2023027105"
+    week: 271
+    index: 2250
+    indexInWeek: 5
+    title: If the Kids Are United
+    artist: Sham 69
+    year: 1978
+    nation: UK
+    label: Polydor
+    youtube: fqOjikq5zbc
+    selector: 草野マサムネ
+  - id: "2023027106"
+    week: 271
+    index: 2251
+    indexInWeek: 6
+    title: You're a Better Man Than I
+    artist: Sham 69
+    year: 1979
+    nation: UK
+    label: Polydor
+    selector: 草野マサムネ
+  - id: "2023027107"
+    week: 271
+    index: 2252
+    indexInWeek: 7
+    title: Rule Britannia
+    artist: Sham 69
+    year: 2021
+    nation: UK
+    label: One Media iP Ltd
+    selector: 草野マサムネ
+  - id: "2023027108"
+    week: 271
+    index: 2253
+    indexInWeek: 8
+    title: Rip Off (Live)
+    artist: Sham 69
+    year: 1979
+    nation: UK
+    label: Polydor
+    youtube: 6iwC_6KKRoI
+    selector: 草野マサムネ
+  - id: "2023027109"
+    week: 271
+    index: 2254
+    indexInWeek: 9
+    title: くちびるがほどけない
+    artist: 高橋ひろ
+    kana: たかはしひろ
+    year: 1995
+    nation: JPN
+    label: Media Remoras
+    youtube: syQrPoXpeJ0
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

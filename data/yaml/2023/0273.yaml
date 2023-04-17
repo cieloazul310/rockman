@@ -1,0 +1,110 @@
+id: "20230273"
+week: 273
+year: 2023
+title: アイルランドの凄い人たちで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2023-03-26
+playlist:
+  - id: "2023027301"
+    week: 273
+    index: 2263
+    indexInWeek: 1
+    title: チェリー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: Eze6-eHmtJg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027302"
+    week: 273
+    index: 2264
+    indexInWeek: 2
+    title: Sunday Bloody Sunday
+    artist: U2
+    year: 1983
+    nation: IRE
+    label: Island
+    youtube: EM4vblG6BVQ
+    selector: 草野マサムネ
+  - id: "2023027303"
+    week: 273
+    index: 2265
+    indexInWeek: 3
+    title: Blister on the Moon
+    artist: Taste
+    year: 1969
+    nation: IRE
+    label: Polydor
+    youtube: ckbJ6bzxFrY
+    selector: 草野マサムネ
+  - id: "2023027304"
+    week: 273
+    index: 2266
+    indexInWeek: 4
+    title: Whiskey in the Jar
+    artist: Thin Lizzy
+    year: 1972
+    nation: IRE
+    label: Decca
+    youtube: GPqhXnJglso
+    selector: 草野マサムネ
+  - id: "2023027305"
+    week: 273
+    index: 2267
+    indexInWeek: 5
+    title: Lookin' After No. 1
+    artist: The Boomtown Rats
+    year: 1977
+    nation: IRE
+    label: Ensign
+    youtube: JAbgrzuP25M
+    selector: 草野マサムネ
+  - id: "2023027306"
+    week: 273
+    index: 2268
+    indexInWeek: 6
+    title: To Go Beyond (II)
+    artist: Enya
+    year: 1987
+    nation: IRE
+    label: BBC
+    youtube: l9vu5dgMjZg
+    selector: 草野マサムネ
+  - id: "2023027307"
+    week: 273
+    index: 2269
+    indexInWeek: 7
+    title: If I Should Fall from Grace with God
+    artist: The Pogues
+    year: 1988
+    nation: UK
+    label: Pogue Mahone
+    youtube: B4v6aNjGFFk
+    selector: 草野マサムネ
+  - id: "2023027308"
+    week: 273
+    index: 2270
+    indexInWeek: 8
+    title: Dreams
+    artist: The Cranberries
+    year: 1993
+    nation: IRE
+    label: Island
+    youtube: Yam5uK6e-bQ
+    selector: 草野マサムネ
+  - id: "2023027309"
+    week: 273
+    index: 2271
+    indexInWeek: 9
+    title: おくさまは18歳
+    artist: 岡崎友紀
+    kana: おかざきゆき
+    year: 1970
+    nation: JPN
+    label: 東芝音楽工業
+    youtube: t4n_3_a7k6M
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

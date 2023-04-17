@@ -1,0 +1,98 @@
+id: "20230274"
+week: 274
+year: 2023
+title: 放送274回目で、ふなっしーと漫遊記
+subtitle: ふなっしーが梨学生時代にコピーした曲で漫遊記
+guests: ["ふなっしー"]
+categories: ["ゲスト回"]
+date: 2023-04-02
+playlist:
+  - id: "2023027401"
+    week: 274
+    index: 2272
+    indexInWeek: 1
+    title: 青い車
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: 5K8ZuLYG0yo
+    corner: 漫遊前の一曲
+    selector: ふなっしー
+  - id: "2023027402"
+    week: 274
+    index: 2273
+    indexInWeek: 2
+    title: The Boys Are Back in Town
+    artist: Thin Lizzy
+    year: 1976
+    nation: IRE
+    label: Vertigo
+    youtube: 5_xqb416S7o
+    selector: ふなっしー
+  - id: "2023027403"
+    week: 274
+    index: 2274
+    indexInWeek: 3
+    title: Waiting for an Alibi
+    artist: Thin Lizzy
+    year: 1979
+    nation: IRE
+    label: Vertigo
+    youtube: oayeRmQPQTU
+    selector: ふなっしー
+  - id: "2023027404"
+    week: 274
+    index: 2275
+    indexInWeek: 4
+    title: Miracle Man
+    artist: Ozzy Osbourne
+    year: 1988
+    nation: UK
+    label: Epic/CBS
+    youtube: j34juXrJWqw
+    selector: ふなっしー
+  - id: "2023027405"
+    week: 274
+    index: 2276
+    indexInWeek: 5
+    title: 恋におちたら
+    artist: サニーデイ・サービス
+    year: 1995
+    nation: JPN
+    label: RHYME / MIDI
+    youtube: RxKDLetDiUY
+    selector: ふなっしー
+  - id: "2023027406"
+    week: 274
+    index: 2277
+    indexInWeek: 6
+    title: CHARAMEL
+    artist: ふなっしー
+    year: 2017
+    nation: JPN
+    label: ユニバーサルミュージック
+    youtube: YkIw3cjoSdE
+    selector: ふなっしー
+  - id: "2023027407"
+    week: 274
+    index: 2278
+    indexInWeek: 7
+    title: Two Steps Behind
+    artist: Def Leppard
+    year: 1993
+    nation: UK
+    label: Mercury
+    youtube: rXAj7b3B_14
+    selector: ふなっしー
+  - id: "2023027408"
+    week: 274
+    index: 2279
+    indexInWeek: 8
+    title: BE MY BABY (Live 1990 from "19901108")
+    artist: COMPLEX
+    year: 1991
+    nation: JPN
+    label: 東芝EMI/イーストワールド
+    corner: ちょっぴりタイムマシン
+    selector: ふなっしー

@@ -1,0 +1,98 @@
+id: "20230272"
+week: 272
+year: 2023
+title: ギブソンES335で漫遊記
+guests: []
+categories: ["ギター"]
+date: 2023-03-19
+playlist:
+  - id: "2023027201"
+    week: 272
+    index: 2255
+    indexInWeek: 1
+    title: 涙がキラリ☆
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    youtube: hGsNLE45uWE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027202"
+    week: 272
+    index: 2256
+    indexInWeek: 2
+    title: Roll with It
+    artist: Oasis
+    year: 1995
+    nation: UK
+    label: Creation
+    youtube: DrARl0dzd-0
+    selector: 草野マサムネ
+  - id: "2023027203"
+    week: 272
+    index: 2257
+    indexInWeek: 3
+    title: I'm Coming On
+    artist: Ten Years After
+    year: 1970
+    nation: UK
+    label: Deram
+    youtube: _m3M4OQ43FI
+    selector: 草野マサムネ
+  - id: "2023027204"
+    week: 272
+    index: 2258
+    indexInWeek: 4
+    title: Room 335
+    artist: Larry Carlton
+    year: 1978
+    nation: US
+    label: MCA
+    youtube: PeXIWyhB4F8
+    selector: 草野マサムネ
+  - id: "2023027205"
+    week: 272
+    index: 2259
+    indexInWeek: 5
+    title: Monkey Wrench
+    artist: Foo Fighters
+    year: 1997
+    nation: US
+    label: Roswell
+    youtube: I7rCNiiNPxA
+    selector: 草野マサムネ
+  - id: "2023027206"
+    week: 272
+    index: 2260
+    indexInWeek: 6
+    title: Not Alone
+    artist: Bernard Butler
+    year: 1998
+    nation: UK
+    label: Creation
+    youtube: YVCpeeJzLBw
+    selector: 草野マサムネ
+  - id: "2023027207"
+    week: 272
+    index: 2261
+    indexInWeek: 7
+    title: Hurt Myself
+    artist: Rusty Anderson
+    year: 2003
+    nation: US
+    label: Surfdog Records
+    youtube: GaOL9toBpRo
+    selector: 草野マサムネ
+  - id: "2023027208"
+    week: 272
+    index: 2262
+    indexInWeek: 8
+    title: FOLLOW ME
+    artist: andymori
+    year: 2009
+    nation: JPN
+    label: Youth Records
+    youtube: OzZse5m2ycM
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
