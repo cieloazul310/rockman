@@ -44,11 +44,11 @@ SPITZ 草野マサムネのロック大陸漫遊記
 
 ## サイトについて
 
-ロック大陸漫遊記プレイリスト集
+ロック大陸漫遊記プレイリスト集  
 <https://cieloazul310.github.io/rockman/>
 
-作者: [@cieloazul310](https://twitter.com/cieloazul310)
-サイト: [水戸地図](https://cieloazul310.github.io)
+作者: [@cieloazul310](https://twitter.com/cieloazul310)  
+サイト: [水戸地図](https://cieloazul310.github.io)  
 公開日: 2021-02-14
 
-© 2021 cieloazul310 All rights reserved.
+© 2023 cieloazul310 All rights reserved.
