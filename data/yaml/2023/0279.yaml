@@ -1,0 +1,96 @@
+id: "20230279"
+week: 279
+year: 2023
+title: チョーキング・ビブラートで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2023-05-07
+playlist:
+  - id: "2023027901"
+    week: 279
+    index: 2314
+    indexInWeek: 1
+    title: 祈りはきっと
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027902"
+    week: 279
+    index: 2315
+    indexInWeek: 2
+    title: Catch a Train
+    artist: Free
+    year: 1972
+    nation: UK
+    label: Island
+    youtube: UQW-bi3or_Q
+    selector: 草野マサムネ
+  - id: "2023027903"
+    week: 279
+    index: 2316
+    indexInWeek: 3
+    title: Tired Angels (to J.M.H.)
+    artist: Mountain
+    year: 1971
+    nation: US
+    label: Windfall
+    youtube: PpbnCS_Ek3k
+    selector: 草野マサムネ
+  - id: "2023027904"
+    week: 279
+    index: 2317
+    indexInWeek: 4
+    title: Hot 'n' Ready
+    artist: UFO
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    youtube: kO-SQSqO23s
+    selector: 草野マサムネ
+  - id: "2023027905"
+    week: 279
+    index: 2318
+    indexInWeek: 5
+    title: Play the Game
+    artist: Queen
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: 6_5O-nUiZ_0
+    selector: 草野マサムネ
+  - id: "2023027906"
+    week: 279
+    index: 2319
+    indexInWeek: 6
+    title: Hold the Line
+    artist: Toto
+    year: 1978
+    nation: US
+    label: Columbia
+    youtube: htgr3pvBr-I
+    selector: 草野マサムネ
+  - id: "2023027907"
+    week: 279
+    index: 2320
+    indexInWeek: 7
+    title: Your Love Is in Vain
+    artist: Vandenberg
+    year: 1982
+    nation: NED
+    label: ATCO
+    youtube: L18cjQ5gtRQ
+    selector: 草野マサムネ
+  - id: "2023027908"
+    week: 279
+    index: 2321
+    indexInWeek: 8
+    title: 愛で殺したい
+    artist: サーカス
+    year: 1978
+    nation: JPN
+    label: アルファレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
