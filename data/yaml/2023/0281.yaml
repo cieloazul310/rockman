@@ -1,0 +1,109 @@
+id: "20230281"
+week: 281
+year: 2023
+title: 東京ローカルの地名タイトル曲で漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2023-05-21
+playlist:
+  - id: "2023028101"
+    week: 281
+    index: 2331
+    indexInWeek: 1
+    title: 跳べ
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028102"
+    week: 281
+    index: 2332
+    indexInWeek: 2
+    title: 多摩蘭坂
+    artist: RCサクセション
+    year: 1981
+    nation: JPN
+    label: キティレコード
+    youtube: vsiTni-NLMQ
+    selector: 草野マサムネ
+  - id: "2023028103"
+    week: 281
+    index: 2333
+    indexInWeek: 3
+    title: ふたり、人生、自由ヶ丘
+    artist: チャットモンチー
+    year: 2012
+    nation: JPN
+    label: Ki/oon Records
+    selector: 草野マサムネ
+  - id: "2023028104"
+    week: 281
+    index: 2334
+    indexInWeek: 4
+    title: 童貞フォーク少年、高円寺にて爆死寸前
+    artist: 銀杏BOYZ
+    kana: ぎんなんぼーいず
+    year: 2005
+    nation: JPN
+    label: 初恋妄℃学園
+    youtube: TcSyNBKIY1g
+    selector: 草野マサムネ
+  - id: "2023028105"
+    week: 281
+    index: 2335
+    indexInWeek: 5
+    title: 高田馬場で乗り換えて
+    artist: スカート
+    year: 2019
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: T9CNIvaM8fw
+    selector: 草野マサムネ
+  - id: "2023028106"
+    week: 281
+    index: 2336
+    indexInWeek: 6
+    title: 歌舞伎町の女王
+    artist: 椎名林檎
+    kana: しいなりんご
+    year: 1998
+    nation: JPN
+    label: 東芝EMI
+    youtube: krCk3EcsaxE
+    selector: 草野マサムネ
+  - id: "2023028107"
+    week: 281
+    index: 2337
+    indexInWeek: 7
+    title: 吉祥寺
+    artist: ストレイテナー
+    year: 2019
+    nation: JPN
+    label: Virgin Music
+    youtube: hhWWo6HlJ3Y
+    selector: 草野マサムネ
+  - id: "2023028108"
+    week: 281
+    index: 2338
+    indexInWeek: 8
+    title: 羽田ブルース
+    artist: シシド・カフカ feat.横山剣 with CRAZY KEN BAND
+    year: 2017
+    nation: JPN
+    label: avex trax
+    youtube: GK4AcjYSnPY
+    selector: 草野マサムネ
+  - id: "2023028109"
+    week: 281
+    index: 2339
+    indexInWeek: 9
+    title: 表参道軟派ストリート
+    artist: 水谷豊
+    kana: みずたにゆたか
+    year: 1978
+    nation: JPN
+    label: フォーライフ・レコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
