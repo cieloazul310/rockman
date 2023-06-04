@@ -1,0 +1,104 @@
+id: "20230278"
+week: 278
+year: 2023
+title: 好きなキーボーディスト・リクエストで漫遊記パート②
+guests: []
+categories: ["リクエスト特集", "楽器"]
+date: 2023-04-30
+playlist:
+  - id: "2023027801"
+    week: 278
+    index: 2305
+    indexInWeek: 1
+    title: ブチ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027802"
+    week: 278
+    index: 2306
+    indexInWeek: 2
+    title: This Town Ain't Big Enough for Both of Us
+    artist: Sparks
+    year: 1974
+    nation: US
+    label: Island
+    youtube: eUJ_ifjKopM
+    selector: リクエスト
+  - id: "2023027803"
+    week: 278
+    index: 2307
+    indexInWeek: 3
+    title: 宇宙フーテン・スイング
+    artist: ソウル・フラワー・ユニオン
+    year: 1997
+    nation: JPN
+    label: キューンレコード
+    selector: リクエスト
+  - id: "2023027804"
+    week: 278
+    index: 2308
+    indexInWeek: 4
+    title: Merry-Go Round
+    artist: The Zombies
+    year: 2023
+    nation: UK
+    label: Cooking Vinyl
+    youtube: DBfBlCT0rqY
+    selector: リクエスト
+  - id: "2023027805"
+    week: 278
+    index: 2309
+    indexInWeek: 5
+    title: タンパクスィッツあげるよ
+    artist: ジュースごくごく倶楽部
+    year: 2022
+    nation: JPN
+    label: よしもとミュージック
+    youtube: 9aEcUK1YAQs
+    selector: リクエスト
+  - id: "2023027806"
+    week: 278
+    index: 2310
+    indexInWeek: 6
+    title: 合図
+    artist: プノンペンモデル
+    year: 2000
+    nation: JPN
+    label: Club Lunatica
+    selector: リクエスト
+  - id: "2023027807"
+    week: 278
+    index: 2311
+    indexInWeek: 7
+    title: Homburg
+    artist: Procol Harum
+    year: 1967
+    nation: UK
+    label: Regal Zonophone
+    youtube: S-KWrD6p7lo
+    selector: リクエスト
+  - id: "2023027808"
+    week: 278
+    index: 2312
+    indexInWeek: 8
+    title: セブンスター
+    artist: スカート
+    year: 2013
+    nation: JPN
+    label: カチュカサウンズ
+    selector: リクエスト
+  - id: "2023027809"
+    week: 278
+    index: 2313
+    indexInWeek: 9
+    title: Dancing in the Moonlight
+    artist: Toploader
+    year: 1999
+    nation: UK
+    label: S2
+    youtube: 0yBnIUX0QAE
+    selector: リクエスト

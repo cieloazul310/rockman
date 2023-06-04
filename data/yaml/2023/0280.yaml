@@ -1,0 +1,97 @@
+id: "20230280"
+week: 280
+year: 2023
+title: R.E.M.で漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-05-14
+playlist:
+  - id: "2023028001"
+    week: 280
+    index: 2323
+    indexInWeek: 1
+    title: アケホノ
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028002"
+    week: 280
+    index: 2324
+    indexInWeek: 2
+    title: Radio Free Europe
+    artist: R.E.M.
+    year: 1983
+    nation: US
+    label: I.R.S.
+    youtube: Ac0oaXhz1u8
+    selector: 草野マサムネ
+  - id: "2023028003"
+    week: 280
+    index: 2325
+    indexInWeek: 3
+    title: Pop Song 89
+    artist: R.E.M.
+    year: 1988
+    nation: US
+    label: Warner Bros.
+    youtube: xjMwfDFypa4
+    selector: 草野マサムネ
+  - id: "2023028004"
+    week: 280
+    index: 2326
+    indexInWeek: 4
+    title: Losing My Religion
+    artist: R.E.M.
+    year: 1991
+    nation: US
+    label: Warner Bors.
+    youtube: xwtdhWltSIg
+    selector: 草野マサムネ
+  - id: "2023028005"
+    week: 280
+    index: 2327
+    indexInWeek: 5
+    title: What's the Frequency, Kenneth?
+    artist: R.E.M.
+    year: 1994
+    nation: US
+    label: Warner Bros.
+    youtube: jWkMhCLkVOg
+    selector: 草野マサムネ
+  - id: "2023028006"
+    week: 280
+    index: 2328
+    indexInWeek: 6
+    title: Imitation of Life
+    artist: R.E.M.
+    year: 2001
+    nation: US
+    label: Warner Bros.
+    youtube: 0vqgdSsfqPs
+    selector: 草野マサムネ
+  - id: "2023028007"
+    week: 280
+    index: 2329
+    indexInWeek: 7
+    title: Supernatural Superserious
+    artist: R.E.M.
+    year: 2008
+    nation: US
+    label: Warner Bros.
+    youtube: _We6ubpUHZs
+    selector: 草野マサムネ
+  - id: "2023028008"
+    week: 280
+    index: 2330
+    indexInWeek: 8
+    title: 小さな星
+    artist: FAIRCHILD
+    year: 1989
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: NS_IoWMWDJQ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

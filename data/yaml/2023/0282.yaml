@@ -1,0 +1,98 @@
+id: "20230282"
+week: 282
+year: 2023
+title: サザンロックで漫遊記
+guests: []
+categories: []
+date: 2023-05-28
+playlist:
+  - id: "2023028201"
+    week: 282
+    index: 2340
+    indexInWeek: 1
+    title: オバケのロックバンド
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028202"
+    week: 282
+    index: 2341
+    indexInWeek: 2
+    title: Ramblin' Man
+    artist: The Allman Brothers Band
+    year: 1973
+    nation: US
+    label: Capricorn
+    youtube: Wa4DCp6cl2U
+    selector: 草野マサムネ
+  - id: "2023028203"
+    week: 282
+    index: 2342
+    indexInWeek: 3
+    title: Sweet Home Alabama
+    artist: Lynyrd Skynyrd
+    year: 1974
+    nation: US
+    label: Sounds of the South
+    youtube: -35W_FWCT9Q
+    selector: 草野マサムネ
+  - id: "2023028204"
+    week: 282
+    index: 2343
+    indexInWeek: 4
+    title: Gonna Miss It When It's Gone
+    artist: Rossington Collins Band
+    year: 1981
+    nation: US
+    label: MCA
+    youtube: QuVXOhQvGow
+    selector: 草野マサムネ
+  - id: "2023028205"
+    week: 282
+    index: 2344
+    indexInWeek: 5
+    title: Good Morning
+    artist: Blackfoot
+    year: 1981
+    nation: US
+    label: Atco
+    youtube: axwfPKjY2Dc
+    selector: 草野マサムネ
+  - id: "2023028206"
+    week: 282
+    index: 2345
+    indexInWeek: 6
+    title: Caught Up in You
+    artist: 38 Special
+    year: 1982
+    nation: US
+    label: A&M
+    youtube: zg21Rkew874
+    selector: 草野マサムネ
+  - id: "2023028207"
+    week: 282
+    index: 2346
+    indexInWeek: 7
+    title: Keep Your Hands to Yourself
+    artist: The Georgia Satellites
+    year: 1986
+    nation: US
+    label: Elektra
+    youtube: WonOudGMSdc
+    selector: 草野マサムネ
+  - id: "2023028208"
+    week: 282
+    index: 2347
+    indexInWeek: 8
+    title: 人形の家
+    artist: 弘田三枝子
+    kana: ひろたみえこ
+    year: 1969
+    nation: JPN
+    label: 日本コロムビア
+    youtube: oSzUiC8BVAE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

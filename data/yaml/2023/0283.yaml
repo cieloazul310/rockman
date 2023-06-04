@@ -1,0 +1,107 @@
+id: "20230283"
+week: 283
+year: 2023
+title: 数字のバンド名（3桁以上）で漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2023-06-04
+playlist:
+  - id: "2023028301"
+    week: 283
+    index: 2348
+    indexInWeek: 1
+    title: さびしくなかった
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028302"
+    week: 283
+    index: 2349
+    indexInWeek: 2
+    title: I'm in Love with You
+    artist: The 1975
+    year: 2022
+    nation: UK
+    label: Dirty Hit
+    youtube: UVzVUDXoi0Y
+    selector: 草野マサムネ
+  - id: "2023028303"
+    week: 283
+    index: 2350
+    indexInWeek: 3
+    title: Dumpweed
+    artist: Blink-182
+    year: 1999
+    nation: US
+    label: MCA
+    youtube: PDwB1nHh9Ow
+    selector: 草野マサムネ
+  - id: "2023028304"
+    week: 283
+    index: 2351
+    indexInWeek: 4
+    title: Favourite Shirts (Boy Meets Girl)
+    artist: Haircut One Hundred
+    year: 1981
+    nation: UK
+    label: Arista
+    youtube: CAy-RxquZPk
+    selector: 草野マサムネ
+  - id: "2023028305"
+    week: 283
+    index: 2352
+    indexInWeek: 5
+    title: Final Day
+    artist: Galaxie 500
+    year: 1996
+    nation: US
+    label: Rykodisc
+    youtube: nL-7ZI0_k3E
+    selector: 草野マサムネ
+  - id: "2023028306"
+    week: 283
+    index: 2353
+    indexInWeek: 6
+    title: THE BARRACUDA
+    artist: The 5.6.7.8's
+    year: 1997
+    nation: JPN
+    label: Time Bomb Records
+    youtube: 3BSmq2dxkxw
+    selector: 草野マサムネ
+  - id: "2023028307"
+    week: 283
+    index: 2354
+    indexInWeek: 7
+    title: Few and Far Between
+    artist: 10,000 Maniacs
+    year: 1992
+    nation: US
+    label: Elektra
+    youtube: NkJ6twPSgUM
+    selector: 草野マサムネ
+  - id: "2023028308"
+    week: 283
+    index: 2355
+    indexInWeek: 8
+    title: face to face
+    artist: MONGOL800
+    year: 2006
+    nation: JPN
+    label: HIGH WAVE TISSUE FREAK RECORDS
+    youtube: HW2aKnUlqZo
+    selector: 草野マサムネ
+  - id: "2023028309"
+    week: 283
+    index: 2356
+    indexInWeek: 9
+    title: エレクトリックおばあちゃん
+    artist: ザ・スパイダース
+    year: 1970
+    nation: JPN
+    label: フィリップス・レコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

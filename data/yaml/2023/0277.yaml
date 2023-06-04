@@ -1,0 +1,95 @@
+id: "20230277"
+week: 277
+year: 2023
+title: 好きなキーボーディスト・リクエストで漫遊記パート①
+guests: []
+categories: ["リクエスト特集", "楽器"]
+date: 2023-04-23
+playlist:
+  - id: "2023027701"
+    week: 277
+    index: 2297
+    indexInWeek: 1
+    title: ハイファイ・ローファイ(NEW MIX)
+    artist: スピッツ
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023027702"
+    week: 277
+    index: 2298
+    indexInWeek: 2
+    title: Seven Seas of Rhye
+    artist: Queen
+    year: 1974
+    nation: UK
+    label: EMI
+    youtube: FxIo57WURRE
+    selector: リクエスト
+  - id: "2023027703"
+    week: 277
+    index: 2299
+    indexInWeek: 3
+    title: 海
+    artist: サザンオールスターズ
+    year: 1984
+    nation: JPN
+    label: タイシタレーベル
+    selector: リクエスト
+  - id: "2023027704"
+    week: 277
+    index: 2300
+    indexInWeek: 4
+    title: 魚ごっこ (Live from "ずいきの涙 / Best Of Bo Gumbos Live Recordings")
+    artist: BO GUMBOS
+    year: 1995
+    nation: JPN
+    label: Epic
+    youtube: vwUOfMW456I
+    selector: リクエスト
+  - id: "2023027705"
+    week: 277
+    index: 2301
+    indexInWeek: 5
+    title: 虹
+    artist: フジファブリック
+    year: 2005
+    nation: JPN
+    label: 東芝EMI
+    youtube: -1PwXs-XHas
+    selector: リクエスト
+  - id: "2023027706"
+    week: 277
+    index: 2302
+    indexInWeek: 6
+    title: Feels So Good
+    artist: Van Halen
+    year: 1988
+    nation: US
+    label: Warner Bros.
+    youtube: iYTMuBx0PMA
+    selector: リクエスト
+  - id: "2023027707"
+    week: 277
+    index: 2303
+    indexInWeek: 7
+    title: ロマンスがありあまる
+    artist: ゲスの極み乙女。
+    year: 2015
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: C6-AN8J385c
+    selector: リクエスト
+  - id: "2023027708"
+    week: 277
+    index: 2304
+    indexInWeek: 8
+    title: はなれ ばなれ
+    artist: クラムボン
+    year: 1999
+    nation: JPN
+    label: ワーナーミュージック
+    youtube: 7M4WwrE5xQA
+    selector: リクエスト
