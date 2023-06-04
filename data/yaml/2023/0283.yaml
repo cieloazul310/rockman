@@ -3,7 +3,7 @@ week: 283
 year: 2023
 title: 数字のバンド名（3桁以上）で漫遊記
 guests: []
-categories: []
+categories: ["バンド名"]
 date: 2023-06-04
 playlist:
   - id: "2023028301"
