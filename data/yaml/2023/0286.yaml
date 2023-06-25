@@ -1,0 +1,98 @@
+id: "20230286"
+week: 286
+year: 2023
+title: バイオリンが入った曲で漫遊記
+guests: []
+categories: ["楽器"]
+date: 2023-06-25
+playlist:
+  - id: "2023028601"
+    week: 286
+    index: 2376
+    indexInWeek: 1
+    title: ときめきpart1
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: FpTG4ES4Pvo
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028602"
+    week: 286
+    index: 2377
+    indexInWeek: 2
+    title: All I See Is You
+    artist: Pride Of Lions
+    year: 2017
+    nation: US
+    label: Avalon
+    youtube: OpBnRZgVPHQ
+    selector: 草野マサムネ
+  - id: "2023028603"
+    week: 286
+    index: 2378
+    indexInWeek: 3
+    title: Paradox
+    artist: Kansas
+    year: 1977
+    nation: US
+    label: Kirshner/CBS
+    youtube: 3urnu1_AwMw
+    selector: 草野マサムネ
+  - id: "2023028604"
+    week: 286
+    index: 2379
+    indexInWeek: 4
+    title: She Sells
+    artist: Roxy Music
+    year: 1975
+    nation: UK
+    label: Island
+    youtube: 2_PeLSHedxo
+    selector: 草野マサムネ
+  - id: "2023028605"
+    week: 286
+    index: 2380
+    indexInWeek: 5
+    title: Psychomodo
+    artist: Cockney Rebel
+    year: 1974
+    nation: UK
+    label: EMI
+    youtube: VZ7kQwa6X7g
+    selector: 草野マサムネ
+  - id: "2023028606"
+    week: 286
+    index: 2381
+    indexInWeek: 6
+    title: What's Left of the Flag
+    artist: Flogging Molly
+    year: 2002
+    nation: US
+    label: SideOneDummy
+    youtube: Trkx9xLb5X8
+    selector: 草野マサムネ
+  - id: "2023028607"
+    week: 286
+    index: 2382
+    indexInWeek: 7
+    title: For You, and Your Denial (Acoustic)
+    artist: Yellowcard
+    year: 2011
+    nation: US
+    label: Hopeless
+    youtube: idnUFmRBoAU
+    selector: 草野マサムネ
+  - id: "2023028608"
+    week: 286
+    index: 2383
+    indexInWeek: 8
+    title: カエルのうた
+    artist: のあのわ
+    year: 2009
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    youtube: ERLoCwnBi2M
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
