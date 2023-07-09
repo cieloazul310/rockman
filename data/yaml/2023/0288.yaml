@@ -1,0 +1,98 @@
+id: "20230288"
+week: 288
+year: 2023
+title: 検索アプリで出会った曲で漫遊記
+guests: []
+categories: []
+date: 2023-07-09
+playlist:
+  - id: "2023028801"
+    week: 288
+    index: 2392
+    indexInWeek: 1
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023028802"
+    week: 288
+    index: 2393
+    indexInWeek: 2
+    title: Bad Self Portraits
+    artist: Lake Street Dive
+    year: 2014
+    nation: US
+    label: Signature Sounds
+    youtube: uRrjDhQLw9s
+    selector: 草野マサムネ
+  - id: "2023028803"
+    week: 288
+    index: 2394
+    indexInWeek: 3
+    title: Down in Front
+    artist: Roger Joseph Manning Jr.
+    year: 2009
+    nation: US
+    label: Oglio Records
+    youtube: l5a3YvAJojc
+    selector: 草野マサムネ
+  - id: "2023028804"
+    week: 288
+    index: 2395
+    indexInWeek: 4
+    title: K.C. Reeves
+    artist: The Courtneys
+    year: 2013
+    nation: CAN
+    label: Hockey Dad Records
+    youtube: Ki-CNLULju4
+    selector: 草野マサムネ
+  - id: "2023028805"
+    week: 288
+    index: 2396
+    indexInWeek: 5
+    title: Two Stones In My Pocket
+    artist: Neil Halstead
+    year: 2001
+    nation: UK
+    label: 4AD
+    youtube: bepzRjBiEpo
+    selector: 草野マサムネ
+  - id: "2023028806"
+    week: 288
+    index: 2397
+    indexInWeek: 6
+    title: Suspicious Minds
+    artist: Fine Young Cannibals
+    year: 1985
+    nation: UK
+    label: I.R.S., London
+    youtube: 13iMsGNUHFo
+    selector: 草野マサムネ
+  - id: "2023028807"
+    week: 288
+    index: 2398
+    indexInWeek: 7
+    title: Radioactive Rain
+    artist: Smith & Thell
+    year: 2021
+    nation: SWE
+    label: Playground Music
+    youtube: 3840oom5Ht8
+    selector: 草野マサムネ
+  - id: "2023028808"
+    week: 288
+    index: 2399
+    indexInWeek: 8
+    title: リフレイン
+    artist: 国分友里恵
+    kana: こくぶゆりえ
+    year: 1986
+    nation: JPN
+    label: RVC / air RECORDS
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
