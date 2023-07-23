@@ -1,0 +1,108 @@
+id: "20230290"
+week: 290
+year: 2023
+title: 有名人の名前がタイトルのナンバーで漫遊記
+guests: []
+categories: []
+date: 2023-07-23
+playlist:
+  - id: "2023029001"
+    week: 290
+    index: 2407
+    indexInWeek: 1
+    title: テイタム・オニール
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029002"
+    week: 290
+    index: 2408
+    indexInWeek: 2
+    title: Buddy Holly
+    artist: Weezer
+    year: 1994
+    nation: US
+    label: DGE
+    youtube: h_XLVrTygVc
+    selector: 草野マサムネ
+  - id: "2023029003"
+    week: 290
+    index: 2409
+    indexInWeek: 3
+    title: 拝啓、ジョン・レノン
+    artist: 真心ブラザーズ
+    kana: まごころぶらざーず
+    year: 1996
+    nation: JPN
+    label: Ki/oon Sony Records
+    youtube: QxRKZ-1wwZM
+    selector: 草野マサムネ
+  - id: "2023029004"
+    week: 290
+    index: 2410
+    indexInWeek: 4
+    title: The Rick Springfield Song
+    artist: The Szuters
+    year: 1998
+    nation: US
+    label: Victor
+    selector: 草野マサムネ
+  - id: "2023029005"
+    week: 290
+    index: 2411
+    indexInWeek: 5
+    title: Feelin' Satisfied
+    artist: Kim Carnes
+    year: 1981
+    nation: US
+    label: EMI America
+    youtube: EPOIS5taqA8
+    selector: 草野マサムネ
+  - id: "2023029006"
+    week: 290
+    index: 2412
+    indexInWeek: 6
+    title: Magic Johnson
+    artist: Red Hot Chili Peppers
+    year: 1989
+    nation: US
+    label: EMI USA
+    selector: 草野マサムネ
+  - id: "2023029007"
+    week: 290
+    index: 2413
+    indexInWeek: 7
+    title: Paul Stanley
+    artist: The Hellacopters
+    year: 1999
+    nation: SWE
+    label: White Jazz Records
+    youtube: jsCj7G_I-oM
+    selector: 草野マサムネ
+  - id: "2023029008"
+    week: 290
+    index: 2414
+    indexInWeek: 8
+    title: TOSHI-LOWさん
+    artist: キュウソネコカミ
+    year: 2017
+    nation: JPN
+    label: Getting Better
+    youtube: jSHAEoLBJCU
+    selector: 草野マサムネ
+  - id: "2023029009"
+    week: 290
+    index: 2415
+    indexInWeek: 9
+    title: 1986年のマリリン
+    artist: 本田美奈子
+    kana: ほんだみなこ
+    year: 1986
+    nation: JPN
+    label: 東芝EMI
+    youtube: XKCaVpwAnEg
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
