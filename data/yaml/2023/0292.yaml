@@ -1,0 +1,109 @@
+id: "20230292"
+week: 292
+year: 2023
+title: 緑・グリーンなバンド名で漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2023-08-06
+playlist:
+  - id: "2023029201"
+    week: 292
+    index: 2423
+    indexInWeek: 1
+    title: グリーン
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029202"
+    week: 292
+    index: 2424
+    indexInWeek: 2
+    title: Don!!
+    artist: 緑黄色社会
+    kana: りょくおうしょくしゃかい
+    year: 2023
+    nation: JPN
+    label: Epic Records Japan
+    selector: 草野マサムネ
+  - id: "2023029203"
+    week: 292
+    index: 2425
+    indexInWeek: 3
+    title: Basket Case
+    artist: Green Day
+    year: 1994
+    nation: US
+    label: Reprise
+    youtube: NUTGr5t3MoY
+    selector: 草野マサムネ
+  - id: "2023029204"
+    week: 292
+    index: 2426
+    indexInWeek: 4
+    title: どんぞこ
+    artist: ミドリ
+    year: 2011
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    selector: 草野マサムネ
+  - id: "2023029205"
+    week: 292
+    index: 2427
+    indexInWeek: 5
+    title: There will be love there -愛のある場所-
+    artist: the brilliant green
+    year: 1998
+    nation: JPN
+    label: ソニーレコード
+    youtube: gI0Fc4L_-QY
+    selector: 草野マサムネ
+  - id: "2023029206"
+    week: 292
+    index: 2428
+    indexInWeek: 6
+    title: Heart Taker (On B.C. Street)
+    artist: Condition Green
+    year: 1978
+    nation: JPN
+    label: See・Saw
+    youtube: TSrhKi2bTFI
+    selector: 草野マサムネ
+  - id: "2023029207"
+    week: 292
+    index: 2429
+    indexInWeek: 7
+    title: ケセラセラ
+    artist: Mrs. GREEN APPLE
+    year: 2023
+    nation: JPN
+    label: EMI Records
+    youtube: Jy-QS27q7lA
+    selector: 草野マサムネ
+  - id: "2023029208"
+    week: 292
+    index: 2430
+    indexInWeek: 8
+    title: Sold Out
+    artist: Gang Green
+    year: 1984
+    nation: US
+    label: Taang! Records
+    youtube: Cbs6jDYNUac
+    selector: 草野マサムネ
+  - id: "2023029209"
+    week: 292
+    index: 2431
+    indexInWeek: 9
+    title: 横浜いれぶん
+    artist: 木之内みどり
+    kana: きのうちみどり
+    year: 1978
+    nation: JPN
+    label: NAVレコード
+    youtube: eGrVORLGB4k
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

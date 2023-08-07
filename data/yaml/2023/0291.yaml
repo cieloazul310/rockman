@@ -1,0 +1,99 @@
+id: "20230291"
+week: 291
+year: 2023
+title: 音楽専科1973年3月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2023-07-30
+playlist:
+  - id: "2023029101"
+    week: 291
+    index: 2415
+    indexInWeek: 1
+    title: i-O（修理のうた）
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029102"
+    week: 291
+    index: 2416
+    indexInWeek: 2
+    title: Tight Rope
+    artist: Leon Russell
+    year: 1972
+    nation: US
+    label: Shelter
+    youtube: Qvep3Vsv_uQ
+    selector: 草野マサムネ
+  - id: "2023029103"
+    week: 291
+    index: 2417
+    indexInWeek: 3
+    title: Oh ma jolie Sarah
+    artist: Johnny Hallyday
+    year: 1971
+    nation: FR
+    label: Phillips
+    youtube: Qbk4M9cs7zM
+    selector: 草野マサムネ
+  - id: "2023029104"
+    week: 291
+    index: 2418
+    indexInWeek: 4
+    title: You're So Vain
+    artist: Carly Simon
+    year: 1972
+    nation: US
+    label: Elektra
+    youtube: j13oJajXx0M
+    selector: 草野マサムネ
+  - id: "2023029105"
+    week: 291
+    index: 2419
+    indexInWeek: 5
+    title: Sugar Magnolia
+    artist: Grateful Dead
+    year: 1970
+    nation: US
+    label: Warner Bros.
+    youtube: XKx3W-1XVM4
+    selector: 草野マサムネ
+  - id: "2023029106"
+    week: 291
+    index: 2420
+    indexInWeek: 6
+    title: Remember Me
+    artist: Diana Ross
+    year: 1970
+    nation: US
+    label: Motown
+    youtube: DNbiPeDisps
+    selector: 草野マサムネ
+  - id: "2023029107"
+    week: 291
+    index: 2421
+    indexInWeek: 7
+    title: Street Fighting Man
+    artist: The Rolling Stones
+    year: 1968
+    nation: UK
+    label: Decca
+    youtube: BUt0dZXPFoU
+    selector: 草野マサムネ
+  - id: "2023029108"
+    week: 291
+    index: 2422
+    indexInWeek: 8
+    title: ローリング・ストーンズは来なかった
+    artist: 西郷輝彦
+    kana: さいごうてるひこ
+    year: 1973
+    nation: JPN
+    label: クラウンレコード
+    youtube: jukGFdeK0eQ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+  
