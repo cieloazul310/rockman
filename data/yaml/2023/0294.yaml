@@ -1,0 +1,97 @@
+id: "20230294"
+week: 294
+year: 2023
+title: ロク漫的WBCのテーマソングで漫遊記
+guests: []
+categories: []
+date: 2023-08-20
+playlist:
+  - id: "2023029401"
+    week: 294
+    index: 2440
+    indexInWeek: 1
+    title: 旅人
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029402"
+    week: 294
+    index: 2441
+    indexInWeek: 2
+    title: Separate Ways (Worlds Apart)
+    artist: Journey
+    year: 1983
+    nation: US
+    label: Columbia
+    youtube: LatorN4P9aA
+    selector: 草野マサムネ
+  - id: "2023029403"
+    week: 294
+    index: 2442
+    indexInWeek: 3
+    title: Higher
+    artist: Edenbridge
+    year: 2010
+    nation: AUT
+    label: Napalm Records
+    youtube: r1dJDzB2OFU
+    selector: 草野マサムネ
+  - id: "2023029404"
+    week: 294
+    index: 2443
+    indexInWeek: 4
+    title: Bushido
+    artist: HammerFall
+    year: 2014
+    nation: SWE
+    label: Nuclear Blast
+    youtube: Hf3rkiScayw
+    selector: 草野マサムネ
+  - id: "2023029405"
+    week: 294
+    index: 2444
+    indexInWeek: 5
+    title: Eye for an Eye
+    artist: H.E.A.T
+    year: 2014
+    nation: SWE
+    label: earMusic
+    youtube: PIKCB5TyuGU
+    selector: 草野マサムネ
+  - id: "2023029406"
+    week: 294
+    index: 2445
+    indexInWeek: 6
+    title: Into The Fire
+    artist: Degreed
+    year: 2022
+    nation: SWE
+    label: Frontiers Music SRL
+    youtube: zgTYkYjmHqU
+    selector: 草野マサムネ
+  - id: "2023029407"
+    week: 294
+    index: 2446
+    indexInWeek: 7
+    title: Go
+    artist: Asia
+    year: 1985
+    nation: UK
+    label: Geffen
+    youtube: OubZVZyl2ww
+    selector: 草野マサムネ
+  - id: "2023029408"
+    week: 294
+    index: 2447
+    indexInWeek: 8
+    title: NEVER
+    artist: MIE
+    year: 1984
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
