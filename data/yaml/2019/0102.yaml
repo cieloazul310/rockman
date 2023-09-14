@@ -29,6 +29,7 @@ playlist:
     nation: JPN
     label: ビクターエンタテイメント
     title: キャント・バイ・ミー・ラブ
+    youtube: e4PwE3PlHkU
     index: 845
     indexInWeek: 2
     selector: 草野マサムネ
@@ -77,8 +78,8 @@ playlist:
     label: Elektra
     producer:
       - Tom Werman
-    youtube: _QrBJNtC-MU
-    title: Helier Skelter
+    youtube: mwIsXHZivu4
+    title: Helter Skelter
     index: 849
     indexInWeek: 6
     selector: 草野マサムネ
