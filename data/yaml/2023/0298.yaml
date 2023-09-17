@@ -1,0 +1,96 @@
+id: "20230298"
+week: 298
+year: 2023
+title: 架空の生き物のバンド名で漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2023-09-17
+playlist:
+  - id: "2023029801"
+    week: 298
+    index: 2473
+    indexInWeek: 1
+    title: オバケのロックバンド
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029802"
+    week: 298
+    index: 2474
+    indexInWeek: 2
+    title: おかしな2人
+    artist: UNICORN
+    year: 1989
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+  - id: "2023029803"
+    week: 298
+    index: 2475
+    indexInWeek: 3
+    title: "1901"
+    artist: Phoenix
+    year: 2009
+    nation: FR
+    label: V2
+    youtube: HL548cHH3OY
+    selector: 草野マサムネ
+  - id: "2023029804"
+    week: 298
+    index: 2476
+    indexInWeek: 4
+    title: Scissors
+    artist: Yeti
+    year: 2016
+    nation: JPN
+    label: AKATSUKI label
+    selector: 草野マサムネ
+  - id: "2023029805"
+    week: 298
+    index: 2477
+    indexInWeek: 5
+    title: The Astrologer
+    artist: Gryphon
+    year: 1973
+    nation: UK
+    label: Transatlantic Records
+    youtube: KXgXL7RL_Dw
+    selector: 草野マサムネ
+  - id: "2023029806"
+    week: 298
+    index: 2478
+    indexInWeek: 6
+    title: Silvera
+    artist: Gojira
+    year: 2016
+    nation: FR
+    label: Roadrunner
+    youtube: iVvXB-Vwnco
+    selector: 草野マサムネ
+  - id: "2023029807"
+    week: 298
+    index: 2479
+    indexInWeek: 7
+    title: Divine Thing
+    artist: The Soup Dragons
+    year: 1992
+    nation: UK
+    label: Big Life
+    youtube: YLMWmP6ta04
+    selector: 草野マサムネ
+  - id: "2023029808"
+    week: 298
+    index: 2480
+    indexInWeek: 8
+    title: 野良の虹
+    artist: キリンジ
+    year: 1998
+    nation: JPN
+    label: A.K.A
+    youtube: YcaJDrYf4GI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
