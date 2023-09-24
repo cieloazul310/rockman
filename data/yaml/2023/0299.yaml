@@ -1,0 +1,109 @@
+id: "20230299"
+week: 299
+year: 2023
+title: 未来未来なタイトル曲で漫遊記
+guests: []
+categories: []
+date: 2023-09-24
+playlist:
+  - id: "2023029901"
+    week: 299
+    index: 2481
+    indexInWeek: 1
+    title: 未来未来
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029902"
+    week: 299
+    index: 2482
+    indexInWeek: 2
+    title: Come On, Come On
+    artist: Cheap Trick
+    year: 1977
+    nation: US
+    label: Epic
+    youtube: 9JeI_pVQbAM
+    selector: 草野マサムネ
+  - id: "2023029903"
+    week: 299
+    index: 2483
+    indexInWeek: 3
+    title: Doctor Doctor
+    artist: UFO
+    year: 1974
+    nation: UK
+    label: Chrysalis
+    youtube: J-U5H6hmw6E
+    selector: 草野マサムネ
+  - id: "2023029904"
+    week: 299
+    index: 2484
+    indexInWeek: 4
+    title: Mister Mister
+    artist: T. Rex
+    year: 1973
+    nation: UK
+    label: EMI
+    youtube: 3gk6ICupuWk
+    selector: 草野マサムネ
+  - id: "2023029905"
+    week: 299
+    index: 2485
+    indexInWeek: 5
+    title: Funny, Funny
+    artist: Sweet
+    year: 1971
+    nation: UK
+    label: RCA
+    youtube: JYq8XkSAuDM
+    selector: 草野マサムネ
+  - id: "2023029906"
+    week: 299
+    index: 2486
+    indexInWeek: 6
+    title: Gang Gang
+    artist: Brigitte Bardot
+    year: 1968
+    nation: FR
+    label: Disc'AZ
+    youtube: a6PRqh0RkbM
+    selector: 草野マサムネ
+  - id: "2023029907"
+    week: 299
+    index: 2487
+    indexInWeek: 7
+    title: Fire, Fire
+    artist: Motörhead
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: bl4JKLpmboE
+    selector: 草野マサムネ
+  - id: "2023029908"
+    week: 299
+    index: 2488
+    indexInWeek: 8
+    title: Tonight, Tonight
+    artist: The Smashing Pumpkins
+    year: 1996
+    nation: US
+    label: Virgin
+    youtube: NOG3eus4ZSo
+    selector: 草野マサムネ
+  - id: "2023029909"
+    week: 299
+    index: 2489
+    indexInWeek: 9
+    title: BABY BABY
+    artist: GOING STEADY
+    year: 2001
+    nation: JPN
+    label: Libra records
+    youtube: 8twK1Guwbp0
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
