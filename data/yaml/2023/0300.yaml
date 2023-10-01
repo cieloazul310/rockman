@@ -1,0 +1,109 @@
+id: "20230300"
+week: 300
+year: 2023
+title: oiパンクで漫遊記
+guests: []
+categories: []
+date: 2023-10-01
+playlist:
+  - id: "2023030001"
+    week: 300
+    index: 2490
+    indexInWeek: 1
+    title: めぐりめぐって
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030002"
+    week: 300
+    index: 2491
+    indexInWeek: 2
+    title: Oi! Oi! Oi!
+    artist: Cockney Rejects
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: VOGSYYUqJSI
+    selector: 草野マサムネ
+  - id: "2023030003"
+    week: 300
+    index: 2492
+    indexInWeek: 3
+    title: Give a Dog a Bone
+    artist: Sham 69
+    year: 1980
+    nation: UK
+    label: Polydor
+    youtube: FpBRGdSDgaQ
+    selector: 草野マサムネ
+  - id: "2023030004"
+    week: 300
+    index: 2493
+    indexInWeek: 4
+    title: Someones Gonna Die
+    artist: Blitz
+    year: 1981
+    nation: UK
+    label: No Future Records
+    youtube: LPRqyfzM8os
+    selector: 草野マサムネ
+  - id: "2023030005"
+    week: 300
+    index: 2494
+    indexInWeek: 5
+    title: Yesterday's Heroes
+    artist: The 4-Skins
+    year: 1982
+    nation: UK
+    label: Secrets Records
+    youtube: wfVpXreowTc
+    selector: 草野マサムネ
+  - id: "2023030006"
+    week: 300
+    index: 2495
+    indexInWeek: 6
+    title: I'm An Upstart
+    artist: Angelic Upstarts
+    year: 1979
+    nation: UK
+    label: Warner Bros.
+    youtube: 82-DzvhKvX8
+    selector: 草野マサムネ
+  - id: "2023030007"
+    week: 300
+    index: 2496
+    indexInWeek: 7
+    title: Crust Party In Findhorn Place
+    artist: Oi Polloi
+    year: 2020
+    nation: UK
+    label: Urinal Vinyl Records
+    youtube: 9YCaXV93JGM
+    selector: 草野マサムネ
+  - id: "2023030008"
+    week: 300
+    index: 2497
+    indexInWeek: 8
+    title: Gonna Be Alright
+    artist: Cock Sparrer
+    year: 2017
+    nation: UK
+    label: Pirates Press Records
+    youtube: nn-ko1xB-ak
+    selector: 草野マサムネ
+  - id: "2023030009"
+    week: 300
+    index: 2498
+    indexInWeek: 9
+    title: やっちまえ!POPSTAR
+    artist: COBRA
+    year: 1990
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: LkZnrVN1aN4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
