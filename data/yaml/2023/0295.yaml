@@ -1,0 +1,109 @@
+id: "20230295"
+week: 295
+year: 2023
+title: テレキャスター使いで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2023-08-27
+playlist:
+  - id: "2023029501"
+    week: 295
+    index: 2448
+    indexInWeek: 1
+    title: 青い車
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: 5K8ZuLYG0yo
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029502"
+    week: 295
+    index: 2449
+    indexInWeek: 2
+    title: Haunted House
+    artist: Roy Buchanan
+    year: 1972
+    nation: US
+    label: Polydor
+    youtube: 8E0ozuzSh_0
+    selector: 草野マサムネ
+  - id: "2023029503"
+    week: 295
+    index: 2450
+    indexInWeek: 3
+    title: Another Man
+    artist: Dr. Feelgood
+    year: 1975
+    nation: UK
+    label: United Artists
+    youtube: 08NXxy11idc
+    selector: 草野マサムネ
+  - id: "2023029504"
+    week: 295
+    index: 2451
+    indexInWeek: 4
+    title: Tumbling Dice
+    artist: The Rolling Stones
+    year: 1972
+    nation: UK
+    label: Rolling Stones
+    youtube: EMoi_m2G6XU
+    selector: 草野マサムネ
+  - id: "2023029505"
+    week: 295
+    index: 2452
+    indexInWeek: 5
+    title: Born to Run
+    artist: Bruce Springsteen
+    year: 1975
+    nation: US
+    label: Columbia
+    youtube: IxuThNgl3YA
+    selector: 草野マサムネ
+  - id: "2023029506"
+    week: 295
+    index: 2453
+    indexInWeek: 6
+    title: Good Times Bad Times
+    artist: Led Zeppelin
+    year: 1969
+    nation: UK
+    label: Atlantic
+    youtube: TA9Rec1qAFQ
+    selector: 草野マサムネ
+  - id: "2023029507"
+    week: 295
+    index: 2454
+    indexInWeek: 7
+    title: London's Burning
+    artist: The Clash
+    year: 1977
+    nation: UK
+    label: CBS
+    youtube: I6XijqjtJoA
+    selector: 草野マサムネ
+  - id: "2023029508"
+    week: 295
+    index: 2455
+    indexInWeek: 8
+    title: Standing on My Own Again
+    artist: Graham Coxon
+    year: 2006
+    nation: UK
+    label: Parlophone
+    youtube: kQDpplr2mS4
+    selector: 草野マサムネ
+  - id: "2023029509"
+    week: 295
+    index: 2456
+    indexInWeek: 9
+    title: 豊かな想像
+    artist: SKAFUNK
+    year: 1991
+    nation: JPN
+    label: ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

@@ -36,7 +36,7 @@ playlist:
     indexInWeek: 3
     title: Boredom
     artist: Buzzcocks
-    year: 2021
+    year: 1977
     nation: UK
     label: New Hormones
     youtube: IqFiS4iRvlU
@@ -94,6 +94,7 @@ playlist:
     year: 2006
     nation: UK
     label: Cooking Vinyl
+    youtube: WqGoqHP0Cck
     selector: 草野マサムネ
   - id: "2022021909"
     week: 219

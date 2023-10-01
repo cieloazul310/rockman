@@ -1,0 +1,99 @@
+id: "20230297"
+week: 297
+year: 2023
+title: ザ カーズで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-09-10
+playlist:
+  - id: "2023029701"
+    week: 297
+    index: 2465
+    indexInWeek: 1
+    title: ハネモノ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    youtube: PWNNBagSiu4
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029702"
+    week: 297
+    index: 2466
+    indexInWeek: 2
+    title: Just What I Needed
+    artist: The Cars
+    year: 1978
+    nation: US
+    label: Elektra
+    youtube: gvy2yqUHLLg
+    selector: 草野マサムネ
+  - id: "2023029703"
+    week: 297
+    index: 2467
+    indexInWeek: 3
+    title: Let's Go
+    artist: The Cars
+    year: 1979
+    nation: US
+    label: Elektra
+    youtube: BrmevLXE_kM
+    selector: 草野マサムネ
+  - id: "2023029704"
+    week: 297
+    index: 2468
+    indexInWeek: 4
+    title: It's All I Can Do
+    artist: The Cars
+    year: 1979
+    nation: US
+    label: Elektra
+    youtube: 7ytKXmsJnoY
+    selector: 草野マサムネ
+  - id: "2023029705"
+    week: 297
+    index: 2469
+    indexInWeek: 5
+    title: Touch and Go
+    artist: The Cars
+    year: 1980
+    nation: US
+    label: Elektra
+    youtube: L7Gpr_Auz8Y
+    selector: 草野マサムネ
+  - id: "2023029706"
+    week: 297
+    index: 2470
+    indexInWeek: 6
+    title: You Might Think
+    artist: The Cars
+    year: 1984
+    nation: US
+    label: Elektra
+    youtube: 3dOx510kyOs
+    selector: 草野マサムネ
+  - id: "2023029707"
+    week: 297
+    index: 2471
+    indexInWeek: 7
+    title: Sad Song
+    artist: The Cars
+    year: 2011
+    nation: US
+    label: Hear Music
+    youtube: XMVfa5oAdQE
+    selector: 草野マサムネ
+  - id: "2023029708"
+    week: 297
+    index: 2472
+    indexInWeek: 8
+    title: One Step
+    artist: moumoon
+    year: 2011
+    nation: JPN
+    label: avex trax
+    youtube: zPnVU-R0hzQ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

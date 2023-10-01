@@ -1,0 +1,95 @@
+id: "20230296"
+week: 296
+year: 2023
+title: おしゃれリズムなスピッツナンバーで漫遊記
+guests: []
+categories: ["スピッツ曲"]
+date: 2023-09-03
+playlist:
+  - id: "2023029601"
+    week: 296
+    index: 2457
+    indexInWeek: 1
+    title: 楓
+    artist: 松任谷由実
+    kana: まつとうやゆみ
+    year: 2002
+    nation: JPN
+    label: Dreamusic
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029602"
+    week: 296
+    index: 2458
+    indexInWeek: 2
+    title: 裸のままで
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    youtube: JnSryjy5eNw
+    selector: 草野マサムネ
+  - id: "2023029603"
+    week: 296
+    index: 2459
+    indexInWeek: 3
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2023029604"
+    week: 296
+    index: 2460
+    indexInWeek: 4
+    title: まもるさん
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2023029605"
+    week: 296
+    index: 2461
+    indexInWeek: 5
+    title: ヘビーメロウ
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    youtube: BASmTe-x-Ok
+    selector: 草野マサムネ
+  - id: "2023029606"
+    week: 296
+    index: 2462
+    indexInWeek: 6
+    title: YM71D
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2023029607"
+    week: 296
+    index: 2463
+    indexInWeek: 7
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    selector: 草野マサムネ
+  - id: "2023029608"
+    week: 296
+    index: 2464
+    indexInWeek: 8
+    title: Words Of Love
+    artist: NAZCA
+    year: 1983
+    nation: JPN
+    label: CBS/ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

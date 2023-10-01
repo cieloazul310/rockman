@@ -31,7 +31,7 @@ playlist:
     producer: 
       - Leonard Chess
       - Phil Chess
-    youtube: Uf4rxCB4lys
+    youtube: lNeEb7I3bwI
     selector: 草野マサムネ
   - id: "2020013703"
     week: 137
@@ -42,7 +42,7 @@ playlist:
     year: 1957
     nation: US
     label: ABC
-    youtube: S9zqAj1xoRA
+    youtube: Gve4gFhq7As
     selector: 草野マサムネ
   - id: "2020013704"
     week: 137
@@ -64,7 +64,7 @@ playlist:
     year: 1977
     nation: US
     label: Fire Sign Records
-    youtube: GeFALiKln3I
+    youtube: i4SIqG0zgPw
     selector: 草野マサムネ
   - id: "2020013706"
     week: 137
@@ -75,6 +75,7 @@ playlist:
     year: 1975
     nation: AUS
     label: Albert
+    youtube: GChhRrU6BJU
     selector: 草野マサムネ
   - id: "2020013707"
     week: 137

@@ -1,0 +1,100 @@
+id: "20230293"
+week: 293
+year: 2023
+title: 90年代のブラーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-08-13
+playlist:
+  - id: "2023029301"
+    week: 293
+    index: 2432
+    indexInWeek: 1
+    title: ルキンフォー
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    youtube: cyQckfvFcXI
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023029302"
+    week: 293
+    index: 2433
+    indexInWeek: 2
+    title: There's No Other Way
+    artist: Blur
+    year: 1991
+    nation: UK
+    label: Food
+    youtube: LJzCYSdrHMI
+    selector: 草野マサムネ
+  - id: "2023029303"
+    week: 293
+    index: 2434
+    indexInWeek: 3
+    title: For Tomorrow
+    artist: Blur
+    year: 1993
+    nation: UK
+    label: Food
+    youtube: gghFPavXE7Q
+    selector: 草野マサムネ
+  - id: "2023029304"
+    week: 293
+    index: 2435
+    indexInWeek: 4
+    title: Girls & Boys
+    artist: Blur
+    year: 1994
+    nation: UK
+    label: Food
+    youtube: WDswiT87oo8
+    selector: 草野マサムネ
+  - id: "2023029305"
+    week: 293
+    index: 2436
+    indexInWeek: 5
+    title: Country House
+    artist: Blur
+    year: 1995
+    nation: UK
+    label: Food
+    youtube: gpuh1WE-RVw
+    selector: 草野マサムネ
+  - id: "2023029306"
+    week: 293
+    index: 2437
+    indexInWeek: 6
+    title: Charmless Man
+    artist: Blur
+    year: 1995
+    nation: UK
+    label: Food
+    youtube: p1a_4CN4onA
+    selector: 草野マサムネ
+  - id: "2023029307"
+    week: 293
+    index: 2438
+    indexInWeek: 7
+    title: Beetlebum
+    artist: Blur
+    year: 1997
+    nation: UK
+    label: Food
+    youtube: WAXnqjUfal4
+    selector: 草野マサムネ
+  - id: "2023029308"
+    week: 293
+    index: 2439
+    indexInWeek: 8
+    title: 翼もないのに
+    artist: 和田アキ子
+    kana: わだあきこ
+    year: 1971
+    nation: JPN
+    label: RCA/日本ビクター
+    youtube: OnsxzJjTceY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
