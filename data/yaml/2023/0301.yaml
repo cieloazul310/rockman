@@ -1,109 +1,98 @@
-id: "20230300"
-week: 300
+id: "20230301"
+week: 301
 year: 2023
 title: サクソンで漫遊記
 guests: []
 categories: ["アーティスト特集"]
 date: 2023-10-08
 playlist:
-  - id: "2023030001"
-    week: 300
+  - id: "2023030101"
+    week: 301
     index: 2499
     indexInWeek: 1
-    title: めぐりめぐって
+    title: 僕のギター
     artist: スピッツ
-    year: 2023
+    year: 2007
     nation: JPN
     label: ユニバーサル
     corner: 漫遊前の一曲
     selector: 草野マサムネ
-  - id: "2023030002"
-    week: 300
+  - id: "2023030102"
+    week: 301
     index: 2500
     indexInWeek: 2
-    title: Oi! Oi! Oi!
+    title: Heavy Metal Thunder
     artist: Saxon
     year: 1980
     nation: UK
-    label: EMI
-    youtube: VOGSYYUqJSI
+    label: Carrere
+    youtube: wzCTMIjuBTQ
     selector: 草野マサムネ
-  - id: "2023030003"
-    week: 300
+  - id: "2023030103"
+    week: 301
     index: 2501
     indexInWeek: 3
-    title: Give a Dog a Bone
+    title: Motorcycle Man
     artist: Saxon
     year: 1980
     nation: UK
-    label: Polydor
-    youtube: FpBRGdSDgaQ
+    label: Carrere
+    youtube: 6uoRG8p6NRo
     selector: 草野マサムネ
-  - id: "2023030004"
-    week: 300
+  - id: "2023030104"
+    week: 301
     index: 2502
     indexInWeek: 4
-    title: Someones Gonna Die
+    title: 747 (Strangers in the Night)
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: Gq6VhHTYGq0
+    selector: 草野マサムネ
+  - id: "2023030105"
+    week: 301
+    index: 2503
+    indexInWeek: 5
+    title: Sixth Form Girls
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: LeePAhPb-V0
+    selector: 草野マサムネ
+  - id: "2023030106"
+    week: 301
+    index: 2504
+    indexInWeek: 6
+    title: And the Bands Played On
     artist: Saxon
     year: 1981
     nation: UK
-    label: No Future Records
-    youtube: LPRqyfzM8os
+    label: Carrere
+    youtube: 0DCAhnTyrwc
     selector: 草野マサムネ
-  - id: "2023030005"
-    week: 300
-    index: 2503
-    indexInWeek: 5
-    title: Yesterday's Heroes
-    artist: Saxon
-    year: 1982
-    nation: UK
-    label: Secrets Records
-    youtube: wfVpXreowTc
-    selector: 草野マサムネ
-  - id: "2023030006"
-    week: 300
-    index: 2504
-    indexInWeek: 6
-    title: I'm An Upstart
-    artist: Saxon
-    year: 1979
-    nation: UK
-    label: Warner Bros.
-    youtube: 82-DzvhKvX8
-    selector: 草野マサムネ
-  - id: "2023030007"
-    week: 300
+  - id: "2023030107"
+    week: 301
     index: 2505
     indexInWeek: 7
-    title: Crust Party In Findhorn Place
+    title: Ride Like the Wind
     artist: Saxon
-    year: 2020
+    year: 1988
     nation: UK
-    label: Urinal Vinyl Records
-    youtube: 9YCaXV93JGM
+    label: EMI
+    youtube: 0qD46e8XE1U
     selector: 草野マサムネ
-  - id: "2023030008"
-    week: 300
+  - id: "2023030108"
+    week: 301
     index: 2506
     indexInWeek: 8
-    title: Gonna Be Alright
-    artist: Saxon
-    year: 2017
-    nation: UK
-    label: Pirates Press Records
-    youtube: nn-ko1xB-ak
-    selector: 草野マサムネ
-  - id: "2023030009"
-    week: 300
-    index: 2507
-    indexInWeek: 9
-    title: やっちまえ!POPSTAR
-    artist: COBRA
-    year: 1990
+    title: 明日の向こう
+    artist: After me
+    year: 1999
     nation: JPN
-    label: ポニーキャニオン
-    youtube: LkZnrVN1aN4
+    label: Triad
+    youtube: CVFbov2FS_o
     selector: 草野マサムネ
     corner: ちょっぴりタイムマシン
     
