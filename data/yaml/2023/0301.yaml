@@ -1,0 +1,98 @@
+id: "20230301"
+week: 301
+year: 2023
+title: サクソンで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-10-08
+playlist:
+  - id: "2023030101"
+    week: 301
+    index: 2499
+    indexInWeek: 1
+    title: 僕のギター
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030102"
+    week: 301
+    index: 2500
+    indexInWeek: 2
+    title: Heavy Metal Thunder
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: wzCTMIjuBTQ
+    selector: 草野マサムネ
+  - id: "2023030103"
+    week: 301
+    index: 2501
+    indexInWeek: 3
+    title: Motorcycle Man
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: 6uoRG8p6NRo
+    selector: 草野マサムネ
+  - id: "2023030104"
+    week: 301
+    index: 2502
+    indexInWeek: 4
+    title: 747 (Strangers in the Night)
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: Gq6VhHTYGq0
+    selector: 草野マサムネ
+  - id: "2023030105"
+    week: 301
+    index: 2503
+    indexInWeek: 5
+    title: Sixth Form Girls
+    artist: Saxon
+    year: 1980
+    nation: UK
+    label: Carrere
+    youtube: LeePAhPb-V0
+    selector: 草野マサムネ
+  - id: "2023030106"
+    week: 301
+    index: 2504
+    indexInWeek: 6
+    title: And the Bands Played On
+    artist: Saxon
+    year: 1981
+    nation: UK
+    label: Carrere
+    youtube: 0DCAhnTyrwc
+    selector: 草野マサムネ
+  - id: "2023030107"
+    week: 301
+    index: 2505
+    indexInWeek: 7
+    title: Ride Like the Wind
+    artist: Saxon
+    year: 1988
+    nation: UK
+    label: EMI
+    youtube: 0qD46e8XE1U
+    selector: 草野マサムネ
+  - id: "2023030108"
+    week: 301
+    index: 2506
+    indexInWeek: 8
+    title: 明日の向こう
+    artist: After me
+    year: 1999
+    nation: JPN
+    label: Triad
+    youtube: CVFbov2FS_o
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
