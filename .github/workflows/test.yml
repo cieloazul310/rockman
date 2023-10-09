@@ -3,6 +3,7 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths-ignore:
+      - data
       - '*/**/*.md'
     branches:
       - main
