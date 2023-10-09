@@ -1,6 +1,6 @@
-import * as React from 'react';
-import ArtistItemContainer from './Container';
-import { useProgramTop25 } from '../../utils/graphql-hooks';
+import * as React from "react";
+import ArtistItemContainer from "./Container";
+import { useProgramTop25 } from "../../utils/graphql-hooks";
 
 function ProgramTop25() {
   const top25 = useProgramTop25();

@@ -1,11 +1,11 @@
-import * as React from 'react';
-import type { ComponentMeta } from '@storybook/react';
-import ArtistPageHeader from '../templates/artist/PageHeader';
-import ProgramPageHeader from '../templates/program/PageHeader';
-import program from './data/program';
+import * as React from "react";
+import type { ComponentMeta } from "@storybook/react";
+import ArtistPageHeader from "../templates/artist/PageHeader";
+import ProgramPageHeader from "../templates/program/PageHeader";
+import program from "./data/program";
 
 export default {
-  title: 'PageHeader',
+  title: "PageHeader",
   component: ProgramPageHeader,
   subcomponents: {
     ArtistPageHeader,

@@ -1,16 +1,16 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Avatar from '@mui/material/Avatar';
-import MuiLink from '@mui/material/Link';
-import Skeleton from '@mui/material/Skeleton';
-import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import PlayCircleIcon from '@mui/icons-material/PlayCircleOutline';
-import TextSpan from '../TextSpan';
-import NationLabel from '../NationLabel';
-import { TuneIcon } from '../../icons';
-import useIsMobile from '../../utils/useIsMobile';
-import type { TuneItemFragment } from '../../../types';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Avatar from "@mui/material/Avatar";
+import MuiLink from "@mui/material/Link";
+import Skeleton from "@mui/material/Skeleton";
+import { AppLink } from "@cieloazul310/gatsby-theme-aoi";
+import PlayCircleIcon from "@mui/icons-material/PlayCircleOutline";
+import TextSpan from "../TextSpan";
+import NationLabel from "../NationLabel";
+import { TuneIcon } from "../../icons";
+import useIsMobile from "../../utils/useIsMobile";
+import type { TuneItemFragment } from "../../../types";
 
 type YouTubeLinkProps = {
   href: string;
@@ -22,23 +22,29 @@ function YouTubeLink({ href, title, children }: YouTubeLinkProps) {
   const isMobile = useIsMobile();
   const linkTitle = title ? `YouTubeで${title}を再生する` : `YouTubeで再生する`;
   return (
-    <MuiLink href={href} sx={{ position: 'relative' }} title={linkTitle} target="_blank" rel="noopener noreferrer">
+    <MuiLink
+      href={href}
+      sx={{ position: "relative" }}
+      title={linkTitle}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       {children}
       <Box
         sx={{
-          position: 'absolute',
+          position: "absolute",
           width: 1,
           height: 1,
           top: 0,
           left: 0,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           opacity: !isMobile ? 0 : 0.4,
-          color: '#fff',
+          color: "#fff",
           fontSize: 48,
-          transition: ({ transitions }) => transitions.create('opacity'),
-          '&:hover': {
+          transition: ({ transitions }) => transitions.create("opacity"),
+          "&:hover": {
             opacity: 0.8,
           },
         }}
@@ -76,10 +82,18 @@ export function TuneBare({
     <Box position="relative">
       <Avatar
         sx={{
-          width: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13), md: spacing(15) }),
-          height: ({ spacing }) => ({ xs: spacing(11), sm: spacing(13), md: spacing(15) }),
+          width: ({ spacing }) => ({
+            xs: spacing(11),
+            sm: spacing(13),
+            md: spacing(15),
+          }),
+          height: ({ spacing }) => ({
+            xs: spacing(11),
+            sm: spacing(13),
+            md: spacing(15),
+          }),
           borderRadius: 2,
-          overflow: 'hidden',
+          overflow: "hidden",
         }}
         variant="square"
         src={image}
@@ -89,7 +103,7 @@ export function TuneBare({
       </Avatar>
       <Box
         sx={{
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
         }}
@@ -99,8 +113,23 @@ export function TuneBare({
     </Box>
   );
   return (
-    <Box sx={{ display: 'flex', borderRadius: 2, overflow: 'hidden', bgcolor: 'background.paper' }}>
-      <Box sx={{ display: 'flex', alignItems: 'center', flexShrink: 0, borderRadius: 2, overflow: 'hidden' }}>
+    <Box
+      sx={{
+        display: "flex",
+        borderRadius: 2,
+        overflow: "hidden",
+        bgcolor: "background.paper",
+      }}
+    >
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          flexShrink: 0,
+          borderRadius: 2,
+          overflow: "hidden",
+        }}
+      >
         {href ? (
           <YouTubeLink href={href} title={alt}>
             {avatar}
@@ -109,15 +138,38 @@ export function TuneBare({
           avatar
         )}
       </Box>
-      <Box sx={{ display: 'flex', flexDirection: 'column', px: 2, py: 1, flexGrow: 1 }}>
-        <Typography component="div" variant="body2" color="textSecondary" fontSize={{ md: 'body1.fontSize' }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          px: 2,
+          py: 1,
+          flexGrow: 1,
+        }}
+      >
+        <Typography
+          component="div"
+          variant="body2"
+          color="textSecondary"
+          fontSize={{ md: "body1.fontSize" }}
+        >
           {headerText}
         </Typography>
         <Box pt={{ xs: 0, sm: 1 }}>
-          <Typography component="div" fontSize={{ xs: 'body1.fontSize', sm: 'h6.fontSize', md: 'h5.fontSize' }}>
+          <Typography
+            component="div"
+            fontSize={{
+              xs: "body1.fontSize",
+              sm: "h6.fontSize",
+              md: "h5.fontSize",
+            }}
+          >
             {title}
           </Typography>
-          <Typography component="div" fontSize={{ xs: 'body2.fontSize', sm: 'body1.fontSize' }}>
+          <Typography
+            component="div"
+            fontSize={{ xs: "body2.fontSize", sm: "body1.fontSize" }}
+          >
             {footerText}
           </Typography>
         </Box>
@@ -141,7 +193,16 @@ export type TuneProps = {
 };
 
 function Tune({ tune }: TuneProps) {
-  const { title, indexInWeek, artist, corner, selector, year, youtube, nation } = tune;
+  const {
+    title,
+    indexInWeek,
+    artist,
+    corner,
+    selector,
+    year,
+    youtube,
+    nation,
+  } = tune;
   return (
     <TuneBare
       title={title}
@@ -149,19 +210,21 @@ function Tune({ tune }: TuneProps) {
         <>
           <TextSpan label={`M${indexInWeek}.`} />
           <TextSpan label={corner} />
-          {selector && selector !== '草野マサムネ' ? <TextSpan label={`${selector}選曲`} /> : null}
+          {selector && selector !== "草野マサムネ" ? (
+            <TextSpan label={`${selector}選曲`} />
+          ) : null}
         </>
       }
       footerText={
         <>
           <TextSpan
             label={
-              artist.name !== 'スピッツ' ? (
+              artist.name !== "スピッツ" ? (
                 <AppLink href={artist.slug} color="inherit">
                   {artist.name}
                 </AppLink>
               ) : (
-                'スピッツ'
+                "スピッツ"
               )
             }
           />
@@ -179,5 +242,11 @@ function Tune({ tune }: TuneProps) {
 export default Tune;
 
 export function TuneSkeleton() {
-  return <TuneBare title={<Skeleton width={160} />} headerText={<Skeleton width={100} />} footerText={<Skeleton width={100} />} />;
+  return (
+    <TuneBare
+      title={<Skeleton width={160} />}
+      headerText={<Skeleton width={100} />}
+      footerText={<Skeleton width={100} />}
+    />
+  );
 }

@@ -1,18 +1,24 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Tabs from '@mui/material/Tabs';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import SwipeableViews from 'react-swipeable-views';
-import { bindKeyboard } from 'react-swipeable-views-utils';
-import { Article, Paragraph, Section, SectionWrapper, TabPane } from '@cieloazul310/gatsby-theme-aoi';
-import Layout from './TabLayout';
-import Jumbotron from '../components/Jumbotron';
-import Tab from '../components/MuiTab';
-import { AdInSectionDivider } from '../components/Ads';
-import { useParseHash, useHash } from '../utils/useHash';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import Tabs from "@mui/material/Tabs";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import SwipeableViews from "react-swipeable-views";
+import { bindKeyboard } from "react-swipeable-views-utils";
+import {
+  Article,
+  Paragraph,
+  Section,
+  SectionWrapper,
+  TabPane,
+} from "@cieloazul310/gatsby-theme-aoi";
+import Layout from "./TabLayout";
+import Jumbotron from "../components/Jumbotron";
+import Tab from "../components/MuiTab";
+import { AdInSectionDivider } from "../components/Ads";
+import { useParseHash, useHash } from "../utils/useHash";
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
@@ -26,7 +32,11 @@ type TabPageTemplateProps<T, S = null> = {
   getSecondaryText?: (item: T) => string;
   stateFunction?: (state?: S | null) => string | undefined | null;
   children: JSX.Element[];
-  swipeableViewsActions?: ({ updateHeight }: { updateHeight: () => void }) => void;
+  swipeableViewsActions?: ({
+    updateHeight,
+  }: {
+    updateHeight: () => void;
+  }) => void;
 };
 
 function TabPageTemplate<T, S = null>({
@@ -41,7 +51,10 @@ function TabPageTemplate<T, S = null>({
   children,
   swipeableViewsActions,
 }: TabPageTemplateProps<T, S>) {
-  const titles = React.useMemo(() => ['', ...items.map(getTitle)], [items, getTitle]);
+  const titles = React.useMemo(
+    () => ["", ...items.map(getTitle)],
+    [items, getTitle],
+  );
   const initialTab = useParseHash<S>(titles, stateFunction);
 
   const [tab, setTab] = React.useState(initialTab);
@@ -57,7 +70,7 @@ function TabPageTemplate<T, S = null>({
   };
   useHash(tab, titles);
   React.useEffect(() => {
-    if (typeof window === 'object') {
+    if (typeof window === "object") {
       window.scrollTo(0, 0);
     }
   }, [tab]);
@@ -77,12 +90,21 @@ function TabPageTemplate<T, S = null>({
         >
           <Tab label="概要" />
           {items.map((item) => (
-            <Tab key={getTitle(item)} label={getTabTitle ? getTabTitle(item) : getTitle(item)} />
+            <Tab
+              key={getTitle(item)}
+              label={getTabTitle ? getTabTitle(item) : getTitle(item)}
+            />
           ))}
         </Tabs>
       }
     >
-      <BindKeyboardSwipeableViews index={tab} onChangeIndex={handleChangeIndex} resistance animateHeight action={swipeableViewsActions}>
+      <BindKeyboardSwipeableViews
+        index={tab}
+        onChangeIndex={handleChangeIndex}
+        resistance
+        animateHeight
+        action={swipeableViewsActions}
+      >
         <TabPane currentTab={tab} index={0} renderNeighbor>
           <SectionWrapper component="article">
             <Jumbotron component="header" title={title} />
@@ -93,7 +115,14 @@ function TabPageTemplate<T, S = null>({
                   {items.map((item, index) => (
                     <ListItem key={getTitle(item)} disablePadding>
                       <ListItemButton onClick={onItemClicked(index + 1)}>
-                        <ListItemText primary={getTitle(item)} secondary={getSecondaryText ? getSecondaryText(item) : undefined} />
+                        <ListItemText
+                          primary={getTitle(item)}
+                          secondary={
+                            getSecondaryText
+                              ? getSecondaryText(item)
+                              : undefined
+                          }
+                        />
                         {getCounterText(item) ? (
                           <Typography variant="button" component="span">
                             {getCounterText(item)}
@@ -108,8 +137,13 @@ function TabPageTemplate<T, S = null>({
           </SectionWrapper>
         </TabPane>
         {children.map((element, index) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <TabPane currentTab={tab} index={index + 1} renderNeighbor key={index.toString()}>
+          <TabPane
+            currentTab={tab}
+            index={index + 1}
+            renderNeighbor
+            // eslint-disable-next-line react/no-array-index-key
+            key={index.toString()}
+          >
             {element}
           </TabPane>
         ))}

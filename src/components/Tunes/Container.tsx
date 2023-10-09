@@ -1,13 +1,13 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Skeleton from '@mui/material/Skeleton';
-import { AppLink, Section } from '@cieloazul310/gatsby-theme-aoi';
-import Tune, { TuneBare } from './Item';
-import TextSpan from '../TextSpan';
-import type { Program, TuneItemFragment } from '../../../types';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Skeleton from "@mui/material/Skeleton";
+import { AppLink, Section } from "@cieloazul310/gatsby-theme-aoi";
+import Tune, { TuneBare } from "./Item";
+import TextSpan from "../TextSpan";
+import type { Program, TuneItemFragment } from "../../../types";
 
 type TunesByProgramBareProps = {
   headerText?: React.ReactNode;
@@ -28,7 +28,9 @@ function TunesByProgramBare({
         <Box py={1}>
           <Typography color="textSecondary">{headerText}</Typography>
           <Typography fontWeight="bold">{title}</Typography>
-          {footerText ? <Typography variant="body2">{footerText}</Typography> : null}
+          {footerText ? (
+            <Typography variant="body2">{footerText}</Typography>
+          ) : null}
         </Box>
         {children}
       </Container>
@@ -43,7 +45,10 @@ TunesByProgramBare.defaultProps = {
 };
 
 type TunesByProgramProps = {
-  program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+  program: Pick<
+    Program,
+    "id" | "week" | "date" | "slug" | "title" | "subtitle"
+  > & {
     playlist: TuneItemFragment[];
   };
 };
@@ -74,7 +79,10 @@ export default TunesByProgram;
 
 type ProgramByTuneProps = {
   tune: TuneItemFragment & {
-    program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+    program: Pick<
+      Program,
+      "id" | "week" | "date" | "slug" | "title" | "subtitle"
+    >;
   };
 };
 
@@ -90,7 +98,9 @@ export function ProgramByTune({ tune }: ProgramByTuneProps) {
           <Typography fontWeight="bold">
             <AppLink href={tune.program.slug}>{tune.program.title}</AppLink>
           </Typography>
-          {tune.program.subtitle ? <Typography variant="body2">{tune.program.subtitle}</Typography> : null}
+          {tune.program.subtitle ? (
+            <Typography variant="body2">{tune.program.subtitle}</Typography>
+          ) : null}
         </Box>
         <div>
           <Tune tune={tune} />

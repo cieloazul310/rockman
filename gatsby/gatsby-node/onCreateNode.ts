@@ -1,9 +1,9 @@
-import type { CreateNodeArgs, Node } from 'gatsby';
-import { getYomi } from '../../src/utils/sortByYomi';
-import type { Program, Tune } from '../../types';
+import type { CreateNodeArgs, Node } from "gatsby";
+import { getYomi } from "../../src/utils/sortByYomi";
+import type { Program, Tune } from "../../types";
 
-function isProgramNode(node: Node | Program<'bare'>): node is Program<'bare'> {
-  return node.internal.type === 'Program';
+function isProgramNode(node: Node | Program<"bare">): node is Program<"bare"> {
+  return node.internal.type === "Program";
 }
 
 export function createArtistNode(
@@ -12,12 +12,18 @@ export function createArtistNode(
     createNodeId,
     createContentDigest,
     getNode,
-  }: Pick<CreateNodeArgs, 'actions' | 'createNodeId' | 'createContentDigest' | 'getNode'>,
-  parentNode: Node
+  }: Pick<
+    CreateNodeArgs,
+    "actions" | "createNodeId" | "createContentDigest" | "getNode"
+  >,
+  parentNode: Node,
 ) {
   const { createNode, createParentChildLink } = actions;
 
-  return async ({ artist, ...data }: Pick<Tune<'bare'>, 'artist' | 'kana' | 'nation'>) => {
+  return async ({
+    artist,
+    ...data
+  }: Pick<Tune<"bare">, "artist" | "kana" | "nation">) => {
     const sortName = getYomi(artist, data.kana);
     const nodeId = createNodeId(`artist-${sortName}`);
     if (getNode(nodeId)) return;
@@ -28,7 +34,7 @@ export function createArtistNode(
       parent: parentNode.id,
       children: [],
       internal: {
-        type: 'Artist',
+        type: "Artist",
         content: nodeContent,
         contentDigest: createContentDigest(data),
       },
@@ -48,20 +54,32 @@ async function createArtistNodeByProgram(
     createNodeId,
     createContentDigest,
     getNode,
-  }: Pick<CreateNodeArgs, 'actions' | 'createNodeId' | 'createContentDigest' | 'getNode'>,
-  parentNode: Program<'bare'>
+  }: Pick<
+    CreateNodeArgs,
+    "actions" | "createNodeId" | "createContentDigest" | "getNode"
+  >,
+  parentNode: Program<"bare">,
 ) {
-  const createEachArtistNode = createArtistNode({ actions, createNodeId, createContentDigest, getNode }, parentNode);
+  const createEachArtistNode = createArtistNode(
+    { actions, createNodeId, createContentDigest, getNode },
+    parentNode,
+  );
 
   const programArtists = parentNode.playlist
-    .filter(({ artist }) => artist !== 'スピッツ')
-    .reduce<Tune<'bare'>[]>((accum, curr) => (accum.map(({ artist }) => artist).includes(curr.artist) ? accum : [...accum, curr]), [])
+    .filter(({ artist }) => artist !== "スピッツ")
+    .reduce<Tune<"bare">[]>(
+      (accum, curr) =>
+        accum.map(({ artist }) => artist).includes(curr.artist)
+          ? accum
+          : [...accum, curr],
+      [],
+    )
     .map(({ artist, kana, nation }) => ({ artist, kana, nation }));
 
   await Promise.all(
     programArtists.map(async (data) => {
       await createEachArtistNode(data);
-    })
+    }),
   );
 }
 
@@ -70,7 +88,13 @@ async function createArtistNodeByProgram(
  *
  * 1. `Program` から `Artist` ノードを作成する
  */
-export default async function onCreateNode({ node, actions, createContentDigest, createNodeId, getNode }: CreateNodeArgs) {
+export default async function onCreateNode({
+  node,
+  actions,
+  createContentDigest,
+  createNodeId,
+  getNode,
+}: CreateNodeArgs) {
   if (!isProgramNode(node)) return;
   /*
   const { createNode, createParentChildLink } = actions;
@@ -89,5 +113,8 @@ export default async function onCreateNode({ node, actions, createContentDigest,
 
   });
   */
-  await createArtistNodeByProgram({ actions, createNodeId, createContentDigest, getNode }, node);
+  await createArtistNodeByProgram(
+    { actions, createNodeId, createContentDigest, getNode },
+    node,
+  );
 }

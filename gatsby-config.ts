@@ -1,32 +1,38 @@
-import type { GatsbyConfig } from 'gatsby';
+import type { GatsbyConfig } from "gatsby";
 
-const baseUrl = 'https://cieloazul310.github.io';
-const pathPrefix = '/rockman';
+const baseUrl = "https://cieloazul310.github.io";
+const pathPrefix = "/rockman";
 const contentDir = `./data`;
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `ロック大陸漫遊記プレイリスト集`,
     description:
-      'ロック大陸漫遊記プレイリスト集は、TOKYO-FM他全国38局で放送されているラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。',
-    lang: 'ja',
-    siteUrl: 'https://cieloazul310.github.io/rockman',
+      "ロック大陸漫遊記プレイリスト集は、TOKYO-FM他全国38局で放送されているラジオ番組「SPITZ 草野マサムネのロック大陸漫遊記」でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。原則毎週日曜日 TOKYO-FM の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。",
+    lang: "ja",
+    siteUrl: "https://cieloazul310.github.io/rockman",
     baseUrl,
-    author: 'cieloazul310',
-    keywords: ['スピッツ', '草野マサムネ', 'ロック大陸漫遊記', 'プレイリスト', 'ラジオ'],
+    author: "cieloazul310",
+    keywords: [
+      "スピッツ",
+      "草野マサムネ",
+      "ロック大陸漫遊記",
+      "プレイリスト",
+      "ラジオ",
+    ],
     menu: [
-      { name: 'トップページ', path: '/' },
-      { name: '放送回一覧', path: '/programs/' },
-      { name: 'アーティスト', path: '/artists/' },
-      { name: 'テーマ', path: '/categories/' },
-      { name: '選曲者', path: '/selectors/' },
-      { name: '漫遊前の一曲', path: '/takeoff/' },
-      { name: 'ちょっぴりタイムマシン', path: '/timemachine/' },
-      { name: 'サイトについて', path: '/about/' },
+      { name: "トップページ", path: "/" },
+      { name: "放送回一覧", path: "/programs/" },
+      { name: "アーティスト", path: "/artists/" },
+      { name: "テーマ", path: "/categories/" },
+      { name: "選曲者", path: "/selectors/" },
+      { name: "漫遊前の一曲", path: "/takeoff/" },
+      { name: "ちょっぴりタイムマシン", path: "/timemachine/" },
+      { name: "サイトについて", path: "/about/" },
     ],
     social: [
-      { name: 'twitter', url: 'https://twitter.com/cieloazul310' },
-      { name: 'github', url: 'https://github.com/cieloazul310/rockman' },
+      { name: "twitter", url: "https://twitter.com/cieloazul310" },
+      { name: "github", url: "https://github.com/cieloazul310/rockman" },
     ],
   },
   pathPrefix,
@@ -55,7 +61,7 @@ const config: GatsbyConfig = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          'G-VE0MVTCH7K',
+          "G-VE0MVTCH7K",
           // 'UA-74683419-3', // Google Analytics / GA
           // 'AW-CONVERSION_ID', // Google Ads / Adwords / AW
           // 'DC-FLOODIGHT_ID', // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)

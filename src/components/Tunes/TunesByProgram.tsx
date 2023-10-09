@@ -1,12 +1,12 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-import Skeleton from '@mui/material/Skeleton';
-import { AppLink, Section } from '@cieloazul310/gatsby-theme-aoi';
-import { ProgramTitleBare } from './ProgramTitle';
-import Tune, { TuneBare } from './Item';
-import TextSpan from '../TextSpan';
-import type { Program, TuneItemFragment } from '../../../types';
+import * as React from "react";
+import Stack from "@mui/material/Stack";
+import Container from "@mui/material/Container";
+import Skeleton from "@mui/material/Skeleton";
+import { AppLink, Section } from "@cieloazul310/gatsby-theme-aoi";
+import { ProgramTitleBare } from "./ProgramTitle";
+import Tune, { TuneBare } from "./Item";
+import TextSpan from "../TextSpan";
+import type { Program, TuneItemFragment } from "../../../types";
 
 type TunesByProgramBareProps = {
   headerText?: React.ReactNode;
@@ -24,7 +24,11 @@ function TunesByProgramBare({
   return (
     <Section py={2}>
       <Container maxWidth="md">
-        <ProgramTitleBare headerText={headerText} title={title} footerText={footerText} />
+        <ProgramTitleBare
+          headerText={headerText}
+          title={title}
+          footerText={footerText}
+        />
         <Stack spacing={1} component="main">
           {children}
         </Stack>
@@ -40,7 +44,10 @@ TunesByProgramBare.defaultProps = {
 };
 
 type TunesByProgramProps = {
-  program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+  program: Pick<
+    Program,
+    "id" | "week" | "date" | "slug" | "title" | "subtitle"
+  > & {
     playlist: TuneItemFragment[];
   };
 };

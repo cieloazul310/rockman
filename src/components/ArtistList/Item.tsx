@@ -1,10 +1,10 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import ListItemText from '@mui/material/ListItemText';
-import { ListItemAppLink } from '@cieloazul310/gatsby-theme-aoi';
-import NationAvatar from '../NationAvatar';
-import type { ArtistListItem as ArtistListItemType } from '../../../types';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import ListItemAvatar from "@mui/material/ListItemAvatar";
+import ListItemText from "@mui/material/ListItemText";
+import { ListItemAppLink } from "@cieloazul310/gatsby-theme-aoi";
+import NationAvatar from "../NationAvatar";
+import type { ArtistListItem as ArtistListItemType } from "../../../types";
 
 type ArtistListItemProps = {
   data: ArtistListItemType;
@@ -15,7 +15,11 @@ function ArtistListItem({ style, data }: ArtistListItemProps) {
   return (
     <ListItemAppLink style={style} href={data.slug}>
       <ListItemAvatar>
-        <NationAvatar nation={data.nation} img={data.program.image ?? undefined} alt={data.name} />
+        <NationAvatar
+          nation={data.nation}
+          img={data.program.image ?? undefined}
+          alt={data.name}
+        />
       </ListItemAvatar>
       <ListItemText primary={data.name} secondary={data.kana || null} />
       <Typography variant="button" component="span">

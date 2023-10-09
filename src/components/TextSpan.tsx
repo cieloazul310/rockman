@@ -1,14 +1,20 @@
-import * as React from 'react';
-import Typography, { type TypographyProps } from '@mui/material/Typography';
+import * as React from "react";
+import Typography, { type TypographyProps } from "@mui/material/Typography";
 
 type TextSpanProps = {
   label?: React.ReactNode | null;
-} & Exclude<TypographyProps, 'children'>;
+} & Exclude<TypographyProps, "children">;
 
 function TextSpan({ label, variant, ...props }: TextSpanProps) {
   if (!label) return null;
   return (
-    <Typography mr={0.5} display="inline-block" component="span" {...props} variant={variant ?? 'inherit'}>
+    <Typography
+      mr={0.5}
+      display="inline-block"
+      component="span"
+      {...props}
+      variant={variant ?? "inherit"}
+    >
       {label}
     </Typography>
   );

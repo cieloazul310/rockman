@@ -1,16 +1,16 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-import type { ComponentMeta } from '@storybook/react';
-import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
-import Tune, { TuneBare } from '../components/Tunes/Item';
-import TunesByProgram from '../components/Tunes/TunesByProgram';
-import ProgramByTune from '../components/Tunes/ProgramByTune';
-import program from './data/program';
-import tunes from './data/tunes';
+import * as React from "react";
+import Stack from "@mui/material/Stack";
+import Container from "@mui/material/Container";
+import type { ComponentMeta } from "@storybook/react";
+import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
+import Tune, { TuneBare } from "../components/Tunes/Item";
+import TunesByProgram from "../components/Tunes/TunesByProgram";
+import ProgramByTune from "../components/Tunes/ProgramByTune";
+import program from "./data/program";
+import tunes from "./data/tunes";
 
 export default {
-  title: 'Tune',
+  title: "Tune",
   component: Tune,
   subcomponents: { TuneBare, TunesByProgram, ProgramByTune },
 } as ComponentMeta<typeof Tune>;

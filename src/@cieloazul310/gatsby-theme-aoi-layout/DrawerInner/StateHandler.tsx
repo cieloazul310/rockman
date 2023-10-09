@@ -1,8 +1,11 @@
-import * as React from 'react';
-import List from '@mui/material/List';
-import ListSubheader from '@mui/material/ListSubheader';
-import { ListItemToggleDarkMode, ListItemToggleUseSystemTheme } from '@cieloazul310/gatsby-theme-aoi';
-import ListItemToggleSort from './ListItemToggleSort';
+import * as React from "react";
+import List from "@mui/material/List";
+import ListSubheader from "@mui/material/ListSubheader";
+import {
+  ListItemToggleDarkMode,
+  ListItemToggleUseSystemTheme,
+} from "@cieloazul310/gatsby-theme-aoi";
+import ListItemToggleSort from "./ListItemToggleSort";
 
 function StateHandler() {
   return (

@@ -1,10 +1,10 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Skeleton from '@mui/material/Skeleton';
-import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import TextSpan from '../TextSpan';
-import type { Program } from '../../../types';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Skeleton from "@mui/material/Skeleton";
+import { AppLink } from "@cieloazul310/gatsby-theme-aoi";
+import TextSpan from "../TextSpan";
+import type { Program } from "../../../types";
 
 type ProgramTitleBareProps = {
   headerText?: React.ReactNode;
@@ -23,7 +23,9 @@ export function ProgramTitleBare({
         {headerText}
       </Typography>
       <Typography fontWeight="bold">{title}</Typography>
-      {footerText ? <Typography variant="body2">{footerText}</Typography> : null}
+      {footerText ? (
+        <Typography variant="body2">{footerText}</Typography>
+      ) : null}
     </Box>
   );
 }
@@ -34,9 +36,18 @@ ProgramTitleBare.defaultProps = {
   footerText: undefined,
 };
 
-type ProgramTitleProps = Pick<Program, 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+type ProgramTitleProps = Pick<
+  Program,
+  "week" | "date" | "slug" | "title" | "subtitle"
+>;
 
-function ProgramTitle({ week, date, slug, title, subtitle }: ProgramTitleProps) {
+function ProgramTitle({
+  week,
+  date,
+  slug,
+  title,
+  subtitle,
+}: ProgramTitleProps) {
   return (
     <ProgramTitleBare
       title={<AppLink href={slug}>{title}</AppLink>}

@@ -1,6 +1,6 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
-import { teal, orange } from '@mui/material/colors';
+import { teal, orange } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
@@ -11,14 +11,14 @@ const theme = createTheme({
 
 theme.typography.body1 = {
   ...theme.typography.body1,
-  [theme.breakpoints.only('xs')]: {
-    fontSize: '0.875rem',
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "0.875rem",
   },
 };
 theme.typography.body2 = {
   ...theme.typography.body2,
-  [theme.breakpoints.only('xs')]: {
-    fontSize: '0.75rem',
+  [theme.breakpoints.only("xs")]: {
+    fontSize: "0.75rem",
   },
 };
 

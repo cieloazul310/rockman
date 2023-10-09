@@ -1,13 +1,16 @@
-import * as React from 'react';
-import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
-import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';
-import ProgramPageHeader from './PageHeader';
-import { TuneBare } from '../../components/Tunes/Item';
-import type { Program } from '../../../types';
+import * as React from "react";
+import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
+import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
+import ProgramPageHeader from "./PageHeader";
+import { TuneBare } from "../../components/Tunes/Item";
+import type { Program } from "../../../types";
 
 type ProgramTonarinoTabProps = {
-  item: Pick<Program, 'week' | 'date' | 'title' | 'categories' | 'image' | 'subtitle'> & {
+  item: Pick<
+    Program,
+    "week" | "date" | "title" | "categories" | "image" | "subtitle"
+  > & {
     playlist: unknown[];
   };
 };

@@ -1,14 +1,14 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
-import Collapse from '@mui/material/Collapse';
-import ExpandLess from '@mui/icons-material/ExpandLess';
-import ExpandMore from '@mui/icons-material/ExpandMore';
-import ProgramListItem from './Item';
-import type { ProgramListFragment } from '../../../types';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
+import Collapse from "@mui/material/Collapse";
+import ExpandLess from "@mui/icons-material/ExpandLess";
+import ExpandMore from "@mui/icons-material/ExpandMore";
+import ProgramListItem from "./Item";
+import type { ProgramListFragment } from "../../../types";
 
 type ProgramYearsGroup = {
   fieldValue: string;
@@ -18,13 +18,18 @@ type ProgramYearsGroup = {
 
 function ProgramsByYear({ data }: { data: ProgramYearsGroup }) {
   const { fieldValue, totalCount, nodes } = data;
-  const initialOpen = typeof window === 'object' ? sessionStorage.getItem(`${fieldValue}open`) : null;
-  const [open, setOpen] = React.useState<boolean>(initialOpen ? Boolean(JSON.parse(initialOpen)) : false);
+  const initialOpen =
+    typeof window === "object"
+      ? sessionStorage.getItem(`${fieldValue}open`)
+      : null;
+  const [open, setOpen] = React.useState<boolean>(
+    initialOpen ? Boolean(JSON.parse(initialOpen)) : false,
+  );
   const handleClick = () => {
     setOpen(!open);
   };
   React.useEffect(() => {
-    if (window && typeof window === 'object') {
+    if (window && typeof window === "object") {
       sessionStorage.setItem(`${fieldValue}open`, JSON.stringify(open));
     }
   }, [fieldValue, open]);

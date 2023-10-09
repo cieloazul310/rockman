@@ -1,6 +1,14 @@
-import * as React from 'react';
-import { useTheme } from '@mui/material/styles';
-import { blue, orange, green, red, purple, lime, grey } from '@mui/material/colors';
+import * as React from "react";
+import { useTheme } from "@mui/material/styles";
+import {
+  blue,
+  orange,
+  green,
+  red,
+  purple,
+  lime,
+  grey,
+} from "@mui/material/colors";
 
 const colorScheme = {
   JPN: blue,
@@ -21,9 +29,11 @@ export function isSchemeNations(nation: string): nation is SchemeNations {
 export default function useNationColor(nation: string) {
   const { palette } = useTheme();
   return React.useMemo(() => {
-    const isDark = palette.mode === 'dark';
+    const isDark = palette.mode === "dark";
     if (isSchemeNations(nation)) {
-      const nationColor = isDark ? colorScheme[nation][300] : colorScheme[nation][600];
+      const nationColor = isDark
+        ? colorScheme[nation][300]
+        : colorScheme[nation][600];
       return {
         bgcolor: nationColor,
         color: palette.getContrastText(nationColor),

@@ -1,7 +1,12 @@
-import * as React from 'react';
-import { useLocation } from '@reach/router';
-import { Layout, Section, Article, Alert } from '@cieloazul310/gatsby-theme-aoi';
-import Jumbotron from '../components/Jumbotron';
+import * as React from "react";
+import { useLocation } from "@reach/router";
+import {
+  Layout,
+  Section,
+  Article,
+  Alert,
+} from "@cieloazul310/gatsby-theme-aoi";
+import Jumbotron from "../components/Jumbotron";
 
 function NotFoundPage() {
   const location = useLocation();
