@@ -1,22 +1,25 @@
-import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-import type { ComponentMeta } from '@storybook/react';
-import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
-import Tune, { TuneBare } from '../components/Tunes/Item';
-import TunesByProgram from '../components/Tunes/TunesByProgram';
-import ProgramByTune from '../components/Tunes/ProgramByTune';
-import program from './data/program';
-import tunes from './data/tunes';
+import * as React from "react";
+import Stack from "@mui/material/Stack";
+import Container from "@mui/material/Container";
+import type { Meta, StoryObj } from "@storybook/react";
+import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
+import Tune, { TuneBare } from "../components/Tunes/Item";
+import TunesByProgram from "../components/Tunes/TunesByProgram";
+import ProgramByTune from "../components/Tunes/ProgramByTune";
+import program from "./data/program";
+import tunes from "./data/tunes";
 
-export default {
-  title: 'Tune',
+const meta: Meta<typeof Tune> = {
+  title: "Components/Tune",
   component: Tune,
-  subcomponents: { TuneBare, TunesByProgram, ProgramByTune },
-} as ComponentMeta<typeof Tune>;
+};
 
-export function Basic() {
-  return (
+export default meta;
+
+type Story = StoryObj<typeof Tune>;
+
+export const Basic: Story = {
+  render: () => (
     <Stack spacing={1}>
       <TuneBare
         title="Me Myself and I"
@@ -27,11 +30,11 @@ export function Basic() {
       />
       <TuneBare />
     </Stack>
-  );
-}
+  ),
+};
 
-export function Program() {
-  return (
+export const Program: Story = {
+  render: () => (
     <Section>
       <Container maxWidth="md">
         <Stack spacing={1}>
@@ -41,25 +44,25 @@ export function Program() {
         </Stack>
       </Container>
     </Section>
-  );
-}
+  ),
+};
 
-export function ByProgram() {
-  return (
+export const ByProgram: Story = {
+  render: () => (
     <SectionWrapper spacing={1}>
       <TunesByProgram program={program} />
       <TunesByProgram program={program} />
       <TunesByProgram program={program} />
     </SectionWrapper>
-  );
-}
+  ),
+};
 
-export function ByTune() {
-  return (
+export const ByTune: Story = {
+  render: () => (
     <SectionWrapper spacing={2}>
       {tunes.map((tune) => (
         <ProgramByTune key={tune.id} tune={tune} />
       ))}
     </SectionWrapper>
-  );
-}
+  ),
+};

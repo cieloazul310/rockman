@@ -1,10 +1,12 @@
 import * as path from 'path';
-import type { StorybookConfig } from '@storybook/core-common';
+import type { StorybookConfig } from '@storybook/react-webpack5';
 import type { RuleSetRule, RuleSetUseItem } from 'webpack';
 
-function isRuleSetRule(rule: RuleSetRule | '...' | undefined): rule is RuleSetRule {
+function isRuleSetRule(
+  rule: false | "" | 0 | RuleSetRule | "..." | null | undefined,
+): rule is RuleSetRule {
   if (!rule) return false;
-  return typeof rule === 'object';
+  return typeof rule === "object";
 }
 
 function isRuleSetUseItemArray(use: any): use is RuleSetUseItem[] {
@@ -24,26 +26,36 @@ function isRuleSetUseItemObject(ruleSetUseItem: RuleSetUseItem): ruleSetUseItem 
 const toPath = (filePath: string) => path.join(process.cwd(), filePath);
 
 const config: StorybookConfig = {
-  stories: ['../src/stories/*.stories.@(js|jsx|ts|tsx)'],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
-  framework: '@storybook/react',
+  stories: ["../src/stories/*.stories.@(js|jsx|ts|tsx)"],
+  addons: [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+  ],
+  framework: {
+    name: "@storybook/react-webpack5",
+    options: {},
+  },
   core: {
-    builder: '@storybook/builder-webpack5',
+    builder: "@storybook/builder-webpack5",
   },
   features: {
     storyStoreV7: true,
-    emotionAlias: false,
+    // emotionAlias: false,
   },
   typescript: {
     check: false,
     checkOptions: {},
-    reactDocgen: 'react-docgen-typescript',
+    reactDocgen: "react-docgen-typescript",
     reactDocgenTypescriptOptions: {
-      allowSyntheticDefaultImports: false, // speeds up storybook build time
-      esModuleInterop: false, // speeds up storybook build time
+      // allowSyntheticDefaultImports: false, // speeds up storybook build time
+      // esModuleInterop: false, // speeds up storybook build time
       shouldExtractLiteralValuesFromEnum: true, // makes union prop types like variant and size appear as select controls
       shouldRemoveUndefinedFromOptional: true, // makes string and boolean types that can be undefined appear as inputs and switches
-      propFilter: (prop: any) => (prop.parent ? !/node_modules\/(?!@mui)/.test(prop.parent.fileName) : true),
+      propFilter: (prop: any) =>
+        prop.parent
+          ? !/node_modules\/(?!@mui)/.test(prop.parent.fileName)
+          : true,
     },
   },
   webpackFinal: async (baseConfig) => {
@@ -55,10 +67,15 @@ const config: StorybookConfig = {
       // Remove core-js to prevent issues with Storybook
       rule.exclude = [/core-js/];
       // Use babel-plugin-remove-graphql-queries to remove static queries from components when rendering in storybook
-      if (isRuleSetUseItemArray(rule.use) && isRuleSetUseItemObject(rule.use[0])) {
+      if (
+        isRuleSetUseItemArray(rule.use) &&
+        isRuleSetUseItemObject(rule.use[0])
+      ) {
         const { options } = rule.use[0];
-        if (typeof options === 'object') {
-          options.plugins.push(require.resolve('babel-plugin-remove-graphql-queries'));
+        if (typeof options === "object") {
+          options.plugins.push(
+            require.resolve("babel-plugin-remove-graphql-queries"),
+          );
         }
       }
     }
@@ -67,12 +84,12 @@ const config: StorybookConfig = {
       ...(baseConfig || {}),
       resolve: {
         ...(baseConfig.resolve || {}),
-        mainFields: ['browser', 'module', 'main'],
+        mainFields: ["browser", "module", "main"],
         alias: {
           ...(baseConfig.resolve?.alias || {}),
-          '@emotion/core': toPath('./node_modules/@emotion/react'),
-          'emotion-theming': toPath('./node_modules/@emotion/react'),
-          '@reach/router': toPath('./node_modules/@gatsbyjs/reach-router'),
+          "@emotion/core": toPath("./node_modules/@emotion/react"),
+          "emotion-theming": toPath("./node_modules/@emotion/react"),
+          "@reach/router": toPath("./node_modules/@gatsbyjs/reach-router"),
         },
       },
     };

@@ -1,18 +1,17 @@
-import * as React from 'react';
-import type { ComponentMeta } from '@storybook/react';
-import ArtistPageHeader from '../templates/artist/PageHeader';
-import ProgramPageHeader from '../templates/program/PageHeader';
-import program from './data/program';
+import * as React from "react";
+import type { Meta, StoryObj } from "@storybook/react";
+import ProgramPageHeader from "../templates/program/PageHeader";
+import program from "./data/program";
 
-export default {
-  title: 'PageHeader',
+const meta: Meta<typeof ProgramPageHeader> = {
+  title: "Components/ProgramPageHeader",
   component: ProgramPageHeader,
-  subcomponents: {
-    ArtistPageHeader,
-    ProgramPageHeader,
-  },
-} as ComponentMeta<typeof ProgramPageHeader>;
+};
 
-export function Program() {
-  return <ProgramPageHeader program={program} />;
-}
+export default meta;
+
+type Story = StoryObj<typeof ProgramPageHeader>;
+
+export const Program: Story = {
+  render: () => <ProgramPageHeader program={program} />,
+};

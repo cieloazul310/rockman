@@ -1,17 +1,18 @@
-import * as React from 'react';
-import type { ComponentMeta } from '@storybook/react';
-import ArtistItem from '../components/ArtistItem/Item';
-import ArtistItemContainer from '../components/ArtistItem/Container';
-import { artists } from './data/artists';
+import * as React from "react";
+import type { Meta, StoryObj } from "@storybook/react";
+import ArtistItem from "../components/ArtistItem/Item";
+import ArtistItemContainer from "../components/ArtistItem/Container";
+import { artists } from "./data/artists";
 
-export default {
-  title: 'ArtistItem',
+const meta: Meta<typeof ArtistItem> = {
+  title: "Components/ArtistItem",
   component: ArtistItem,
-  subcomponents: {
-    ArtistItemContainer,
-  },
-} as ComponentMeta<typeof ArtistItem>;
+};
 
-export function Basic() {
-  return <ArtistItemContainer artists={artists} title="Example" />;
-}
+export default meta;
+
+type Story = StoryObj<typeof ArtistItem>;
+
+export const Basic: Story = {
+  render: () => <ArtistItemContainer artists={artists} title="Example" />,
+};
