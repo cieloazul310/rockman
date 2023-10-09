@@ -3,7 +3,6 @@
   "private": true,
   "description": "SPITZ草野マサムネ ロック大陸漫遊記のプレイリスト集",
   "version": "1.0.0",
-  "packageManager": "yarn@3.2.0",
   "author": "cieloazul310 <cieloazul310@gmail.com>",
   "keywords": [
     "gatsby",
