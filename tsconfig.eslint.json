@@ -9,7 +9,7 @@
     "gatsby-node.ts",
     "gatsby-ssr.tsx",
     "jest-preprocess.js",
-    "jest.config.js",
+    "jest.config.ts",
     "loadershim.js",
     ".storybook/**/*",
     "__mocks__/**/*"

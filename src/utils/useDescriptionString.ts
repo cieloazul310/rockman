@@ -1,4 +1,4 @@
-import type { Program, MinimumArtist } from '../../types';
+import type { Program, MinimumArtist } from "../../types";
 
 export function useProgramDescriptionString({
   week,
@@ -6,7 +6,7 @@ export function useProgramDescriptionString({
   date,
   subtitle,
   guests,
-}: Pick<Program, 'week' | 'title' | 'date' | 'subtitle' | 'guests'>): string {
+}: Pick<Program, "week" | "title" | "date" | "subtitle" | "guests">): string {
   const dt = new Date(date);
   const year = dt.getFullYear();
   const month = dt.getMonth() + 1;
@@ -20,15 +20,18 @@ export function useProgramDescriptionString({
     `「${title}」`,
     subtitle ? `〜${subtitle}〜` : ``,
     `のプレイリスト。`,
-    guests?.length ? `ゲストは${guests.join('、')}。` : ``,
-  ].join('');
+    guests?.length ? `ゲストは${guests.join("、")}。` : ``,
+  ].join("");
 }
 
-export function useArtistDescriptionString({ name, program }: Pick<MinimumArtist, 'name' | 'program'>) {
+export function useArtistDescriptionString({
+  name,
+  program,
+}: Pick<MinimumArtist, "name" | "program">) {
   return [
     `TOKYO-FM他全国39局ネットで放送中のラジオ番組`,
     `「SPITZ 草野マサムネのロック大陸漫遊記」`,
     `でオンエアされた${name}の楽曲一覧。`,
     `${program.programsCount}回登場、全${program.tunesCount}曲。`,
-  ].join('');
+  ].join("");
 }

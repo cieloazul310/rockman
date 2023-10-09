@@ -1,24 +1,30 @@
-import * as path from 'path';
-import type { CreateSchemaCustomizationArgs } from 'gatsby';
-import type { GatsbyGraphQLContext } from '../graphql';
-import type { Artist, Program, Tune } from '../../../types';
+import * as path from "path";
+import type { CreateSchemaCustomizationArgs } from "gatsby";
+import type { GatsbyGraphQLContext } from "../graphql";
+import type { Artist, Program, Tune } from "../../../types";
 
 export function createSlug(str: string) {
-  return str.replace('&', 'and').replace(/[&/\\#,+()$~%.'":*?<>{}]/g, '');
+  return str.replace("&", "and").replace(/[&/\\#,+()$~%.'":*?<>{}]/g, "");
 }
 
-export function createArtistImage(tunes: Tune<'node'>[]) {
+export function createArtistImage(tunes: Tune<"node">[]) {
   const youtube = tunes.reduce<string | null>((accum, curr) => {
     return curr.youtube || accum;
   }, null);
   return youtube ? `https://i.ytimg.com/vi/${youtube}/0.jpg` : null;
 }
 
-export async function createRelatedArtists(name: string, playlist: Tune<'node'>[], { nodeModel }: GatsbyGraphQLContext) {
-  const artists = playlist.filter(({ artist }) => artist !== 'スピッツ' && artist !== name).map(({ artist }) => artist);
+export async function createRelatedArtists(
+  name: string,
+  playlist: Tune<"node">[],
+  { nodeModel }: GatsbyGraphQLContext,
+) {
+  const artists = playlist
+    .filter(({ artist }) => artist !== "スピッツ" && artist !== name)
+    .map(({ artist }) => artist);
   const input = Array.from(new Set(artists));
 
-  const { entries } = await nodeModel.findAll<Artist<'node'>>({
+  const { entries } = await nodeModel.findAll<Artist<"node">>({
     type: `Artist`,
     query: {
       filter: {
@@ -26,10 +32,15 @@ export async function createRelatedArtists(name: string, playlist: Tune<'node'>[
       },
     },
   });
-  return Array.from(entries).sort((a, b) => a.sortName.localeCompare(b.sortName));
+  return Array.from(entries).sort((a, b) =>
+    a.sortName.localeCompare(b.sortName),
+  );
 }
 
-export default async function createArtistSchemaCustomization({ actions, schema }: CreateSchemaCustomizationArgs) {
+export default async function createArtistSchemaCustomization({
+  actions,
+  schema,
+}: CreateSchemaCustomizationArgs) {
   const { createTypes } = actions;
 
   createTypes(`
@@ -58,54 +69,90 @@ export default async function createArtistSchemaCustomization({ actions, schema 
       fields: {
         slug: {
           type: `String!`,
-          resolve: (source: Pick<Artist<'node'>, 'name'>) => path.join('/artist', createSlug(source.name)),
+          resolve: (source: Pick<Artist<"node">, "name">) =>
+            path.join("/artist", createSlug(source.name)),
         },
         program: {
           type: `ArtistProgram!`,
-          resolve: async (source: Pick<Artist<'node'>, 'name'>, args: unknown, context: GatsbyGraphQLContext) => {
-            const { entries, totalCount } = await context.nodeModel.findAll<Program<'node'>>({
-              type: 'Program',
+          resolve: async (
+            source: Pick<Artist<"node">, "name">,
+            args: unknown,
+            context: GatsbyGraphQLContext,
+          ) => {
+            const { entries, totalCount } = await context.nodeModel.findAll<
+              Program<"node">
+            >({
+              type: "Program",
               query: {
-                filter: { playlist: { elemMatch: { artist: { name: { eq: source.name } } } } },
-                sort: { week: 'ASC' },
+                filter: {
+                  playlist: {
+                    elemMatch: { artist: { name: { eq: source.name } } },
+                  },
+                },
+                sort: { week: "ASC" },
               },
             });
-            const programs = Array.from(entries).sort((a, b) => a.week - b.week);
-            const programTunes = programs.reduce<Tune<'node'>[]>((accum, curr) => [...accum, ...curr.playlist], []);
-            const tunes = programTunes.filter(({ artist }) => artist === source.name);
+            const programs = Array.from(entries).sort(
+              (a, b) => a.week - b.week,
+            );
+            const programTunes = programs.reduce<Tune<"node">[]>(
+              (accum, curr) => [...accum, ...curr.playlist],
+              [],
+            );
+            const tunes = programTunes.filter(
+              ({ artist }) => artist === source.name,
+            );
 
             return {
               programs: programs.map(({ playlist, ...program }) => ({
                 ...program,
-                playlist: playlist.filter(({ artist }) => artist === source.name),
+                playlist: playlist.filter(
+                  ({ artist }) => artist === source.name,
+                ),
               })),
               programsCount: await totalCount(),
               tunes,
               tunesCount: tunes.length,
               image: createArtistImage(tunes),
-              relatedArtists: await createRelatedArtists(source.name, programTunes, context),
+              relatedArtists: await createRelatedArtists(
+                source.name,
+                programTunes,
+                context,
+              ),
             };
           },
         },
         image: {
           type: `String`,
-          resolve: async (source: Pick<Artist<'node'>, 'name'>, args: unknown, context: GatsbyGraphQLContext) => {
-            const { entries, totalCount } = await context.nodeModel.findAll<Program<'node'>>({
-              type: 'Program',
+          resolve: async (
+            source: Pick<Artist<"node">, "name">,
+            args: unknown,
+            context: GatsbyGraphQLContext,
+          ) => {
+            const { entries, totalCount } = await context.nodeModel.findAll<
+              Program<"node">
+            >({
+              type: "Program",
               query: {
-                filter: { playlist: { elemMatch: { artist: { name: { eq: source.name } } } } },
-                sort: { week: 'DESC' },
+                filter: {
+                  playlist: {
+                    elemMatch: { artist: { name: { eq: source.name } } },
+                  },
+                },
+                sort: { week: "DESC" },
               },
             });
             if ((await totalCount()) === 0) return null;
             const tunes = Array.from(entries, ({ playlist }) =>
-              playlist.filter(({ artist, youtube }) => youtube && artist === source.name)
+              playlist.filter(
+                ({ artist, youtube }) => youtube && artist === source.name,
+              ),
             ).reduce((accum, curr) => [...accum, ...curr], []);
             if (!tunes.length) return null;
             return `https://i.ytimg.com/vi/${tunes[0].youtube}/0.jpg`;
           },
         },
       },
-    })
+    }),
   );
 }

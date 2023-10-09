@@ -1,9 +1,9 @@
-import * as React from 'react';
-import { useInView } from 'react-intersection-observer';
-import { SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
-import TunesByProgram, { TunesByProgramSkeleton } from './TunesByProgram';
-import { useDividedPrograms } from '../../utils/useDividedArray';
-import type { Program, TuneItemFragment } from '../../../types';
+import * as React from "react";
+import { useInView } from "react-intersection-observer";
+import { SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
+import TunesByProgram, { TunesByProgramSkeleton } from "./TunesByProgram";
+import { useDividedPrograms } from "../../utils/useDividedArray";
+import type { Program, TuneItemFragment } from "../../../types";
 
 type DisplayOnScreenProps = {
   children: React.ReactNode;
@@ -12,7 +12,12 @@ type DisplayOnScreenProps = {
   onSeem?: (() => void) | ((inView: boolean) => void);
 };
 
-function DisplayOnScreen({ children, onSeem, margin = 0, once = true }: DisplayOnScreenProps) {
+function DisplayOnScreen({
+  children,
+  onSeem,
+  margin = 0,
+  once = true,
+}: DisplayOnScreenProps) {
   const [ref, inView] = useInView({
     rootMargin: `${margin}px`,
     triggerOnce: once,
@@ -43,7 +48,10 @@ DisplayOnScreen.defaultProps = {
 };
 
 type LazyViewerProps = {
-  programs: (Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'> & {
+  programs: (Pick<
+    Program,
+    "id" | "week" | "date" | "slug" | "title" | "subtitle"
+  > & {
     playlist: TuneItemFragment[];
   })[];
   divisor?: number;
@@ -51,7 +59,12 @@ type LazyViewerProps = {
   onSeem?: (() => void) | ((inView: boolean) => void);
 };
 
-function LazyViewer({ programs, onSeem, filter = () => true, divisor = 15 }: LazyViewerProps) {
+function LazyViewer({
+  programs,
+  onSeem,
+  filter = () => true,
+  divisor = 15,
+}: LazyViewerProps) {
   const dividedItems = useDividedPrograms(programs, divisor, filter);
   const renderItems = React.useMemo(() => {
     return dividedItems.map((dividedItem, index) => {

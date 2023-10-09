@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { RenderBodyArgs } from 'gatsby';
+import * as React from "react";
+import { RenderBodyArgs } from "gatsby";
 
 const HeadComponents = [
   <script

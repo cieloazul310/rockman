@@ -1,14 +1,14 @@
-import * as React from 'react';
-import { graphql, type PageProps } from 'gatsby';
-import Container from '@mui/material/Container';
-import List from '@mui/material/List';
-import { Section, SectionWrapper } from '@cieloazul310/gatsby-theme-aoi';
-import TabPageTemplate from '../layout/TabTemplate';
-import Seo from '../components/Seo';
-import Jumbotron from '../components/Jumbotron';
-import ProgramItem from '../components/ProgramList/Item';
-import { useSortProgram } from '../utils/useSorter';
-import type { ProgramListFragment } from '../../types';
+import * as React from "react";
+import { graphql, type PageProps } from "gatsby";
+import Container from "@mui/material/Container";
+import List from "@mui/material/List";
+import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
+import TabPageTemplate from "../layout/TabTemplate";
+import Seo from "../components/Seo";
+import Jumbotron from "../components/Jumbotron";
+import ProgramItem from "../components/ProgramList/Item";
+import { useSortProgram } from "../utils/useSorter";
+import type { ProgramListFragment } from "../../types";
 
 type WindowState = {
   category?: string;
@@ -24,9 +24,14 @@ type CategoriesPageQueryData = {
   };
 };
 
-function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, WindowState>) {
+function CategoriesPage({
+  data,
+}: PageProps<CategoriesPageQueryData, unknown, WindowState>) {
   const categories = React.useMemo(() => {
-    return data.allProgram.group.sort((a, b) => b.totalCount - a.totalCount || a.fieldValue.localeCompare(b.fieldValue));
+    return data.allProgram.group.sort(
+      (a, b) =>
+        b.totalCount - a.totalCount || a.fieldValue.localeCompare(b.fieldValue),
+    );
   }, [data]);
   const sortProgram = useSortProgram();
 
@@ -42,12 +47,20 @@ function CategoriesPage({ data }: PageProps<CategoriesPageQueryData, unknown, Wi
     >
       {categories.map((category) => (
         <SectionWrapper key={category.fieldValue} component="article">
-          <Jumbotron title={category.fieldValue} footerText={`全${category.nodes.length}回`} component="header" />
+          <Jumbotron
+            title={category.fieldValue}
+            footerText={`全${category.nodes.length}回`}
+            component="header"
+          />
           <Section component="main">
             <Container maxWidth="md" disableGutters>
               <List>
                 {category.nodes.sort(sortProgram).map((node, i) => (
-                  <ProgramItem key={node.id} program={node} last={i === category.nodes.length - 1} />
+                  <ProgramItem
+                    key={node.id}
+                    program={node}
+                    last={i === category.nodes.length - 1}
+                  />
                 ))}
               </List>
             </Container>

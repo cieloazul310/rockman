@@ -10,11 +10,15 @@ export type IntQueryOperatorInput = {
   nin?: number[] | null;
 };
 
-function argIsIntQueryOperatorInput(arg: unknown | IntQueryOperatorInput): arg is IntQueryOperatorInput {
+function argIsIntQueryOperatorInput(
+  arg: unknown | IntQueryOperatorInput,
+): arg is IntQueryOperatorInput {
   return true;
 }
 
-export function intQueryFilter(arg: unknown | IntQueryOperatorInput): (input: number) => boolean {
+export function intQueryFilter(
+  arg: unknown | IntQueryOperatorInput,
+): (input: number) => boolean {
   if (!arg) return () => true;
   if (!argIsIntQueryOperatorInput(arg)) return () => true;
 
@@ -41,11 +45,15 @@ export type StringQueryOperatorInput = {
   glob?: string | null;
 };
 
-function argIsStringQueryOperatorInput(arg: unknown | StringQueryOperatorInput): arg is StringQueryOperatorInput {
+function argIsStringQueryOperatorInput(
+  arg: unknown | StringQueryOperatorInput,
+): arg is StringQueryOperatorInput {
   return true;
 }
 
-export function stringQueryFilter(arg: unknown | StringQueryOperatorInput): (input: string) => boolean {
+export function stringQueryFilter(
+  arg: unknown | StringQueryOperatorInput,
+): (input: string) => boolean {
   if (!arg) return () => true;
   if (!argIsStringQueryOperatorInput(arg)) return () => true;
 
@@ -53,5 +61,8 @@ export function stringQueryFilter(arg: unknown | StringQueryOperatorInput): (inp
   const filterIn = arg.in;
 
   return (input: string) =>
-    (!eq || input === eq) && (!ne || input !== ne) && (!filterIn || filterIn.includes(input)) && (!nin || !nin.includes(input));
+    (!eq || input === eq) &&
+    (!ne || input !== ne) &&
+    (!filterIn || filterIn.includes(input)) &&
+    (!nin || !nin.includes(input));
 }

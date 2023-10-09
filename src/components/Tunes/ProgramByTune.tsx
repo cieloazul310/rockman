@@ -1,15 +1,18 @@
-import * as React from 'react';
+import * as React from "react";
 // import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
+import Container from "@mui/material/Container";
 // import Skeleton from '@mui/material/Skeleton';
-import { Section } from '@cieloazul310/gatsby-theme-aoi';
-import ProgramTitle from './ProgramTitle';
-import Tune from './Item';
-import type { Program, TuneItemFragment } from '../../../types';
+import { Section } from "@cieloazul310/gatsby-theme-aoi";
+import ProgramTitle from "./ProgramTitle";
+import Tune from "./Item";
+import type { Program, TuneItemFragment } from "../../../types";
 
 type ProgramByTuneProps = {
   tune: TuneItemFragment & {
-    program: Pick<Program, 'id' | 'week' | 'date' | 'slug' | 'title' | 'subtitle'>;
+    program: Pick<
+      Program,
+      "id" | "week" | "date" | "slug" | "title" | "subtitle"
+    >;
   };
 };
 

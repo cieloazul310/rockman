@@ -1,11 +1,11 @@
-import * as React from 'react';
-import type { ComponentMeta } from '@storybook/react';
-import ArtistListItem from '../components/ArtistList/Item';
-import ArtistListContainer from '../components/ArtistList/Container';
-import { artists } from './data/artists';
+import * as React from "react";
+import type { ComponentMeta } from "@storybook/react";
+import ArtistListItem from "../components/ArtistList/Item";
+import ArtistListContainer from "../components/ArtistList/Container";
+import { artists } from "./data/artists";
 
 export default {
-  title: 'ArtistListItem',
+  title: "ArtistListItem",
   component: ArtistListItem,
   subcomponents: {
     ArtistListContainer,

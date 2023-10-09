@@ -1,53 +1,57 @@
-import type { Node } from 'gatsby';
+import type { Node } from "gatsby";
 
-export type Artist<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
+export type Artist<T extends "bare" | "node" | "browser" = "browser"> = Node & {
   name: string;
   kana?: string | null;
-  sortName: T extends 'bare' ? never : string;
+  sortName: T extends "bare" ? never : string;
   nation: string;
   slug: string;
-  image: T extends 'browser' ? string | null : never;
-  program: T extends 'browser'
+  image: T extends "browser" ? string | null : never;
+  program: T extends "browser"
     ? {
         programs: Program[];
         programsCount: number;
         tunes: Tune[];
         tunesCount: number;
         image: string | null;
-        relatedArtists: Artist<'browser'>[];
+        relatedArtists: Artist<"browser">[];
       }
     : never;
 };
 
-export type MinimumArtist = Pick<Artist, 'name' | 'slug' | 'nation'> & {
-  program: Pick<Artist['program'], 'programsCount' | 'tunesCount' | 'image'>;
+export type MinimumArtist = Pick<Artist, "name" | "slug" | "nation"> & {
+  program: Pick<Artist["program"], "programsCount" | "tunesCount" | "image">;
 };
 
-export type ArtistListItem = MinimumArtist & Pick<Artist, 'kana' | 'sortName'>;
+export type ArtistListItem = MinimumArtist & Pick<Artist, "kana" | "sortName">;
 
-export type Program<T extends 'bare' | 'node' | 'browser' = 'browser'> = Node & {
-  id: string;
-  week: number;
-  year: number;
-  date: string;
-  slug: T extends 'bare' ? null : string;
-  title: string;
-  subtitle: string | null;
-  image: T extends 'browser' ? string | null : never;
-  guests: string[] | null;
-  categories: string[];
-  playlist: Tune<T>[];
-};
+export type Program<T extends "bare" | "node" | "browser" = "browser"> =
+  Node & {
+    id: string;
+    week: number;
+    year: number;
+    date: string;
+    slug: T extends "bare" ? null : string;
+    title: string;
+    subtitle: string | null;
+    image: T extends "browser" ? string | null : never;
+    guests: string[] | null;
+    categories: string[];
+    playlist: Tune<T>[];
+  };
 
-export type ProgramListFragment = Pick<Program, 'id' | 'date' | 'title' | 'slug' | 'image' | 'week'>;
+export type ProgramListFragment = Pick<
+  Program,
+  "id" | "date" | "title" | "slug" | "image" | "week"
+>;
 
-export type Tune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
+export type Tune<T extends "bare" | "node" | "browser" = "browser"> = {
   id: string;
   index: number;
   indexInWeek: number;
   week: number;
   title: string;
-  artist: T extends 'browser' ? Artist : string;
+  artist: T extends "browser" ? Artist : string;
   kana: string | null;
   year: number;
   nation: string;
@@ -55,17 +59,25 @@ export type Tune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
   corner: string | null;
   youtube: string | null;
   selector: string;
-  program: T extends 'browser' ? Program : null;
+  program: T extends "browser" ? Program : null;
 };
 
 export type TuneItemFragment = Pick<
   Tune,
-  'id' | 'title' | 'week' | 'indexInWeek' | 'corner' | 'selector' | 'year' | 'youtube' | 'nation'
+  | "id"
+  | "title"
+  | "week"
+  | "indexInWeek"
+  | "corner"
+  | "selector"
+  | "year"
+  | "youtube"
+  | "nation"
 > & {
   artist: MinimumArtist;
 };
 
-export type SpitzAlbum<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
+export type SpitzAlbum<T extends "bare" | "node" | "browser" = "browser"> = {
   id: string;
   albumIdNum: number;
   year: number;
@@ -73,11 +85,11 @@ export type SpitzAlbum<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
   tunes: SpitzTune<T>[];
 };
 
-export type SpitzTune<T extends 'bare' | 'node' | 'browser' = 'browser'> = {
+export type SpitzTune<T extends "bare" | "node" | "browser" = "browser"> = {
   id: string;
   index: number;
   title: string;
-  program: T extends 'browser' ? Program<'browser'> : never;
+  program: T extends "browser" ? Program<"browser"> : never;
 };
 
 export type Selector = {

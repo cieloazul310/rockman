@@ -1,9 +1,12 @@
-import * as path from 'path';
-import type { CreateSchemaCustomizationArgs } from 'gatsby';
-import type { GatsbyGraphQLContext } from '../graphql';
-import type { Program, Tune } from '../../../types';
+import * as path from "path";
+import type { CreateSchemaCustomizationArgs } from "gatsby";
+import type { GatsbyGraphQLContext } from "../graphql";
+import type { Program, Tune } from "../../../types";
 
-export default async function createProgramSchemaCustomization({ actions, schema }: CreateSchemaCustomizationArgs) {
+export default async function createProgramSchemaCustomization({
+  actions,
+  schema,
+}: CreateSchemaCustomizationArgs) {
   const { createTypes } = actions;
 
   createTypes(`
@@ -44,25 +47,36 @@ export default async function createProgramSchemaCustomization({ actions, schema
       fields: {
         slug: {
           type: `String!`,
-          resolve: (source: Pick<Program<'node'>, 'week' | 'year'>) =>
-            path.join('/program', `${source.year}${source.week.toString().padStart(4, '0')}`),
+          resolve: (source: Pick<Program<"node">, "week" | "year">) =>
+            path.join(
+              "/program",
+              `${source.year}${source.week.toString().padStart(4, "0")}`,
+            ),
         },
         image: {
           type: `String`,
-          resolve: (source: Pick<Program<'node'>, 'playlist'>) => {
+          resolve: (source: Pick<Program<"node">, "playlist">) => {
             const youtube = source.playlist
-              .filter(({ artist }) => artist !== 'スピッツ')
-              .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
+              .filter(({ artist }) => artist !== "スピッツ")
+              .reduce<string | null>(
+                (accum, curr) => accum || curr.youtube,
+                null,
+              );
             if (youtube) return `https://i.ytimg.com/vi/${youtube}/0.jpg`;
 
             const youtubeSpitz = source.playlist
-              .filter(({ artist }) => artist === 'スピッツ')
-              .reduce<string | null>((accum, curr) => accum || curr.youtube, null);
-            return youtubeSpitz ? `https://i.ytimg.com/vi/${youtubeSpitz}/0.jpg` : null;
+              .filter(({ artist }) => artist === "スピッツ")
+              .reduce<string | null>(
+                (accum, curr) => accum || curr.youtube,
+                null,
+              );
+            return youtubeSpitz
+              ? `https://i.ytimg.com/vi/${youtubeSpitz}/0.jpg`
+              : null;
           },
         },
       },
-    })
+    }),
   );
 
   createTypes(
@@ -71,13 +85,17 @@ export default async function createProgramSchemaCustomization({ actions, schema
       fields: {
         artist: {
           type: `Artist!`,
-          resolve: async (source: Pick<Tune<'node'>, 'artist'>, args: unknown, context: GatsbyGraphQLContext) => {
-            if (source.artist === 'スピッツ') {
+          resolve: async (
+            source: Pick<Tune<"node">, "artist">,
+            args: unknown,
+            context: GatsbyGraphQLContext,
+          ) => {
+            if (source.artist === "スピッツ") {
               return {
-                name: 'スピッツ',
-                sortName: 'すぴっつ',
-                nation: 'JPN',
-                slug: '/takeoff/',
+                name: "スピッツ",
+                sortName: "すぴっつ",
+                nation: "JPN",
+                slug: "/takeoff/",
                 program: {
                   programs: [],
                   programsCount: 0,
@@ -99,6 +117,6 @@ export default async function createProgramSchemaCustomization({ actions, schema
           },
         },
       },
-    })
+    }),
   );
 }

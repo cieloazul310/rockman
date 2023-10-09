@@ -1,8 +1,8 @@
-import type { CreateSchemaCustomizationArgs } from 'gatsby';
-import type { GatsbyGraphQLContext } from '../graphql';
-import createArtistSchemaCustomization from './artist';
-import createProgramSchemaCustomization from './program';
-import type { Program, SpitzTune } from '../../../types';
+import type { CreateSchemaCustomizationArgs } from "gatsby";
+import type { GatsbyGraphQLContext } from "../graphql";
+import createArtistSchemaCustomization from "./artist";
+import createProgramSchemaCustomization from "./program";
+import type { Program, SpitzTune } from "../../../types";
 
 /**
  * createSchemaCustomization で何をするか
@@ -12,7 +12,9 @@ import type { Program, SpitzTune } from '../../../types';
  * 3. SpitzAlbum のノードを拡張する
  * 4. CreateResolver で作成するクエリに対応するスキーマを定義する
  */
-export default async function createSchemaCustomization(schemaCustomizationArgs: CreateSchemaCustomizationArgs) {
+export default async function createSchemaCustomization(
+  schemaCustomizationArgs: CreateSchemaCustomizationArgs,
+) {
   const { actions, schema } = schemaCustomizationArgs;
   const { createTypes } = actions;
 
@@ -55,24 +57,30 @@ export default async function createSchemaCustomization(schemaCustomizationArgs:
       fields: {
         program: {
           type: `[Program]!`,
-          resolve: async (source: SpitzTune, args: unknown, { nodeModel }: GatsbyGraphQLContext) => {
-            const { entries } = await nodeModel.findAll<Program<'node'>>({
-              type: 'Program',
+          resolve: async (
+            source: SpitzTune,
+            args: unknown,
+            { nodeModel }: GatsbyGraphQLContext,
+          ) => {
+            const { entries } = await nodeModel.findAll<Program<"node">>({
+              type: "Program",
               query: {
-                filter: { playlist: { elemMatch: { title: { eq: source.title } } } },
+                filter: {
+                  playlist: { elemMatch: { title: { eq: source.title } } },
+                },
               },
             });
             return Array.from(entries)
               .filter(({ playlist }) =>
                 playlist
-                  .filter(({ artist }) => artist === 'スピッツ')
+                  .filter(({ artist }) => artist === "スピッツ")
                   .map(({ title }) => title)
-                  .includes(source.title)
+                  .includes(source.title),
               )
               .sort((a, b) => a.week - b.week);
           },
         },
       },
-    })
+    }),
   );
 }

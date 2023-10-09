@@ -1,14 +1,17 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import TextSpan from './TextSpan';
-import type { Program, SpitzAlbum, SpitzTune } from '../../types';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import { AppLink } from "@cieloazul310/gatsby-theme-aoi";
+import TextSpan from "./TextSpan";
+import type { Program, SpitzAlbum, SpitzTune } from "../../types";
 
 type TakeOffAlbumProps = {
-  album: Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+  album: Pick<SpitzAlbum, "id" | "albumIdNum" | "title" | "year"> & {
     tunes: (SpitzTune & {
-      program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+      program: Pick<
+        Program,
+        "id" | "date" | "slug" | "title" | "subtitle" | "week" | "image"
+      >[];
     })[];
   };
 };
@@ -19,7 +22,16 @@ function TakeOffAlbum({ album }: TakeOffAlbumProps) {
       {album.tunes.map((tune) => (
         <Box key={tune.id} py={1}>
           <Box display="flex">
-            <Typography sx={{ width: '2em', display: 'flex', justifyContent: 'flex-end', pr: '.5em' }}>{tune.index}.</Typography>
+            <Typography
+              sx={{
+                width: "2em",
+                display: "flex",
+                justifyContent: "flex-end",
+                pr: ".5em",
+              }}
+            >
+              {tune.index}.
+            </Typography>
             <Typography>{tune.title}</Typography>
           </Box>
           <div>
@@ -45,9 +57,12 @@ export default TakeOffAlbum;
 
 type TakeOffOthersProps = {
   albums: {
-    nodes: (Pick<SpitzAlbum, 'id' | 'albumIdNum' | 'title' | 'year'> & {
+    nodes: (Pick<SpitzAlbum, "id" | "albumIdNum" | "title" | "year"> & {
       tunes: (SpitzTune & {
-        program: Pick<Program, 'id' | 'date' | 'slug' | 'title' | 'subtitle' | 'week' | 'image'>[];
+        program: Pick<
+          Program,
+          "id" | "date" | "slug" | "title" | "subtitle" | "week" | "image"
+        >[];
       })[];
     })[];
   };

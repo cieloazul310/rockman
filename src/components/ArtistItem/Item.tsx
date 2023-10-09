@@ -1,9 +1,9 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import { AppLink } from '@cieloazul310/gatsby-theme-aoi';
-import { ArtistIcon } from '../../icons';
-import { MinimumArtist } from '../../../types';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import { AppLink } from "@cieloazul310/gatsby-theme-aoi";
+import { ArtistIcon } from "../../icons";
+import { MinimumArtist } from "../../../types";
 
 type ArtistItemProps = {
   artist: MinimumArtist;
@@ -21,21 +21,31 @@ function ArtistItem({ artist }: ArtistItemProps) {
     <AppLink
       href={slug}
       color="inherit"
-      sx={{ display: 'flex' }}
+      sx={{ display: "flex" }}
       onTouchMove={isolateTouch}
       onTouchStart={isolateTouch}
       onTouchEnd={isolateTouch}
     >
-      <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'column' }}>
-        <Box sx={{ width: '100%', display: 'flex', position: 'relative', borderRadius: 2, overflow: 'hidden', aspectRatio: 1 }}>
+      <Box sx={{ display: "flex", flexGrow: 1, flexDirection: "column" }}>
+        <Box
+          sx={{
+            width: "100%",
+            display: "flex",
+            position: "relative",
+            borderRadius: 2,
+            overflow: "hidden",
+            aspectRatio: 1,
+          }}
+        >
           <Box
             sx={{
-              bgcolor: ({ palette }) => palette.grey[palette.mode === 'light' ? 400 : 600],
+              bgcolor: ({ palette }) =>
+                palette.grey[palette.mode === "light" ? 400 : 600],
               backgroundImage: image ? `url(${image})` : undefined,
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              pb: '100%',
-              width: '100%',
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              pb: "100%",
+              width: "100%",
             }}
           />
           {!image ? (
@@ -49,18 +59,18 @@ function ArtistItem({ artist }: ArtistItemProps) {
               justifyContent="center"
               alignItems="center"
               color="background.default"
-              fontSize={{ xs: 'h4.fontSize', md: 'h3.fontSize' }}
+              fontSize={{ xs: "h4.fontSize", md: "h3.fontSize" }}
             >
               <ArtistIcon fontSize="inherit" />
             </Box>
           ) : null}
           <Box
             sx={{
-              position: 'absolute',
+              position: "absolute",
               top: 0,
               left: 0,
-              color: 'common.white',
-              bgcolor: 'primary.dark',
+              color: "common.white",
+              bgcolor: "primary.dark",
               px: 1,
             }}
           >

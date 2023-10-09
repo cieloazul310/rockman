@@ -1,6 +1,6 @@
-import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import useNationColor from '../utils/useNationColor';
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
+import useNationColor from "../utils/useNationColor";
 
 type NationAvatarProps = {
   nation: string;
@@ -11,7 +11,12 @@ type NationAvatarProps = {
 function NationAvatar({ nation, img, alt }: NationAvatarProps) {
   const { bgcolor, color } = useNationColor(nation);
   return (
-    <Avatar sx={{ bgcolor, color, border: `1px solid ${bgcolor}` }} src={img} alt={alt} aria-label="avatar">
+    <Avatar
+      sx={{ bgcolor, color, border: `1px solid ${bgcolor}` }}
+      src={img}
+      alt={alt}
+      aria-label="avatar"
+    >
       {nation}
     </Avatar>
   );

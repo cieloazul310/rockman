@@ -1,16 +1,16 @@
-import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import iso from 'iso-3166-1';
-import { isSchemeNations } from '../useNationColor';
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import iso from "iso-3166-1";
+import { isSchemeNations } from "../useNationColor";
 
 function parseNationToIsoAlpha3(nation: string) {
-  if (nation === 'UK') return 'GBR';
-  if (nation === 'US') return 'USA';
-  if (nation === 'FR') return 'FRA';
-  if (nation === 'GER') return 'DEU';
-  if (nation === 'IRE') return 'IRL';
-  if (nation === 'NED') return 'NLD';
-  if (nation === 'NZ') return 'NZL';
+  if (nation === "UK") return "GBR";
+  if (nation === "US") return "USA";
+  if (nation === "FR") return "FRA";
+  if (nation === "GER") return "DEU";
+  if (nation === "IRE") return "IRL";
+  if (nation === "NED") return "NLD";
+  if (nation === "NZ") return "NZL";
   return nation;
 }
 
@@ -54,15 +54,22 @@ export function useAllNations() {
           ...country,
         };
       })
-      .sort((a, b) => b.totalCount - a.totalCount || a.country.localeCompare(b.country));
+      .sort(
+        (a, b) =>
+          b.totalCount - a.totalCount || a.country.localeCompare(b.country),
+      );
   }, [allArtist]);
 }
 
 export function useSchemeNations() {
   const allNations = useAllNations();
   return React.useMemo(() => {
-    const schemed = allNations.filter(({ fieldValue }) => isSchemeNations(fieldValue));
-    const notSchemed = allNations.filter(({ fieldValue }) => !isSchemeNations(fieldValue));
+    const schemed = allNations.filter(({ fieldValue }) =>
+      isSchemeNations(fieldValue),
+    );
+    const notSchemed = allNations.filter(
+      ({ fieldValue }) => !isSchemeNations(fieldValue),
+    );
     return { schemed, notSchemed };
   }, [allNations]);
 }
