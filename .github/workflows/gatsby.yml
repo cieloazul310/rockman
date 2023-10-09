@@ -12,9 +12,9 @@ on:
       - develop
       - main
 
-    paths:
-      - data/yaml/**/*.yaml
-      - data/spitzAlbums.yml
+    # paths:
+    #  - data/yaml/**/*.yaml
+    #  - data/spitzAlbums.yml
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
