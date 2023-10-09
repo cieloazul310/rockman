@@ -8,13 +8,18 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: 
-      - content
-      - develop
       - main
+      - content
 
-    # paths:
-    #  - data/yaml/**/*.yaml
-    #  - data/spitzAlbums.yml
+    paths:
+      - src/**/*
+      - gatsby/**/*
+      - gatsby-config.ts
+      - gatsby-node.ts
+      - gatsby-ssr.tsx
+      - package.json
+      - data/yaml/**/*.yaml
+      - data/spitzAlbums.yml
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
