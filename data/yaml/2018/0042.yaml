@@ -51,6 +51,7 @@ playlist:
     nation: JPN
     label: ポニーキャニオン
     title: ざまぁカンカン娘
+    youtube: zyBL2j1bX6E
     index: 345
     indexInWeek: 4
     selector: 草野マサムネ
@@ -60,6 +61,7 @@ playlist:
     year: 2001
     nation: US
     label: Columbia
+    youtube: Y45oADjAAuQ
     title: Needles
     index: 346
     indexInWeek: 5
@@ -94,7 +96,7 @@ playlist:
     label: Reprise Records
     producer:
       - Shel Talmy
-    youtube: Gz3Pevx6FRk
+    youtube: mRd_CnrwPL0
     title: A Well Respected Man
     index: 349
     indexInWeek: 8
