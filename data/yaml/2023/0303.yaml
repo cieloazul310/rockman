@@ -1,0 +1,98 @@
+id: "20230303"
+week: 303
+year: 2023
+title: あなたの好きなギターソロリクエスト（パート2）
+guests: []
+categories: ["リクエスト特集"]
+date: 2023-10-22
+playlist:
+  - id: "2023030301"
+    week: 303
+    index: 2515
+    indexInWeek: 1
+    title: シロクマ
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    youtube: UiYl1r5m5a0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030302"
+    week: 303
+    index: 2516
+    indexInWeek: 2
+    title: Everything (It's you)
+    artist: Mr.Children
+    year: 1997
+    nation: JPN
+    label: トイズファクトリー
+    youtube: ZMLdS2ZiI8w
+    selector: リクエスト
+  - id: "2023030303"
+    week: 303
+    index: 2517
+    indexInWeek: 3
+    title: それだけ
+    artist: 家主
+    kana: やぬし
+    year: 2021
+    nation: JPN
+    label: NEW FOLK
+    youtube: rAPYYGC5hnA
+    selector: リクエスト
+  - id: "2023030304"
+    week: 303
+    index: 2518
+    indexInWeek: 4
+    title: IN THE BRIGHTLY MOONLIGHT
+    artist: Hi-STANDARD
+    year: 1995
+    nation: JPN
+    label: PIZZA OF DEATH RECORDS
+    selector: リクエスト
+  - id: "2023030305"
+    week: 303
+    index: 2519
+    indexInWeek: 5
+    title: Don't Keep Me Wonderin' (Live 1971 from "At Fillmore East")
+    artist: The Allman Brothers Band
+    year: 1971
+    nation: US
+    label: Capricorn
+    youtube: yrmWfaFvJXA4n
+    selector: リクエスト
+  - id: "2023030306"
+    week: 303
+    index: 2520
+    indexInWeek: 6
+    title: 『いちご白書』をもう一度
+    artist: バンバン
+    year: 1975
+    nation: JPN
+    label: CBS・ソニー
+    selector: リクエスト
+  - id: "2023030307"
+    week: 303
+    index: 2521
+    indexInWeek: 7
+    title: 星座になれたら
+    artist: 結束バンド
+    kana: けっそくばんど
+    year: 2022
+    nation: JPN
+    label: アニプレックス
+    youtube: wSTbdqo-j74
+    selector: リクエスト
+  - id: "2023030308"
+    week: 303
+    index: 2522
+    indexInWeek: 8
+    title: 輝きだして走ってく
+    artist: サンボマスター
+    year: 2018
+    nation: JPN
+    label: ソニー・ミュージックアーティスツ
+    youtube: KM0SrqFBt38
+    selector: 草野マサムネ
+    
