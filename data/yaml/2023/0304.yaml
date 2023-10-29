@@ -1,0 +1,98 @@
+id: "20230304"
+week: 304
+year: 2023
+title: アートロックで漫遊記
+guests: []
+categories: []
+date: 2023-10-29
+playlist:
+  - id: "2023030401"
+    week: 304
+    index: 2523
+    indexInWeek: 1
+    title: ほうき星
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030402"
+    week: 304
+    index: 2524
+    indexInWeek: 2
+    title: You Keep Me Hanging On
+    artist: Vanilla Fudge
+    year: 1967
+    nation: US
+    label: Atco
+    youtube: 3dJO47d26kc
+    selector: 草野マサムネ
+  - id: "2023030403"
+    week: 304
+    index: 2525
+    indexInWeek: 3
+    title: A Day in the Life
+    artist: The Beatles
+    year: 1967
+    nation: UK
+    label: Parlophone
+    youtube: usNsCeOV4GM
+    selector: 草野マサムネ
+  - id: "2023030404"
+    week: 304
+    index: 2526
+    indexInWeek: 4
+    title: Astronomy Dominé
+    artist: Pink Floyd
+    year: 1967
+    nation: UK
+    label: EMI Columbia
+    youtube: 8UbNbor3OqQ
+    selector: 草野マサムネ
+  - id: "2023030405"
+    week: 304
+    index: 2527
+    indexInWeek: 5
+    title: In-A-Gadda-Da-Vida
+    artist: Iron Butterfly
+    year: 1968
+    nation: US
+    label: Atco
+    youtube: hNBgEirKxq8
+    selector: 草野マサムネ
+  - id: "2023030406"
+    week: 304
+    index: 2528
+    indexInWeek: 6
+    title: Chasing Shadows
+    artist: Deep Purple
+    year: 1969
+    nation: UK
+    label: Harvest
+    youtube: ao-bn5xcthg
+    selector: 草野マサムネ
+  - id: "2023030407"
+    week: 304
+    index: 2529
+    indexInWeek: 7
+    title: Fire
+    artist: The Crazy World of Arthur Brown
+    year: 1968
+    nation: UK
+    label: Track
+    youtube: YzHtePuz13U
+    selector: 草野マサムネ
+  - id: "2023030408"
+    week: 304
+    index: 2530
+    indexInWeek: 8
+    title: Understand
+    artist: "カルメン・マキ / ブルース・クリエイション"
+    year: 1971
+    nation: JPN
+    label: 日本コロムビア / DENON
+    youtube: jPeqwTD-3FI
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
+    
