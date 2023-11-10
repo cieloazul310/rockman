@@ -24,8 +24,8 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@cieloazul310/gatsby-theme-aoi": "^3.2.3",
-    "@cieloazul310/gatsby-theme-aoi-blog-components": "^3.2.3",
+    "@cieloazul310/gatsby-theme-aoi": "^3.3.0",
+    "@cieloazul310/gatsby-theme-aoi-blog-components": "^3.3.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.12",
