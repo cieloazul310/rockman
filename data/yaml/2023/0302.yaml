@@ -1,0 +1,100 @@
+id: "20230302"
+week: 302
+year: 2023
+title: あなたの好きなギターソロリクエスト（パート1）
+guests: []
+categories: ["リクエスト特集"]
+date: 2023-10-15
+playlist:
+  - id: "2023030201"
+    week: 302
+    index: 2507
+    indexInWeek: 1
+    title: 青い車(Album Version)
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ユニバーサル
+    youtube: 5K8ZuLYG0yo
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030202"
+    week: 302
+    index: 2508
+    indexInWeek: 2
+    title: ただ君に晴れ
+    artist: ヨルシカ
+    year: 2018
+    nation: JPN
+    label: U&R records
+    youtube: -VKIqrvVOpo
+    selector: リクエスト
+  - id: "2023030203"
+    week: 302
+    index: 2509
+    indexInWeek: 3
+    title: 剣とパレット
+    artist: 森大翔
+    kana: もりやまと
+    year: 2023
+    nation: JPN
+    label: A-Sketch
+    youtube: Ohau1VMbWlc
+    selector: リクエスト
+  - id: "2023030204"
+    week: 302
+    index: 2510
+    indexInWeek: 4
+    title: 発光体
+    artist: ゆらゆら帝国
+    year: 1998
+    nation: JPN
+    label: ユニバーサルミュージック
+    youtube: 9de9r-nD9Ko
+    selector: リクエスト
+  - id: "2023030205"
+    week: 302
+    index: 2511
+    indexInWeek: 5
+    title: Profession of Violence
+    artist: UFO
+    year: 1981
+    nation: UK
+    label: Chrysalis
+    youtube: e-D_vX0do5k
+    selector: リクエスト
+  - id: "2023030206"
+    week: 302
+    index: 2512
+    indexInWeek: 6
+    title: IPPEICHANG
+    artist: 流田Project
+    kana: ながれだぷろじぇくと
+    year: 2020
+    nation: JPN
+    label: 自主制作
+    youtube: W0quhhlRPts
+    selector: リクエスト
+  - id: "2023030207"
+    week: 302
+    index: 2513
+    indexInWeek: 7
+    title: 大人になったら
+    artist: GLIM SPANKY
+    year: 2015
+    nation: JPN
+    label: VIRGIN RECORDS
+    youtube: 23ySlAM_9nQ
+    selector: リクエスト
+  - id: "2023030208"
+    week: 302
+    index: 2514
+    indexInWeek: 8
+    title: Hourglass
+    artist: 9mm Parabellum Bullet
+    year: 2022
+    nation: JPN
+    label: 日本コロムビア
+    youtube: 5RuvUGtyGF4
+    selector: リクエスト
+    
