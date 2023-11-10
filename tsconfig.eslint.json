@@ -1,17 +1,17 @@
 {
   "extends": "./tsconfig.json",
   "include": [
-    "src/**/*",
-    "gatsby/**/*",
+    "src",
+    "gatsby",
     "types.d.ts",
-    ".eslintrc.js",
+    ".eslintrc.cjs",
     "gatsby-config.ts",
     "gatsby-node.ts",
     "gatsby-ssr.tsx",
-    "jest-preprocess.js",
+    "jest-preprocess.cjs",
     "jest.config.ts",
-    "loadershim.js",
-    ".storybook/**/*",
-    "__mocks__/**/*"
+    "loadershim.cjs",
+    ".storybook",
+    "__mocks__"
   ]
 }
