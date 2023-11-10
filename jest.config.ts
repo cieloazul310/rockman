@@ -4,7 +4,7 @@ const config: Config = {
   preset: "ts-jest",
   testEnvironment: "node",
   transform: {
-    "^.+\\.[jt]sx?$": "<rootDir>/jest-preprocess.js",
+    "^.+\\.[jt]sx?$": "<rootDir>/jest-preprocess.cjs",
   },
   moduleNameMapper: {
     ".+\\.(css|styl|less|sass|scss)$": `identity-obj-proxy`,
@@ -24,7 +24,7 @@ const config: Config = {
   testEnvironmentOptions: {
     url: "http://localhost",
   },
-  setupFiles: [`<rootDir>/loadershim.js`],
+  setupFiles: [`<rootDir>/loadershim.cjs`],
 };
 
 export default config;

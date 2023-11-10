@@ -2,9 +2,11 @@ import * as path from 'path';
 import type { StorybookConfig } from '@storybook/core-common';
 import type { RuleSetRule, RuleSetUseItem } from 'webpack';
 
-function isRuleSetRule(rule: RuleSetRule | '...' | undefined): rule is RuleSetRule {
+function isRuleSetRule(
+  rule: false | "" | 0 | "..." | RuleSetRule | null | undefined,
+): rule is RuleSetRule {
   if (!rule) return false;
-  return typeof rule === 'object';
+  return typeof rule === "object";
 }
 
 function isRuleSetUseItemArray(use: any): use is RuleSetUseItem[] {
@@ -37,8 +39,10 @@ const config: StorybookConfig = {
   typescript: {
     check: false,
     checkOptions: {},
-    reactDocgen: 'react-docgen-typescript',
+    // @ts-expect-error
+    reactDocgen: 'react-docgen-typescript-plugin',
     reactDocgenTypescriptOptions: {
+      // @ts-ignore
       allowSyntheticDefaultImports: false, // speeds up storybook build time
       esModuleInterop: false, // speeds up storybook build time
       shouldExtractLiteralValuesFromEnum: true, // makes union prop types like variant and size appear as select controls
