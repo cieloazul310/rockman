@@ -50,7 +50,7 @@ jobs:
           cache-dependency-path: ./package-lock.json
       
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }} -f
       
       - name: Upgrade gatsby-theme-aoi
         run: npx npm-check-updates @cieloazul310/gatsby-theme-aoi @cieloazul310/gatsby-theme-aoi-blog-components --upgrade --install always
