@@ -1,0 +1,100 @@
+id: "20230308"
+week: 308
+year: 2023
+title: 洋楽ロックの日本語カバーで漫遊記
+guests: []
+categories: []
+date: 2023-11-26
+playlist:
+  - id: "2023030801"
+    week: 308
+    index: 2555
+    indexInWeek: 1
+    title: はぐれ狼
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030802"
+    week: 308
+    index: 2556
+    indexInWeek: 2
+    title: デイ・ドリーム・ビリーバー 〜DAY DREAM BELIEVER〜
+    artist: THE TIMERS
+    year: 1989
+    nation: JPN
+    label: EASTWORLD
+    youtube: RHoNhQMj08Y
+    selector: 草野マサムネ
+  - id: "2023030803"
+    week: 308
+    index: 2557
+    indexInWeek: 3
+    title: 脳天爆発男
+    artist: 王様†Blood Sabbath
+    kana: おうさまぶらっどさばす
+    year: 2013
+    nation: JPN
+    label: STAY METAL RECORDS
+    youtube: Ud2Wy1H-0Vc
+    selector: 草野マサムネ
+  - id: "2023030804"
+    week: 308
+    index: 2558
+    indexInWeek: 4
+    title: エミリーはプレイガール
+    artist: ORIGINAL LOVE
+    year: 2006
+    nation: JPN
+    label: Rocker Room
+    youtube: akfF_gnL3Zs
+    selector: 草野マサムネ
+  - id: "2023030805"
+    week: 308
+    index: 2559
+    indexInWeek: 5
+    title: 漢字読めるけど書けない
+    artist: ダンス☆マン
+    year: 2000
+    nation: JPN
+    label: Avex Trax
+    youtube: b4XBlcdjCsg
+    selector: 草野マサムネ
+  - id: "2023030806"
+    week: 308
+    index: 2560
+    indexInWeek: 6
+    title: QUESTION 67 AND 68
+    artist: THE COLLECTORS
+    year: 1998
+    nation: JPN
+    label: TRIAD
+    youtube: bRRj_yOhKdY
+    selector: 草野マサムネ
+  - id: "2023030807"
+    week: 308
+    index: 2561
+    indexInWeek: 7
+    title: Loser
+    artist: ASIAN KUNG-FU GENERATION
+    year: 2013
+    nation: JPN
+    label: Ki/oon Music
+    youtube: RfBHVbo543o
+    selector: 草野マサムネ
+  - id: "2023030808"
+    week: 308
+    index: 2562
+    indexInWeek: 8
+    title: RUNAWAY
+    artist: 麻倉未稀
+    kana: あさくらみき
+    year: 1985
+    nation: JPN
+    label: CRYSTAL BIRD
+    youtube: g5xSKVWvC4Y
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    
