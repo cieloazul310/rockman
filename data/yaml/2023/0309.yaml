@@ -1,0 +1,119 @@
+id: "20230309"
+week: 309
+year: 2023
+title: ラモーンズで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-12-03
+playlist:
+  - id: "2023030901"
+    week: 309
+    index: 2563
+    indexInWeek: 1
+    title: 春夏ロケット
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030902"
+    week: 309
+    index: 2564
+    indexInWeek: 2
+    title: Blitzkrieg Bop
+    artist: Ramones
+    year: 1976
+    nation: US
+    label: Sire/ABC
+    youtube: 83PywEgowT8
+    selector: 草野マサムネ
+  - id: "2023030903"
+    week: 309
+    index: 2565
+    indexInWeek: 3
+    title: Sheena Is A Punk Rocker
+    artist: Ramones
+    year: 1977
+    nation: US
+    label: Sire
+    youtube: Gklmj7sb5S0
+    selector: 草野マサムネ
+  - id: "2023030904"
+    week: 309
+    index: 2566
+    indexInWeek: 4
+    title: Do You Wanna Dance?
+    artist: Ramones
+    year: 1977
+    nation: US
+    label: Sire
+    youtube: lu_lQpnHDhQ
+    selector: 草野マサムネ
+  - id: "2023030905"
+    week: 309
+    index: 2567
+    indexInWeek: 5
+    title: I Just Want to Have Something to Do
+    artist: Ramones
+    year: 1978
+    nation: US
+    label: Sire
+    youtube: pcdvbNFjOYk
+    selector: 草野マサムネ
+  - id: "2023030906"
+    week: 309
+    index: 2568
+    indexInWeek: 6
+    title: Don't Come Close
+    artist: Ramones
+    year: 1978
+    nation: US
+    label: Sire
+    youtube: xPOWp0Eu5hA
+    selector: 草野マサムネ
+  - id: "2023030907"
+    week: 309
+    index: 2569
+    indexInWeek: 7
+    title: Do You Remember Rock 'n' Roll Radio?
+    artist: Ramones
+    year: 1980
+    nation: US
+    label: Sire
+    youtube: Gi9a7IdRiBI
+    selector: 草野マサムネ
+  - id: "2023030908"
+    week: 309
+    index: 2570
+    indexInWeek: 8
+    title: Rock 'n' Roll High School
+    artist: Ramones
+    year: 1980
+    nation: US
+    label: Sire
+    youtube: 3qGgpH6eToU
+    selector: 草野マサムネ
+  - id: "2023030909"
+    week: 309
+    index: 2571
+    indexInWeek: 9
+    title: Life's a Gas
+    artist: Ramones
+    year: 1995
+    nation: US
+    label: Radioactive
+    youtube: lkIS9f91xxE
+    selector: 草野マサムネ
+  - id: "2023030910"
+    week: 309
+    index: 2572
+    indexInWeek: 10
+    title: 春は静かに通り過ぎてゆく
+    artist: ロック・キャンディーズ
+    year: 1971
+    nation: JPN
+    label: 東芝音楽工業
+    youtube: qjCtX9xl2dg
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
