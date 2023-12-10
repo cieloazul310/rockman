@@ -1,0 +1,97 @@
+id: "20230310"
+week: 310
+year: 2023
+title: ホーリーな感じで漫遊記
+guests: []
+categories: []
+date: 2023-12-10
+playlist:
+  - id: "2023031001"
+    week: 310
+    index: 2573
+    indexInWeek: 1
+    title: 讃歌
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023031002"
+    week: 310
+    index: 2574
+    indexInWeek: 2
+    title: Caribbean Blue
+    artist: Enya
+    year: 1991
+    nation: IRE
+    label: WEA
+    youtube: Jl8iYAo90pE
+    selector: 草野マサムネ
+  - id: "2023031003"
+    week: 310
+    index: 2575
+    indexInWeek: 3
+    title: Surtout Ne Vous Retournez Pas
+    artist: Françoise Hardy
+    year: 1966
+    nation: FR
+    label: Disques Vogue
+    youtube: ED4Pnu7ktlU
+    selector: 草野マサムネ
+  - id: "2023031004"
+    week: 310
+    index: 2576
+    indexInWeek: 4
+    title: Love Is All
+    artist: Renaissance
+    year: 1971
+    nation: UK
+    label: Island
+    youtube: lFcKLH-4Lg8
+    selector: 草野マサムネ
+  - id: "2023031005"
+    week: 310
+    index: 2577
+    indexInWeek: 5
+    title: Amaranth
+    artist: Nightwish
+    year: 2007
+    nation: FIN
+    label: Spinefarm
+    youtube: GdZn7k5rZLQ
+    selector: 草野マサムネ
+  - id: "2023031006"
+    week: 310
+    index: 2578
+    indexInWeek: 6
+    title: This Is How It Feels
+    artist: Inspiral Carpets
+    year: 1990
+    nation: UK
+    label: Mute
+    youtube: J-fX0UbpZls
+    selector: 草野マサムネ
+  - id: "2023031007"
+    week: 310
+    index: 2579
+    indexInWeek: 7
+    title: A Whiter Shade of Pale
+    artist: Procol Harum
+    year: 1967
+    nation: UK
+    label: Deram
+    youtube: 2puubv2e0L4
+    selector: 草野マサムネ
+  - id: "2023031008"
+    week: 310
+    index: 2580
+    indexInWeek: 8
+    title: WATER
+    artist: 遊佐未森
+    kana: ゆさみもり
+    year: 1989
+    nation: JPN
+    label: エピックソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
