@@ -1,0 +1,111 @@
+id: "20230311"
+week: 311
+year: 2023
+title: 2023年気になった曲で漫遊記
+guests: []
+categories: ["今年気になった曲"]
+date: 2023-12-17
+playlist:
+  - id: "2023031101"
+    week: 311
+    index: 2581
+    indexInWeek: 1
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023031102"
+    week: 311
+    index: 2582
+    indexInWeek: 2
+    title: きかいにおまかせ
+    artist: 家主
+    kana: やぬし
+    year: 2023
+    nation: JPN
+    label: NEWFOLK
+    youtube: T9hhFVwBUW8
+    selector: 草野マサムネ
+  - id: "2023031103"
+    week: 311
+    index: 2583
+    indexInWeek: 3
+    title: Tingin
+    artist: Cup of Joe, Janine Teñoso
+    year: 2023
+    nation: PHI
+    label: Viva Records
+    youtube: 6QlSbMKjWSQ
+    selector: 草野マサムネ
+  - id: "2023031104"
+    week: 311
+    index: 2584
+    indexInWeek: 4
+    title: 眩しい、眩しすぎる
+    artist: 離婚伝説
+    kana: りこんでんせつ
+    year: 2023
+    nation: JPN
+    label: 離婚伝説
+    youtube: -INeRXLjF-8
+    selector: 草野マサムネ
+  - id: "2023031105"
+    week: 311
+    index: 2585
+    indexInWeek: 5
+    title: MY SUPER GOOD FRIEND
+    artist: illiomote
+    year: 2023
+    nation: JPN
+    label: SPILD
+    youtube: ziC2YDKf4A8
+    selector: 草野マサムネ
+  - id: "2023031106"
+    week: 311
+    index: 2586
+    indexInWeek: 6
+    title: 自家製ベーコンの作り方
+    artist: People In The Box
+    year: 2023
+    nation: JPN
+    label: BAUXITE MUSIC WY.
+    youtube: 3I4lv5oesJc
+    selector: 草野マサムネ
+  - id: "2023031107"
+    week: 311
+    index: 2587
+    indexInWeek: 7
+    title: hover like a GODDESS (Live from "Live at Electric Lady")
+    artist: Willow Smith
+    year: 2023
+    nation: US
+    label: MSFTS Music
+    selector: 草野マサムネ
+  - id: "2023031108"
+    week: 311
+    index: 2588
+    indexInWeek: 8
+    title: Girl Is a Hard Rocker
+    artist: peanut butters
+    year: 2023
+    nation: JPN
+    label: UK Project
+    youtube: 0FlbYLPKfhA
+    selector: 草野マサムネ
+  - id: "2023031109"
+    week: 311
+    index: 2589
+    indexInWeek: 9
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
