@@ -1,0 +1,98 @@
+id: "20230312"
+week: 312
+year: 2023
+title: 2023年 漏れた曲で漫遊記
+guests: []
+categories: ["漏れた曲"]
+date: 2023-12-24
+playlist:
+  - id: "2023031201"
+    week: 312
+    index: 2590
+    indexInWeek: 1
+    title: i-O（修理のうた）
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023031202"
+    week: 312
+    index: 2591
+    indexInWeek: 2
+    title: ALICE (feat. 牛丸ありさ)
+    artist: Age Factory
+    year: 2023
+    nation: JPN
+    label: Age Factory
+    youtube: eLfk6iurNU0
+    selector: 草野マサムネ
+  - id: "2023031203"
+    week: 312
+    index: 2592
+    indexInWeek: 3
+    title: Violent Days
+    artist: RTZ
+    year: 1998
+    nation: US
+    label: MTM Music
+    youtube: 785Tod18Ybc
+    selector: 草野マサムネ
+  - id: "2023031204"
+    week: 312
+    index: 2593
+    indexInWeek: 4
+    title: もなかのなか
+    artist: 幾何学模様
+    kana: きかがくもよう
+    year: 2022
+    nation: JPN
+    label: Guruguru Brain
+    youtube: dcW7wSZ3LSY
+    selector: 草野マサムネ
+  - id: "2023031205"
+    week: 312
+    index: 2594
+    indexInWeek: 5
+    title: Gloria
+    artist: The Shadows of Knight
+    year: 1966
+    nation: US
+    label: Dunwich
+    youtube: 7xR2dEHNHvg
+    selector: 草野マサムネ
+  - id: "2023031206"
+    week: 312
+    index: 2595
+    indexInWeek: 6
+    title: WALL
+    artist: EARTHSHAKER
+    year: 1983
+    nation: JPN
+    label: NEXUS / キングレコード
+    youtube: l6vhd2xZKY0
+    selector: 草野マサムネ
+  - id: "2023031207"
+    week: 312
+    index: 2596
+    indexInWeek: 7
+    title: The Joke's On Me
+    artist: Power of Dreams
+    year: 1990
+    nation: IRE
+    label: Polydor
+    youtube: o-M9Md0G0A8
+    selector: 草野マサムネ
+  - id: "2023031208"
+    week: 312
+    index: 2597
+    indexInWeek: 8
+    title: せたがやたがやせ
+    artist: 爆風スランプ
+    kana: ばくふうすらんぷ
+    year: 1985
+    nation: JPN
+    label: CBS/Sony
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
