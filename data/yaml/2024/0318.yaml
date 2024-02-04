@@ -1,0 +1,97 @@
+id: "20240318"
+week: 318
+year: 2024
+title: 冬の歌で漫遊記
+guests: []
+categories: []
+date: 2024-02-04
+playlist:
+  - id: "2024031801"
+    week: 318
+    index: 2639
+    indexInWeek: 1
+    title: ウサギのバイク
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024031802"
+    week: 318
+    index: 2640
+    indexInWeek: 2
+    title: 真冬の盆踊り
+    artist: フラワーカンパニーズ
+    year: 2003
+    nation: JPN
+    label: トラッシュレコーズ
+    youtube: ZNJGjZQRX6c
+    selector: 草野マサムネ
+  - id: "2024031803"
+    week: 318
+    index: 2641
+    indexInWeek: 3
+    title: Hazy Shade of Winter
+    artist: The Bangles
+    year: 1987
+    nation: US
+    label: Def Jam Recordings
+    youtube: 8cNeXWpTVlo
+    selector: 草野マサムネ
+  - id: "2024031804"
+    week: 318
+    index: 2642
+    indexInWeek: 4
+    title: Winter
+    artist: Teenage Fanclub
+    year: 1997
+    nation: UK
+    label: Creation
+    youtube: 74cWOWwBi2w
+    selector: 草野マサムネ
+  - id: "2024031805"
+    week: 318
+    index: 2643
+    indexInWeek: 5
+    title: winter fall
+    artist: L'Arc〜en〜Ciel
+    year: 1998
+    nation: JPN
+    label: Ki/oon Sony Records
+    youtube: TaNlrxTlIfM
+    selector: 草野マサムネ
+  - id: "2024031806"
+    week: 318
+    index: 2644
+    indexInWeek: 6
+    title: Walk Out to Winter
+    artist: Aztec Camera
+    year: 1983
+    nation: UK
+    label: Rough Trade
+    youtube: bnZoMnnfxI4
+    selector: 草野マサムネ
+  - id: "2024031807"
+    week: 318
+    index: 2645
+    indexInWeek: 7
+    title: 粉雪
+    artist: レミオロメン
+    year: 2005
+    nation: JPN
+    label: Towerbell
+    youtube: 1wxTksLZ1Mw
+    selector: 草野マサムネ
+  - id: "2024031808"
+    week: 318
+    index: 2646
+    indexInWeek: 8
+    title: Winter's Tale 〜冬物語〜
+    artist: 高野寛 & 田島貴男
+    kana: たかのひろしたじまたかお
+    year: 1992
+    nation: JPN
+    label: EASTWORLD
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
