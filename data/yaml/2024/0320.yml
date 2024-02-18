@@ -1,0 +1,98 @@
+id: "20240320"
+week: 320
+year: 2024
+title: シタールで漫遊記
+guests: []
+categories: ["楽器"]
+date: 2024-02-18
+playlist:
+  - id: "2024032001"
+    week: 320
+    index: 2655
+    indexInWeek: 1
+    title: 君が思い出になる前に
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    youtube: LrwC2Xu2POs
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032002"
+    week: 320
+    index: 2656
+    indexInWeek: 2
+    title: Love You To
+    artist: The Beatles
+    year: 1966
+    nation: UK
+    label: Parlophone
+    youtube: iCs9goFpiQ0
+    selector: 草野マサムネ
+  - id: "2024032003"
+    week: 320
+    index: 2657
+    indexInWeek: 3
+    title: Paint It Black
+    artist: The Rolling Stones
+    year: 1966
+    nation: UK
+    label: Decca
+    youtube: O4irXQhgMqg
+    selector: 草野マサムネ
+  - id: "2024032004"
+    week: 320
+    index: 2658
+    indexInWeek: 4
+    title: Games People Play
+    artist: Joe South
+    year: 1968
+    nation: US
+    label: Capitol
+    youtube: hIBlCac8_wk
+    selector: 草野マサムネ
+  - id: "2024032005"
+    week: 320
+    index: 2659
+    indexInWeek: 5
+    title: You Are Everything
+    artist: The Stylistics
+    year: 1971
+    nation: US
+    label: Avco
+    youtube: 6StORhP7n2c
+    selector: 草野マサムネ
+  - id: "2024032006"
+    week: 320
+    index: 2660
+    indexInWeek: 6
+    title: Every Time You Go Away
+    artist: Paul Young
+    year: 1985
+    nation: UK
+    label: Columbia
+    youtube: nfk6sCzRTbM
+    selector: 草野マサムネ
+  - id: "2024032007"
+    week: 320
+    index: 2661
+    indexInWeek: 7
+    title: NICE TO MEET YOU
+    artist: L⇔R
+    year: 1996
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: fl3a0cB3sio
+    selector: 草野マサムネ
+  - id: "2024032008"
+    week: 320
+    index: 2662
+    indexInWeek: 8
+    title: 私鉄沿線
+    artist: 野口五郎
+    kana: のぐちごろう
+    year: 1975
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
