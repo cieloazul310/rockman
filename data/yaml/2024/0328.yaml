@@ -1,0 +1,107 @@
+id: "20240328"
+week: 328
+year: 2024
+title: 邦楽ロックの好きなジャケットで漫遊記
+guests: []
+categories: ["レコジャケ"]
+date: 2024-04-14
+playlist:
+  - id: "2024032801"
+    week: 328
+    index: 2723
+    indexInWeek: 1
+    title: i-O（修理のうた）
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032802"
+    week: 328
+    index: 2724
+    indexInWeek: 2
+    title: カラーゲ
+    artist: The ピーズ
+    year: 1989
+    nation: JPN
+    label: ビクター
+    youtube: RTjoiSoHwfk
+    selector: 草野マサムネ
+  - id: "2024032803"
+    week: 328
+    index: 2725
+    indexInWeek: 3
+    title: まちがいさがし
+    artist: 米津玄師
+    kana: よねづけんし
+    year: 2020
+    nation: JPN
+    label: ソニーミュージック
+    selector: 草野マサムネ
+  - id: "2024032804"
+    week: 328
+    index: 2726
+    indexInWeek: 4
+    title: 踊ろよベイビー
+    artist: 遠藤賢司
+    kana: えんどうけんじ
+    year: 1974
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024032805"
+    week: 328
+    index: 2727
+    indexInWeek: 5
+    title: 黄色いロールスロイス
+    artist: 松任谷由実
+    kana: まつとうやゆみ
+    year: 2009
+    nation: JPN
+    label: Capitol Music
+    youtube: TShtWiAp4DI
+    selector: 草野マサムネ
+  - id: "2024032806"
+    week: 328
+    index: 2728
+    indexInWeek: 6
+    title: ファンからの贈り物
+    artist: RCサクセション
+    year: 1976
+    nation: JPN
+    label: ポリドール
+    youtube: pfWJHYrEJDY
+    selector: 草野マサムネ
+  - id: "2024032807"
+    week: 328
+    index: 2729
+    indexInWeek: 7
+    title: エヴリデイ・エヴリナイト
+    artist: フィッシュマンズ
+    year: 1993
+    nation: JPN
+    label: メディア・レモラス
+    youtube: j2hLcqDsLZQ
+    selector: 草野マサムネ
+  - id: "2024032808"
+    week: 328
+    index: 2730
+    indexInWeek: 8
+    title: 水銀
+    artist: The STALIN
+    year: 1983
+    nation: JPN
+    label: クライマックスレコード
+    selector: 草野マサムネ
+  - id: "2024032809"
+    week: 328
+    index: 2731
+    indexInWeek: 9
+    title: STAY TUNE
+    artist: Suchmos
+    year: 2016
+    nation: JPN
+    label: SPACE SHOWER MUSIC
+    youtube: PLgYflfgq0M
+    selector: 草野マサムネ
