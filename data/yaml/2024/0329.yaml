@@ -1,0 +1,98 @@
+id: "20240329"
+week: 329
+year: 2024
+title: 70年代ロック・リクエストで漫遊記(パート1)
+guests: []
+categories: ["リクエスト特集"]
+date: 2024-04-21
+playlist:
+  - id: "2024032901"
+    week: 329
+    index: 2732
+    indexInWeek: 1
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032902"
+    week: 329
+    index: 2733
+    indexInWeek: 2
+    title: タイムマシンにおねがい
+    artist: サディスティック・ミカ・バンド
+    year: 1974
+    nation: JPN
+    label: 東芝EMI
+    youtube: pa26wxT3joU
+    selector: リクエスト
+  - id: "2024032903"
+    week: 329
+    index: 2734
+    indexInWeek: 3
+    title: Go All the Way
+    artist: Raspberries
+    year: 1972
+    nation: US
+    label: Capitol
+    youtube: 6kY3ITqAAm8
+    selector: リクエスト
+  - id: "2024032904"
+    week: 329
+    index: 2735
+    indexInWeek: 4
+    title: Spaceship Superstar
+    artist: Prism
+    year: 1977
+    nation: CAN
+    label: GRT
+    youtube: gqJPDqRnkDU
+    selector: リクエスト
+  - id: "2024032905"
+    week: 329
+    index: 2736
+    indexInWeek: 5
+    title: 路地裏の少年
+    artist: 浜田省吾
+    kana: はまだしょうご
+    year: 1976
+    nation: JPN
+    label: CBS・ソニー
+    youtube: yeFEzyYoq0A
+    selector: リクエスト
+  - id: "2024032906"
+    week: 329
+    index: 2737
+    indexInWeek: 6
+    title: Never Marry a Railroad Man
+    artist: Shocking Blue
+    year: 1970
+    nation: NED
+    label: Pink Elephant
+    youtube: 2Ja4Fo7OJws
+    selector: リクエスト
+  - id: "2024032907"
+    week: 329
+    index: 2738
+    indexInWeek: 7
+    title: Barracuda
+    artist: Heart
+    year: 1977
+    nation: US
+    label: Portrait
+    youtube: PeMvMNpvB5M
+    selector: リクエスト
+  - id: "2024032908"
+    week: 329
+    index: 2739
+    indexInWeek: 8
+    title: 津軽の海
+    artist: ジャッキー吉川とブルー・コメッツ
+    year: 1971
+    nation: JPN
+    label: 日本コロムビア
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
