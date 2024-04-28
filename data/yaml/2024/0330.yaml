@@ -1,0 +1,97 @@
+id: "20240330"
+week: 330
+year: 2024
+title: 70年代ロック・リクエストで漫遊記(パート2)
+guests: []
+categories: ["リクエスト特集"]
+date: 2024-04-28
+playlist:
+  - id: "2024033001"
+    week: 330
+    index: 2740
+    indexInWeek: 1
+    title: ネズミの進化
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033002"
+    week: 330
+    index: 2741
+    indexInWeek: 2
+    title: Cold as Ice
+    artist: Foreigner
+    year: 1977
+    nation: US
+    label: Atlantic
+    youtube: ySb1f9zWJkQ
+    selector: リクエスト
+  - id: "2024033003"
+    week: 330
+    index: 2742
+    indexInWeek: 3
+    title: スウィート・ベイビー
+    artist: 原田真二
+    kana: はらだしんじ
+    year: 1977
+    nation: JPN
+    label: フォーライフ・レコード
+    selector: リクエスト
+  - id: "2024033004"
+    week: 330
+    index: 2743
+    indexInWeek: 4
+    title: Fundamentally Yours
+    artist: Stackridge
+    year: 1974
+    nation: UK
+    label: MCA
+    youtube: 2TCCTL1Uv8E
+    selector: リクエスト
+  - id: "2024033005"
+    week: 330
+    index: 2744
+    indexInWeek: 5
+    title: 青い魚
+    artist: 金延幸子
+    kana: かねのぶさちこ
+    year: 1972
+    nation: JPN
+    label: URCレコード
+    selector: リクエスト
+  - id: "2024033006"
+    week: 330
+    index: 2745
+    indexInWeek: 6
+    title: Blinded by the Light (Single version)
+    artist: Manfred Mann's Earth Band
+    year: 1976
+    nation: UK
+    label: Bronze
+    youtube: cgOvpIK_kSA
+    selector: リクエスト
+  - id: "2024033007"
+    week: 330
+    index: 2746
+    indexInWeek: 7
+    title: 二人の世界
+    artist: ガロ
+    year: 1971
+    nation: JPN
+    label: 日本コロムビア
+    selector: リクエスト
+  - id: "2024033008"
+    week: 330
+    index: 2747
+    indexInWeek: 8
+    title: 出発の歌 -失なわれた時を求めて-
+    artist: 上條恒彦と六文銭
+    kana: かみじょうつねひことろくもんせん
+    year: 1971
+    nation: JPN
+    label: キングレコード
+    youtube: 3-PJB_JwbvY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
