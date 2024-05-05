@@ -1,0 +1,97 @@
+id: "20240331"
+week: 331
+year: 2024
+title: ハムバッカーストラトで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2024-05-05
+playlist:
+  - id: "2024033101"
+    week: 331
+    index: 2748
+    indexInWeek: 1
+    title: 若葉
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    youtube: 2RM2YEzN010
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033102"
+    week: 331
+    index: 2749
+    indexInWeek: 2
+    title: Rock and Roll Love Letter
+    artist: Bay City Rollers
+    year: 1976
+    nation: UK
+    label: Arista
+    youtube: jzJGJ3eHhiI
+    selector: 草野マサムネ
+  - id: "2024033103"
+    week: 331
+    index: 2750
+    indexInWeek: 3
+    title: Beelzebub
+    artist: Bruford
+    year: 1978
+    nation: UK
+    label: EG/Polydor
+    youtube: tGNlCkT0SfQ
+    selector: 草野マサムネ
+  - id: "2024033104"
+    week: 331
+    index: 2751
+    indexInWeek: 4
+    title: Runnin' with the Devil
+    artist: Van Halen
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: i5txwFv-zYM
+    selector: 草野マサムネ
+  - id: "2024033105"
+    week: 331
+    index: 2752
+    indexInWeek: 5
+    title: Prowler
+    artist: Iron Maiden
+    year: 1980
+    nation: EMI
+    selector: 草野マサムネ
+  - id: "2024033106"
+    week: 331
+    index: 2753
+    indexInWeek: 6
+    title: Lithium
+    artist: Nirvana
+    year: 1991
+    nation: US
+    label: DGC
+    youtube: pkcJEvMcnEg
+    selector: 草野マサムネ
+  - id: "2024033107"
+    week: 331
+    index: 2754
+    indexInWeek: 7
+    title: Dance with Me
+    artist: Blink-182
+    year: 2023
+    nation: US
+    label: Columbia
+    youtube: LUEYNuVeA9Y
+    selector: 草野マサムネ
+  - id: "2024033108"
+    week: 331
+    index: 2755
+    indexInWeek: 8
+    title: 酸っぱい経験
+    artist: 多岐川裕美
+    kana: たきがわゆみ
+    year: 1980
+    nation: JPN
+    label: Invitation
+    youtube: d9Z3o7XXoAY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
