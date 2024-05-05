@@ -58,7 +58,8 @@ playlist:
     title: Prowler
     artist: Iron Maiden
     year: 1980
-    nation: EMI
+    nation: UK
+    label: EMI
     selector: 草野マサムネ
   - id: "2024033106"
     week: 331
