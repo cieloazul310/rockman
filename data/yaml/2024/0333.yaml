@@ -1,0 +1,98 @@
+id: "20240333"
+week: 333
+year: 2024
+title: ビリー・ジョエルのカバー曲で漫遊記
+guests: []
+categories: ["変則アーティスト特集"]
+date: 2024-05-19
+playlist:
+  - id: "2024033301"
+    week: 333
+    index: 2764
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033302"
+    week: 333
+    index: 2765
+    indexInWeek: 2
+    title: HONESTY
+    artist: Scott Murphy
+    year: 2008
+    nation: US
+    label: In-n-out Records
+    selector: 草野マサムネ
+  - id: "2024033303"
+    week: 333
+    index: 2766
+    indexInWeek: 3
+    title: PIANO MAN
+    artist: 木山裕策
+    kana: きやまゆうさく
+    year: 2008
+    nation: JPN
+    label: tearbridge records
+    youtube: Mn7ZKnnudVI
+    selector: 草野マサムネ
+  - id: "2024033304"
+    week: 333
+    index: 2767
+    indexInWeek: 4
+    title: We Didn't Start the Fire
+    artist: Fall Out Boy
+    year: 2023
+    nation: US
+    label: Fueled by Ramen
+    youtube: 2LkVKCWL0U4
+    selector: 草野マサムネ
+  - id: "2024033305"
+    week: 333
+    index: 2768
+    indexInWeek: 5
+    title: Uptown Girl
+    artist: ROCKET K
+    year: 2010
+    nation: JPN
+    label: Grooovie Drunker Records
+    youtube: 37fwF5qXraw
+    selector: 草野マサムネ
+  - id: "2024033306"
+    week: 333
+    index: 2769
+    indexInWeek: 6
+    title: You May Be Right
+    artist: The Silver Shine
+    year: 2014
+    nation: HUN
+    label: GrundRecords
+    youtube: DfxXfGWCSD8
+    selector: 草野マサムネ
+  - id: "2024033307"
+    week: 333
+    index: 2770
+    indexInWeek: 7
+    title: Movin' Out (Anthony's Song) (Live 2017 from "All My Friends We're Glorious")
+    artist: Panic! At The Disco
+    year: 2017
+    nation: US
+    label: Fueled by Ramen
+    youtube: opw6QU4iKoM
+    selector: 草野マサムネ
+  - id: "2024033308"
+    week: 333
+    index: 2771
+    indexInWeek: 8
+    title: マイ・ライフ
+    artist: 郷ひろみ
+    kana: ごうひろみ
+    year: 1979
+    nation: JPN
+    label: CBS・ソニー
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
