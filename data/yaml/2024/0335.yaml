@@ -1,0 +1,97 @@
+id: "20240335"
+week: 335
+year: 2024
+title: ミュージック・ライフ 1978年8月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2024-06-02
+playlist:
+  - id: "2024033501"
+    week: 335
+    index: 2780
+    indexInWeek: 1
+    title: 桃
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033502"
+    week: 335
+    index: 2781
+    indexInWeek: 2
+    title: Draw the Line
+    artist: Aerosmith
+    year: 1977
+    nation: US
+    label: Columbia
+    youtube: sedxHbz5L10
+    selector: 草野マサムネ
+  - id: "2024033503"
+    week: 335
+    index: 2782
+    indexInWeek: 3
+    title: I'm the One
+    artist: Van Halen
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: EllEztdbBhg
+    selector: 草野マサムネ
+  - id: "2024033504"
+    week: 335
+    index: 2783
+    indexInWeek: 4
+    title: Wow
+    artist: Kate Bush
+    year: 1978
+    nation: UK
+    label: EMI
+    youtube: 0ar7vovnH5I
+    selector: 草野マサムネ
+  - id: "2024033505"
+    week: 335
+    index: 2784
+    indexInWeek: 5
+    title: 2-4-6-8 Motorway
+    artist: Tom Robinson Band
+    year: 1977
+    nation: UK
+    label: EMI
+    youtube: kGrnEc_3mYo
+    selector: 草野マサムネ
+  - id: "2024033506"
+    week: 335
+    index: 2785
+    indexInWeek: 6
+    title: Broken Heart
+    artist: The Babys
+    year: 1977
+    nation: UK
+    label: Chrysalis
+    youtube: 5UmOfGu9j0c
+    selector: 草野マサムネ
+  - id: "2024033507"
+    week: 335
+    index: 2786
+    indexInWeek: 7
+    title: You're the One That I Want
+    artist: John Travolta and Olivia Newton-John
+    year: 1978
+    nation: US
+    label: RSO
+    youtube: itRFjzQICJU
+    selector: 草野マサムネ
+  - id: "2024033508"
+    week: 335
+    index: 2787
+    indexInWeek: 8
+    title: 終わりのない歌
+    artist: 惣領智子
+    kana: そうりょうともこ
+    year: 1978
+    nation: JPN
+    label: RCAビクター
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
