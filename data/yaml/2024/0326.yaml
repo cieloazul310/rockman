@@ -1,0 +1,108 @@
+id: "20240326"
+week: 326
+year: 2024
+title: ブルースロックで漫遊記
+guests: []
+categories: []
+date: 2024-03-31
+playlist:
+  - id: "2024032601"
+    week: 326
+    index: 2706
+    indexInWeek: 1
+    title: ドルフィン・ラヴ
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032602"
+    week: 326
+    index: 2707
+    indexInWeek: 2
+    title: All Your Love
+    artist: John Mayall & the Bluesbreakers
+    year: 1966
+    nation: UK
+    label: Decca
+    youtube: OkedAcAAcU4
+    selector: 草野マサムネ
+  - id: "2024032603"
+    week: 326
+    index: 2708
+    indexInWeek: 3
+    title: My Heart Beat Like a Hammer
+    artist: Fleetwood Mac
+    year: 1968
+    nation: UK
+    label: Blue Horizon
+    youtube: B8rwyUbhTuQ
+    selector: 草野マサムネ
+  - id: "2024032604"
+    week: 326
+    index: 2709
+    indexInWeek: 4
+    title: Strange Brew
+    artist: Cream
+    year: 1967
+    nation: UK
+    label: Reaction
+    youtube: hftgytmgQgE
+    selector: 草野マサムネ
+  - id: "2024032605"
+    week: 326
+    index: 2710
+    indexInWeek: 5
+    title: I'm a Mover
+    artist: Free
+    year: 1969
+    nation: UK
+    label: Island
+    youtube: StSfPoPYIj0
+    selector: 草野マサムネ
+  - id: "2024032606"
+    week: 326
+    index: 2711
+    indexInWeek: 6
+    title: Same All Over
+    artist: Canned Heat
+    year: 1969
+    nation: US
+    label: Liberty
+    youtube: 57WS-uC-X8Q
+    selector: 草野マサムネ
+  - id: "2024032607"
+    week: 326
+    index: 2712
+    indexInWeek: 7
+    title: Baby's Got Me Crying
+    artist: Chicken Shack
+    year: 1969
+    nation: UK
+    label: Blue Horizon
+    youtube: OO0uHRzch5k
+    selector: 草野マサムネ
+  - id: "2024032608"
+    week: 326
+    index: 2713
+    indexInWeek: 8
+    title: Rock Me Baby
+    artist: Johnny Winter
+    year: 1973
+    nation: US
+    label: Columbia
+    youtube: yfrYmKiAAaE
+    selector: 草野マサムネ
+  - id: "2024032609"
+    week: 326
+    index: 2714
+    indexInWeek: 9
+    title: むかでの錦三
+    artist: 上田正樹とサウス・トゥ・サウス
+    kana: うえだまさきとさうすとぅさうす
+    year: 1975
+    nation: JPN
+    label: Bourbon Records
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

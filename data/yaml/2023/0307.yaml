@@ -1,0 +1,99 @@
+id: "20230307"
+week: 307
+year: 2023
+title: ジャニス ジョプリンで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2023-11-19
+playlist:
+  - id: "2023030701"
+    week: 307
+    index: 2547
+    indexInWeek: 1
+    title: 雪風
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    youtube: KqJBpisB7lE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030702"
+    week: 307
+    index: 2548
+    indexInWeek: 2
+    title: Down on Me (Live 1968 from "In Concert")
+    artist: Janis Joplin
+    year: 1972
+    nation: US
+    label: Columbia
+    youtube: lnjZ4IUD6Tg
+    selector: 草野マサムネ
+  - id: "2023030703"
+    week: 307
+    index: 2549
+    indexInWeek: 3
+    title: Nobody Knows You When You're Down and Out
+    artist: Janis Joplin & Jorma Kaukonen
+    year: 2022
+    nation: US
+    label: Omnivore Recordings
+    youtube: L959qLkWeS4
+    selector: 草野マサムネ
+  - id: "2023030704"
+    week: 307
+    index: 2550
+    indexInWeek: 4
+    title: Combination of the Two
+    artist: Big Brother and the Holding Company
+    year: 1968
+    nation: US
+    label: Columbia
+    youtube: ugQPnjDL09Q
+    selector: 草野マサムネ
+  - id: "2023030705"
+    week: 307
+    index: 2551
+    indexInWeek: 5
+    title: Summertime
+    artist: Big Brother and the Holding Company
+    year: 1968
+    nation: US
+    label: Columbia
+    youtube: A24JZkgvNv4
+    selector: 草野マサムネ
+  - id: "2023030706"
+    week: 307
+    index: 2552
+    indexInWeek: 6
+    title: Maybe
+    artist: Janis Joplin
+    year: 1969
+    nation: US
+    label: Columbia
+    youtube: zad3bDnjsII
+    selector: 草野マサムネ
+  - id: "2023030707"
+    week: 307
+    index: 2553
+    indexInWeek: 7
+    title: Move Over
+    artist: Janis Joplin
+    year: 1971
+    nation: US
+    label: Columbia
+    youtube: rlHHno6oyMw
+    selector: 草野マサムネ
+  - id: "2023030708"
+    week: 307
+    index: 2554
+    indexInWeek: 8
+    title: Standing On My Side
+    artist: OCEANLANE
+    year: 2009
+    nation: JPN
+    label: Handicraft Recordings
+    youtube: D0RRHpGUbMM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

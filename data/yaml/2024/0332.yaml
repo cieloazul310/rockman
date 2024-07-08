@@ -1,0 +1,97 @@
+id: "20240332"
+week: 332
+year: 2024
+title: スレイドで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-05-12
+playlist:
+  - id: "2024033201"
+    week: 332
+    index: 2756
+    indexInWeek: 1
+    title: えにし
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033202"
+    week: 332
+    index: 2757
+    indexInWeek: 2
+    title: Cum On Feel the Noize
+    artist: Slade
+    year: 1973
+    nation: UK
+    label: Polydor
+    youtube: 78ezU7x3jfE
+    selector: 草野マサムネ
+  - id: "2024033203"
+    week: 332
+    index: 2758
+    indexInWeek: 3
+    title: Delighted To See You
+    artist: The 'N Betweens
+    year: 1967
+    nation: UK
+    label: EMI
+    youtube: roBomZuaRb8
+    selector: 草野マサムネ
+  - id: "2024033204"
+    week: 332
+    index: 2759
+    indexInWeek: 4
+    title: Coz I Luv You
+    artist: Slade
+    year: 1971
+    nation: UK
+    label: Polydor
+    youtube: fEFoJp1bS4c
+    selector: 草野マサムネ
+  - id: "2024033205"
+    week: 332
+    index: 2760
+    indexInWeek: 5
+    title: Merry Xmas Everybody
+    artist: Slade
+    year: 1973
+    nation: UK
+    label: Polydor
+    youtube: WM7M7zSMJcw
+    selector: 草野マサムネ
+  - id: "2024033206"
+    week: 332
+    index: 2761
+    indexInWeek: 6
+    title: Run Runaway
+    artist: Slade
+    year: 1984
+    nation: UK
+    label: RCA
+    youtube: 0x3nAwrp-TA
+    selector: 草野マサムネ
+  - id: "2024033207"
+    week: 332
+    index: 2762
+    indexInWeek: 7
+    title: My Oh My
+    artist: Slade
+    year: 1983
+    nation: UK
+    label: RCA
+    youtube: 8laVaAtSBhs
+    selector: 草野マサムネ
+  - id: "2024033208"
+    week: 332
+    index: 2763
+    indexInWeek: 8
+    title: you may crawl
+    artist: school food punishment
+    year: 2007
+    nation: JPN
+    label: United Asia Entertainment
+    youtube: CHKk8OozMfo
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

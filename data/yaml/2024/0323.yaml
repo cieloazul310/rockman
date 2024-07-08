@@ -1,0 +1,97 @@
+id: "20240323"
+week: 323
+year: 2024
+title: デフ レパードで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-03-10
+playlist:
+  - id: "2024032301"
+    week: 323
+    index: 2680
+    indexInWeek: 1
+    title: 漣
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032302"
+    week: 323
+    index: 2681
+    indexInWeek: 2
+    title: Rock Brigade
+    artist: Def Leppard
+    year: 1980
+    nation: UK
+    label: Vertigo
+    youtube: NRYSlLLU0RE
+    selector: 草野マサムネ
+  - id: "2024032303"
+    week: 323
+    index: 2682
+    indexInWeek: 3
+    title: Photograph
+    artist: Def Leppard
+    year: 1983
+    nation: UK
+    label: Vertigo
+    youtube: 1F_1JTvG_Eg
+    selector: 草野マサムネ
+  - id: "2024032304"
+    week: 323
+    index: 2683
+    indexInWeek: 4
+    title: Armageddon It
+    artist: Def Leppard
+    year: 1987
+    nation: UK
+    label: Phonogram
+    youtube: urNFQw8VIvA
+    selector: 草野マサムネ
+  - id: "2024032305"
+    week: 323
+    index: 2684
+    indexInWeek: 5
+    title: Hanging on the Telephone
+    artist: Def Leppard
+    year: 2006
+    nation: UK
+    label: Mercury
+    youtube: ji_jF_u2NQI
+    selector: 草野マサムネ
+  - id: "2024032306"
+    week: 323
+    index: 2685
+    indexInWeek: 6
+    title: Dangerous
+    artist: Def Leppard
+    year: 2015
+    nation: UK
+    label: Bludgeon Riffola
+    youtube: Gix4saxDjQQ
+    selector: 草野マサムネ
+  - id: "2024032307"
+    week: 323
+    index: 2686
+    indexInWeek: 7
+    title: SOS Emergency
+    artist: Def Leppard
+    year: 2022
+    nation: UK
+    label: Bludgeon Riffola
+    youtube: 1WGy1epyGdg
+    selector: 草野マサムネ
+  - id: "2024032308"
+    week: 323
+    index: 2687
+    indexInWeek: 8
+    title: 恋は春感
+    artist: 山口美央子
+    kana: やまぐちみおこ
+    year: 1983
+    nation: JPN
+    label: キャニオン・レコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

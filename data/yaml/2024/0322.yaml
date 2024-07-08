@@ -1,0 +1,108 @@
+id: "20240322"
+week: 322
+year: 2024
+title: 手拍子で漫遊記
+guests: []
+categories: ["楽器"]
+date: 2024-03-03
+playlist:
+  - id: "2024032201"
+    week: 322
+    index: 2671
+    indexInWeek: 1
+    title: 跳べ
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032202"
+    week: 322
+    index: 2672
+    indexInWeek: 2
+    title: We Will Rock You
+    artist: Queen
+    year: 1977
+    nation: UK
+    label: EMI
+    youtube: -tJYN-eG1zk
+    selector: 草野マサムネ
+  - id: "2024032203"
+    week: 322
+    index: 2673
+    indexInWeek: 3
+    title: Ev'rybody's Gonna Be Happy
+    artist: The Kinks
+    year: 1965
+    nation: UK
+    label: Pye
+    youtube: vRgieleri9Y
+    selector: 草野マサムネ
+  - id: "2024032204"
+    week: 322
+    index: 2674
+    indexInWeek: 4
+    title: "1969"
+    artist: The Stooges
+    year: 1969
+    nation: US
+    label: Elektra
+    youtube: mS_BsLxMqn4
+    selector: 草野マサムネ
+  - id: "2024032205"
+    week: 322
+    index: 2675
+    indexInWeek: 5
+    title: The Ballroom Blitz
+    artist: Sweet
+    year: 1973
+    nation: UK
+    label: RCA
+    youtube: tqketmsRz1E
+    selector: 草野マサムネ
+  - id: "2024032206"
+    week: 322
+    index: 2676
+    indexInWeek: 6
+    title: I Love Rock 'n Roll
+    artist: Joan Jett and the Blackhearts
+    year: 1982
+    nation: US
+    label: Boardwalk
+    youtube: wMsazR6Tnf8
+    selector: 草野マサムネ
+  - id: "2024032207"
+    week: 322
+    index: 2677
+    indexInWeek: 7
+    title: Motorboat
+    artist: Redd Kross
+    year: 2016
+    nation: US
+    label: Merge Records
+    youtube: 22oPsF-p6Lw
+    selector: 草野マサムネ
+  - id: "2024032208"
+    week: 322
+    index: 2678
+    indexInWeek: 8
+    title: Crowd Chant
+    artist: Joe Satriani
+    year: 2006
+    nation: US
+    label: Epic
+    youtube: dyPIyghjEec
+    selector: 草野マサムネ
+  - id: "2024032209"
+    week: 322
+    index: 2679
+    indexInWeek: 9
+    title: 泣いてララバイ
+    artist: 渡辺真知子
+    kana: わたなべまちこ
+    year: 1983
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,96 @@
+id: "20240319"
+week: 319
+year: 2024
+title: JAPANで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-02-11
+playlist:
+  - id: "2024031901"
+    week: 319
+    index: 2647
+    indexInWeek: 1
+    title: 未来未来
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024031902"
+    week: 319
+    index: 2648
+    indexInWeek: 2
+    title: The Unconventional
+    artist: Japan
+    year: 1978
+    nation: UK
+    label: Hansa
+    youtube: -ELsZtEhFnM
+    selector: 草野マサムネ
+  - id: "2024031903"
+    week: 319
+    index: 2649
+    indexInWeek: 3
+    title: Adolescent Sex
+    artist: Japan
+    year: 1978
+    nation: UK
+    label: Hansa
+    youtube: sMezvZyf-h8
+    selector: 草野マサムネ
+  - id: "2024031904"
+    week: 319
+    index: 2650
+    indexInWeek: 4
+    title: Sometimes I Feel So Low
+    artist: Japan
+    year: 1978
+    nation: UK
+    label: Hansa
+    youtube: Zn_ZOgEGme8
+    selector: 草野マサムネ
+  - id: "2024031905"
+    week: 319
+    index: 2651
+    indexInWeek: 5
+    title: Quiet Life
+    artist: Japan
+    year: 1979
+    nation: UK
+    label: Hansa
+    youtube: xhm-EqcPta0
+    selector: 草野マサムネ
+  - id: "2024031906"
+    week: 319
+    index: 2652
+    indexInWeek: 6
+    title: Taking Islands in Africa
+    artist: Japan
+    year: 1980
+    nation: UK
+    label: Virgin
+    youtube: JiHYNXzFgpI
+    selector: 草野マサムネ
+  - id: "2024031907"
+    week: 319
+    index: 2653
+    indexInWeek: 7
+    title: Visions of China
+    artist: Japan
+    year: 1981
+    nation: UK
+    label: Virgin
+    selector: 草野マサムネ
+  - id: "2024031908"
+    week: 319
+    index: 2654
+    indexInWeek: 8
+    title: もっとリアルに
+    artist: 一風堂
+    kana: いっぷうどう
+    year: 1979
+    nation: JPN
+    label: Epic/Sony
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

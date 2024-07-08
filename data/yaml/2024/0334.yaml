@@ -1,0 +1,97 @@
+id: "20240334"
+week: 334
+year: 2024
+title: 草野の好きなギターソロで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2024-05-26
+playlist:
+  - id: "2024033401"
+    week: 334
+    index: 2772
+    indexInWeek: 1
+    title: 青い車(Album Version)
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: 5K8ZuLYG0yo
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033402"
+    week: 334
+    index: 2773
+    indexInWeek: 2
+    title: Hot 'n' Ready
+    artist: UFO
+    year: 1978
+    nation: UK
+    label: Chrysalis
+    youtube: kO-SQSqO23s
+    selector: 草野マサムネ
+  - id: "2024033403"
+    week: 334
+    index: 2774
+    indexInWeek: 3
+    title: Moonage Daydream
+    artist: David Bowie
+    year: 1972
+    nation: UK
+    label: RCA
+    youtube: 6pXoQ6iYO1w
+    selector: 草野マサムネ
+  - id: "2024033404"
+    week: 334
+    index: 2775
+    indexInWeek: 4
+    title: Top of the Bill
+    artist: Scorpions
+    year: 1975
+    nation: GER
+    label: RCA
+    youtube: _XTfoAaRfIY
+    selector: 草野マサムネ
+  - id: "2024033405"
+    week: 334
+    index: 2776
+    indexInWeek: 5
+    title: Solar Sister
+    artist: The Posies
+    year: 1993
+    nation: US
+    label: DGC
+    youtube: cdtQmIhadS8
+    selector: 草野マサムネ
+  - id: "2024033406"
+    week: 334
+    index: 2777
+    indexInWeek: 6
+    title: EARTHSHAKER
+    artist: EARTHSHAKER
+    year: 1983
+    nation: JPN
+    label: キングレコード
+    youtube: bLeeToe2LaQ
+    selector: 草野マサムネ
+  - id: "2024033407"
+    week: 334
+    index: 2778
+    indexInWeek: 7
+    title: The Cabbage
+    artist: Teenage Fanclub
+    year: 1993
+    nation: UK
+    label: Creation
+    youtube: LiZrfCWsuMk
+    selector: 草野マサムネ
+  - id: "2024033408"
+    week: 334
+    index: 2779
+    indexInWeek: 8
+    title: DEAD SONG
+    artist: GASTUNK
+    year: 1985
+    nation: JPN
+    label: Dogma Records
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

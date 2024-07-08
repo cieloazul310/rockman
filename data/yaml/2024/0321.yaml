@@ -1,0 +1,97 @@
+id: "20240321"
+week: 321
+year: 2024
+title: 韻で漫遊記
+guests: []
+categories: []
+date: 2024-02-25
+playlist:
+  - id: "2024032101"
+    week: 321
+    index: 2663
+    indexInWeek: 1
+    title: ハチの針
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032102"
+    week: 321
+    index: 2664
+    indexInWeek: 2
+    title: The Wizard
+    artist: Uriah Heep
+    year: 1972
+    nation: UK
+    label: Bronze
+    youtube: lA4DFOCwnwk
+    selector: 草野マサムネ
+  - id: "2024032103"
+    week: 321
+    index: 2665
+    indexInWeek: 3
+    title: My Sharona
+    artist: The Knack
+    year: 1979
+    nation: US
+    label: Capitol
+    youtube: bbr60I0u2Ng
+    selector: 草野マサムネ
+  - id: "2024032104"
+    week: 321
+    index: 2666
+    indexInWeek: 4
+    title: London Calling
+    artist: The Clash
+    year: 1979
+    nation: UK
+    label: CBS
+    youtube: bqUxD97J6J4
+    selector: 草野マサムネ
+  - id: "2024032105"
+    week: 321
+    index: 2667
+    indexInWeek: 5
+    title: Surrender
+    artist: Cheap Trick
+    year: 1978
+    nation: US
+    label: Epic
+    youtube: LqB9lhHqmsE
+    selector: 草野マサムネ
+  - id: "2024032106"
+    week: 321
+    index: 2668
+    indexInWeek: 6
+    title: 名もなき詩
+    artist: Mr.Children
+    year: 1996
+    nation: JPN
+    label: トイズファクトリー
+    youtube: gj5Nu6feFTQ
+    selector: 草野マサムネ
+  - id: "2024032107"
+    week: 321
+    index: 2669
+    indexInWeek: 7
+    title: ORIGINAL RHYME ANIMAL
+    artist: Zeebra
+    year: 1998
+    nation: JPN
+    label: ポリスター
+    youtube: 4bX_onfxgFA
+    selector: 草野マサムネ
+  - id: "2024032108"
+    week: 321
+    index: 2670
+    indexInWeek: 8
+    title: Boys Fire the Tricot / ボーイズ、トリコに火を放つ
+    artist: Flipper's Guitar
+    year: 1989
+    nation: JPN
+    label: ポリスター
+    youtube: OtctQKBUfug
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

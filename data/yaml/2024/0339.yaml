@@ -1,0 +1,109 @@
+id: "20240339"
+week: 339
+year: 2024
+title: サーフィンで漫遊記
+guests: []
+categories: []
+date: 2024-06-30
+playlist:
+  - id: "2024033901"
+    week: 339
+    index: 2815
+    indexInWeek: 1
+    title: 渚
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: B7T4NNNWeHg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033902"
+    week: 339
+    index: 2816
+    indexInWeek: 2
+    title: Misirlou
+    artist: Dick Dale & His Del-Tones
+    year: 1962
+    nation: US
+    label: Deltone
+    youtube: mKpsuGMeqHI
+    selector: 草野マサムネ
+  - id: "2024033903"
+    week: 339
+    index: 2817
+    indexInWeek: 3
+    title: Pipeline
+    artist: The Ventures
+    year: 1963
+    nation: US
+    label: Dolton Records
+    youtube: EEoN64xoihM
+    selector: 草野マサムネ
+  - id: "2024033904"
+    week: 339
+    index: 2818
+    indexInWeek: 4
+    title: Surfin' U.S.A.
+    artist: The Beach Boys
+    year: 1963
+    nation: US
+    label: Capitol
+    youtube: enlOHxQ0tb4
+    selector: 草野マサムネ
+  - id: "2024033905"
+    week: 339
+    index: 2819
+    indexInWeek: 5
+    title: Zero to Sixty in Five
+    artist: Pablo Cruise
+    year: 1976
+    nation: US
+    label: A&M
+    youtube: J7ji_PRL8_U
+    selector: 草野マサムネ
+  - id: "2024033906"
+    week: 339
+    index: 2820
+    indexInWeek: 6
+    title: Surfin On Jupiter
+    artist: Psychefunkapus
+    year: 1991
+    nation: US
+    label: Atlantic
+    selector: 草野マサムネ
+  - id: "2024033907"
+    week: 339
+    index: 2821
+    indexInWeek: 7
+    title: Better Together
+    artist: Jack Johnson
+    year: 2006
+    nation: US
+    label: Brushfire
+    youtube: seZMOTGCDag
+    selector: 草野マサムネ
+  - id: "2024033908"
+    week: 339
+    index: 2822
+    indexInWeek: 8
+    title: I'll Come A-Runnin'
+    artist: Donavon Frankenreiter
+    year: 2024
+    nation: US
+    label: Liquid Tambourine Records
+    youtube: 4b0aZ4SjePc
+    selector: 草野マサムネ
+  - id: "2024033909"
+    week: 339
+    index: 2823
+    indexInWeek: 9
+    title: ムーンライト・サーファー
+    artist: 石川セリ
+    kana: いしかわせり
+    year: 1979
+    nation: JPN
+    label: フィリップス・レコード
+    youtube: VnSRJU00iqM
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

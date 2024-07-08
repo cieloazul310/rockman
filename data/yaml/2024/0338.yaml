@@ -1,0 +1,96 @@
+id: "20240338"
+week: 338
+year: 2024
+title: 12弦ギターで漫遊記
+guests: []
+categories: ["ギター"]
+date: 2024-06-23
+playlist:
+  - id: "2024033801"
+    week: 338
+    index: 2807
+    indexInWeek: 1
+    title: 旅の途中
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033802"
+    week: 338
+    index: 2808
+    indexInWeek: 2
+    title: Ticket to Ride
+    artist: The Beatles
+    year: 1965
+    nation: UK
+    label: Parlophone
+    youtube: SyNt5zm3U_M
+    selector: 草野マサムネ
+  - id: "2024033803"
+    week: 338
+    index: 2809
+    indexInWeek: 3
+    title: So You Want to Be a Rock 'n' Roll Star
+    artist: The Byrds
+    year: 1967
+    nation: US
+    label: Columbia
+    youtube: bJlvtfLfdu0
+    selector: 草野マサムネ
+  - id: "2024033804"
+    week: 338
+    index: 2810
+    indexInWeek: 4
+    title: Tangerine
+    artist: Led Zeppelin
+    year: 1970
+    nation: UK
+    label: Atlantic
+    youtube: KaFjxLMsOuo
+    selector: 草野マサムネ
+  - id: "2024033805"
+    week: 338
+    index: 2811
+    indexInWeek: 5
+    title: Hotel California
+    artist: Eagles
+    year: 1976
+    nation: US
+    label: Asylum
+    youtube: 09839DpTctU
+    selector: 草野マサムネ
+  - id: "2024033806"
+    week: 338
+    index: 2812
+    indexInWeek: 6
+    title: Shelter Song
+    artist: Temples
+    year: 2014
+    nation: UK
+    label: Heavenly
+    youtube: vs4i41cOv0s
+    selector: 草野マサムネ
+  - id: "2024033807"
+    week: 338
+    index: 2813
+    indexInWeek: 7
+    title: Apples
+    artist: Pugwash
+    year: 2002
+    nation: IRE
+    label: Vélo Records
+    youtube: fh6UdK7t6q4
+    selector: 草野マサムネ
+  - id: "2024033808"
+    week: 338
+    index: 2814
+    indexInWeek: 8
+    title: グッバイ・ジュアナ
+    artist: ヒッピーヒッピーシェイクス
+    year: 1988
+    nation: JPN
+    label: 日本コロムビア
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

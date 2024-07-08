@@ -1,0 +1,96 @@
+id: "20230306"
+week: 306
+year: 2023
+title: ヘヴンなタイトルの曲で漫遊記
+guests: []
+categories: []
+date: 2023-11-12
+playlist:
+  - id: "2023030601"
+    week: 306
+    index: 2539
+    indexInWeek: 1
+    title: ハニーハニー
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023030602"
+    week: 306
+    index: 2540
+    indexInWeek: 2
+    title: Monkey Gone to Heaven
+    artist: Pixies
+    year: 1989
+    nation: US
+    label: 4AD
+    youtube: EHC9HE7vazI
+    selector: 草野マサムネ
+  - id: "2023030603"
+    week: 306
+    index: 2541
+    indexInWeek: 3
+    title: Where I Find My Heaven
+    artist: Gigolo Aunts
+    year: 1993
+    nation: US
+    label: Fire Records
+    selector: 草野マサムネ
+  - id: "2023030604"
+    week: 306
+    index: 2542
+    indexInWeek: 4
+    title: Heaven Sent
+    artist: INXS
+    year: 1992
+    nation: AUS
+    label: EastWest
+    youtube: fydm01xmeqk
+    selector: 草野マサムネ
+  - id: "2023030605"
+    week: 306
+    index: 2543
+    indexInWeek: 5
+    title: Heaven
+    artist: Bryan Adams
+    year: 1985
+    nation: CAN
+    label: A&M
+    youtube: s6TtwR2Dbjg
+    selector: 草野マサムネ
+  - id: "2023030606"
+    week: 306
+    index: 2544
+    indexInWeek: 6
+    title: Heaven Knows I'm Miserable Now
+    artist: The Smiths
+    year: 1984
+    nation: UK
+    label: Rough Trade
+    youtube: TjPhzgxe3L0
+    selector: 草野マサムネ
+  - id: "2023030607"
+    week: 306
+    index: 2545
+    indexInWeek: 7
+    title: No Laughing in Heaven
+    artist: Gillan
+    year: 1981
+    nation: UK
+    label: Virgin
+    youtube: ZAQjMScGw_E
+    selector: 草野マサムネ
+  - id: "2023030608"
+    week: 306
+    index: 2546
+    indexInWeek: 8
+    title: 不思議なパワー
+    artist: THE BOOM
+    year: 1989
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+    

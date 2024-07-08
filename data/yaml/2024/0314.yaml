@@ -1,0 +1,86 @@
+id: "20240314"
+week: 314
+year: 2024
+title: 70年代のAC/DCで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-01-07
+playlist:
+  - id: "2024031401"
+    week: 314
+    index: 2606
+    indexInWeek: 1
+    title: Sandie
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024031402"
+    week: 314
+    index: 2607
+    indexInWeek: 2
+    title: It's a Long Way to the Top (If You Wanna Rock 'n' Roll)
+    artist: AC/DC
+    year: 1976
+    nation: AUS
+    label: Atlantic
+    youtube: GChhRrU6BJU
+    selector: 草野マサムネ
+  - id: "2024031403"
+    week: 314
+    index: 2608
+    indexInWeek: 3
+    title: Dirty Deeds Done Dirt Cheap
+    artist: AC/DC
+    year: 1976
+    nation: AUS
+    label: Albert
+    youtube: jsjdjWGDvFk
+    selector: 草野マサムネ
+  - id: "2024031404"
+    week: 314
+    index: 2609
+    indexInWeek: 4
+    title: Whole Lotta Rosie
+    artist: AC/DC
+    year: 1977
+    nation: AUS
+    label: Albert
+    youtube: BL58K-3XGKs
+    selector: 草野マサムネ
+  - id: "2024031405"
+    week: 314
+    index: 2610
+    indexInWeek: 5
+    title: Riff Raff
+    artist: AC/DC
+    year: 1978
+    nation: AUS
+    label: Albert
+    youtube: ErXbMB9R5-0
+    selector: 草野マサムネ
+  - id: "2024031406"
+    week: 314
+    index: 2611
+    indexInWeek: 6
+    title: Highway to Hell
+    artist: AC/DC
+    year: 1979
+    nation: AUS
+    label: Albert
+    youtube: l482T0yNkeo
+    selector: 草野マサムネ
+  - id: "2024031407"
+    week: 314
+    index: 2612
+    indexInWeek: 7
+    title: 今日からあなたと
+    artist: いしだあゆみ
+    year: 1969
+    nation: JPN
+    label: 日本コロムビア
+    youtube: 9PU-dpgdBmQ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,113 @@
+id: "20240337"
+week: 337
+year: 2024
+title: スピッツのアルバム1曲目で漫遊記
+guests: []
+categories: ["スピッツ曲"]
+date: 2024-06-16
+playlist:
+  - id: "2024033701"
+    week: 337
+    index: 2797
+    indexInWeek: 1
+    title: 謝々！
+    artist: 杏
+    kana: あん
+    year: 2010
+    nation: JPN
+    label: Epic Records Japan
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024033702"
+    week: 337
+    index: 2798
+    indexInWeek: 2
+    title: ニノウデの世界
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024033703"
+    week: 337
+    index: 2799
+    indexInWeek: 3
+    title: ウサギのバイク
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024033704"
+    week: 337
+    index: 2800
+    indexInWeek: 4
+    title: クリスピー
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024033705"
+    week: 337
+    index: 2801
+    indexInWeek: 5
+    title: ハチミツ
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    youtube: 6J1sPwGCH5w
+    selector: 草野マサムネ
+  - id: "2024033706"
+    week: 337
+    index: 2802
+    indexInWeek: 6
+    title: 花泥棒
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024033707"
+    week: 337
+    index: 2803
+    indexInWeek: 7
+    title: エトランゼ
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024033708"
+    week: 337
+    index: 2804
+    indexInWeek: 8
+    title: 春の歌
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: 94uxNQqmknk
+    selector: 草野マサムネ
+  - id: "2024033709"
+    week: 337
+    index: 2805
+    indexInWeek: 9
+    title: ビギナー
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    youtube: Dy7p52n2JGs
+    selector: 草野マサムネ
+  - id: "2024033710"
+    week: 337
+    index: 2806
+    indexInWeek: 10
+    title: i-O（修理のうた）
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ

@@ -38,6 +38,7 @@ playlist:
     year: 1988
     nation: JPN
     label: BAIDIS
+    youtube: x-CBvBz5FJE
     title: 虹色サーカス団
     index: 178
     indexInWeek: 3
@@ -48,6 +49,7 @@ playlist:
     year: 1989
     nation: JPN
     label: BAIDIS
+    youtube: n8BU29gWUhs
     title: 太陽が昇るまえに
     index: 179
     indexInWeek: 4
@@ -71,6 +73,7 @@ playlist:
     year: 2007
     nation: JPN
     label: TRIAD
+    youtube: knzHePudciM
     producer:
       - 吉田仁
     title: 東京虫バグズ
@@ -83,6 +86,7 @@ playlist:
     year: 2016
     nation: JPN
     label: TRIAD
+    youtube: ZpqvQ6n8wpE
     title: ロマンチック・プラネット
     index: 182
     indexInWeek: 7

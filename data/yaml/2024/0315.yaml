@@ -1,0 +1,109 @@
+id: "20240315"
+week: 315
+year: 2024
+title: 新春恒例・スピッツメンバーと漫遊記 三輪テツヤ編
+subtitle: 辰年で漫遊記
+guests: ["三輪テツヤ"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2024-01-14
+playlist:
+  - id: "2024031501"
+    week: 315
+    index: 2613
+    indexInWeek: 1
+    title: 幻のドラゴン
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 三輪テツヤ
+  - id: "2024031502"
+    week: 315
+    index: 2614
+    indexInWeek: 2
+    title: Dragon Attack
+    artist: Queen
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: spm5-SXo4Do
+    selector: 三輪テツヤ
+  - id: "2024031503"
+    week: 315
+    index: 2615
+    indexInWeek: 3
+    title: St. George and the Dragon
+    artist: Toto
+    year: 1979
+    nation: US
+    label: Columbia
+    youtube: VGQ-XIg4c-4
+    selector: 三輪テツヤ
+  - id: "2024031504"
+    week: 315
+    index: 2616
+    indexInWeek: 4
+    title: Dragon
+    artist: Jake Shimabukuro
+    year: 2005
+    nation: US
+    label: Hitchhike Records
+    youtube: O8p1uxGJzwg
+    selector: 三輪テツヤ
+  - id: "2024031505"
+    week: 315
+    index: 2617
+    indexInWeek: 5
+    title: THE DRAGON'S COME ALIVE
+    artist: ゴダイゴ
+    year: 1979
+    nation: JPN
+    label: 日本コロムビア
+    youtube: lG876z757ag
+    selector: 三輪テツヤ
+  - id: "2024031506"
+    week: 315
+    index: 2618
+    indexInWeek: 6
+    title: Theme from Enter the Dragon
+    artist: Lalo Schifrin
+    year: 1973
+    nation: US
+    label: Warner Bros.
+    youtube: 0uNR_4UdfxA
+    selector: 三輪テツヤ
+  - id: "2024031507"
+    week: 315
+    index: 2619
+    indexInWeek: 7
+    title: Puff, the Magic Dragon
+    artist: Peter, Paul and Mary
+    year: 1963
+    nation: US
+    label: Warner Bros.
+    youtube: s26e_86-K0k
+    selector: 三輪テツヤ
+  - id: "2024031508"
+    week: 315
+    index: 2620
+    indexInWeek: 8
+    title: マッチョ・ドラゴン
+    artist: 藤波辰巳
+    kana: ふじなみたつみ
+    year: 1985
+    nation: JPN
+    label: ポリドール
+    selector: 三輪テツヤ
+  - id: "2024031509"
+    week: 315
+    index: 2621
+    indexInWeek: 9
+    title: ドラゴン
+    artist: ピンク・レディー
+    year: 1978
+    nation: JPN
+    label: ビクター音楽産業
+    youtube: Auz9HHlicdE
+    selector: 三輪テツヤ
+    corner: ちょっぴりタイムマシン

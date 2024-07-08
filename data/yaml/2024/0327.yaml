@@ -1,0 +1,97 @@
+id: "20240327"
+week: 327
+year: 2024
+title: ジュディ シルで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-04-07
+playlist:
+  - id: "2024032701"
+    week: 327
+    index: 2715
+    indexInWeek: 1
+    title: 春の歌
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: 94uxNQqmknk
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024032702"
+    week: 327
+    index: 2716
+    indexInWeek: 2
+    title: Jesus Was a Cross Maker
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum
+    youtube: kTAesI73E1U
+    selector: 草野マサムネ
+  - id: "2024032703"
+    week: 327
+    index: 2717
+    indexInWeek: 3
+    title: Lady-O
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum
+    youtube: 40O8nfSRbRg
+    selector: 草野マサムネ
+  - id: "2024032704"
+    week: 327
+    index: 2718
+    indexInWeek: 4
+    title: Crayon Angels
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum
+    youtube: eQwSPNNp0es
+    selector: 草野マサムネ
+  - id: "2024032705"
+    week: 327
+    index: 2719
+    indexInWeek: 5
+    title: The Archetypal Man
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum
+    youtube: TShtWiAp4DI
+    selector: 草野マサムネ
+  - id: "2024032706"
+    week: 327
+    index: 2720
+    indexInWeek: 6
+    title: The Kiss
+    artist: Judee Sill
+    year: 1973
+    nation: US
+    label: Asylum
+    youtube: kyPhvHEtRuw
+    selector: 草野マサムネ
+  - id: "2024032707"
+    week: 327
+    index: 2721
+    indexInWeek: 7
+    title: Living End
+    artist: Judee Sill
+    year: 2005
+    nation: US
+    label: Water
+    selector: 草野マサムネ
+  - id: "2024032708"
+    week: 327
+    index: 2722
+    indexInWeek: 8
+    title: 夜間飛行
+    artist: APOGEE
+    year: 2006
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: GwJIvmGbskY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

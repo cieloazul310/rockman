@@ -1,0 +1,98 @@
+id: "20230313"
+week: 313
+year: 2023
+title: 紅白バンド合戦で漫遊記
+guests: []
+categories: []
+date: 2023-12-31
+playlist:
+  - id: "2023031301"
+    week: 313
+    index: 2598
+    indexInWeek: 1
+    title: みそか
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2023031302"
+    week: 313
+    index: 2599
+    indexInWeek: 2
+    title: Around the World
+    artist: Red Hot Chili Peppers
+    year: 1999
+    nation: US
+    label: Warner Bros.
+    youtube: a9eNQZbjpJk
+    selector: 草野マサムネ
+  - id: "2023031303"
+    week: 313
+    index: 2600
+    indexInWeek: 3
+    title: Icky Thump
+    artist: The White Stripes
+    year: 2007
+    nation: UK
+    label: Warner Bros.
+    youtube: 1OjTspCqvk8
+    selector: 草野マサムネ
+  - id: "2023031304"
+    week: 313
+    index: 2601
+    indexInWeek: 4
+    title: 絶対零度
+    artist: 赤い公園
+    kana: あかいこうえん
+    year: 2020
+    nation: JPN
+    label: ソニー・ミュージックレーベルズ
+    youtube: B7HeN3JO9OI
+    selector: 草野マサムネ
+  - id: "2023031305"
+    week: 313
+    index: 2602
+    indexInWeek: 5
+    title: 夏祭り
+    artist: Whiteberry
+    year: 2000
+    nation: JPN
+    label: Sony Records
+    youtube: AZRR01YOKcM
+    selector: 草野マサムネ
+  - id: "2023031306"
+    week: 313
+    index: 2603
+    indexInWeek: 6
+    title: The Faith Healer
+    artist: Redd Kross
+    year: 1990
+    nation: US
+    label: Atlantic
+    youtube: SoPq5TTkvLA
+    selector: 草野マサムネ
+  - id: "2023031307"
+    week: 313
+    index: 2604
+    indexInWeek: 7
+    title: Guilty of Love
+    artist: Whitesnake
+    year: 1984
+    nation: US
+    label: Liberty Records
+    youtube: Iu_PNCZ2gwY
+    selector: 草野マサムネ
+  - id: "2023031308"
+    week: 313
+    index: 2605
+    indexInWeek: 8
+    title: 星空の下で
+    artist: SHAKALABBITS
+    year: 2003
+    nation: JPN
+    label: evil design
+    youtube: dOklJSPo6PQ
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

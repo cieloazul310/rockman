@@ -1,0 +1,96 @@
+id: "20240340"
+week: 340
+year: 2024
+title: Weezerで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-07-07
+playlist:
+  - id: "2024034001"
+    week: 340
+    index: 2824
+    indexInWeek: 1
+    title: 波のり
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034002"
+    week: 340
+    index: 2825
+    indexInWeek: 2
+    title: Buddy Holly
+    artist: Weezer
+    year: 1994
+    nation: US
+    label: DGC
+    youtube: kemivUKb4f4
+    selector: 草野マサムネ
+  - id: "2024034003"
+    week: 340
+    index: 2826
+    indexInWeek: 3
+    title: Pink Triangle
+    artist: Weezer
+    year: 1996
+    nation: US
+    label: DGC
+    youtube: v2vWDWxYJBc
+    selector: 草野マサムネ
+  - id: "2024034004"
+    week: 340
+    index: 2827
+    indexInWeek: 4
+    title: Across the Sea
+    artist: Weezer
+    year: 1996
+    nation: US
+    label: DGC
+    youtube: Rl089HxOPkw
+    selector: 草野マサムネ
+  - id: "2024034005"
+    week: 340
+    index: 2828
+    indexInWeek: 5
+    title: I Just Threw Out the Love of My Dreams
+    artist: Weezer
+    year: 1996
+    nation: US
+    label: DGC
+    youtube: r2dosVRzLSM
+    selector: 草野マサムネ
+  - id: "2024034006"
+    week: 340
+    index: 2829
+    indexInWeek: 6
+    title: HOMELY GIRL
+    artist: スコット&リバース
+    year: 2013
+    nation: JPN
+    label: DELICIOUS DELI
+    youtube: D_tBv1Pu9ok
+    selector: 草野マサムネ
+  - id: "2024034007"
+    week: 340
+    index: 2830
+    indexInWeek: 7
+    title: Hero
+    artist: Weezer
+    year: 2021
+    nation: US
+    label: Atlantic
+    youtube: BdJS11C8LA0
+    selector: 草野マサムネ
+  - id: "2024034008"
+    week: 340
+    index: 2831
+    indexInWeek: 8
+    title: R&R Side Seater
+    artist: YOGURT-pooh
+    year: 2002
+    nation: JPN
+    label: SME
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
