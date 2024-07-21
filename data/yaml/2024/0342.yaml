@@ -1,0 +1,106 @@
+id: "20240342"
+week: 342
+year: 2024
+title: 笑い声で漫遊記
+guests: []
+categories: []
+date: 2024-07-21
+playlist:
+  - id: "2024034201"
+    week: 342
+    index: 2839
+    indexInWeek: 1
+    title: 日曜日
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034202"
+    week: 342
+    index: 2840
+    indexInWeek: 2
+    title: 怪傑シルバー・チャイルド
+    artist: サディスティック・ミカ・バンド
+    year: 1973
+    nation: JPN
+    label: Doughnut
+    selector: 草野マサムネ
+  - id: "2024034203"
+    week: 342
+    index: 2841
+    indexInWeek: 3
+    title: Pauvre Lola
+    artist: Serge Gainsbourg
+    year: 1964
+    nation: FR
+    label: Phillips
+    youtube: 7FX69ORI3EE
+    selector: 草野マサムネ
+  - id: "2024034204"
+    week: 342
+    index: 2842
+    indexInWeek: 4
+    title: Race with the Devil
+    artist: The Gun
+    year: 1968
+    nation: UK
+    label: CBS
+    youtube: 7CCNGJ1_HdQ
+    selector: 草野マサムネ
+  - id: "2024034205"
+    week: 342
+    index: 2843
+    indexInWeek: 5
+    title: Feel Good Inc. (featuring De La Soul)
+    artist: Gorillaz
+    year: 2005
+    nation: UK
+    label: Parlophone
+    youtube: HyHNuVaZJ-k
+    selector: 草野マサムネ
+  - id: "2024034206"
+    week: 342
+    index: 2844
+    indexInWeek: 6
+    title: イルカは笑う
+    artist: ヒカシュー
+    year: 1980
+    nation: JPN
+    label: イーストワールド/東芝EMI
+    selector: 草野マサムネ
+  - id: "2024034207"
+    week: 342
+    index: 2845
+    indexInWeek: 7
+    title: Surprise! You're Dead!
+    artist: Faith No More
+    year: 1989
+    nation: US
+    label: Slash
+    youtube: eG4AawcYdSE
+    selector: 草野マサムネ
+  - id: "2024034208"
+    week: 342
+    index: 2846
+    indexInWeek: 8
+    title: Speed King
+    artist: Deep Purple
+    year: 1970
+    nation: UK
+    label: Harvest
+    youtube: nDyO7jTIKDc
+    selector: 草野マサムネ
+  - id: "2024034209"
+    week: 342
+    index: 2847
+    indexInWeek: 9
+    title: 造花が笑う
+    artist: ACIDMAN
+    year: 2002
+    nation: JPN
+    label: 東芝EMI/ヴァージン・レコード
+    youtube: k4BEmdzejy4
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
