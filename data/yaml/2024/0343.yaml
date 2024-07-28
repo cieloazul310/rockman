@@ -87,17 +87,6 @@ playlist:
     week: 343
     index: 2855
     indexInWeek: 8
-    title: Speed King
-    artist: Deep Purple
-    year: 1970
-    nation: UK
-    label: Harvest
-    youtube: nDyO7jTIKDc
-    selector: 草野マサムネ
-  - id: "2024034309"
-    week: 343
-    index: 2856
-    indexInWeek: 9
     title: Danger Signs
     artist: Penetration
     year: 1979
@@ -105,10 +94,10 @@ playlist:
     label: Virgin
     youtube: KSi-MxQ0JlM
     selector: 草野マサムネ
-  - id: "2024034310"
+  - id: "2024034309"
     week: 343
-    index: 2857
-    indexInWeek: 10
+    index: 2856
+    indexInWeek: 9
     title: I'm Alive
     artist: "999"
     year: 1978
@@ -116,10 +105,10 @@ playlist:
     label: United Artists
     youtube: Iu2s6Nck18I
     selector: 草野マサムネ
-  - id: "2024034311"
+  - id: "2024034310"
     week: 343
-    index: 2858
-    indexInWeek: 11
+    index: 2857
+    indexInWeek: 10
     title: 缶ビールとスウェードシューズ
     artist: CRACK THE MARIAN
     year: 1994
