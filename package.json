@@ -23,6 +23,9 @@
     "storybook": "start-storybook -p 6006",
     "lint-staged": "lint-staged"
   },
+  "engines": {
+    "node": "20"
+  },
   "dependencies": {
     "@cieloazul310/gatsby-theme-aoi": "^3.3.0",
     "@cieloazul310/gatsby-theme-aoi-blog-components": "^3.3.0",
