@@ -1,0 +1,97 @@
+id: "20240345"
+week: 345
+year: 2024
+title: バッドフィンガーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-08-11
+playlist:
+  - id: "2024034501"
+    week: 345
+    index: 2866
+    indexInWeek: 1
+    title: 海を見に行こう
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034502"
+    week: 345
+    index: 2867
+    indexInWeek: 2
+    title: Without You
+    artist: Badfinger
+    year: 1970
+    nation: UK
+    label: Apple
+    youtube: ZxKWcK5MwUk
+    selector: 草野マサムネ
+  - id: "2024034503"
+    week: 345
+    index: 2868
+    indexInWeek: 3
+    title: Come and Get It
+    artist: Badfinger
+    year: 1970
+    nation: UK
+    label: Apple
+    youtube: 9tOnbeNAxdU
+    selector: 草野マサムネ
+  - id: "2024034504"
+    week: 345
+    index: 2869
+    indexInWeek: 4
+    title: Baby Blue
+    artist: Badfinger
+    year: 1971
+    nation: UK
+    label: Apple
+    youtube: RJk2n1J1zt4
+    selector: 草野マサムネ
+  - id: "2024034505"
+    week: 345
+    index: 2870
+    indexInWeek: 5
+    title: Name of the Game
+    artist: Badfinger
+    year: 1971
+    nation: UK
+    label: Apple
+    youtube: F5Pj5g5XNNk
+    selector: 草野マサムネ
+  - id: "2024034506"
+    week: 345
+    index: 2871
+    indexInWeek: 6
+    title: Know One Knows
+    artist: Badfinger
+    year: 1974
+    nation: UK
+    label: Warner Bros.
+    youtube: scDzzVqT8Ss
+    selector: 草野マサムネ
+  - id: "2024034507"
+    week: 345
+    index: 2872
+    indexInWeek: 7
+    title: I Miss You
+    artist: Badfinger
+    year: 1974
+    nation: UK
+    label: Warner Bros.
+    youtube: y825UaBrP1Q
+    selector: 草野マサムネ
+  - id: "2024034508"
+    week: 345
+    index: 2873
+    indexInWeek: 8
+    title: ゴーイン・バック・トゥ・チャイナ
+    artist: 鹿取洋子
+    kana: かとりようこ
+    year: 1980
+    nation: JPN
+    label: ポリドール
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
