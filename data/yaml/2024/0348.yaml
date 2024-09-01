@@ -1,0 +1,99 @@
+id: "20240348"
+week: 348
+year: 2024
+title: L⇔Rで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-09-01
+playlist:
+  - id: "2024034801"
+    week: 348
+    index: 2890
+    indexInWeek: 1
+    title: スパイダー
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: mf-RrGndfC8
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034802"
+    week: 348
+    index: 2891
+    indexInWeek: 2
+    title: KNOCKIN' ON YOUR DOOR
+    artist: L⇔R
+    year: 1995
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: xd8yYObr7L0
+    selector: 草野マサムネ
+  - id: "2024034803"
+    week: 348
+    index: 2892
+    indexInWeek: 3
+    title: LAZY GIRL
+    artist: L⇔R
+    year: 1992
+    nation: JPN
+    label: ポリスター
+    youtube: Qul0UT1E2No
+    selector: 草野マサムネ
+  - id: "2024034804"
+    week: 348
+    index: 2893
+    indexInWeek: 4
+    title: (I WANNA)BE WITH YOU
+    artist: L⇔R
+    year: 1992
+    nation: JPN
+    label: ポリスター
+    youtube: i5ecyeL_xy4
+    selector: 田村明浩
+  - id: "2024034805"
+    week: 348
+    index: 2894
+    indexInWeek: 5
+    title: HELLO, IT'S ME
+    artist: L⇔R
+    year: 1994
+    nation: JPN
+    youtube: zDM223IueY4
+    label: ポニーキャニオン
+    selector: 草野マサムネ
+  - id: "2024034806"
+    week: 348
+    index: 2895
+    indexInWeek: 6
+    title: GAME
+    artist: L⇔R
+    year: 1996
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: B8jsu7i4Lsw
+    selector: 草野マサムネ
+  - id: "2024034807"
+    week: 348
+    index: 2896
+    indexInWeek: 7
+    title: ブルーを撃ち抜いて
+    artist: L⇔R
+    year: 1997
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: hce8pTReug4
+    selector: 草野マサムネ
+  - id: "2024034808"
+    week: 348
+    index: 2897
+    indexInWeek: 8
+    title: 気分爽快
+    artist: 森高千里
+    kana: もりたかちさと
+    year: 1994
+    nation: JPN
+    label: ONE UP MUSIC
+    youtube: y6fvwqEg2A4
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
