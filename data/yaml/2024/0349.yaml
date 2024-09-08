@@ -1,0 +1,98 @@
+id: "20240349"
+week: 349
+year: 2024
+title: 夏の終わりソングで漫遊記
+guests: []
+categories: []
+date: 2024-09-08
+playlist:
+  - id: "2024034901"
+    week: 349
+    index: 2898
+    indexInWeek: 1
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034902"
+    week: 349
+    index: 2899
+    indexInWeek: 2
+    title: September
+    artist: Earth, Wind & Fire
+    year: 1978
+    nation: US
+    label: ARC/Columbia
+    youtube: Gs069dndIYk
+    selector: 草野マサムネ
+  - id: "2024034903"
+    week: 349
+    index: 2900
+    indexInWeek: 3
+    title: 若者のすべて
+    artist: フジファブリック
+    year: 2007
+    nation: JPN
+    label: EMIミュージック・ジャパン
+    youtube: IPBXepn5jTA
+    selector: 草野マサムネ
+  - id: "2024034904"
+    week: 349
+    index: 2901
+    indexInWeek: 4
+    title: Wa・ショイ!
+    artist: テンテンコ
+    year: 2016
+    nation: JPN
+    label: TOY'S FACTORY
+    youtube: CAJ5V1AIaEY
+    selector: 田村明浩
+  - id: "2024034905"
+    week: 349
+    index: 2902
+    indexInWeek: 5
+    title: 秋の香り
+    artist: ビッケブランカ
+    year: 2014
+    nation: JPN
+    youtube: RnIyRPclhTo
+    label: No Big Deal Records
+    selector: 草野マサムネ
+  - id: "2024034906"
+    week: 349
+    index: 2903
+    indexInWeek: 6
+    title: Wake Me Up When September Ends
+    artist: Green Day
+    year: 2004
+    nation: US
+    label: Reprise
+    youtube: NU9JoFKlaZ0
+    selector: 草野マサムネ
+  - id: "2024034907"
+    week: 349
+    index: 2904
+    indexInWeek: 7
+    title: 少年時代
+    artist: 井上陽水
+    kana: いのうえようすい
+    year: 1990
+    nation: JPN
+    label: フォーライフ・レコード
+    youtube: bL5hJEauvu4
+    selector: 草野マサムネ
+  - id: "2024034908"
+    week: 349
+    index: 2905
+    indexInWeek: 8
+    title: 乾きゆく夏
+    artist: みなみらんぼう
+    year: 1979
+    nation: JPN
+    label: キングレコード
+    youtube: 7DjvftugiFs
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
