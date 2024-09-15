@@ -1,0 +1,98 @@
+id: "20240350"
+week: 350
+year: 2024
+title: ポストパンクで漫遊記
+guests: []
+categories: []
+date: 2024-09-15
+playlist:
+  - id: "2024035001"
+    week: 350
+    index: 2906
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035002"
+    week: 350
+    index: 2907
+    indexInWeek: 2
+    title: Public Image
+    artist: Public Image Ltd
+    year: 1978
+    nation: UK
+    label: Virgin
+    youtube: XDdaARLs9VY
+    selector: 草野マサムネ
+  - id: "2024035003"
+    week: 350
+    index: 2908
+    indexInWeek: 3
+    title: She Is Beyond Good and Evil
+    artist: The Pop Group
+    year: 1979
+    nation: UK
+    label: Rader
+    youtube: T8je3rMc5i4
+    selector: 草野マサムネ
+  - id: "2024035004"
+    week: 350
+    index: 2909
+    indexInWeek: 4
+    title: Disorder
+    artist: Joy Division
+    year: 1979
+    nation: UK
+    label: Factory
+    youtube: galUy3gMWpM
+    selector: 田村明浩
+  - id: "2024035005"
+    week: 350
+    index: 2910
+    indexInWeek: 5
+    title: Natural's Not in It
+    artist: Gang of Four
+    year: 1979
+    nation: UK
+    label: EMI
+    youtube: OpTnE8DT9wU
+    selector: 草野マサムネ
+  - id: "2024035006"
+    week: 350
+    index: 2911
+    indexInWeek: 6
+    title: Dark Entries
+    artist: Bauhaus
+    year: 1980
+    nation: UK
+    label: Axis
+    youtube: Nubd9-V7DAc
+    selector: 草野マサムネ
+  - id: "2024035007"
+    week: 350
+    index: 2912
+    indexInWeek: 7
+    title: Once in a Lifetime
+    artist: Talking Heads
+    year: 1980
+    nation: US
+    label: Sire
+    youtube: 5IsSpAOD6K8
+    selector: 草野マサムネ
+  - id: "2024035008"
+    week: 350
+    index: 2913
+    indexInWeek: 8
+    title: エトセトラ
+    artist: 大場久美子
+    kana: おおばくみこ
+    year: 1978
+    nation: JPN
+    label: 東芝EMI
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
