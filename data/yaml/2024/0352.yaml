@@ -1,0 +1,108 @@
+id: "20240352"
+week: 352
+year: 2024
+title: 最近のエキゾチック系バンドで漫遊記
+guests: []
+categories: []
+date: 2024-09-29
+playlist:
+  - id: "2024035201"
+    week: 352
+    index: 2922
+    indexInWeek: 1
+    title: 未来未来
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035202"
+    week: 352
+    index: 2923
+    indexInWeek: 2
+    title: Maria También
+    artist: Khruangbin
+    year: 2018
+    nation: US
+    label: Dead Oceans
+    youtube: 7hlGqj3ImQI
+    selector: 草野マサムネ
+  - id: "2024035203"
+    week: 352
+    index: 2924
+    indexInWeek: 3
+    title: Rakiya Su Katamam
+    artist: Altın Gün
+    year: 2023
+    nation: TUR
+    label: Glitterbeat
+    youtube: GsaRfnZCHCo
+    selector: 草野マサムネ
+  - id: "2024035204"
+    week: 352
+    index: 2925
+    indexInWeek: 4
+    title: The Year of the Rabbit
+    artist: YĪN YĪN
+    year: 2023
+    nation: NED
+    label: Glitterbeat
+    youtube: fAUMkMlJifw
+    selector: 草野マサムネ
+  - id: "2024035205"
+    week: 352
+    index: 2926
+    indexInWeek: 5
+    title: Metropolis
+    artist: Kit Sebastian
+    year: 2024
+    nation: UK
+    label: Brainfeeder
+    youtube: U0uY1JgTZjQ
+    selector: 草野マサムネ
+  - id: "2024035206"
+    week: 352
+    index: 2927
+    indexInWeek: 6
+    title: Mahal
+    artist: Glass Beams
+    year: 2024
+    nation: AUS
+    label: Ninja Tune
+    youtube: nMuTgStG8w0
+    selector: 草野マサムネ
+  - id: "2024035207"
+    week: 352
+    index: 2928
+    indexInWeek: 7
+    title: Big Baglama
+    artist: Şatellites
+    year: 2020
+    nation: ISR
+    label: Batov
+    youtube: Cf-HPyvIfqc
+    selector: 草野マサムネ
+  - id: "2024035208"
+    week: 352
+    index: 2929
+    indexInWeek: 8
+    title: Mango Season
+    artist: BALTHVS
+    year: 2024
+    nation: COL
+    label: Mixto
+    youtube: ToB3b_O1Ep0
+    selector: 草野マサムネ
+  - id: "2024035209"
+    week: 352
+    index: 2930
+    indexInWeek: 9
+    title: 上海慕情 Exotica
+    artist: 河合夕子
+    kana: かわいゆうこ
+    year: 1980
+    nation: JPN
+    label: Epic
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
