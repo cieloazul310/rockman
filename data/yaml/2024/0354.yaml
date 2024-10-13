@@ -1,0 +1,84 @@
+id: "20240354"
+week: 354
+year: 2024
+title: デイヴィッド・カヴァデールで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-10-13
+playlist:
+  - id: "2024035401"
+    week: 354
+    index: 2939
+    indexInWeek: 1
+    title: ランプ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035402"
+    week: 354
+    index: 2940
+    indexInWeek: 2
+    title: Burn
+    artist: Deep Purple
+    year: 1974
+    nation: UK
+    label: Warner Bros.
+    youtube: B8YU-FcmGA0
+    selector: 草野マサムネ
+  - id: "2024035403"
+    week: 354
+    index: 2941
+    indexInWeek: 3
+    title: Comin' Home
+    artist: Deep Purple
+    year: 1975
+    nation: UK
+    label: Purple
+    youtube: x4OWkOZIVnk
+    selector: 草野マサムネ
+  - id: "2024035404"
+    week: 354
+    index: 2942
+    indexInWeek: 4
+    title: Love Hunter
+    artist: Whitesnake
+    year: 1979
+    nation: UK
+    label: United Artists
+    selector: 草野マサムネ
+  - id: "2024035405"
+    week: 354
+    index: 2943
+    indexInWeek: 5
+    title: Here I Go Again '87
+    artist: Whitesnake
+    year: 1987
+    nation: UK
+    label: EMI
+    youtube: WyF8RHM1OCg
+    selector: 草野マサムネ
+  - id: "2024035406"
+    week: 354
+    index: 2944
+    indexInWeek: 6
+    title: Shake My Tree
+    artist: Coverdale-Page
+    year: 1993
+    nation: UK
+    label: EMI
+    selector: 草野マサムネ
+  - id: "2024035407"
+    week: 354
+    index: 2945
+    indexInWeek: 7
+    title: 東京ガール
+    artist: THE NO COMMENTS
+    year: 1981
+    nation: JPN
+    label: Invitation
+    youtube: pIY3JiqB_Pc
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
