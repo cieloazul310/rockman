@@ -1,0 +1,97 @@
+id: "20240355"
+week: 355
+year: 2024
+title: シューゲイザーで漫遊記
+guests: []
+categories: []
+date: 2024-10-20
+playlist:
+  - id: "2024035501"
+    week: 355
+    index: 2946
+    indexInWeek: 1
+    title: プール
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035502"
+    week: 355
+    index: 2947
+    indexInWeek: 2
+    title: Like a Daydream
+    artist: Ride
+    year: 1990
+    nation: UK
+    label: Creation
+    youtube: FqikrLrPJ5I
+    selector: 草野マサムネ
+  - id: "2024035503"
+    week: 355
+    index: 2948
+    indexInWeek: 3
+    title: Soon
+    artist: My Bloody Valentine
+    year: 1991
+    nation: IRE
+    label: Creation
+    youtube: gU7tX5YJghc
+    selector: 草野マサムネ
+  - id: "2024035504"
+    week: 355
+    index: 2949
+    indexInWeek: 4
+    title: For Love
+    artist: Lush
+    year: 1992
+    nation: UK
+    label: 4AD
+    youtube: fECE5FGNaGI
+    selector: 草野マサムネ
+  - id: "2024035505"
+    week: 355
+    index: 2950
+    indexInWeek: 5
+    title: Way the World Is
+    artist: Pale Saints
+    year: 1990
+    nation: UK
+    label: 4AD
+    youtube: udVhD0Bel-M
+    selector: 草野マサムネ
+  - id: "2024035506"
+    week: 355
+    index: 2951
+    indexInWeek: 6
+    title: Son of Mustang Ford
+    artist: Swervedriver
+    year: 1990
+    nation: UK
+    label: Creation
+    youtube: -_u9XvDCEEE
+    selector: 草野マサムネ
+  - id: "2024035507"
+    week: 355
+    index: 2952
+    indexInWeek: 7
+    title: Machine Gun
+    artist: Slowdive
+    year: 1993
+    nation: UK
+    label: Creation
+    youtube: Ogn-mqe-nsU
+    selector: 草野マサムネ
+  - id: "2024035508"
+    week: 355
+    index: 2953
+    indexInWeek: 8
+    title: Mare
+    artist: Paint in watercolour
+    year: 1993
+    nation: JPN
+    label: XEO Invitation
+    youtube: Mpd6OGy1TeY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
