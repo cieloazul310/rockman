@@ -1,0 +1,97 @@
+id: "20240360"
+week: 360
+year: 2024
+title: ミュージックライフ1972年10月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2024-11-24
+playlist:
+  - id: "2024036001"
+    week: 360
+    index: 2988
+    indexInWeek: 1
+    title: コメット
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036002"
+    week: 360
+    index: 2989
+    indexInWeek: 2
+    title: Hang On to Yourself
+    artist: David Bowie
+    year: 1972
+    nation: UK
+    label: RCA
+    youtube: _igoQ1y3eLM
+    selector: 草野マサムネ
+  - id: "2024036003"
+    week: 360
+    index: 2990
+    indexInWeek: 3
+    title: Telegram Sam
+    artist: T. Rex
+    year: 1972
+    nation: UK
+    label: T.REX
+    youtube: _EcP-7UwnDU
+    selector: 草野マサムネ
+  - id: "2024036004"
+    week: 360
+    index: 2991
+    indexInWeek: 4
+    title: Wind of Change
+    artist: Peter Frampton
+    year: 1972
+    nation: UK
+    label: A&M
+    youtube: y76gObPcvf0
+    selector: 草野マサムネ
+  - id: "2024036005"
+    week: 360
+    index: 2992
+    indexInWeek: 5
+    title: The Sheriff
+    artist: Emerson, Lake & Palmer
+    year: 1972
+    nation: UK
+    label: Island
+    youtube: kgJfmZHDYkE
+    selector: 草野マサムネ
+  - id: "2024036006"
+    week: 360
+    index: 2993
+    indexInWeek: 6
+    title: Woman from Tokyo
+    artist: Deep Purple
+    year: 1973
+    nation: UK
+    label: Purple
+    youtube: 8-4pms3VPqc
+    selector: 草野マサムネ
+  - id: "2024036007"
+    week: 360
+    index: 2994
+    indexInWeek: 7
+    title: The Lamb Ran Away with the Crown
+    artist: Judee Sill
+    year: 1971
+    nation: US
+    label: Asylum
+    youtube: GHXteb6R-AY
+    selector: 草野マサムネ
+  - id: "2024036008"
+    week: 360
+    index: 2995
+    indexInWeek: 8
+    title: Satori Part I
+    artist: FLOWER TRAVELLIN' BAND
+    year: 1971
+    nation: JPN
+    label: Atlantic
+    youtube: M5qYBhacTLo
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
