@@ -1,0 +1,100 @@
+id: "20240364"
+week: 364
+year: 2024
+title: 2024年 漫遊から漏れた曲で漫遊記
+guests: []
+categories: ["漏れた曲"]
+date: 2024-12-22
+playlist:
+  - id: "2024036401"
+    week: 364
+    index: 3021
+    indexInWeek: 1
+    title: 三日月ロック その3
+    artist: スピッツ
+    year: 2004
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036402"
+    week: 364
+    index: 3022
+    indexInWeek: 2
+    title: 波のない夏 feat. adieu
+    artist: スカート
+    year: 2024
+    nation: JPN
+    label: カクバリズム
+    youtube: bjOmqFfBivY
+    selector: 草野マサムネ
+  - id: "2024036403"
+    week: 364
+    index: 3023
+    indexInWeek: 3
+    title: Say Goodbye to Hollywood
+    artist: Bette Midler
+    year: 1977
+    nation: US
+    label: Atlantic
+    youtube: 0StGq-L7Phc
+    selector: 草野マサムネ
+  - id: "2024036404"
+    week: 364
+    index: 3024
+    indexInWeek: 4
+    title: 二人の手紙
+    artist: 湯川潮音
+    kana: ゆかわしおね
+    year: 2006
+    nation: JPN
+    label: キャピトル・レコード
+    selector: 草野マサムネ
+  - id: "2024036405"
+    week: 364
+    index: 3025
+    indexInWeek: 5
+    title: You Got It (Release It)
+    artist: Pearl Harbor and the Explosions
+    year: 1979
+    nation: US
+    label: Warner Bros.
+    youtube: bOrLOYFWvng
+    selector: 草野マサムネ
+  - id: "2024036406"
+    week: 364
+    index: 3026
+    indexInWeek: 6
+    title: 世界の真昼
+    artist: 割礼
+    kana: かつれい
+    year: 2003
+    nation: JPN
+    label: Lee V Cleef
+    youtube: QVH-IMn4-6k
+    selector: 草野マサムネ
+  - id: "2024036407"
+    week: 364
+    index: 3027
+    indexInWeek: 7
+    title: ナカムラ・エレキ・音頭
+    artist: 中村雅俊
+    kana: なかむらまさとし
+    year: 1982
+    nation: JPN
+    label: 日本コロムビア
+    youtube: EPFem-jj7RQ
+    selector: 草野マサムネ
+  - id: "2024036408"
+    week: 364
+    index: 3028
+    indexInWeek: 8
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
