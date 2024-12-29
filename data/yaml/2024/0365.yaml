@@ -1,0 +1,111 @@
+id: "20240365"
+week: 365
+year: 2024
+title: クセになる面白ソングで漫遊記 パート5
+guests: []
+categories: ["面白ソング特集"]
+date: 2024-12-29
+playlist:
+  - id: "2024036501"
+    week: 365
+    index: 3029
+    indexInWeek: 1
+    title: みそか
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036502"
+    week: 365
+    index: 3030
+    indexInWeek: 2
+    title: ボヨヨンロック
+    artist: まんが道
+    year: 1989
+    nation: JPN
+    label: トイズファクトリー
+    selector: 草野マサムネ
+  - id: "2024036503"
+    week: 365
+    index: 3031
+    indexInWeek: 3
+    title: よくある名字「斉藤」
+    artist: ダンス☆マン
+    year: 1998
+    nation: JPN
+    label: avex
+    youtube: c7iveLdymtI
+    selector: 草野マサムネ
+  - id: "2024036504"
+    week: 365
+    index: 3032
+    indexInWeek: 4
+    title: 恋のチューリップ
+    artist: 港孝也とパッション・グループ
+    kana: みなとたかやとぱっしょんぐるーぷ
+    year: 1967
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+  - id: "2024036505"
+    week: 365
+    index: 3033
+    indexInWeek: 5
+    title: Tacky
+    artist: "\"Weird Al\" Yankovic"
+    kana: Werid Al Yankovic
+    year: 2014
+    nation: US
+    label: RCA
+    youtube: zq7Eki5EZ8o
+    selector: 草野マサムネ
+  - id: "2024036506"
+    week: 365
+    index: 3034
+    indexInWeek: 6
+    title: Changwah Disco
+    artist: Chantana
+    year: 1979
+    nation: THA
+    label: Sonic Sounds
+    youtube: pQTsya9klA0
+    selector: 草野マサムネ
+  - id: "2024036507"
+    week: 365
+    index: 3035
+    indexInWeek: 7
+    title: 魚のロック
+    artist: 水前寺清子
+    kana: すいぜんじきよこ
+    year: 1974
+    nation: JPN
+    label: 日本クラウン
+    youtube: hHGrumqIABc
+    selector: 草野マサムネ
+  - id: "2024036508"
+    week: 365
+    index: 3036
+    indexInWeek: 8
+    title: ロックンロール県庁所在地
+    artist: 森高千里
+    kana: もりたかちさと
+    year: 1992
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: 1ylPKqoHS38
+    selector: 草野マサムネ
+  - id: "2024036509"
+    week: 365
+    index: 3037
+    indexInWeek: 9
+    title: もぐらたたきのような人
+    artist: 町あかり
+    kana: まちあかり
+    year: 2013
+    nation: JPN
+    label: タウンレコード
+    youtube: z7zUS9zfYGc
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
