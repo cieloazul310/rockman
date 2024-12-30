@@ -43,6 +43,7 @@ const config: GatsbyConfig = {
         siteId: `rockman`,
       },
     },
+    `gatsby-plugin-tsconfig-paths`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
