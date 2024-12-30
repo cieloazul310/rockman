@@ -1,5 +1,5 @@
 import type { CreateNodeArgs, Node } from "gatsby";
-import { getYomi } from "../../src/utils/sortByYomi";
+import { getYomi } from "../../src/utils/sort-by-yomi";
 import type { Program, Tune } from "../../types";
 
 function isProgramNode(node: Node | Program<"bare">): node is Program<"bare"> {

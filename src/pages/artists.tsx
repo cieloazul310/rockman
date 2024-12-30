@@ -24,14 +24,14 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import FlagIcon from "@mui/icons-material/Flag";
 import { AutoSizer } from "react-virtualized";
-import Layout from "../layout";
-import Seo from "../components/Seo";
-import ArtistList from "../components/ArtistList/Container";
-import { AdInSectionDivider } from "../components/Ads";
-import { useAllNations } from "../utils/graphql-hooks";
-import useSortedArtists from "../utils/useSortedArtists";
-import { kanaToHira } from "../utils/sortByYomi";
-import type { ArtistListItem } from "../../types";
+import Layout from "@/layout";
+import Seo from "@/components/seo";
+import ArtistList from "@/components/artist-list/container";
+import { AdInSectionDivider } from "@/components/ads";
+import { useAllNations } from "@/utils/graphql-hooks";
+import useSortedArtists from "@/utils/use-sorted-artists";
+import { kanaToHira } from "@/utils/sort-by-yomi";
+import type { ArtistListItem } from "types";
 
 type SortListProps = {
   handleSortType: (sortType: "abc" | "programs" | "tunes") => () => void;

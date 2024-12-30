@@ -1,3 +1,6 @@
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 module.exports = {
   globals: {
     __PATH_PREFIX__: true,
@@ -23,6 +26,11 @@ module.exports = {
     browser: true,
     es6: true,
     jest: true,
+  },
+  settings: {
+    "import/resolver": {
+      typescript: {},
+    },
   },
   rules: {
     "prettier/prettier": [

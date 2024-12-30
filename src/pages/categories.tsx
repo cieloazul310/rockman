@@ -3,12 +3,12 @@ import { graphql, type PageProps } from "gatsby";
 import Container from "@mui/material/Container";
 import List from "@mui/material/List";
 import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
-import TabPageTemplate from "../layout/TabTemplate";
-import Seo from "../components/Seo";
-import Jumbotron from "../components/Jumbotron";
-import ProgramItem from "../components/ProgramList/Item";
-import { useSortProgram } from "../utils/useSorter";
-import type { ProgramListFragment } from "../../types";
+import TabPageTemplate from "@/layout/tab-template";
+import Seo from "@/components/seo";
+import Jumbotron from "@/components/jumbotron";
+import ProgramItem from "@/components/program-list/item";
+import { useSortProgram } from "@/utils/use-sorter";
+import type { ProgramListFragment } from "types";
 
 type WindowState = {
   category?: string;

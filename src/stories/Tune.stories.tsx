@@ -3,9 +3,9 @@ import Stack from "@mui/material/Stack";
 import Container from "@mui/material/Container";
 import type { ComponentMeta } from "@storybook/react";
 import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
-import Tune, { TuneBare } from "../components/Tunes/Item";
-import TunesByProgram from "../components/Tunes/TunesByProgram";
-import ProgramByTune from "../components/Tunes/ProgramByTune";
+import Tune, { TuneBare } from "@/components/tunes/item";
+import TunesByProgram from "@/components/tunes/tunes-by-program";
+import ProgramByTune from "@/components/tunes/program-by-tune";
 import program from "./data/program";
 import tunes from "./data/tunes";
 

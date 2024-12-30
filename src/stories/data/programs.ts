@@ -1,4 +1,4 @@
-import type { ProgramListFragment } from "../../../types";
+import type { ProgramListFragment } from "types";
 
 const programs: ProgramListFragment[] = [
   {

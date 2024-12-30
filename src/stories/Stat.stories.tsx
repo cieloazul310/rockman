@@ -2,8 +2,8 @@ import * as React from "react";
 import type { ComponentMeta } from "@storybook/react";
 import Grid from "@mui/material/Grid";
 import { Section, Article } from "@cieloazul310/gatsby-theme-aoi";
-import { Stat } from "../components/Stat";
-import { ArtistIcon, ProgramIcon, TuneIcon } from "../icons";
+import { Stat } from "@/components/stat";
+import { ArtistIcon, ProgramIcon, TuneIcon } from "@/icons";
 
 export default {
   title: "Stat",

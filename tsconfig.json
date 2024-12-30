@@ -12,7 +12,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noEmit": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "types": ["./types.d.ts"]
+    }
   },
   "ts-node": {
     "transpileOnly": true,

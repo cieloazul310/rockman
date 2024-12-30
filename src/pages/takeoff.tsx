@@ -5,17 +5,12 @@ import {
   SectionWrapper,
   Article,
 } from "@cieloazul310/gatsby-theme-aoi";
-import TabPageTemplate from "../layout/TabTemplate";
-import Seo from "../components/Seo";
-import Jumbotron from "../components/Jumbotron";
-import TakeOffAlbum, { TakeOffOthers } from "../components/TakeOffAlbum";
-import ProgramByTune from "../components/Tunes/ProgramByTune";
-import type {
-  Program,
-  SpitzAlbum,
-  SpitzTune,
-  TuneItemFragment,
-} from "../../types";
+import TabPageTemplate from "@/layout/tab-template";
+import Seo from "@/components/seo";
+import Jumbotron from "@/components/jumbotron";
+import TakeOffAlbum, { TakeOffOthers } from "@/components/take-off-album";
+import ProgramByTune from "@/components/tunes/program-by-tune";
+import type { Program, SpitzAlbum, SpitzTune, TuneItemFragment } from "types";
 
 type TakeOffQueryData = {
   albums: {

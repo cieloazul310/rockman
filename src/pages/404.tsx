@@ -6,7 +6,7 @@ import {
   Article,
   Alert,
 } from "@cieloazul310/gatsby-theme-aoi";
-import Jumbotron from "../components/Jumbotron";
+import Jumbotron from "@/components/jumbotron";
 
 function NotFoundPage() {
   const location = useLocation();

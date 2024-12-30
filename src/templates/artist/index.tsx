@@ -12,22 +12,17 @@ import {
   PageNavigationContainer,
   PageNavigationItem,
 } from "@cieloazul310/gatsby-theme-aoi-blog-components";
-import Layout from "../../layout";
-import Seo from "../../components/Seo";
-import ArtistPageHeader from "./PageHeader";
-import ArtistTonarinoTab from "./TonarinoTab";
-import TunesByProgram from "../../components/Tunes/TunesByProgram";
-import ArtistItemContainer from "../../components/ArtistItem/Container";
-import { AdInSectionDivider } from "../../components/Ads";
-import { ArtistIcon } from "../../icons";
-import { useSortProgram } from "../../utils/useSorter";
-import { useArtistDescriptionString } from "../../utils/useDescriptionString";
-import type {
-  Artist,
-  Program,
-  MinimumArtist,
-  TuneItemFragment,
-} from "../../../types";
+import Layout from "@/layout";
+import Seo from "@/components/seo";
+import TunesByProgram from "@/components/tunes/tunes-by-program";
+import ArtistItemContainer from "@/components/artist-item/container";
+import { AdInSectionDivider } from "@/components/ads";
+import { ArtistIcon } from "@/icons";
+import { useSortProgram } from "@/utils/use-sorter";
+import { useArtistDescriptionString } from "@/utils/use-description-string";
+import type { Artist, Program, MinimumArtist, TuneItemFragment } from "types";
+import ArtistPageHeader from "./page-header";
+import ArtistTonarinoTab from "./tonarino-tab";
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
