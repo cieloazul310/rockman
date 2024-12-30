@@ -1,0 +1,92 @@
+id: "20240356"
+week: 356
+year: 2024
+title: ギターリフのスピッツ曲で漫遊記
+guests: []
+categories: ["スピッツ曲", "ギター"]
+date: 2024-10-27
+playlist:
+  - id: "2024035601"
+    week: 356
+    index: 2954
+    indexInWeek: 1
+    title: あじさい通り
+    artist: Kitri
+    year: 2023
+    nation: JPN
+    label: 日本コロムビア
+    youtube: dRe2cI4qswA
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035602"
+    week: 356
+    index: 2955
+    indexInWeek: 2
+    title: センチメンタル
+    artist: スピッツ
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024035603"
+    week: 356
+    index: 2956
+    indexInWeek: 3
+    title: スーパーノヴァ
+    artist: スピッツ
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2024035604"
+    week: 356
+    index: 2957
+    indexInWeek: 4
+    title: まもるさん
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2024035605"
+    week: 356
+    index: 2958
+    indexInWeek: 5
+    title: ラクガキ王国
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2024035606"
+    week: 356
+    index: 2959
+    indexInWeek: 6
+    title: ハチの針
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2024035607"
+    week: 356
+    index: 2960
+    indexInWeek: 7
+    title: ナサケモノ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2024035608"
+    week: 356
+    index: 2961
+    indexInWeek: 8
+    title: おどろう!!
+    artist: GO-BANG'S
+    year: 1988
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: 91JXW30LkFo
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

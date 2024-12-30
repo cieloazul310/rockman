@@ -1,0 +1,111 @@
+id: "20240361"
+week: 361
+year: 2024
+title: ヤンキーロックで漫遊記
+guests: []
+categories: []
+date: 2024-12-01
+playlist:
+  - id: "2024036101"
+    week: 361
+    index: 2996
+    indexInWeek: 1
+    title: ブービー
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036102"
+    week: 361
+    index: 2997
+    indexInWeek: 2
+    title: 羯徒毘璐薫'狼琉
+    artist: 横浜銀蝿
+    kana: よこはまぎんばえ
+    year: 1981
+    nation: JPN
+    label: CRAZY RIDER RECORDS
+    youtube: YLIJ0QSd944
+    selector: 草野マサムネ
+  - id: "2024036103"
+    week: 361
+    index: 2998
+    indexInWeek: 3
+    title: On The Machine（翔と桃子のロックンロール）
+    artist: 杉本哲太&LONELY-RIDERS
+    kana: すぎもとてったあんどろんりーらいだーず
+    year: 1982
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+  - id: "2024036104"
+    week: 361
+    index: 2999
+    indexInWeek: 4
+    title: スモーキン・ブギ
+    artist: ダウン・タウン・ブギウギ・バンド
+    year: 1974
+    nation: JPN
+    label: EXPRESS
+    youtube: OJpKgMfgvd0
+    selector: 草野マサムネ
+  - id: "2024036105"
+    week: 361
+    index: 3000
+    indexInWeek: 5
+    title: YES MY LOVE
+    artist: 矢沢永吉
+    kana: やざわえいきち
+    year: 1982
+    nation: JPN
+    label: ワーナー・パイオニア
+    youtube: ns3pgNHLlIE
+    selector: 草野マサムネ
+  - id: "2024036106"
+    week: 361
+    index: 3001
+    indexInWeek: 6
+    title: ノット・サティスファイド
+    artist: アナーキー
+    year: 1980
+    nation: JPN
+    label: ビクターインビテーション
+    youtube: YGtP9GkJ2Dw
+    selector: 草野マサムネ
+  - id: "2024036107"
+    week: 361
+    index: 3002
+    indexInWeek: 7
+    title: 新型セドリック
+    artist: THE ROOSTERS
+    year: 1980
+    nation: JPN
+    label: 日本コロムビア
+    youtube: QfDRBm0tdgc
+    selector: 草野マサムネ
+  - id: "2024036108"
+    week: 361
+    index: 3003
+    indexInWeek: 8
+    title: Rock This Town
+    artist: Stray Cats
+    year: 1981
+    nation: US
+    label: Arista
+    youtube: jHlQ11I0bjo
+    selector: 草野マサムネ
+  - id: "2024036109"
+    week: 361
+    index: 3004
+    indexInWeek: 9
+    title: One Night Carnival
+    artist: 氣志團
+    kana: きしだん
+    year: 2002
+    nation: JPN
+    label: 東芝EMI
+    youtube: SJsx3FVudys
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

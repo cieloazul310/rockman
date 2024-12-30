@@ -1,0 +1,96 @@
+id: "20240347"
+week: 347
+year: 2024
+title: ジミヘンフォロワーのギタリストで漫遊記
+guests: []
+categories: ["ギター", "変則アーティスト特集"]
+date: 2024-08-25
+playlist:
+  - id: "2024034701"
+    week: 347
+    index: 2882
+    indexInWeek: 1
+    title: ドルフィン・ラヴ
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024034702"
+    week: 347
+    index: 2883
+    indexInWeek: 2
+    title: Dark Lady
+    artist: Scorpions
+    year: 1975
+    nation: GER
+    label: RCA
+    youtube: KbiDYrKPe8s
+    selector: 草野マサムネ
+  - id: "2024034703"
+    week: 347
+    index: 2884
+    indexInWeek: 3
+    title: You Stole My Heart
+    artist: Randy California
+    year: 1979
+    nation: US
+    label: Esoteric Recordings
+    youtube: SXvNFObDtgk
+    selector: 草野マサムネ
+  - id: "2024034704"
+    week: 347
+    index: 2885
+    indexInWeek: 4
+    title: Caledonia
+    artist: Robin Trower
+    year: 1976
+    nation: UK
+    label: Chrysalis
+    youtube: ePPnnL127Ro
+    selector: 草野マサムネ
+  - id: "2024034705"
+    week: 347
+    index: 2886
+    indexInWeek: 5
+    title: Little Sexy Annie
+    artist: Mahogany Rush
+    year: 1976
+    nation: CAN
+    label: Columbia
+    selector: 草野マサムネ
+  - id: "2024034706"
+    week: 347
+    index: 2887
+    indexInWeek: 6
+    title: Champagne and Cocaine (from "Thinking Of You")
+    artist: Randy Hansen
+    year: 2000
+    nation: US
+    label: Capitol
+    selector: 草野マサムネ
+  - id: "2024034707"
+    week: 347
+    index: 2888
+    indexInWeek: 7
+    title: Are You Gonna Go My Way
+    artist: Lenny Kravitz
+    year: 1993
+    nation: US
+    label: Virgin
+    youtube: 8LhCd1W2V0Q
+    selector: 草野マサムネ
+  - id: "2024034708"
+    week: 347
+    index: 2889
+    indexInWeek: 8
+    title: 恋人試験
+    artist: 松本ちえこ
+    kana: まつもとちえこ
+    year: 1976
+    nation: JPN
+    label: キャニオン・レコード
+    youtube: KiR0AGlcauc
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

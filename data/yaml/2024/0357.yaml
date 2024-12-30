@@ -1,0 +1,101 @@
+id: "20240357"
+week: 357
+year: 2024
+title: 多保孝一で漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-11-03
+playlist:
+  - id: "2024035701"
+    week: 357
+    index: 2962
+    indexInWeek: 1
+    title: ringo
+    artist: 秦基博×草野マサムネ
+    kana: はたもとひろくさのまさむね
+    year: 2024
+    nation: JPN
+    label: ユニバーサルミュージック
+    youtube: hQUEknL2CCY
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024035702"
+    week: 357
+    index: 2963
+    indexInWeek: 2
+    title: マニフェスト
+    artist: Superfly
+    year: 2007
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: yrOOq88F__U
+    selector: 草野マサムネ
+  - id: "2024035703"
+    week: 357
+    index: 2964
+    indexInWeek: 3
+    title: あなたに恋をしてみました
+    artist: chay
+    year: 2015
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: D6CNN7FFP4s
+    selector: 草野マサムネ
+  - id: "2024035704"
+    week: 357
+    index: 2965
+    indexInWeek: 4
+    title: Come & Get It!!
+    artist: Rico
+    year: 2014
+    nation: JPN
+    label: テイチクエンタテインメント
+    youtube: 5y-0tWeYpX4
+    selector: 草野マサムネ
+  - id: "2024035705"
+    week: 357
+    index: 2966
+    indexInWeek: 5
+    title: One and Only
+    artist: 木村拓哉
+    kana: きむらたくや
+    year: 2020
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: uCcxxNZcfQk
+    selector: 草野マサムネ
+  - id: "2024035706"
+    week: 357
+    index: 2967
+    indexInWeek: 6
+    title: 恋するリボルバー
+    artist: 伊藤蘭
+    kana: いとうらん
+    year: 2020
+    nation: JPN
+    label: ソニー・ミュージックダイレクト
+    youtube: 8-ZrKFibRN0
+    selector: 草野マサムネ
+  - id: "2024035707"
+    week: 357
+    index: 2968
+    indexInWeek: 7
+    title: 最高のギフト
+    artist: ファーストサマーウイカ
+    year: 2021
+    nation: JPN
+    label: Virgin Music
+    youtube: u5WpjgkEls0
+    selector: 草野マサムネ
+  - id: "2024035708"
+    week: 357
+    index: 2969
+    indexInWeek: 8
+    title: 夜には星と音楽を
+    artist: Hermann H.&The Pacemakers
+    year: 2001
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: rYNoc9SaOr4
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

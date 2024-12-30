@@ -1,0 +1,107 @@
+id: "20240363"
+week: 363
+year: 2024
+title: 2024年気になった曲で漫遊記
+guests: []
+categories: ["今年気になった曲"]
+date: 2024-12-15
+playlist:
+  - id: "2024036301"
+    week: 363
+    index: 3012
+    indexInWeek: 1
+    title: 跳べ
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036302"
+    week: 363
+    index: 3013
+    indexInWeek: 2
+    title: My Golden Years
+    artist: The Lemon Twigs
+    year: 2024
+    nation: US
+    label: Captured Tracks
+    youtube: jnylB5ylyw4
+    selector: 草野マサムネ
+  - id: "2024036303"
+    week: 363
+    index: 3014
+    indexInWeek: 3
+    title: kiosk
+    artist: Subway Daydream
+    year: 2024
+    nation: JPN
+    label: Subway Daydream
+    youtube: dgiPMsYVI1w
+    selector: 草野マサムネ
+  - id: "2024036304"
+    week: 363
+    index: 3015
+    indexInWeek: 4
+    title: 旅人
+    artist: C&K
+    year: 2024
+    nation: JPN
+    label: ユニバーサルミュージック
+    youtube: i597J2b37T0
+    selector: 草野マサムネ
+  - id: "2024036305"
+    week: 363
+    index: 3016
+    indexInWeek: 5
+    title: Somebody Come Through
+    artist: Wasia Project
+    year: 2024
+    nation: UK
+    label: Laolao Records
+    youtube: toIBdbkGKLA
+    selector: 草野マサムネ
+  - id: "2024036306"
+    week: 363
+    index: 3017
+    indexInWeek: 6
+    title: 無期限のビオラ
+    artist: アマイワナ
+    year: 2024
+    nation: JPN
+    label: 0101RECORDS
+    youtube: lP_N0tcGg90
+    selector: 草野マサムネ
+  - id: "2024036307"
+    week: 363
+    index: 3018
+    indexInWeek: 7
+    title: Fourth Of July
+    artist: Steve Conte
+    year: 2024
+    nation: US
+    label: Wicked Cool Records
+    youtube: G6PB0I5jkLg
+    selector: 草野マサムネ
+  - id: "2024036308"
+    week: 363
+    index: 3019
+    indexInWeek: 8
+    title: あわいに
+    artist: TOMOO
+    year: 2024
+    nation: JPN
+    label: IRORI Records
+    youtube: Yfb15Nu5bXU
+    selector: 草野マサムネ
+  - id: "2024036309"
+    week: 363
+    index: 3020
+    indexInWeek: 9
+    title: Moonstruck
+    artist: Sheer Mag
+    year: 2024
+    nation: US
+    label: Third Man
+    youtube: hCl-hJY0T9Y
+    selector: 草野マサムネ

@@ -1,0 +1,86 @@
+id: "20240362"
+week: 362
+year: 2024
+title: ラッシュで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2024-12-08
+playlist:
+  - id: "2024036201"
+    week: 362
+    index: 3005
+    indexInWeek: 1
+    title: ハチミツ
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    youtube: 6J1sPwGCH5w
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2024036202"
+    week: 362
+    index: 3006
+    indexInWeek: 2
+    title: Finding My Way
+    artist: Rush
+    year: 1974
+    nation: CAN
+    label: Moon
+    youtube: -YBp4hv91CI
+    selector: 草野マサムネ
+  - id: "2024036203"
+    week: 362
+    index: 3007
+    indexInWeek: 3
+    title: The Spirit of Radio
+    artist: Rush
+    year: 1980
+    nation: CAN
+    label: Anthem
+    youtube: g_QtO0Rhp0w
+    selector: 草野マサムネ
+  - id: "2024036204"
+    week: 362
+    index: 3008
+    indexInWeek: 4
+    title: Limelight
+    artist: Rush
+    year: 1981
+    nation: CAN
+    label: Anthem
+    youtube: Yg8BIMh_KgQ
+    selector: 草野マサムネ
+  - id: "2024036205"
+    week: 362
+    index: 3009
+    indexInWeek: 5
+    title: The Big Money
+    artist: Rush
+    year: 1985
+    nation: CAN
+    label: Anthem
+    youtube: s7wgee1vzZ0
+    selector: 草野マサムネ
+  - id: "2024036206"
+    week: 362
+    index: 3010
+    indexInWeek: 6
+    title: Time Stand Still
+    artist: Rush
+    year: 1987
+    nation: CAN
+    label: Anthem
+    youtube: q8RA3j9DCb8
+    selector: 草野マサムネ
+  - id: "2024036207"
+    week: 362
+    index: 3011
+    indexInWeek: 7
+    title: Half the World
+    artist: Rush
+    year: 1996
+    nation: CAN
+    label: Anthem
+    youtube: 2GvCXX4nRb4
+    selector: 草野マサムネ
