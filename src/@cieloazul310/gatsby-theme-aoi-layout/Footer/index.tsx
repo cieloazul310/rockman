@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Article } from "@cieloazul310/gatsby-theme-aoi";
+import { AdInFooter } from "@/components/ads";
+import InView from "@/components/in-view";
 import Socials from "./Socials";
 import Copyrights from "./Copyrights";
-import { AdInFooter } from "../../../components/Ads";
-import InView from "../../../components/InView";
 
 function Footer() {
   return (

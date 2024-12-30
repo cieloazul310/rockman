@@ -1,4 +1,4 @@
-import type { Program, TuneItemFragment } from "../../../types";
+import type { Program, TuneItemFragment } from "types";
 
 const program: Pick<
   Program,

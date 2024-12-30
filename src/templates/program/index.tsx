@@ -11,16 +11,16 @@ import {
   PageNavigationContainer,
   PageNavigationItem,
 } from "@cieloazul310/gatsby-theme-aoi-blog-components";
-import Layout from "../../layout";
-import Seo from "../../components/Seo";
-import ProgramPageHeader from "./PageHeader";
-import ProgramTonarinoTab from "./TonarinoTab";
-import Tune from "../../components/Tunes/Item";
-import ArtistItemContainer from "../../components/ArtistItem/Container";
-import { AdInSectionDivider } from "../../components/Ads";
-import removeMultiple from "../../utils/removeMultiple";
-import { useProgramDescriptionString } from "../../utils/useDescriptionString";
-import type { Program, Tune as TuneType } from "../../../types";
+import Layout from "@/layout";
+import Seo from "@/components/seo";
+import Tune from "@/components/tunes/item";
+import ArtistItemContainer from "@/components/artist-item/container";
+import { AdInSectionDivider } from "@/components/ads";
+import removeMultiple from "@/utils/remove-multiple";
+import { useProgramDescriptionString } from "@/utils/use-description-string";
+import type { Program, Tune as TuneType } from "types";
+import ProgramPageHeader from "./page-header";
+import ProgramTonarinoTab from "./tonarino-tab";
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 

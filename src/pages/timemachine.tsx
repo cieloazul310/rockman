@@ -4,17 +4,17 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Section, SectionWrapper } from "@cieloazul310/gatsby-theme-aoi";
-import TabPageTemplate from "../layout/TabTemplate";
-import Seo from "../components/Seo";
-import Jumbotron from "../components/Jumbotron";
-import ProgramByTune from "../components/Tunes/ProgramByTune";
-import useSorter from "../utils/useSorter";
+import TabPageTemplate from "@/layout/tab-template";
+import Seo from "@/components/seo";
+import Jumbotron from "@/components/jumbotron";
+import ProgramByTune from "@/components/tunes/program-by-tune";
+import useSorter from "@/utils/use-sorter";
 import {
   getDividedYears,
   getFiveYearString,
   getClusteredLength,
-} from "../utils/cluster";
-import type { Program, TuneItemFragment } from "../../types";
+} from "@/utils/cluster";
+import type { Program, TuneItemFragment } from "types";
 
 type TimeMachinePageQueryData = {
   allTunes: {

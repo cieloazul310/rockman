@@ -1,4 +1,4 @@
-import { getYomi } from "../sortByYomi";
+import { getYomi } from "../sort-by-yomi";
 
 describe("get Yomi", () => {
   it("ordinary", () => {

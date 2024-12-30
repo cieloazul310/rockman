@@ -1,8 +1,8 @@
 import * as React from "react";
 import List from "@mui/material/List";
 import type { ComponentMeta } from "@storybook/react";
+import ProgramListItem from "@/components/program-list/item";
 import programs from "./data/programs";
-import ProgramListItem from "../components/ProgramList/Item";
 
 export default {
   title: "ProgramList",

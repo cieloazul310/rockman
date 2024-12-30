@@ -1,2 +1,2 @@
-export * from "./useAllNations";
-export { default as useProgramTop25 } from "./useProgramTop25";
+export * from "./use-all-nations";
+export { default as useProgramTop25 } from "./use-program-top25";

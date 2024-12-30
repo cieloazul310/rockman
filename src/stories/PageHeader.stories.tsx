@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { ComponentMeta } from "@storybook/react";
-import ArtistPageHeader from "../templates/artist/PageHeader";
-import ProgramPageHeader from "../templates/program/PageHeader";
+import ArtistPageHeader from "@/templates/artist/page-header";
+import ProgramPageHeader from "@/templates/program/page-header";
 import program from "./data/program";
 
 export default {

@@ -8,10 +8,10 @@ import {
   AppLink,
 } from "@cieloazul310/gatsby-theme-aoi";
 
-import Layout from "../layout";
-import Seo from "../components/Seo";
-import Jumbotron from "../components/Jumbotron";
-import { AdInSectionDivider } from "../components/Ads";
+import Layout from "@/layout";
+import Seo from "@/components/seo";
+import Jumbotron from "@/components/jumbotron";
+import { AdInSectionDivider } from "@/components/ads";
 
 function About() {
   return (

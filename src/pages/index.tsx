@@ -9,14 +9,14 @@ import {
   Paragraph,
   AppLink,
 } from "@cieloazul310/gatsby-theme-aoi";
-import Layout from "../layout";
-import Jumbotron from "../components/Jumbotron";
-import Seo from "../components/Seo";
-import ProgramItem from "../components/ProgramList/Item";
-import ProgramTop25 from "../components/ArtistItem/Top25";
-import Stats from "../components/Stat";
-import { AdInSectionDivider } from "../components/Ads";
-import type { Program } from "../../types";
+import Layout from "@/layout";
+import Jumbotron from "@/components/jumbotron";
+import Seo from "@/components/seo";
+import ProgramItem from "@/components/program-list/item";
+import ProgramTop25 from "@/components/artist-item/top25";
+import Stats from "@/components/stat";
+import { AdInSectionDivider } from "@/components/ads";
+import type { Program } from "types";
 
 type IndexPageQueryData = {
   allProgram: {
@@ -27,11 +27,7 @@ type IndexPageQueryData = {
 function IndexPage({ data }: PageProps<IndexPageQueryData>) {
   return (
     <Layout>
-      <Jumbotron
-        component="header"
-        maxWidth="md"
-        title="ロック大陸漫遊記 プレイリスト集"
-      />
+      <Jumbotron component="header" title="ロック大陸漫遊記 プレイリスト集" />
       <Section py={2}>
         <Container maxWidth="md">
           <Stats />

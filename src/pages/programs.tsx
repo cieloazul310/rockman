@@ -2,12 +2,12 @@ import * as React from "react";
 import { graphql, type PageProps } from "gatsby";
 import Container from "@mui/material/Container";
 import { Section } from "@cieloazul310/gatsby-theme-aoi";
-import Layout from "../layout";
-import Seo from "../components/Seo";
-import Jumbotron from "../components/Jumbotron";
-import Programs from "../components/ProgramList/Container";
-import { AdInSectionDivider } from "../components/Ads";
-import type { ProgramListFragment } from "../../types";
+import Layout from "@/layout";
+import Seo from "@/components/seo";
+import Jumbotron from "@/components/jumbotron";
+import Programs from "@/components/program-list/container";
+import { AdInSectionDivider } from "@/components/ads";
+import type { ProgramListFragment } from "types";
 
 type ProgramsPageQueryData = {
   allProgram: {

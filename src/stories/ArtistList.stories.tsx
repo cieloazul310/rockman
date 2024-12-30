@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { ComponentMeta } from "@storybook/react";
-import ArtistListItem from "../components/ArtistList/Item";
-import ArtistListContainer from "../components/ArtistList/Container";
+import ArtistListItem from "@/components/artist-list/item";
+import ArtistListContainer from "@/components/artist-list/container";
 import { artists } from "./data/artists";
 
 export default {
