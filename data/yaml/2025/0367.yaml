@@ -1,0 +1,109 @@
+id: "20250367"
+week: 367
+year: 2025
+title: 新春恒例・スピッツメンバーと漫遊記 三輪テツヤ編
+subtitle: スネークで漫遊記
+guests: ["三輪テツヤ"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2025-01-12
+playlist:
+  - id: "2025036701"
+    week: 367
+    index: 3046
+    indexInWeek: 1
+    title: ヘビーメロウ
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    youtube: BASmTe-x-Ok
+    corner: 漫遊前の一曲
+    selector: 三輪テツヤ
+  - id: "2025036702"
+    week: 367
+    index: 3047
+    indexInWeek: 2
+    title: Snake Eye
+    artist: AC/DC
+    year: 1988
+    nation: AUS
+    label: Albert
+    youtube: XQzlPaRl1m8
+    selector: 三輪テツヤ
+  - id: "2025036703"
+    week: 367
+    index: 3048
+    indexInWeek: 3
+    title: Snake Charmer
+    artist: Rainbow
+    year: 1975
+    nation: UK
+    label: Oyster
+    youtube: coZVchUjb64
+    selector: 三輪テツヤ
+  - id: "2025036704"
+    week: 367
+    index: 3049
+    indexInWeek: 4
+    title: Snake
+    artist: PJ Harvey
+    year: 1993
+    nation: UK
+    label: Island
+    youtube: aAIntnlrvfE
+    selector: 三輪テツヤ
+  - id: "2025036705"
+    week: 367
+    index: 3050
+    indexInWeek: 5
+    title: キングスネークブルース
+    artist: サンハウス
+    year: 1975
+    nation: JPN
+    label: ブラック
+    youtube: fxW9UBoHOb4
+    selector: 三輪テツヤ
+  - id: "2025036706"
+    week: 367
+    index: 3051
+    indexInWeek: 6
+    title: Crawling King Snake
+    artist: The Doors
+    year: 1971
+    nation: US
+    label: Elektra
+    youtube: dV0buYqrRo4
+    selector: 三輪テツヤ
+  - id: "2025036707"
+    week: 367
+    index: 3052
+    indexInWeek: 7
+    title: Union of the Snake
+    artist: Duran Duran
+    year: 1983
+    nation: UK
+    label: EMI
+    youtube: n6p5Q6_JBes
+    selector: 三輪テツヤ
+  - id: "2025036708"
+    week: 367
+    index: 3053
+    indexInWeek: 8
+    title: Whitesnake
+    artist: David Coverdale
+    year: 1977
+    nation: UK
+    label: Purple
+    selector: 三輪テツヤ
+  - id: "2025036708"
+    week: 367
+    index: 3053
+    indexInWeek: 8
+    title: ガラガラヘビがやってくる
+    artist: とんねるず
+    year: 1992
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: yl4hy0X-YCI
+    selector: 三輪テツヤ
+    corner: ちょっぴりタイムマシン
