@@ -1,0 +1,97 @@
+id: "20250368"
+week: 368
+year: 2025
+title: 新春恒例・スピッツメンバーと漫遊記 崎山龍男編
+subtitle: 歌うドラマーで漫遊記
+guests: ["崎山龍男"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2025-01-19
+playlist:
+  - id: "2025036801"
+    week: 368
+    index: 3055
+    indexInWeek: 1
+    title: オバケのロックバンド
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 崎山龍男
+  - id: "2025036802"
+    week: 368
+    index: 3056
+    indexInWeek: 2
+    title: Sky High
+    artist: Jigsaw
+    year: 1975
+    nation: UK
+    label: Splash
+    selector: 崎山龍男
+  - id: "2025036803"
+    week: 368
+    index: 3057
+    indexInWeek: 3
+    title: Yellow Submarine
+    artist: The Beatles
+    year: 1966
+    nation: UK
+    label: Parlophone
+    youtube: m2uTFF_3MaA
+    selector: 崎山龍男
+  - id: "2025036804"
+    week: 368
+    index: 3058
+    indexInWeek: 4
+    title: (They Long to Be) Close to You
+    artist: Carpenters
+    year: 1970
+    nation: US
+    label: A&M
+    youtube: -XYBj0J99i8
+    selector: 崎山龍男
+  - id: "2025036805"
+    week: 368
+    index: 3059
+    indexInWeek: 5
+    title: Up on Cripple Creek (Live from "The Last Waltz")
+    artist: The Band
+    year: 1978
+    nation: US
+    label: Capitol
+    youtube: JsdUzN20Sow
+    selector: 崎山龍男
+  - id: "2025036806"
+    week: 368
+    index: 3060
+    indexInWeek: 6
+    title: Both Sides of the Story
+    artist: Phil Collins
+    year: 1993
+    nation: UK
+    label: Virgin
+    youtube: LcNwob_njTY
+    selector: 崎山龍男
+  - id: "2025036807"
+    week: 368
+    index: 3061
+    indexInWeek: 7
+    title: スーパーヒーロー
+    artist: 勝手にしやがれ
+    kana: かってにしやがれ
+    year: 2010
+    nation: JPN
+    label: ビクターミュージックエンタテイメント
+    youtube: KUxOXOIf-7k
+    selector: 崎山龍男
+  - id: "2025036808"
+    week: 368
+    index: 3062
+    indexInWeek: 8
+    title: Still for your love
+    artist: rumania montevideo
+    year: 1999
+    nation: JPN
+    label: GIZA studio
+    selector: 崎山龍男
+    corner: ちょっぴりタイムマシン
