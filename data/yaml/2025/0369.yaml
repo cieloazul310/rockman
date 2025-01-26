@@ -1,0 +1,99 @@
+id: "20250369"
+week: 369
+year: 2025
+title: 新春恒例・スピッツメンバーと漫遊記 田村明浩編
+subtitle: プレベで漫遊記(本人選曲編)
+guests: ["田村明浩"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2025-01-26
+playlist:
+  - id: "2025036901"
+    week: 369
+    index: 3063
+    indexInWeek: 1
+    title: SJ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 田村明浩
+  - id: "2025036902"
+    week: 369
+    index: 3064
+    indexInWeek: 2
+    title: ラッコ！ラッコ！ラッコ！
+    artist: フラワーカンパニーズ
+    year: 2025
+    nation: JPN
+    label: チキン・スキン・レコード
+    youtube: W2dB287r0-k
+    selector: 田村明浩
+  - id: "2025036903"
+    week: 369
+    index: 3065
+    indexInWeek: 3
+    title: The Last Battle
+    artist: GODLAND
+    year: 2024
+    nation: JPN
+    label: ユニバーサル
+    youtube: E6CntyzHkPk
+    selector: 田村明浩
+  - id: "2025036904"
+    week: 369
+    index: 3066
+    indexInWeek: 4
+    title: dmrks
+    artist: クリープハイプ
+    year: 2024
+    nation: JPN
+    label: ユニバーサルシグマ
+    youtube: isdg31_ia1w
+    selector: 田村明浩
+  - id: "2025036905"
+    week: 369
+    index: 3067
+    indexInWeek: 5
+    title: うちで踊ろう（大晦日）
+    artist: 星野源
+    kana: ほしのげん
+    year: 2021
+    nation: JPN
+    label: SPEEDSTAR RECORDS
+    youtube: NQnQ3fPntgo
+    selector: 田村明浩
+  - id: "2025036906"
+    week: 369
+    index: 3068
+    indexInWeek: 6
+    title: それでは、また明日
+    artist: ASIAN KUNG-FU GENERATION
+    year: 2012
+    nation: JPN
+    label: Ki/oon Music
+    youtube: _VepcOirp68
+    selector: 田村明浩
+  - id: "2025036907"
+    week: 369
+    index: 3069
+    indexInWeek: 7
+    title: 二人の夏
+    artist: 愛奴
+    kana: あいど
+    year: 1975
+    nation: JPN
+    label: CBS・ソニー
+    selector: 田村明浩
+  - id: "2025036908"
+    week: 369
+    index: 3070
+    indexInWeek: 8
+    title: ゴロワーズを吸ったことがあるかい
+    artist: かまやつひろし
+    year: 1975
+    nation: JPN
+    label: EXPRESS / 東芝EMI
+    youtube: M9xyjE2Lb0A
+    selector: 田村明浩
+    corner: ちょっぴりタイムマシン
