@@ -60,7 +60,7 @@ playlist:
     week: 140
     index: 1167
     indexInWeek: 5
-    title: Prelude – Nothin' to Hide
+    title: Prelude - Nothin' to Hide
     artist: Spirit
     year: 1970
     nation: US
@@ -101,5 +101,6 @@ playlist:
     year: 1978
     nation: JPN
     label: CBS・ソニー
+    youtube: 9LWZrIrXuBU
     selector: 草野マサムネ
     corner: ちょっぴりタイムマシン
