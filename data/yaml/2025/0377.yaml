@@ -1,0 +1,98 @@
+id: "20250377"
+week: 377
+year: 2025
+title: さよならソングで漫遊記
+guests: []
+categories: []
+date: 2025-03-23
+playlist:
+  - id: "2025037701"
+    week: 377
+    index: 3130
+    indexInWeek: 1
+    title: ベビーフェイス(Album Version)
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037702"
+    week: 377
+    index: 3131
+    indexInWeek: 2
+    title: さよなら
+    artist: オフコース
+    year: 1979
+    nation: JPN
+    label: EXPRESS
+    youtube: 8yTbpK64Pw0
+    selector: 草野マサムネ
+  - id: "2025037703"
+    week: 377
+    index: 3132
+    indexInWeek: 3
+    title: さよーならまたいつか!
+    artist: 米津玄師
+    kana: よねづけんし
+    year: 2024
+    nation: JPN
+    label: Sony Music Labels
+    youtube: -wb2PAx6aEs
+    selector: 草野マサムネ
+  - id: "2025037704"
+    week: 377
+    index: 3133
+    indexInWeek: 4
+    title: Ruby Tuesday
+    artist: The Rolling Stones
+    year: 1967
+    nation: UK
+    label: Decca
+    youtube: ADtnUC_ctNk
+    selector: 草野マサムネ
+  - id: "2025037705"
+    week: 377
+    index: 3134
+    indexInWeek: 5
+    title: サヨナラBABY
+    artist: フラワーカンパニーズ
+    year: 2008
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    selector: 草野マサムネ
+  - id: "2025037706"
+    week: 377
+    index: 3135
+    indexInWeek: 6
+    title: Goodbye
+    artist: The Sundays
+    year: 1992
+    nation: UK
+    label: Parlophone
+    youtube: ZaDuCypHAZc
+    selector: 草野マサムネ
+  - id: "2025037707"
+    week: 377
+    index: 3136
+    indexInWeek: 7
+    title: さよならべいべ
+    artist: 藤井風
+    kana: ふじいかぜ
+    year: 2020
+    nation: JPN
+    label: HEHN RECORDS
+    youtube: JB_bLPp3wCs
+    selector: 草野マサムネ
+  - id: "2025037708"
+    week: 377
+    index: 3137
+    indexInWeek: 8
+    title: わかれうた
+    artist: 平井堅
+    kana: ひらいけん
+    year: 2009
+    nation: JPN
+    label: DefSTAR RECORDS
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
