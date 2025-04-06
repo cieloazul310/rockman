@@ -1,0 +1,109 @@
+id: "20250379"
+week: 379
+year: 2025
+title: キンクスのカバー曲で漫遊記
+guests: []
+categories: ["変則アーティスト特集"]
+date: 2025-04-06
+playlist:
+  - id: "2025037901"
+    week: 379
+    index: 3146
+    indexInWeek: 1
+    title: 仲良し
+    artist: スピッツ
+    year: 1997
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037902"
+    week: 379
+    index: 3147
+    indexInWeek: 2
+    title: You Really Got Me
+    artist: Van Halen
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: 9X6e7uctAww
+    selector: 草野マサムネ
+  - id: "2025037903"
+    week: 379
+    index: 3148
+    indexInWeek: 3
+    title: All Day and All of the Night
+    artist: The Stranglers
+    year: 1988
+    nation: UK
+    label: Epic
+    youtube: LHGh3goysG0
+    selector: 草野マサムネ
+  - id: "2025037904"
+    week: 379
+    index: 3149
+    indexInWeek: 4
+    title: Lola
+    artist: Madness
+    year: 2005
+    nation: UK
+    label: Live and Intensified
+    youtube: Ep7iuJ9qE3Q
+    selector: 草野マサムネ
+  - id: "2025037905"
+    week: 379
+    index: 3150
+    indexInWeek: 5
+    title: Stop Your Sobbing
+    artist: The Pretenders
+    year: 1980
+    nation: UK
+    label: Real Records
+    youtube: uQWk7l8Su2U
+    selector: 草野マサムネ
+  - id: "2025037906"
+    week: 379
+    index: 3151
+    indexInWeek: 6
+    title: Waterloo Sunset
+    artist: Def Leppard
+    year: 2004
+    nation: UK
+    label: Glam Metal
+    youtube: yhqDD1je8PQ
+    selector: 草野マサムネ
+  - id: "2025037907"
+    week: 379
+    index: 3152
+    indexInWeek: 7
+    title: Sunny Afternoon
+    artist: Halie Loren
+    year: 2012
+    nation: US
+    label: Justin Time
+    youtube: dBpuW6GAhoI
+    selector: 草野マサムネ
+  - id: "2025037908"
+    week: 379
+    index: 3153
+    indexInWeek: 8
+    title: David Watts
+    artist: The Jam
+    year: 1978
+    nation: UK
+    label: Polydor
+    youtube: mh-wdKQs9D0
+    selector: 草野マサムネ
+  - id: "2025037909"
+    week: 379
+    index: 3154
+    indexInWeek: 9
+    title: 東京ららばい
+    artist: 中原理恵
+    kana: なかはらりえ
+    year: 1978
+    nation: JPN
+    label: CBS・ソニー
+    youtube: 9v2gNYKJQyg
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
