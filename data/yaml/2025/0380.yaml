@@ -1,0 +1,96 @@
+id: "20250380"
+week: 380
+year: 2025
+title: ブームタウンラッツで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-04-13
+playlist:
+  - id: "2025038001"
+    week: 380
+    index: 3155
+    indexInWeek: 1
+    title: ネズミの進化
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038002"
+    week: 380
+    index: 3156
+    indexInWeek: 2
+    title: Lookin' After No. 1
+    artist: The Boomtown Rats
+    year: 1977
+    nation: IRE
+    label: Ensign
+    youtube: dLck8CRkVuo
+    selector: 草野マサムネ
+  - id: "2025038003"
+    week: 380
+    index: 3157
+    indexInWeek: 3
+    title: Like Clockwork
+    artist: The Boomtown Rats
+    year: 1978
+    nation: IRE
+    label: Ensign
+    youtube: BtDhMScCkcQ
+    selector: 草野マサムネ
+  - id: "2025038004"
+    week: 380
+    index: 3158
+    indexInWeek: 4
+    title: Rat Trap
+    artist: The Boomtown Rats
+    year: 1978
+    nation: IRE
+    label: Ensign
+    youtube: SnyQqDbt7xo
+    selector: 草野マサムネ
+  - id: "2025038005"
+    week: 380
+    index: 3159
+    indexInWeek: 5
+    title: I Don't Like Mondays
+    artist: The Boomtown Rats
+    year: 1979
+    nation: IRE
+    label: Ensign
+    youtube: FcZW0GFLSdw
+    selector: 草野マサムネ
+  - id: "2025038006"
+    week: 380
+    index: 3160
+    indexInWeek: 6
+    title: Diamond Smiles
+    artist: The Boomtown Rats
+    year: 1979
+    nation: IRE
+    label: Ensign
+    youtube: qEkyGu7ZiXw
+    selector: 草野マサムネ
+  - id: "2025038007"
+    week: 380
+    index: 3161
+    indexInWeek: 7
+    title: Here's a Postcard
+    artist: The Boomtown Rats
+    year: 2020
+    nation: IRE
+    label: BMG
+    youtube: bewR7d6sHWc
+    selector: 草野マサムネ
+  - id: "2025038008"
+    week: 380
+    index: 3162
+    indexInWeek: 8
+    title: あの時計の下で
+    artist: CHARA
+    year: 1992
+    nation: JPN
+    label: Epic/Sony Records
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
