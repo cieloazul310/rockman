@@ -1,0 +1,107 @@
+id: "20250381"
+week: 381
+year: 2025
+title: エモで漫遊記
+guests: []
+categories: []
+date: 2025-04-20
+playlist:
+  - id: "2025038101"
+    week: 381
+    index: 3163
+    indexInWeek: 1
+    title: ガーベラ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038102"
+    week: 381
+    index: 3164
+    indexInWeek: 2
+    title: Holiday
+    artist: The Get Up Kids
+    year: 1999
+    nation: US
+    label: Vagrant
+    youtube: ceR4TDuqE5A
+    selector: 草野マサムネ
+  - id: "2025038103"
+    week: 381
+    index: 3165
+    indexInWeek: 3
+    title: Lucky Denver Mint
+    artist: Jimmy Eat World
+    year: 1999
+    nation: US
+    label: Capitol
+    youtube: KW8T1NyAdd8
+    selector: 草野マサムネ
+  - id: "2025038104"
+    week: 381
+    index: 3166
+    indexInWeek: 4
+    title: Adena
+    artist: Smoking Popes
+    year: 1994
+    nation: US
+    label: Johann's Face
+    selector: 草野マサムネ
+  - id: "2025038105"
+    week: 381
+    index: 3167
+    indexInWeek: 5
+    title: Seven
+    artist: Sunny Day Real Estate
+    year: 1994
+    nation: US
+    label: Sub Pop
+    youtube: gAotWVmVRS4
+    selector: 草野マサムネ
+  - id: "2025038106"
+    week: 381
+    index: 3168
+    indexInWeek: 6
+    title: Happiness Is All the Rage
+    artist: The Promise Ring
+    year: 1999
+    nation: US
+    label: Jade Tree
+    youtube: evNXspiFtFI
+    selector: 草野マサムネ
+  - id: "2025038107"
+    week: 381
+    index: 3169
+    indexInWeek: 7
+    title: Never Meant
+    artist: American Football
+    year: 1999
+    nation: US
+    label: Polyvinyl
+    youtube: _NfnXdXpjL0
+    selector: 草野マサムネ
+  - id: "2025038108"
+    week: 381
+    index: 3170
+    indexInWeek: 8
+    title: Gloria
+    artist: Mineral
+    year: 1996
+    nation: US
+    label: Crank!
+    youtube: Pqag7U2sbLU
+    selector: 草野マサムネ
+  - id: "2025038109"
+    week: 381
+    index: 3171
+    indexInWeek: 9
+    title: Gonna Be No.1
+    artist: 西田敏行
+    kana: にしだとしゆき
+    year: 1980
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
