@@ -1,0 +1,109 @@
+id: "20250382"
+week: 382
+year: 2025
+title: ファッションで影響を受けたアーティスト・リクエストで漫遊記 PART①
+guests: []
+categories: ["リクエスト特集"]
+date: 2025-04-27
+playlist:
+  - id: "2025038201"
+    week: 382
+    index: 3172
+    indexInWeek: 1
+    title: メモリーズ
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    youtube: bkDLvKgI-dQ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038202"
+    week: 382
+    index: 3173
+    indexInWeek: 2
+    title: ドキドキ
+    artist: JUDY AND MARY
+    year: 1995
+    nation: JPN
+    label: エピックレコーズ
+    youtube: ceR4TDuqE5A
+    selector: リクエスト
+  - id: "2025038203"
+    week: 382
+    index: 3174
+    indexInWeek: 3
+    title: 愛のしるし
+    artist: PUFFY
+    year: 1998
+    nation: JPN
+    label: エピックレコードジャパン
+    youtube: 5aUhAcdQqs4
+    selector: リクエスト
+  - id: "2025038204"
+    week: 382
+    index: 3175
+    indexInWeek: 4
+    title: Fuji-san
+    artist: Patti Smith
+    year: 2012
+    nation: US
+    label: Columbia
+    youtube: 9yddQw9uVd0
+    selector: リクエスト
+  - id: "2025038205"
+    week: 382
+    index: 3176
+    indexInWeek: 5
+    title: Coffee-milk Crazy / コーヒーミルク・クレイジー
+    artist: Flipper's Guitar
+    year: 1989
+    nation: JPN
+    label: ポリスター
+    youtube: 1JcaQVNTTKQ
+    selector: リクエスト
+  - id: "2025038206"
+    week: 382
+    index: 3177
+    indexInWeek: 6
+    title: Coma White
+    artist: Marilyn Manson
+    year: 1998
+    nation: US
+    label: Nothing
+    youtube: QQPJYnr48yU
+    selector: リクエスト
+  - id: "2025038207"
+    week: 382
+    index: 3178
+    indexInWeek: 7
+    title: Rock and Roll Love Letter
+    artist: Bay City Rollers
+    year: 1976
+    nation: UK
+    label: Arista
+    youtube: jzJGJ3eHhiI
+    selector: リクエスト
+  - id: "2025038208"
+    week: 382
+    index: 3179
+    indexInWeek: 8
+    title: LADY
+    artist: 米津玄師
+    kana: よねづけんし
+    year: 2023
+    nation: JPN
+    label: Sony Music Labels
+    youtube: DdF-u3fe5pg
+    selector: リクエスト
+  - id: "2025038209"
+    week: 382
+    index: 3180
+    indexInWeek: 9
+    title: ZOOM UP!
+    artist: カヒミ・カリィ
+    year: 1995
+    nation: JPN
+    label: ポリスター
+    youtube: o7V1xhRvIhM
+    selector: 草野マサムネ
