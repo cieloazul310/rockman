@@ -1,0 +1,107 @@
+id: "20250384"
+week: 384
+year: 2025
+title: ガールスクールで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-05-11
+playlist:
+  - id: "2025038401"
+    week: 384
+    index: 3189
+    indexInWeek: 1
+    title: 砂漠の花
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038402"
+    week: 384
+    index: 3190
+    indexInWeek: 2
+    title: Take It All Away
+    artist: Girlschool
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: KAGmNsy50_0
+    selector: 草野マサムネ
+  - id: "2025038403"
+    week: 384
+    index: 3191
+    indexInWeek: 3
+    title: Race with the Devil
+    artist: Girlschool
+    year: 1980
+    nation: UK
+    label: Bronze
+    youtube: OX0fH7OeWwo
+    selector: 草野マサムネ
+  - id: "2025038404"
+    week: 384
+    index: 3192
+    indexInWeek: 4
+    title: C'mon Let's Go
+    artist: Girlschool
+    year: 1981
+    nation: UK
+    label: Bronze
+    youtube: Oe204-lN98g
+    selector: 草野マサムネ
+  - id: "2025038405"
+    week: 384
+    index: 3193
+    indexInWeek: 5
+    title: Please Don't Touch
+    artist: Motörhead / Girlschool
+    year: 1981
+    nation: UK
+    label: Bronze
+    youtube: SSiMuKf9p3U
+    selector: 草野マサムネ
+  - id: "2025038406"
+    week: 384
+    index: 3194
+    indexInWeek: 6
+    title: Screaming Blue Murder
+    artist: Girlschool
+    year: 1982
+    nation: UK
+    label: Bronze
+    youtube: KH92e8mUTVU
+    selector: 草野マサムネ
+  - id: "2025038407"
+    week: 384
+    index: 3195
+    indexInWeek: 7
+    title: 20th Century Boy
+    artist: Girlschool
+    year: 1983
+    nation: UK
+    label: Bronze
+    youtube: 8A8G9nNDcYo
+    selector: 草野マサムネ
+  - id: "2025038408"
+    week: 384
+    index: 3196
+    indexInWeek: 8
+    title: It's a Mess
+    artist: Girlschool
+    year: 2023
+    nation: UK
+    label: Silver Lining Music
+    youtube: 54fz7yEQUI0
+    selector: 草野マサムネ
+  - id: "2025038409"
+    week: 384
+    index: 3197
+    indexInWeek: 9
+    title: BLIND
+    artist: LADIA
+    year: 1992
+    nation: JPN
+    label: BMGビクター
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
