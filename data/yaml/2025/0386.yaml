@@ -1,0 +1,98 @@
+id: "20250386"
+week: 386
+year: 2025
+title: ジャズなロックで漫遊記
+guests: []
+categories: []
+date: 2025-05-25
+playlist:
+  - id: "2025038601"
+    week: 386
+    index: 3206
+    indexInWeek: 1
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038602"
+    week: 386
+    index: 3207
+    indexInWeek: 2
+    title: The Witch
+    artist: "'Igginbottom"
+    year: 1969
+    nation: UK
+    label: Deram
+    youtube: 2WHR-h2tY2o
+    selector: 草野マサムネ
+  - id: "2025038603"
+    week: 386
+    index: 3208
+    indexInWeek: 3
+    title: Bundles
+    artist: Soft Machine
+    year: 1975
+    nation: UK
+    label: Harvest
+    youtube: dcnSxMNFtiY
+    selector: 草野マサムネ
+  - id: "2025038604"
+    week: 386
+    index: 3209
+    indexInWeek: 4
+    title: Doctor Wu
+    artist: Steely Dan
+    year: 1975
+    nation: US
+    label: ABC
+    youtube: ImtdntJQfSs
+    selector: 草野マサムネ
+  - id: "2025038605"
+    week: 386
+    index: 3210
+    indexInWeek: 5
+    title: Bourée
+    artist: Jethro Tull
+    year: 1969
+    nation: UK
+    label: Island
+    youtube: FsD7fNBs_Nk
+    selector: 草野マサムネ
+  - id: "2025038606"
+    week: 386
+    index: 3211
+    indexInWeek: 6
+    title: Quadrant 4
+    artist: Billy Cobham
+    year: 1973
+    nation: US
+    label: Atlantic
+    youtube: P25IQpk_p9A
+    selector: 草野マサムネ
+  - id: "2025038607"
+    week: 386
+    index: 3212
+    indexInWeek: 7
+    title: Star Cycle
+    artist: Jeff Beck
+    year: 1980
+    nation: UK
+    label: Epic
+    youtube: bxlzvfYHtEw
+    selector: 草野マサムネ
+  - id: "2025038608"
+    week: 386
+    index: 3213
+    indexInWeek: 8
+    title: 庭園
+    artist: エミ・マイヤー
+    year: 2009
+    nation: JPN
+    label: プランクトン
+    youtube: ZZGkiCz-mKo
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
