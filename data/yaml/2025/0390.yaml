@@ -1,0 +1,99 @@
+id: "20250390"
+week: 390
+year: 2025
+title: ミュージック・ライフ1971年8月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2025-06-22
+playlist:
+  - id: "2025039001"
+    week: 390
+    index: 3238
+    indexInWeek: 1
+    title: 群青
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    youtube: 13jH7X4aKi8
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039002"
+    week: 390
+    index: 3239
+    indexInWeek: 2
+    title: Heartbreaker
+    artist: Grand Funk Railroad
+    year: 1969
+    nation: US
+    label: Capitol
+    youtube: jQ6u4zTtCJM
+    selector: 草野マサムネ
+  - id: "2025039003"
+    week: 390
+    index: 3240
+    indexInWeek: 3
+    title: Make Me Smile
+    artist: Chicago
+    year: 1970
+    nation: US
+    label: Columbia
+    youtube: fm4E_mxoamk
+    selector: 草野マサムネ
+  - id: "2025039004"
+    week: 390
+    index: 3241
+    indexInWeek: 4
+    title: I Feel the Earth Move
+    artist: Carole King
+    year: 1971
+    nation: UK
+    label: Ode
+    youtube: xgbvVpLBrOA
+    selector: 草野マサムネ
+  - id: "2025039005"
+    week: 390
+    index: 3242
+    indexInWeek: 5
+    title: I'd Love to Change the World
+    artist: Ten Years After
+    year: 1971
+    nation: UK
+    label: Chrysails
+    youtube: XtNK5Cjylho
+    selector: 草野マサムネ
+  - id: "2025039006"
+    week: 390
+    index: 3243
+    indexInWeek: 6
+    title: Flying
+    artist: Zoot
+    year: 1970
+    nation: AUS
+    label: Columbia
+    youtube: 9g-1tpqwtMs
+    selector: 草野マサムネ
+  - id: "2025039007"
+    week: 390
+    index: 3244
+    indexInWeek: 7
+    title: Melody Fair
+    artist: Bee Gees
+    year: 1969
+    nation: US
+    label: Atco
+    youtube: -ntXbA2LpHk
+    selector: 草野マサムネ
+  - id: "2025039008"
+    week: 390
+    index: 3245
+    indexInWeek: 8
+    title: えんだん
+    artist: 五つの赤い風船
+    kana: いつつのあかいふうせん
+    year: 1972
+    nation: JPN
+    label: URC
+    youtube: LzYyb8xDCpU
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
