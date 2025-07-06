@@ -1,0 +1,105 @@
+id: "20250392"
+week: 392
+year: 2025
+title: 洋楽アーティストの日本語曲で漫遊記
+guests: []
+categories: []
+date: 2025-07-06
+playlist:
+  - id: "2025039201"
+    week: 392
+    index: 3256
+    indexInWeek: 1
+    title: ナンプラー日和
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039202"
+    week: 392
+    index: 3257
+    indexInWeek: 2
+    title: De Do Do Do, De Da Da Da (Japanese Version)
+    artist: The Police
+    year: 1981
+    nation: UK
+    label: A&M
+    youtube: mlwo_FNONHU
+    selector: 草野マサムネ
+  - id: "2025039203"
+    week: 392
+    index: 3258
+    indexInWeek: 3
+    title: I Belong in Your Arms (Japanese Version)
+    artist: Chairlift
+    year: 2012
+    nation: US
+    label: Kanine
+    youtube: 6RRc0T3l1Co
+    selector: 草野マサムネ
+  - id: "2025039204"
+    week: 392
+    index: 3259
+    indexInWeek: 4
+    title: Lowdown - Japanese
+    artist: Chicago
+    year: 1972
+    nation: US
+    label: Columbia
+    youtube: kQRZzFz8Od4
+    selector: 草野マサムネ
+  - id: "2025039205"
+    week: 392
+    index: 3260
+    indexInWeek: 5
+    title: 恋する風船 (Poupées, Ballons Et Chocolats)
+    artist: Danielle Denin
+    year: 1967
+    nation: FR
+    label: Philips
+    selector: 草野マサムネ
+  - id: "2025039206"
+    week: 392
+    index: 3261
+    indexInWeek: 6
+    title: Oh Claire
+    artist: Cheap Trick
+    year: 1978
+    nation: US
+    label: Epic
+    youtube: prAuJDvb_WM
+    selector: 草野マサムネ
+  - id: "2025039207"
+    week: 392
+    index: 3262
+    indexInWeek: 7
+    title: Teo Torriatte (Let Us Cling Together)
+    artist: Queen
+    year: 1976
+    nation: UK
+    label: EMI
+    youtube: n_1oZwOe0z8
+    selector: 草野マサムネ
+  - id: "2025039208"
+    week: 392
+    index: 3263
+    indexInWeek: 8
+    title: 朝は近い
+    artist: スコット&リバース
+    year: 2013
+    nation: JPN
+    label: DELICIOUS DELI
+    selector: 草野マサムネ
+  - id: "2025039209"
+    week: 392
+    index: 3264
+    indexInWeek: 9
+    title: 満月の丸バナナ
+    artist: たま
+    year: 1997
+    nation: JPN
+    label: パイオニアLDC
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
