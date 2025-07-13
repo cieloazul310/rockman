@@ -1,0 +1,97 @@
+id: "20250393"
+week: 393
+year: 2025
+title: ビッグ・カントリーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-07-13
+playlist:
+  - id: "2025039301"
+    week: 393
+    index: 3265
+    indexInWeek: 1
+    title: 野生のポルカ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039302"
+    week: 393
+    index: 3266
+    indexInWeek: 2
+    title: In a Big Country
+    artist: Big Country
+    year: 1983
+    nation: UK
+    label: Mercury
+    youtube: tM9I6ZtpThM
+    selector: 草野マサムネ
+  - id: "2025039303"
+    week: 393
+    index: 3267
+    indexInWeek: 3
+    title: Fields of Fire
+    artist: Big Country
+    year: 1983
+    nation: UK
+    label: Mercury
+    youtube: 19eti8Lf2Zo
+    selector: 草野マサムネ
+  - id: "2025039304"
+    week: 393
+    index: 3268
+    indexInWeek: 4
+    title: Where the Rose Is Sown
+    artist: Big Country
+    year: 1984
+    nation: UK
+    label: Mercury
+    youtube: 9x46a2enUws
+    selector: 草野マサムネ
+  - id: "2025039305"
+    week: 393
+    index: 3269
+    indexInWeek: 5
+    title: Tall Ships Go
+    artist: Big Country
+    year: 1984
+    nation: UK
+    label: Mercury
+    youtube: hGXffL39f58
+    selector: 草野マサムネ
+  - id: "2025039306"
+    week: 393
+    index: 3270
+    indexInWeek: 6
+    title: Seven Waves
+    artist: Big Country
+    year: 1993
+    nation: UK
+    label: Complusion
+    youtube: p2kg4ij1LmU
+    selector: 草野マサムネ
+  - id: "2025039307"
+    week: 393
+    index: 3271
+    indexInWeek: 7
+    title: In a Broken Promise Land
+    artist: Big Country
+    year: 2013
+    nation: UK
+    label: Cherry Red
+    youtube: tW4K-wDticY
+    selector: 草野マサムネ
+  - id: "2025039308"
+    week: 393
+    index: 3272
+    indexInWeek: 8
+    title: 夜が明けて
+    artist: 坂本スミ子
+    kana: さかもとすみこ
+    year: 1971
+    nation: JPN
+    label: CBS・ソニー
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
