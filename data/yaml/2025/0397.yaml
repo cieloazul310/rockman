@@ -1,0 +1,98 @@
+id: "20250397"
+week: 397
+year: 2025
+title: The Go! Teamで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-08-10
+playlist:
+  - id: "2025039701"
+    week: 397
+    index: 3297
+    indexInWeek: 1
+    title: リコリス
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039702"
+    week: 397
+    index: 3298
+    indexInWeek: 2
+    title: Semicircle Song
+    artist: The Go! Team
+    year: 2018
+    nation: UK
+    label: Memphis Industries
+    youtube: kwCJIQ25sV4
+    selector: 草野マサムネ
+  - id: "2025039703"
+    week: 397
+    index: 3299
+    indexInWeek: 3
+    title: Get It Together
+    artist: The Go! Team
+    year: 2004
+    nation: UK
+    label: Memphis Industries
+    youtube: ht0yLJt7K4I
+    selector: 草野マサムネ
+  - id: "2025039704"
+    week: 397
+    index: 3300
+    indexInWeek: 4
+    title: Doing It Righ
+    artist: The Go! Team
+    year: 2007
+    nation: UK
+    label: Memphis Industries
+    youtube: p_LoSqyNmeo
+    selector: 草野マサムネ
+  - id: "2025039705"
+    week: 397
+    index: 3301
+    indexInWeek: 5
+    title: Secretary Song
+    artist: The Go! Team
+    year: 2011
+    nation: UK
+    label: Memphis Industries
+    youtube: q41DBQ_psRk
+    selector: 草野マサムネ
+  - id: "2025039706"
+    week: 397
+    index: 3302
+    indexInWeek: 6
+    title: The Scene Between
+    artist: The Go! Team
+    year: 2015
+    nation: UK
+    label: Memphis Industries
+    youtube: iw_F3tzI3NM
+    selector: 草野マサムネ
+  - id: "2025039707"
+    week: 397
+    index: 3303
+    indexInWeek: 7
+    title: Divebomb
+    artist: The Go! Team
+    year: 2023
+    nation: UK
+    label: Memphis Industries
+    youtube: lk6Z-eO0e7U
+    selector: 草野マサムネ
+  - id: "2025039708"
+    week: 397
+    index: 3304
+    indexInWeek: 8
+    title: 回転木馬に僕と猫
+    artist: 中山うり
+    kana: なかやまうり
+    year: 2010
+    nation: JPN
+    label: apart.RECORDS
+    youtube: kGtOJaHpQAY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
