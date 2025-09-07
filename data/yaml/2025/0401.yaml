@@ -1,0 +1,97 @@
+id: "20250401"
+week: 401
+year: 2025
+title: スモール・イン・ジャパンで漫遊記
+guests: []
+categories: []
+date: 2025-09-07
+playlist:
+  - id: "2025040101"
+    week: 401
+    index: 3331
+    indexInWeek: 1
+    title: 夏の魔物
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040102"
+    week: 401
+    index: 3332
+    indexInWeek: 2
+    title: Back in Black
+    artist: AC/DC
+    year: 1980
+    nation: AUS
+    label: Albert
+    youtube: 6vImyP5EYc8
+    selector: 草野マサムネ
+  - id: "2025040103"
+    week: 401
+    index: 3333
+    indexInWeek: 3
+    title: Bat Out of Hell
+    artist: Meat Loaf
+    year: 1978
+    nation: AUS
+    label: Epic
+    youtube: 3QGMCSCFoKA
+    selector: 草野マサムネ
+  - id: "2025040104"
+    week: 401
+    index: 3334
+    indexInWeek: 4
+    title: Down Down
+    artist: Status Quo
+    year: 1975
+    nation: UK
+    label: Vertigo
+    youtube: BIEw1vhtXCQ
+    selector: 草野マサムネ
+  - id: "2025040105"
+    week: 401
+    index: 3335
+    indexInWeek: 5
+    title: Tom Sawyer
+    artist: Rush
+    year: 1981
+    nation: CAN
+    label: Anthem
+    youtube: A9ZbiBdJLv8
+    selector: 草野マサムネ
+  - id: "2025040106"
+    week: 401
+    index: 3336
+    indexInWeek: 6
+    title: Ghosts Again
+    artist: Depeche Mode
+    year: 2023
+    nation: UK
+    label: Columbia
+    youtube: iIyrLRixMs8
+    selector: 草野マサムネ
+  - id: "2025040107"
+    week: 401
+    index: 3337
+    indexInWeek: 7
+    title: Gotta Be Somebody
+    artist: Nickelback
+    year: 2008
+    nation: CAN
+    label: Roadrunner
+    youtube: Q0VRj2uw9L0
+    selector: 草野マサムネ
+  - id: "2025040108"
+    week: 401
+    index: 3338
+    indexInWeek: 8
+    title: カーニバる?
+    artist: ナオト・インティライミ
+    year: 2010
+    nation: JPN
+    label: ユニバーサルシグマ
+    youtube: GjdwsmUwhJI
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
