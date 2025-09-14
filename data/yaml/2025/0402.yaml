@@ -1,0 +1,96 @@
+id: "20250402"
+week: 402
+year: 2025
+title: シアトルのグランジで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2025-09-14
+playlist:
+  - id: "2025040201"
+    week: 402
+    index: 3339
+    indexInWeek: 1
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040202"
+    week: 402
+    index: 3340
+    indexInWeek: 2
+    title: Smells Like Teen Spirit
+    artist: Nirvana
+    year: 1991
+    nation: US
+    label: DGC
+    youtube: zucJHYwi2Uc
+    selector: 草野マサムネ
+  - id: "2025040203"
+    week: 402
+    index: 3341
+    indexInWeek: 3
+    title: Swallow My Pride
+    artist: Green River
+    year: 1988
+    nation: US
+    label: Sub Pop
+    youtube: 54ioi2qL5Z4
+    selector: 草野マサムネ
+  - id: "2025040204"
+    week: 402
+    index: 3342
+    indexInWeek: 4
+    title: This Is Shangrila
+    artist: Mother Love Bone
+    year: 1990
+    nation: US
+    label: Stardog/Mercury
+    youtube: bB69ZfWoKqE
+    selector: 草野マサムネ
+  - id: "2025040205"
+    week: 402
+    index: 3343
+    indexInWeek: 5
+    title: Let It Slide
+    artist: Mudhoney
+    year: 1991
+    nation: US
+    label: Sub Pop
+    youtube: z9iswny-8Vw
+    selector: 草野マサムネ
+  - id: "2025040206"
+    week: 402
+    index: 3344
+    indexInWeek: 6
+    title: Jeremy
+    artist: Pearl Jam
+    year: 1991
+    nation: US
+    label: Epic
+    youtube: 3g1Tu2Ulrk0
+    selector: 草野マサムネ
+  - id: "2025040207"
+    week: 402
+    index: 3345
+    indexInWeek: 7
+    title: We Die Young
+    artist: Alice in Chains
+    year: 1990
+    nation: US
+    label: Columbia
+    youtube: 6JA25BIxgtk
+    selector: 草野マサムネ
+  - id: "2025040208"
+    week: 402
+    index: 3346
+    indexInWeek: 8
+    title: Rusty Cage
+    artist: Soundgarden
+    year: 1991
+    nation: US
+    label: Sub Pop
+    youtube: pBZs_Py-1_0
+    selector: 草野マサムネ
