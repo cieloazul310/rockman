@@ -1,0 +1,97 @@
+id: "20250404"
+week: 404
+year: 2025
+title: クラビネットで漫遊記
+guests: []
+categories: ["楽器"]
+date: 2025-09-28
+playlist:
+  - id: "2025040401"
+    week: 404
+    index: 3356
+    indexInWeek: 1
+    title: 祈りはきっと
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040402"
+    week: 404
+    index: 3357
+    indexInWeek: 2
+    title: Superstition
+    artist: Stevie Wonder
+    year: 1972
+    nation: US
+    label: Tamia
+    youtube: 97hwNY3ni10
+    selector: 草野マサムネ
+  - id: "2025040403"
+    week: 404
+    index: 3358
+    indexInWeek: 3
+    title: Outa-Space
+    artist: Billy Preston
+    year: 1971
+    nation: US
+    label: A&M
+    youtube: jqFd7JKThdA
+    selector: 草野マサムネ
+  - id: "2025040404"
+    week: 404
+    index: 3359
+    indexInWeek: 4
+    title: Trampled Under Foot
+    artist: Led Zeppelin
+    year: 1975
+    nation: US
+    label: Swan Song
+    youtube: 6qhS_sMZExU
+    selector: 草野マサムネ
+  - id: "2025040405"
+    week: 404
+    index: 3360
+    indexInWeek: 5
+    title: Juicy Luicy
+    artist: Klaatu
+    year: 1978
+    nation: CAN
+    label: Daffodil
+    youtube: DiV1RlzNyy4
+    selector: 草野マサムネ
+  - id: "2025040406"
+    week: 404
+    index: 3361
+    indexInWeek: 6
+    title: Lonely Teardrops
+    artist: Blue Öyster Cult
+    year: 1979
+    nation: UK
+    label: Columbia
+    youtube: uFnhs5S_B0c
+    selector: 草野マサムネ
+  - id: "2025040407"
+    week: 404
+    index: 3362
+    indexInWeek: 7
+    title: Free Ride
+    artist: The Edgar Winter Group
+    year: 1972
+    nation: US
+    label: Epic
+    youtube: rTEtdgdfXAo
+    selector: 草野マサムネ
+  - id: "2025040408"
+    week: 404
+    index: 3363
+    indexInWeek: 8
+    title: どんたく
+    artist: サディスティック・ミカ・バンド
+    year: 1974
+    nation: JPN
+    label: 東芝EMI
+    youtube: PB1OR8k9mRU
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
