@@ -1,0 +1,98 @@
+id: "20250408"
+week: 408
+year: 2025
+title: あなたが最初に夢中になったアーティストで漫遊記・パート1
+guests: []
+categories: ["リクエスト特集"]
+date: 2025-10-26
+playlist:
+  - id: "2025040801"
+    week: 408
+    index: 3389
+    indexInWeek: 1
+    title: ロビンソン
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    youtube: 51CH3dPaWXc
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040802"
+    week: 408
+    index: 3390
+    indexInWeek: 2
+    title: CROSS ROAD
+    artist: Mr.Children
+    year: 1993
+    nation: JPN
+    label: トイズファクトリー
+    youtube: C4zJfYA_ur8
+    selector: リクエスト
+  - id: "2025040803"
+    week: 408
+    index: 3391
+    indexInWeek: 3
+    title: Bohemian Rhapsody
+    artist: Queen
+    year: 1975
+    nation: UK
+    label: EMI
+    youtube: fJ9rUzIMcZQ
+    selector: リクエスト
+  - id: "2025040804"
+    week: 408
+    index: 3392
+    indexInWeek: 4
+    title: Lucky Chanceをもう一度
+    artist: C-C-B
+    year: 1985
+    nation: JPN
+    label: ポリドール
+    youtube: WlKdZfaycb4
+    selector: リクエスト
+  - id: "2025040805"
+    week: 408
+    index: 3393
+    indexInWeek: 5
+    title: Hungry Like the Wolf
+    artist: Duran Duran
+    year: 1982
+    nation: UK
+    label: EMI
+    youtube: oJL-lCzEXgI
+    selector: リクエスト
+  - id: "2025040806"
+    week: 408
+    index: 3394
+    indexInWeek: 6
+    title: バーチャルセックス
+    artist: betcover!!
+    year: 2023
+    nation: JPN
+    label: 自主制作
+    youtube: C_ix8WeJ9R4
+    selector: リクエスト
+  - id: "2025040807"
+    week: 408
+    index: 3395
+    indexInWeek: 7
+    title: New Song
+    artist: Howard Jones
+    year: 1984
+    nation: UK
+    label: WEA
+    youtube: 9fjg7N_mGaU
+    selector: リクエスト
+  - id: "2025040808"
+    week: 408
+    index: 3396
+    indexInWeek: 8
+    title: Hold On Me
+    artist: 小比類巻かほる
+    kana: こひるいまきかほる
+    year: 1987
+    nation: JPN
+    label: EPIC・ソニー
+    youtube: ja1ymJQt1z0
+    selector: リクエスト
