@@ -1,13 +1,13 @@
-id: "20250408"
-week: 408
+id: "20250409"
+week: 409
 year: 2025
 title: あなたが最初に夢中になったアーティストで漫遊記・パート2
 guests: []
 categories: ["リクエスト特集"]
-date: 2025-10-26
+date: 2025-11-02
 playlist:
-  - id: "2025040801"
-    week: 408
+  - id: "2025040901"
+    week: 409
     index: 3397
     indexInWeek: 1
     title: 恋のうた
@@ -17,8 +17,8 @@ playlist:
     label: ポリドール
     corner: 漫遊前の一曲
     selector: 草野マサムネ
-  - id: "2025040802"
-    week: 408
+  - id: "2025040902"
+    week: 409
     index: 3398
     indexInWeek: 2
     title: 星空のディスタンス
@@ -28,8 +28,8 @@ playlist:
     label: F-LABEL
     youtube: JWlQzSkV-Lg
     selector: リクエスト
-  - id: "2025040803"
-    week: 408
+  - id: "2025040903"
+    week: 409
     index: 3399
     indexInWeek: 3
     title: All Night Long
@@ -39,8 +39,8 @@ playlist:
     label: Polydor
     youtube: g2XDORONuuY
     selector: リクエスト
-  - id: "2025040804"
-    week: 408
+  - id: "2025040904"
+    week: 409
     index: 3400
     indexInWeek: 4
     title: さよならビリー・ザ・キッド
@@ -51,8 +51,8 @@ playlist:
     label: メルダック
     youtube: WlKdZfaycb4
     selector: リクエスト
-  - id: "2025040805"
-    week: 408
+  - id: "2025040905"
+    week: 409
     index: 3401
     indexInWeek: 5
     title: 花の首飾り
@@ -62,8 +62,8 @@ playlist:
     label: 日本グラモフォン
     youtube: JUO5oCae_FI
     selector: リクエスト
-  - id: "2025040806"
-    week: 408
+  - id: "2025040906"
+    week: 409
     index: 3402
     indexInWeek: 6
     title: ぞうきん
@@ -73,8 +73,8 @@ playlist:
     label: ポリスター
     youtube: XZ-CGdK0EWE
     selector: リクエスト
-  - id: "2025040807"
-    week: 408
+  - id: "2025040907"
+    week: 409
     index: 3403
     indexInWeek: 7
     title: ロマンス
@@ -84,8 +84,8 @@ playlist:
     label: 日本コロムビア
     youtube: 9fjg7N_mGaU
     selector: リクエスト
-  - id: "2025040808"
-    week: 408
+  - id: "2025040908"
+    week: 409
     index: 3404
     indexInWeek: 8
     title: Can't Help Falling in Love
