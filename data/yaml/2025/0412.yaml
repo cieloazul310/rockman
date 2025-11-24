@@ -1,0 +1,109 @@
+id: "20250412"
+week: 412
+year: 2025
+title: ライトハンド奏法で漫遊記
+guests: []
+categories: ["ギター"]
+date: 2025-11-23
+playlist:
+  - id: "2025041201"
+    week: 412
+    index: 3421
+    indexInWeek: 1
+    title: 大好物
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: QH3hLWdCE3g
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041202"
+    week: 412
+    index: 3422
+    indexInWeek: 2
+    title: Hot for Teacher
+    artist: Van Halen
+    year: 1984
+    nation: US
+    label: Warner Bros.
+    youtube: 6M4_Ommfvv0
+    selector: 草野マサムネ
+  - id: "2025041203"
+    week: 412
+    index: 3423
+    indexInWeek: 3
+    title: Eruption
+    artist: Van Halen
+    year: 1978
+    nation: US
+    label: Warner Bros.
+    youtube: M4Czx8EWXb0
+    selector: 草野マサムネ
+  - id: "2025041204"
+    week: 412
+    index: 3424
+    indexInWeek: 4
+    title: Hell Bent for Leather
+    artist: Judas Priest
+    year: 1978
+    nation: UK
+    label: CBS/Columbia
+    youtube: YXJtz1TgmIM
+    selector: 草野マサムネ
+  - id: "2025041205"
+    week: 412
+    index: 3425
+    indexInWeek: 5
+    title: Too Late
+    artist: Vandenberg
+    year: 1982
+    nation: NED
+    label: ATCO
+    youtube: 5-gNrJJfGQc
+    selector: 草野マサムネ
+  - id: "2025041206"
+    week: 412
+    index: 3426
+    indexInWeek: 6
+    title: (You Can Still) Rock in America
+    artist: Night Ranger
+    year: 1983
+    nation: US
+    label: MCA
+    youtube: gO-v_KGAZIE
+    selector: 草野マサムネ
+  - id: "2025041207"
+    week: 412
+    index: 3427
+    indexInWeek: 7
+    title: Get the Funk Out
+    artist: Extreme
+    year: 1990
+    nation: US
+    label: 	A&M
+    youtube: IqP76XWHQI0
+    selector: 草野マサムネ
+  - id: "2025041208"
+    week: 412
+    index: 3428
+    indexInWeek: 8
+    title: Transformer
+    artist: Marnie Stern
+    year: 2008
+    nation: US
+    label: Kill Rock Stars
+    youtube: l3oxU9-zeiA
+    selector: 草野マサムネ
+  - id: "2025041209"
+    week: 412
+    index: 3429
+    indexInWeek: 9
+    title: ドナドナ
+    artist: SUPER BAD
+    year: 1988
+    nation: JPN
+    label: Moon Records
+    youtube: H0Z9EbVm8hI
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
