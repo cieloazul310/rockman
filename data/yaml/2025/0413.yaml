@@ -1,0 +1,98 @@
+id: "20250413"
+week: 413
+year: 2025
+title: ロックインストで漫遊記
+guests: []
+categories: []
+date: 2025-11-30
+playlist:
+  - id: "2025041301"
+    week: 413
+    index: 3430
+    indexInWeek: 1
+    title: 僕のギター
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041302"
+    week: 413
+    index: 3431
+    indexInWeek: 2
+    title: Captain Nemo
+    artist: The Michael Schenker Group
+    year: 1983
+    nation: GER
+    label: Chrysalis
+    youtube: xS6mbG5yO08
+    selector: 草野マサムネ
+  - id: "2025041303"
+    week: 413
+    index: 3432
+    indexInWeek: 3
+    title: Wire and Wood
+    artist: YYNOT
+    year: 2021
+    nation: US
+    label: 自主制作
+    youtube: -TmJPQzozdg
+    selector: 草野マサムネ
+  - id: "2025041304"
+    week: 413
+    index: 3433
+    indexInWeek: 4
+    title: For Respect
+    artist: Don Caballero
+    year: 1993
+    nation: US
+    label: Touch and Go
+    youtube: 28hGok6TQQ8
+    selector: 草野マサムネ
+  - id: "2025041305"
+    week: 413
+    index: 3434
+    indexInWeek: 5
+    title: Narita
+    artist: Riot
+    year: 1979
+    nation: US
+    label: Capitol
+    youtube: o56ryCy-wFo
+    selector: 草野マサムネ
+  - id: "2025041306"
+    week: 413
+    index: 3435
+    indexInWeek: 6
+    title: Go Dingoes
+    artist: Tabar
+    year: 2010
+    nation: US
+    label: 自主制作
+    youtube: HshorU-1zIY
+    selector: 草野マサムネ
+  - id: "2025041307"
+    week: 413
+    index: 3436
+    indexInWeek: 7
+    title: Radio Protector
+    artist: 65daysofstatic
+    year: 2005
+    nation: US
+    label: Monotreme
+    youtube: zeFl5BBkvss
+    selector: 草野マサムネ
+  - id: "2025041308"
+    week: 413
+    index: 3437
+    indexInWeek: 8
+    title: Chance!
+    artist: 白井貴子
+    kana: しらいたかこ
+    year: 1984
+    nation: JPN
+    label: CBS・ソニー
+    youtube: mCb7BClLBqY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
