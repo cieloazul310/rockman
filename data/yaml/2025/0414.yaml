@@ -1,0 +1,86 @@
+id: "20250414"
+week: 414
+year: 2025
+title: マウンテンで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-12-07
+playlist:
+  - id: "2025041401"
+    week: 414
+    index: 3438
+    indexInWeek: 1
+    title: 楓
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    youtube: YapsFDcGe_s
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041402"
+    week: 414
+    index: 3439
+    indexInWeek: 2
+    title: Theme for an Imaginary Western
+    artist: Mountain
+    year: 1970
+    nation: US
+    label: Windfall
+    youtube: 6Dcz-WxOeFk
+    selector: 草野マサムネ
+  - id: "2025041403"
+    week: 414
+    index: 3440
+    indexInWeek: 3
+    title: Mississippi Queen
+    artist: Mountain
+    year: 1970
+    nation: US
+    label: Windfall
+    youtube: qEnF6EB-yMs
+    selector: 草野マサムネ
+  - id: "2025041404"
+    week: 414
+    index: 3441
+    indexInWeek: 4
+    title: Don't Look Around
+    artist: Mountain
+    year: 1971
+    nation: US
+    label: Windfall
+    youtube: oIyXrQJJ0xo
+    selector: 草野マサムネ
+  - id: "2025041405"
+    week: 414
+    index: 3442
+    indexInWeek: 5
+    title: Nantucket Sleighride (to Owen Coffin)
+    artist: Mountain
+    year: 1971
+    nation: US
+    label: Windfall
+    youtube: cPlxsQn5xBI
+    selector: 草野マサムネ
+  - id: "2025041406"
+    week: 414
+    index: 3443
+    indexInWeek: 6
+    title: Immortal
+    artist: Mountain
+    year: 2002
+    nation: US
+    label: Lightyear Entertainment
+    selector: 草野マサムネ
+  - id: "2025041407"
+    week: 414
+    index: 3444
+    indexInWeek: 7
+    title: SECRET SUMMERSHINE
+    artist: Electric Glass Balloon
+    year: 1994
+    nation: JPN
+    label: ミディ
+    youtube: GqpaY4AKsVg
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
