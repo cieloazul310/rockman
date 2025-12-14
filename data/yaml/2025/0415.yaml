@@ -1,0 +1,103 @@
+id: "20250415"
+week: 415
+year: 2025
+title: スピッツ昆虫記
+guests: []
+categories: ["スピッツ曲"]
+date: 2025-12-14
+playlist:
+  - id: "2025041501"
+    week: 415
+    index: 3445
+    indexInWeek: 1
+    title: グラスホッパー
+    artist: ASIAN KUNG-FU GENERATION
+    year: 2015
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041502"
+    week: 415
+    index: 3446
+    indexInWeek: 2
+    title: ハチの針
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2025041503"
+    week: 415
+    index: 3447
+    indexInWeek: 3
+    title: ホタル
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    youtube: SWYwl0vIV60
+    selector: 草野マサムネ
+  - id: "2025041504"
+    week: 415
+    index: 3448
+    indexInWeek: 4
+    title: 鈴虫を飼う
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2025041505"
+    week: 415
+    index: 3449
+    indexInWeek: 5
+    title: オケラ
+    artist: スピッツ
+    year: 2009
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2025041506"
+    week: 415
+    index: 3450
+    indexInWeek: 6
+    title: 花と虫
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2025041507"
+    week: 415
+    index: 3451
+    indexInWeek: 7
+    title: スパイダー
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ユニバーサル
+    youtube: mf-RrGndfC8
+    selector: 草野マサムネ
+  - id: "2025041508"
+    week: 415
+    index: 3452
+    indexInWeek: 8
+    title: 宇宙虫
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2025041509"
+    week: 415
+    index: 3453
+    indexInWeek: 9
+    title: 白い蝶のサンバ
+    artist: 森山加代子
+    kana: もりやまかよこ
+    year: 1970
+    nation: JPN
+    label: DENON
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ
