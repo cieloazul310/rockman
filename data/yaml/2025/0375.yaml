@@ -1,0 +1,98 @@
+id: "20250375"
+week: 375
+year: 2025
+title: ついつい聴いちゃうメタルナンバーで漫遊記
+guests: []
+categories: []
+date: 2025-03-09
+playlist:
+  - id: "2025037501"
+    week: 375
+    index: 3114
+    indexInWeek: 1
+    title: りありてぃ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037502"
+    week: 375
+    index: 3115
+    indexInWeek: 2
+    title: Stand Up and Shout
+    artist: Dio
+    year: 1983
+    nation: UK
+    label: Warner Bros.
+    youtube: nBCntJHLanI
+    selector: 草野マサムネ
+  - id: "2025037503"
+    week: 375
+    index: 3116
+    indexInWeek: 3
+    title: Tired of Me
+    artist: ACCEPT
+    year: 1979
+    nation: GER
+    label: Brain Metronome GmbH
+    youtube: Xgs_-vNwQE4
+    selector: 草野マサムネ
+  - id: "2025037504"
+    week: 375
+    index: 3117
+    indexInWeek: 4
+    title: Ashes To Ashes
+    artist: Limelight
+    year: 1980
+    nation: UK
+    label: Future Earth Records
+    youtube: 47fvpVeDhCs
+    selector: 草野マサムネ
+  - id: "2025037505"
+    week: 375
+    index: 3118
+    indexInWeek: 5
+    title: Moon Magic
+    artist: Witchfynde
+    year: 1980
+    nation: UK
+    label: Rondelet
+    youtube: AU_adPMYKvU
+    selector: 草野マサムネ
+  - id: "2025037506"
+    week: 375
+    index: 3119
+    indexInWeek: 6
+    title: Join the Legion
+    artist: Cirith Ungol
+    year: 1990
+    nation: US
+    label: Restless
+    youtube: arbKXu3W1v8
+    selector: 草野マサムネ
+  - id: "2025037507"
+    week: 375
+    index: 3120
+    indexInWeek: 7
+    title: Any Means Necessary
+    artist: HammerFall
+    year: 2009
+    nation: US
+    label: Nuclear Blast
+    youtube: vkmlujV-TvU
+    selector: 草野マサムネ
+  - id: "2025037508"
+    week: 375
+    index: 3121
+    indexInWeek: 8
+    title: 手切れ金
+    artist: 大友裕子
+    kana: おおともゆうこ
+    year: 1979
+    nation: JPN
+    label: 東芝EMI / EXPRESS
+    youtube: nlyPXYQq4qM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

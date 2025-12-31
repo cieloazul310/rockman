@@ -1,0 +1,109 @@
+id: "20250403"
+week: 403
+year: 2025
+title: ザ・ポーグスで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-09-21
+playlist:
+  - id: "2025040301"
+    week: 403
+    index: 3347
+    indexInWeek: 1
+    title: 初恋クレイジー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040302"
+    week: 403
+    index: 3348
+    indexInWeek: 2
+    title: If I Should Fall from Grace with God
+    artist: The Pogues
+    year: 1988
+    nation: UK
+    label: Pogue Mahone
+    youtube: m0NqKgribEM
+    selector: 草野マサムネ
+  - id: "2025040303"
+    week: 403
+    index: 3349
+    indexInWeek: 3
+    title: Dark Streets of London
+    artist: The Pogues
+    year: 1984
+    nation: UK
+    label: Stiff
+    youtube: fc6wJlLLe5Q
+    selector: 草野マサムネ
+  - id: "2025040304"
+    week: 403
+    index: 3350
+    indexInWeek: 4
+    title: Sally MacLennane
+    artist: The Pogues
+    year: 1985
+    nation: UK
+    label: Stiff
+    youtube: ym-Oz0TMSb0
+    selector: 草野マサムネ
+  - id: "2025040305"
+    week: 403
+    index: 3351
+    indexInWeek: 5
+    title: Fairytale of New York
+    artist: The Pogues
+    year: 1988
+    nation: UK
+    label: Pogue Mahone
+    youtube: j9jbdgZidu8
+    selector: 草野マサムネ
+  - id: "2025040306"
+    week: 403
+    index: 3352
+    indexInWeek: 6
+    title: Fiesta
+    artist: The Pogues
+    year: 1988
+    nation: UK
+    label: Pogue Mahone
+    youtube: jyhgTOEDNs8
+    selector: 草野マサムネ
+  - id: "2025040307"
+    week: 403
+    index: 3353
+    indexInWeek: 7
+    title: Yeah Yeah Yeah Yeah Yeah
+    artist: The Pogues
+    year: 1988
+    nation: UK
+    label: Pogue Mahone
+    youtube: W-JdFM41RUg
+    selector: 草野マサムネ
+  - id: "2025040308"
+    week: 403
+    index: 3354
+    indexInWeek: 8
+    title: Whiskey in the Jar
+    artist: The Pogues and The Dubliners
+    year: 1990
+    nation: UK
+    label: Pogue Mahone
+    youtube: -DxWvN26ALA
+    selector: 草野マサムネ
+  - id: "2025040309"
+    week: 403
+    index: 3355
+    indexInWeek: 9
+    title: 惜春賦
+    artist: 手風琴
+    kana: てふうきん
+    year: 1982
+    nation: JPN
+    label: VAP
+    youtube: zVfSqvqieMk
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

@@ -1072,24 +1072,6 @@
       index: 1
       title: 猫ちぐら
 
-#- id: sg44
-#  albumIdNum: 244
-#  year: 2021
-#  title: 紫の夜を越えて
-#  tunes:
-#    - id: "024401"
-#      index: 1
-#      title: 紫の夜を越えて
-
-#- id: sg45
-#  albumIdNum: 245
-#  year: 2021
-#  title: 大好物
-#  tunes:
-#    - id: "024501"
-#      index: 1
-#      title: 大好物
-
 - id: sg46
   albumIdNum: 246
   year: 2023
@@ -1101,6 +1083,15 @@
     - id: "024603"
       index: 3
       title: アケホノ
+
+- id: sg47
+  albumIdNum: 247
+  year: 2025
+  title: 灯を護る
+  tunes:
+    - id: "024701"
+      index: 1
+      title: 灯を護る
 
 - id: tr200212
   albumIdNum: 3002

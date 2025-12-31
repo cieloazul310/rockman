@@ -1,0 +1,97 @@
+id: "20250395"
+week: 395
+year: 2025
+title: オランダのロックバンドで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2025-07-27
+playlist:
+  - id: "2025039501"
+    week: 395
+    index: 3281
+    indexInWeek: 1
+    title: 渚
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: B7T4NNNWeHg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039502"
+    week: 395
+    index: 3282
+    indexInWeek: 2
+    title: Back Home
+    artist: Golden Earring
+    year: 1970
+    nation: NED
+    label: Polydor
+    youtube: m9bkcvUg6ME
+    selector: 草野マサムネ
+  - id: "2025039503"
+    week: 395
+    index: 3283
+    indexInWeek: 3
+    title: Hot Sand
+    artist: Shocking Blue
+    year: 1969
+    nation: NED
+    label: Pink Elephant
+    youtube: xgeOpqoDfno
+    selector: 草野マサムネ
+  - id: "2025039504"
+    week: 395
+    index: 3284
+    indexInWeek: 4
+    title: Hocus Pocus
+    artist: Focus
+    year: 1971
+    nation: NED
+    label: Imperial
+    youtube: MV0F_XiR48Q
+    selector: 草野マサムネ
+  - id: "2025039505"
+    week: 395
+    index: 3285
+    indexInWeek: 5
+    title: Out in the Streets
+    artist: Vandenberg
+    year: 1982
+    nation: NED
+    label: ATCO
+    youtube: PHKxyMPtzTg
+    selector: 草野マサムネ
+  - id: "2025039506"
+    week: 395
+    index: 3286
+    indexInWeek: 6
+    title: San Francisco Swim
+    artist: Close Up
+    year: 2015
+    nation: NED
+    label: Close Up Music
+    youtube: -plFC3BdarM
+    selector: 草野マサムネ
+  - id: "2025039507"
+    week: 395
+    index: 3287
+    indexInWeek: 7
+    title: Reading Material
+    artist: The Klittens
+    year: 2024
+    nation: NED
+    label: The Klittens
+    youtube: o2YMPYpcxbY
+    selector: 草野マサムネ
+  - id: "2025039508"
+    week: 395
+    index: 3288
+    indexInWeek: 8
+    title: 君に言えなくて
+    artist: TAM TAM
+    year: 1994
+    nation: JPN
+    label: シックスティレコード
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

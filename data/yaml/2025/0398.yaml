@@ -1,0 +1,108 @@
+id: "20250398"
+week: 398
+year: 2025
+title: The Whoのカバー曲で漫遊記
+guests: []
+categories: ["変則アーティスト特集"]
+date: 2025-08-17
+playlist:
+  - id: "2025039801"
+    week: 398
+    index: 3305
+    indexInWeek: 1
+    title: 放浪カモメはどこまでも
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    youtube: gV-F23mqKhU
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039802"
+    week: 398
+    index: 3306
+    indexInWeek: 2
+    title: My Generation
+    artist: Sweet
+    year: 1974
+    nation: UK
+    label: RCA
+    youtube: 8lNZM_Jjug4
+    selector: 草野マサムネ
+  - id: "2025039803"
+    week: 398
+    index: 3307
+    indexInWeek: 3
+    title: Anyway, Anyhow, Anywhere
+    artist: David Bowie
+    year: 1973
+    nation: UK
+    label: RCA
+    youtube: tF6cM-_CHic
+    selector: 草野マサムネ
+  - id: "2025039804"
+    week: 398
+    index: 3308
+    indexInWeek: 4
+    title: Substitute
+    artist: Sex Pistols
+    year: 1979
+    nation: UK
+    label: Virgin
+    youtube: sDpSWmgFWKQ
+    selector: 草野マサムネ
+  - id: "2025039805"
+    week: 398
+    index: 3309
+    indexInWeek: 5
+    title: PICTURES OF LILY
+    artist: THE COLLECTORS
+    year: 2005
+    nation: JPN
+    label: TRIAD
+    youtube: 1rH6JRmaV6w
+    selector: 草野マサムネ
+  - id: "2025039806"
+    week: 398
+    index: 3310
+    indexInWeek: 6
+    title: I Can't Explain
+    artist: Yvonne Elliman
+    year: 1973
+    nation: US
+    label: MCA
+    youtube: -sLWIOTUTQA
+    selector: 草野マサムネ
+  - id: "2025039807"
+    week: 398
+    index: 3311
+    indexInWeek: 7
+    title: Pinball Wizard
+    artist: Elton John
+    year: 1975
+    nation: UK
+    label: DJM
+    youtube: H_r_dWenKhk
+    selector: 草野マサムネ
+  - id: "2025039808"
+    week: 398
+    index: 3312
+    indexInWeek: 8
+    title: The Kids Are Alright
+    artist: Hi-STANDARD
+    year: 1996
+    nation: JPN
+    label: Toy's Factory
+    youtube: PRqR1PdvVt8
+    selector: 草野マサムネ
+  - id: "2025039809"
+    week: 398
+    index: 3313
+    indexInWeek: 9
+    title: 恋愛
+    artist: オセロケッツ
+    year: 1999
+    nation: JPN
+    label: Sony Records
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

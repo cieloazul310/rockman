@@ -1,0 +1,96 @@
+id: "20250388"
+week: 388
+year: 2025
+title: UFOで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-06-08
+playlist:
+  - id: "2025038801"
+    week: 388
+    index: 3222
+    indexInWeek: 1
+    title: ナサケモノ
+    artist: スピッツ
+    year: 2016
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038802"
+    week: 388
+    index: 3223
+    indexInWeek: 2
+    title: C'mon Everybody
+    artist: UFO
+    year: 1970
+    nation: UK
+    label: Beacon
+    youtube: _lwSZTrl6Oo
+    selector: 草野マサムネ
+  - id: "2025038803"
+    week: 388
+    index: 3224
+    indexInWeek: 3
+    title: Doctor Doctor
+    artist: UFO
+    year: 1974
+    nation: UK
+    label: Chrysails
+    youtube: J-U5H6hmw6E
+    selector: 草野マサムネ
+  - id: "2025038804"
+    week: 388
+    index: 3225
+    indexInWeek: 4
+    title: Let It Roll
+    artist: UFO
+    year: 1975
+    nation: UK
+    label: Chrysails
+    selector: 草野マサムネ
+  - id: "2025038805"
+    week: 388
+    index: 3226
+    indexInWeek: 5
+    title: Hot 'n' Ready
+    artist: UFO
+    year: 1978
+    nation: UK
+    label: Chrysails
+    youtube: krIVtTCEiS4
+    selector: 草野マサムネ
+  - id: "2025038806"
+    week: 388
+    index: 3227
+    indexInWeek: 6
+    title: Long Gone
+    artist: UFO
+    year: 1981
+    nation: UK
+    label: Chrysails
+    youtube: _gW0EgW4nzg
+    selector: 草野マサムネ
+  - id: "2025038807"
+    week: 388
+    index: 3228
+    indexInWeek: 7
+    title: Deadman Walking
+    artist: UFO
+    year: 2002
+    nation: UK
+    label: Shrapnel
+    youtube: py-AAu6ogbE
+    selector: 草野マサムネ
+  - id: "2025038808"
+    week: 388
+    index: 3229
+    indexInWeek: 8
+    title: Kiss In The Dark
+    artist: ピンク・レディー
+    year: 1979
+    nation: JPN
+    label: ビクター音楽産業
+    youtube: zljmqdHNfD8
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

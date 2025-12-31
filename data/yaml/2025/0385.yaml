@@ -1,0 +1,96 @@
+id: "20250385"
+week: 385
+year: 2025
+title: イタリアのロックで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2025-05-18
+playlist:
+  - id: "2025038501"
+    week: 385
+    index: 3198
+    indexInWeek: 1
+    title: 猫になりたい
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038502"
+    week: 385
+    index: 3199
+    indexInWeek: 2
+    title: Beggin'
+    artist: Måneskin
+    year: 2017
+    nation: ITA
+    label: Sony
+    youtube: Qdkt3I5-FG4
+    selector: 草野マサムネ
+  - id: "2025038503"
+    week: 385
+    index: 3200
+    indexInWeek: 3
+    title: Davanti Agli Occhi Miei
+    artist: New Trolls
+    year: 1970
+    nation: ITA
+    label: Cntra
+    youtube: Syanu7FiRa8
+    selector: 草野マサムネ
+  - id: "2025038504"
+    week: 385
+    index: 3201
+    indexInWeek: 4
+    title: Celebration
+    artist: Premiata Forneria Marconi
+    year: 1973
+    nation: ITA
+    label: Manticore
+    youtube: lrZNUEps6Y4
+    selector: 草野マサムネ
+  - id: "2025038505"
+    week: 385
+    index: 3202
+    indexInWeek: 5
+    title: Zombi
+    artist: Goblin
+    year: 1978
+    nation: ITA
+    label: Cinevox
+    youtube: KZXv404AgFo
+    selector: 草野マサムネ
+  - id: "2025038506"
+    week: 385
+    index: 3203
+    indexInWeek: 6
+    title: Chi fermerà la musica
+    artist: I Pooh
+    year: 1981
+    nation: ITA
+    label: CBS
+    youtube: 1shjAdYxaA0
+    selector: 草野マサムネ
+  - id: "2025038507"
+    week: 385
+    index: 3204
+    indexInWeek: 7
+    title: Carolina Reaper
+    artist: Hell In The Club
+    year: 2024
+    nation: ITA
+    label: Frontier
+    youtube: Up2YkANChDY
+    selector: 草野マサムネ
+  - id: "2025038508"
+    week: 385
+    index: 3205
+    indexInWeek: 8
+    title: 白い波
+    artist: ヒデとロザンナ
+    year: 1978
+    nation: JPN
+    label: Reprise
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

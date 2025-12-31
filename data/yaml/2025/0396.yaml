@@ -1,0 +1,97 @@
+id: "20250396"
+week: 396
+year: 2025
+title: ナイル・ロジャースのプロデュース曲で漫遊記
+guests: []
+categories: ["プロデューサー特集"]
+date: 2025-08-03
+playlist:
+  - id: "2025039601"
+    week: 396
+    index: 3289
+    indexInWeek: 1
+    title: YM71D
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039602"
+    week: 396
+    index: 3290
+    indexInWeek: 2
+    title: The Reflex
+    artist: Duran Duran
+    year: 1984
+    nation: UK
+    label: EMI
+    youtube: J5ebkj9x5Ko
+    selector: 草野マサムネ
+  - id: "2025039603"
+    week: 396
+    index: 3291
+    indexInWeek: 3
+    title: Good Times
+    artist: Chic
+    year: 1979
+    nation: US
+    label: Atlantic
+    youtube: PP_JBPGkd-Y
+    selector: 草野マサムネ
+  - id: "2025039604"
+    week: 396
+    index: 3292
+    indexInWeek: 4
+    title: Let's Dance
+    artist: David Bowie
+    year: 1983
+    nation: UK
+    label: EMI
+    youtube: VbD_kBJc_gI
+    selector: 草野マサムネ
+  - id: "2025039605"
+    week: 396
+    index: 3293
+    indexInWeek: 5
+    title: Original Sin
+    artist: INXS
+    year: 1983
+    nation: AUS
+    label: WEA
+    youtube: PTULqzrhBWA
+    selector: 草野マサムネ
+  - id: "2025039606"
+    week: 396
+    index: 3294
+    indexInWeek: 6
+    title: Like a Virgin
+    artist: Madonna
+    year: 1984
+    nation: US
+    label: Sire
+    youtube: s__rX_WL100
+    selector: 草野マサムネ
+  - id: "2025039607"
+    week: 396
+    index: 3295
+    indexInWeek: 7
+    title: Get Lucky
+    artist: Daft Punk
+    year: 2013
+    nation: FR
+    label: Columbia
+    youtube: 5NV6Rdv1a3I
+    selector: 草野マサムネ
+  - id: "2025039608"
+    week: 396
+    index: 3296
+    indexInWeek: 8
+    title: Welcoming Morning
+    artist: Chappie
+    year: 1999
+    nation: JPN
+    label: ソニーミュージック
+    youtube: mq70M1hCAMg
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

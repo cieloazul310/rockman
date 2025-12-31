@@ -1,0 +1,98 @@
+id: "20250378"
+week: 378
+year: 2025
+title: ニューロマンティックで漫遊記
+guests: []
+categories: []
+date: 2025-03-30
+playlist:
+  - id: "2025037801"
+    week: 378
+    index: 3138
+    indexInWeek: 1
+    title: ローテク・ロマンティカ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037802"
+    week: 378
+    index: 3139
+    indexInWeek: 2
+    title: The Reflex
+    artist: Duran Duran
+    year: 1983
+    nation: UK
+    label: EMI
+    youtube: qNLMdYHHv3c
+    selector: 草野マサムネ
+  - id: "2025037803"
+    week: 378
+    index: 3140
+    indexInWeek: 3
+    title: Fade to Grey
+    artist: Visage
+    year: 1980
+    nation: UK
+    label: Polydor
+    youtube: UMPC8QJF6sI
+    selector: 草野マサムネ
+  - id: "2025037804"
+    week: 378
+    index: 3141
+    indexInWeek: 4
+    title: Too Shy
+    artist: Kajagoogoo
+    year: 1983
+    nation: UK
+    label: EMI
+    youtube: rkpG4XApJ28
+    selector: 草野マサムネ
+  - id: "2025037805"
+    week: 378
+    index: 3142
+    indexInWeek: 5
+    title: The Freeze
+    artist: Spandau Ballet
+    year: 1981
+    nation: UK
+    label: Chrysails
+    youtube: 29ZCX21VsQc
+    selector: 草野マサムネ
+  - id: "2025037806"
+    week: 378
+    index: 3143
+    indexInWeek: 6
+    title: The Look of Love (part one)
+    artist: ABC
+    year: 1982
+    nation: UK
+    label: Neutron
+    youtube: cNEdxZURTaI
+    selector: 草野マサムネ
+  - id: "2025037807"
+    week: 378
+    index: 3144
+    indexInWeek: 7
+    title: Karma Chameleon
+    artist: Culture Club
+    year: 1983
+    nation: UK
+    label: Virgin
+    youtube: JmcA9LIIXWw
+    selector: 草野マサムネ
+  - id: "2025037808"
+    week: 378
+    index: 3145
+    indexInWeek: 8
+    title: Skinny
+    artist: 中川勝彦
+    kana: なかがわかつひこ
+    year: 1985
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: nO2GZhubExo
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

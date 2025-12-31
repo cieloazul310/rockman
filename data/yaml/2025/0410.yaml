@@ -1,0 +1,96 @@
+id: "20250410"
+week: 410
+year: 2025
+title: 夕暮れソングで漫遊記
+guests: []
+categories: []
+date: 2025-11-09
+playlist:
+  - id: "2025041001"
+    week: 410
+    index: 3405
+    indexInWeek: 1
+    title: 夕焼け
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041002"
+    week: 410
+    index: 3406
+    indexInWeek: 2
+    title: Twilight
+    artist: Electric Light Orchestra
+    year: 1981
+    nation: UK
+    label: JET
+    youtube: nNQSzsql3d0
+    selector: 草野マサムネ
+  - id: "2025041003"
+    week: 410
+    index: 3407
+    indexInWeek: 3
+    title: 三日月サンセット
+    artist: サカナクション
+    year: 2007
+    nation: JPN
+    label: Babe Star Label
+    youtube: 4BZMWcCj_98
+    selector: 草野マサムネ
+  - id: "2025041004"
+    week: 410
+    index: 3408
+    indexInWeek: 4
+    title: Sundown
+    artist: The Edgar Winter Group
+    year: 1974
+    nation: US
+    label: Epic
+    youtube: yGQpmOmaRRs
+    selector: 草野マサムネ
+  - id: "2025041005"
+    week: 410
+    index: 3409
+    indexInWeek: 5
+    title: 晩秋
+    artist: ガガガSP
+    year: 2002
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    youtube: CrotSU3vKy0
+    selector: 草野マサムネ
+  - id: "2025041006"
+    week: 410
+    index: 3410
+    indexInWeek: 6
+    title: 夕暮れ
+    artist: T字路s
+    year: 2015
+    nation: JPN
+    label: Hanx Records
+    selector: 草野マサムネ
+  - id: "2025041007"
+    week: 410
+    index: 3411
+    indexInWeek: 7
+    title: TWiLiGHT
+    artist: UQiYO
+    year: 2015
+    nation: JPN
+    label: FORE RECORDS
+    youtube: pErZUu7j_Ws
+    selector: 草野マサムネ
+  - id: "2025041008"
+    week: 410
+    index: 3412
+    indexInWeek: 8
+    title: 夕陽を追いかけて
+    artist: チューリップ
+    year: 1978
+    nation: JPN
+    label: Express
+    youtube: 2LIRSI-dAVY
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

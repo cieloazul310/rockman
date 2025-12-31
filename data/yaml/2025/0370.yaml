@@ -1,0 +1,119 @@
+id: "20250370"
+week: 370
+year: 2025
+title: フリークビートで漫遊記
+guests: []
+categories: []
+date: 2025-02-02
+playlist:
+  - id: "2025037001"
+    week: 370
+    index: 3071
+    indexInWeek: 1
+    title: 悪役
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037002"
+    week: 370
+    index: 3072
+    indexInWeek: 2
+    title: Any More Than I Do
+    artist: The Attack
+    year: 1967
+    nation: UK
+    label: Decca
+    youtube: s_nGY7pN7ZI
+    selector: 草野マサムネ
+  - id: "2025037003"
+    week: 370
+    index: 3073
+    indexInWeek: 3
+    title: Making Time
+    artist: The Creation
+    year: 1966
+    nation: UK
+    label: Planet
+    youtube: Tl7T5GCfEL0
+    selector: 草野マサムネ
+  - id: "2025037004"
+    week: 370
+    index: 3074
+    indexInWeek: 4
+    title: You've Got a Habit of Leaving
+    artist: Davy Jones & the Lower Third
+    year: 1965
+    nation: UK
+    label: Parlophone
+    youtube: uc-vlh7RdA8
+    selector: 草野マサムネ
+  - id: "2025037005"
+    week: 370
+    index: 3075
+    indexInWeek: 5
+    title: Tales of Flossie Fillett
+    artist: Turquoise
+    year: 1968
+    nation: UK
+    label: Decca
+    youtube: d23QQExwGFQ
+    selector: 草野マサムネ
+  - id: "2025037006"
+    week: 370
+    index: 3076
+    indexInWeek: 6
+    title: Rumours
+    artist: Kippington Lodge
+    year: 1968
+    nation: UK
+    label: Odeon
+    youtube: Vb7zmFw0izY
+    selector: 草野マサムネ
+  - id: "2025037007"
+    week: 370
+    index: 3077
+    indexInWeek: 7
+    title: Vacuum Cleaner
+    artist: Tintern Abbey
+    year: 1967
+    nation: UK
+    label: Deram
+    youtube: xB9GpU3Y5n8
+    selector: 草野マサムネ
+  - id: "2025037008"
+    week: 370
+    index: 3078
+    indexInWeek: 8
+    title: In Your Tower
+    artist: The Poets
+    year: 1967
+    nation: UK
+    label: Decca
+    youtube: WQyvfWjRbsU
+    selector: 草野マサムネ
+  - id: "2025037009"
+    week: 370
+    index: 3079
+    indexInWeek: 9
+    title: The Muffin Man
+    artist: World Of Oz
+    year: 1968
+    nation: UK
+    label: Deram
+    youtube: dBrezCyhZUc
+    selector: 草野マサムネ
+  - id: "2025037010"
+    week: 370
+    index: 3080
+    indexInWeek: 10
+    title: ハイウェイの孤独
+    artist: ズー・ニー・ヴー
+    year: 1968
+    nation: JPN
+    label: 日本コロムビア
+    youtube: QTGh2GbsvRM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

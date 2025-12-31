@@ -1,0 +1,95 @@
+id: "20250400"
+week: 400
+year: 2025
+title: フラワーカンパニーズ 鈴木圭介君・グレートマエカワ君と漫遊記
+subtitle: ライブ盤
+guests: ["鈴木圭介(フラワーカンパニーズ)", "グレートマエカワ(フラワーカンパニーズ)"]
+categories: ["ゲスト回"]
+date: 2025-08-31
+playlist:
+  - id: "2025040001"
+    week: 400
+    index: 3323
+    indexInWeek: 1
+    title: 野生のポルカ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040002"
+    week: 400
+    index: 3324
+    indexInWeek: 2
+    title: Detroit Rock City (Live 1977 from "Alive II")
+    artist: Kiss
+    year: 1977
+    nation: US
+    label: Casablanca
+    youtube: uA-lN_9IWH4
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2025040003"
+    week: 400
+    index: 3325
+    indexInWeek: 3
+    title: 30 Days in the Hole (Live 1973 from "King Biscuit Flower Hour Presents Humble Pie In Concert")
+    artist: Humble Pie
+    year: 1996
+    nation: UK
+    label: King Biscuit Flower Hour Records
+    selector: グレートマエカワ(フラワーカンパニーズ)
+  - id: "2025040004"
+    week: 400
+    index: 3326
+    indexInWeek: 4
+    title: Crunchy Granola Suite (Live 1972 from "Hot August Night")
+    artist: Neil Diamond
+    year: 1972
+    nation: US
+    label: MCA
+    youtube: CjVTJzJQ8tM
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2025040005"
+    week: 400
+    index: 3327
+    indexInWeek: 5
+    title: First I Look at the Purse (Live 1972 from "Live Full House")
+    artist: The J. Geils Band
+    year: 1972
+    nation: US
+    label: Atlantic
+    youtube: 6Rrlm01OIZ4
+    selector: グレートマエカワ(フラワーカンパニーズ)
+  - id: "2025040006"
+    week: 400
+    index: 3328
+    indexInWeek: 6
+    title: ラブ・ゼネレーション (Live 1968 from "2nd Jacks Show, Jul. 24, 1968")
+    artist: ジャックス
+    year: 2021
+    nation: JPN
+    label: SUPER FUJI DISCS
+    selector: 鈴木圭介(フラワーカンパニーズ)
+  - id: "2025040007"
+    week: 400
+    index: 3329
+    indexInWeek: 7
+    title: Shouting in a Bucket Blues (Live 1974 from "June 1, 1974")
+    artist: Kevin Ayers
+    year: 1974
+    nation: UK
+    label: Island
+    youtube: vOZVG4EHwuQ
+    selector: グレートマエカワ(フラワーカンパニーズ)
+  - id: "2025040008"
+    week: 400
+    index: 3330
+    indexInWeek: 8
+    title: 発熱の男 (Live 2015 from "フラカンの日本武道館～生きててよかった、そんな夜はココだ！～")
+    artist: フラワーカンパニーズ
+    year: 2016
+    nation: JPN
+    label: ソニーミュージック
+    corner: ちょっぴりタイムマシン
+    selector: 鈴木圭介・グレートマエカワ(フラワーカンパニーズ)

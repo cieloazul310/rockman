@@ -1,0 +1,100 @@
+id: "20250416"
+week: 416
+year: 2025
+title: 2025年気になった曲で漫遊記・邦楽編
+guests: []
+categories: ["今年気になった曲"]
+date: 2025-12-21
+playlist:
+  - id: "2025041601"
+    week: 416
+    index: 3454
+    indexInWeek: 1
+    title: 灯を護る
+    artist: スピッツ
+    year: 2025
+    nation: JPN
+    label: ユニバーサル
+    youtube: Cn6evNNykVI
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025041602"
+    week: 416
+    index: 3455
+    indexInWeek: 2
+    title: チュウ チュウ チュウ
+    artist: 加藤ひさしとバーティー・トゥモルタンス
+    kana: かとうひさしとぱーてぃーとぅもるたんす
+    year: 2025
+    nation: JPN
+    label: Wonder Girl
+    selector: 草野マサムネ
+  - id: "2025041603"
+    week: 416
+    index: 3456
+    indexInWeek: 3
+    title: ライター
+    artist: Laura day romance
+    year: 2025
+    nation: JPN
+    label: lforl
+    youtube: yZD6038ppOQ
+    selector: 草野マサムネ
+  - id: "2025041604"
+    week: 416
+    index: 3457
+    indexInWeek: 4
+    title: 忘れる女
+    artist: betcover!!
+    year: 2025
+    nation: JPN
+    label: 自主制作
+    youtube: 4IMsI0R5qPw
+    selector: 草野マサムネ
+  - id: "2025041605"
+    week: 416
+    index: 3458
+    indexInWeek: 5
+    title: March
+    artist: SaToA
+    year: 2025
+    nation: JPN
+    label: kesakuuta market
+    youtube: bui16pECxik
+    selector: 草野マサムネ
+  - id: "2025041606"
+    week: 416
+    index: 3459
+    indexInWeek: 6
+    title: 最初の光
+    artist: Polydreams
+    year: 2025
+    nation: JPN
+    label: ユニバーサル
+    youtube: J1SRA7Y6ABs
+    selector: 草野マサムネ
+  - id: "2025041607"
+    week: 416
+    index: 3460
+    indexInWeek: 7
+    title: マリア
+    artist: 阿部真央
+    kana: あべまお
+    year: 2025
+    nation: JPN
+    label: ポニーキャニオン
+    youtube: ogB-j3J7tk8
+    selector: 草野マサムネ
+  - id: "2025041608"
+    week: 416
+    index: 3461
+    indexInWeek: 8
+    title: あなたはやって来る 〜Dear Santa〜
+    artist: 小谷美紗子
+    kana: おだにみさこ
+    year: 1997
+    nation: JPN
+    label: ユニバーサル
+    youtube: RL9Jf-_Yv5I
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,104 @@
+id: "20250376"
+week: 376
+year: 2025
+title: 田中星児で漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-03-16
+playlist:
+  - id: "2025037601"
+    week: 376
+    index: 3122
+    indexInWeek: 1
+    title: チェリー
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: Eze6-eHmtJg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037602"
+    week: 376
+    index: 3123
+    indexInWeek: 2
+    title: ビューティフル・サンデー
+    artist: 田中星児
+    kana: たなかせいじ
+    year: 1976
+    nation: JPN
+    label: ビクターレコード
+    youtube: sUU3cVM85Qo
+    selector: 草野マサムネ
+  - id: "2025037603"
+    week: 376
+    index: 3124
+    indexInWeek: 3
+    title: サタデー・ナイト
+    artist: 田中星児
+    kana: たなかせいじ
+    year: 1976
+    nation: JPN
+    label: ビクターレコード
+    youtube: IABHcFeheGs
+    selector: 草野マサムネ
+  - id: "2025037604"
+    week: 376
+    index: 3125
+    indexInWeek: 4
+    title: オートバイ野郎
+    artist: 田中星児
+    kana: たなかせいじ
+    year: 1973
+    nation: JPN
+    label: ビクターレコード
+    youtube: fLEm0E3Pj1M
+    selector: 草野マサムネ
+  - id: "2025037605"
+    week: 376
+    index: 3126
+    indexInWeek: 5
+    title: いじわる猫
+    artist: 田中星児/頭脳警察
+    kana: たなかせいじずのうけいさつ
+    year: 1973
+    nation: JPN
+    label: ビクターレコード
+    youtube: 1M8IijGJ2mY
+    selector: 草野マサムネ
+  - id: "2025037606"
+    week: 376
+    index: 3127
+    indexInWeek: 6
+    title: ホテル・カリフォルニア
+    artist: 田中星児/水越けいこ
+    kana: たなかせいじみずこしけいこ
+    year: 1977
+    nation: JPN
+    label: ビクターレコード
+    youtube: 5YaQ_JVR8LE
+    selector: 草野マサムネ
+  - id: "2025037607"
+    week: 376
+    index: 3128
+    indexInWeek: 7
+    title: 愛の願い
+    artist: 田中星児
+    kana: たなかせいじ
+    year: 1976
+    nation: JPN
+    label: ビクターレコード
+    youtube: AoF4Lz15Y20
+    selector: 草野マサムネ
+  - id: "2025037608"
+    week: 376
+    index: 3129
+    indexInWeek: 8
+    title: コーナー
+    artist: 七尾旅人
+    kana: ななおたびと
+    year: 1999
+    nation: JPN
+    label: ソニーミュージック
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

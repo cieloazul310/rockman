@@ -1,0 +1,97 @@
+id: "20250405"
+week: 405
+year: 2025
+title: 検索しにくいバンド名で漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2025-10-05
+playlist:
+  - id: "2025040501"
+    week: 405
+    index: 3364
+    indexInWeek: 1
+    title: 未来コオロギ
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025040502"
+    week: 405
+    index: 3365
+    indexInWeek: 2
+    title: Baby Come Back
+    artist: Player
+    year: 1977
+    nation: US
+    label: RSO
+    youtube: NmEyGiaqm7k
+    selector: 草野マサムネ
+  - id: "2025040503"
+    week: 405
+    index: 3366
+    indexInWeek: 3
+    title: Riverhead Jail
+    artist: Man (US)
+    year: 1969
+    nation: US
+    label: Columbia
+    youtube: mTEf7iPqQeE
+    selector: 草野マサムネ
+  - id: "2025040504"
+    week: 405
+    index: 3367
+    indexInWeek: 4
+    title: Valentine
+    artist: The School
+    year: 2010
+    nation: UK
+    label: Elefant
+    youtube: RkTnNPnVbBA
+    selector: 草野マサムネ
+  - id: "2025040505"
+    week: 405
+    index: 3368
+    indexInWeek: 5
+    title: Pay To Ride
+    artist: Wireless
+    year: 1980
+    nation: CAN
+    label: Anthem
+    youtube: qrShwCi7XnE
+    selector: 草野マサムネ
+  - id: "2025040506"
+    week: 405
+    index: 3369
+    indexInWeek: 6
+    title: The Sound of the Suburbs
+    artist: The Members
+    year: 1979
+    nation: UK
+    label: Virgin
+    youtube: NsHGnw1txLY
+    selector: 草野マサムネ
+  - id: "2025040507"
+    week: 405
+    index: 3370
+    indexInWeek: 7
+    title: Tomorrow Night
+    artist: Shoes
+    year: 1978
+    nation: US
+    label: Bomp!
+    youtube: Zbv4nQuq3QE
+    selector: 草野マサムネ
+  - id: "2025040508"
+    week: 405
+    index: 3371
+    indexInWeek: 8
+    title: ACTION! 100,000 VOLT
+    artist: ACTION!
+    year: 1984
+    nation: JPN
+    label: 日本フォノグラム
+    youtube: FKMM4Yl11-Y
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

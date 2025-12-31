@@ -1,0 +1,97 @@
+id: "20250372"
+week: 372
+year: 2025
+title: ポリスで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2025-02-16
+playlist:
+  - id: "2025037201"
+    week: 372
+    index: 3089
+    indexInWeek: 1
+    title: "8823"
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025037202"
+    week: 372
+    index: 3090
+    indexInWeek: 2
+    title: Message in a Bottle
+    artist: The Police
+    year: 1979
+    nation: UK
+    label: A&M
+    youtube: dOe_vw01QmE
+    selector: 草野マサムネ
+  - id: "2025037203"
+    week: 372
+    index: 3091
+    indexInWeek: 3
+    title: Roxanne
+    artist: The Police
+    year: 1978
+    nation: UK
+    label: A&M
+    youtube: 3T1c7GkzRQQ
+    selector: 草野マサムネ
+  - id: "2025037204"
+    week: 372
+    index: 3092
+    indexInWeek: 4
+    title: Next to You
+    artist: The Police
+    year: 1978
+    nation: UK
+    label: A&M
+    selector: 草野マサムネ
+  - id: "2025037205"
+    week: 372
+    index: 3093
+    indexInWeek: 5
+    title: De Do Do Do, De Da Da Da
+    artist: The Police
+    year: 1980
+    nation: UK
+    label: A&M
+    youtube: 7v2GDbEmjGE
+    selector: 草野マサムネ
+  - id: "2025037206"
+    week: 372
+    index: 3094
+    indexInWeek: 6
+    title: Synchronicity I
+    artist: The Police
+    year: 1983
+    nation: UK
+    label: A&M
+    youtube: Si5CSpUCDGY
+    selector: 草野マサムネ
+  - id: "2025037207"
+    week: 372
+    index: 3095
+    indexInWeek: 7
+    title: Every Breath You Take
+    artist: The Police
+    year: 1983
+    nation: UK
+    label: A&M
+    youtube: VfEvH4aML-k
+    selector: 草野マサムネ
+  - id: "2025037208"
+    week: 372
+    index: 3096
+    indexInWeek: 8
+    title: いいもんだな故郷は
+    artist: 三橋美智也
+    kana: みはちみちや
+    year: 1990
+    nation: JPN
+    label: キングレコード
+    youtube: fBwvyO9KFF0
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

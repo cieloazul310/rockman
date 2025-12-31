@@ -1,0 +1,108 @@
+id: "20250399"
+week: 399
+year: 2025
+title: グラムロックのとっかかり曲で漫遊記
+guests: []
+categories: []
+date: 2025-08-24
+playlist:
+  - id: "2025039901"
+    week: 399
+    index: 3314
+    indexInWeek: 1
+    title: ハニーハニー
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025039902"
+    week: 399
+    index: 3315
+    indexInWeek: 2
+    title: Children of the Revolution
+    artist: T. Rex
+    year: 1972
+    nation: UK
+    label: EMI
+    youtube: PP2FyYSUJ54
+    selector: 草野マサムネ
+  - id: "2025039903"
+    week: 399
+    index: 3316
+    indexInWeek: 3
+    title: Ziggy Stardust
+    artist: David Bowie
+    year: 1972
+    nation: UK
+    label: RCA
+    youtube: na8xgu-KLAk
+    selector: 草野マサムネ
+  - id: "2025039904"
+    week: 399
+    index: 3317
+    indexInWeek: 4
+    title: Virginia Plain
+    artist: Roxy Music
+    year: 1972
+    nation: UK
+    label: E.G.
+    youtube: BonWfTW7jKc
+    selector: 草野マサムネ
+  - id: "2025039905"
+    week: 399
+    index: 3318
+    indexInWeek: 5
+    title: Mama Weer All Crazee Now
+    artist: Slade
+    year: 1972
+    nation: UK
+    label: Polydor
+    youtube: eEv6jy_7PQQ
+    selector: 草野マサムネ
+  - id: "2025039906"
+    week: 399
+    index: 3319
+    indexInWeek: 6
+    title: Fox on the Run
+    artist: Sweet
+    year: 1974
+    nation: UK
+    label: RCA
+    youtube: kRv7EjjwYBI
+    selector: 草野マサムネ
+  - id: "2025039907"
+    week: 399
+    index: 3320
+    indexInWeek: 7
+    title: Ace Supreme
+    artist: Silverhead
+    year: 1972
+    nation: UK
+    label: Purple
+    youtube: KBtMP5YGcyA
+    selector: 草野マサムネ
+  - id: "2025039908"
+    week: 399
+    index: 3321
+    indexInWeek: 8
+    title: I Am (I'm Me)
+    artist: Twisted Sister
+    year: 1983
+    nation: US
+    label: Atlantic
+    youtube: MUTxko4Sn2I
+    selector: 草野マサムネ
+  - id: "2025039909"
+    week: 399
+    index: 3322
+    indexInWeek: 9
+    title: ラブ・イン・フローラ
+    artist: ルージュ
+    year: 1975
+    nation: JPN
+    label: Doughnut
+    youtube: obiFTWdlokk
+    corner: ちょっぴりタイムマシン
+    selector: 草野マサムネ

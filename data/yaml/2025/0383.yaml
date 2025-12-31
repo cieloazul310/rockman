@@ -1,0 +1,97 @@
+id: "20250383"
+week: 383
+year: 2025
+title: ファッションで影響を受けたアーティスト・リクエストで漫遊記 PART②
+guests: []
+categories: ["リクエスト特集"]
+date: 2025-05-04
+playlist:
+  - id: "2025038301"
+    week: 383
+    index: 3181
+    indexInWeek: 1
+    title: 愛のしるし
+    artist: スピッツ
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    youtube: 7awhzclrBMc
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2025038302"
+    week: 383
+    index: 3182
+    indexInWeek: 2
+    title: Rockaway Beach
+    artist: Ramones
+    year: 1977
+    nation: US
+    label: Sire
+    youtube: NFoi25OfCxU
+    selector: リクエスト
+  - id: "2025038303"
+    week: 383
+    index: 3183
+    indexInWeek: 3
+    title: ROCKET DIVE
+    artist: hide with Spread Beaver
+    year: 1998
+    nation: JPN
+    label: ユニバーサルビクター
+    youtube: -qoVeoG8XuU
+    selector: リクエスト
+  - id: "2025038304"
+    week: 383
+    index: 3184
+    indexInWeek: 4
+    title: Gossip Girl
+    artist: Grace VanderWaal
+    year: 2016
+    nation: US
+    label: Syco
+    youtube: S6PHxdIOfYY
+    selector: リクエスト
+  - id: "2025038305"
+    week: 383
+    index: 3185
+    indexInWeek: 5
+    title: Your Heart
+    artist: 44MAGNUM
+    year: 1983
+    nation: JPN
+    label: Moon Records
+    youtube: TApljRLOu4k
+    selector: リクエスト
+  - id: "2025038306"
+    week: 383
+    index: 3186
+    indexInWeek: 6
+    title: "1969"
+    artist: Superfly
+    year: 2008
+    nation: JPN
+    label: ワーナーミュージック・ジャパン
+    youtube: zJNgNPKOBtk
+    selector: リクエスト
+  - id: "2025038307"
+    week: 383
+    index: 3187
+    indexInWeek: 7
+    title: The Wild One
+    artist: Suzi Quatro
+    year: 1974
+    nation: US
+    label: RAK
+    youtube: cuguOyA9oTQ
+    selector: リクエスト
+  - id: "2025038308"
+    week: 383
+    index: 3188
+    indexInWeek: 8
+    title: 陽の当たる大通り
+    artist: PIZZICATO FIVE
+    year: 1994
+    nation: JPN
+    label: TRIAD
+    youtube: gTviu6uHtak
+    selector: リクエスト
