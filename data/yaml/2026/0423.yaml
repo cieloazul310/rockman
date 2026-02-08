@@ -1,0 +1,97 @@
+id: "20260422"
+week: 422
+year: 2026
+title: キャンディーポップで漫遊記
+guests: []
+categories: []
+date: 2026-02-08
+playlist:
+  - id: "2026042201"
+    week: 422
+    index: 3513
+    indexInWeek: 1
+    title: エンドロールには早すぎる
+    artist: スピッツ
+    year: 2013
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042202"
+    week: 422
+    index: 3514
+    indexInWeek: 2
+    title: I'm in the Mood for Dancing
+    artist: The Nolans
+    year: 1979
+    nation: IRE
+    label: Epic
+    youtube: XbAM2_6jKY0
+    selector: 草野マサムネ
+  - id: "2026042203"
+    week: 422
+    index: 3515
+    indexInWeek: 3
+    title: Hello Mr. Monkey
+    artist: Arabesque
+    year: 1977
+    nation: GER
+    label: EMI
+    selector: 草野マサムネ
+  - id: "2026042204"
+    week: 422
+    index: 3516
+    indexInWeek: 4
+    title: Wanted
+    artist: The Dooleys
+    year: 1979
+    nation: UK
+    label: GTO
+    youtube: 2jOVBB7cDwo
+    selector: 草野マサムネ
+  - id: "2026042205"
+    week: 422
+    index: 3517
+    indexInWeek: 5
+    title: Radio
+    artist: Dolly Dots
+    year: 1979
+    nation: NED
+    label: WEA
+    youtube: _Q-nhpkP2Lk
+    selector: 草野マサムネ
+  - id: "2026042206"
+    week: 422
+    index: 3518
+    indexInWeek: 6
+    title: Just Wanna Dance Tonight
+    artist: Trix
+    year: 1981
+    nation: ARG
+    label: Jupiter Records
+    youtube: 7qu5dQM3SSk
+    selector: 草野マサムネ
+  - id: "2026042207"
+    week: 422
+    index: 3519
+    indexInWeek: 7
+    title: Dschinghis Khan
+    artist: Dschinghis Khan
+    year: 1979
+    nation: GER
+    label: Jupiter Records
+    youtube: 1AXlVZRpweI
+    selector: 草野マサムネ
+  - id: "2026042208"
+    week: 422
+    index: 3520
+    indexInWeek: 8
+    title: あざやかな場面
+    artist: 岩崎宏美
+    kana: いわさきひろみ
+    year: 1978
+    nation: JPN
+    label: ビクター音楽産業
+    youtube: a-HOz7cqGS8
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
