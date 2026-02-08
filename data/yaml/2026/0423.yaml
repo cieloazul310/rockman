@@ -1,13 +1,13 @@
-id: "20260422"
-week: 422
+id: "20260423"
+week: 423
 year: 2026
 title: キャンディーポップで漫遊記
 guests: []
 categories: []
 date: 2026-02-08
 playlist:
-  - id: "2026042201"
-    week: 422
+  - id: "2026042301"
+    week: 423
     index: 3513
     indexInWeek: 1
     title: エンドロールには早すぎる
@@ -17,8 +17,8 @@ playlist:
     label: ユニバーサル
     corner: 漫遊前の一曲
     selector: 草野マサムネ
-  - id: "2026042202"
-    week: 422
+  - id: "2026042302"
+    week: 423
     index: 3514
     indexInWeek: 2
     title: I'm in the Mood for Dancing
@@ -28,8 +28,8 @@ playlist:
     label: Epic
     youtube: XbAM2_6jKY0
     selector: 草野マサムネ
-  - id: "2026042203"
-    week: 422
+  - id: "2026042303"
+    week: 423
     index: 3515
     indexInWeek: 3
     title: Hello Mr. Monkey
@@ -38,8 +38,8 @@ playlist:
     nation: GER
     label: EMI
     selector: 草野マサムネ
-  - id: "2026042204"
-    week: 422
+  - id: "2026042304"
+    week: 423
     index: 3516
     indexInWeek: 4
     title: Wanted
@@ -49,8 +49,8 @@ playlist:
     label: GTO
     youtube: 2jOVBB7cDwo
     selector: 草野マサムネ
-  - id: "2026042205"
-    week: 422
+  - id: "2026042305"
+    week: 423
     index: 3517
     indexInWeek: 5
     title: Radio
@@ -60,8 +60,8 @@ playlist:
     label: WEA
     youtube: _Q-nhpkP2Lk
     selector: 草野マサムネ
-  - id: "2026042206"
-    week: 422
+  - id: "2026042306"
+    week: 423
     index: 3518
     indexInWeek: 6
     title: Just Wanna Dance Tonight
@@ -71,8 +71,8 @@ playlist:
     label: Jupiter Records
     youtube: 7qu5dQM3SSk
     selector: 草野マサムネ
-  - id: "2026042207"
-    week: 422
+  - id: "2026042307"
+    week: 423
     index: 3519
     indexInWeek: 7
     title: Dschinghis Khan
@@ -82,8 +82,8 @@ playlist:
     label: Jupiter Records
     youtube: 1AXlVZRpweI
     selector: 草野マサムネ
-  - id: "2026042208"
-    week: 422
+  - id: "2026042308"
+    week: 423
     index: 3520
     indexInWeek: 8
     title: あざやかな場面
