@@ -1,0 +1,97 @@
+id: "20260426"
+week: 426
+year: 2026
+title: ネオアコで漫遊記
+guests: []
+categories: []
+date: 2026-03-01
+playlist:
+  - id: "2026042601"
+    week: 426
+    index: 3539
+    indexInWeek: 1
+    title: 祈りはきっと
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042602"
+    week: 426
+    index: 3540
+    indexInWeek: 2
+    title: Oblivious
+    artist: Aztec Camera
+    year: 1983
+    nation: US
+    label: Rough Trade
+    youtube: eiLAIXl3-_Y
+    selector: 草野マサムネ
+  - id: "2026042603"
+    week: 426
+    index: 3541
+    indexInWeek: 3
+    title: Falling and Laughing
+    artist: Orange Juice
+    year: 1982
+    nation: UK
+    label: Polydor
+    youtube: XxD45UONhco
+    selector: 草野マサムネ
+  - id: "2026042604"
+    week: 426
+    index: 3542
+    indexInWeek: 4
+    title: Thank You
+    artist: The Pale Fountains
+    year: 1982
+    nation: UK
+    label: Virgin
+    youtube: H_nsqTqHnXQ
+    selector: 草野マサムネ
+  - id: "2026042605"
+    week: 426
+    index: 3543
+    indexInWeek: 5
+    title: Down But Not Yet Out
+    artist: Felt
+    year: 1986
+    nation: UK
+    label: Creation
+    youtube: VbbBgUMvRwk
+    selector: 草野マサムネ
+  - id: "2026042606"
+    week: 426
+    index: 3544
+    indexInWeek: 6
+    title: Personality Parade
+    artist: The King Of Luxembourg
+    year: 1988
+    nation: UK
+    label: Él
+    youtube: ssn_sfqBOtw
+    selector: 草野マサムネ
+  - id: "2026042607"
+    week: 426
+    index: 3545
+    indexInWeek: 7
+    title: Far and Away
+    artist: Friends
+    year: 1988
+    nation: UK
+    label: Summerhouse Records
+    youtube: h-k8xKPEV8c
+    selector: 草野マサムネ
+  - id: "2026042608"
+    week: 426
+    index: 3546
+    indexInWeek: 8
+    title: マスカット
+    artist: カジヒデキ
+    year: 1997
+    nation: JPN
+    label: トラットリア
+    youtube: kq38gxZRW-M
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
