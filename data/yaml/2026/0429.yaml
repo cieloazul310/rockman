@@ -1,0 +1,98 @@
+id: "20260429"
+week: 429
+year: 2026
+title: 真夜中ソングで漫遊記
+guests: []
+categories: []
+date: 2026-03-22
+playlist:
+  - id: "2026042901"
+    week: 429
+    index: 3564
+    indexInWeek: 1
+    title: ラクガキ王国
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042902"
+    week: 429
+    index: 3565
+    indexInWeek: 2
+    title: 真夜中のドア〜Stay With Me
+    artist: EIKO
+    year: 2023
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    youtube: nuU2YHtxMik
+    selector: 草野マサムネ
+  - id: "2026042903"
+    week: 429
+    index: 3566
+    indexInWeek: 3
+    title: Living After Midnight
+    artist: Judas Priest
+    year: 1980
+    nation: UK
+    label: Columbia
+    youtube: CmVqIgKOgEY
+    selector: 草野マサムネ
+  - id: "2026042904"
+    week: 429
+    index: 3567
+    indexInWeek: 4
+    title: Midnight Teenage Shuffle
+    artist: PERSONZ
+    year: 1987
+    nation: JPN
+    label: BAIDIS
+    youtube: NpiDFCRe3Lk
+    selector: 草野マサムネ
+  - id: "2026042905"
+    week: 429
+    index: 3568
+    indexInWeek: 5
+    title: Midnight
+    artist: T. Rex
+    year: 1973
+    nation: UK
+    label: T. Rex Wax Co.
+    youtube: grG3O3MIPYM
+    selector: 草野マサムネ
+  - id: "2026042906"
+    week: 429
+    index: 3569
+    indexInWeek: 6
+    title: 真夜中のダンディー
+    artist: 桑田佳祐
+    kana: くわたけいすけ
+    year: 1993
+    nation: JPN
+    label: タイシタレーベル
+    youtube: mFULNjf3KdI
+    selector: 草野マサムネ
+  - id: "2026042907"
+    week: 429
+    index: 3570
+    indexInWeek: 7
+    title: MIDNIGHT FLIGHT
+    artist: EARTHSHAKER
+    year: 1984
+    nation: JPN
+    label: NEXUS
+    youtube: fVdqoc3t4Z4
+    selector: 草野マサムネ
+  - id: "2026042908"
+    week: 429
+    index: 3571
+    indexInWeek: 8
+    title: 真夜中のギター
+    artist: 千賀かほる
+    kana: ちがかほる
+    year: 1969
+    nation: JPN
+    label: 日本コロムビア
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
