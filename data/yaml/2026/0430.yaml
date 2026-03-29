@@ -1,0 +1,107 @@
+id: "20260430"
+week: 430
+year: 2026
+title: プロ野球チームの名前のバンドで漫遊記
+guests: []
+categories: ["バンド名"]
+date: 2026-03-29
+playlist:
+  - id: "2026043001"
+    week: 430
+    index: 3572
+    indexInWeek: 1
+    title: テイタム・オニール
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043002"
+    week: 430
+    index: 3573
+    indexInWeek: 2
+    title: Take It Easy
+    artist: Eagles
+    year: 1972
+    nation: US
+    label: Asylum
+    youtube: 5igDtWadYms
+    selector: 草野マサムネ
+  - id: "2026043003"
+    week: 430
+    index: 3574
+    indexInWeek: 3
+    title: Mr. West Coast
+    artist: The Swallows
+    year: 1999
+    nation: UK
+    label: 自主制作
+    youtube: JLUKHOEReg0
+    selector: 草野マサムネ
+  - id: "2026043004"
+    week: 430
+    index: 3575
+    indexInWeek: 4
+    title: Monkey Wrench
+    artist: Foo Fighters
+    year: 1997
+    nation: US
+    label: Roswell
+    youtube: ExJJmAt8YhI
+    selector: 草野マサムネ
+  - id: "2026043005"
+    week: 430
+    index: 3576
+    indexInWeek: 5
+    title: Birdhouse in Your Soul
+    artist: They Might Be Giants
+    year: 1990
+    nation: US
+    label: Elektra
+    youtube: vn_or9gEB6g
+    selector: 草野マサムネ
+  - id: "2026043006"
+    week: 430
+    index: 3577
+    indexInWeek: 6
+    title: Think (About It)
+    artist: The Lions
+    year: 2008
+    nation: US
+    label: Ubiquity
+    youtube: 0Fk4LDVpgoM
+    selector: 草野マサムネ
+  - id: "2026043007"
+    week: 430
+    index: 3578
+    indexInWeek: 7
+    title: Drink To The Queen Of The May
+    artist: Carp
+    year: 1970
+    nation: US
+    label: Epic
+    youtube: 0I1kH2SDrQs
+    selector: 草野マサムネ
+  - id: "2026043008"
+    week: 430
+    index: 3579
+    indexInWeek: 8
+    title: For What It's Worth
+    artist: Buffalo Springfield
+    year: 1966
+    nation: US
+    label: Atco
+    youtube: 80_39eAx3z8
+    selector: 草野マサムネ
+  - id: "2026043009"
+    week: 430
+    index: 3580
+    indexInWeek: 9
+    title: STAY ALIVE
+    artist: NIGHT HAWKS
+    year: 1990
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
