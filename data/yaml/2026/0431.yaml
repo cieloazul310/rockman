@@ -1,0 +1,98 @@
+id: "20260431"
+week: 431
+year: 2026
+title: スペイン語ロックで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2026-04-04
+playlist:
+  - id: "2026043101"
+    week: 431
+    index: 3581
+    indexInWeek: 1
+    title: 花の写真
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043102"
+    week: 431
+    index: 3582
+    indexInWeek: 2
+    title: Incomunicación
+    artist: Barón Rojo
+    year: 1982
+    nation: ESP
+    label: Chapa Discos
+    youtube: -jb0V7s8in0
+    selector: 草野マサムネ
+  - id: "2026043103"
+    week: 431
+    index: 3583
+    indexInWeek: 3
+    title: El caballo de Troya
+    artist: Tierra Santa
+    year: 2000
+    nation: ESP
+    label: Locomotive Music
+    youtube: xmT3yeczCtI
+    selector: 草野マサムネ
+  - id: "2026043104"
+    week: 431
+    index: 3584
+    indexInWeek: 4
+    title: Fiesta Pagana
+    artist: Mägo de Oz
+    year: 2000
+    nation: ESP
+    label: Locomotive Music
+    youtube: zZPvME8H2Oo
+    selector: 草野マサムネ
+  - id: "2026043105"
+    week: 431
+    index: 3585
+    indexInWeek: 5
+    title: Aturdido
+    artist: The Right Ons
+    year: 2013
+    nation: ESP
+    label: Warner
+    youtube: 1Xo0oTAMRTQ
+    selector: 草野マサムネ
+  - id: "2026043106"
+    week: 431
+    index: 3586
+    indexInWeek: 6
+    title: De Música Ligera
+    artist: Soda Stereo
+    year: 1990
+    nation: ARG
+    label: Sony
+    youtube: T_FkEw27XJ0
+    selector: 草野マサムネ
+  - id: "2026043107"
+    week: 431
+    index: 3587
+    indexInWeek: 7
+    title: Algo Que Decir
+    artist: Allison
+    year: 2008
+    nation: MEX
+    label: Sony BMG
+    youtube: uROCacJbCS8
+    selector: 草野マサムネ
+  - id: "2026043108"
+    week: 431
+    index: 3588
+    indexInWeek: 8
+    title: マスカレード
+    artist: 庄野真代
+    kana: しょうのまよ
+    year: 1978
+    nation: JPN
+    label: 日本コロムビア
+    youtube: 6iCQy1QPtWo
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
