@@ -1,0 +1,98 @@
+id: "20260420"
+week: 420
+year: 2026
+title: 新春恒例 スピッツメンバーと漫遊記 崎山龍男編
+subtitle: ドラムから始まる曲で漫遊記
+guests: ["崎山龍男"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2026-01-18
+playlist:
+  - id: "2026042001"
+    week: 420
+    index: 3488
+    indexInWeek: 1
+    title: オケラ
+    artist: スピッツ
+    year: 2008
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 崎山龍男
+  - id: "2026042002"
+    week: 420
+    index: 3489
+    indexInWeek: 2
+    title: Stargazer
+    artist: Rainbow
+    year: 1976
+    nation: UK
+    label: Oyster
+    youtube: YmJIccPWnEk
+    selector: 崎山龍男
+  - id: "2026042003"
+    week: 420
+    index: 3490
+    indexInWeek: 3
+    title: Feels Like a Good Thing
+    artist: The Michael Schenker Group
+    year: 1980
+    nation: UK
+    label: Chrysails
+    youtube: sK87jAzPfbw
+    selector: 崎山龍男
+  - id: "2026042004"
+    week: 420
+    index: 3491
+    indexInWeek: 4
+    title: Take Cover
+    artist: Mr. Big
+    year: 1996
+    nation: US
+    label: Atlantic
+    youtube: TDGvmM1qAVg
+    selector: 崎山龍男
+  - id: "2026042005"
+    week: 420
+    index: 3492
+    indexInWeek: 5
+    title: Rock and Roll
+    artist: Led Zeppelin
+    year: 1970
+    nation: UK
+    label: Atlantic
+    youtube: XgXOW3lX25Y
+    selector: 崎山龍男
+  - id: "2026042006"
+    week: 420
+    index: 3493
+    indexInWeek: 6
+    title: Fireball
+    artist: Deep Purple
+    year: 1971
+    nation: UK
+    label: Hervest
+    youtube: NLWx7lSZw-c
+    selector: 崎山龍男
+  - id: "2026042007"
+    week: 420
+    index: 3494
+    indexInWeek: 7
+    title: Sunday Bloody Sunday
+    artist: U2
+    year: 1983
+    nation: IRE
+    label: Island
+    youtube: zhMD7nt1LIg
+    selector: 崎山龍男
+  - id: "2026042008"
+    week: 420
+    index: 3495
+    indexInWeek: 8
+    title: Esper
+    artist: LOUDNESS
+    year: 1984
+    nation: JPN
+    label: 日本コロムビア
+    youtube: JuO6J-FoYK0
+    selector: 崎山龍男
+    corner: ちょっぴりタイムマシン

@@ -1,0 +1,99 @@
+id: "20260421"
+week: 421
+year: 2026
+title: 新春恒例 スピッツメンバーと漫遊記 田村明浩編
+subtitle: ベースから始まる曲で漫遊記
+guests: ["田村明浩"]
+categories: ["ゲスト回", "スピッツメンバーと漫遊記"]
+date: 2026-01-25
+playlist:
+  - id: "2026042101"
+    week: 421
+    index: 3496
+    indexInWeek: 1
+    title: 愛のしるし
+    artist: スピッツ
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    youtube: 7awhzclrBMc
+    corner: 漫遊前の一曲
+    selector: 田村明浩
+  - id: "2026042102"
+    week: 421
+    index: 3497
+    indexInWeek: 2
+    title: Neat Neat Neat
+    artist: The Damned
+    year: 1977
+    nation: UK
+    label: Stiff
+    youtube: gXKDtkCzSCw
+    selector: 田村明浩
+  - id: "2026042103"
+    week: 421
+    index: 3498
+    indexInWeek: 3
+    title: Innocent Exile
+    artist: Iron Maiden
+    year: 1981
+    nation: UK
+    label: EMI
+    youtube: T7feo4E57GQ
+    selector: 田村明浩
+  - id: "2026042104"
+    week: 421
+    index: 3499
+    indexInWeek: 4
+    title: No More Heroes
+    artist: The Stranglers
+    year: 1977
+    nation: UK
+    label: United Artists
+    youtube: xgzDQwWygAc
+    selector: 田村明浩
+  - id: "2026042105"
+    week: 421
+    index: 3500
+    indexInWeek: 5
+    title: Hysteria
+    artist: Muse
+    year: 2003
+    nation: UK
+    label: Taste
+    youtube: 3dm_5qWWDV8
+    selector: 田村明浩
+  - id: "2026042106"
+    week: 421
+    index: 3501
+    indexInWeek: 6
+    title: G.W.D
+    artist: thee michelle gun elephant
+    year: 1998
+    nation: JPN
+    label: TRIAD
+    youtube: Pa-K6J7mnx4
+    selector: 田村明浩
+  - id: "2026042107"
+    week: 421
+    index: 3502
+    indexInWeek: 7
+    title: 透明人間
+    artist: 東京事変
+    kana: とうきょうじへん
+    year: 2006
+    nation: JPN
+    label: 東芝EMI
+    youtube: uIivrC6TYV0
+    selector: 田村明浩
+  - id: "2026042108"
+    week: 421
+    index: 3503
+    indexInWeek: 8
+    title: Heat Wave
+    artist: MOTORWORKS
+    year: 2004
+    nation: JPN
+    label: ドリーミュージック
+    selector: 田村明浩
+    corner: ちょっぴりタイムマシン

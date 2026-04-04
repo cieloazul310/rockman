@@ -41,7 +41,7 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
             <strong>「SPITZ 草野マサムネのロック大陸漫遊記」</strong>
             でオンエアされた楽曲を、放送回別、アーティスト別、選曲者別、コーナー別に表示したサイトです。
             <br />
-            原則毎週日曜日 TOKYO-FM
+            原則毎週土曜日 TOKYO-FM
             の本放送終了後に更新します。作者がリアルタイムで聞けなかった日は、一両日中に視聴して更新します。
           </Paragraph>
           <Paragraph>
@@ -49,13 +49,6 @@ function IndexPage({ data }: PageProps<IndexPageQueryData>) {
             <br />
             <AppLink href="https://www.tfm.co.jp/manyuki/">
               https://www.tfm.co.jp/manyuki/
-            </AppLink>
-          </Paragraph>
-          <Paragraph>
-            全国38局放送時間一覧
-            <br />
-            <AppLink href="https://www.tfm.co.jp/manyuki/index.php?catid=3350">
-              https://www.tfm.co.jp/manyuki/index.php?catid=3350
             </AppLink>
           </Paragraph>
         </Article>

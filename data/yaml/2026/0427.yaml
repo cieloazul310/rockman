@@ -1,0 +1,110 @@
+id: "20260427"
+week: 427
+year: 2026
+title: ボブ・ウェルチで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-03-08
+playlist:
+  - id: "2026042701"
+    week: 427
+    index: 3547
+    indexInWeek: 1
+    title: ヘビーメロウ
+    artist: スピッツ
+    year: 2017
+    nation: JPN
+    label: ユニバーサル
+    youtube: BASmTe-x-Ok
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042702"
+    week: 427
+    index: 3548
+    indexInWeek: 2
+    title: Hurry Up
+    artist: Head West
+    year: 1970
+    nation: US
+    label: Disques Vogue
+    youtube: vcI724AeP2U
+    selector: 草野マサムネ
+  - id: "2026042703"
+    week: 427
+    index: 3549
+    indexInWeek: 3
+    title: Sands of Time
+    artist: Fleetwood Mac
+    year: 1971
+    nation: UK
+    label: Reprise
+    youtube: 1Jkp34jMeEw
+    selector: 草野マサムネ
+  - id: "2026042704"
+    week: 427
+    index: 3550
+    indexInWeek: 4
+    title: Sentimental Lady
+    artist: Fleetwood Mac
+    year: 1972
+    nation: UK
+    label: Reprise
+    youtube: KAz_a8AjHgE
+    selector: 草野マサムネ
+  - id: "2026042705"
+    week: 427
+    index: 3551
+    indexInWeek: 5
+    title: Blue Robin
+    artist: Paris
+    year: 1976
+    nation: US
+    label: Capitol
+    youtube: fj3NKnif3fo
+    selector: 草野マサムネ
+  - id: "2026042706"
+    week: 427
+    index: 3552
+    indexInWeek: 6
+    title: Ebony Eyes
+    artist: Bob Welch
+    year: 1977
+    nation: US
+    label: Capitol
+    youtube: xvuccbcCcsI
+    selector: 草野マサムネ
+  - id: "2026042707"
+    week: 427
+    index: 3553
+    indexInWeek: 7
+    title: Dancin' Eyes
+    artist: Bob Welch
+    year: 1977
+    nation: US
+    label: Capitol
+    youtube: Ody-6YXTbto
+    selector: 草野マサムネ
+  - id: "2026042708"
+    week: 427
+    index: 3554
+    indexInWeek: 8
+    title: S.O.S
+    artist: Bob Welch
+    year: 1983
+    nation: US
+    label: RCA
+    youtube: OhZy4GMKzAI
+    selector: 草野マサムネ
+  - id: "2026042709"
+    week: 427
+    index: 3555
+    indexInWeek: 9
+    title: まわれ恋の風車
+    artist: 香坂みゆき
+    kana: こうさかみゆき
+    year: 1978
+    nation: JPN
+    label: ポリドール
+    youtube: Qxlal3Bz5BU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

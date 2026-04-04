@@ -1,0 +1,109 @@
+id: "20260425"
+week: 425
+year: 2026
+title: ザ・ゾンビーズで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-02-22
+playlist:
+  - id: "2026042501"
+    week: 425
+    index: 3530
+    indexInWeek: 1
+    title: 春の歌
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    youtube: 94uxNQqmknk
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042502"
+    week: 425
+    index: 3531
+    indexInWeek: 2
+    title: Time of the Season
+    artist: The Zombies
+    year: 1968
+    nation: UK
+    label: EMI
+    youtube: T8ecsAI3FhY
+    selector: 草野マサムネ
+  - id: "2026042503"
+    week: 425
+    index: 3532
+    indexInWeek: 3
+    title: She's Not There
+    artist: The Zombies
+    year: 1964
+    nation: UK
+    label: Decca
+    youtube: ieWZpXPuIhU
+    selector: 草野マサムネ
+  - id: "2026042504"
+    week: 425
+    index: 3533
+    indexInWeek: 4
+    title: Tell Her No
+    artist: The Zombies
+    year: 1964
+    nation: UK
+    label: Decca
+    youtube: j3l8tsg066g
+    selector: 草野マサムネ
+  - id: "2026042505"
+    week: 425
+    index: 3534
+    indexInWeek: 5
+    title: I Love You
+    artist: The Zombies
+    year: 1965
+    nation: UK
+    label: Decca
+    youtube: EKEwemaTh6Y
+    selector: 草野マサムネ
+  - id: "2026042506"
+    week: 425
+    index: 3535
+    indexInWeek: 6
+    title: Care of Cell 44
+    artist: The Zombies
+    year: 1968
+    nation: UK
+    label: CBS
+    youtube: 1AbLstAAbcM
+    selector: 草野マサムネ
+  - id: "2026042507"
+    week: 425
+    index: 3536
+    indexInWeek: 7
+    title: Hung Up on a Dream
+    artist: The Zombies
+    year: 1968
+    nation: UK
+    label: CBS
+    youtube: 6neIkEDG5v0
+    selector: 草野マサムネ
+  - id: "2026042508"
+    week: 425
+    index: 3537
+    indexInWeek: 8
+    title: Now I Know I'll Never Get Over You
+    artist: The Zombies
+    year: 2015
+    nation: UK
+    label: The End Record
+    youtube: eWOy-jnkUcc
+    selector: 草野マサムネ
+  - id: "2026042509"
+    week: 425
+    index: 3538
+    indexInWeek: 9
+    title: 空に星があるように
+    artist: 荒木一郎
+    kana: あらきいちろう
+    year: 1966
+    nation: JPN
+    label: ビクターレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

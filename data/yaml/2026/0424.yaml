@@ -1,0 +1,107 @@
+id: "20260424"
+week: 424
+year: 2026
+title: jam 1979年1月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2026-02-15
+playlist:
+  - id: "2026042401"
+    week: 424
+    index: 3521
+    indexInWeek: 1
+    title: ただ春を待つ
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042402"
+    week: 424
+    index: 3522
+    indexInWeek: 2
+    title: Prove It All Night
+    artist: Bruce Springsteen
+    year: 1978
+    nation: US
+    label: Columbia
+    youtube: okrvOAUg-yY
+    selector: 草野マサムネ
+  - id: "2026042403"
+    week: 424
+    index: 3523
+    indexInWeek: 3
+    title: Lies
+    artist: The Rolling Stones
+    year: 1978
+    nation: UK
+    label: Rolling Stones
+    youtube: -3jgliFrM20
+    selector: 草野マサムネ
+  - id: "2026042404"
+    week: 424
+    index: 3524
+    indexInWeek: 4
+    title: Voices
+    artist: Sham 69
+    year: 1979
+    nation: UK
+    label: Polydor
+    youtube: e6tVAyMl838
+    selector: 草野マサムネ
+  - id: "2026042405"
+    week: 424
+    index: 3525
+    indexInWeek: 5
+    title: No No
+    artist: Stinky Toys
+    year: 1979
+    nation: FR
+    label: Vogue
+    youtube: 7FKML4_iSB0
+    selector: 草野マサムネ
+  - id: "2026042406"
+    week: 424
+    index: 3526
+    indexInWeek: 6
+    title: A Bout de Souffle
+    artist: Marie et les Garçons
+    year: 1977
+    nation: FR
+    label: Rebel Records
+    youtube: XmeWHyZv2LU
+    selector: 草野マサムネ
+  - id: "2026042407"
+    week: 424
+    index: 3527
+    indexInWeek: 7
+    title: Nothing to Lose
+    artist: U.K.
+    year: 1979
+    nation: UK
+    label: E.G.
+    selector: 草野マサムネ
+  - id: "2026042408"
+    week: 424
+    index: 3528
+    indexInWeek: 8
+    title: Diamond Smiles
+    artist: The Boomtown Rats
+    year: 1979
+    nation: IRE
+    label: Ensign
+    youtube: qEkyGu7ZiXw
+    selector: 草野マサムネ
+  - id: "2026042409"
+    week: 424
+    index: 3529
+    indexInWeek: 9
+    title: グラジュエイション
+    artist: 倉田まり子
+    kana: くらたまりこ
+    year: 1979
+    nation: JPN
+    label: キングレコード
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

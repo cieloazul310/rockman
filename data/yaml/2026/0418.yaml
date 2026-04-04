@@ -1,0 +1,98 @@
+id: "20260418"
+week: 418
+year: 2026
+title: 2025年漫遊に漏れた曲で漫遊記
+guests: []
+categories: ["漏れた曲"]
+date: 2026-01-04
+playlist:
+  - id: "2026041801"
+    week: 418
+    index: 3471
+    indexInWeek: 1
+    title: けもの道
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026041802"
+    week: 418
+    index: 3472
+    indexInWeek: 2
+    title: シャイン
+    artist: SaToMansion
+    year: 2018
+    nation: JPN
+    label: SaToMansion
+    youtube: G9CW1_4sTIE
+    selector: 草野マサムネ
+  - id: "2026041803"
+    week: 418
+    index: 3473
+    indexInWeek: 3
+    title: Auf Wiedersehen
+    artist: Cheap Trick
+    year: 1978
+    nation: US
+    label: Epic
+    youtube: KhWoEUJCL2Y
+    selector: 草野マサムネ
+  - id: "2026041804"
+    week: 418
+    index: 3474
+    indexInWeek: 4
+    title: 空よ雲よ小さな風よ
+    artist: 田中星児/水越けいこ
+    kana: たなかせいじみずこしけいこ
+    year: 1977
+    nation: JPN
+    label: ビクターレコード
+    youtube: K-WX1vdyHLI
+    selector: 草野マサムネ
+  - id: "2026041805"
+    week: 418
+    index: 3475
+    indexInWeek: 5
+    title: CHANCE!
+    artist: THE FUSE
+    year: 1990
+    nation: JPN
+    label: Eastworld
+    youtube: 14I5KnPD44M
+    selector: 草野マサムネ
+  - id: "2026041806"
+    week: 418
+    index: 3476
+    indexInWeek: 6
+    title: Talkin'
+    artist: Midnight Sun
+    year: 1971
+    nation: DNK
+    label: Sonet
+    selector: 草野マサムネ
+  - id: "2026041807"
+    week: 418
+    index: 3477
+    indexInWeek: 7
+    title: Call Me
+    artist: Diamond Head
+    year: 1982
+    nation: UK
+    label: MCA
+    youtube: -EDk8Cr14GI
+    selector: 草野マサムネ
+  - id: "2026041808"
+    week: 418
+    index: 3478
+    indexInWeek: 8
+    title: ハチのムサシは死んだのさ
+    artist: 平田隆夫とセルスターズ
+    kana: ひらたたかおとせるすたーず
+    year: 1972
+    nation: JPN
+    label: Dan
+    youtube: dX4Y23kFPFE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン

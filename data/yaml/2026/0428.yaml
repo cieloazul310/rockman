@@ -1,0 +1,98 @@
+id: "20260428"
+week: 428
+year: 2026
+title: ディープ・パープルのカバー曲で漫遊記
+guests: []
+categories: ["変則アーティスト特集", "カバー曲"]
+date: 2026-03-15
+playlist:
+  - id: "2026042801"
+    week: 428
+    index: 3556
+    indexInWeek: 1
+    title: 紫の夜を越えて
+    artist: スピッツ
+    year: 2021
+    nation: JPN
+    label: ユニバーサル
+    youtube: nqjkgsRD7Sw
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026042802"
+    week: 428
+    index: 3557
+    indexInWeek: 2
+    title: Space Truckin'
+    artist: Head West
+    year: 2012
+    nation: UK
+    label: Eagle Rock Entertainment
+    selector: 草野マサムネ
+  - id: "2026042803"
+    week: 428
+    index: 3558
+    indexInWeek: 3
+    title: BLACK NIGHT
+    artist: 東京スカパラダイスオーケストラ
+    kana: とうきょうすかぱらだいすおーけすとら
+    year: 2000
+    nation: JPN
+    label: avex trax
+    youtube: voFxWciad-c
+    selector: 草野マサムネ
+  - id: "2026042804"
+    week: 428
+    index: 3559
+    indexInWeek: 4
+    title: Highway Star
+    artist: Point Blank
+    year: 1980
+    nation: US
+    label: MCA
+    youtube: e8xrlvWGNJE
+    selector: 草野マサムネ
+  - id: "2026042805"
+    week: 428
+    index: 3560
+    indexInWeek: 5
+    title: Stormbringer
+    artist: Van Canto
+    year: 2009
+    nation: GER
+    label: Napalm
+    youtube: sBCMdJ-U6gs
+    selector: 草野マサムネ
+  - id: "2026042806"
+    week: 428
+    index: 3561
+    indexInWeek: 6
+    title: Smoke on the Water
+    artist: Lilian Raquel
+    year: 2014
+    nation: BRA
+    label: NITRON
+    selector: 草野マサムネ
+  - id: "2026042807"
+    week: 428
+    index: 3562
+    indexInWeek: 7
+    title: Fireball (Live 1977 from "Doin' Our Thing At The Live House")
+    artist: 紫
+    kana: むらさき
+    year: 1977
+    nation: JPN
+    label: Bourbon Records
+    selector: 草野マサムネ
+  - id: "2026042808"
+    week: 428
+    index: 3563
+    indexInWeek: 8
+    title: パープルタウン 〜You Oughta Know By Now〜
+    artist: 八神純子
+    kana: やがみじゅんこ
+    year: 1980
+    nation: JPN
+    label: ディスコメイトレコード
+    youtube: ss2Rh1E3aTo
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
