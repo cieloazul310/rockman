@@ -1,0 +1,108 @@
+id: "20260432"
+week: 432
+year: 2026
+title: ABBAで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-04-11
+playlist:
+  - id: "2026043201"
+    week: 432
+    index: 3589
+    indexInWeek: 1
+    title: 野生のチューリップ
+    artist: スピッツ
+    year: 1999
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043202"
+    week: 432
+    index: 3590
+    indexInWeek: 2
+    title: Dancing Queen
+    artist: ABBA
+    year: 1976
+    nation: SWE
+    label: Polar
+    youtube: xFrGuyw1V8s
+    selector: 草野マサムネ
+  - id: "2026043203"
+    week: 432
+    index: 3591
+    indexInWeek: 3
+    title: Summer Night City
+    artist: ABBA
+    year: 1978
+    nation: SWE
+    label: Polar
+    youtube: _d5dPYHi17k
+    selector: 草野マサムネ
+  - id: "2026043204"
+    week: 432
+    index: 3592
+    indexInWeek: 4
+    title: Kisses of Fire
+    artist: ABBA
+    year: 1979
+    nation: SWE
+    label: Polar
+    youtube: PGbRTyOo5fY
+    selector: 草野マサムネ
+  - id: "2026043205"
+    week: 432
+    index: 3593
+    indexInWeek: 5
+    title: Voulez-Vous
+    artist: ABBA
+    year: 1979
+    nation: SWE
+    label: Polar
+    youtube: za05HBtGsgU
+    selector: 草野マサムネ
+  - id: "2026043206"
+    week: 432
+    index: 3594
+    indexInWeek: 6
+    title: Super Trouper
+    artist: ABBA
+    year: 1980
+    nation: SWE
+    label: Polar
+    youtube: BshxCIjNEjY
+    selector: 草野マサムネ
+  - id: "2026043207"
+    week: 432
+    index: 3595
+    indexInWeek: 7
+    title: Bang-A-Boomerang
+    artist: ABBA
+    year: 1975
+    nation: SWE
+    label: Polar
+    youtube: _CsJCa2TlXU
+    selector: 草野マサムネ
+  - id: "2026043208"
+    week: 432
+    index: 3596
+    indexInWeek: 8
+    title: Waterloo (Swedish version)
+    artist: ABBA
+    year: 1974
+    nation: SWE
+    label: Polar
+    youtube: 7BXyboCMDS4
+    selector: 草野マサムネ
+  - id: "2026043209"
+    week: 432
+    index: 3597
+    indexInWeek: 9
+    title: 運命船サラバ号出発
+    artist: ザ・コブラツイスターズ
+    year: 1999
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: GGEqnODWFRY
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
