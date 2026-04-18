@@ -1,0 +1,109 @@
+id: "20260433"
+week: 433
+year: 2026
+title: 哀愁メロディのナンバーで漫遊記
+guests: []
+categories: []
+date: 2026-04-18
+playlist:
+  - id: "2026043301"
+    week: 433
+    index: 3598
+    indexInWeek: 1
+    title: メモリーズ
+    artist: スピッツ
+    year: 2000
+    nation: JPN
+    label: ポリドール
+    youtube: bkDLvKgI-dQ
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043302"
+    week: 433
+    index: 3599
+    indexInWeek: 2
+    title: Phase
+    artist: Pinegrove
+    year: 2020
+    nation: US
+    label: Rough Trade
+    youtube: Ad8BabV7oLg
+    selector: 草野マサムネ
+  - id: "2026043303"
+    week: 433
+    index: 3600
+    indexInWeek: 3
+    title: What Are You Like
+    artist: Pugwash
+    year: 2017
+    nation: IRE
+    label: Lojinx
+    youtube: _9K2gd7r9Kc
+    selector: 草野マサムネ
+  - id: "2026043304"
+    week: 433
+    index: 3601
+    indexInWeek: 4
+    title: The Riddle
+    artist: Nik Kershaw
+    year: 1984
+    nation: UK
+    label: MCA
+    youtube: bDygS0a6Tgo
+    selector: 草野マサムネ
+  - id: "2026043305"
+    week: 433
+    index: 3602
+    indexInWeek: 5
+    title: Teenage
+    artist: Veronica Falls
+    year: 2013
+    nation: UK
+    label: Bella Union
+    youtube: 8A8yRqDIrBw
+    selector: 草野マサムネ
+  - id: "2026043306"
+    week: 433
+    index: 3603
+    indexInWeek: 6
+    title: Star
+    artist: Stealers Wheel
+    year: 1973
+    nation: UK
+    label: A&M
+    youtube: SdW0kq2VS_s
+    selector: 草野マサムネ
+  - id: "2026043307"
+    week: 433
+    index: 3604
+    indexInWeek: 7
+    title: Sing
+    artist: Travis
+    year: 2001
+    nation: UK
+    label: Independiente
+    youtube: eYO1-gGWJyo
+    selector: 草野マサムネ
+  - id: "2026043308"
+    week: 433
+    index: 3605
+    indexInWeek: 8
+    title: Someday I'll Smile Again
+    artist: Smoking Popes
+    year: 2018
+    nation: US
+    label: Asian Man
+    youtube: wTIFS-YuQVc
+    selector: 草野マサムネ
+  - id: "2026043309"
+    week: 433
+    index: 3606
+    indexInWeek: 9
+    title: 彗星
+    artist: Salyu
+    year: 2005
+    nation: JPN
+    label: トイズファクトリー
+    youtube: auXDj0qloks
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
