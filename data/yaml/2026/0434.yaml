@@ -1,0 +1,98 @@
+id: "20260434"
+week: 434
+year: 2026
+title: 過小評価だと思うアーティストリクエストで漫遊記(前編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2026-04-25
+playlist:
+  - id: "2026043401"
+    week: 434
+    index: 3607
+    indexInWeek: 1
+    title: ビギナー
+    artist: スピッツ
+    year: 2010
+    nation: JPN
+    label: ユニバーサル
+    youtube: Dy7p52n2JGs
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043402"
+    week: 434
+    index: 3608
+    indexInWeek: 2
+    title: 二人のアカボシ
+    artist: キンモクセイ
+    year: 2002
+    nation: JPN
+    label: BMGファンハウス
+    youtube: EXx3NvC_WZY
+    selector: リクエスト
+  - id: "2026043403"
+    week: 434
+    index: 3609
+    indexInWeek: 3
+    title: The Sun Always Shines on T.V.
+    artist: a-ha
+    year: 1985
+    nation: NOR
+    label: Warner Bors.
+    youtube: a3ir9HC9vYg
+    selector: リクエスト
+  - id: "2026043404"
+    week: 434
+    index: 3610
+    indexInWeek: 4
+    title: エクレア
+    artist: 岡崎体育
+    kana: おかざきたいいく
+    year: 2016
+    nation: JPN
+    label: SME Records
+    youtube: 4mZ4_9qHNws
+    selector: リクエスト
+  - id: "2026043405"
+    week: 434
+    index: 3611
+    indexInWeek: 5
+    title: New York Groove
+    artist: Hello
+    year: 1975
+    nation: UK
+    label: Bell
+    youtube: C3VH06FC9W0
+    selector: リクエスト
+  - id: "2026043406"
+    week: 434
+    index: 3612
+    indexInWeek: 6
+    title: I am here
+    artist: Ryu Matsuyama
+    year: 2023
+    nation: JPN
+    label: VAP
+    youtube: S4Q0gCWKXDQ
+    selector: リクエスト
+  - id: "2026043407"
+    week: 434
+    index: 3613
+    indexInWeek: 7
+    title: Gaia
+    artist: Valensia
+    year: 1993
+    nation: NED
+    label: Mercury
+    youtube: BC6nUoiFtvM
+    selector: リクエスト
+  - id: "2026043408"
+    week: 434
+    index: 3614
+    indexInWeek: 8
+    title: Everyday
+    artist: Bialystocks
+    year: 2026
+    nation: JPN
+    label: IRORI Records
+    youtube: KYllIIdzGCY
+    selector: リクエスト
