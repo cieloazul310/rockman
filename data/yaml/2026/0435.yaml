@@ -1,0 +1,98 @@
+id: "20260435"
+week: 435
+year: 2026
+title: 過小評価だと思うアーティストリクエストで漫遊記(後編)
+guests: []
+categories: ["リクエスト特集"]
+date: 2026-05-02
+playlist:
+  - id: "2026043501"
+    week: 435
+    index: 3615
+    indexInWeek: 1
+    title: 美しい鰭
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    youtube: KbGPM9jFeGg
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043502"
+    week: 435
+    index: 3616
+    indexInWeek: 2
+    title: スティーヴン・キングは殺人鬼じゃない
+    artist: THE COLLECTORS
+    year: 2024
+    nation: JPN
+    label: 日本コロムビア
+    youtube: bv33uh1By5Y
+    selector: リクエスト
+  - id: "2026043503"
+    week: 435
+    index: 3617
+    indexInWeek: 3
+    title: Something Changed
+    artist: Pulp
+    year: 1995
+    nation: UK
+    label: Island
+    youtube: K_NjI7iuwtk
+    selector: リクエスト
+  - id: "2026043504"
+    week: 435
+    index: 3618
+    indexInWeek: 4
+    title: Free World
+    artist: LOVE PSYCHEDELICO
+    year: 2001
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: MDHab2SO1CY
+    selector: リクエスト
+  - id: "2026043505"
+    week: 435
+    index: 3619
+    indexInWeek: 5
+    title: SECTOR
+    artist: B-DASH
+    year: 2003
+    nation: JPN
+    label: UNLIMITED GROUP
+    youtube: X0sbY3lxwb0
+    selector: リクエスト
+  - id: "2026043506"
+    week: 435
+    index: 3620
+    indexInWeek: 6
+    title: Trouble
+    artist: Rex
+    year: 1976
+    nation: US
+    label: Columbia
+    youtube: -_-5t1pRXjY
+    selector: リクエスト
+  - id: "2026043507"
+    week: 435
+    index: 3621
+    indexInWeek: 7
+    title: One More Time
+    artist: Joe Jackson
+    year: 1979
+    nation: UK
+    label: A&M
+    youtube: ho4UCY-18ww
+    selector: リクエスト
+  - id: "2026043508"
+    week: 435
+    index: 3622
+    indexInWeek: 8
+    title: 沈黙の恋人
+    artist: 阿部芙蓉美
+    kana: あべふゆみ
+    year: 2012
+    nation: JPN
+    label: 3rd Stone Records
+    youtube: udvTFUMQAK0
+    selector: リクエスト
