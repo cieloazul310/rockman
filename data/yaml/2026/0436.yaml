@@ -1,0 +1,97 @@
+id: "20260436"
+week: 436
+year: 2026
+title: Blue Öyster Cultで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-05-09
+playlist:
+  - id: "2026043601"
+    week: 436
+    index: 3623
+    indexInWeek: 1
+    title: 青い車
+    artist: スピッツ
+    year: 1994
+    nation: JPN
+    label: ポリドール
+    youtube: 5K8ZuLYG0yo
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043602"
+    week: 436
+    index: 3624
+    indexInWeek: 2
+    title: (Don't Fear) The Reaper
+    artist: Blue Öyster Cult
+    year: 1976
+    nation: US
+    label: Columbia
+    youtube: Dy4HA3vUv2c
+    selector: 草野マサムネ
+  - id: "2026043603"
+    week: 436
+    index: 3625
+    indexInWeek: 3
+    title: She's as Beautiful as a Foot
+    artist: Blue Öyster Cult
+    year: 1972
+    nation: US
+    label: Columbia
+    youtube: zHVCpeytQCw
+    selector: 草野マサムネ
+  - id: "2026043604"
+    week: 436
+    index: 3626
+    indexInWeek: 4
+    title: Godzilla
+    artist: Blue Öyster Cult
+    year: 1977
+    nation: US
+    label: Columbia
+    youtube: RTzb-sduiWc
+    selector: 草野マサムネ
+  - id: "2026043605"
+    week: 436
+    index: 3627
+    indexInWeek: 5
+    title: Burnin' for You
+    artist: Blue Öyster Cult
+    year: 1981
+    nation: US
+    label: Columbia
+    youtube: kn-8n4QKUS4
+    selector: 草野マサムネ
+  - id: "2026043606"
+    week: 436
+    index: 3628
+    indexInWeek: 6
+    title: Here Comes That Feeling
+    artist: Blue Öyster Cult
+    year: 2001
+    nation: US
+    label: CMC/Sanctuary
+    youtube: cNdXUNIZW5c
+    selector: 草野マサムネ
+  - id: "2026043607"
+    week: 436
+    index: 3629
+    indexInWeek: 7
+    title: Box in My Head
+    artist: Blue Öyster Cult
+    year: 2020
+    nation: US
+    label: Frontiers
+    youtube: UQoWfQ_3txA
+    selector: 草野マサムネ
+  - id: "2026043608"
+    week: 436
+    index: 3630
+    indexInWeek: 8
+    title: O.P.KINGのテーマ
+    artist: O.P.KING
+    year: 2003
+    nation: JPN
+    label: SME Records
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
