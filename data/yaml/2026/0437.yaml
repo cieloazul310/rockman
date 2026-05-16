@@ -1,0 +1,97 @@
+id: "20260437"
+week: 437
+year: 2026
+title: マッドチェスターで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2026-05-16
+playlist:
+  - id: "2026043701"
+    week: 437
+    index: 3631
+    indexInWeek: 1
+    title: うめぼし
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043702"
+    week: 437
+    index: 3632
+    indexInWeek: 2
+    title: She Bangs the Drums
+    artist: The Stone Roses
+    year: 1989
+    nation: UK
+    label: Silvertone
+    youtube: VEOEIo0DxgM
+    selector: 草野マサムネ
+  - id: "2026043703"
+    week: 437
+    index: 3633
+    indexInWeek: 3
+    title: Round & Round
+    artist: New Order
+    year: 1989
+    nation: UK
+    label: Factory
+    youtube: t1tjQqWqqAA
+    selector: 草野マサムネ
+  - id: "2026043704"
+    week: 437
+    index: 3634
+    indexInWeek: 4
+    title: Kinky Afro
+    artist: Happy Mondays
+    year: 1990
+    nation: UK
+    label: Factory
+    youtube: O8maBsuhHr4
+    selector: 草野マサムネ
+  - id: "2026043705"
+    week: 437
+    index: 3635
+    indexInWeek: 5
+    title: The Only One I Know
+    artist: The Charlatans
+    year: 1990
+    nation: UK
+    label: Situation Two
+    youtube: 0RJwW77Lsj8
+    selector: 草野マサムネ
+  - id: "2026043706"
+    week: 437
+    index: 3636
+    indexInWeek: 6
+    title: Joe (re-recorded)
+    artist: Inspiral Carpets
+    year: 1995
+    nation: UK
+    label: Cow
+    youtube: BsK76tTEeFU
+    selector: 草野マサムネ
+  - id: "2026043707"
+    week: 437
+    index: 3637
+    indexInWeek: 7
+    title: Sit Down
+    artist: James
+    year: 1990
+    nation: UK
+    label: Fontana
+    youtube: zPNw_2h0CnU
+    selector: 草野マサムネ
+  - id: "2026043708"
+    week: 437
+    index: 3638
+    indexInWeek: 8
+    title: THE ANSWER
+    artist: Spiral Life
+    year: 1993
+    nation: JPN
+    label: Polystar
+    youtube: -U7RTnUrR3M
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
