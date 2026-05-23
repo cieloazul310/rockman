@@ -1,0 +1,97 @@
+id: "20260438"
+week: 438
+year: 2026
+title: ロッキンf 1983年6月号で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2026-05-23
+playlist:
+  - id: "2026043801"
+    week: 438
+    index: 3639
+    indexInWeek: 1
+    title: 君と暮らせたら
+    artist: スピッツ
+    year: 1995
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043802"
+    week: 438
+    index: 3640
+    indexInWeek: 2
+    title: Goodbye Elenore
+    artist: Toto
+    year: 1981
+    nation: US
+    label: Columbia
+    youtube: J6-2jpl0qZs
+    selector: 草野マサムネ
+  - id: "2026043803"
+    week: 438
+    index: 3641
+    indexInWeek: 3
+    title: Modern Love
+    artist: David Bowie
+    year: 1983
+    nation: UK
+    label: EMI America
+    youtube: HivQqTtiHVw
+    selector: 草野マサムネ
+  - id: "2026043804"
+    week: 438
+    index: 3642
+    indexInWeek: 4
+    title: "412"
+    artist: EARTHSHAKER
+    year: 1983
+    nation: JPN
+    label: NEXUS
+    youtube: RGLg4UOYe6k
+    selector: 草野マサムネ
+  - id: "2026043805"
+    week: 438
+    index: 3643
+    indexInWeek: 5
+    title: Impact
+    artist: MARINO
+    year: 1984
+    nation: JPN
+    label: SMS Records
+    selector: 草野マサムネ
+  - id: "2026043806"
+    week: 438
+    index: 3644
+    indexInWeek: 6
+    title: 夏は誰も愛さない
+    artist: 本城未沙子
+    kana: ほんじょうみさこ
+    year: 1983
+    nation: JPN
+    label: テイチクレコード
+    youtube: z8FNe97oXg8
+    selector: 草野マサムネ
+  - id: "2026043807"
+    week: 438
+    index: 3645
+    indexInWeek: 7
+    title: FOOLISH BOY
+    artist: X-RAY
+    year: 1983
+    nation: JPN
+    label: テイチクレコード
+    youtube: erR0mKR_-TM
+    selector: 草野マサムネ
+  - id: "2026043808"
+    week: 438
+    index: 3646
+    indexInWeek: 8
+    title: ふたりのフォトグラフ
+    artist: THE BADGE
+    year: 1982
+    nation: JPN
+    label: テイチクレコード
+    youtube: phhSopASz20
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
