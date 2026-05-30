@@ -1,0 +1,96 @@
+id: "20260439"
+week: 439
+year: 2026
+title: メロトロンで漫遊記
+guests: []
+categories: ["楽器"]
+date: 2026-05-30
+playlist:
+  - id: "2026043901"
+    week: 439
+    index: 3647
+    indexInWeek: 1
+    title: エトランゼ
+    artist: スピッツ
+    year: 1998
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026043902"
+    week: 439
+    index: 3648
+    indexInWeek: 2
+    title: Strawberry Fields Forever
+    artist: The Beatles
+    year: 1967
+    nation: UK
+    label: Parlophone
+    youtube: 8UQK-UcRezE
+    selector: 草野マサムネ
+  - id: "2026043903"
+    week: 439
+    index: 3649
+    indexInWeek: 3
+    title: Nights in White Satin
+    artist: The Moody Blues
+    year: 1967
+    nation: UK
+    label: Deram
+    youtube: 066HZlam91Y
+    selector: 草野マサムネ
+  - id: "2026043904"
+    week: 439
+    index: 3650
+    indexInWeek: 4
+    title: Changes
+    artist: The Zombies
+    year: 1968
+    nation: UK
+    label: CBS
+    youtube: puhVpBjJLJs
+    selector: 草野マサムネ
+  - id: "2026043905"
+    week: 439
+    index: 3651
+    indexInWeek: 5
+    title: The Court of the Crimson King
+    artist: King Crimson
+    year: 1969
+    nation: UK
+    label: Island
+    youtube: ukgraQ-xkp4
+    selector: 草野マサムネ
+  - id: "2026043906"
+    week: 439
+    index: 3652
+    indexInWeek: 6
+    title: O Caroline
+    artist: Matching Mole
+    year: 1972
+    nation: UK
+    label: CBS
+    youtube: tdVkqLrsr4M
+    selector: 草野マサムネ
+  - id: "2026043907"
+    week: 439
+    index: 3653
+    indexInWeek: 7
+    title: Highway Knees
+    artist: T. Rex
+    year: 1973
+    nation: UK
+    label: EMI
+    youtube: B4x5n2yLWb4
+    selector: 草野マサムネ
+  - id: "2026043908"
+    week: 439
+    index: 3654
+    indexInWeek: 8
+    title: 自由に歩いて愛して
+    artist: PYG
+    year: 1971
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
