@@ -1,0 +1,94 @@
+id: "20260440"
+week: 440
+year: 2026
+title: スピッツの海ソングで漫遊記
+guests: []
+categories: ["スピッツ曲"]
+date: 2026-06-06
+playlist:
+  - id: "2026044001"
+    week: 440
+    index: 3655
+    indexInWeek: 1
+    title: ロビンソン
+    artist: Maika Loubté
+    year: 2025
+    nation: JPN
+    label: WATER RECORDS
+    youtube: 2Mqw5GLxBls
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044002"
+    week: 440
+    index: 3656
+    indexInWeek: 2
+    title: 海とピンク
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2026044003"
+    week: 440
+    index: 3657
+    indexInWeek: 3
+    title: 海ねこ
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2026044004"
+    week: 440
+    index: 3658
+    indexInWeek: 4
+    title: マーメイド
+    artist: スピッツ
+    year: 1992
+    nation: JPN
+    label: ポリドール
+    selector: 草野マサムネ
+  - id: "2026044005"
+    week: 440
+    index: 3659
+    indexInWeek: 5
+    title: 渚
+    artist: スピッツ
+    year: 1996
+    nation: JPN
+    label: ポリドール
+    youtube: B7T4NNNWeHg
+    selector: 草野マサムネ
+  - id: "2026044006"
+    week: 440
+    index: 3660
+    indexInWeek: 6
+    title: 海を見に行こう
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2026044007"
+    week: 440
+    index: 3661
+    indexInWeek: 7
+    title: 漣
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2026044008"
+    week: 440
+    index: 3662
+    indexInWeek: 8
+    title: オーシャン・ブルー
+    artist: 稲垣潤一
+    kana: いながきじゅんいち
+    year: 1984
+    nation: JPN
+    label: EXPRESS
+    youtube: HCoGNVRUeaw
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
