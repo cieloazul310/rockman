@@ -1,0 +1,109 @@
+id: "20260441"
+week: 441
+year: 2026
+title: ロク漫祭の予習で漫遊記
+guests: []
+categories: []
+date: 2026-06-13
+playlist:
+  - id: "2026044101"
+    week: 441
+    index: 3663
+    indexInWeek: 1
+    title: プール
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044102"
+    week: 441
+    index: 3664
+    indexInWeek: 2
+    title: Sparky's Dream
+    artist: Teenage Fanclub
+    year: 1995
+    nation: UK
+    label: Creation
+    youtube: UK_CuMJJLwg
+    selector: 草野マサムネ
+  - id: "2026044103"
+    week: 441
+    index: 3665
+    indexInWeek: 3
+    title: Ain't That Enough
+    artist: Teenage Fanclub
+    year: 1997
+    nation: UK
+    label: Creation
+    youtube: 3mLCfiiWkEg
+    selector: 草野マサムネ
+  - id: "2026044104"
+    week: 441
+    index: 3666
+    indexInWeek: 4
+    title: ワンダー
+    artist: 羊文学
+    kana: ひつじぶんがく
+    year: 2022
+    nation: JPN
+    label: F.C.L.S.
+    selector: 草野マサムネ
+  - id: "2026044105"
+    week: 441
+    index: 3667
+    indexInWeek: 5
+    title: 声
+    artist: 羊文学
+    kana: ひつじぶんがく
+    year: 2025
+    nation: JPN
+    label: F.C.L.S.
+    youtube: yDLQztkxCR0
+    selector: 草野マサムネ
+  - id: "2026044106"
+    week: 441
+    index: 3668
+    indexInWeek: 6
+    title: 海を見に行こう
+    artist: Ride
+    year: 2002
+    nation: UK
+    label: ユニバーサル
+    selector: 草野マサムネ
+  - id: "2026044107"
+    week: 441
+    index: 3669
+    indexInWeek: 7
+    title: Like a Daydream
+    artist: Ride
+    year: 1990
+    nation: UK
+    label: Creation
+    youtube: gBtQ8bkl04Y
+    selector: 草野マサムネ
+  - id: "2026044108"
+    week: 441
+    index: 3670
+    indexInWeek: 8
+    title: Portland Rocks
+    artist: Ride
+    year: 2024
+    nation: UK
+    label: Wichita
+    youtube: 9Q11Ucg_rl4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
+  - id: "2026044109"
+    week: 441
+    index: 3671
+    indexInWeek: 9
+    title: 風になる
+    artist: つじあやの
+    year: 2002
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: lHWVOfC41L4
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
