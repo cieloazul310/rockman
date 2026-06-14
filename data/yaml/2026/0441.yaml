@@ -66,16 +66,6 @@ playlist:
     week: 441
     index: 3668
     indexInWeek: 6
-    title: 海を見に行こう
-    artist: Ride
-    year: 2002
-    nation: UK
-    label: ユニバーサル
-    selector: 草野マサムネ
-  - id: "2026044107"
-    week: 441
-    index: 3669
-    indexInWeek: 7
     title: Like a Daydream
     artist: Ride
     year: 1990
@@ -83,10 +73,10 @@ playlist:
     label: Creation
     youtube: gBtQ8bkl04Y
     selector: 草野マサムネ
-  - id: "2026044108"
+  - id: "2026044107"
     week: 441
-    index: 3670
-    indexInWeek: 8
+    index: 3669
+    indexInWeek: 7
     title: Portland Rocks
     artist: Ride
     year: 2024
@@ -94,11 +84,10 @@ playlist:
     label: Wichita
     youtube: 9Q11Ucg_rl4
     selector: 草野マサムネ
-    corner: ちょっぴりタイムマシン
-  - id: "2026044109"
+  - id: "2026044108"
     week: 441
-    index: 3671
-    indexInWeek: 9
+    index: 3670
+    indexInWeek: 8
     title: 風になる
     artist: つじあやの
     year: 2002
