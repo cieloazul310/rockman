@@ -1,0 +1,98 @@
+id: "20260442"
+week: 442
+year: 2026
+title: ケイト・ブッシュで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-06-20
+playlist:
+  - id: "2026044201"
+    week: 442
+    index: 3671
+    indexInWeek: 1
+    title: 夢じゃない
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    youtube: DIWRNAR-Od0
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044202"
+    week: 442
+    index: 3672
+    indexInWeek: 2
+    title: Wuthering Heights
+    artist: Kate Bush
+    year: 1978
+    nation: UK
+    label: EMI
+    youtube: weKVEWxuvtA
+    selector: 草野マサムネ
+  - id: "2026044203"
+    week: 442
+    index: 3673
+    indexInWeek: 3
+    title: Don't Push Your Foot on the Heartbrake
+    artist: Kate Bush
+    year: 1978
+    nation: UK
+    label: EMI
+    youtube: pu23otIE61s
+    selector: 草野マサムネ
+  - id: "2026044204"
+    week: 442
+    index: 3674
+    indexInWeek: 4
+    title: Babooshka
+    artist: Kate Bush
+    year: 1980
+    nation: UK
+    label: EMI
+    youtube: 6xckBwPdo1c
+    selector: 草野マサムネ
+  - id: "2026044205"
+    week: 442
+    index: 3675
+    indexInWeek: 5
+    title: Sat in Your Lap
+    artist: Kate Bush
+    year: 1982
+    nation: UK
+    label: EMI
+    youtube: -4csr6pLZLg
+    selector: 草野マサムネ
+  - id: "2026044206"
+    week: 442
+    index: 3676
+    indexInWeek: 6
+    title: Suspended in Gaffa
+    artist: Kate Bush
+    year: 1982
+    nation: UK
+    label: EMI
+    youtube: V3XAeg3B0To
+    selector: 草野マサムネ
+  - id: "2026044207"
+    week: 442
+    index: 3677
+    indexInWeek: 7
+    title: Cloudbusting
+    artist: Kate Bush
+    year: 1985
+    nation: UK
+    label: EMI
+    youtube: pllRW9wETzw
+    selector: 草野マサムネ
+  - id: "2026044208"
+    week: 442
+    index: 3678
+    indexInWeek: 8
+    title: ジャガー
+    artist: 西城秀樹
+    kana: さいじょうひでき
+    year: 1976
+    nation: JPN
+    label: RCA
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
