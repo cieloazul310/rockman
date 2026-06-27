@@ -1,0 +1,98 @@
+id: "20260443"
+week: 443
+year: 2026
+title: ロック界の鈴木さんで漫遊記
+guests: []
+categories: ["ロック界の〇〇さん"]
+date: 2026-06-27
+playlist:
+  - id: "2026044301"
+    week: 443
+    index: 3679
+    indexInWeek: 1
+    title: ありがとさん
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    youtube: I24azAvtwu8
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044302"
+    week: 443
+    index: 3680
+    indexInWeek: 2
+    title: 元少年の歌
+    artist: フラワーカンパニーズ
+    year: 2010
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    youtube: lOxMC7EHh9E
+    selector: 草野マサムネ
+  - id: "2026044303"
+    week: 443
+    index: 3681
+    indexInWeek: 3
+    title: Saturday
+    artist: Mr.Children
+    year: 2026
+    nation: JPN
+    label: トイズファクトリー
+    youtube: wC7STC6KIMU
+    selector: 草野マサムネ
+  - id: "2026044304"
+    week: 443
+    index: 3682
+    indexInWeek: 4
+    title: 心臓
+    artist: 鈴木実貴子ズ
+    kana: すずきみきこず
+    year: 2026
+    nation: JPN
+    label: PANAM
+    youtube: BQot3InbDiU
+    selector: 草野マサムネ
+  - id: "2026044305"
+    week: 443
+    index: 3683
+    indexInWeek: 5
+    title: 海辺とラジオ
+    artist: 鈴木祥子
+    kana: すずきしょうこ
+    year: 1995
+    nation: JPN
+    label: EPIC・ソニー
+    selector: 草野マサムネ
+  - id: "2026044306"
+    week: 443
+    index: 3684
+    indexInWeek: 6
+    title: Vitamin C
+    artist: CAN
+    year: 1972
+    nation: GER
+    label: United Artists
+    youtube: YmN9oHa3ZIQ
+    selector: 草野マサムネ
+  - id: "2026044307"
+    week: 443
+    index: 3685
+    indexInWeek: 7
+    title: 花いちもんめ
+    artist: はっぴいえんど
+    year: 1971
+    nation: JPN
+    label: URC
+    selector: 草野マサムネ
+  - id: "2026044308"
+    week: 443
+    index: 3686
+    indexInWeek: 8
+    title: でも、何かが違う
+    artist: 鈴木ヒロミツ
+    kana: すずきひろみつ
+    year: 1975
+    nation: JPN
+    label: 東芝EMI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
