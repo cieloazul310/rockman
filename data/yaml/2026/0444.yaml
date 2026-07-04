@@ -1,0 +1,97 @@
+id: "20260444"
+week: 444
+year: 2026
+title: 最近のいい感じのオージーロックで漫遊記
+guests: []
+categories: ["地域特集"]
+date: 2026-07-04
+playlist:
+  - id: "2026044401"
+    week: 444
+    index: 3687
+    indexInWeek: 1
+    title: Na・de・Na・de ボーイ
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044402"
+    week: 444
+    index: 3688
+    indexInWeek: 2
+    title: If You've Got the Time
+    artist: The Belair Lip Bombs
+    year: 2025
+    nation: AUS
+    label: Third Man
+    youtube: ISfPUMFAlz4
+    selector: 草野マサムネ
+  - id: "2026044403"
+    week: 444
+    index: 3689
+    indexInWeek: 3
+    title: Better With You
+    artist: The Gnomes
+    year: 2026
+    nation: AUS
+    label: Dog Meat
+    youtube: iGMkW1xZ5JE
+    selector: 草野マサムネ
+  - id: "2026044404"
+    week: 444
+    index: 3690
+    indexInWeek: 4
+    title: Buoyant
+    artist: Floodlights
+    year: 2025
+    nation: AUS
+    label: PIAS
+    youtube: F1yEGcfxo4Y
+    selector: 草野マサムネ
+  - id: "2026044405"
+    week: 444
+    index: 3691
+    indexInWeek: 5
+    title: Deadstick
+    artist: King Gizzard & the Lizard Wizard
+    year: 2025
+    nation: AUS
+    label: p(doom)
+    youtube: H7t2FL1SRaE
+    selector: 草野マサムネ
+  - id: "2026044406"
+    week: 444
+    index: 3692
+    indexInWeek: 6
+    title: Telephone
+    artist: LEATHERMAN
+    year: 2023
+    nation: AUS
+    label: Legless Records
+    youtube: Y_iFdLliXus
+    selector: 草野マサムネ
+  - id: "2026044407"
+    week: 444
+    index: 3693
+    indexInWeek: 7
+    title: I Dreamt
+    artist: Hey Spiro!
+    year: 2024
+    nation: AUS
+    label: 自主制作
+    youtube: Idiq5rccS3I
+    selector: 草野マサムネ
+  - id: "2026044408"
+    week: 444
+    index: 3694
+    indexInWeek: 8
+    title: LOVE YOU NEED YOU feat. AI
+    artist: THE BAWDIES
+    year: 2011
+    nation: JPN
+    label: Getting Better
+    youtube: wAzxHmP9JSU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
