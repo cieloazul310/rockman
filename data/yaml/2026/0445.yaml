@@ -1,0 +1,101 @@
+id: "20260445"
+week: 445
+year: 2026
+title: 氷とかアイスで漫遊記
+guests: []
+categories: []
+date: 2026-07-11
+playlist:
+  - id: "2026044501"
+    week: 445
+    index: 3695
+    indexInWeek: 1
+    title: 冷たい頬
+    artist: スピッツ
+    year: 1997
+    nation: JPN
+    label: ポリドール
+    youtube: QzJ_QUc-ygk
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044502"
+    week: 445
+    index: 3696
+    indexInWeek: 2
+    title: Cold as Ice
+    artist: Foreigner
+    year: 1977
+    nation: US
+    label: Atlantic
+    youtube: 1dIBOPyb4A0
+    selector: 草野マサムネ
+  - id: "2026044503"
+    week: 445
+    index: 3697
+    indexInWeek: 3
+    title: 氷の世界
+    artist: 井上陽水
+    kana: いのうえようすい
+    year: 1973
+    nation: JPN
+    label: ポリドール
+    youtube: lDrtcWkQsMU
+    selector: 草野マサムネ
+  - id: "2026044504"
+    week: 445
+    index: 3698
+    indexInWeek: 4
+    title: Ice Man
+    artist: Ice
+    year: 1968
+    nation: UK
+    label: Decca
+    youtube: u-uokYf5AZs
+    selector: 草野マサムネ
+  - id: "2026044505"
+    week: 445
+    index: 3699
+    indexInWeek: 5
+    title: Ice
+    artist: 雨のパレード
+    kana: あめのぱれーど
+    year: 2018
+    nation: JPN
+    label: ビクターエンタテイメント
+    youtube: uKYP6RLPZCQ
+    selector: 草野マサムネ
+  - id: "2026044506"
+    week: 445
+    index: 3700
+    indexInWeek: 6
+    title: Black Ice
+    artist: AC/DC
+    year: 2008
+    nation: AUS
+    label: Columbia
+    youtube: ruBZEJuUmjc
+    selector: 草野マサムネ
+  - id: "2026044507"
+    week: 445
+    index: 3701
+    indexInWeek: 7
+    title: 心の氷
+    artist: フラワーカンパニーズ
+    year: 2013
+    nation: JPN
+    label: ソニー・ミュージックアソシエイテッドレコーズ
+    youtube: FMKQsROdr_0
+    selector: 草野マサムネ
+  - id: "2026044508"
+    week: 445
+    index: 3702
+    indexInWeek: 8
+    title: 夏のお嬢さん
+    artist: 怒髪天
+    kana: どはつてん
+    year: 2010
+    nation: JPN
+    label: インペリアルレコード
+    youtube: NpWfPisebXU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
