@@ -1,0 +1,108 @@
+id: "20260446"
+week: 446
+year: 2026
+title: ジョン・デュ・キャンで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-07-18
+playlist:
+  - id: "2026044601"
+    week: 446
+    index: 3703
+    indexInWeek: 1
+    title: ナンプラー日和
+    artist: スピッツ
+    year: 2005
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044602"
+    week: 446
+    index: 3704
+    indexInWeek: 2
+    title: Hobo
+    artist: Hard Stuff
+    year: 1972
+    nation: UK
+    label: Purple Records
+    youtube: omMYM_a-uJY
+    selector: 草野マサムネ
+  - id: "2026044603"
+    week: 446
+    index: 3705
+    indexInWeek: 3
+    title: Magic In The Air
+    artist: The Attack
+    year: 1990
+    nation: UK
+    label: RPM
+    youtube: 7zKo8CK2NNM
+    selector: 草野マサムネ
+  - id: "2026044604"
+    week: 446
+    index: 3706
+    indexInWeek: 4
+    title: Let's All Watch The Sky Fall Down
+    artist: Andromeda
+    year: 1990
+    nation: UK
+    label: Reflection
+    youtube: 43RvvuxOvAc
+    selector: 草野マサムネ
+  - id: "2026044605"
+    week: 446
+    index: 3707
+    indexInWeek: 5
+    title: Devil's Answer
+    artist: Atomic Rooster
+    year: 1971
+    nation: UK
+    label: Pegasus
+    youtube: _obs4ahAG7M
+    selector: 草野マサムネ
+  - id: "2026044606"
+    week: 446
+    index: 3708
+    indexInWeek: 6
+    title: Sinister Minister
+    artist: Hard Stuff
+    year: 1972
+    nation: UK
+    label: Purple Records
+    youtube: v8pxVOrc2Xc
+    selector: 草野マサムネ
+  - id: "2026044607"
+    week: 446
+    index: 3709
+    indexInWeek: 7
+    title: Don't Be A Dummy
+    artist: John Du Cann
+    year: 1979
+    nation: UK
+    label: Vertigo
+    youtube: hB8g_0-tcMQ
+    selector: 草野マサムネ
+  - id: "2026044608"
+    week: 446
+    index: 3710
+    indexInWeek: 8
+    title: Throw Him In Jail
+    artist: John Du Cann
+    year: 1977
+    nation: UK
+    label: Arista
+    youtube: zVD9AwZjb1w
+    selector: 草野マサムネ
+  - id: "2026044609"
+    week: 446
+    index: 3711
+    indexInWeek: 9
+    title: 回転違いの夏休み
+    artist: 大江千里
+    kana: おおえせんり
+    year: 1987
+    nation: JPN
+    label: EPICソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
