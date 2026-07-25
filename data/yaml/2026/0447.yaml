@@ -1,0 +1,84 @@
+id: "20260447"
+week: 447
+year: 2026
+title: 実はカバー曲で漫遊記
+guests: []
+categories: ["カバー"]
+date: 2026-07-25
+playlist:
+  - id: "2026044701"
+    week: 447
+    index: 3712
+    indexInWeek: 1
+    title: タイム・トラベル
+    artist: スピッツ
+    year: 2012
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044702"
+    week: 447
+    index: 3713
+    indexInWeek: 2
+    title: Les Champs-Elysées
+    artist: Danièle Vidal
+    year: 1971
+    nation: FR
+    label: Barclay-Riviera
+    selector: 草野マサムネ
+  - id: "2026044703"
+    week: 447
+    index: 3714
+    indexInWeek: 3
+    title: Twist and Shout
+    artist: The Beatles
+    year: 1963
+    nation: UK
+    label: Parlophone
+    youtube: 2RicaUqd9Hg
+    selector: 草野マサムネ
+  - id: "2026044704"
+    week: 447
+    index: 3715
+    indexInWeek: 4
+    title: Summertime
+    artist: Big Brother and the Holding Company
+    year: 1968
+    nation: US
+    label: Columbia
+    youtube: A24JZkgvNv4
+    selector: 草野マサムネ
+  - id: "2026044705"
+    week: 447
+    index: 3716
+    indexInWeek: 5
+    title: Mr. Tambourine Man
+    artist: The Byrds
+    year: 1965
+    nation: US
+    label: Columbia
+    youtube: PnstCrL1_e0
+    selector: 草野マサムネ
+  - id: "2026044706"
+    week: 447
+    index: 3717
+    indexInWeek: 6
+    title: Up Around the Bend
+    artist: Hanoi Rocks
+    year: 1984
+    nation: FIN
+    label: CBS
+    selector: 草野マサムネ
+  - id: "2026044707"
+    week: 447
+    index: 3718
+    indexInWeek: 7
+    title: 悲しき願い
+    artist: 尾藤イサオ&ドーン
+    kana: びとういさおあんどどーん
+    year: 1978
+    nation: JPN
+    label: 東芝EMI
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
