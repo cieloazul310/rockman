@@ -1093,6 +1093,15 @@
       index: 1
       title: 灯を護る
 
+- id: sg48
+  albumIdNum: 248
+  year: 2026
+  title: 見知らぬ糸
+  tunes:
+    - id: "024801"
+      index: 1
+      title: 見知らぬ糸
+
 - id: tr200212
   albumIdNum: 3002
   year: 2002

@@ -1,0 +1,106 @@
+id: "20260447"
+week: 447
+year: 2026
+title: BBCセッションで漫遊記
+guests: []
+categories: []
+date: 2026-07-25
+playlist:
+  - id: "2026044701"
+    week: 447
+    index: 3719
+    indexInWeek: 1
+    title: 見知らぬ糸
+    artist: スピッツ
+    year: 2026
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044702"
+    week: 447
+    index: 3720
+    indexInWeek: 2
+    title: Communication Breakdown (BBC Sessions 1969)
+    artist: Led Zeppelin
+    year: 1997
+    nation: UK
+    label: Atlantic
+    youtube: 8CIMfTETRBk
+    selector: 草野マサムネ
+  - id: "2026044703"
+    week: 447
+    index: 3721
+    indexInWeek: 3
+    title: Look at Yourself (BBC Session 1971)
+    artist: Uriah Heep
+    year: 2003
+    nation: UK
+    label: Bronze
+    youtube: J5KgVROPXBQ
+    selector: 草野マサムネ
+  - id: "2026044704"
+    week: 447
+    index: 3722
+    indexInWeek: 4
+    title: Love Me Do (BBC Sessions 1963)
+    artist: The Beatles
+    year: 1994
+    nation: UK
+    label: Apple
+    youtube: ZDAyVSWpvhk
+    selector: 草野マサムネ
+  - id: "2026044705"
+    week: 447
+    index: 3723
+    indexInWeek: 5
+    title: Strange Brew (BBC Sessions 1967)
+    artist: Cream
+    year: 2003
+    nation: UK
+    label: Polydor
+    youtube: Vmi5UHTJqNY
+    selector: 草野マサムネ
+  - id: "2026044706"
+    week: 447
+    index: 3724
+    indexInWeek: 6
+    title: Day Tripper (BBC Sessions 1967)
+    artist: The Jimi Hendrix Experience
+    year: 1998
+    nation: US
+    label: MCA
+    youtube: IurYvVv1zkE
+    selector: 草野マサムネ
+  - id: "2026044707"
+    week: 447
+    index: 3725
+    indexInWeek: 7
+    title: Shine On (Live 1990 from "Live At The BBC")
+    artist: The House of Love
+    year: 2009
+    nation: UK
+    label: Mercury
+    selector: 草野マサムネ
+  - id: "2026044708"
+    week: 447
+    index: 3726
+    indexInWeek: 8
+    title: Basket Case (BBC Sessions 2001)
+    artist: Green Day
+    year: 2021
+    nation: US
+    label: Reprise
+    youtube: kbJyv16rGO4
+    selector: 草野マサムネ
+  - id: "2026044709"
+    week: 447
+    index: 3727
+    indexInWeek: 9
+    title: One Weekend (Live 1974 from "Live At The BBC")
+    artist: Dr. Feelgood
+    year: 2018
+    nation: UK
+    label: Parlophone
+    youtube: FI6Xg7W4wks
+    selector: 草野マサムネ
