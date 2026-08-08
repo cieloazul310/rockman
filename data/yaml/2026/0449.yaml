@@ -1,0 +1,97 @@
+id: "20260449"
+week: 449
+year: 2026
+title: 喋ってる感じで漫遊記
+guests: []
+categories: []
+date: 2026-08-08
+playlist:
+  - id: "2026044901"
+    week: 449
+    index: 3728
+    indexInWeek: 1
+    title: 見知らぬ糸
+    artist: スピッツ
+    year: 2026
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026044902"
+    week: 449
+    index: 3729
+    indexInWeek: 2
+    title: Love Come Round
+    artist: The Blue Aeroplanes
+    year: 1990
+    nation: UK
+    label: Ensign
+    youtube: GY3bJMDHBzo
+    selector: 草野マサムネ
+  - id: "2026044903"
+    week: 449
+    index: 3730
+    indexInWeek: 3
+    title: The Revolution Will Not Be Televised
+    artist: Gil Scott-Heron
+    year: 1971
+    nation: US
+    label: Flying Dutchman
+    youtube: vwSRqaZGsPw
+    selector: 草野マサムネ
+  - id: "2026044904"
+    week: 449
+    index: 3731
+    indexInWeek: 4
+    title: Convoy
+    artist: C. W. McCall
+    year: 1975
+    nation: US
+    label: MGM
+    youtube: 87r0CPQbFds
+    selector: 草野マサムネ
+  - id: "2026044905"
+    week: 449
+    index: 3732
+    indexInWeek: 5
+    title: Pressed Rat and Warthog
+    artist: Cream
+    year: 1968
+    nation: UK
+    label: Polydor
+    youtube: 7YrNgwRqfy8
+    selector: 草野マサムネ
+  - id: "2026044906"
+    week: 449
+    index: 3733
+    indexInWeek: 6
+    title: Let's Get Out
+    artist: Life Without Buildings
+    year: 2001
+    nation: UK
+    label: Tugboat
+    youtube: bpmimn6CGwA
+    selector: 草野マサムネ
+  - id: "2026044907"
+    week: 449
+    index: 3734
+    indexInWeek: 7
+    title: Listen, Learn, Read On
+    artist: Deep Purple
+    year: 1968
+    nation: UK
+    label: Harvest
+    youtube: uWFUQCs0vrA
+    selector: 草野マサムネ
+  - id: "2026044908"
+    week: 449
+    index: 3735
+    indexInWeek: 8
+    title: 子供達を責めないで
+    artist: 伊武雅刀
+    kana: いぶまさとう
+    year: 1983
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
