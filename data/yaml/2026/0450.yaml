@@ -1,0 +1,96 @@
+id: "20260450"
+week: 450
+year: 2026
+title: The Darknessで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-08-15
+playlist:
+  - id: "2026045001"
+    week: 450
+    index: 3736
+    indexInWeek: 1
+    title: エスカルゴ
+    artist: スピッツ
+    year: 2002
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045002"
+    week: 450
+    index: 3737
+    indexInWeek: 2
+    title: Growing on Me
+    artist: The Darkness
+    year: 2003
+    nation: UK
+    label: Atlantic
+    youtube: t7oOlqD3VGY
+    selector: 草野マサムネ
+  - id: "2026045003"
+    week: 450
+    index: 3738
+    indexInWeek: 3
+    title: Black Shuck
+    artist: The Darkness
+    year: 2003
+    nation: UK
+    label: Atlantic
+    youtube: wWimMdq55Pk
+    selector: 草野マサムネ
+  - id: "2026045004"
+    week: 450
+    index: 3739
+    indexInWeek: 4
+    title: She Just a Girl, Eddie
+    artist: The Darkness
+    year: 2012
+    nation: UK
+    label: Canary Dwarf
+    youtube: Vc0i4UQtLPU
+    selector: 草野マサムネ
+  - id: "2026045005"
+    week: 450
+    index: 3740
+    indexInWeek: 5
+    title: Living Each Day Blind
+    artist: The Darkness
+    year: 2012
+    nation: UK
+    label: Canary Dwarf
+    youtube: CRltxUMi8Kk
+    selector: 草野マサムネ
+  - id: "2026045006"
+    week: 450
+    index: 3741
+    indexInWeek: 6
+    title: It's Love, Jim
+    artist: The Darkness
+    year: 2021
+    nation: UK
+    label: Canary Dwarf
+    youtube: qYfQdl1cFE8
+    selector: 草野マサムネ
+  - id: "2026045007"
+    week: 450
+    index: 3742
+    indexInWeek: 7
+    title: Walking Through Fire
+    artist: The Darkness
+    year: 2025
+    nation: UK
+    label: Canary Dwarf
+    youtube: yDldc1Mlwmo
+    selector: 草野マサムネ
+  - id: "2026045008"
+    week: 450
+    index: 3743
+    indexInWeek: 8
+    title: その瞳のポラロイド
+    artist: VELVET PΛW
+    year: 1992
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
