@@ -1,0 +1,94 @@
+id: "20260452"
+week: 452
+year: 2026
+title: Sで始まるアーティスト/リクエストで漫遊記（前編）
+guests: []
+categories: ["リクエスト特集"]
+date: 2026-08-29
+playlist:
+  - id: "2026045201"
+    week: 452
+    index: 3753
+    indexInWeek: 1
+    title: さびしくなかった
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045202"
+    week: 452
+    index: 3754
+    indexInWeek: 2
+    title: Porter
+    artist: sumika
+    year: 2022
+    nation: JPN
+    label: Sony Records
+    youtube: P4wu7QjjSoo
+    selector: リクエスト
+  - id: "2026045203"
+    week: 452
+    index: 3755
+    indexInWeek: 3
+    title: The Adults Are Talking
+    artist: The Strokes
+    year: 2020
+    nation: US
+    label: RCA
+    youtube: ewOPQZZn4SY
+    selector: リクエスト
+  - id: "2026045204"
+    week: 452
+    index: 3756
+    indexInWeek: 4
+    title: Sea Girl
+    artist: SUPERCAR
+    year: 1998
+    nation: JPN
+    label: エピックレコードジャパン
+    selector: リクエスト
+  - id: "2026045205"
+    week: 452
+    index: 3757
+    indexInWeek: 5
+    title: Sweet Little Sister
+    artist: Skid Row
+    year: 1989
+    nation: US
+    label: Atlantic
+    youtube: zECym0_FXJg
+    selector: リクエスト
+  - id: "2026045206"
+    week: 452
+    index: 3758
+    indexInWeek: 6
+    title: 夏の恋人
+    artist: SHISHAMO
+    year: 2016
+    nation: JPN
+    label: GOOD CREATORS RECORDS
+    youtube: MOC7juwKHgk
+    selector: リクエスト
+  - id: "2026045207"
+    week: 452
+    index: 3759
+    indexInWeek: 7
+    title: (DON'T TELL ME NOW!)PLEASE PLEASE MR.SKY 空に鳥がいなくなった日
+    artist: Spiral Life
+    year: 1994
+    nation: JPN
+    label: ポリスター
+    youtube: MqzJR5WA-MY
+    selector: リクエスト
+  - id: "2026045208"
+    week: 452
+    index: 3760
+    indexInWeek: 8
+    title: 月曜日の雨
+    artist: SMILE
+    year: 1996
+    nation: JPN
+    label: ソニー・ミュージックエンタテインメント
+    selector: リクエスト
