@@ -1,0 +1,98 @@
+id: "20260453"
+week: 453
+year: 2026
+title: Sで始まるアーティスト/リクエストで漫遊記（前編）
+guests: []
+categories: ["リクエスト特集"]
+date: 2026-09-05
+playlist:
+  - id: "2026045301"
+    week: 453
+    index: 3761
+    indexInWeek: 1
+    title: さわって・変わって
+    artist: スピッツ
+    year: 2001
+    nation: JPN
+    label: ユニバーサルポリドール
+    youtube: -l5yolGZox4
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045302"
+    week: 453
+    index: 3762
+    indexInWeek: 2
+    title: セントレイ
+    artist: サカナクション
+    year: 2008
+    nation: JPN
+    label: BabeStar Label
+    youtube: 7Maq09mKVnQ
+    selector: リクエスト
+  - id: "2026045303"
+    week: 453
+    index: 3763
+    indexInWeek: 3
+    title: Absolute
+    artist: Scritti Politti
+    year: 1985
+    nation: UK
+    label: Virgin
+    youtube: yAoTJGtgfgw
+    selector: リクエスト
+  - id: "2026045304"
+    week: 453
+    index: 3764
+    indexInWeek: 4
+    title: きこえるかい
+    artist: syrup16g
+    year: 2004
+    nation: JPN
+    label: DAIZAWA RECORDS
+    youtube: 5Z4WjSpi74w
+    selector: リクエスト
+  - id: "2026045305"
+    week: 453
+    index: 3765
+    indexInWeek: 5
+    title: Sons Of
+    artist: Scott Walker
+    year: 1969
+    nation: US
+    label: Philips
+    selector: リクエスト
+  - id: "2026045306"
+    week: 453
+    index: 3766
+    indexInWeek: 6
+    title: 山青し
+    artist: 杉本ラララ
+    kana: すぎもとららら
+    year: 2026
+    nation: JPN
+    label: ULTRA-Vybe
+    youtube: JRJ0zp2GDzA
+    selector: リクエスト
+  - id: "2026045307"
+    week: 453
+    index: 3767
+    indexInWeek: 7
+    title: VOLT-AGE
+    artist: Suchmos
+    year: 2018
+    nation: JPN
+    label: F.C.L.S.
+    youtube: zOZOCpSCdf4
+    selector: リクエスト
+  - id: "2026045308"
+    week: 453
+    index: 3768
+    indexInWeek: 8
+    title: 歩いて帰ろう
+    artist: 斉藤和義
+    kana: さいとうかずよし
+    year: 1994
+    nation: JPN
+    label: ファンハウス
+    youtube: g_VMBjjOjvY
+    selector: リクエスト
