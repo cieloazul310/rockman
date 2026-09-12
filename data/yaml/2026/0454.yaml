@@ -1,0 +1,98 @@
+id: "20260454"
+week: 454
+year: 2026
+title: 初期のフォリナーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-09-12
+playlist:
+  - id: "2026045401"
+    week: 454
+    index: 3769
+    indexInWeek: 1
+    title: 夏が終わる
+    artist: スピッツ
+    year: 1993
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045402"
+    week: 454
+    index: 3770
+    indexInWeek: 2
+    title: Dirty White Boy
+    artist: Foreigner
+    year: 1979
+    nation: US
+    label: Atlantic
+    youtube: tJSRfztl_tc
+    selector: 草野マサムネ
+  - id: "2026045403"
+    week: 454
+    index: 3771
+    indexInWeek: 3
+    title: Feels Like the First Time
+    artist: Foreigner
+    year: 1977
+    nation: US
+    label: Atlantic
+    youtube: CK6jKL2qWxo
+    selector: 草野マサムネ
+  - id: "2026045404"
+    week: 454
+    index: 3772
+    indexInWeek: 4
+    title: Hot Blooded
+    artist: Foreigner
+    year: 1978
+    nation: US
+    label: Atlantic
+    youtube: 8yDmeYxTeC0
+    selector: 草野マサムネ
+  - id: "2026045405"
+    week: 454
+    index: 3773
+    indexInWeek: 5
+    title: Blue Morning, Blue Day
+    artist: Foreigner
+    year: 1978
+    nation: US
+    label: Atlantic
+    youtube: E-vPFNihnGQ
+    selector: 草野マサムネ
+  - id: "2026045406"
+    week: 454
+    index: 3774
+    indexInWeek: 6
+    title: Head Games
+    artist: Foreigner
+    year: 1979
+    nation: US
+    label: Atlantic
+    youtube: Dzjg4v7bd1U
+    selector: 草野マサムネ
+  - id: "2026045407"
+    week: 454
+    index: 3775
+    indexInWeek: 7
+    title: Urgent
+    artist: Foreigner
+    year: 1981
+    nation: US
+    label: Atlantic
+    youtube: Lcb-Fsx_phM
+    selector: 草野マサムネ
+  - id: "2026045408"
+    week: 454
+    index: 3776
+    indexInWeek: 8
+    title: スピード
+    artist: 森口博子
+    kana: もりぐちひろこ
+    year: 1992
+    nation: JPN
+    label: キングレコード
+    youtube: xC78GdOnOaM
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
