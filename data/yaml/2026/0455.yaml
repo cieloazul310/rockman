@@ -1,0 +1,98 @@
+id: "20260455"
+week: 455
+year: 2026
+title: 列車のロックで漫遊記
+guests: []
+categories: []
+date: 2026-09-19
+playlist:
+  - id: "2026045501"
+    week: 455
+    index: 3777
+    indexInWeek: 1
+    title: 快速
+    artist: スピッツ
+    year: 2019
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045502"
+    week: 455
+    index: 3778
+    indexInWeek: 2
+    title: TRAIN-TRAIN
+    artist: THE BLUE HEARTS
+    year: 1988
+    nation: JPN
+    label: メルダック
+    youtube: BSkLe-EOq5U
+    selector: 草野マサムネ
+  - id: "2026045503"
+    week: 455
+    index: 3779
+    indexInWeek: 3
+    title: Crazy Train
+    artist: Ozzy Osbourne
+    year: 1980
+    nation: UK
+    label: Jet
+    youtube: FVovq9TGBw0
+    selector: 草野マサムネ
+  - id: "2026045504"
+    week: 455
+    index: 3780
+    indexInWeek: 4
+    title: 銀河鉄道999
+    artist: ゴダイゴ
+    year: 1979
+    nation: JPN
+    label: 日本コロムビア
+    youtube: uTqUiqszKAg
+    selector: 草野マサムネ
+  - id: "2026045505"
+    week: 455
+    index: 3781
+    indexInWeek: 5
+    title: The Train Kept A-Rollin'
+    artist: The Yardbirds
+    year: 1965
+    nation: UK
+    label: Epic
+    youtube: WRVPAfGqCeY
+    selector: 草野マサムネ
+  - id: "2026045506"
+    week: 455
+    index: 3782
+    indexInWeek: 6
+    title: Last Train to Clarksville
+    artist: The Monkees
+    year: 1966
+    nation: US
+    label: Colgems
+    youtube: CDBFev_XfYA
+    selector: 草野マサムネ
+  - id: "2026045507"
+    week: 455
+    index: 3783
+    indexInWeek: 7
+    title: 中央線
+    artist: THE BOOM
+    year: 1996
+    nation: JPN
+    label: ソニー・ミュージックレコーズ
+    youtube: SRTG6NC54yQ
+    selector: 草野マサムネ
+  - id: "2026045508"
+    week: 455
+    index: 3784
+    indexInWeek: 8
+    title: 僕は特急の機関士で（東海道・九州篇）
+    artist: 轟夕起子、波岡惣一郎、服部富子
+    kana: とどろきゆきこなみおかそういちろうはっとりとみこ
+    year: 1951
+    nation: JPN
+    label: ビクターレコード
+    youtube: oTtKN66xhYU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
