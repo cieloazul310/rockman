@@ -1,0 +1,99 @@
+id: "20260456"
+week: 456
+year: 2026
+title: 週刊FM 1990年No.4で漫遊記
+guests: []
+categories: ["古い音楽雑誌で漫遊記"]
+date: 2026-09-26
+playlist:
+  - id: "2026045601"
+    week: 456
+    index: 3785
+    indexInWeek: 1
+    title: 灯を護る
+    artist: スピッツ
+    year: 2025
+    nation: JPN
+    label: ユニバーサル
+    youtube: Cn6evNNykVI
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045602"
+    week: 456
+    index: 3786
+    indexInWeek: 2
+    title: My Brave Face
+    artist: Paul McCartney
+    year: 1989
+    nation: UK
+    label: Parlophone
+    youtube: 0Ty8NTNj6JI
+    selector: 草野マサムネ
+  - id: "2026045603"
+    week: 456
+    index: 3787
+    indexInWeek: 3
+    title: 19 GROWING UP -ode to my buddy-
+    artist: プリンセス プリンセス
+    year: 1988
+    nation: JPN
+    label: CBS・ソニー
+    youtube: S9iQrlaYoxw
+    selector: 草野マサムネ
+  - id: "2026045604"
+    week: 456
+    index: 3788
+    indexInWeek: 4
+    title: One Night Love Affair (Live 1988 from "Live! Live! Live!")
+    artist: Bryan Adams
+    year: 1988
+    nation: CAN
+    label: A&M
+    youtube: W3SwEZ2WoUA
+    selector: 草野マサムネ
+  - id: "2026045605"
+    week: 456
+    index: 3789
+    indexInWeek: 5
+    title: LIKE A FIRE
+    artist: 中村あゆみ
+    kana: なかむらあゆみ
+    year: 1990
+    nation: JPN
+    label: マイカルハミングバード
+    youtube: hDZqYAjxmck
+    selector: 草野マサムネ
+  - id: "2026045606"
+    week: 456
+    index: 3790
+    indexInWeek: 6
+    title: Hideous Towns
+    artist: The Sundays
+    year: 1990
+    nation: UK
+    label: Rough Trade
+    youtube: w0XuA0MVezs
+    selector: 草野マサムネ
+  - id: "2026045607"
+    week: 456
+    index: 3791
+    indexInWeek: 7
+    title: LADY-GO-ROUND
+    artist: B'z
+    year: 1990
+    nation: JPN
+    label: BMGビクター
+    youtube: y3cLL0bzu2Y
+    selector: 草野マサムネ
+  - id: "2026045608"
+    week: 456
+    index: 3792
+    indexInWeek: 8
+    title: 気が遠くなるまで抱きしめて
+    artist: PASSENGERS
+    year: 1989
+    nation: JPN
+    label: SEA-SAW
+    youtube: 3Q0BP3zyD5E
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
