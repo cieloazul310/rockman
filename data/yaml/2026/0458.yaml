@@ -1,0 +1,108 @@
+id: "20260458"
+week: 458
+year: 2026
+title: アリス・クーパーで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-10-10
+playlist:
+  - id: "2026045801"
+    week: 458
+    index: 3802
+    indexInWeek: 1
+    title: 跳べ
+    artist: スピッツ
+    year: 2023
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045802"
+    week: 458
+    index: 3803
+    indexInWeek: 2
+    title: School's Out
+    artist: Alice Cooper (band)
+    year: 1972
+    nation: US
+    label: Warner Bros.
+    youtube: Sq5fwVO2eTM
+    selector: 草野マサムネ
+  - id: "2026045803"
+    week: 458
+    index: 3804
+    indexInWeek: 3
+    title: Don't Blow Your Mind
+    artist: Spiders
+    year: 1966
+    nation: US
+    label: Santa Cruz
+    youtube: OlZl6c1F00U
+    selector: 草野マサムネ
+  - id: "2026045804"
+    week: 458
+    index: 3805
+    indexInWeek: 4
+    title: I'm Eighteen
+    artist: Alice Cooper (band)
+    year: 1971
+    nation: US
+    label: Straight
+    youtube: jXZcJojTuc
+    selector: 草野マサムネ
+  - id: "2026045805"
+    week: 458
+    index: 3806
+    indexInWeek: 5
+    title: Under My Wheels
+    artist: Alice Cooper (band)
+    year: 1971
+    nation: US
+    label: Warner Bros.
+    youtube: _chvDLF26X4
+    selector: 草野マサムネ
+  - id: "2026045806"
+    week: 458
+    index: 3807
+    indexInWeek: 6
+    title: Elected
+    artist: Alice Cooper (band)
+    year: 1973
+    nation: US
+    label: Warner Bros.
+    youtube: ZQAkjdrgo7M
+    selector: 草野マサムネ
+  - id: "2026045807"
+    week: 458
+    index: 3808
+    indexInWeek: 7
+    title: Only Women Bleed
+    artist: Alice Cooper
+    year: 1975
+    nation: US
+    label: Atlantic
+    youtube: gGWVwfzcKK0
+    selector: 草野マサムネ
+  - id: "2026045808"
+    week: 458
+    index: 3809
+    indexInWeek: 8
+    title: Poison
+    artist: Alice Cooper
+    year: 1989
+    nation: US
+    label: Epic
+    youtube: Qq4j1LtCdww
+    selector: 草野マサムネ
+  - id: "2026045808"
+    week: 458
+    index: 3810
+    indexInWeek: 9
+    title: I DON'T CARE
+    artist: NICKEY & THE WARRIORS
+    year: 1986
+    nation: JPN
+    label: T.P.C. Records
+    youtube: LKDKPi_QssE
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
