@@ -1,0 +1,98 @@
+id: "20260459"
+week: 459
+year: 2026
+title: 低音ボイスで漫遊記
+guests: []
+categories: []
+date: 2026-10-17
+playlist:
+  - id: "2026045901"
+    week: 459
+    index: 3811
+    indexInWeek: 1
+    title: 恋のうた
+    artist: スピッツ
+    year: 1991
+    nation: JPN
+    label: ポリドール
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026045902"
+    week: 459
+    index: 3812
+    indexInWeek: 2
+    title: Low Down Freedom
+    artist: Scott Walker
+    year: 1974
+    nation: US
+    label: Columbia
+    youtube: Y4P3GIv83EY
+    selector: 草野マサムネ
+  - id: "2026045903"
+    week: 459
+    index: 3813
+    indexInWeek: 3
+    title: Bloodbuzz Ohio
+    artist: The National
+    year: 2010
+    nation: US
+    label: 4AD
+    youtube: yfySK7CLEEg
+    selector: 草野マサムネ
+  - id: "2026045904"
+    week: 459
+    index: 3814
+    indexInWeek: 4
+    title: No Time to Cry
+    artist: The Sisters of Mercy
+    year: 1985
+    nation: UK
+    label: Merciful Release
+    youtube: Q8jBphBUo4I
+    selector: 草野マサムネ
+  - id: "2026045905"
+    week: 459
+    index: 3815
+    indexInWeek: 5
+    title: Расстрел Горного Эха
+    artist: Vladimir Vysotsky
+    year: 1977
+    nation: RUS
+    label: Le Chant Du Monde
+    youtube: yWqRie2B-m0
+    selector: 草野マサムネ
+  - id: "2026045906"
+    week: 459
+    index: 3816
+    indexInWeek: 6
+    title: Nine
+    artist: Patti Smith
+    year: 2012
+    nation: US
+    label: Columbia
+    youtube: _Iet4zMd0iE
+    selector: 草野マサムネ
+  - id: "2026045907"
+    week: 459
+    index: 3817
+    indexInWeek: 7
+    title: Romeo Had Juliette
+    artist: Lou Reed
+    year: 1989
+    nation: US
+    label: Sire
+    youtube: ibbBFEH-C_o
+    selector: 草野マサムネ
+  - id: "2026045908"
+    week: 459
+    index: 3818
+    indexInWeek: 8
+    title: シャドー・シティ
+    artist: 寺尾聰
+    kana: てらおあきら
+    year: 1980
+    nation: JPN
+    label: 東芝EMI
+    youtube: 5TgLDZ1TGqw
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
