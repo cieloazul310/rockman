@@ -1,0 +1,95 @@
+id: "20260460"
+week: 460
+year: 2026
+title: イカ天バンドで漫遊記
+guests: []
+categories: []
+date: 2026-10-24
+playlist:
+  - id: "2026046001"
+    week: 460
+    index: 3819
+    indexInWeek: 1
+    title: 見知らぬ糸
+    artist: スピッツ
+    year: 2026
+    nation: JPN
+    label: ユニバーサル
+    youtube: sBAv1wx4ghE
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026046002"
+    week: 460
+    index: 3820
+    indexInWeek: 2
+    title: 我想うゆえに我あり
+    artist: FLYING KIDS
+    year: 1990
+    nation: JPN
+    label: ビクター音楽産業
+    youtube: MyQudv9H0NU
+    selector: 草野マサムネ
+  - id: "2026046003"
+    week: 460
+    index: 3821
+    indexInWeek: 3
+    title: エヴリデイ
+    artist: JITTERIN'JINN
+    year: 1989
+    nation: JPN
+    label: BODY
+    selector: 草野マサムネ
+  - id: "2026046004"
+    week: 460
+    index: 3822
+    indexInWeek: 4
+    title: バラ色の人生
+    artist: GEN
+    year: 1990
+    nation: JPN
+    label: Invitation
+    selector: 草野マサムネ
+  - id: "2026046005"
+    week: 460
+    index: 3823
+    indexInWeek: 5
+    title: 陰獣 (Re-recording)
+    artist: 人間椅子
+    kana: にんげんいす
+    year: 2009
+    nation: JPN
+    label: 徳間ジャパンコミュニケーションズ
+    selector: 草野マサムネ
+  - id: "2026046006"
+    week: 460
+    index: 3824
+    indexInWeek: 6
+    title: オレンヂバナナ
+    artist: KUSU KUSU
+    year: 1991
+    nation: JPN
+    label: ポリスター
+    youtube: B9CDUA6Fyvc
+    selector: 草野マサムネ
+  - id: "2026046007"
+    week: 460
+    index: 3825
+    indexInWeek: 7
+    title: オゾンのダンス
+    artist: たま
+    year: 1990
+    nation: JPN
+    label: 日本クラウン
+    youtube: _nusJDRfr6o
+    selector: 草野マサムネ
+  - id: "2026046008"
+    week: 460
+    index: 3826
+    indexInWeek: 8
+    title: オレンジ色の月
+    artist: マルコシアス・バンプ
+    year: 1990
+    nation: JPN
+    label: ビクター音楽産業
+    youtube: 3mhydcWKPNo
+    selector: 草野マサムネ
