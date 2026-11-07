@@ -1,0 +1,108 @@
+id: "20260462"
+week: 462
+year: 2026
+title: ロンドンなロックナンバーで漫遊記
+guests: []
+categories: []
+date: 2026-11-07
+playlist:
+  - id: "2026046201"
+    week: 462
+    index: 3835
+    indexInWeek: 1
+    title: キツネノボタン
+    artist: スピッツ
+    year: 2026
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026046202"
+    week: 462
+    index: 3836
+    indexInWeek: 2
+    title: London Calling
+    artist: The Clash
+    year: 1979
+    nation: UK
+    label: CBS
+    youtube: -Gp6lYQrqSE
+    selector: 草野マサムネ
+  - id: "2026046203"
+    week: 462
+    index: 3837
+    indexInWeek: 3
+    title: London
+    artist: The Smiths
+    year: 1987
+    nation: UK
+    label: Rough Trade
+    youtube: GFpIjRQc72U
+    selector: 草野マサムネ
+  - id: "2026046204"
+    week: 462
+    index: 3838
+    indexInWeek: 4
+    title: Lights Out
+    artist: UFO
+    year: 1977
+    nation: UK
+    label: Chrysails
+    youtube: Q_PP4BMYV8E
+    selector: 草野マサムネ
+  - id: "2026046205"
+    week: 462
+    index: 3839
+    indexInWeek: 5
+    title: London Girl
+    artist: The Pogues
+    year: 1986
+    nation: UK
+    label: Stiff
+    youtube: iZ9MQPGrgnI
+    selector: 草野マサムネ
+  - id: "2026046206"
+    week: 462
+    index: 3840
+    indexInWeek: 6
+    title: London Girl
+    artist: The Jam
+    year: 1977
+    nation: UK
+    label: Polydor
+    youtube: d6nldt8FKBo
+    selector: 草野マサムネ
+  - id: "2026046207"
+    week: 462
+    index: 3841
+    indexInWeek: 7
+    title: Towers of London
+    artist: XTC
+    year: 1980
+    nation: UK
+    label: Virgin
+    youtube: nbDuc0UvKVA
+    selector: 草野マサムネ
+  - id: "2026046208"
+    week: 462
+    index: 3842
+    indexInWeek: 8
+    title: London Boys
+    artist: Johnny Thunders
+    year: 1978
+    nation: US
+    label: Sire
+    youtube: jHckhusTI2Q
+    selector: 草野マサムネ
+  - id: "2026046209"
+    week: 462
+    index: 3843
+    indexInWeek: 9
+    title: 竹下涙話
+    artist: 網浜直子
+    kana: あみはまなおこ
+    year: 1985
+    nation: JPN
+    label: CBS・ソニー
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
