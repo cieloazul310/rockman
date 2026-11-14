@@ -1,0 +1,97 @@
+id: "20260463"
+week: 463
+year: 2026
+title: レニー・クラヴィッツで漫遊記
+guests: []
+categories: ["アーティスト特集"]
+date: 2026-11-14
+playlist:
+  - id: "2026046301"
+    week: 463
+    index: 3844
+    indexInWeek: 1
+    title: 桃
+    artist: スピッツ
+    year: 2007
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026046302"
+    week: 463
+    index: 3845
+    indexInWeek: 2
+    title: Are You Gonna Go My Way
+    artist: Lenny Kravitz
+    year: 1993
+    nation: US
+    label: Virgin
+    youtube: kNE8ryfMrm4
+    selector: 草野マサムネ
+  - id: "2026046303"
+    week: 463
+    index: 3846
+    indexInWeek: 3
+    title: London
+    artist: Lenny Kravitz
+    year: 1989
+    nation: US
+    label: Virgin
+    youtube: 04Ucej-KXxE
+    selector: 草野マサムネ
+  - id: "2026046304"
+    week: 463
+    index: 3847
+    indexInWeek: 4
+    title: It Ain't Over 'til It's Over
+    artist: Lenny Kravitz
+    year: 1991
+    nation: US
+    label: Virgin
+    youtube: TmENMZFUU_0
+    selector: 草野マサムネ
+  - id: "2026046305"
+    week: 463
+    index: 3848
+    indexInWeek: 5
+    title: Fly Away
+    artist: Lenny Kravitz
+    year: 1998
+    nation: US
+    label: Virgin
+    youtube: EvuL5jyCHOw
+    selector: 草野マサムネ
+  - id: "2026046306"
+    week: 463
+    index: 3849
+    indexInWeek: 6
+    title: Again
+    artist: Lenny Kravitz
+    year: 2000
+    nation: US
+    label: Virgin
+    youtube: eW2qlKa6oHw
+    selector: 草野マサムネ
+  - id: "2026046307"
+    week: 463
+    index: 3850
+    indexInWeek: 7
+    title: Human
+    artist: Lenny Kravitz
+    year: 2024
+    nation: US
+    label: Roxie
+    youtube: gXO5x_h0Z8o
+    selector: 草野マサムネ
+  - id: "2026046308"
+    week: 463
+    index: 3851
+    indexInWeek: 8
+    title: Lui-Lui
+    artist: 太川陽介
+    kana: たがわようすけ
+    year: 1977
+    nation: JPN
+    label: ビクター音楽産業
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
