@@ -910,50 +910,50 @@
       index: 13
       title: めぐりめぐって
 
-#- id: al18
-#  albumIdNum: 23
-#  year: 2026
-#  title: kettle
-#  tunes:
-#    - id: "002301"
-#      index: 1
-#      title: ちっちゃな無敵
-#    - id: "002302"
-#      index: 2
-#      title: サプール
-#    - id: "002303"
-#      index: 3
-#      title: 見知らぬ糸
-#    - id: "002304"
-#      index: 4
-#      title: 夢でも会おうね
-#    - id: "002205"
-#      index: 5
-#      title: 変なトモダチ
-#    - id: "002306"
-#      index: 6
-#      title: カラフル
-#    - id: "002307"
-#      index: 7
-#      title: 破る歌
-#    - id: "002308"
-#      index: 8
-#      title: 逸脱希望サバイバー
-#    - id: "002309"
-#      index: 9
-#      title: キツネノボタン
-#    - id: "002310"
-#      index: 10
-#      title: パンゲア
-#    - id: "002311"
-#      index: 11
-#      title: 灯を護る
-#    - id: "002312"
-#      index: 12
-#      title: kettle
-#    - id: "002313"
-#      index: 13
-#      title: 萌黄色
+- id: al18
+  albumIdNum: 23
+  year: 2026
+  title: kettle
+  tunes:
+    - id: "002301"
+      index: 1
+      title: ちっちゃな無敵
+    - id: "002302"
+      index: 2
+      title: サプール
+    - id: "002303"
+      index: 3
+      title: 見知らぬ糸
+    - id: "002304"
+      index: 4
+      title: 夢でも会おうね
+    - id: "002205"
+      index: 5
+      title: 変なトモダチ
+    - id: "002306"
+      index: 6
+      title: カラフル
+    - id: "002307"
+      index: 7
+      title: 破る歌
+    - id: "002308"
+      index: 8
+      title: 逸脱希望サバイバー
+    - id: "002309"
+      index: 9
+      title: キツネノボタン
+    - id: "002310"
+      index: 10
+      title: パンゲア
+    - id: "002311"
+      index: 11
+      title: 灯を護る
+    - id: "002312"
+      index: 12
+      title: kettle
+    - id: "002313"
+      index: 13
+      title: 萌黄色
 
 - id: sc01
   albumIdNum: 101
@@ -1128,24 +1128,6 @@
     - id: "024603"
       index: 3
       title: アケホノ
-
-- id: sg47
-  albumIdNum: 247
-  year: 2025
-  title: 灯を護る
-  tunes:
-    - id: "024701"
-      index: 1
-      title: 灯を護る
-
-- id: sg48
-  albumIdNum: 248
-  year: 2026
-  title: 見知らぬ糸
-  tunes:
-    - id: "024801"
-      index: 1
-      title: 見知らぬ糸
 
 - id: tr200212
   albumIdNum: 3002

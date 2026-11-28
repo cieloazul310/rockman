@@ -1,0 +1,118 @@
+id: "20260465"
+week: 465
+year: 2026
+title: 初期ポップパンクで漫遊記
+guests: []
+categories: []
+date: 2026-11-28
+playlist:
+  - id: "2026046501"
+    week: 465
+    index: 3860
+    indexInWeek: 1
+    title: 萌黄色
+    artist: スピッツ
+    year: 2026
+    nation: JPN
+    label: ユニバーサル
+    corner: 漫遊前の一曲
+    selector: 草野マサムネ
+  - id: "2026046502"
+    week: 465
+    index: 3861
+    indexInWeek: 2
+    title: Dig That Groove Baby
+    artist: Toy Dolls
+    year: 1983
+    nation: UK
+    label: Volume Records
+    youtube: IzX3WKJ-C_o
+    selector: 草野マサムネ
+  - id: "2026046503"
+    week: 465
+    index: 3862
+    indexInWeek: 3
+    title: Manny, Moe & Jack
+    artist: The Dickies
+    year: 1979
+    nation: US
+    label: A&M
+    youtube: YM8kmywe7DU
+    selector: 草野マサムネ
+  - id: "2026046504"
+    week: 465
+    index: 3863
+    indexInWeek: 4
+    title: 1-2-3
+    artist: The Professionals
+    year: 1980
+    nation: UK
+    label: Virgin
+    youtube: AQr-6jXiRxk
+    selector: 草野マサムネ
+  - id: "2026046505"
+    week: 465
+    index: 3864
+    indexInWeek: 5
+    title: Joker in the Pack
+    artist: The Adicts
+    year: 1982
+    nation: UK
+    label: Razor
+    youtube: m-4bokYO1xs
+    selector: 草野マサムネ
+  - id: "2026046506"
+    week: 465
+    index: 3865
+    indexInWeek: 6
+    title: This Is the Angry, Pt. 2
+    artist: 7 Seconds
+    year: 1984
+    nation: JPN
+    label: BYO
+    youtube: uO9Q5IrjnTg
+    selector: 草野マサムネ
+  - id: "2026046507"
+    week: 465
+    index: 3866
+    indexInWeek: 7
+    title: Heat of The Street
+    artist: The Magnificent
+    year: 1988
+    nation: NED
+    label: Link Records
+    youtube: FrcFF6XqWiY
+    selector: 草野マサムネ
+  - id: "2026046508"
+    week: 465
+    index: 3867
+    indexInWeek: 8
+    title: Don't Work
+    artist: Leatherface
+    year: 1993
+    nation: UK
+    label: 	Roughneck Records
+    youtube: iPc1sbtXqjE
+    selector: 草野マサムネ
+  - id: "2026046509"
+    week: 465
+    index: 3868
+    indexInWeek: 9
+    title: Surprise
+    artist: Guns 'N' Wankers
+    year: 1994
+    nation: UK
+    label: Fat Wreck Chords
+    selector: 草野マサムネ
+  - id: "2026046510"
+    week: 465
+    index: 3869
+    indexInWeek: 10
+    title: STAND AGAIN
+    artist: The STRUMMERS
+    year: 1990
+    nation: JPN
+    label: 徳間ジャパンコミュニケーションズ
+    youtube: Di0p5wiBECU
+    selector: 草野マサムネ
+    corner: ちょっぴりタイムマシン
